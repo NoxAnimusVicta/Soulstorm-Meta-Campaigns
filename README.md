@@ -36,6 +36,6 @@ All campaign content is escaped before rendering; raw HTML in campaign text is d
 - Repository: https://github.com/NoxAnimusVicta/Soulstorm-Meta-Campaigns
 - Branch: main
 - Publication: GitHub Actions, publishing dist/
-- Expected website: https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/ (verification pending)
+- Live website: https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/ (verified 10 September 2026)
 - Repository and intended website visibility: public.
 
