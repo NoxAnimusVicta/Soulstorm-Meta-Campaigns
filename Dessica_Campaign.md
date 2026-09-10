@@ -904,14 +904,17 @@ Other fleets are unchanged. All Independent planets are unattacked and already a
 - Cycle 4 Supply Crisis expires; its already-applied resource losses are not refunded or charged again.
 - Opening resources: **Korps 16 Supply / 11 Manpower; Vior'la 7 / 8; Cerberus 6 / 7**.
 - Grunwald 5/5 at Aschenvald; Widening Circle 5/5 at Mont'au; First Hunger 3/5 and Star-Mother 11/12 at Threnholt. Star-Mother is not Defended. No movement restrictions.
-- **Next: 41st Expeditionary Korps, Cycle 5.** No Cycle 5 orders have been resolved.
+### Cycle 5 turn progress
+
+- **41st Expeditionary Korps — turn complete:** No Fleet Action; Transit Command Grunwald remains **5/5 at Aschenvald**. Phase 3 **Reinforce** grants **+3 Supply: 16 → 19**. Manpower remains **11**. No social or construction actions. Sühne remains **12/12**. No battle or dice rolls required.
+- **Next: Vior'la Expedition, Cycle 5**, then Splinter Fleet Cerberus. No event this Cycle. Rollover and Cycle 6 Logistics follow Cerberus's resolved turn.
 
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
 | Fleets | Transit Command Grunwald (5/5) — Aschenvald | The Widening Circle (5/5) — Mont'au | The First Hunger (3/5) — Threnholt |
-| Supplies (1-100) | 16 | 7 | 6 |
+| Supplies (1-100) | 19 | 7 | 6 |
 | Manpower (1-100) | 11 | 8 | 7 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
 | Constructions | — | Trial’s End Fabrication Array — Forge Complex, Mont'au, 3/5 actions; incomplete | — |
@@ -1122,7 +1125,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 3 | Reinforce: Supply 18 → 21; Manpower 13. Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 9 → 13. Build: Supply 13 → 8; Forge Complex 2/5 → 3/5. Manpower 13. Widening Circle 5/5 at Mont’au; no fleet/social action; turn complete. | Create Fleet: The First Hunger 1/5 at Threnholt; Supply 13 → 12; Manpower 10 → 9. No fleet/social/construction actions. Star-Mother 11/12; Defended expired. | Cycle 3 complete; no battles or captures | Opening Logistics applied; event check 3, no event. End resources: Korps 21/13, Vior’la 8/13, Cerberus 12/9. Forge Complex 3/5. Seven Independent fleets recover +1 each (ledger above); others at original maximum or destroyed. |
 | 4 | Muster: Manpower 8 → 11 (+1,800 trained combat personnel). Supply 16; Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 3 → 7; Manpower 8. Widening Circle 5/5 at Mont'au. No fleet/social/construction actions; Forge Complex remains 3/5, incomplete. Turn complete. | Expand Fleet: First Hunger 1/5 → 3/5 at Threnholt, Supply 7 → 6. Muster: Manpower 4 → 7. Star-Mother 11/12, not Defended. No movement, combat, social or construction actions. Turn complete. | Cycle 4 complete; no battles or captures | Event check 1; table 3. Major resources after -5/-5: Korps 16/8, Vior’la 3/8, Cerberus 7/4. No Logistics. End resources: Korps 16/11, Vior’la 7/8, Cerberus 6/7. Independent recovery applied (ledger above); resources remain defence-derived. |
-| 5 | Awaiting orders | Awaiting turn | Awaiting turn | Opening resolved; no event | Event check 3; no table roll. No Logistics until Cycle 6. Opening resources: Korps 16/11, Vior’la 7/8, Cerberus 6/7. |
+| 5 | Reinforce: Supply 16 → 19; Manpower 11. Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Awaiting turn | Awaiting turn | Korps turn complete; awaiting Vior'la | Event check 3; no table roll. No Logistics until Cycle 6. Opening resources: Korps 16/11, Vior’la 7/8, Cerberus 6/7. |
 
 ## Cycle Records
 

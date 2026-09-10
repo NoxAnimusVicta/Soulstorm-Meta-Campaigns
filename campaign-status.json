@@ -1,8 +1,8 @@
 {
   "cycle": 5,
-  "phase": "Opening resolved — awaiting 41st Expeditionary Korps orders",
+  "phase": "Korps turn complete — awaiting Vior'la Expedition orders",
   "event": "No event (Cycle 5 event check: 3)",
-  "nextFaction": "41st Expeditionary Korps",
-  "updated": "Cycle 5 — no event; Cycle 4 complete",
-  "notes": "No Logistics until Cycle 6. Korps 16 Supply/11 Manpower; Viorla 7/8, Forge Complex 3/5 incomplete; Cerberus 6/7. First Hunger expanded to 3/5; Star-Mother 11/12, not Defended, both at Threnholt. Grunwald and Widening Circle 5/5 at their home systems. Cycle 4 Independent recovery applied; resources remain defence-derived. Supply Crisis expired; prior resource losses retained. No battles or captures in Cycle 4. Await Korps Cycle 5 orders."
+  "nextFaction": "Vior'la Expedition",
+  "updated": "Cycle 5 — Korps Reinforce resolved",
+  "notes": "Korps Reinforce: Supply 16 to 19; Manpower 11. Grunwald 5/5 at Aschenvald; Sühne 12/12. No fleet, social or construction actions. Viorla 7/8, Forge Complex 3/5 incomplete; Cerberus 6/7, First Hunger 3/5 and Star-Mother 11/12 at Threnholt, not Defended. No event or Logistics this Cycle. Await Vior'la, then Cerberus; rollover to Cycle 6 includes Logistics before its event roll."
 }
