@@ -40,7 +40,7 @@ for match in re.finditer(r'^### (.+)\n([\s\S]*?)(?=^### |\Z)',sub,re.M):
  title,body=match.groups(); worlds=table_rows(body)
  systems.append({'title':title,'worlds':[dict(zip(worlds[0],r)) for r in worlds[1:]],'html':render(body),'text':body})
 rules=md.split('## SECTION 1:',1)[1].split('## SECTION 5:',1)[0]
-parts=re.split(r'^###? (.+)\n',rules,flags=re.M); chapters=[]
+parts=re.split(r'^#{2,4} (.+)\n',rules,flags=re.M); chapters=[]
 if parts[0].strip(): chapters.append({'title':'Campaign setup','html':render(parts[0]),'text':parts[0]})
 for i in range(1,len(parts),2): chapters.append({'title':parts[i],'html':render(parts[i+1]),'text':parts[i+1]})
 status=json.loads((ROOT/'campaign-status.json').read_text())

@@ -39,3 +39,9 @@ All campaign content is escaped before rendering; raw HTML in campaign text is d
 - Live website: https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/ (verified 10 September 2026)
 - Repository and intended website visibility: public.
 
+
+## Referee update policy
+
+Publish both the campaign Markdown and generated website whenever campaign state or an agreed ruling changes, including mid-Cycle events. Rebuild, push to main, and verify Pages before reporting publication complete. Do not advance a Cycle merely to update the site. The website rules index recognises Markdown headings at levels 2 through 4; keep unrelated mechanics under separate headings.
+
+The ChatGPT project attachment is a separate copy. This local task cannot replace that attachment through a project-file tool; the user must replace it with the latest Dessica_Campaign.md download so other project chats receive the updated reference.

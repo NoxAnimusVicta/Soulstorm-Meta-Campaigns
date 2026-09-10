@@ -184,55 +184,79 @@ Roll 1d6. On a 1 or 6, roll on the Event Table (Section 4). Otherwise, no event 
 
 Each fleet may take ONE Fleet Action per turn. Different fleets can take different actions. A fleet that takes a Fleet Action cannot take another Fleet Action this turn.
 
-| Action | Effect |
-|--------|--------|
-| **Fleet Movement** | Move this fleet to any system within the Subsector. |
-| **Fleet Transfer** | Transfer strength points between this fleet and another fleet in the same system. No fleet can drop below 1/5 or exceed 5/5. Requires Void Superiority. |
-| **Fleet Merge** | Merge this fleet with another fleet in the same system. Combined strength caps at 5/5 (excess is lost). The absorbed fleet ceases to exist. |
-| **Scuttle Fleet** | Decommission this fleet and recover half its Fleet Strength as Supply (rounded down). Requires Void Superiority. |
-| **Attack** | Assault an enemy or neutral planet. Costs Supply based on world type (Minor -1, Standard -2, Major -3, Capital -4). Commit Manpower equal to base damage dealt. Damage dealt = 1 per 5 friendly Fleet Strength in system (minimum 1 if uncontested). **Uncontested Bombardment:** When no hostile fleets are present in-system, the attack automatically succeeds — no battle is fought. The attacker pays double Supply costs (Minor -2, Standard -4, Major -6, Capital -8) and commits no Manpower. Damage is applied directly. A planet cannot be reduced below 1 defence by Uncontested Bombardment — the final point of defence must be broken by a Ground Assault. **Ground Assault:** A full planetary assault engaging the planet's garrison directly. This can be launched whether or not hostile fleets are present in-system — you do not need to clear enemy fleets first. If hostile fleets ARE present, they contribute to the defender's strength in the battle. Difficulty and AI rolls are calculated after costs are paid and Manpower is committed. |
-| **Fleet Battle** | Initiating faction (aggressor) pays -1 Fleet Strength to initiate. Both Factions roll a d20 plus their in-system Fleet Strength (calculated after the -1 initiation cost is paid). Highest roll wins. 1-5 higher = Loser -1 Fleet Strength per Fleet in Battle. 6-10 higher = Loser -2 Fleet Strength per Fleet in Battle. 11-15 higher = Loser -3 Fleet Strength per Fleet in Battle. 16-20+ higher = Loser Fleet(s) destroyed. Multiple fleets in a system combine their strength for the roll. **All calculations use values after initiation costs are paid.** |
-| **Structure Assault** | Target a construction. Initiating faction pays -1 Fleet Strength. **In-Progress Constructions:** Any successful assault destroys the construction immediately. **Completed Constructions:** Minor constructions have 3/3 defence, Major constructions have 5/5 defence. Roll as per Fleet Battle — if attacker wins, deal 1 damage to structure per margin bracket (1-5 = 1 damage, 6-10 = 2 damage, 11-15 = 3 damage, 16+ = structure destroyed). If defender wins, normal Fleet Battle damage applied to attacker only. Structures destroyed via Structure Assault cannot be captured, only destroyed. |
-| **Expand Fleet** | +2 Fleet Strength to this Fleet (max 5). Costs -1 Supply. This fleet must be at a location with an Orbital Shipyard or established Capital to take this action. |
+#### Fleet Movement
 
-**Fleet Battle Participation:** All friendly fleets in-system that wish to contribute their strength to a Fleet Battle must use their Fleet Action for that battle. Fleets that do not participate keep their Fleet Action for other purposes but do not add their strength to the roll. Only one Fleet Battle may occur per system per turn, regardless of how many fleets participate.
+Move this fleet to any system within the Subsector.
+
+#### Fleet Transfer
+
+Transfer strength points between this fleet and another fleet in the same system. No fleet can drop below 1/5 or exceed 5/5. Requires Void Superiority.
+
+#### Fleet Merge
+
+Merge this fleet with another fleet in the same system. Combined strength caps at 5/5 (excess is lost). The absorbed fleet ceases to exist.
+
+#### Scuttle Fleet
+
+Decommission this fleet and recover half its Fleet Strength as Supply (rounded down). Requires Void Superiority.
+
+#### Attack
+
+Assault an enemy or neutral planet. Costs Supply based on world type (Minor -1, Standard -2, Major -3, Capital -4). Commit Manpower equal to base damage dealt. Damage dealt = 1 per 5 friendly Fleet Strength in system (minimum 1 if uncontested). **Uncontested Bombardment:** When no hostile fleets are present in-system, the attack automatically succeeds — no battle is fought. The attacker pays double Supply costs (Minor -2, Standard -4, Major -6, Capital -8) and commits no Manpower. Damage is applied directly. A planet cannot be reduced below 1 defence by Uncontested Bombardment — the final point of defence must be broken by a Ground Assault. **Ground Assault:** A full planetary assault engaging the planet's garrison directly. This can be launched whether or not hostile fleets are present in-system — you do not need to clear enemy fleets first. If hostile fleets ARE present, they contribute to the defender's strength in the battle. Difficulty and AI rolls are calculated after costs are paid and Manpower is committed.
 
 **Attack Participation:** All friendly fleets in-system that wish to contribute their strength to an Attack must use their Fleet Action for that battle. Fleets that do not participate keep their Fleet Action for other purposes but do not add their strength to the damage calculation. Multiple fleets combining for a single Attack pool their Fleet Strength for calculating damage dealt.
 
 **Multi-Front Warfare:** A faction with multiple fleets can launch multiple Attacks in the same turn — each fleet can attack independently. This represents the strategic advantage of maintaining multiple operational formations.
 
+#### Fleet Battle
+
+Initiating faction (aggressor) pays -1 Fleet Strength to initiate. Both Factions roll a d20 plus their in-system Fleet Strength (calculated after the -1 initiation cost is paid). Highest roll wins. 1-5 higher = Loser -1 Fleet Strength per Fleet in Battle. 6-10 higher = Loser -2 Fleet Strength per Fleet in Battle. 11-15 higher = Loser -3 Fleet Strength per Fleet in Battle. 16-20+ higher = Loser Fleet(s) destroyed. Multiple fleets in a system combine their strength for the roll. **All calculations use values after initiation costs are paid.**
+
+**Fleet Battle Participation:** All friendly fleets in-system that wish to contribute their strength to a Fleet Battle must use their Fleet Action for that battle. Fleets that do not participate keep their Fleet Action for other purposes but do not add their strength to the roll. Only one Fleet Battle may occur per system per turn, regardless of how many fleets participate.
+
+#### Structure Assault
+
+Target a construction. Initiating faction pays -1 Fleet Strength. **In-Progress Constructions:** Any successful assault destroys the construction immediately. **Completed Constructions:** Minor constructions have 3/3 defence, Major constructions have 5/5 defence. Roll as per Fleet Battle — if attacker wins, deal 1 damage to structure per margin bracket (1-5 = 1 damage, 6-10 = 2 damage, 11-15 = 3 damage, 16+ = structure destroyed). If defender wins, normal Fleet Battle damage applied to attacker only. Structures destroyed via Structure Assault cannot be captured, only destroyed.
+
+#### Expand Fleet
+
++2 Fleet Strength to this Fleet (max 5). Costs -1 Supply. This fleet must be at a location with an Orbital Shipyard or established Capital to take this action.
+
+
+#### Void Superiority
+
+**Void Superiority:** Your total fleet strength in-system exceeds total enemy fleet strength.
+
 ### Phase 3: Faction Action
 
 A faction may take ONE Faction Action per turn. This represents the faction's central command capacity.
 
-| Action | Effect |
-|--------|--------|
-| **Defend** | Fortify a Planet or repair a Construction you control. **Planet:** Costs Supply and Manpower based on world type (Minor -1/-1, Standard -2/-2, Major -3/-3, Capital -4/-4). Restore defence based on planet type: Minor +1, Standard +2, Major +3, Capital +4 (up to planet's maximum). The defended planet gains Defended status until your next turn: attackers face +1 difficulty, you face -1 difficulty when defending. AI vs AI: Defender roll +15. **Construction:** Minor constructions cost -1/-1 and restore +1 defence. Major constructions cost -3/-3 and restore +3 defence (up to maximum). |
-| **Reinforce** | +3 Supply (max 100). |
-| **Muster** | +3 Manpower (max 100). |
-| **Create Fleet** | Create a new fleet at Fleet Strength 1/5. New fleets are created at the faction's Capital location or at any Shipyard. Costs -1 Supply and -1 Manpower. |
-| **Garrison Transfer** | Transfer defense points between planets in the same system. Donor planets must be at full defense. Recipients cannot exceed maximum defense. When you take this action, you may perform multiple transfers from different donors. |
-| **Summon Allies** | Call a new allied Major Faction into the subsector by granting them an entire system. **Costs -10 Supply and -10 Manpower.** The new faction starts with 10 Supply and 10 Manpower but no fleet — they rely on their summoner for protection. **Requirements:** (1) You must control planets in more than one system. (2) You must control ALL planets in the system being granted. (3) You must have Void Superiority in that system. (4) The new faction must share your alignment and make sense within established 40K lore. **Effect:** Immediately cede all planets in that system to the new faction. The new faction is aligned with you — they will not attack your holdings and will coordinate against mutual enemies. Design the new faction (name, background, trait) when summoned. The new faction activates immediately after your turn in the turn order. |
+#### Defend
+
+Fortify a Planet or repair a Construction you control. **Planet:** Costs Supply and Manpower based on world type (Minor -1/-1, Standard -2/-2, Major -3/-3, Capital -4/-4). Restore defence based on planet type: Minor +1, Standard +2, Major +3, Capital +4 (up to planet's maximum). The defended planet gains Defended status until your next turn: attackers face +1 difficulty, you face -1 difficulty when defending. AI vs AI: Defender roll +15. **Construction:** Minor constructions cost -1/-1 and restore +1 defence. Major constructions cost -3/-3 and restore +3 defence (up to maximum).
+
+#### Reinforce
+
++3 Supply (max 100).
+
+#### Muster
+
++3 Manpower (max 100).
+
+#### Create Fleet
+
+Create a new fleet at Fleet Strength 1/5. New fleets are created at the faction's Capital location or at any Shipyard. Costs -1 Supply and -1 Manpower.
+
+#### Garrison Transfer
+
+Transfer defense points between planets in the same system. Donor planets must be at full defense. Recipients cannot exceed maximum defense. When you take this action, you may perform multiple transfers from different donors.
+
+#### Summon Allies
+
+Call a new allied Major Faction into the subsector by granting them an entire system. **Costs -10 Supply and -10 Manpower.** The new faction starts with 10 Supply and 10 Manpower but no fleet — they rely on their summoner for protection. **Requirements:** (1) You must control planets in more than one system. (2) You must control ALL planets in the system being granted. (3) You must have Void Superiority in that system. (4) The new faction must share your alignment and make sense within established 40K lore. **Effect:** Immediately cede all planets in that system to the new faction. The new faction is aligned with you — they will not attack your holdings and will coordinate against mutual enemies. Design the new faction (name, background, trait) when summoned. The new faction activates immediately after your turn in the turn order.
+
 
 **Important:** You cannot grant away your only fully controlled system. You must fully control at least two systems to use Summon Allies — one to keep and one to grant.
-
-### Phase 4: Social Action
-
-A faction may take ONE Social Action per turn. This represents diplomatic bandwidth.
-
-| Action | Effect |
-|--------|--------|
-| **Communiqué** | Send one message to another Faction. They may respond immediately but only once. Requires both Factions to have a presence in the same system (fleet or planet — any combination). Extended conversations require multiple cycles. |
-
-### Phase 5: Construction Action
-
-A faction may take ONE Construction Action per turn. This represents the faction's engineering and industrial capacity.
-
-| Action | Effect |
-|--------|--------|
-| **Build** | Advance one in-progress construction by 1 action, OR begin a new construction. Costs -5 Supply. Only on planets with full defences. Construction time: 3 actions for Minor, 5 actions for Major. If the construction takes damage during the building process it is destroyed and must be restarted. For Planetary/Orbital constructions, damage to the planet destroys the construction. For fleet-attached Void constructions, damage to the fleet destroys the construction. Void Stations function as fleet constructions until completed, then follow Planetary/Orbital rules. Minor constructions can be captured and used by new controllers. Major constructions are destroyed when the planet changes hands (too specialized for enemy use). Shipyards allow fleet creation at that location. |
-
-**Construction Limits:** A faction may have multiple constructions in progress simultaneously, but can only advance ONE per turn. Constructions on different planets progress independently.
 
 **Summon Allies — Alignment Restrictions:**
 
@@ -251,22 +275,27 @@ The summoned faction must belong to the same broad alignment as the summoning fa
 
 **Multiple Factions:** You may have multiple factions of the same type in play (e.g., two Space Marine Chapters, three Drukhari Archons). Each operates independently but remains aligned with their summoner.
 
+### Phase 4: Social Action
+
+A faction may take ONE Social Action per turn. This represents diplomatic bandwidth.
+
+| Action | Effect |
+|--------|--------|
+| **Communiqué** | Send one message to another Faction. They may respond immediately but only once. Requires both Factions to have a presence in the same system (fleet or planet — any combination). Extended conversations require multiple cycles. |
+
+#### Diplomacy with Non-Aligned Factions
+
 **Diplomacy with Non-Aligned Factions:** Temporary cease-fires or non-aggression pacts with factions outside your alignment are possible through the Communiqué action, but these are inherently unstable. Conflicting alignments will inevitably come to blows — such arrangements should be treated as temporary strategic convenience, not true alliance.
 
-**Void Superiority:** Your total fleet strength in-system exceeds total enemy fleet strength.
+### Phase 5: Construction Action
 
-**Planet Fall Penalties:** When a planet falls (defence reaches 0), the planet changes hands and resets to 1 defence. The losing faction suffers:
-- **Supply:** -2 (or -4 if Capital) — replaces normal defeat Supply loss
-- **Manpower:** -2 (or -4 if Capital) — additional penalty on top of committed Manpower
-- **Fleet Damage:** Equal to damage dealt in the final assault, distributed as follows:
-  - Apply damage one point at a time to the strongest fleet present
-  - Ties: Attacker chooses which fleet takes the point
-  - No fleet drops below 1/5 until ALL fleets are at 1/5
-  - Once all fleets are at 1/5, each additional point of damage destroys one fleet (attacker chooses which). Destroying a fleet consumes 1 damage.
+A faction may take ONE Construction Action per turn. This represents the faction's engineering and industrial capacity.
 
-*Example: Defender has three fleets (2/5, 5/5, 5/5) and the final assault dealt 8 damage. Damage applies to strongest first: 5/5 → 4/5 → 3/5 → 2/5 → 1/5, then second 5/5 → 4/5 → 3/5 → 2/5, then 2/5 → 1/5. Final state: 1/5, 2/5, 1/5.*
+| Action | Effect |
+|--------|--------|
+| **Build** | Advance one in-progress construction by 1 action, OR begin a new construction. Costs -5 Supply. Only on planets with full defences. Construction time: 3 actions for Minor, 5 actions for Major. If the construction takes damage during the building process it is destroyed and must be restarted. For Planetary/Orbital constructions, damage to the planet destroys the construction. For fleet-attached Void constructions, damage to the fleet destroys the construction. Void Stations function as fleet constructions until completed, then follow Planetary/Orbital rules. Minor constructions can be captured and used by new controllers. Major constructions are destroyed when the planet changes hands (too specialized for enemy use). Shipyards allow fleet creation at that location. |
 
-**Fleet Destroyed:** When a fleet is destroyed (reduced to 0 or below), the owning faction loses -1 Manpower in addition to losing the fleet. This applies whether destroyed through Fleet Battle, Planet Fall penalties, or any other means.
+**Construction Limits:** A faction may have multiple constructions in progress simultaneously, but can only advance ONE per turn. Constructions on different planets progress independently.
 
 ### Construction Examples
 
@@ -281,6 +310,8 @@ When building constructions, rename them to describe what the structure actually
 - Upgrades cost the same number of actions as the base construction
 - Most upgrades are straight 2x the base effect
 - Some constructions have no upgrade (already complete at base)
+
+#### Planetary/Orbital Constructions
 
 **Planetary/Orbital Constructions** — Built on a specific planet. Affects that planet or system.
 
@@ -310,6 +341,8 @@ When building constructions, rename them to describe what the structure actually
 | [Planetary Shield Network] | Invulnerable with Void Superiority / Defended status without | No upgrade |
 | [Consolidation Works] | Upgrade planet type by one tier: Minor (2/2) → Standard (4/4) → Major (8/8). Current and maximum defence double. **Repeatable** until Major. Cannot upgrade to Capital — only one Capital per faction. | N/A (repeatable construction, not upgradeable) |
 
+#### Void Constructions (Fleet-Attached)
+
 **Void Constructions (Fleet-Attached)** — Mobile, destroyed if fleet is destroyed.
 
 *Minor (3 actions base, 3 actions upgrade)*
@@ -333,6 +366,8 @@ When building constructions, rename them to describe what the structure actually
 | [Salvage Wing] | +3 Supply on Fleet Battle win | +6 Supply on Fleet Battle win |
 | [Scout Squadron] | This fleet may Move and Attack with the same Fleet Action. The attack occurs after movement is resolved. | No upgrade |
 
+#### Void Constructions (System-Based)
+
 **Void Constructions (System-Based)** — Stationary. Follow same capture/destroy rules as Planetary constructions.
 
 *Minor (3 actions base, 3 actions upgrade)*
@@ -350,6 +385,8 @@ When building constructions, rename them to describe what the structure actually
 | [Logistics Anchorage] | +1 defence regen to unattacked planets/cycle | +2 defence regen to unattacked planets/cycle |
 | [Void Station] | 2/2 station, functions as Minor planet | Upgrade via Consolidation Works: Minor (2/2) → Standard (4/4) → Major (8/8). Cannot become Capital. |
 
+#### System Construction Capture Rules
+
 **System Construction Capture Rules:**
 
 To capture system-based constructions (Defence Platforms, System Defence Stations, etc.), you must:
@@ -361,7 +398,11 @@ Once both conditions are met:
 - **Major constructions** are destroyed (too specialized for enemy use)
 - **Exception: Void Stations** — the only Major construction that transfers on capture (functions as a planet once complete). Constructions built ON the Void Station follow normal rules (Minors capturable, Majors destroyed).
 
+#### Void Station Assault
+
 **Void Station Assault:** Void Stations are captured by reducing their defence to 0 through Attack actions (assault them like a planet), not through the system construction capture rules. When a Void Station falls, it transfers to the attacker and resets to 1 defence like any other planet.
+
+#### Pre-Existing Stations
 
 **Pre-Existing Stations:** Some holdings in the subsector are void installations rather than planetary bodies. These are marked in the Type column as "(Station)" and are treated as Void Stations of the listed tier in every respect — defence value, Attack and Defend cost scaling, Logistics income, Independent resource values, and the Independent Minor Faction fleet calculation. They are assaulted, captured, and reset to 1 defence exactly as planets are, and constructions may be built on them under normal rules. A Station cannot serve as a Capital.
 
@@ -374,6 +415,23 @@ If any faction chose Attack, fight the battle in Soulstorm. See Section 3 for ba
 **AI vs AI Rules:** On a defended planet, the defender's total roll gains +15.
 
 If all factions skip combat actions: No battle this cycle. All sides gain their chosen benefits.
+
+#### Planet Fall Penalties
+
+**Planet Fall Penalties:** When a planet falls (defence reaches 0), the planet changes hands and resets to 1 defence. The losing faction suffers:
+- **Supply:** -2 (or -4 if Capital) — replaces normal defeat Supply loss
+- **Manpower:** -2 (or -4 if Capital) — additional penalty on top of committed Manpower
+- **Fleet Damage:** Equal to damage dealt in the final assault, distributed as follows:
+  - Apply damage one point at a time to the strongest fleet present
+  - Ties: Attacker chooses which fleet takes the point
+  - No fleet drops below 1/5 until ALL fleets are at 1/5
+  - Once all fleets are at 1/5, each additional point of damage destroys one fleet (attacker chooses which). Destroying a fleet consumes 1 damage.
+
+*Example: Defender has three fleets (2/5, 5/5, 5/5) and the final assault dealt 8 damage. Damage applies to strongest first: 5/5 → 4/5 → 3/5 → 2/5 → 1/5, then second 5/5 → 4/5 → 3/5 → 2/5, then 2/5 → 1/5. Final state: 1/5, 2/5, 1/5.*
+
+#### Fleet Destruction
+
+**Fleet Destroyed:** When a fleet is destroyed (reduced to 0 or below), the owning faction loses -1 Manpower in addition to losing the fleet. This applies whether destroyed through Fleet Battle, Planet Fall penalties, or any other means.
 
 ### Phase 7: End of Cycle
 
