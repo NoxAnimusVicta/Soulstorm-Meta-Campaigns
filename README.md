@@ -49,3 +49,7 @@ The ChatGPT project attachment is a separate copy. This local task cannot replac
 ## Cycle narratives
 
 Store narrator recaps under `## Cycle Records` in Dessica_Campaign.md, with one `### Cycle N` heading per completed Cycle. The build publishes these in the fifth navigation tab, Cycle Records. Narratives recount recorded outcomes and never establish new mechanical results.
+
+## Automatic referee rollover
+
+After Cerberus (the final faction) completes its turn, publish that turn, then complete end-of-Cycle recovery and narrative, advance the Cycle, apply Logistics every third Cycle before the opening event roll, roll the event, and publish and verify the new starting state. Await the first faction’s orders after rollover. Do not advance past an unresolved battle. This is referee work during the chat, not autonomous website play.

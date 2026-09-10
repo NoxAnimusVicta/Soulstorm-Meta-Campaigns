@@ -1,8 +1,8 @@
 {
   "cycle": 3,
-  "phase": "Awaiting Cycle 3 Logistics, then opening event roll",
-  "event": "Cycle 3 event not rolled; Cycle 2 Warp Storm expired",
+  "phase": "Logistics and event check complete — awaiting 41st Expeditionary Korps orders",
+  "event": "No event (Cycle 3 event check: 3)",
   "nextFaction": "41st Expeditionary Korps",
-  "updated": "Cycle 2 complete — Cerberus Defend resolved",
-  "notes": "Cerberus Defend: Star-Mother 7/12 to 11/12 at Threnholt, Defended until Cerberus's Cycle 3 turn; 9 Supply, 6 Manpower. No Cycle 2 battles. Eligible Independent recovery applied; destroyed fleets remain lost. Korps 15 Supply/10 Manpower; Vior'la 6/10, Forge Complex 2/5. These are pre-Logistics balances: Cycle 3 Logistics and event roll pending. Star-Blessed and Skarjaw fleet-loss Manpower allocations remain pending. Last Rite Ossvarn Manpower 39."
+  "updated": "Cycle 3 opening resolved — Logistics complete, no event",
+  "notes": "Logistics applied: Korps 18 Supply/13 Manpower; Vior'la 9/13; Cerberus 13/10. Each capital +4/+4; Korps and Vior'la paid -1/-1 fleet maintenance; Star-Mother exempt. Forge Complex incomplete at 2/5, no income. Event check d6=3: no event. Movement allowed. Star-Mother 11/12, Defended until Cerberus's turn. No Cycle 3 faction actions resolved. Star-Blessed and Skarjaw fleet-loss Manpower allocations remain pending; Last Rite Ossvarn Manpower 39."
 }
