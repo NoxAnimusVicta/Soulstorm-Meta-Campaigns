@@ -870,7 +870,10 @@ Independent Minor Faction resources remain defence-derived: Vantry **60 Supply /
 
 **Referee correction:** The user clarified that Independent Minor Factions do not suffer resource losses like Major Factions. All previously recorded Independent Supply Crisis deductions are reversed, as are the earlier Star-Blessed, Last Rite and Skarjaw fleet-loss Manpower debits. No resource allocation is required. The destroyed fleets remain destroyed, and Cycle 3 fleet recovery stands. No new dice were rolled and no turn or Cycle was advanced.
 
-**Next:** 41st Expeditionary Korps, Cycle 4. No Cycle 4 faction orders have been resolved.
+### Cycle 4 turn progress
+
+- **41st Expeditionary Korps — turn complete:** No Fleet Action; Transit Command Grunwald remains **5/5 at Aschenvald**. Phase 3 **Muster** grants **+3 Manpower: 8 → 11**, equivalent to **1,800 trained combat personnel** at 600 per Manpower. Supply remains **16**. No social or construction actions. Sühne remains **12/12**. No battle or dice rolls required.
+- **Next:** Vior'la Expedition, Cycle 4; then Splinter Fleet Cerberus. The Supply Crisis was applied once at Cycle opening and is not charged again. No Logistics this Cycle. Rollover follows Cerberus's resolved turn.
 
 ### Resource Tracker
 
@@ -878,7 +881,7 @@ Independent Minor Faction resources remain defence-derived: Vantry **60 Supply /
 |----------|--------------------------|--------------------|-------------------------|
 | Fleets | Transit Command Grunwald (5/5) — Aschenvald | The Widening Circle (5/5) — Mont'au | The First Hunger (1/5) — Threnholt |
 | Supplies (1-100) | 16 | 3 | 7 |
-| Manpower (1-100) | 8 | 8 | 4 |
+| Manpower (1-100) | 11 | 8 | 4 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
 | Constructions | — | Trial’s End Fabrication Array — Forge Complex, Mont'au, 3/5 actions; incomplete | — |
 
@@ -1087,7 +1090,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 | 2 | Expand Fleet: Grunwald 3/5 → 5/5, Supply 13 → 12. Reinforce: Supply 12 → 15; Manpower 10. No social or construction actions; turn complete. | Expand Fleet: Widening Circle 4/5 → 5/5; Supply 8 → 7. Reinforce +4: 7 → 11. Build -5: 11 → 6; Forge Complex 1/5 → 2/5. Manpower 10; no social action; turn complete. | Defend Star-Mother: 7/12 → 11/12; Supply 13 → 9; Manpower 10 → 6. Defended until its Cycle 3 turn. No fleet, social or construction actions. | Cycle 2 complete; no battles or captures | Event check d6=6; event table d6=1. All surviving fleets -1; Star-Mother 8/12 → 7/12. Movement prohibited for Cycle 2. Ossvarn Funerary Fleet and Grotmire Scrap Barges destroyed. Independent fleet-loss resource debits rescinded under the Cycle 4 ruling; Ossvarn remains 40/40. Eligible Independent fleet recovery applied once at Cycle end; destroyed fleets remain lost. Next: Cycle 3 Logistics, then event roll. |
 
 | 3 | Reinforce: Supply 18 → 21; Manpower 13. Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 9 → 13. Build: Supply 13 → 8; Forge Complex 2/5 → 3/5. Manpower 13. Widening Circle 5/5 at Mont’au; no fleet/social action; turn complete. | Create Fleet: The First Hunger 1/5 at Threnholt; Supply 13 → 12; Manpower 10 → 9. No fleet/social/construction actions. Star-Mother 11/12; Defended expired. | Cycle 3 complete; no battles or captures | Opening Logistics applied; event check 3, no event. End resources: Korps 21/13, Vior’la 8/13, Cerberus 12/9. Forge Complex 3/5. Seven Independent fleets recover +1 each (ledger above); others at original maximum or destroyed. |
-| 4 | Awaiting orders | Awaiting turn | Awaiting turn | Opening event resolved: Supply Crisis | Event check 1; table 3. Major resources after -5/-5: Korps 16/8, Vior’la 3/8, Cerberus 7/4. No Logistics. Independent Minor Factions retain defence-derived resources; erroneous crisis and fleet-loss debits rescinded. |
+| 4 | Muster: Manpower 8 → 11 (+1,800 trained combat personnel). Supply 16; Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Awaiting turn | Awaiting turn | Korps turn complete; awaiting Vior'la | Event check 1; table 3. Major resources after -5/-5: Korps 16/8, Vior’la 3/8, Cerberus 7/4. No Logistics. Independent Minor Factions retain defence-derived resources; erroneous crisis and fleet-loss debits rescinded. |
 
 ## Cycle Records
 
