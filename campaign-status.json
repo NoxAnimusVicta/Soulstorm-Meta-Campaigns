@@ -1,8 +1,8 @@
 {
   "cycle": 4,
-  "phase": "Vior'la turn complete — awaiting Splinter Fleet Cerberus orders",
+  "phase": "All Cycle 4 turns complete — rollover pending",
   "event": "Supply Crisis (event check 1; event table 3): -5 Supply and -5 Manpower per Major Faction",
-  "nextFaction": "Splinter Fleet Cerberus",
-  "updated": "Cycle 4 — Vior'la Reinforce resolved",
-  "notes": "Viorla Reinforce +4 Supply: 3 to 7; Manpower 8. Widening Circle 5/5 at Mont'au; Mont'au 12/12. No fleet, social or construction actions. Trial’s End Fabrication Array remains 3/5, incomplete, no income. Korps 16/11; Cerberus 7/4, First Hunger 1/5 and Star-Mother 11/12 at Threnholt, not Defended. Supply Crisis already applied once; no Logistics until Cycle 6. Independent resources remain defence-derived. Await Cerberus Cycle 4 orders; rollover follows its resolved turn."
+  "nextFaction": "41st Expeditionary Korps (after Cycle 5 opening)",
+  "updated": "Cycle 4 — Cerberus Expand Fleet and Muster resolved",
+  "notes": "Cerberus: First Hunger 1/5 to 3/5 at Threnholt; Supply 7 to 6; Muster raises Manpower 4 to 7. Star-Mother 11/12 at Threnholt, not Defended. No other actions. Korps 16/11; Viorla 7/8, Forge Complex 3/5. All Cycle 4 turns complete; recovery and Cycle 5 opening pending. Independent resources remain defence-derived."
 }

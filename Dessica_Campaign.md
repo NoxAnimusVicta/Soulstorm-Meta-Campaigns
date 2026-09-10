@@ -874,15 +874,16 @@ Independent Minor Faction resources remain defence-derived: Vantry **60 Supply /
 
 - **41st Expeditionary Korps — turn complete:** No Fleet Action; Transit Command Grunwald remains **5/5 at Aschenvald**. Phase 3 **Muster** grants **+3 Manpower: 8 → 11**, equivalent to **1,800 trained combat personnel** at 600 per Manpower. Supply remains **16**. No social or construction actions. Sühne remains **12/12**. No battle or dice rolls required.
 - **Vior'la Expedition — turn complete:** No Fleet Action; The Widening Circle remains **5/5 at Mont'au**. Phase 3 **Reinforce**, with The Provisioned Advance, grants **+4 Supply: 3 → 7**. Manpower remains **8**. No social or construction actions. Build expenditure is suspended for this Cycle: **Trial’s End Fabrication Array — Major Forge Complex remains 3/5 actions**, incomplete and providing no income. Mont'au remains **12/12**. No battle or dice rolls required.
-- **Next:** Splinter Fleet Cerberus, Cycle 4. The Supply Crisis was applied once at Cycle opening and is not charged again. No Logistics this Cycle. Rollover follows Cerberus's resolved turn.
+- **Splinter Fleet Cerberus — turn complete:** The First Hunger uses the Star-Mother's built-in Orbital Shipyard in Threnholt to Expand Fleet: **1/5 → 3/5**, Supply **7 → 6**. Star-Mother takes no Fleet Action, remaining **11/12 at Threnholt**, not Defended. Phase 3 **Muster** grants **+3 Manpower: 4 → 7**. No social or construction actions, movement, combat or dice rolls.
+- All Cycle 4 turns complete; end-of-Cycle recovery and Cycle 5 opening pending.
 
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (5/5) — Aschenvald | The Widening Circle (5/5) — Mont'au | The First Hunger (1/5) — Threnholt |
-| Supplies (1-100) | 16 | 7 | 7 |
-| Manpower (1-100) | 11 | 8 | 4 |
+| Fleets | Transit Command Grunwald (5/5) — Aschenvald | The Widening Circle (5/5) — Mont'au | The First Hunger (3/5) — Threnholt |
+| Supplies (1-100) | 16 | 7 | 6 |
+| Manpower (1-100) | 11 | 8 | 7 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
 | Constructions | — | Trial’s End Fabrication Array — Forge Complex, Mont'au, 3/5 actions; incomplete | — |
 
@@ -930,7 +931,7 @@ Independent Minor Faction resources remain defence-derived: Vantry **60 Supply /
 
 ### Threnholt System (Contested — Splinter Fleet Cerberus)
 
-**Void Superiority:** Splinter Fleet Cerberus: 12 vs Independents: 5 — Splinter Fleet Cerberus
+**Void Superiority:** Splinter Fleet Cerberus: 14 vs Independents: 5 — Splinter Fleet Cerberus
 
 *The vox-towers in Threnholt's northern arcologies cycle a distress pattern on Imperial military frequencies that carries no further than the system boundary. The Shadow in the Warp arrived ahead of the Star-Mother and closed the astropathic channels behind it. The brood has spent two decades working the tunnel approaches beneath the arcologies. On Ossvarn the Last Rite sealed the outer catacombs the week the Hive Ship crossed the boundary and has held its services underground since. Spore clouds reached the upper atmosphere of both worlds in the third month.*
 
@@ -942,7 +943,7 @@ Independent Minor Faction resources remain defence-derived: Vantry **60 Supply /
 
 **In-System Fleets:**
 - Splinter Fleet Cerberus: The Star-Mother (11/12 — Mobile Capital; not Defended)
-- Splinter Fleet Cerberus: The First Hunger (1/5)
+- Splinter Fleet Cerberus: The First Hunger (3/5)
 - The Star-Blessed: Star-Blessed Brood Vessels (5/5)
 **Cycle 2 loss:** Ossvarn Funerary Fleet destroyed by Warp Storm (1/5 → 0). No Independent resource deduction: Ossvarn remains 40 Supply / 40 Manpower. No active Last Rite fleet remains.
 
@@ -1091,7 +1092,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 | 2 | Expand Fleet: Grunwald 3/5 → 5/5, Supply 13 → 12. Reinforce: Supply 12 → 15; Manpower 10. No social or construction actions; turn complete. | Expand Fleet: Widening Circle 4/5 → 5/5; Supply 8 → 7. Reinforce +4: 7 → 11. Build -5: 11 → 6; Forge Complex 1/5 → 2/5. Manpower 10; no social action; turn complete. | Defend Star-Mother: 7/12 → 11/12; Supply 13 → 9; Manpower 10 → 6. Defended until its Cycle 3 turn. No fleet, social or construction actions. | Cycle 2 complete; no battles or captures | Event check d6=6; event table d6=1. All surviving fleets -1; Star-Mother 8/12 → 7/12. Movement prohibited for Cycle 2. Ossvarn Funerary Fleet and Grotmire Scrap Barges destroyed. Independent fleet-loss resource debits rescinded under the Cycle 4 ruling; Ossvarn remains 40/40. Eligible Independent fleet recovery applied once at Cycle end; destroyed fleets remain lost. Next: Cycle 3 Logistics, then event roll. |
 
 | 3 | Reinforce: Supply 18 → 21; Manpower 13. Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 9 → 13. Build: Supply 13 → 8; Forge Complex 2/5 → 3/5. Manpower 13. Widening Circle 5/5 at Mont’au; no fleet/social action; turn complete. | Create Fleet: The First Hunger 1/5 at Threnholt; Supply 13 → 12; Manpower 10 → 9. No fleet/social/construction actions. Star-Mother 11/12; Defended expired. | Cycle 3 complete; no battles or captures | Opening Logistics applied; event check 3, no event. End resources: Korps 21/13, Vior’la 8/13, Cerberus 12/9. Forge Complex 3/5. Seven Independent fleets recover +1 each (ledger above); others at original maximum or destroyed. |
-| 4 | Muster: Manpower 8 → 11 (+1,800 trained combat personnel). Supply 16; Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 3 → 7; Manpower 8. Widening Circle 5/5 at Mont'au. No fleet/social/construction actions; Forge Complex remains 3/5, incomplete. Turn complete. | Awaiting turn | Korps and Vior'la turns complete; awaiting Cerberus | Event check 1; table 3. Major resources after -5/-5: Korps 16/8, Vior’la 3/8, Cerberus 7/4. No Logistics. Independent Minor Factions retain defence-derived resources; erroneous crisis and fleet-loss debits rescinded. |
+| 4 | Muster: Manpower 8 → 11 (+1,800 trained combat personnel). Supply 16; Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 3 → 7; Manpower 8. Widening Circle 5/5 at Mont'au. No fleet/social/construction actions; Forge Complex remains 3/5, incomplete. Turn complete. | Expand Fleet: First Hunger 1/5 → 3/5 at Threnholt, Supply 7 → 6. Muster: Manpower 4 → 7. Star-Mother 11/12, not Defended. No movement, combat, social or construction actions. Turn complete. | All Cycle 4 turns complete; rollover pending | Event check 1; table 3. Major resources after -5/-5: Korps 16/8, Vior’la 3/8, Cerberus 7/4. No Logistics. Independent Minor Factions retain defence-derived resources; erroneous crisis and fleet-loss debits rescinded. |
 
 ## Cycle Records
 
