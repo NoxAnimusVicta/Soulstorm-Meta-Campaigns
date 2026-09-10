@@ -217,13 +217,13 @@ Target a construction. Initiating faction pays -1 Fleet Strength. **In-Progress 
 +2 Fleet Strength to this Fleet (max 5). Costs -1 Supply. This fleet must be at a location with an Orbital Shipyard or established Capital to take this action.
 
 
-### Fleet Battles
+#### Fleet Battles
 
 Initiating faction (aggressor) pays -1 Fleet Strength to initiate. Both Factions roll a d20 plus their in-system Fleet Strength (calculated after the -1 initiation cost is paid). Highest roll wins. 1-5 higher = Loser -1 Fleet Strength per Fleet in Battle. 6-10 higher = Loser -2 Fleet Strength per Fleet in Battle. 11-15 higher = Loser -3 Fleet Strength per Fleet in Battle. 16-20+ higher = Loser Fleet(s) destroyed. Multiple fleets in a system combine their strength for the roll. **All calculations use values after initiation costs are paid.**
 
 **Fleet Battle Participation:** All friendly fleets in-system that wish to contribute their strength to a Fleet Battle must use their Fleet Action for that battle. Fleets that do not participate keep their Fleet Action for other purposes but do not add their strength to the roll. Only one Fleet Battle may occur per system per turn, regardless of how many fleets participate.
 
-### Void Superiority
+#### Void Superiority
 
 **Void Superiority:** Your total fleet strength in-system exceeds total enemy fleet strength.
 
@@ -251,7 +251,7 @@ Create a new fleet at Fleet Strength 1/5. New fleets are created at the faction'
 
 Transfer defense points between planets in the same system. Donor planets must be at full defense. Recipients cannot exceed maximum defense. When you take this action, you may perform multiple transfers from different donors.
 
-### Summon Allies
+#### Summon Allies
 
 Call a new allied Major Faction into the subsector by granting them an entire system. **Costs -10 Supply and -10 Manpower.** The new faction starts with 10 Supply and 10 Manpower but no fleet — they rely on their summoner for protection. **Requirements:** (1) You must control planets in more than one system. (2) You must control ALL planets in the system being granted. (3) You must have Void Superiority in that system. (4) The new faction must share your alignment and make sense within established 40K lore. **Effect:** Immediately cede all planets in that system to the new faction. The new faction is aligned with you — they will not attack your holdings and will coordinate against mutual enemies. Design the new faction (name, background, trait) when summoned. The new faction activates immediately after your turn in the turn order.
 
@@ -301,7 +301,7 @@ A faction may take ONE Construction Action per turn. This represents the faction
 
 When building constructions, rename them to describe what the structure actually is within your faction's aesthetic and technology.
 
-### Construction Upgrade System
+#### Construction Upgrade System
 
 **Core Rules:**
 - One of each unique construction per planet/fleet/system (no stacking duplicates)
