@@ -807,7 +807,7 @@ Other fleets remain unchanged. All Independent planetary defences are already fu
 
 ### Cycle 3 opening status
 
-**Phase 0 Logistics complete; Phase 1 event check complete. Awaiting 41st Expeditionary Korps orders.** No Cycle 3 faction turns have been resolved. Star-Mother remains **Defended until Cerberus's Cycle 3 turn**. Star-Blessed and Skarjaw fleet-loss Manpower allocations remain pending.
+**Phase 0 Logistics complete; Phase 1 event check complete. Korps turn complete; awaiting Vior’la Expedition orders.** Star-Mother remains **Defended until Cerberus's Cycle 3 turn**. Star-Blessed and Skarjaw fleet-loss Manpower allocations remain pending.
 
 | Faction | Before Supply / Manpower | Capital income | Fleet maintenance | After Supply / Manpower |
 |---|---|---|---|---|
@@ -825,12 +825,17 @@ After the final faction's turn, publish its resolved turn, then complete end-of-
 
 
 
+### Cycle 3 turn progress
+
+- **41st Expeditionary Korps — turn complete:** No Fleet Action; Transit Command Grunwald remains **5/5 at Aschenvald**. Phase 3 Reinforce grants **+3 Supply: 18 → 21**. Manpower remains **13**. No social or construction actions. No battle or dice rolls required. Sühne remains 12/12; no other assets or temporary effects changed.
+- **Next faction: Vior'la Expedition**, awaiting Cycle 3 orders. Cerberus has not acted this Cycle. No event is active. Star-Mother remains Defended until Cerberus's turn. No end-of-Cycle recovery or rollover yet.
+
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
 | Fleets | Transit Command Grunwald (5/5) — Aschenvald | The Widening Circle (5/5) — Mont'au | None |
-| Supplies (1-100) | 18 | 9 | 13 |
+| Supplies (1-100) | 21 | 9 | 13 |
 | Manpower (1-100) | 13 | 13 | 10 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
 | Constructions | — | Trial’s End Fabrication Array — Forge Complex, Mont'au, 2/5 actions; incomplete | — |
@@ -1038,7 +1043,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 | 1 | Reinforce; turn complete. Supply 10 → 13; Manpower 10. No fleet, social, or construction actions. | Expand Fleet, Reinforce, Build; turn complete. Supply 10 → 9 → 13 → 8; Manpower 10. Widening Circle 5/5. Forge Complex 1/5. No social action. | Fleet Battle defeat; Star-Mother 11 → 10 → 8/12. Rolls 2+10=12 vs 18+1=19; margin 7. Reinforce: Supply 10 → 13; Manpower 10. No social/construction actions. | Cycle 1 complete; Last Rite wins Fleet Battle; no captures | Event check d6=1; event table d6=1. Ordinary fleets -1 strength and movement prohibited for Cycle 1. Kelmar Ore Haulers destroyed. Agreed ruling: Star-Mother counts as a fleet for this event, 12/12 → 11/12 and cannot move this Cycle. Star-Blessed -1 Manpower allocation remains pending ruling. Korps Reinforce grants +3 Supply; Grunwald stays 4/5 at Aschenvald, Sühne 12/12. No attack on Vantry ordered. Vior'la begins Trial’s End Fabrication Array at Mont'au, 1/5 actions; no income until complete. Eligible Independent factions recovered +1 Fleet Strength each (see recovery ledger); Last Rite excluded for combat. Warp Storm expired. Next: Cycle 2 opening event roll, then Korps. |
 | 2 | Expand Fleet: Grunwald 3/5 → 5/5, Supply 13 → 12. Reinforce: Supply 12 → 15; Manpower 10. No social or construction actions; turn complete. | Expand Fleet: Widening Circle 4/5 → 5/5; Supply 8 → 7. Reinforce +4: 7 → 11. Build -5: 11 → 6; Forge Complex 1/5 → 2/5. Manpower 10; no social action; turn complete. | Defend Star-Mother: 7/12 → 11/12; Supply 13 → 9; Manpower 10 → 6. Defended until its Cycle 3 turn. No fleet, social or construction actions. | Cycle 2 complete; no battles or captures | Event check d6=6; event table d6=1. All surviving fleets -1; Star-Mother 8/12 → 7/12. Movement prohibited for Cycle 2. Ossvarn Funerary Fleet and Grotmire Scrap Barges destroyed. Last Rite Manpower at Ossvarn 40 → 39; Skarjaw -1 Manpower allocation pending, alongside prior Star-Blessed debit. Eligible Independent fleet recovery applied once at Cycle end; destroyed fleets remain lost. Next: Cycle 3 Logistics, then event roll. |
 
-| 3 | Awaiting orders | No turn resolved | No turn resolved | Logistics complete; event check d6=3, no event | Korps 18 Supply/13 Manpower; Vior’la 9/13; Cerberus 13/10. Capital income applied, ordinary fleet maintenance paid. Star-Mother exempt from maintenance; Defended until Cerberus turn. Forge Complex 2/5, no income. |
+| 3 | Reinforce: Supply 18 → 21; Manpower 13. Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Awaiting orders | No turn resolved | Korps turn complete; Logistics complete; no event | Korps 18 Supply/13 Manpower; Vior’la 9/13; Cerberus 13/10. Capital income applied, ordinary fleet maintenance paid. Star-Mother exempt from maintenance; Defended until Cerberus turn. Forge Complex 2/5, no income. |
 
 ## Cycle Records
 

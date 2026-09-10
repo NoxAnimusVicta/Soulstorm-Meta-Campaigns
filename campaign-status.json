@@ -1,8 +1,8 @@
 {
   "cycle": 3,
-  "phase": "Logistics and event check complete — awaiting 41st Expeditionary Korps orders",
+  "phase": "Korps turn complete — awaiting Vior'la Expedition orders",
   "event": "No event (Cycle 3 event check: 3)",
-  "nextFaction": "41st Expeditionary Korps",
-  "updated": "Cycle 3 opening resolved — Logistics complete, no event",
-  "notes": "Logistics applied: Korps 18 Supply/13 Manpower; Vior'la 9/13; Cerberus 13/10. Each capital +4/+4; Korps and Vior'la paid -1/-1 fleet maintenance; Star-Mother exempt. Forge Complex incomplete at 2/5, no income. Event check d6=3: no event. Movement allowed. Star-Mother 11/12, Defended until Cerberus's turn. No Cycle 3 faction actions resolved. Star-Blessed and Skarjaw fleet-loss Manpower allocations remain pending; Last Rite Ossvarn Manpower 39."
+  "nextFaction": "Vior'la Expedition",
+  "updated": "Cycle 3 — Korps Reinforce resolved",
+  "notes": "Korps Reinforce +3 Supply: 18 to 21; Manpower 13. Grunwald remains 5/5 at Aschenvald; no fleet, social or construction actions. No battles. Vior'la 9 Supply/13 Manpower; Cerberus 13/10. Logistics already applied; event check d6=3, no event. Star-Mother 11/12, Defended until Cerberus's turn. Forge Complex 2/5. Vior'la and Cerberus turns pending. Star-Blessed and Skarjaw fleet-loss Manpower allocations pending; Last Rite Ossvarn Manpower 39."
 }
