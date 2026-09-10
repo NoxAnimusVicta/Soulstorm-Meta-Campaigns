@@ -1,8 +1,8 @@
 {
   "cycle": 4,
-  "phase": "Korps turn complete — awaiting Vior'la Expedition orders",
+  "phase": "Vior'la turn complete — awaiting Splinter Fleet Cerberus orders",
   "event": "Supply Crisis (event check 1; event table 3): -5 Supply and -5 Manpower per Major Faction",
-  "nextFaction": "Vior'la Expedition",
-  "updated": "Cycle 4 — Korps Muster resolved",
-  "notes": "Korps Muster: Manpower 8 to 11 (+1,800 trained combat personnel); Supply 16. Grunwald remains 5/5 at Aschenvald; Sühne 12/12. No fleet, social or construction actions. Viorla 3/8, Forge Complex 3/5; Cerberus 7/4, First Hunger 1/5 and Star-Mother 11/12 at Threnholt, not Defended. Supply Crisis already applied once; no Logistics until Cycle 6. Independent resources remain defence-derived; no outstanding resource debits. Await Vior'la Cycle 4 orders, then Cerberus before rollover."
+  "nextFaction": "Splinter Fleet Cerberus",
+  "updated": "Cycle 4 — Vior'la Reinforce resolved",
+  "notes": "Viorla Reinforce +4 Supply: 3 to 7; Manpower 8. Widening Circle 5/5 at Mont'au; Mont'au 12/12. No fleet, social or construction actions. Trial’s End Fabrication Array remains 3/5, incomplete, no income. Korps 16/11; Cerberus 7/4, First Hunger 1/5 and Star-Mother 11/12 at Threnholt, not Defended. Supply Crisis already applied once; no Logistics until Cycle 6. Independent resources remain defence-derived. Await Cerberus Cycle 4 orders; rollover follows its resolved turn."
 }
