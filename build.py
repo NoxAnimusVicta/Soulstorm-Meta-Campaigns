@@ -45,7 +45,7 @@ if parts[0].strip(): chapters.append({'title':'Campaign setup','html':render(par
 for i in range(1,len(parts),2): chapters.append({'title':parts[i],'html':render(parts[i+1]),'text':parts[i+1]})
 status=json.loads((ROOT/'campaign-status.json').read_text())
 assert status['cycle']==cycle,'Status and campaign cycle disagree'
-data={'cycle':cycle,'status':status,'factions':factions,'systems':systems,'rules':chapters,'mobile':render(md.split('## Mobile Assets',1)[1].split('## Battle Log',1)[0]),'log':render(md.split('## Battle Log',1)[1]),'document':render(md)}
+data={'cycle':cycle,'status':status,'factions':factions,'systems':systems,'rules':chapters,'mobile':render(md.split('## Mobile Assets',1)[1].split('## Battle Log',1)[0]),'log':render(md.split('## Battle Log',1)[1].split('## Cycle Records',1)[0]),'narratives':render(md.split('## Cycle Records',1)[1]) if '## Cycle Records' in md else '','document':render(md)}
 revision=hashlib.sha256((md+json.dumps(status,sort_keys=True)).encode()).hexdigest()[:12]
 data['revision']=revision
 payload=json.dumps(data,ensure_ascii=False).replace('</','<\\/')

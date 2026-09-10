@@ -977,3 +977,16 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 | Cycle | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus | Result | Narrative Notes |
 |-------|--------------------------|--------------------|-------------------------|--------|-----------------|
 | 1 | Reinforce; turn complete. Supply 10 → 13; Manpower 10. No fleet, social, or construction actions. | Expand Fleet, Reinforce, Build; turn complete. Supply 10 → 9 → 13 → 8; Manpower 10. Widening Circle 5/5. Forge Complex 1/5. No social action. | Fleet Battle defeat; Star-Mother 11 → 10 → 8/12. Rolls 2+10=12 vs 18+1=19; margin 7. Reinforce: Supply 10 → 13; Manpower 10. No social/construction actions. | Cycle 1 complete; Last Rite wins Fleet Battle; no captures | Event check d6=1; event table d6=1. Ordinary fleets -1 strength and movement prohibited for Cycle 1. Kelmar Ore Haulers destroyed. Agreed ruling: Star-Mother counts as a fleet for this event, 12/12 → 11/12 and cannot move this Cycle. Star-Blessed -1 Manpower allocation remains pending ruling. Korps Reinforce grants +3 Supply; Grunwald stays 4/5 at Aschenvald, Sühne 12/12. No attack on Vantry ordered. Vior'la begins Trial’s End Fabrication Array at Mont'au, 1/5 actions; no income until complete. Eligible Independent factions recovered +1 Fleet Strength each (see recovery ledger); Last Rite excluded for combat. Warp Storm expired. Next: Cycle 2 opening event roll, then Korps. |
+
+
+## Cycle Records
+
+### Cycle 1
+
+**Storm over Dessica!** Cut off from the Imperium and beset by rival powers, the subsector’s stranded armies prepare for war. But before the first offensive can begin, a Warp Storm tears through the void! Fleets across Dessica suffer crippling disruption, the Kelmar Ore Haulers are lost, and even the monstrous Star-Mother is caught in the tempest.
+
+On Sühne, Lord Marshal Kolbrant keeps his guns silent. The 41st Expeditionary Korps replenishes its stores, leaving the defiant station of Vantry untouched. At Mont’au, the Vior’la Expedition restores the Widening Circle to full fighting strength and lays the foundations of Trial’s End Fabrication Array. The Tau are building for a long war.
+
+But in Threnholt, the swarm strikes! The Star-Mother turns upon the Last Rite’s battered funerary fleet, expecting to sweep the defenders from the void. Instead, the outmatched vessels hold their ground! The hive ship suffers a sharp defeat, its strength diminished, while Ossvarn’s guardians survive to fight another day.
+
+As the storm lifts, surviving Independent powers repair their fleets. No world has fallen. No claimant has secured a decisive advantage. With the opening clashes behind them and the void lanes open once more, the rivals of Dessica face a new Cycle—and a war that has only just begun!
