@@ -1,1 +1,8 @@
-{"cycle": 1, "phase": "Opening event resolved — awaiting 41st Expeditionary Korps orders", "event": "Warp Storm (event check 1; event table 1)", "nextFaction": "41st Expeditionary Korps", "updated": "Cycle 1 Warp Storm — Star-Mother ruling applied", "notes": "All ordinary fleets lost 1 strength and cannot move this Cycle. By agreed ruling the Star-Mother also loses 1 defence (now 11/12) and cannot move this Cycle. Kelmar Ore Haulers destroyed. No faction turns resolved. Pending: allocation of the Star-Blessed fleet-destruction penalty (-1 Manpower)."}
+{
+  "cycle": 1,
+  "phase": "41st Expeditionary Korps turn complete — awaiting Vior'la Expedition orders",
+  "event": "Warp Storm (event check 1; event table 1)",
+  "nextFaction": "Vior'la Expedition",
+  "updated": "Cycle 1 — Korps Reinforce resolved",
+  "notes": "Korps turn complete: Reinforce +3 Supply (10 to 13), Manpower 10; no fleet, social, construction actions or battles. Warp Storm movement restrictions remain active; Grunwald 4/5 at Aschenvald, Star-Mother 11/12 at Threnholt. Vior'la and Cerberus turns pending. Pending ruling: allocation of the Star-Blessed fleet-destruction penalty (-1 Manpower)."
+}

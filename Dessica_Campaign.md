@@ -736,15 +736,21 @@ At the start of each Cycle, before any faction takes its turn, roll 1d6. On a 1 
 - All in-system fleet entries, fleet trackers, and void-superiority totals below reflect this loss. Starting-fleet descriptions in Campaign Setup remain historical starting values.
 - Kelmar Ore Haulers are destroyed (1/5 → 0). The Star-Blessed incur the mandatory -1 Manpower fleet-destruction penalty. Its allocation is pending because Independent resources are defined per planet, but fleet destruction charges the owning faction without specifying a planet or allocation method. Do not omit or charge this penalty twice when adjudicated.
 - **Agreed ruling — Mobile Capital:** The user confirmed that the Star-Mother counts as a fleet for this Warp Storm event. It loses 1 defence (12/12 → 11/12) and cannot move for the remainder of Cycle 1. This event-specific ruling does not change its exemption from fleet maintenance.
-- No major-faction Supply or Manpower changes. No Logistics this Cycle. No faction turns, attacks, or battle outcomes resolved; no attack costs spent.
-- Next faction: **41st Expeditionary Korps**. Vantry assault remains provisional until orders and any material rules questions are resolved.
+- The opening event caused no major-faction Supply or Manpower changes. No Logistics this Cycle. The first faction turn is recorded below; no attacks or battles have been resolved and no attack costs spent.
+
+### Cycle 1 turn progress
+
+- **41st Expeditionary Korps — turn complete:** Fleet actions: none. Faction action: **Reinforce**, granting +3 Supply (10 → 13; maximum 100). Manpower remains 10. Social action: none. Construction action: none; no projects in progress. No battle or dice roll required.
+- Transit Command Grunwald remains **4/5 at Aschenvald**. Sühne remains **12/12**. No holdings, defences, fleet strengths, or temporary effects changed during this turn. No attack on Vantry was ordered.
+- **Next faction: Vior'la Expedition**, awaiting Cycle 1 orders; Splinter Fleet Cerberus has not yet acted. Cycle 1 continues, with Warp Storm movement restrictions still active. Do not advance the Cycle or apply end-of-Cycle Independent regeneration until all three factions have completed their turns.
+- Pending: allocation of the Star-Blessed -1 Manpower fleet-destruction penalty remains unresolved.
 
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
 | Fleets | Transit Command Grunwald (4/5) — Aschenvald | The Widening Circle (4/5) — Mont'au | None |
-| Supplies (1-100) | 10 | 10 | 10 |
+| Supplies (1-100) | 13 | 10 | 10 |
 | Manpower (1-100) | 10 | 10 | 10 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
 | Constructions | — | — | — |
@@ -945,4 +951,4 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | Cycle | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus | Result | Narrative Notes |
 |-------|--------------------------|--------------------|-------------------------|--------|-----------------|
-| 1 | No turn resolved | No turn resolved | No turn resolved | Opening event: Warp Storm | Event check d6=1; event table d6=1. Ordinary fleets -1 strength and movement prohibited for Cycle 1. Kelmar Ore Haulers destroyed. Agreed ruling: Star-Mother counts as a fleet for this event, 12/12 → 11/12 and cannot move this Cycle. Star-Blessed -1 Manpower allocation remains pending ruling. |
+| 1 | Reinforce; turn complete. Supply 10 → 13; Manpower 10. No fleet, social, or construction actions. | Awaiting orders | No turn resolved | Warp Storm active; Korps turn complete; no battle | Event check d6=1; event table d6=1. Ordinary fleets -1 strength and movement prohibited for Cycle 1. Kelmar Ore Haulers destroyed. Agreed ruling: Star-Mother counts as a fleet for this event, 12/12 → 11/12 and cannot move this Cycle. Star-Blessed -1 Manpower allocation remains pending ruling. Korps Reinforce grants +3 Supply; Grunwald stays 4/5 at Aschenvald, Sühne 12/12. No attack on Vantry ordered. Next: Vior'la Expedition. |
