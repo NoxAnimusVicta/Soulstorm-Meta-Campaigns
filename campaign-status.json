@@ -1,8 +1,8 @@
 {
-  "cycle": 4,
-  "phase": "All Cycle 4 turns complete — rollover pending",
-  "event": "Supply Crisis (event check 1; event table 3): -5 Supply and -5 Manpower per Major Faction",
-  "nextFaction": "41st Expeditionary Korps (after Cycle 5 opening)",
-  "updated": "Cycle 4 — Cerberus Expand Fleet and Muster resolved",
-  "notes": "Cerberus: First Hunger 1/5 to 3/5 at Threnholt; Supply 7 to 6; Muster raises Manpower 4 to 7. Star-Mother 11/12 at Threnholt, not Defended. No other actions. Korps 16/11; Viorla 7/8, Forge Complex 3/5. All Cycle 4 turns complete; recovery and Cycle 5 opening pending. Independent resources remain defence-derived."
+  "cycle": 5,
+  "phase": "Opening resolved — awaiting 41st Expeditionary Korps orders",
+  "event": "No event (Cycle 5 event check: 3)",
+  "nextFaction": "41st Expeditionary Korps",
+  "updated": "Cycle 5 — no event; Cycle 4 complete",
+  "notes": "No Logistics until Cycle 6. Korps 16 Supply/11 Manpower; Viorla 7/8, Forge Complex 3/5 incomplete; Cerberus 6/7. First Hunger expanded to 3/5; Star-Mother 11/12, not Defended, both at Threnholt. Grunwald and Widening Circle 5/5 at their home systems. Cycle 4 Independent recovery applied; resources remain defence-derived. Supply Crisis expired; prior resource losses retained. No battles or captures in Cycle 4. Await Korps Cycle 5 orders."
 }
