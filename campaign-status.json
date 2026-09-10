@@ -1,8 +1,8 @@
 {
   "cycle": 4,
-  "phase": "Opening event resolved — awaiting 41st Expeditionary Korps orders",
+  "phase": "Korps turn complete — awaiting Vior'la Expedition orders",
   "event": "Supply Crisis (event check 1; event table 3): -5 Supply and -5 Manpower per Major Faction",
-  "nextFaction": "41st Expeditionary Korps",
-  "updated": "Cycle 4 — Independent resource ruling corrected",
-  "notes": "No Logistics this Cycle; next Cycle 6. Korps 16 Supply/8 Manpower; Viorla 3/8, Forge Complex 3/5; Cerberus 7/4, First Hunger 1/5 and Star-Mother 11/12 at Threnholt, not Defended. Cycle 3 Independent fleet recovery applied. Independent Minor Faction resources remain defence-derived: Vantry and Halstrave 60/60; Ossvarn 40/40. Erroneous Independent crisis and fleet-loss resource debits rescinded; no allocation pending. Destroyed fleets remain lost. Await Korps Cycle 4 orders."
+  "nextFaction": "Vior'la Expedition",
+  "updated": "Cycle 4 — Korps Muster resolved",
+  "notes": "Korps Muster: Manpower 8 to 11 (+1,800 trained combat personnel); Supply 16. Grunwald remains 5/5 at Aschenvald; Sühne 12/12. No fleet, social or construction actions. Viorla 3/8, Forge Complex 3/5; Cerberus 7/4, First Hunger 1/5 and Star-Mother 11/12 at Threnholt, not Defended. Supply Crisis already applied once; no Logistics until Cycle 6. Independent resources remain defence-derived; no outstanding resource debits. Await Vior'la Cycle 4 orders, then Cerberus before rollover."
 }
