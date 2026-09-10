@@ -1,8 +1,8 @@
 {
   "cycle": 4,
   "phase": "Opening event resolved — awaiting 41st Expeditionary Korps orders",
-  "event": "Supply Crisis (event check 1; event table 3): -5 Supply and -5 Manpower per faction",
+  "event": "Supply Crisis (event check 1; event table 3): -5 Supply and -5 Manpower per Major Faction",
   "nextFaction": "41st Expeditionary Korps",
-  "updated": "Cycle 4 — Supply Crisis; Cycle 3 complete",
-  "notes": "No Logistics this Cycle; next Cycle 6. Korps 16 Supply/8 Manpower; Viorla 3/8, Forge Complex 3/5; Cerberus 7/4, First Hunger 1/5 and Star-Mother 11/12 at Threnholt, not Defended. Cycle 3 Independent recovery applied. Vantry and Halstrave 55/55; Ossvarn 35/34. Multi-world Independent crisis allocation pending; each owes -5/-5 once. Prior Star-Blessed and Skarjaw -1 Manpower fleet-loss allocations also pending. Await Korps Cycle 4 orders."
+  "updated": "Cycle 4 — Independent resource ruling corrected",
+  "notes": "No Logistics this Cycle; next Cycle 6. Korps 16 Supply/8 Manpower; Viorla 3/8, Forge Complex 3/5; Cerberus 7/4, First Hunger 1/5 and Star-Mother 11/12 at Threnholt, not Defended. Cycle 3 Independent fleet recovery applied. Independent Minor Faction resources remain defence-derived: Vantry and Halstrave 60/60; Ossvarn 40/40. Erroneous Independent crisis and fleet-loss resource debits rescinded; no allocation pending. Destroyed fleets remain lost. Await Korps Cycle 4 orders."
 }
