@@ -774,15 +774,21 @@ All Independent planets were unattacked and already at maximum defence, so plane
 - Every surviving ordinary fleet loses **1 Fleet Strength** and cannot move for the remainder of Cycle 2. Applying the established Star-Mother Warp Storm ruling: defence **8/12 → 7/12**, with the same movement restriction. The restriction expires at the start of Cycle 3; damage does not automatically recover when it expires.
 - **Destroyed:** Ossvarn Funerary Fleet (Last Rite), **1/5 → 0**; Grotmire Scrap Barges (Waaagh! Skarjaw), **1/5 → 0**. Each owner incurs **-1 Manpower**. The Last Rite owns only Ossvarn: record its fleet-loss debit there, **40 → 39 Manpower**, Supply 40, defence 2/2; retain this debit when calculating resources from defence. Skarjaw's allocation among its worlds remains pending under the same unresolved per-planet allocation issue as the Star-Blessed.
 - No major-faction Supply or Manpower changes. Grunwald **4/5 → 3/5** at Aschenvald; Widening Circle **5/5 → 4/5** at Mont'au. Trial’s End Fabrication Array remains 1/5 actions.
-- **No Cycle 2 faction actions resolved.** Korps Expand Fleet / Reinforce orders are held for the user's confirmation or revision after the event. Next: **41st Expeditionary Korps**. No Logistics until Cycle 3.
+- The opening event is resolved. Confirmed faction turns follow below. No Logistics until Cycle 3.
 - Pending rulings: allocate Star-Blessed -1 Manpower from the Cycle 1 Kelmar loss and Skarjaw -1 Manpower from the Cycle 2 Grotmire loss. Neither debit has been allocated or waived.
+
+### Cycle 2 turn progress
+
+- **41st Expeditionary Korps — turn complete:** Phase 2 Expand Fleet at Sühne's established capital yards: Supply **13 → 12**; Transit Command Grunwald **3/5 → 5/5**, remaining at Aschenvald. This action is permitted during Warp Storm; no movement occurs. Phase 3 Reinforce: Supply **12 → 15**. Manpower remains **10**. No social or construction actions, no battle, and no dice rolls required.
+- Sühne remains **12/12**. The Korps now has Void Superiority in Aschenvald: **5 vs Hesperine Guard 3**. Warp Storm movement restrictions remain active through Cycle 2.
+- **Next faction: Vior'la Expedition**, awaiting Cycle 2 orders. Cerberus has not yet acted this Cycle. No end-of-Cycle recovery or construction progress is applied at this point.
 
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (3/5) — Aschenvald | The Widening Circle (4/5) — Mont'au | None |
-| Supplies (1-100) | 13 | 8 | 13 |
+| Fleets | Transit Command Grunwald (5/5) — Aschenvald | The Widening Circle (4/5) — Mont'au | None |
+| Supplies (1-100) | 15 | 8 | 13 |
 | Manpower (1-100) | 10 | 10 | 10 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
 | Constructions | — | Trial’s End Fabrication Array — Forge Complex, Mont'au, 1/5 actions; incomplete | — |
@@ -795,7 +801,7 @@ All Independent planets were unattacked and already at maximum defence, so plane
 
 ### Aschenvald System (41st Expeditionary Korps)
 
-**Void Superiority:** 41st Expeditionary Korps: 3 vs Hesperine Guard: 3 — Contested (equal strength)
+**Void Superiority:** 41st Expeditionary Korps: 5 vs Hesperine Guard: 3 — 41st Expeditionary Korps
 
 *Vantry broadcasts the same challenge to every vessel that enters the system — regimental cipher, verification codes, a standing order issued by Segmentum Command four decades ago. The 41st logs each transmission and answers with its own. Neither set of codes resolves against anything the other can check. Kolbrant has the guns to end the exchange and keeps them cold.*
 
@@ -805,7 +811,7 @@ All Independent planets were unattacked and already at maximum defence, so plane
 | Vantry | Standard (Station) | Hesperine Guard | 4/4 | Orbital defence platform and garrison station. Rotation schedules, munitions inventories, and watch rosters have been maintained without interruption for four decades. Approach lanes are covered by macrocannon batteries that track every hull entering the system. |
 
 **In-System Fleets:**
-- 41st Expeditionary Korps: Transit Command Grunwald (3/5)
+- 41st Expeditionary Korps: Transit Command Grunwald (5/5)
 - Hesperine Guard: Hesperine Watch Flotilla (3/5)
 
 ---
@@ -988,7 +994,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 | Cycle | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus | Result | Narrative Notes |
 |-------|--------------------------|--------------------|-------------------------|--------|-----------------|
 | 1 | Reinforce; turn complete. Supply 10 → 13; Manpower 10. No fleet, social, or construction actions. | Expand Fleet, Reinforce, Build; turn complete. Supply 10 → 9 → 13 → 8; Manpower 10. Widening Circle 5/5. Forge Complex 1/5. No social action. | Fleet Battle defeat; Star-Mother 11 → 10 → 8/12. Rolls 2+10=12 vs 18+1=19; margin 7. Reinforce: Supply 10 → 13; Manpower 10. No social/construction actions. | Cycle 1 complete; Last Rite wins Fleet Battle; no captures | Event check d6=1; event table d6=1. Ordinary fleets -1 strength and movement prohibited for Cycle 1. Kelmar Ore Haulers destroyed. Agreed ruling: Star-Mother counts as a fleet for this event, 12/12 → 11/12 and cannot move this Cycle. Star-Blessed -1 Manpower allocation remains pending ruling. Korps Reinforce grants +3 Supply; Grunwald stays 4/5 at Aschenvald, Sühne 12/12. No attack on Vantry ordered. Vior'la begins Trial’s End Fabrication Array at Mont'au, 1/5 actions; no income until complete. Eligible Independent factions recovered +1 Fleet Strength each (see recovery ledger); Last Rite excluded for combat. Warp Storm expired. Next: Cycle 2 opening event roll, then Korps. |
-| 2 | Orders held pending user confirmation after event; no actions resolved | No turn resolved | No turn resolved | Opening event: Warp Storm | Event check d6=6; event table d6=1. All surviving fleets -1; Star-Mother 8/12 → 7/12. Movement prohibited for Cycle 2. Ossvarn Funerary Fleet and Grotmire Scrap Barges destroyed. Last Rite Manpower at Ossvarn 40 → 39; Skarjaw -1 Manpower allocation pending, alongside prior Star-Blessed debit. |
+| 2 | Expand Fleet: Grunwald 3/5 → 5/5, Supply 13 → 12. Reinforce: Supply 12 → 15; Manpower 10. No social or construction actions; turn complete. | Awaiting orders | No turn resolved | Warp Storm active; Korps turn complete | Event check d6=6; event table d6=1. All surviving fleets -1; Star-Mother 8/12 → 7/12. Movement prohibited for Cycle 2. Ossvarn Funerary Fleet and Grotmire Scrap Barges destroyed. Last Rite Manpower at Ossvarn 40 → 39; Skarjaw -1 Manpower allocation pending, alongside prior Star-Blessed debit. |
 
 ## Cycle Records
 

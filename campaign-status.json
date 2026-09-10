@@ -1,8 +1,8 @@
 {
   "cycle": 2,
-  "phase": "Opening event resolved — awaiting Korps order confirmation",
+  "phase": "Korps turn complete — awaiting Vior'la Expedition orders",
   "event": "Warp Storm (event check 6; event table 1)",
-  "nextFaction": "41st Expeditionary Korps",
-  "updated": "Cycle 2 Warp Storm resolved — Korps orders on hold",
-  "notes": "No Cycle 2 faction actions resolved. All fleets -1 strength and cannot move this Cycle; Grunwald 3/5, Widening Circle 4/5, Star-Mother 7/12. Ossvarn Funerary Fleet and Grotmire Scrap Barges destroyed. Last Rite: Ossvarn Manpower 39 after fleet-loss debit. Pending: user confirmation/revision of Korps orders; allocation of Star-Blessed and Skarjaw -1 Manpower fleet-loss debits. No Logistics until Cycle 3."
+  "nextFaction": "Vior'la Expedition",
+  "updated": "Cycle 2 — Korps Expand Fleet and Reinforce resolved",
+  "notes": "Korps turn complete: Expand Fleet (-1 Supply, Grunwald 3/5 to 5/5 at Aschenvald), Reinforce (+3 Supply); now 15 Supply, 10 Manpower. No social/construction actions or battles. Warp Storm movement restrictions remain active. Vior'la and Cerberus turns pending. Widening Circle 4/5; Star-Mother 7/12. Pending: allocation of Star-Blessed and Skarjaw -1 Manpower fleet-loss debits. Last Rite Ossvarn Manpower 39. No Logistics until Cycle 3."
 }
