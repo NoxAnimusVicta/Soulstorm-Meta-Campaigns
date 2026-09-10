@@ -1,8 +1,8 @@
 {
   "cycle": 3,
-  "phase": "Vior'la turn complete — awaiting Splinter Fleet Cerberus orders",
+  "phase": "All Cycle 3 turns complete — rollover pending",
   "event": "No event (Cycle 3 event check: 3)",
-  "nextFaction": "Splinter Fleet Cerberus",
-  "updated": "Cycle 3 — Vior'la Reinforce and Build resolved",
-  "notes": "Vior'la Reinforce +4 (9 to 13 Supply), Build -5 (13 to 8); Manpower 13. Trial’s End Fabrication Array 3/5 actions, no income while incomplete; Mont'au 12/12. Widening Circle remains 5/5 at Mont'au; no fleet/social action. Orders labelled Cycle 2 interpreted as Cycle 3 from matching state. Korps 21/13; Cerberus 13/10. No event. Star-Mother 11/12, Defended until Cerberus's turn begins. Cerberus orders pending; rollover follows final turn. Star-Blessed and Skarjaw fleet-loss Manpower allocations pending; Last Rite Ossvarn Manpower 39."
+  "nextFaction": "41st Expeditionary Korps (after Cycle 4 opening)",
+  "updated": "Cycle 3 — The First Hunger created",
+  "notes": "Cerberus created The First Hunger 1/5 at Threnholt; Supply 12, Manpower 9. Star-Mother remains 11/12; previous Defended status expired at turn start. No combat or other actions. Korps 21/13, Viorla 8/13; Forge Complex 3/5. Cycle 3 recovery and Cycle 4 opening pending."
 }
