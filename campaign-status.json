@@ -1,8 +1,8 @@
 {
   "cycle": 3,
-  "phase": "Korps turn complete — awaiting Vior'la Expedition orders",
+  "phase": "Vior'la turn complete — awaiting Splinter Fleet Cerberus orders",
   "event": "No event (Cycle 3 event check: 3)",
-  "nextFaction": "Vior'la Expedition",
-  "updated": "Cycle 3 — Korps Reinforce resolved",
-  "notes": "Korps Reinforce +3 Supply: 18 to 21; Manpower 13. Grunwald remains 5/5 at Aschenvald; no fleet, social or construction actions. No battles. Vior'la 9 Supply/13 Manpower; Cerberus 13/10. Logistics already applied; event check d6=3, no event. Star-Mother 11/12, Defended until Cerberus's turn. Forge Complex 2/5. Vior'la and Cerberus turns pending. Star-Blessed and Skarjaw fleet-loss Manpower allocations pending; Last Rite Ossvarn Manpower 39."
+  "nextFaction": "Splinter Fleet Cerberus",
+  "updated": "Cycle 3 — Vior'la Reinforce and Build resolved",
+  "notes": "Vior'la Reinforce +4 (9 to 13 Supply), Build -5 (13 to 8); Manpower 13. Trial’s End Fabrication Array 3/5 actions, no income while incomplete; Mont'au 12/12. Widening Circle remains 5/5 at Mont'au; no fleet/social action. Orders labelled Cycle 2 interpreted as Cycle 3 from matching state. Korps 21/13; Cerberus 13/10. No event. Star-Mother 11/12, Defended until Cerberus's turn begins. Cerberus orders pending; rollover follows final turn. Star-Blessed and Skarjaw fleet-loss Manpower allocations pending; Last Rite Ossvarn Manpower 39."
 }
