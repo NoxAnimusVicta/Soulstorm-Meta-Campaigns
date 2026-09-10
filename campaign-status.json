@@ -1,8 +1,8 @@
 {
-  "cycle": 1,
-  "phase": "Vior'la Expedition turn complete — awaiting Splinter Fleet Cerberus orders",
-  "event": "Warp Storm (event check 1; event table 1)",
-  "nextFaction": "Splinter Fleet Cerberus",
-  "updated": "Cycle 1 — Vior'la turn resolved",
-  "notes": "Korps and Vior'la turns complete. Vior'la: Expand Fleet (-1 Supply), Reinforce (+4), Build (-5); now 8 Supply, 10 Manpower. Widening Circle 5/5 at Mont'au. Trial’s End Fabrication Array (Forge Complex) 1/5 actions on Mont'au; no income while incomplete. No social action or battle. Warp Storm movement restrictions remain active. Cerberus orders pending. Pending ruling: allocation of Star-Blessed -1 Manpower fleet-destruction penalty."
+  "cycle": 2,
+  "phase": "Awaiting Cycle 2 opening event roll",
+  "event": "Cycle 2 event not rolled; Cycle 1 Warp Storm expired",
+  "nextFaction": "41st Expeditionary Korps",
+  "updated": "Cycle 1 complete — Cerberus battle resolved",
+  "notes": "All Cycle 1 turns complete. Star-Mother lost to Last Rite: d20 2+10=12 vs 18+1=19, margin 7; initiation -1 and battle -2 defence, now 8/12 at Threnholt. Ossvarn fleet remains 1/5. Cerberus Reinforce: 13 Supply, 10 Manpower. Eligible Independent recovery applied; Last Rite excluded. Forge Complex remains 1/5. Cycle 2 event pending; no Logistics until Cycle 3. Pending ruling: allocation of Star-Blessed -1 Manpower for destroyed Kelmar Ore Haulers."
 }
