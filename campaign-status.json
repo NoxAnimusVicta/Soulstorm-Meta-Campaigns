@@ -1,8 +1,8 @@
 {
   "cycle": 1,
-  "phase": "41st Expeditionary Korps turn complete — awaiting Vior'la Expedition orders",
+  "phase": "Vior'la Expedition turn complete — awaiting Splinter Fleet Cerberus orders",
   "event": "Warp Storm (event check 1; event table 1)",
-  "nextFaction": "Vior'la Expedition",
-  "updated": "Cycle 1 — Korps Reinforce resolved",
-  "notes": "Korps turn complete: Reinforce +3 Supply (10 to 13), Manpower 10; no fleet, social, construction actions or battles. Warp Storm movement restrictions remain active; Grunwald 4/5 at Aschenvald, Star-Mother 11/12 at Threnholt. Vior'la and Cerberus turns pending. Pending ruling: allocation of the Star-Blessed fleet-destruction penalty (-1 Manpower)."
+  "nextFaction": "Splinter Fleet Cerberus",
+  "updated": "Cycle 1 — Vior'la turn resolved",
+  "notes": "Korps and Vior'la turns complete. Vior'la: Expand Fleet (-1 Supply), Reinforce (+4), Build (-5); now 8 Supply, 10 Manpower. Widening Circle 5/5 at Mont'au. Trial’s End Fabrication Array (Forge Complex) 1/5 actions on Mont'au; no income while incomplete. No social action or battle. Warp Storm movement restrictions remain active. Cerberus orders pending. Pending ruling: allocation of Star-Blessed -1 Manpower fleet-destruction penalty."
 }

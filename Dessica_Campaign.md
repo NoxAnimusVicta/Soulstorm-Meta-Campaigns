@@ -736,24 +736,25 @@ At the start of each Cycle, before any faction takes its turn, roll 1d6. On a 1 
 - All in-system fleet entries, fleet trackers, and void-superiority totals below reflect this loss. Starting-fleet descriptions in Campaign Setup remain historical starting values.
 - Kelmar Ore Haulers are destroyed (1/5 → 0). The Star-Blessed incur the mandatory -1 Manpower fleet-destruction penalty. Its allocation is pending because Independent resources are defined per planet, but fleet destruction charges the owning faction without specifying a planet or allocation method. Do not omit or charge this penalty twice when adjudicated.
 - **Agreed ruling — Mobile Capital:** The user confirmed that the Star-Mother counts as a fleet for this Warp Storm event. It loses 1 defence (12/12 → 11/12) and cannot move for the remainder of Cycle 1. This event-specific ruling does not change its exemption from fleet maintenance.
-- The opening event caused no major-faction Supply or Manpower changes. No Logistics this Cycle. The first faction turn is recorded below; no attacks or battles have been resolved and no attack costs spent.
+- The opening event caused no major-faction Supply or Manpower changes. No Logistics this Cycle. The first two faction turns are recorded below; no attacks or battles have been resolved and no attack costs spent.
 
 ### Cycle 1 turn progress
 
 - **41st Expeditionary Korps — turn complete:** Fleet actions: none. Faction action: **Reinforce**, granting +3 Supply (10 → 13; maximum 100). Manpower remains 10. Social action: none. Construction action: none; no projects in progress. No battle or dice roll required.
 - Transit Command Grunwald remains **4/5 at Aschenvald**. Sühne remains **12/12**. No holdings, defences, fleet strengths, or temporary effects changed during this turn. No attack on Vantry was ordered.
-- **Next faction: Vior'la Expedition**, awaiting Cycle 1 orders; Splinter Fleet Cerberus has not yet acted. Cycle 1 continues, with Warp Storm movement restrictions still active. Do not advance the Cycle or apply end-of-Cycle Independent regeneration until all three factions have completed their turns.
+- **Vior'la Expedition — turn complete:** Phase 2 Expand Fleet at Mont'au's built-in Orbital Shipyard: Supply 10 → 9; The Widening Circle 4/5 → 5/5 (maximum 5), remaining at Mont'au. Phase 3 Reinforce with The Provisioned Advance: +4 Supply, 9 → 13. Phase 4: no Social Action. Phase 5 Build: begin **Trial’s End Fabrication Array**, a Major Forge Complex on Mont'au (12/12 defence); -5 Supply, 13 → 8; progress **1/5 construction actions**. Manpower remains 10. No battle or dice roll required. Warp Storm prohibits movement, not Expand Fleet.
+- **Next faction: Splinter Fleet Cerberus**, awaiting Cycle 1 orders. Cycle 1 continues, with Warp Storm movement restrictions still active. Do not advance the Cycle or apply end-of-Cycle Independent regeneration until all three factions have completed their turns.
 - Pending: allocation of the Star-Blessed -1 Manpower fleet-destruction penalty remains unresolved.
 
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (4/5) — Aschenvald | The Widening Circle (4/5) — Mont'au | None |
-| Supplies (1-100) | 13 | 10 | 10 |
+| Fleets | Transit Command Grunwald (4/5) — Aschenvald | The Widening Circle (5/5) — Mont'au | None |
+| Supplies (1-100) | 13 | 8 | 10 |
 | Manpower (1-100) | 10 | 10 | 10 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
-| Constructions | — | — | — |
+| Constructions | — | Trial’s End Fabrication Array — Forge Complex, Mont'au, 1/5 actions; incomplete | — |
 
 **AI vs AI Ground Battle Resolution:** Both factions roll d20 + Fleet Strength in System + Supply + Manpower. Attacker commits Manpower equal to base damage (fleet strength only); Defender commits half of total damage to planet (including bonuses, rounded down). Highest total wins. If the defender used the Defend action, their roll gains +15. Winner returns 60% committed Manpower (rounded down), loser loses 100%. **All calculations use resource values after attack costs (scaled by world type) and Manpower commitments are deducted.**
 
@@ -780,18 +781,20 @@ At the start of each Cycle, before any faction takes its turn, roll 1d6. On a 1 
 
 ### Mont'au System (Vior'la Expedition)
 
-**Void Superiority:** Vior'la Expedition: 4 vs Vennick Accord: 3 — Vior'la Expedition
+**Void Superiority:** Vior'la Expedition: 5 vs Vennick Accord: 3 — Vior'la Expedition
 
 *The primary dome went up in the second year; the processors began cycling atmosphere in the fourth. Halstrave returns every envoy the Expedition sends — alive, gifts intact, each carrying a written statement of the terms under which the six houses will discuss the future of the system. The terms have not been revised in thirty years. Shas'o Mont'yr keeps every copy.*
 
 | Planet | Type | Controller | Defense | Notes |
 |--------|------|------------|---------|-------|
-| Mont'au | Capital | Vior'la Expedition | 12/12 | Colony world under active terraforming. Habitation domes and atmospheric processors extend across former tundra, the settlement grid pushing outward each year. Fire caste cadres run live exercises on ground the Earth caste reclaimed a decade ago. Aun'el Shovah'ka's council chamber sits at the centre of the primary dome. |
+| Mont'au | Capital | Vior'la Expedition | 12/12 | Colony world under active terraforming. Habitation domes and atmospheric processors extend across former tundra, the settlement grid pushing outward each year. Fire caste cadres run live exercises on ground the Earth caste reclaimed a decade ago. Aun'el Shovah'ka's council chamber sits at the centre of the primary dome. Trial’s End Fabrication Array (Forge Complex) under construction: 1/5 actions; no income until complete. |
 | Halstrave | Standard | Vennick Accord | 4/4 | Hive world. Six noble houses occupy a single fortified spire-cluster, their household levies quartered in shared barracks along the lower tiers. Muster rolls run to eight figures. The approach lanes are ranged by house artillery. |
 
 **In-System Fleets:**
-- Vior'la Expedition: The Widening Circle (4/5)
+- Vior'la Expedition: The Widening Circle (5/5)
 - Vennick Accord: Accord Levy Squadron (3/5)
+
+**Construction progress:** Trial’s End Fabrication Array — Major Forge Complex, owned by Vior'la Expedition on Mont'au. Begun Cycle 1; **1/5 actions**, 5 Supply spent. Four further Build actions required, each costing 5 Supply and requiring full planetary defences. No benefit while incomplete; completed effect: **+5 Supply per Logistics Cycle**. Planetary damage during construction destroys the project.
 
 ---
 
@@ -951,4 +954,4 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | Cycle | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus | Result | Narrative Notes |
 |-------|--------------------------|--------------------|-------------------------|--------|-----------------|
-| 1 | Reinforce; turn complete. Supply 10 → 13; Manpower 10. No fleet, social, or construction actions. | Awaiting orders | No turn resolved | Warp Storm active; Korps turn complete; no battle | Event check d6=1; event table d6=1. Ordinary fleets -1 strength and movement prohibited for Cycle 1. Kelmar Ore Haulers destroyed. Agreed ruling: Star-Mother counts as a fleet for this event, 12/12 → 11/12 and cannot move this Cycle. Star-Blessed -1 Manpower allocation remains pending ruling. Korps Reinforce grants +3 Supply; Grunwald stays 4/5 at Aschenvald, Sühne 12/12. No attack on Vantry ordered. Next: Vior'la Expedition. |
+| 1 | Reinforce; turn complete. Supply 10 → 13; Manpower 10. No fleet, social, or construction actions. | Expand Fleet, Reinforce, Build; turn complete. Supply 10 → 9 → 13 → 8; Manpower 10. Widening Circle 5/5. Forge Complex 1/5. No social action. | Awaiting orders | Warp Storm active; Korps and Vior'la turns complete; no battle | Event check d6=1; event table d6=1. Ordinary fleets -1 strength and movement prohibited for Cycle 1. Kelmar Ore Haulers destroyed. Agreed ruling: Star-Mother counts as a fleet for this event, 12/12 → 11/12 and cannot move this Cycle. Star-Blessed -1 Manpower allocation remains pending ruling. Korps Reinforce grants +3 Supply; Grunwald stays 4/5 at Aschenvald, Sühne 12/12. No attack on Vantry ordered. Vior'la begins Trial’s End Fabrication Array at Mont'au, 1/5 actions; no income until complete. Next: Splinter Fleet Cerberus. |
