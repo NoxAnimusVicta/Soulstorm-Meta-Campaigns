@@ -645,6 +645,8 @@ When an Independent planet is attacked, only that planet's individual resources 
 
 Current Supply/Manpower = Base × (Current Defense / Max Defense)
 
+**Agreed ruling — Independent Minor Faction resources (Cycle 4 correction):** These are defence-derived per-planet values, not Major Faction resource pools. Do not deduct Major Faction resource losses from them, including Supply Crisis or the -1 Manpower fleet-destruction penalty. This applies to both single-world and multi-world Independent Minor Factions. Defence changes still alter resources through the formula above; fleet damage and destruction still apply normally. Independent-aligned Major Factions continue to use Major Faction resource rules. The previously recorded Independent crisis losses and fleet-loss debits were referee errors and are rescinded; no allocation ruling is pending.
+
 Example: A Standard world at 2/4 defense has 60 × (2/4) = 30 Supply and 30 Manpower
 
 Fleet Strength in system still counts for all Independent fleets present, but ground resources are planet-specific.
@@ -734,7 +736,7 @@ At the start of each Cycle, before any faction takes its turn, roll 1d6. On a 1 
 - Event table: **1d6 = 1** — **Warp Storm**.
 - Every ordinary fleet, including Independent fleets, immediately loses 1 Fleet Strength. All surviving ordinary fleets cannot move for the remainder of Cycle 1. The movement restriction expires before Major Faction 1 begins Cycle 2; lost strength does not automatically return when the event expires.
 - All in-system fleet entries, fleet trackers, and void-superiority totals below reflect this loss. Starting-fleet descriptions in Campaign Setup remain historical starting values.
-- Kelmar Ore Haulers are destroyed (1/5 → 0). The Star-Blessed incur the mandatory -1 Manpower fleet-destruction penalty. Its allocation is pending because Independent resources are defined per planet, but fleet destruction charges the owning faction without specifying a planet or allocation method. Do not omit or charge this penalty twice when adjudicated.
+- Kelmar Ore Haulers are destroyed (1/5 → 0). No Independent Minor Faction Manpower deduction applies; the initially recorded debit was rescinded under the Cycle 4 resource ruling.
 - **Agreed ruling — Mobile Capital:** The user confirmed that the Star-Mother counts as a fleet for this Warp Storm event. It loses 1 defence (12/12 → 11/12) and cannot move for the remainder of Cycle 1. This event-specific ruling does not change its exemption from fleet maintenance.
 - The opening event caused no major-faction Supply or Manpower changes. No Logistics this Cycle. All three faction turns are recorded below. Cerberus resolved a Fleet Battle; no planetary attacks were ordered.
 
@@ -766,16 +768,16 @@ Independent factions not engaged in Fleet Battle or Ground Assault recover **one
 
 All Independent planets were unattacked and already at maximum defence, so planetary recovery changes nothing. Major-faction fleets and the Star-Mother receive no automatic recovery. Trial’s End Fabrication Array remains **1/5**: construction requires further paid Build actions and generates no income while incomplete.
 
-- Pending: allocation of the Star-Blessed -1 Manpower fleet-destruction penalty remains unresolved.
+- Correction recorded in Cycle 4: no Star-Blessed fleet-loss Manpower debit is owed.
 
 ### Cycle 2 opening event: Warp Storm
 
 - Event check: **1d6 = 6** — event triggered. Event table: **1d6 = 1** — **Warp Storm**.
 - Every surviving ordinary fleet loses **1 Fleet Strength** and cannot move for the remainder of Cycle 2. Applying the established Star-Mother Warp Storm ruling: defence **8/12 → 7/12**, with the same movement restriction. The restriction expires at the start of Cycle 3; damage does not automatically recover when it expires.
-- **Destroyed:** Ossvarn Funerary Fleet (Last Rite), **1/5 → 0**; Grotmire Scrap Barges (Waaagh! Skarjaw), **1/5 → 0**. Each owner incurs **-1 Manpower**. The Last Rite owns only Ossvarn: record its fleet-loss debit there, **40 → 39 Manpower**, Supply 40, defence 2/2; retain this debit when calculating resources from defence. Skarjaw's allocation among its worlds remains pending under the same unresolved per-planet allocation issue as the Star-Blessed.
+- **Destroyed:** Ossvarn Funerary Fleet (Last Rite), **1/5 → 0**; Grotmire Scrap Barges (Waaagh! Skarjaw), **1/5 → 0**. No Independent Minor Faction resource deduction applies. The initially recorded fleet-loss debits were rescinded under the Cycle 4 ruling; Ossvarn remains 40 Supply / 40 Manpower at 2/2 defence.
 - No major-faction Supply or Manpower changes. Grunwald **4/5 → 3/5** at Aschenvald; Widening Circle **5/5 → 4/5** at Mont'au. Trial’s End Fabrication Array remains 1/5 actions.
 - The opening event is resolved. Confirmed faction turns follow below. No Logistics until Cycle 3.
-- Pending rulings: allocate Star-Blessed -1 Manpower from the Cycle 1 Kelmar loss and Skarjaw -1 Manpower from the Cycle 2 Grotmire loss. Neither debit has been allocated or waived.
+- Cycle 4 correction: Star-Blessed and Skarjaw fleet-loss Manpower debits rescinded; no allocation remains pending.
 
 ### Cycle 2 turn progress
 
@@ -803,11 +805,11 @@ No Independent faction fought this Cycle. Each with a surviving eligible fleet r
 | Talgrave Dominion | The Palatine Guard 4/5 → 5/5 |
 | Corvus Reduction | The Sealed Codex 4/5 → 5/5 |
 
-Other fleets remain unchanged. All Independent planetary defences are already full; no defence recovery is added. No automatic major-faction or Mobile Capital recovery. Trial’s End Fabrication Array remains **2/5 actions**, with no income while incomplete. Fleet-loss Manpower debits are not removed by fleet recovery.
+Other fleets remain unchanged. All Independent planetary defences are already full; no defence recovery is added. No automatic major-faction or Mobile Capital recovery. Trial’s End Fabrication Array remains **2/5 actions**, with no income while incomplete. Independent fleet-loss resource debits were rescinded under the Cycle 4 ruling.
 
 ### Cycle 3 opening status
 
-**Phase 0 Logistics complete; Phase 1 event check complete. All Cycle 3 faction turns complete.** Star-Mother’s prior Defended status expired when Cerberus’s turn began. Star-Blessed and Skarjaw fleet-loss Manpower allocations remain pending.
+**Phase 0 Logistics complete; Phase 1 event check complete. All Cycle 3 faction turns complete.** Star-Mother’s prior Defended status expired when Cerberus’s turn began. Independent resource accounting is corrected under the Cycle 4 ruling; no fleet-loss allocations remain pending.
 
 | Faction | Before Supply / Manpower | Capital income | Fleet maintenance | After Supply / Manpower |
 |---|---|---|---|---|
@@ -815,7 +817,7 @@ Other fleets remain unchanged. All Independent planetary defences are already fu
 | Vior'la Expedition | 6 / 10 | +4 / +4 (Mont'au) | -1 / -1 (Widening Circle) | **9 / 13** |
 | Splinter Fleet Cerberus | 9 / 6 | +4 / +4 (Star-Mother) | 0 / 0 (no ordinary fleets; Mobile Capital exempt) | **13 / 10** |
 
-Trial’s End Fabrication Array is incomplete (2/5 actions), so provides no income. No deficits triggered. Logistics grants no automatic repair to these major factions. Independent world resources continue to use their specific per-planet defence-based resource calculation, with recorded fleet-loss debits retained; no pooled Independent Logistics balances invented.
+Trial’s End Fabrication Array is incomplete (2/5 actions), so provides no income. No deficits triggered. Logistics grants no automatic repair to these major factions. Independent world resources continue to use their specific per-planet defence-based resource calculation, without Major Faction resource debits or pooled Independent Logistics balances.
 
 **Opening event:** event check **1d6 = 3** — **no event for Cycle 3**. No event-table roll required. The Cycle 2 Warp Storm has expired; movement is permitted. Logistics was applied before this event check.
 
@@ -856,7 +858,7 @@ All Independent planets are unattacked and already at full defence. Major-factio
 
 - Cycle 4 is not a Logistics Cycle; no income or maintenance is applied. Next Logistics: Cycle 6.
 - Event check **1d6 = 1**; event table **1d6 = 3 — Supply Crisis**.
-- All factions lose **5 Supply and 5 Manpower**, once. No fleet strength, defence or construction damage; no movement restriction. Resource losses are retained after the event expires and are not charged again per turn.
+- All Major Factions lose **5 Supply and 5 Manpower**, once. Independent Minor Factions retain defence-derived resources under the agreed ruling. No fleet strength, defence or construction damage; no movement restriction. Resource losses are retained after the event expires and are not charged again per turn.
 
 | Major faction | Before Supply / Manpower | Crisis | After Supply / Manpower |
 |---|---|---|---|
@@ -864,9 +866,9 @@ All Independent planets are unattacked and already at full defence. Major-factio
 | Vior'la Expedition | 8 / 13 | -5 / -5 | **3 / 8** |
 | Splinter Fleet Cerberus | 12 / 9 | -5 / -5 | **7 / 4** |
 
-Single-world Independents: Hesperine Guard at Vantry **60/60 → 55/55**; Vennick Accord at Halstrave **60/60 → 55/55**; Last Rite at Ossvarn **40/39 → 35/34**, retaining its earlier fleet-loss debit.
+Independent Minor Faction resources remain defence-derived: Vantry **60 Supply / 60 Manpower**, Halstrave **60/60**, Ossvarn **40/40**. All other Independent worlds likewise retain their full-defence base values (Minor 40/40; Standard 60/60; Major 80/80).
 
-Multi-world Independents each owe **-5 Supply / -5 Manpower once per faction**, with planetary allocation pending ruling: The Star-Blessed, Forge Anvarrus, Waaagh! Skarjaw, Waaagh! Gutrekk, Kabal of the Withered Hand, Havren Reclamation, Talgrave Dominion and Corvus Reduction. These losses are not waived or multiplied by their number of worlds. Do not resolve resource-sensitive combat against them before allocating the debits. Prior Star-Blessed and Skarjaw -1 Manpower fleet-loss debits also remain owed and unallocated. Proposed allocation awaiting user ruling: charge the largest owned world first, listed order breaking ties.
+**Referee correction:** The user clarified that Independent Minor Factions do not suffer resource losses like Major Factions. All previously recorded Independent Supply Crisis deductions are reversed, as are the earlier Star-Blessed, Last Rite and Skarjaw fleet-loss Manpower debits. No resource allocation is required. The destroyed fleets remain destroyed, and Cycle 3 fleet recovery stands. No new dice were rolled and no turn or Cycle was advanced.
 
 **Next:** 41st Expeditionary Korps, Cycle 4. No Cycle 4 faction orders have been resolved.
 
@@ -895,7 +897,7 @@ Multi-world Independents each owe **-5 Supply / -5 Manpower once per faction**, 
 | Planet | Type | Controller | Defense | Notes |
 |--------|------|------------|---------|-------|
 | Sühne | Capital | 41st Expeditionary Korps | 12/12 | Fortress world taken after eleven years of siege. Trench networks radiate from the old citadel across the ash plains, ringed by artillery in concentric emplacements. Tunnel systems run beneath the surface works, their extent known only to the Korps. The rebel curtain walls remain where they fell. |
-| Vantry | Standard (Station) | Hesperine Guard | 4/4 | Orbital defence platform and garrison station. Rotation schedules, munitions inventories, and watch rosters have been maintained without interruption for four decades. Approach lanes are covered by macrocannon batteries that track every hull entering the system. Cycle 4 Supply Crisis: current Supply 55, Manpower 55. |
+| Vantry | Standard (Station) | Hesperine Guard | 4/4 | Orbital defence platform and garrison station. Rotation schedules, munitions inventories, and watch rosters have been maintained without interruption for four decades. Approach lanes are covered by macrocannon batteries that track every hull entering the system. Current Supply 60, Manpower 60, derived from full defence; Independent Minor Faction resource ruling applies. |
 
 **In-System Fleets:**
 - 41st Expeditionary Korps: Transit Command Grunwald (5/5)
@@ -912,7 +914,7 @@ Multi-world Independents each owe **-5 Supply / -5 Manpower once per faction**, 
 | Planet | Type | Controller | Defense | Notes |
 |--------|------|------------|---------|-------|
 | Mont'au | Capital | Vior'la Expedition | 12/12 | Colony world under active terraforming. Habitation domes and atmospheric processors extend across former tundra, the settlement grid pushing outward each year. Fire caste cadres run live exercises on ground the Earth caste reclaimed a decade ago. Aun'el Shovah'ka's council chamber sits at the centre of the primary dome. Trial’s End Fabrication Array (Forge Complex) under construction: 3/5 actions; no income until complete. |
-| Halstrave | Standard | Vennick Accord | 4/4 | Hive world. Six noble houses occupy a single fortified spire-cluster, their household levies quartered in shared barracks along the lower tiers. Muster rolls run to eight figures. The approach lanes are ranged by house artillery. Cycle 4 Supply Crisis: current Supply 55, Manpower 55. |
+| Halstrave | Standard | Vennick Accord | 4/4 | Hive world. Six noble houses occupy a single fortified spire-cluster, their household levies quartered in shared barracks along the lower tiers. Muster rolls run to eight figures. The approach lanes are ranged by house artillery. Current Supply 60, Manpower 60, derived from full defence; Independent Minor Faction resource ruling applies. |
 
 **In-System Fleets:**
 - Vior'la Expedition: The Widening Circle (5/5)
@@ -931,16 +933,16 @@ Multi-world Independents each owe **-5 Supply / -5 Manpower once per faction**, 
 | Planet | Type | Controller | Defense | Notes |
 |--------|------|------------|---------|-------|
 | Threnholt | Standard | The Star-Blessed | 4/4 | Civilised world. The cult holds the southern continent and the planetary government; the northern arcologies remain in loyalist hands and are supplied by a rail line the brood has cut four times. Brood-temples run through the undercity beneath the southern hive districts. |
-| Ossvarn | Minor | The Last Rite | 2/2 | Shrine world. The priesthood reorganised its liturgy around funerary rites in the year the Astronomican failed. Catacomb-cities extend three kilometres below the surface, walled with reliquary bone. Surface cathedrals stand empty and unlocked. Cycle 4 Supply Crisis: Supply 35, Manpower 34 (40 base minus 1 fleet-loss debit minus 5 crisis). |
+| Ossvarn | Minor | The Last Rite | 2/2 | Shrine world. The priesthood reorganised its liturgy around funerary rites in the year the Astronomican failed. Catacomb-cities extend three kilometres below the surface, walled with reliquary bone. Surface cathedrals stand empty and unlocked. Current Supply 40, Manpower 40, derived from full defence; erroneous crisis and fleet-loss resource debits rescinded. |
 | Kelmar | Minor | The Star-Blessed | 2/2 | Mining colony. Deep-shaft extraction operated entirely by cult labour. The shrine at the base of the primary shaft has held continuous service for six generations. |
 
 **In-System Fleets:**
 - Splinter Fleet Cerberus: The Star-Mother (11/12 — Mobile Capital; not Defended)
 - Splinter Fleet Cerberus: The First Hunger (1/5)
 - The Star-Blessed: Star-Blessed Brood Vessels (5/5)
-**Cycle 2 loss:** Ossvarn Funerary Fleet destroyed by Warp Storm (1/5 → 0). Last Rite fleet-loss Manpower debit: Ossvarn 40 → 39; Supply 40. No active Last Rite fleet remains.
+**Cycle 2 loss:** Ossvarn Funerary Fleet destroyed by Warp Storm (1/5 → 0). No Independent resource deduction: Ossvarn remains 40 Supply / 40 Manpower. No active Last Rite fleet remains.
 
-**Cycle 1 loss:** Kelmar Ore Haulers (1/5 → 0) destroyed by Warp Storm. The Star-Blessed incur -1 Manpower for fleet destruction; allocation under the per-planet Independent resource rules is pending adjudication.
+**Cycle 1 loss:** Kelmar Ore Haulers (1/5 → 0) destroyed by Warp Storm. No Independent Minor Faction Manpower loss applies; the earlier debit was rescinded.
 
 **Cycle 1 history:** Star-Mother counted as a fleet for Warp Storm (12/12 → 11/12); then paid 1 defence to initiate battle and lost 2 defence on defeat (now 8/12). Movement prohibition expired at the start of Cycle 2. Ossvarn remains 1/5 after winning; Star-Blessed Brood Vessels recovered to 5/5 at Cycle end.
 
@@ -978,7 +980,7 @@ Multi-world Independents each owe **-5 Supply / -5 Manpower once per faction**, 
 **In-System Fleets:**
 - Waaagh! Skarjaw: Skarjaw's Big Hulk (5/5), Da Krumpin' Krooza (4/5)
 
-**Cycle 2 loss:** Grotmire Scrap Barges destroyed by Warp Storm (1/5 → 0). Waaagh! Skarjaw owes -1 Manpower; allocation among its worlds pending ruling.
+**Cycle 2 loss:** Grotmire Scrap Barges destroyed by Warp Storm (1/5 → 0). No Independent Minor Faction Manpower loss applies; the earlier debit was rescinded.
 
 ---
 
@@ -1081,11 +1083,11 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | Cycle | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus | Result | Narrative Notes |
 |-------|--------------------------|--------------------|-------------------------|--------|-----------------|
-| 1 | Reinforce; turn complete. Supply 10 → 13; Manpower 10. No fleet, social, or construction actions. | Expand Fleet, Reinforce, Build; turn complete. Supply 10 → 9 → 13 → 8; Manpower 10. Widening Circle 5/5. Forge Complex 1/5. No social action. | Fleet Battle defeat; Star-Mother 11 → 10 → 8/12. Rolls 2+10=12 vs 18+1=19; margin 7. Reinforce: Supply 10 → 13; Manpower 10. No social/construction actions. | Cycle 1 complete; Last Rite wins Fleet Battle; no captures | Event check d6=1; event table d6=1. Ordinary fleets -1 strength and movement prohibited for Cycle 1. Kelmar Ore Haulers destroyed. Agreed ruling: Star-Mother counts as a fleet for this event, 12/12 → 11/12 and cannot move this Cycle. Star-Blessed -1 Manpower allocation remains pending ruling. Korps Reinforce grants +3 Supply; Grunwald stays 4/5 at Aschenvald, Sühne 12/12. No attack on Vantry ordered. Vior'la begins Trial’s End Fabrication Array at Mont'au, 1/5 actions; no income until complete. Eligible Independent factions recovered +1 Fleet Strength each (see recovery ledger); Last Rite excluded for combat. Warp Storm expired. Next: Cycle 2 opening event roll, then Korps. |
-| 2 | Expand Fleet: Grunwald 3/5 → 5/5, Supply 13 → 12. Reinforce: Supply 12 → 15; Manpower 10. No social or construction actions; turn complete. | Expand Fleet: Widening Circle 4/5 → 5/5; Supply 8 → 7. Reinforce +4: 7 → 11. Build -5: 11 → 6; Forge Complex 1/5 → 2/5. Manpower 10; no social action; turn complete. | Defend Star-Mother: 7/12 → 11/12; Supply 13 → 9; Manpower 10 → 6. Defended until its Cycle 3 turn. No fleet, social or construction actions. | Cycle 2 complete; no battles or captures | Event check d6=6; event table d6=1. All surviving fleets -1; Star-Mother 8/12 → 7/12. Movement prohibited for Cycle 2. Ossvarn Funerary Fleet and Grotmire Scrap Barges destroyed. Last Rite Manpower at Ossvarn 40 → 39; Skarjaw -1 Manpower allocation pending, alongside prior Star-Blessed debit. Eligible Independent fleet recovery applied once at Cycle end; destroyed fleets remain lost. Next: Cycle 3 Logistics, then event roll. |
+| 1 | Reinforce; turn complete. Supply 10 → 13; Manpower 10. No fleet, social, or construction actions. | Expand Fleet, Reinforce, Build; turn complete. Supply 10 → 9 → 13 → 8; Manpower 10. Widening Circle 5/5. Forge Complex 1/5. No social action. | Fleet Battle defeat; Star-Mother 11 → 10 → 8/12. Rolls 2+10=12 vs 18+1=19; margin 7. Reinforce: Supply 10 → 13; Manpower 10. No social/construction actions. | Cycle 1 complete; Last Rite wins Fleet Battle; no captures | Event check d6=1; event table d6=1. Ordinary fleets -1 strength and movement prohibited for Cycle 1. Kelmar Ore Haulers destroyed. Agreed ruling: Star-Mother counts as a fleet for this event, 12/12 → 11/12 and cannot move this Cycle. Star-Blessed fleet-loss resource debit rescinded under the Cycle 4 ruling. Korps Reinforce grants +3 Supply; Grunwald stays 4/5 at Aschenvald, Sühne 12/12. No attack on Vantry ordered. Vior'la begins Trial’s End Fabrication Array at Mont'au, 1/5 actions; no income until complete. Eligible Independent factions recovered +1 Fleet Strength each (see recovery ledger); Last Rite excluded for combat. Warp Storm expired. Next: Cycle 2 opening event roll, then Korps. |
+| 2 | Expand Fleet: Grunwald 3/5 → 5/5, Supply 13 → 12. Reinforce: Supply 12 → 15; Manpower 10. No social or construction actions; turn complete. | Expand Fleet: Widening Circle 4/5 → 5/5; Supply 8 → 7. Reinforce +4: 7 → 11. Build -5: 11 → 6; Forge Complex 1/5 → 2/5. Manpower 10; no social action; turn complete. | Defend Star-Mother: 7/12 → 11/12; Supply 13 → 9; Manpower 10 → 6. Defended until its Cycle 3 turn. No fleet, social or construction actions. | Cycle 2 complete; no battles or captures | Event check d6=6; event table d6=1. All surviving fleets -1; Star-Mother 8/12 → 7/12. Movement prohibited for Cycle 2. Ossvarn Funerary Fleet and Grotmire Scrap Barges destroyed. Independent fleet-loss resource debits rescinded under the Cycle 4 ruling; Ossvarn remains 40/40. Eligible Independent fleet recovery applied once at Cycle end; destroyed fleets remain lost. Next: Cycle 3 Logistics, then event roll. |
 
 | 3 | Reinforce: Supply 18 → 21; Manpower 13. Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 9 → 13. Build: Supply 13 → 8; Forge Complex 2/5 → 3/5. Manpower 13. Widening Circle 5/5 at Mont’au; no fleet/social action; turn complete. | Create Fleet: The First Hunger 1/5 at Threnholt; Supply 13 → 12; Manpower 10 → 9. No fleet/social/construction actions. Star-Mother 11/12; Defended expired. | Cycle 3 complete; no battles or captures | Opening Logistics applied; event check 3, no event. End resources: Korps 21/13, Vior’la 8/13, Cerberus 12/9. Forge Complex 3/5. Seven Independent fleets recover +1 each (ledger above); others at original maximum or destroyed. |
-| 4 | Awaiting orders | Awaiting turn | Awaiting turn | Opening event resolved: Supply Crisis | Event check 1; table 3. Major resources after -5/-5: Korps 16/8, Vior’la 3/8, Cerberus 7/4. No Logistics. Independent debits recorded above; multi-world allocation pending. |
+| 4 | Awaiting orders | Awaiting turn | Awaiting turn | Opening event resolved: Supply Crisis | Event check 1; table 3. Major resources after -5/-5: Korps 16/8, Vior’la 3/8, Cerberus 7/4. No Logistics. Independent Minor Factions retain defence-derived resources; erroneous crisis and fleet-loss debits rescinded. |
 
 ## Cycle Records
 
