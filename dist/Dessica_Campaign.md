@@ -707,7 +707,7 @@ At the start of each Cycle, before any faction takes its turn, roll 1d6. On a 1 
 
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |---|---|---|---|---|---|---|---|---|---|
-| X | X | Ω | | | | | | |
+| X | X | O | Ω | | | | | | |
 
 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
 |---|---|---|---|---|---|---|---|---|---|
@@ -726,7 +726,7 @@ At the start of each Cycle, before any faction takes its turn, roll 1d6. On a 1 
 - **O** = Past Logistics Cycle (every 3rd cycle)
 - **X** = Past Cycle
 
-**Current Cycle:** 3
+**Current Cycle:** 4
 
 ### Cycle 1 opening event: Warp Storm
 
@@ -807,7 +807,7 @@ Other fleets remain unchanged. All Independent planetary defences are already fu
 
 ### Cycle 3 opening status
 
-**Phase 0 Logistics complete; Phase 1 event check complete. Korps and Vior’la turns complete; awaiting Cerberus orders.** Star-Mother remains **Defended until Cerberus's Cycle 3 turn**. Star-Blessed and Skarjaw fleet-loss Manpower allocations remain pending.
+**Phase 0 Logistics complete; Phase 1 event check complete. All Cycle 3 faction turns complete.** Star-Mother’s prior Defended status expired when Cerberus’s turn began. Star-Blessed and Skarjaw fleet-loss Manpower allocations remain pending.
 
 | Faction | Before Supply / Manpower | Capital income | Fleet maintenance | After Supply / Manpower |
 |---|---|---|---|---|
@@ -828,16 +828,55 @@ After the final faction's turn, publish its resolved turn, then complete end-of-
 ### Cycle 3 turn progress
 
 - **41st Expeditionary Korps — turn complete:** No Fleet Action; Transit Command Grunwald remains **5/5 at Aschenvald**. Phase 3 Reinforce grants **+3 Supply: 18 → 21**. Manpower remains **13**. No social or construction actions. No battle or dice rolls required. Sühne remains 12/12; no other assets or temporary effects changed.
-- **Vior'la Expedition — turn complete:** The submitted heading said Cycle 2, but the declared starting resources and construction progress match Cycle 3; recorded as Cycle 3. No Fleet Action: Widening Circle remains **5/5 at Mont'au**. Reinforce with The Provisioned Advance: Supply **9 → 13**. No social action. Build: Supply **13 → 8**; Trial’s End Fabrication Array **2/5 → 3/5 actions**, at fully defended Mont'au (12/12). Manpower remains **13**. No battle or dice rolls. No income from the incomplete Forge Complex.
-- **Next faction: Splinter Fleet Cerberus**, awaiting Cycle 3 orders. No event is active. Star-Mother remains Defended until Cerberus's turn begins. No end-of-Cycle recovery or rollover yet.
+- **Vior'la Expedition — turn complete:** The submitted heading said Cycle 2; the user confirmed these orders were for Cycle 3. No Fleet Action: Widening Circle remains **5/5 at Mont'au**. Reinforce with The Provisioned Advance: Supply **9 → 13**. No social action. Build: Supply **13 → 8**; Trial’s End Fabrication Array **2/5 → 3/5 actions**, at fully defended Mont'au (12/12). Manpower remains **13**. No battle or dice rolls. No income from the incomplete Forge Complex.
+- **Splinter Fleet Cerberus — turn complete:** Previous Defended status expires at the start of this turn. No Fleet Action, movement or combat. Create Fleet at the Star-Mother's built-in Orbital Shipyard: **The First Hunger (1/5), Threnholt**. Supply **13 → 12**; Manpower **10 → 9**. Star-Mother remains **11/12**, no longer Defended. No social or construction actions. No dice rolls required.
+- Cycle 3 complete: no battles, captures or fleet losses. End-of-Cycle recovery applied below; Cycle 4 opening follows.
+
+### Cycle 3 end-of-Cycle recovery
+
+No Independent faction fought this Cycle. Apply one Fleet Strength per eligible faction, using the established strongest-eligible-fleet allocation; original starting maximums still apply.
+
+| Independent faction | Recovery allocation |
+|---|---|
+| Hesperine Guard | None: Watch Flotilla at original maximum 4/5 |
+| Vennick Accord | None: Levy Squadron at original maximum 4/5 |
+| The Star-Blessed | None: Brood Vessels at maximum 5/5; Kelmar fleet destroyed |
+| The Last Rite | None: only fleet destroyed |
+| Forge Anvarrus | The Sanctioned Pattern 3/5 → 4/5 |
+| Waaagh! Skarjaw | Da Krumpin' Krooza 3/5 → 4/5 |
+| Waaagh! Gutrekk | Da Bonegrinda 3/5 → 4/5 |
+| Kabal of the Withered Hand | Sallow Slavers 1/5 → 2/5 |
+| Havren Reclamation | Sevrine's Prerogative 3/5 → 4/5 |
+| Talgrave Dominion | Corrandine Occupation Fleet 3/5 → 4/5 |
+| Corvus Reduction | Drask Archive Escort 1/5 → 2/5 |
+
+All Independent planets are unattacked and already at full defence. Major-faction fleets and the Star-Mother receive no automatic recovery. The First Hunger remains 1/5. Trial’s End Fabrication Array remains 3/5 actions and produces no income. No battles or captures occurred.
+
+### Cycle 4 opening: Supply Crisis
+
+- Cycle 4 is not a Logistics Cycle; no income or maintenance is applied. Next Logistics: Cycle 6.
+- Event check **1d6 = 1**; event table **1d6 = 3 — Supply Crisis**.
+- All factions lose **5 Supply and 5 Manpower**, once. No fleet strength, defence or construction damage; no movement restriction. Resource losses are retained after the event expires and are not charged again per turn.
+
+| Major faction | Before Supply / Manpower | Crisis | After Supply / Manpower |
+|---|---|---|---|
+| 41st Expeditionary Korps | 21 / 13 | -5 / -5 | **16 / 8** |
+| Vior'la Expedition | 8 / 13 | -5 / -5 | **3 / 8** |
+| Splinter Fleet Cerberus | 12 / 9 | -5 / -5 | **7 / 4** |
+
+Single-world Independents: Hesperine Guard at Vantry **60/60 → 55/55**; Vennick Accord at Halstrave **60/60 → 55/55**; Last Rite at Ossvarn **40/39 → 35/34**, retaining its earlier fleet-loss debit.
+
+Multi-world Independents each owe **-5 Supply / -5 Manpower once per faction**, with planetary allocation pending ruling: The Star-Blessed, Forge Anvarrus, Waaagh! Skarjaw, Waaagh! Gutrekk, Kabal of the Withered Hand, Havren Reclamation, Talgrave Dominion and Corvus Reduction. These losses are not waived or multiplied by their number of worlds. Do not resolve resource-sensitive combat against them before allocating the debits. Prior Star-Blessed and Skarjaw -1 Manpower fleet-loss debits also remain owed and unallocated. Proposed allocation awaiting user ruling: charge the largest owned world first, listed order breaking ties.
+
+**Next:** 41st Expeditionary Korps, Cycle 4. No Cycle 4 faction orders have been resolved.
 
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (5/5) — Aschenvald | The Widening Circle (5/5) — Mont'au | None |
-| Supplies (1-100) | 21 | 8 | 13 |
-| Manpower (1-100) | 13 | 13 | 10 |
+| Fleets | Transit Command Grunwald (5/5) — Aschenvald | The Widening Circle (5/5) — Mont'au | The First Hunger (1/5) — Threnholt |
+| Supplies (1-100) | 16 | 3 | 7 |
+| Manpower (1-100) | 8 | 8 | 4 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
 | Constructions | — | Trial’s End Fabrication Array — Forge Complex, Mont'au, 3/5 actions; incomplete | — |
 
@@ -856,7 +895,7 @@ After the final faction's turn, publish its resolved turn, then complete end-of-
 | Planet | Type | Controller | Defense | Notes |
 |--------|------|------------|---------|-------|
 | Sühne | Capital | 41st Expeditionary Korps | 12/12 | Fortress world taken after eleven years of siege. Trench networks radiate from the old citadel across the ash plains, ringed by artillery in concentric emplacements. Tunnel systems run beneath the surface works, their extent known only to the Korps. The rebel curtain walls remain where they fell. |
-| Vantry | Standard (Station) | Hesperine Guard | 4/4 | Orbital defence platform and garrison station. Rotation schedules, munitions inventories, and watch rosters have been maintained without interruption for four decades. Approach lanes are covered by macrocannon batteries that track every hull entering the system. |
+| Vantry | Standard (Station) | Hesperine Guard | 4/4 | Orbital defence platform and garrison station. Rotation schedules, munitions inventories, and watch rosters have been maintained without interruption for four decades. Approach lanes are covered by macrocannon batteries that track every hull entering the system. Cycle 4 Supply Crisis: current Supply 55, Manpower 55. |
 
 **In-System Fleets:**
 - 41st Expeditionary Korps: Transit Command Grunwald (5/5)
@@ -873,7 +912,7 @@ After the final faction's turn, publish its resolved turn, then complete end-of-
 | Planet | Type | Controller | Defense | Notes |
 |--------|------|------------|---------|-------|
 | Mont'au | Capital | Vior'la Expedition | 12/12 | Colony world under active terraforming. Habitation domes and atmospheric processors extend across former tundra, the settlement grid pushing outward each year. Fire caste cadres run live exercises on ground the Earth caste reclaimed a decade ago. Aun'el Shovah'ka's council chamber sits at the centre of the primary dome. Trial’s End Fabrication Array (Forge Complex) under construction: 3/5 actions; no income until complete. |
-| Halstrave | Standard | Vennick Accord | 4/4 | Hive world. Six noble houses occupy a single fortified spire-cluster, their household levies quartered in shared barracks along the lower tiers. Muster rolls run to eight figures. The approach lanes are ranged by house artillery. |
+| Halstrave | Standard | Vennick Accord | 4/4 | Hive world. Six noble houses occupy a single fortified spire-cluster, their household levies quartered in shared barracks along the lower tiers. Muster rolls run to eight figures. The approach lanes are ranged by house artillery. Cycle 4 Supply Crisis: current Supply 55, Manpower 55. |
 
 **In-System Fleets:**
 - Vior'la Expedition: The Widening Circle (5/5)
@@ -885,18 +924,19 @@ After the final faction's turn, publish its resolved turn, then complete end-of-
 
 ### Threnholt System (Contested — Splinter Fleet Cerberus)
 
-**Void Superiority:** Splinter Fleet Cerberus: 11 vs Independents: 5 — Splinter Fleet Cerberus
+**Void Superiority:** Splinter Fleet Cerberus: 12 vs Independents: 5 — Splinter Fleet Cerberus
 
 *The vox-towers in Threnholt's northern arcologies cycle a distress pattern on Imperial military frequencies that carries no further than the system boundary. The Shadow in the Warp arrived ahead of the Star-Mother and closed the astropathic channels behind it. The brood has spent two decades working the tunnel approaches beneath the arcologies. On Ossvarn the Last Rite sealed the outer catacombs the week the Hive Ship crossed the boundary and has held its services underground since. Spore clouds reached the upper atmosphere of both worlds in the third month.*
 
 | Planet | Type | Controller | Defense | Notes |
 |--------|------|------------|---------|-------|
 | Threnholt | Standard | The Star-Blessed | 4/4 | Civilised world. The cult holds the southern continent and the planetary government; the northern arcologies remain in loyalist hands and are supplied by a rail line the brood has cut four times. Brood-temples run through the undercity beneath the southern hive districts. |
-| Ossvarn | Minor | The Last Rite | 2/2 | Shrine world. The priesthood reorganised its liturgy around funerary rites in the year the Astronomican failed. Catacomb-cities extend three kilometres below the surface, walled with reliquary bone. Surface cathedrals stand empty and unlocked. Cycle 2 fleet-loss debit: current Manpower 39 (40 base minus 1); Supply 40. |
+| Ossvarn | Minor | The Last Rite | 2/2 | Shrine world. The priesthood reorganised its liturgy around funerary rites in the year the Astronomican failed. Catacomb-cities extend three kilometres below the surface, walled with reliquary bone. Surface cathedrals stand empty and unlocked. Cycle 4 Supply Crisis: Supply 35, Manpower 34 (40 base minus 1 fleet-loss debit minus 5 crisis). |
 | Kelmar | Minor | The Star-Blessed | 2/2 | Mining colony. Deep-shaft extraction operated entirely by cult labour. The shrine at the base of the primary shaft has held continuous service for six generations. |
 
 **In-System Fleets:**
-- Splinter Fleet Cerberus: The Star-Mother (11/12 — Mobile Capital; Defended until Cerberus’s Cycle 3 turn)
+- Splinter Fleet Cerberus: The Star-Mother (11/12 — Mobile Capital; not Defended)
+- Splinter Fleet Cerberus: The First Hunger (1/5)
 - The Star-Blessed: Star-Blessed Brood Vessels (5/5)
 **Cycle 2 loss:** Ossvarn Funerary Fleet destroyed by Warp Storm (1/5 → 0). Last Rite fleet-loss Manpower debit: Ossvarn 40 → 39; Supply 40. No active Last Rite fleet remains.
 
@@ -908,7 +948,7 @@ After the final faction's turn, publish its resolved turn, then complete end-of-
 
 ### Anvarrus System (Independent — Forge Anvarrus)
 
-**Void Superiority:** Forge Anvarrus: 10 — Forge Anvarrus
+**Void Superiority:** Forge Anvarrus: 11 — Forge Anvarrus
 
 *Magos-Dominus Thelk received four recall orders from Mars across six years. All four are archived on Thelk's Rest, sealed in the same vault as the research they were issued to halt. Three manufactorum districts on Anvarrus have been under quarantine since the reclamation yard incident. Skitarii cohorts hold the cordon and log every entry.*
 
@@ -919,13 +959,13 @@ After the final faction's turn, publish its resolved turn, then complete end-of-
 | Thelk's Rest | Minor (Station) | Forge Anvarrus | 2/2 | Research station and biologis facility. Vat-farms, specimen storage, and the sealed archive vault. Access requires Thelk's personal cipher. |
 
 **In-System Fleets:**
-- Forge Anvarrus: Omnissian Vigil (5/5), The Sanctioned Pattern (3/5), Corvid Ore Escort (2/5)
+- Forge Anvarrus: Omnissian Vigil (5/5), The Sanctioned Pattern (4/5), Corvid Ore Escort (2/5)
 
 ---
 
 ### Skarjaw System (Independent — Waaagh! Skarjaw)
 
-**Void Superiority:** Waaagh! Skarjaw: 8 — Waaagh! Skarjaw
+**Void Superiority:** Waaagh! Skarjaw: 9 — Waaagh! Skarjaw
 
 *Skarjaw's throne is the prow of an Imperial escort, cut free and stood upright in the middle of the Yard. He took the ship six years ago. The Meks are still arguing over the rest of the hull, and the argument has cost eleven of them so far.*
 
@@ -936,7 +976,7 @@ After the final faction's turn, publish its resolved turn, then complete end-of-
 | Dakkatoof | Minor | Waaagh! Skarjaw | 2/2 | Raider staging ground. Launch pads cut into bedrock, hangar frames raised from scaffold and sheet plate. The Mek population runs to the thousands and the weapon shops never go dark. |
 
 **In-System Fleets:**
-- Waaagh! Skarjaw: Skarjaw's Big Hulk (5/5), Da Krumpin' Krooza (3/5)
+- Waaagh! Skarjaw: Skarjaw's Big Hulk (5/5), Da Krumpin' Krooza (4/5)
 
 **Cycle 2 loss:** Grotmire Scrap Barges destroyed by Warp Storm (1/5 → 0). Waaagh! Skarjaw owes -1 Manpower; allocation among its worlds pending ruling.
 
@@ -944,7 +984,7 @@ After the final faction's turn, publish its resolved turn, then complete end-of-
 
 ### Gutrekk System (Independent — Waaagh! Gutrekk)
 
-**Void Superiority:** Waaagh! Gutrekk: 8 — Waaagh! Gutrekk
+**Void Superiority:** Waaagh! Gutrekk: 9 — Waaagh! Gutrekk
 
 *Gutrekk and Skarjaw fought each other for eleven years before either of them reached Dessica. The Rok came down on Bonegrind hard enough to crack the crust. Gutrekk's Boyz have painted the range markers on the surface batteries in Skarjaw's colours.*
 
@@ -954,13 +994,13 @@ After the final faction's turn, publish its resolved turn, then complete end-of-
 | Bonegrind | Minor | Waaagh! Gutrekk | 2/2 | Mining world stripped to bedrock. Extraction gear has been cut down and rebuilt into vehicle frames and gun mounts. The pit heads stand open and empty. |
 
 **In-System Fleets:**
-- Waaagh! Gutrekk: Gutrekk's Rok Fleet (5/5), Da Bonegrinda (3/5)
+- Waaagh! Gutrekk: Gutrekk's Rok Fleet (5/5), Da Bonegrinda (4/5)
 
 ---
 
 ### Vashenne System (Independent — Kabal of the Withered Hand)
 
-**Void Superiority:** Kabal of the Withered Hand: 6 — Kabal of the Withered Hand
+**Void Superiority:** Kabal of the Withered Hand: 7 — Kabal of the Withered Hand
 
 *The culling schedule on Vashenne runs on a two-hundred-day cycle. Kabalite crews work the northern hemisphere while the southern population is left to breed, then the hemispheres are exchanged. Archon Yssareth's court reviews the yield figures at the close of each cycle and revises the quotas. The portal in the polar wastes carries the take back to Commorragh within the hour.*
 
@@ -971,13 +1011,13 @@ After the final faction's turn, publish its resolved turn, then complete end-of-
 | Threnn | Minor (Station) | Kabal of the Withered Hand | 2/2 | Raiding cache. Captured hulls in various states of stripping, cargo holds sorted by origin, and the accumulated take of four decades. |
 
 **In-System Fleets:**
-- Kabal of the Withered Hand: The Sculpted Scream (5/5), Sallow Slavers (1/5)
+- Kabal of the Withered Hand: The Sculpted Scream (5/5), Sallow Slavers (2/5)
 
 ---
 
 ### Havren System (Independent — The Havren Reclamation)
 
-**Void Superiority:** Havren Reclamation: 10 — Havren Reclamation
+**Void Superiority:** Havren Reclamation: 11 — Havren Reclamation
 
 *The Havren Warrant of Trade hangs in the receiving hall on Havren's Claim, nineteen signatures deep, the most recent countersigned by a Lord Militant four centuries dead. Lady Reclaimant Sevrine Havren receives petitioners beneath it. Her escorts run the patrol routes her grandmother set, and the tariff schedules are still enforced at Merrow.*
 
@@ -988,13 +1028,13 @@ After the final faction's turn, publish its resolved turn, then complete end-of-
 | Merrow | Minor (Station) | Havren Reclamation | 2/2 | Refuelling depot and shipyard annex. Drydocks handle hulls up to cruiser tonnage. Tariff office sits at the station's primary approach. |
 
 **In-System Fleets:**
-- Havren Reclamation: The Nineteenth Warrant (5/5), Sevrine's Prerogative (3/5), Merrow Tender Group (2/5)
+- Havren Reclamation: The Nineteenth Warrant (5/5), Sevrine's Prerogative (4/5), Merrow Tender Group (2/5)
 
 ---
 
 ### Talgrave System (Independent — The Talgrave Dominion)
 
-**Void Superiority:** Talgrave Dominion: 10 — Talgrave Dominion
+**Void Superiority:** Talgrave Dominion: 11 — Talgrave Dominion
 
 *Governor Aurelian Vosk continues to file tithe assessments. They accumulate in the Palatine Spire's records office, bound and sealed by year, addressed to an Administratum that has not acknowledged receipt in four decades. Corrandine's governor declined the Dominion's protection in the eleventh year. The occupation garrison has held his capital since.*
 
@@ -1005,13 +1045,13 @@ After the final faction's turn, publish its resolved turn, then complete end-of-
 | Sest | Minor | Talgrave Dominion | 2/2 | Agricultural world. Serf-worked estates under manor-house administration, feeding Talgrave's hives on a fixed shipping quota. The militia is equipped for crowd suppression. |
 
 **In-System Fleets:**
-- Talgrave Dominion: The Palatine Guard (5/5), Corrandine Occupation Fleet (3/5), Sest Patrol Wing (2/5)
+- Talgrave Dominion: The Palatine Guard (5/5), Corrandine Occupation Fleet (4/5), Sest Patrol Wing (2/5)
 
 ---
 
 ### Ketterin System (Independent — The Corvus Reduction)
 
-**Void Superiority:** Corvus Reduction: 6 — Corvus Reduction
+**Void Superiority:** Corvus Reduction: 7 — Corvus Reduction
 
 *Thelk's envoys came to Ketterin in the fourteenth year. The Reduction received them in the outer chamber, observed the full ritual courtesies, and escorted them back to their shuttle within the hour. Drask's archive has been closed to Anvarrus ciphers by standing order since. The Reduction produces three sanctioned patterns and declines all other commissions.*
 
@@ -1022,7 +1062,7 @@ After the final faction's turn, publish its resolved turn, then complete end-of-
 | Drask | Minor | Corvus Reduction | 2/2 | Archive vault and cogitator bank. The Reduction's pattern records and doctrinal texts, held behind physical seals and a Skitarii watch. |
 
 **In-System Fleets:**
-- Corvus Reduction: The Sealed Codex (5/5), Drask Archive Escort (1/5)
+- Corvus Reduction: The Sealed Codex (5/5), Drask Archive Escort (2/5)
 
 ---
 
@@ -1033,7 +1073,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | Asset | Type | Controller | Strength | Location | Notes |
 |-------|------|------------|----------|----------|-------|
-| The Star-Mother | Hive Ship (Mobile Capital) | Splinter Fleet Cerberus | 11/12 | Threnholt System | The splinter's reproductive core and the Norn Queen's vessel. Where it drifts, the swarm follows. Cycle 1: Warp Storm -1 defence; Fleet Battle initiation -1; defeat against the Last Rite -2. Cycle 2 Warp Storm reduced defence to 7/12; Defend restored +4 to 11/12. Defended until Cerberus’s Cycle 3 turn. Warp Storm movement restriction has expired. |
+| The Star-Mother | Hive Ship (Mobile Capital) | Splinter Fleet Cerberus | 11/12 | Threnholt System | The splinter's reproductive core and the Norn Queen's vessel. Where it drifts, the swarm follows. Cycle 1: Warp Storm -1 defence; Fleet Battle initiation -1; defeat against the Last Rite -2. Cycle 2 Warp Storm reduced defence to 7/12; Defend restored +4 to 11/12. Previous Defended status expired at the start of Cerberus’s Cycle 3 turn. Created The First Hunger (1/5) at its shipyard. Warp Storm movement restriction has expired. |
 
 ---
 
@@ -1044,7 +1084,8 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 | 1 | Reinforce; turn complete. Supply 10 → 13; Manpower 10. No fleet, social, or construction actions. | Expand Fleet, Reinforce, Build; turn complete. Supply 10 → 9 → 13 → 8; Manpower 10. Widening Circle 5/5. Forge Complex 1/5. No social action. | Fleet Battle defeat; Star-Mother 11 → 10 → 8/12. Rolls 2+10=12 vs 18+1=19; margin 7. Reinforce: Supply 10 → 13; Manpower 10. No social/construction actions. | Cycle 1 complete; Last Rite wins Fleet Battle; no captures | Event check d6=1; event table d6=1. Ordinary fleets -1 strength and movement prohibited for Cycle 1. Kelmar Ore Haulers destroyed. Agreed ruling: Star-Mother counts as a fleet for this event, 12/12 → 11/12 and cannot move this Cycle. Star-Blessed -1 Manpower allocation remains pending ruling. Korps Reinforce grants +3 Supply; Grunwald stays 4/5 at Aschenvald, Sühne 12/12. No attack on Vantry ordered. Vior'la begins Trial’s End Fabrication Array at Mont'au, 1/5 actions; no income until complete. Eligible Independent factions recovered +1 Fleet Strength each (see recovery ledger); Last Rite excluded for combat. Warp Storm expired. Next: Cycle 2 opening event roll, then Korps. |
 | 2 | Expand Fleet: Grunwald 3/5 → 5/5, Supply 13 → 12. Reinforce: Supply 12 → 15; Manpower 10. No social or construction actions; turn complete. | Expand Fleet: Widening Circle 4/5 → 5/5; Supply 8 → 7. Reinforce +4: 7 → 11. Build -5: 11 → 6; Forge Complex 1/5 → 2/5. Manpower 10; no social action; turn complete. | Defend Star-Mother: 7/12 → 11/12; Supply 13 → 9; Manpower 10 → 6. Defended until its Cycle 3 turn. No fleet, social or construction actions. | Cycle 2 complete; no battles or captures | Event check d6=6; event table d6=1. All surviving fleets -1; Star-Mother 8/12 → 7/12. Movement prohibited for Cycle 2. Ossvarn Funerary Fleet and Grotmire Scrap Barges destroyed. Last Rite Manpower at Ossvarn 40 → 39; Skarjaw -1 Manpower allocation pending, alongside prior Star-Blessed debit. Eligible Independent fleet recovery applied once at Cycle end; destroyed fleets remain lost. Next: Cycle 3 Logistics, then event roll. |
 
-| 3 | Reinforce: Supply 18 → 21; Manpower 13. Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 9 → 13. Build: Supply 13 → 8; Forge Complex 2/5 → 3/5. Manpower 13. Widening Circle 5/5 at Mont’au; no fleet/social action; turn complete. | Awaiting orders | Korps and Vior’la turns complete; Logistics complete; no event | Korps 18 Supply/13 Manpower; Vior’la 9/13; Cerberus 13/10. Capital income applied, ordinary fleet maintenance paid. Star-Mother exempt from maintenance; Defended until Cerberus turn. Forge Complex 2/5, no income. |
+| 3 | Reinforce: Supply 18 → 21; Manpower 13. Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 9 → 13. Build: Supply 13 → 8; Forge Complex 2/5 → 3/5. Manpower 13. Widening Circle 5/5 at Mont’au; no fleet/social action; turn complete. | Create Fleet: The First Hunger 1/5 at Threnholt; Supply 13 → 12; Manpower 10 → 9. No fleet/social/construction actions. Star-Mother 11/12; Defended expired. | Cycle 3 complete; no battles or captures | Opening Logistics applied; event check 3, no event. End resources: Korps 21/13, Vior’la 8/13, Cerberus 12/9. Forge Complex 3/5. Seven Independent fleets recover +1 each (ledger above); others at original maximum or destroyed. |
+| 4 | Awaiting orders | Awaiting turn | Awaiting turn | Opening event resolved: Supply Crisis | Event check 1; table 3. Major resources after -5/-5: Korps 16/8, Vior’la 3/8, Cerberus 7/4. No Logistics. Independent debits recorded above; multi-world allocation pending. |
 
 ## Cycle Records
 
@@ -1068,3 +1109,13 @@ But the major powers refuse to yield! At Sühne’s capital yards, the 41st Expe
 In Threnholt, the swarm turns inward. Scarred by battle and the renewed storm, the Star-Mother commits its reserves to regeneration. Its wounds close, its defences strengthen, and Cerberus prepares to weather the next assault.
 
 No armies clash. No worlds change hands. Yet the storm has succeeded where enemy guns failed, erasing fleets that will never return. As the survivors repair their vessels and the third Cycle approaches, Dessica’s commanders face a new test: supplying the forces they have struggled to preserve!
+
+### Cycle 3
+
+**A fragile respite!** After two Cycles of punishing Warp Storms, Dessica's void lanes fall quiet. The first Logistics Cycle brings fresh provisions to the major powers—but every fleet must be supplied, and every commander must choose how to spend the relief.
+
+On Sühne, Lord Marshal Kolbrant builds his reserves while Transit Command Grunwald holds position at full strength. Across the subsector, the Vior'la Expedition pours another shipment into Trial’s End Fabrication Array. Three stages are complete, two remain, and the great works have yet to deliver their first supplies.
+
+In Threnholt, a new threat takes shape! From the Star-Mother's living shipyards emerges The First Hunger, a fledgling fleet bound to the will of Cerberus. The hive ship remains scarred, but it no longer waits alone.
+
+No guns decide this Cycle. No world changes hands. Independent dockyards restore battered formations as Dessica's rivals gather strength. With reserves counted and a new swarm in the void, the struggle for the subsector enters its fourth year!
