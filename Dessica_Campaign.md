@@ -781,17 +781,18 @@ All Independent planets were unattacked and already at maximum defence, so plane
 
 - **41st Expeditionary Korps — turn complete:** Phase 2 Expand Fleet at Sühne's established capital yards: Supply **13 → 12**; Transit Command Grunwald **3/5 → 5/5**, remaining at Aschenvald. This action is permitted during Warp Storm; no movement occurs. Phase 3 Reinforce: Supply **12 → 15**. Manpower remains **10**. No social or construction actions, no battle, and no dice rolls required.
 - Sühne remains **12/12**. The Korps now has Void Superiority in Aschenvald: **5 vs Hesperine Guard 3**. Warp Storm movement restrictions remain active through Cycle 2.
-- **Next faction: Vior'la Expedition**, awaiting Cycle 2 orders. Cerberus has not yet acted this Cycle. No end-of-Cycle recovery or construction progress is applied at this point.
+- **Vior'la Expedition — turn complete:** Phase 2 Expand Fleet at Mont'au's built-in Orbital Shipyard: Supply **8 → 7**, Widening Circle **4/5 → 5/5**, remaining at Mont'au. Phase 3 Reinforce with The Provisioned Advance: Supply **7 → 11**. No social action. Phase 5 Build: Supply **11 → 6**, Trial’s End Fabrication Array (Major Forge Complex) **1/5 → 2/5 actions**, on fully defended Mont'au (12/12). Manpower remains **10**. No battle or dice rolls. The incomplete Forge Complex grants no income.
+- **Next faction: Splinter Fleet Cerberus**, awaiting Cycle 2 orders. Warp Storm remains active. No end-of-Cycle recovery is applied yet.
 
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (5/5) — Aschenvald | The Widening Circle (4/5) — Mont'au | None |
-| Supplies (1-100) | 15 | 8 | 13 |
+| Fleets | Transit Command Grunwald (5/5) — Aschenvald | The Widening Circle (5/5) — Mont'au | None |
+| Supplies (1-100) | 15 | 6 | 13 |
 | Manpower (1-100) | 10 | 10 | 10 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
-| Constructions | — | Trial’s End Fabrication Array — Forge Complex, Mont'au, 1/5 actions; incomplete | — |
+| Constructions | — | Trial’s End Fabrication Array — Forge Complex, Mont'au, 2/5 actions; incomplete | — |
 
 **AI vs AI Ground Battle Resolution:** Both factions roll d20 + Fleet Strength in System + Supply + Manpower. Attacker commits Manpower equal to base damage (fleet strength only); Defender commits half of total damage to planet (including bonuses, rounded down). Highest total wins. If the defender used the Defend action, their roll gains +15. Winner returns 60% committed Manpower (rounded down), loser loses 100%. **All calculations use resource values after attack costs (scaled by world type) and Manpower commitments are deducted.**
 
@@ -818,20 +819,20 @@ All Independent planets were unattacked and already at maximum defence, so plane
 
 ### Mont'au System (Vior'la Expedition)
 
-**Void Superiority:** Vior'la Expedition: 4 vs Vennick Accord: 3 — Vior'la Expedition
+**Void Superiority:** Vior'la Expedition: 5 vs Vennick Accord: 3 — Vior'la Expedition
 
 *The primary dome went up in the second year; the processors began cycling atmosphere in the fourth. Halstrave returns every envoy the Expedition sends — alive, gifts intact, each carrying a written statement of the terms under which the six houses will discuss the future of the system. The terms have not been revised in thirty years. Shas'o Mont'yr keeps every copy.*
 
 | Planet | Type | Controller | Defense | Notes |
 |--------|------|------------|---------|-------|
-| Mont'au | Capital | Vior'la Expedition | 12/12 | Colony world under active terraforming. Habitation domes and atmospheric processors extend across former tundra, the settlement grid pushing outward each year. Fire caste cadres run live exercises on ground the Earth caste reclaimed a decade ago. Aun'el Shovah'ka's council chamber sits at the centre of the primary dome. Trial’s End Fabrication Array (Forge Complex) under construction: 1/5 actions; no income until complete. |
+| Mont'au | Capital | Vior'la Expedition | 12/12 | Colony world under active terraforming. Habitation domes and atmospheric processors extend across former tundra, the settlement grid pushing outward each year. Fire caste cadres run live exercises on ground the Earth caste reclaimed a decade ago. Aun'el Shovah'ka's council chamber sits at the centre of the primary dome. Trial’s End Fabrication Array (Forge Complex) under construction: 2/5 actions; no income until complete. |
 | Halstrave | Standard | Vennick Accord | 4/4 | Hive world. Six noble houses occupy a single fortified spire-cluster, their household levies quartered in shared barracks along the lower tiers. Muster rolls run to eight figures. The approach lanes are ranged by house artillery. |
 
 **In-System Fleets:**
-- Vior'la Expedition: The Widening Circle (4/5)
+- Vior'la Expedition: The Widening Circle (5/5)
 - Vennick Accord: Accord Levy Squadron (3/5)
 
-**Construction progress:** Trial’s End Fabrication Array — Major Forge Complex, owned by Vior'la Expedition on Mont'au. Begun Cycle 1; **1/5 actions**, 5 Supply spent. Four further Build actions required, each costing 5 Supply and requiring full planetary defences. No benefit while incomplete; completed effect: **+5 Supply per Logistics Cycle**. Planetary damage during construction destroys the project.
+**Construction progress:** Trial’s End Fabrication Array — Major Forge Complex, owned by Vior'la Expedition on Mont'au. Begun Cycle 1; advanced Cycle 2; **2/5 actions**, 10 Supply spent in total. Three further Build actions required, each costing 5 Supply and requiring full planetary defences. No benefit while incomplete; completed effect: **+5 Supply per Logistics Cycle**. Planetary damage during construction destroys the project.
 
 ---
 
@@ -994,7 +995,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 | Cycle | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus | Result | Narrative Notes |
 |-------|--------------------------|--------------------|-------------------------|--------|-----------------|
 | 1 | Reinforce; turn complete. Supply 10 → 13; Manpower 10. No fleet, social, or construction actions. | Expand Fleet, Reinforce, Build; turn complete. Supply 10 → 9 → 13 → 8; Manpower 10. Widening Circle 5/5. Forge Complex 1/5. No social action. | Fleet Battle defeat; Star-Mother 11 → 10 → 8/12. Rolls 2+10=12 vs 18+1=19; margin 7. Reinforce: Supply 10 → 13; Manpower 10. No social/construction actions. | Cycle 1 complete; Last Rite wins Fleet Battle; no captures | Event check d6=1; event table d6=1. Ordinary fleets -1 strength and movement prohibited for Cycle 1. Kelmar Ore Haulers destroyed. Agreed ruling: Star-Mother counts as a fleet for this event, 12/12 → 11/12 and cannot move this Cycle. Star-Blessed -1 Manpower allocation remains pending ruling. Korps Reinforce grants +3 Supply; Grunwald stays 4/5 at Aschenvald, Sühne 12/12. No attack on Vantry ordered. Vior'la begins Trial’s End Fabrication Array at Mont'au, 1/5 actions; no income until complete. Eligible Independent factions recovered +1 Fleet Strength each (see recovery ledger); Last Rite excluded for combat. Warp Storm expired. Next: Cycle 2 opening event roll, then Korps. |
-| 2 | Expand Fleet: Grunwald 3/5 → 5/5, Supply 13 → 12. Reinforce: Supply 12 → 15; Manpower 10. No social or construction actions; turn complete. | Awaiting orders | No turn resolved | Warp Storm active; Korps turn complete | Event check d6=6; event table d6=1. All surviving fleets -1; Star-Mother 8/12 → 7/12. Movement prohibited for Cycle 2. Ossvarn Funerary Fleet and Grotmire Scrap Barges destroyed. Last Rite Manpower at Ossvarn 40 → 39; Skarjaw -1 Manpower allocation pending, alongside prior Star-Blessed debit. |
+| 2 | Expand Fleet: Grunwald 3/5 → 5/5, Supply 13 → 12. Reinforce: Supply 12 → 15; Manpower 10. No social or construction actions; turn complete. | Expand Fleet: Widening Circle 4/5 → 5/5; Supply 8 → 7. Reinforce +4: 7 → 11. Build -5: 11 → 6; Forge Complex 1/5 → 2/5. Manpower 10; no social action; turn complete. | Awaiting orders | Warp Storm active; Korps and Vior'la turns complete | Event check d6=6; event table d6=1. All surviving fleets -1; Star-Mother 8/12 → 7/12. Movement prohibited for Cycle 2. Ossvarn Funerary Fleet and Grotmire Scrap Barges destroyed. Last Rite Manpower at Ossvarn 40 → 39; Skarjaw -1 Manpower allocation pending, alongside prior Star-Blessed debit. |
 
 ## Cycle Records
 
