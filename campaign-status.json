@@ -1,8 +1,8 @@
 {
   "cycle": 5,
-  "phase": "Korps turn complete — awaiting Vior'la Expedition orders",
+  "phase": "Vior'la turn complete — awaiting Splinter Fleet Cerberus orders",
   "event": "No event (Cycle 5 event check: 3)",
-  "nextFaction": "Vior'la Expedition",
-  "updated": "Cycle 5 — Korps Reinforce resolved",
-  "notes": "Korps Reinforce: Supply 16 to 19; Manpower 11. Grunwald 5/5 at Aschenvald; Sühne 12/12. No fleet, social or construction actions. Viorla 7/8, Forge Complex 3/5 incomplete; Cerberus 6/7, First Hunger 3/5 and Star-Mother 11/12 at Threnholt, not Defended. No event or Logistics this Cycle. Await Vior'la, then Cerberus; rollover to Cycle 6 includes Logistics before its event roll."
+  "nextFaction": "Splinter Fleet Cerberus",
+  "updated": "Cycle 5 — Vior'la Reinforce and Build resolved",
+  "notes": "Viorla Reinforce +4 Supply (7 to 11), Build -5 (11 to 6); Manpower 8. Trial’s End Fabrication Array 4/5 actions, incomplete; no income, one Build remaining. Mont'au 12/12; Widening Circle 5/5, no fleet/social actions. Korps 19/11; Cerberus 6/7, First Hunger 3/5 and Star-Mother 11/12 at Threnholt, not Defended. No event or Logistics this Cycle. Await Cerberus; rollover to Cycle 6 includes Logistics before its event roll."
 }

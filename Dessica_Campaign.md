@@ -907,17 +907,18 @@ Other fleets are unchanged. All Independent planets are unattacked and already a
 ### Cycle 5 turn progress
 
 - **41st Expeditionary Korps — turn complete:** No Fleet Action; Transit Command Grunwald remains **5/5 at Aschenvald**. Phase 3 **Reinforce** grants **+3 Supply: 16 → 19**. Manpower remains **11**. No social or construction actions. Sühne remains **12/12**. No battle or dice rolls required.
-- **Next: Vior'la Expedition, Cycle 5**, then Splinter Fleet Cerberus. No event this Cycle. Rollover and Cycle 6 Logistics follow Cerberus's resolved turn.
+- **Vior'la Expedition — turn complete:** No Fleet Action; The Widening Circle remains **5/5 at Mont'au**. Phase 3 **Reinforce** with The Provisioned Advance grants **+4 Supply: 7 → 11**. No social action. Phase 5 **Build** resumes Trial’s End Fabrication Array — Major Forge Complex: **Supply 11 → 6**, construction **3/5 → 4/5 actions**. Mont'au is at full defence **12/12**. Manpower remains **8**. The complex is incomplete and provides no income; one further paid Build action is required. No battle or dice rolls.
+- **Next: Splinter Fleet Cerberus, Cycle 5**. No event this Cycle. Rollover and Cycle 6 Logistics follow Cerberus's resolved turn.
 
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
 | Fleets | Transit Command Grunwald (5/5) — Aschenvald | The Widening Circle (5/5) — Mont'au | The First Hunger (3/5) — Threnholt |
-| Supplies (1-100) | 19 | 7 | 6 |
+| Supplies (1-100) | 19 | 6 | 6 |
 | Manpower (1-100) | 11 | 8 | 7 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
-| Constructions | — | Trial’s End Fabrication Array — Forge Complex, Mont'au, 3/5 actions; incomplete | — |
+| Constructions | — | Trial’s End Fabrication Array — Forge Complex, Mont'au, 4/5 actions; incomplete | — |
 
 **AI vs AI Ground Battle Resolution:** Both factions roll d20 + Fleet Strength in System + Supply + Manpower. Attacker commits Manpower equal to base damage (fleet strength only); Defender commits half of total damage to planet (including bonuses, rounded down). Highest total wins. If the defender used the Defend action, their roll gains +15. Winner returns 60% committed Manpower (rounded down), loser loses 100%. **All calculations use resource values after attack costs (scaled by world type) and Manpower commitments are deducted.**
 
@@ -950,14 +951,14 @@ Other fleets are unchanged. All Independent planets are unattacked and already a
 
 | Planet | Type | Controller | Defense | Notes |
 |--------|------|------------|---------|-------|
-| Mont'au | Capital | Vior'la Expedition | 12/12 | Colony world under active terraforming. Habitation domes and atmospheric processors extend across former tundra, the settlement grid pushing outward each year. Fire caste cadres run live exercises on ground the Earth caste reclaimed a decade ago. Aun'el Shovah'ka's council chamber sits at the centre of the primary dome. Trial’s End Fabrication Array (Forge Complex) under construction: 3/5 actions; no income until complete. |
+| Mont'au | Capital | Vior'la Expedition | 12/12 | Colony world under active terraforming. Habitation domes and atmospheric processors extend across former tundra, the settlement grid pushing outward each year. Fire caste cadres run live exercises on ground the Earth caste reclaimed a decade ago. Aun'el Shovah'ka's council chamber sits at the centre of the primary dome. Trial’s End Fabrication Array (Forge Complex) under construction: 4/5 actions; no income until complete. |
 | Halstrave | Standard | Vennick Accord | 4/4 | Hive world. Six noble houses occupy a single fortified spire-cluster, their household levies quartered in shared barracks along the lower tiers. Muster rolls run to eight figures. The approach lanes are ranged by house artillery. Current Supply 60, Manpower 60, derived from full defence; Independent Minor Faction resource ruling applies. |
 
 **In-System Fleets:**
 - Vior'la Expedition: The Widening Circle (5/5)
 - Vennick Accord: Accord Levy Squadron (4/5)
 
-**Construction progress:** Trial’s End Fabrication Array — Major Forge Complex, owned by Vior'la Expedition on Mont'au. Begun Cycle 1; advanced Cycles 2 and 3; **3/5 actions**, 15 Supply spent in total. No Build action in Cycle 4; progress retained at 3/5. Two further Build actions required, each costing 5 Supply and requiring full planetary defences. No benefit while incomplete; completed effect: **+5 Supply per Logistics Cycle**. Planetary damage during construction destroys the project.
+**Construction progress:** Trial’s End Fabrication Array — Major Forge Complex, owned by Vior'la Expedition on Mont'au. Begun Cycle 1; advanced Cycles 2, 3 and 5; **4/5 actions**, 20 Supply spent in total. No Build action in Cycle 4; resumed in Cycle 5. One further Build action required, costing 5 Supply and requiring full planetary defences. No benefit while incomplete; completed effect: **+5 Supply per Logistics Cycle**. Planetary damage during construction destroys the project.
 
 ---
 
@@ -1125,7 +1126,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 3 | Reinforce: Supply 18 → 21; Manpower 13. Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 9 → 13. Build: Supply 13 → 8; Forge Complex 2/5 → 3/5. Manpower 13. Widening Circle 5/5 at Mont’au; no fleet/social action; turn complete. | Create Fleet: The First Hunger 1/5 at Threnholt; Supply 13 → 12; Manpower 10 → 9. No fleet/social/construction actions. Star-Mother 11/12; Defended expired. | Cycle 3 complete; no battles or captures | Opening Logistics applied; event check 3, no event. End resources: Korps 21/13, Vior’la 8/13, Cerberus 12/9. Forge Complex 3/5. Seven Independent fleets recover +1 each (ledger above); others at original maximum or destroyed. |
 | 4 | Muster: Manpower 8 → 11 (+1,800 trained combat personnel). Supply 16; Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 3 → 7; Manpower 8. Widening Circle 5/5 at Mont'au. No fleet/social/construction actions; Forge Complex remains 3/5, incomplete. Turn complete. | Expand Fleet: First Hunger 1/5 → 3/5 at Threnholt, Supply 7 → 6. Muster: Manpower 4 → 7. Star-Mother 11/12, not Defended. No movement, combat, social or construction actions. Turn complete. | Cycle 4 complete; no battles or captures | Event check 1; table 3. Major resources after -5/-5: Korps 16/8, Vior’la 3/8, Cerberus 7/4. No Logistics. End resources: Korps 16/11, Vior’la 7/8, Cerberus 6/7. Independent recovery applied (ledger above); resources remain defence-derived. |
-| 5 | Reinforce: Supply 16 → 19; Manpower 11. Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Awaiting turn | Awaiting turn | Korps turn complete; awaiting Vior'la | Event check 3; no table roll. No Logistics until Cycle 6. Opening resources: Korps 16/11, Vior’la 7/8, Cerberus 6/7. |
+| 5 | Reinforce: Supply 16 → 19; Manpower 11. Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 7 → 11. Build: Supply 11 → 6; Forge Complex 3/5 → 4/5 at Mont'au 12/12. Manpower 8; Widening Circle 5/5. No fleet/social action; turn complete. | Awaiting turn | Korps and Vior'la complete; awaiting Cerberus | Event check 3; no table roll. No Logistics until Cycle 6. Opening resources: Korps 16/11, Vior’la 7/8, Cerberus 6/7. |
 
 ## Cycle Records
 
