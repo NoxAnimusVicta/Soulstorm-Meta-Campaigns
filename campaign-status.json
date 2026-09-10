@@ -1,8 +1,8 @@
 {
-  "cycle": 2,
-  "phase": "Vior'la turn complete — awaiting Splinter Fleet Cerberus orders",
-  "event": "Warp Storm (event check 6; event table 1)",
-  "nextFaction": "Splinter Fleet Cerberus",
-  "updated": "Cycle 2 — Vior'la turn resolved",
-  "notes": "Korps and Vior'la turns complete. Vior'la Expand Fleet (-1), Reinforce (+4), Build (-5): 6 Supply, 10 Manpower. Widening Circle 5/5 at Mont'au; Trial’s End Fabrication Array 2/5 actions, no income until complete. Mont'au 12/12. Korps 15 Supply/10 Manpower, Grunwald 5/5. Star-Mother 7/12. Warp Storm movement restrictions active. Cerberus orders pending. Star-Blessed and Skarjaw -1 Manpower fleet-loss allocations pending; Last Rite Ossvarn Manpower 39."
+  "cycle": 3,
+  "phase": "Awaiting Cycle 3 Logistics, then opening event roll",
+  "event": "Cycle 3 event not rolled; Cycle 2 Warp Storm expired",
+  "nextFaction": "41st Expeditionary Korps",
+  "updated": "Cycle 2 complete — Cerberus Defend resolved",
+  "notes": "Cerberus Defend: Star-Mother 7/12 to 11/12 at Threnholt, Defended until Cerberus's Cycle 3 turn; 9 Supply, 6 Manpower. No Cycle 2 battles. Eligible Independent recovery applied; destroyed fleets remain lost. Korps 15 Supply/10 Manpower; Vior'la 6/10, Forge Complex 2/5. These are pre-Logistics balances: Cycle 3 Logistics and event roll pending. Star-Blessed and Skarjaw fleet-loss Manpower allocations remain pending. Last Rite Ossvarn Manpower 39."
 }
