@@ -1,8 +1,8 @@
 {
-  "cycle": 3,
-  "phase": "All Cycle 3 turns complete — rollover pending",
-  "event": "No event (Cycle 3 event check: 3)",
-  "nextFaction": "41st Expeditionary Korps (after Cycle 4 opening)",
-  "updated": "Cycle 3 — The First Hunger created",
-  "notes": "Cerberus created The First Hunger 1/5 at Threnholt; Supply 12, Manpower 9. Star-Mother remains 11/12; previous Defended status expired at turn start. No combat or other actions. Korps 21/13, Viorla 8/13; Forge Complex 3/5. Cycle 3 recovery and Cycle 4 opening pending."
+  "cycle": 4,
+  "phase": "Opening event resolved — awaiting 41st Expeditionary Korps orders",
+  "event": "Supply Crisis (event check 1; event table 3): -5 Supply and -5 Manpower per faction",
+  "nextFaction": "41st Expeditionary Korps",
+  "updated": "Cycle 4 — Supply Crisis; Cycle 3 complete",
+  "notes": "No Logistics this Cycle; next Cycle 6. Korps 16 Supply/8 Manpower; Viorla 3/8, Forge Complex 3/5; Cerberus 7/4, First Hunger 1/5 and Star-Mother 11/12 at Threnholt, not Defended. Cycle 3 Independent recovery applied. Vantry and Halstrave 55/55; Ossvarn 35/34. Multi-world Independent crisis allocation pending; each owes -5/-5 once. Prior Star-Blessed and Skarjaw -1 Manpower fleet-loss allocations also pending. Await Korps Cycle 4 orders."
 }
