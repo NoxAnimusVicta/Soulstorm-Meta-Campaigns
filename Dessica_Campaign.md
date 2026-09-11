@@ -709,7 +709,7 @@ At the start of each Cycle, before any faction takes its turn, roll 1d6. On a 1 
 
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |---|---|---|---|---|---|---|---|---|---|
-| X | X | O | X | X | O | X | X | Ω | |
+| X | X | O | X | X | O | X | X | O | Ω |
 
 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
 |---|---|---|---|---|---|---|---|---|---|
@@ -728,7 +728,7 @@ At the start of each Cycle, before any faction takes its turn, roll 1d6. On a 1 
 - **O** = Past Logistics Cycle (every 3rd cycle)
 - **X** = Past Cycle
 
-**Current Cycle:** 9
+**Current Cycle:** 10
 
 ### Cycle 1 opening event: Warp Storm
 
@@ -1032,13 +1032,37 @@ No deficits or repairs. Forge Complex remains complete; its first +5 Supply has 
 - **Splinter Fleet Cerberus — turn complete:** Star-Mother alone performs Uncontested Bombardment on Kelmar: **Supply 23 → 21**, **0 Manpower committed**. No hostile fleets remain in Threnholt. Its **11 strength** gives **2 base damage**, capped to **1 actual damage** by the bombardment floor: **Kelmar 2/2 → 1/2**, still Directorate-controlled. No dice or Ambush modifier applies to this automatic attack; no initiation strength cost. Kelmar resources become **20 Supply / 20 Manpower** (40 × 1/2). No capture, Planet Fall or fleet damage. First Hunger independently uses Expand Fleet at Star-Mother's shipyard: **2/5 → 4/5**, **Supply 21 → 20**; does not contribute to bombardment. Muster: **Manpower 13 → 16**. No social or construction actions. Star-Mother remains **11/12**, not Defended; Cerberus void superiority **15 vs 0**.
 - All Cycle 9 turns complete; recovery and Cycle 10 opening follow.
 
+### Cycle 9 end-of-Cycle recovery
+
+Kelmar was attacked by Uncontested Bombardment: **no defence regeneration**, remaining **1/2**, Directorate-held, with **20 Supply / 20 Manpower**. All other Independent planets are at maximum defence. Destroyed fleets remain lost; all surviving Independent fleets are already at original maximums. No recovery changes. Major fleets and Star-Mother receive no automatic repairs.
+
+**Cycle 9 complete:** Closing Supply / Manpower **Korps 23 / 13, Vior'la 16 / 16, Cerberus 20 / 16**. Kelmar damaged, no captures or fleet losses. First Hunger 4/5; Star-Mother 11/12, not Defended. Forge Complex complete; first Logistics income paid this Cycle.
+
+### Cycle 10 opening: War Fervor
+
+- Cycle 9 **Ambush expires**. No Logistics in Cycle 10; next Logistics **Cycle 12**.
+- Event check **1d6 = 6**, triggered; event table **1d6 = 4 — War Fervor!**
+- Apply **+5 Supply / +5 Manpower** to each Major Faction:
+
+| Faction | Before Supply / Manpower | War Fervor | After Supply / Manpower |
+|---|---|---|---|
+| 41st Expeditionary Korps | 23 / 13 | +5 / +5 | **28 / 18** |
+| Vior'la Expedition | 16 / 16 | +5 / +5 | **21 / 21** |
+| Splinter Fleet Cerberus | 20 / 16 | +5 / +5 | **25 / 21** |
+
+Independent Minor Factions retain their defence-derived per-planet resources rather than Major Faction resource pools; Kelmar stays **20/20** at **1/2** defence. War Fervor's resource award is applied once; these resources are not removed when the event expires. No movement or battle modifiers from War Fervor.
+
+All fleet strengths and locations unchanged. Korps three fleets at **5/5** in Aschenvald (void superiority **15 vs 4**); Viorla two fleets at **5/5** in Mont'au (**10 vs 4**); Cerberus First Hunger **4/5**, Star-Mother **11/12**, not Defended, in Threnholt (**15 vs 0**).
+
+**Next: 41st Expeditionary Korps, Cycle 10.** No Cycle 10 faction turns resolved or pending battles.
+
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
 | Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (5/5) — Mont'au | The First Hunger (4/5) — Threnholt |
-| Supplies (1-100) | 23 | 16 | 20 |
-| Manpower (1-100) | 13 | 16 | 16 |
+| Supplies (1-100) | 28 | 21 | 25 |
+| Manpower (1-100) | 18 | 21 | 21 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
 | Constructions | — | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
 
@@ -1257,7 +1281,9 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 8 | Expand Fleet twice: Wraith 3/5 → 5/5; Imperium’s Eye 1/5 → 3/5 at Sühne shipyard, Supply 19 → 18 → 17. Reinforce 17 → 20. Manpower 12; Grunwald 5/5. No movement/combat/social/construction actions; turn complete. | Expand Fleet: Ember Carried Far 1/5 → 3/5 at Mont'au shipyard; Supply 7 → 6. Reinforce +4: 6 → 10; Manpower 10. Widening Circle 5/5; no movement/combat/social/construction actions; turn complete. | Combined Fleet Battle: First Hunger pays 3/5 → 2/5; Star-Mother 11/12. Rolls 19+13=32 vs 19+1=20; margin 12, Secession Fleet destroyed by 3 damage. No Independent resource loss. Reinforce Supply 17 → 20, Manpower 10. No social/construction action; turn complete. | Cycle 8 complete; Secession Fleet destroyed; no captures | Event check d6=3: no event. No Logistics until Cycle 9. Opening Supply/Manpower: Korps 19/12, Viorla 7/10, Cerberus 17/10. Closing: Korps 20/12, Viorla 10/10, Cerberus 20/10. No recovery changes. |
 
-| 9 | Expand Fleet: Imperium’s Eye 3/5 → 5/5 at Sühne, Supply 21 → 20. Reinforce to 23; Manpower 13. Grunwald and Wraith 5/5. No movement/combat/social/construction actions; turn complete. | Expand Fleet: Ember Carried Far 3/5 → 5/5 at Mont'au; Supply 17 → 16. Muster +4 Manpower: 12 → 16 (+1,280 combat personnel). Widening Circle 5/5; no movement/combat/social/construction actions; turn complete. | Star-Mother alone bombards Kelmar 2/2 → 1/2; Supply 23 → 21, zero Manpower committed. First Hunger expands 2/5 → 4/5, Supply 21 → 20. Muster Manpower 13 → 16. No social/construction actions; turn complete. | All Cycle 9 turns complete; Kelmar damaged, no captures | Logistics applied: Korps 21/13, Viorla 17/12, Cerberus 23/13; first Forge income +5 Supply. Event check 6, table 2: Ambush! Active throughout Cycle 9. |
+| 9 | Expand Fleet: Imperium’s Eye 3/5 → 5/5 at Sühne, Supply 21 → 20. Reinforce to 23; Manpower 13. Grunwald and Wraith 5/5. No movement/combat/social/construction actions; turn complete. | Expand Fleet: Ember Carried Far 3/5 → 5/5 at Mont'au; Supply 17 → 16. Muster +4 Manpower: 12 → 16 (+1,280 combat personnel). Widening Circle 5/5; no movement/combat/social/construction actions; turn complete. | Star-Mother alone bombards Kelmar 2/2 → 1/2; Supply 23 → 21, zero Manpower committed. First Hunger expands 2/5 → 4/5, Supply 21 → 20. Muster Manpower 13 → 16. No social/construction actions; turn complete. | Cycle 9 complete; Kelmar damaged, no captures | Logistics applied: Korps 21/13, Viorla 17/12, Cerberus 23/13; first Forge income +5 Supply. Event check 6, table 2: Ambush! Active throughout Cycle 9. Closing resources Korps 23/13, Viorla 16/16, Cerberus 20/16. Kelmar 1/2, no recovery because attacked. |
+
+| 10 | Awaiting turn | Awaiting turn | Awaiting turn | Opening complete; awaiting Korps | No Logistics. Ambush expired. Event check 6, table 4: War Fervor +5/+5 to Major Factions; Korps 28/18, Viorla 21/21, Cerberus 25/21. Kelmar 1/2, resources 20/20. |
 
 ## Cycle Records
 
@@ -1344,3 +1370,14 @@ Across Dessica, the other powers strengthen their own formations. At Sühne, the
 Cerberus gathers fresh supplies after its victory. The First Hunger has spent strength on three successive offensives, while the Star-Mother remains scarred but unbroken. No world has fallen, and the armies below have yet to face the swarm on the ground.
 
 With Threnholt's defenders stripped of their fleet and the great forge of Mont'au ready to deliver its first supplies, Dessica enters its ninth year. The long preparations have changed the balance above the worlds. What follows will depend on who is willing to make the next move!
+
+
+### Cycle 9
+
+**Fire falls on Kelmar!** With the Directorate's fleet destroyed, the Star-Mother turns its strength against the mining world below. No hostile formation remains to contest the bombardment. Kelmar's defences are battered, but its garrison endures. The world remains in Directorate hands; the final resistance must still be broken on the ground.
+
+Across Dessica, fresh provisions sustain the rival powers. Trial’s End Fabrication Array delivers its first Logistics output, rewarding the Expedition's years of construction. At Mont'au, The Ember Carried Far reaches full strength and twelve hundred and eighty combat personnel join Vior'la's ranks.
+
+At Aschenvald, Imperium’s Eye completes its expansion. All three Korps formations now stand at full fighting strength, while Kolbrant replenishes his stores and keeps his guns silent. The danger of ambush hangs over the Cycle, but no contested battle is joined.
+
+In Threnholt, The First Hunger grows stronger at the Star-Mother's shipyard as fresh broods swell Cerberus's forces. No world changes hands. Yet for the first time, the swarm has carried its offensive from the void to a planet's defences. Dessica approaches its tenth year with Kelmar wounded, its defenders isolated, and the next assault still to come!

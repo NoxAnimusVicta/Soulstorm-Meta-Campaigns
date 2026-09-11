@@ -1,8 +1,8 @@
 {
-  "cycle": 9,
-  "phase": "All Cycle 9 turns complete — rollover pending",
-  "event": "Ambush! (Cycle 9 check: 6; event table: 2)",
-  "nextFaction": "41st Expeditionary Korps (after Cycle 10 opening)",
-  "updated": "Cycle 9 — Kelmar bombarded to 1/2",
-  "notes": "Star-Mother alone bombards Kelmar to 1/2; 2 Supply, zero Manpower committed, no dice. Kelmar remains Directorate-held with defence-derived 20/20 resources; no recovery this Cycle. First Hunger expands to 4/5 for 1 Supply. Muster to 16 Manpower; Cerberus 20/16, Star-Mother 11/12 not Defended, void superiority 15 vs 0. Korps 23/13; Viorla 16/16. Cycle 10 opening pending."
+  "cycle": 10,
+  "phase": "Cycle 10 opening complete — awaiting 41st Expeditionary Korps orders",
+  "event": "War Fervor! (Cycle 10 check: 6; event table: 4)",
+  "nextFaction": "41st Expeditionary Korps",
+  "updated": "Cycle 10 — War Fervor resources awarded",
+  "notes": "Cycle 9 complete: Star-Mother bombards Kelmar to 1/2, still Directorate-held; resources 20/20, no recovery because attacked. First Hunger 4/5; Star-Mother 11/12, not Defended; void superiority 15 vs 0. Ambush expired. Cycle 10 check 6, table 4: War Fervor +5 Supply/+5 Manpower applied once. Korps 28/18, Viorla 21/21, Cerberus 25/21. Independent resources remain defence-derived. No Logistics until Cycle 12. No Cycle 10 turns resolved or pending battles; await Korps."
 }
