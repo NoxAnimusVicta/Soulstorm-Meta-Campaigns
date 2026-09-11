@@ -1,8 +1,8 @@
 {
   "cycle": 8,
-  "phase": "Vior'la turn complete — awaiting Splinter Fleet Cerberus orders",
+  "phase": "All Cycle 8 turns complete — rollover pending",
   "event": "No event (Cycle 8 event check: 3)",
-  "nextFaction": "Splinter Fleet Cerberus",
-  "updated": "Cycle 8 — Viorla expands Ember and reinforces",
-  "notes": "Viorla expands The Ember Carried Far 1/5 to 3/5 at Mont'au shipyard, Supply 7 to 6; Reinforce +4 to 10. Manpower 10. Widening Circle 5/5; Mont'au void superiority 8 vs 4. No movement, combat, social or construction action. Forge Complex complete; first income Cycle 9. Korps 20/12; Cerberus 17/10. Cycle 8 event check 3: no event. Await Cerberus; rollover to Cycle 9 includes Logistics and event after its resolved turn. No pending battles."
+  "nextFaction": "41st Expeditionary Korps (after Cycle 9 opening)",
+  "updated": "Cycle 8 — Secession Fleet destroyed",
+  "notes": "Cerberus wins 32 vs 20, margin 12: 3 damage destroys Secession Fleet. No Independent resource penalty. First Hunger 2/5, Star-Mother 11/12, not Defended; void superiority 13 vs 0. Reinforce to 20 Supply, 10 Manpower. Korps 20/12, Viorla 10/10. Cycle 9 Logistics and event pending."
 }
