@@ -709,7 +709,7 @@ At the start of each Cycle, before any faction takes its turn, roll 1d6. On a 1 
 
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |---|---|---|---|---|---|---|---|---|---|
-| X | X | O | X | X | Ω | | | | |
+| X | X | O | X | X | O | Ω | | | |
 
 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
 |---|---|---|---|---|---|---|---|---|---|
@@ -728,7 +728,7 @@ At the start of each Cycle, before any faction takes its turn, roll 1d6. On a 1 
 - **O** = Past Logistics Cycle (every 3rd cycle)
 - **X** = Past Cycle
 
-**Current Cycle:** 6
+**Current Cycle:** 7
 
 ### Cycle 1 opening event: Warp Storm
 
@@ -946,6 +946,27 @@ Star-Mother is exempt from fleet maintenance; First Hunger is not. Trial’s End
 - **Splinter Fleet Cerberus — turn complete:** Fleet Battle in Threnholt. The First Hunger pays the single initiation cost, **5/5 → 4/5**; the Star-Mother contributes **11** current defence. Both use their Fleet Action. Cerberus rolls **d20 3 + (4 + 11) = 18**; Star-Blessed Brood Vessels roll **d20 7 + 5 = 12**. Cerberus wins by **6**, dealing **2 Fleet Strength damage**: Brood Vessels **5/5 → 3/5**. First Hunger remains **4/5**, Star-Mother **11/12**, not Defended. No fleet destroyed, resource battle loss, planetary damage or capture. Reinforce: **Supply 11 → 14**; Manpower **10**. No social or construction action. Void superiority: Cerberus **15 vs 3**. The Star-Blessed are ineligible for end-Cycle fleet recovery because they fought this Cycle.
 - All Cycle 6 faction turns resolved; end-Cycle recovery and Cycle 7 opening follow.
 
+### Cycle 6 end-of-Cycle recovery
+
+| Independent faction | Recovery |
+|---|---|
+| Forge Anvarrus | Corvid Ore Escort 3/5 → 4/5, original maximum |
+| Havren Reclamation | Merrow Tender Group 3/5 → 4/5, original maximum |
+| Talgrave Dominion | Sest Patrol Wing 3/5 → 4/5, original maximum |
+| The Star-Blessed | No recovery: engaged in Fleet Battle. Brood Vessels remain 3/5; Kelmar Ore Haulers remain destroyed. |
+
+Every other surviving Independent fleet is already at its original maximum. Destroyed fleets remain lost. Independent planets were unattacked and remain at full defence; resources remain defence-derived. No automatic Major fleet or Star-Mother repair. First Hunger remains 4/5 and Star-Mother 11/12. No planets changed hands. Trial’s End Fabrication Array is complete at 5/5; first Logistics income remains Cycle 9.
+
+**Cycle 6 complete.** Closing Supply / Manpower: Korps **21 / 13**, Vior'la **8 / 11**, Cerberus **14 / 10**. Fleet Battle victory for Cerberus; no fleet destruction or captures.
+
+### Cycle 7 opening: event
+
+- **No Logistics:** Cycle 7 is not divisible by three. Next Logistics: **Cycle 9**. No income or maintenance charged at this opening.
+- **Event check: 1d6 = 3 — no event.** No event-table roll required. No active event effects or movement restrictions.
+- Resources unchanged: Korps **21 Supply / 13 Manpower**, Vior'la **8 / 11**, Cerberus **14 / 10**.
+- Fleet locations unchanged: Grunwald **5/5** and Wraith of Krieg **1/5** at Aschenvald; Widening Circle **5/5** at Mont'au; First Hunger **4/5** and Star-Mother **11/12**, not Defended, at Threnholt. Brood Vessels **3/5**. Cerberus retains void superiority **15 vs 3**.
+- **Next: 41st Expeditionary Korps, Cycle 7.** No Cycle 7 faction orders resolved; no pending battle.
+
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
@@ -1024,7 +1045,7 @@ Star-Mother is exempt from fleet maintenance; First Hunger is not. Trial’s End
 
 ### Anvarrus System (Independent — Forge Anvarrus)
 
-**Void Superiority:** Forge Anvarrus: 13 — Forge Anvarrus
+**Void Superiority:** Forge Anvarrus: 14 — Forge Anvarrus
 
 *Magos-Dominus Thelk received four recall orders from Mars across six years. All four are archived on Thelk's Rest, sealed in the same vault as the research they were issued to halt. Three manufactorum districts on Anvarrus have been under quarantine since the reclamation yard incident. Skitarii cohorts hold the cordon and log every entry.*
 
@@ -1035,7 +1056,7 @@ Star-Mother is exempt from fleet maintenance; First Hunger is not. Trial’s End
 | Thelk's Rest | Minor (Station) | Forge Anvarrus | 2/2 | Research station and biologis facility. Vat-farms, specimen storage, and the sealed archive vault. Access requires Thelk's personal cipher. |
 
 **In-System Fleets:**
-- Forge Anvarrus: Omnissian Vigil (5/5), The Sanctioned Pattern (5/5), Corvid Ore Escort (3/5)
+- Forge Anvarrus: Omnissian Vigil (5/5), The Sanctioned Pattern (5/5), Corvid Ore Escort (4/5)
 
 ---
 
@@ -1093,7 +1114,7 @@ Star-Mother is exempt from fleet maintenance; First Hunger is not. Trial’s End
 
 ### Havren System (Independent — The Havren Reclamation)
 
-**Void Superiority:** Havren Reclamation: 13 — Havren Reclamation
+**Void Superiority:** Havren Reclamation: 14 — Havren Reclamation
 
 *The Havren Warrant of Trade hangs in the receiving hall on Havren's Claim, nineteen signatures deep, the most recent countersigned by a Lord Militant four centuries dead. Lady Reclaimant Sevrine Havren receives petitioners beneath it. Her escorts run the patrol routes her grandmother set, and the tariff schedules are still enforced at Merrow.*
 
@@ -1104,13 +1125,13 @@ Star-Mother is exempt from fleet maintenance; First Hunger is not. Trial’s End
 | Merrow | Minor (Station) | Havren Reclamation | 2/2 | Refuelling depot and shipyard annex. Drydocks handle hulls up to cruiser tonnage. Tariff office sits at the station's primary approach. |
 
 **In-System Fleets:**
-- Havren Reclamation: The Nineteenth Warrant (5/5), Sevrine's Prerogative (5/5), Merrow Tender Group (3/5)
+- Havren Reclamation: The Nineteenth Warrant (5/5), Sevrine's Prerogative (5/5), Merrow Tender Group (4/5)
 
 ---
 
 ### Talgrave System (Independent — The Talgrave Dominion)
 
-**Void Superiority:** Talgrave Dominion: 13 — Talgrave Dominion
+**Void Superiority:** Talgrave Dominion: 14 — Talgrave Dominion
 
 *Governor Aurelian Vosk continues to file tithe assessments. They accumulate in the Palatine Spire's records office, bound and sealed by year, addressed to an Administratum that has not acknowledged receipt in four decades. Corrandine's governor declined the Dominion's protection in the eleventh year. The occupation garrison has held his capital since.*
 
@@ -1121,7 +1142,7 @@ Star-Mother is exempt from fleet maintenance; First Hunger is not. Trial’s End
 | Sest | Minor | Talgrave Dominion | 2/2 | Agricultural world. Serf-worked estates under manor-house administration, feeding Talgrave's hives on a fixed shipping quota. The militia is equipped for crowd suppression. |
 
 **In-System Fleets:**
-- Talgrave Dominion: The Palatine Guard (5/5), Corrandine Occupation Fleet (5/5), Sest Patrol Wing (3/5)
+- Talgrave Dominion: The Palatine Guard (5/5), Corrandine Occupation Fleet (5/5), Sest Patrol Wing (4/5)
 
 ---
 
@@ -1163,7 +1184,9 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 | 3 | Reinforce: Supply 18 → 21; Manpower 13. Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 9 → 13. Build: Supply 13 → 8; Forge Complex 2/5 → 3/5. Manpower 13. Widening Circle 5/5 at Mont’au; no fleet/social action; turn complete. | Create Fleet: The First Hunger 1/5 at Threnholt; Supply 13 → 12; Manpower 10 → 9. No fleet/social/construction actions. Star-Mother 11/12; Defended expired. | Cycle 3 complete; no battles or captures | Opening Logistics applied; event check 3, no event. End resources: Korps 21/13, Vior’la 8/13, Cerberus 12/9. Forge Complex 3/5. Seven Independent fleets recover +1 each (ledger above); others at original maximum or destroyed. |
 | 4 | Muster: Manpower 8 → 11 (+1,800 trained combat personnel). Supply 16; Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 3 → 7; Manpower 8. Widening Circle 5/5 at Mont'au. No fleet/social/construction actions; Forge Complex remains 3/5, incomplete. Turn complete. | Expand Fleet: First Hunger 1/5 → 3/5 at Threnholt, Supply 7 → 6. Muster: Manpower 4 → 7. Star-Mother 11/12, not Defended. No movement, combat, social or construction actions. Turn complete. | Cycle 4 complete; no battles or captures | Event check 1; table 3. Major resources after -5/-5: Korps 16/8, Vior’la 3/8, Cerberus 7/4. No Logistics. End resources: Korps 16/11, Vior’la 7/8, Cerberus 6/7. Independent recovery applied (ledger above); resources remain defence-derived. |
 | 5 | Reinforce: Supply 16 → 19; Manpower 11. Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 7 → 11. Build: Supply 11 → 6; Forge Complex 3/5 → 4/5 at Mont'au 12/12. Manpower 8; Widening Circle 5/5. No fleet/social action; turn complete. | Expand Fleet: First Hunger 3/5 → 5/5 at Threnholt, Supply 6 → 5. Reinforce: Supply 5 → 8; Manpower 7. Star-Mother 11/12, not Defended. No movement/combat/social/construction actions; turn complete. | Cycle 5 complete; no battles or captures | Event check 3; no table roll. No Logistics until Cycle 6. Opening resources: Korps 16/11, Vior’la 7/8, Cerberus 6/7. End resources: Korps 19/11, Vior’la 6/8, Cerberus 8/7. Forge Complex 4/5. Independent recovery applied. |
-| 6 | Create Fleet: Wraith of Krieg 1/5 at Aschenvald. Supply 22 → 21; Manpower 14 → 13. Grunwald 5/5; no fleet/social/construction actions. Turn complete. | Reinforce: Supply 9 → 13. Build: Supply 13 → 8; Forge Complex 4/5 → 5/5, completed at Mont'au 12/12. Manpower 11; Widening Circle 5/5. No fleet/social action; turn complete. First Forge income Cycle 9. | Fleet Battle victory: First Hunger pays 5/5 → 4/5; Star-Mother contributes 11. Rolls 3+15=18 vs 7+5=12; margin 6, Brood Vessels 5/5 → 3/5. Both Fleet Actions used. Reinforce Supply 11 → 14; Manpower 10. No social/construction action; turn complete. | All Cycle 6 turns complete; Cerberus wins; no captures | Capital income and ordinary fleet maintenance applied: Korps 22/14, Vior’la 9/11, Cerberus 11/10. Forge Complex incomplete, no income. Event check 3: no event. |
+| 6 | Create Fleet: Wraith of Krieg 1/5 at Aschenvald. Supply 22 → 21; Manpower 14 → 13. Grunwald 5/5; no fleet/social/construction actions. Turn complete. | Reinforce: Supply 9 → 13. Build: Supply 13 → 8; Forge Complex 4/5 → 5/5, completed at Mont'au 12/12. Manpower 11; Widening Circle 5/5. No fleet/social action; turn complete. First Forge income Cycle 9. | Fleet Battle victory: First Hunger pays 5/5 → 4/5; Star-Mother contributes 11. Rolls 3+15=18 vs 7+5=12; margin 6, Brood Vessels 5/5 → 3/5. Both Fleet Actions used. Reinforce Supply 11 → 14; Manpower 10. No social/construction action; turn complete. | Cycle 6 complete; Cerberus wins; no captures | Capital income and ordinary fleet maintenance applied: Korps 22/14, Vior’la 9/11, Cerberus 11/10. Forge Complex incomplete at opening Logistics, no income; completed during Viorla turn. Event check 3: no event. End resources Korps 21/13, Viorla 8/11, Cerberus 14/10. Recovery: Corvid, Merrow and Sest 3/5 → 4/5; Star-Blessed excluded for combat. |
+
+| 7 | Awaiting turn | Awaiting turn | Awaiting turn | Opening complete; awaiting Korps | Event check d6=3: no event. No Logistics until Cycle 9. Opening Supply/Manpower: Korps 21/13, Viorla 8/11, Cerberus 14/10. |
 
 ## Cycle Records
 
@@ -1217,3 +1240,14 @@ On Sühne, Lord Marshal Kolbrant replenishes the Korps' stores while Grunwald ho
 In Threnholt, The First Hunger reaches full fighting strength! Sustained by the Star-Mother's living shipyard, Cerberus's fleet stands ready beside its scarred progenitor. The swarm replenishes its reserves, but makes no move against the worlds below.
 
 Across the Independent systems, the last damaged surviving escorts recover strength. No battle is fought and no world changes hands. As the sixth year approaches, fresh Logistics will give Dessica's commanders another chance to turn patient preparation into conquest!
+
+
+### Cycle 6
+
+**Battle in Threnholt!** Fresh provisions reach Dessica's rival powers, and years of preparation begin to bear fruit. On Sühne, the 41st Expeditionary Korps commissions the Wraith of Krieg. The new formation joins Grunwald above Aschenvald, extending Kolbrant's reach while his armies hold their ground.
+
+At Mont'au, the great works are complete! The final shipment brings Trial’s End Fabrication Array into service. Its first Logistics output lies ahead, but the Vior'la Expedition has secured the industrial foundation it has spent six Cycles building.
+
+Then the swarm strikes! The First Hunger advances beside the immense Star-Mother, bringing their combined strength against the Star-Blessed Brood Vessels. The cult's fleet withstands destruction, but loses the battle. Its battered formations remain in Threnholt as Cerberus tightens its grip on the void.
+
+No world falls. Below the fleets, the old powers retain their holdings. Across the subsector, Independent escorts finish their repairs—but the Star-Blessed receive no such respite. With a new Imperial formation, a completed Tau forge and a victorious swarm, Dessica enters its seventh year beneath the shadow of a wider war!
