@@ -1028,15 +1028,16 @@ No deficits or repairs. Forge Complex remains complete; its first +5 Supply has 
 ### Cycle 9 turn progress
 
 - **41st Expeditionary Korps — turn complete:** Grunwald and Wraith of Krieg take no Fleet Actions, each remaining **5/5 in Aschenvald**. Imperium’s Eye uses Expand Fleet at Sühne's built-in Orbital Shipyard: **3/5 → 5/5**, Supply **21 → 20**. Reinforce grants **+3 Supply: 20 → 23**. Manpower remains **13**. No movement, combat, social or construction action. All three fleets are at full strength; Korps void superiority **15 vs Hesperine Guard 4**. Sühne remains **12/12**. Ambush does not affect these actions; no dice required. Opening Logistics already paid; no additional maintenance.
-- **Next: Vior'la Expedition, Cycle 9.** Ambush remains active until Cycle 10. Next Logistics Cycle 12; Cerberus follows Vior'la.
+- **Vior'la Expedition — turn complete:** Widening Circle takes no Fleet Action, remaining **5/5 at Mont'au**. Ember Carried Far uses Expand Fleet at Mont'au's built-in Orbital Shipyard: **3/5 → 5/5**, Supply **17 → 16**. Muster with The Provisioned Advance grants **+4 Manpower: 12 → 16**, equivalent to **1,280 trained combat personnel** at 320 per Manpower. No movement, combat, social or construction action; no construction expenditure. Both fleets at full strength; void superiority **10 vs Vennick Accord 4**. Mont'au remains **12/12** and Forge Complex complete. No dice required; Ambush does not affect these actions.
+- **Next: Splinter Fleet Cerberus, Cycle 9.** Ambush remains active until Cycle 10; rollover follows Cerberus's resolved turn. Next Logistics Cycle 12.
 
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (3/5) — Mont'au | The First Hunger (2/5) — Threnholt |
-| Supplies (1-100) | 23 | 17 | 23 |
-| Manpower (1-100) | 13 | 12 | 13 |
+| Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (5/5) — Mont'au | The First Hunger (2/5) — Threnholt |
+| Supplies (1-100) | 23 | 16 | 23 |
+| Manpower (1-100) | 13 | 16 | 13 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
 | Constructions | — | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
 
@@ -1065,7 +1066,7 @@ No deficits or repairs. Forge Complex remains complete; its first +5 Supply has 
 
 ### Mont'au System (Vior'la Expedition)
 
-**Void Superiority:** Vior'la Expedition: 8 vs Vennick Accord: 4 — Vior'la Expedition
+**Void Superiority:** Vior'la Expedition: 10 vs Vennick Accord: 4 — Vior'la Expedition
 
 *The primary dome went up in the second year; the processors began cycling atmosphere in the fourth. Halstrave returns every envoy the Expedition sends — alive, gifts intact, each carrying a written statement of the terms under which the six houses will discuss the future of the system. The terms have not been revised in thirty years. Shas'o Mont'yr keeps every copy.*
 
@@ -1075,7 +1076,7 @@ No deficits or repairs. Forge Complex remains complete; its first +5 Supply has 
 | Halstrave | Standard | Vennick Accord | 4/4 | Hive world. Six noble houses occupy a single fortified spire-cluster, their household levies quartered in shared barracks along the lower tiers. Muster rolls run to eight figures. The approach lanes are ranged by house artillery. Current Supply 60, Manpower 60, derived from full defence; Independent Minor Faction resource ruling applies. |
 
 **In-System Fleets:**
-- Vior'la Expedition: The Widening Circle (5/5), The Ember Carried Far (3/5)
+- Vior'la Expedition: The Widening Circle (5/5), The Ember Carried Far (5/5)
 - Vennick Accord: Accord Levy Squadron (4/5)
 
 **Construction progress:** Trial’s End Fabrication Array — Major Forge Complex, owned by Vior'la Expedition on Mont'au. **Completed Cycle 6: 5/5 actions**, 25 Supply spent in total. Build actions in Cycles 1, 2, 3, 5 and 6; none in Cycle 4. Effect: **+5 Supply per Logistics Cycle**. First scheduled income **Cycle 9**, provided retained and operational; no retroactive Cycle 6 income because opening Logistics preceded completion. Major construction capture/destruction and damage rules apply.
@@ -1255,7 +1256,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 8 | Expand Fleet twice: Wraith 3/5 → 5/5; Imperium’s Eye 1/5 → 3/5 at Sühne shipyard, Supply 19 → 18 → 17. Reinforce 17 → 20. Manpower 12; Grunwald 5/5. No movement/combat/social/construction actions; turn complete. | Expand Fleet: Ember Carried Far 1/5 → 3/5 at Mont'au shipyard; Supply 7 → 6. Reinforce +4: 6 → 10; Manpower 10. Widening Circle 5/5; no movement/combat/social/construction actions; turn complete. | Combined Fleet Battle: First Hunger pays 3/5 → 2/5; Star-Mother 11/12. Rolls 19+13=32 vs 19+1=20; margin 12, Secession Fleet destroyed by 3 damage. No Independent resource loss. Reinforce Supply 17 → 20, Manpower 10. No social/construction action; turn complete. | Cycle 8 complete; Secession Fleet destroyed; no captures | Event check d6=3: no event. No Logistics until Cycle 9. Opening Supply/Manpower: Korps 19/12, Viorla 7/10, Cerberus 17/10. Closing: Korps 20/12, Viorla 10/10, Cerberus 20/10. No recovery changes. |
 
-| 9 | Expand Fleet: Imperium’s Eye 3/5 → 5/5 at Sühne, Supply 21 → 20. Reinforce to 23; Manpower 13. Grunwald and Wraith 5/5. No movement/combat/social/construction actions; turn complete. | Awaiting turn | Awaiting turn | Korps complete; awaiting Viorla | Logistics applied: Korps 21/13, Viorla 17/12, Cerberus 23/13; first Forge income +5 Supply. Event check 6, table 2: Ambush! Active throughout Cycle 9. |
+| 9 | Expand Fleet: Imperium’s Eye 3/5 → 5/5 at Sühne, Supply 21 → 20. Reinforce to 23; Manpower 13. Grunwald and Wraith 5/5. No movement/combat/social/construction actions; turn complete. | Expand Fleet: Ember Carried Far 3/5 → 5/5 at Mont'au; Supply 17 → 16. Muster +4 Manpower: 12 → 16 (+1,280 combat personnel). Widening Circle 5/5; no movement/combat/social/construction actions; turn complete. | Awaiting turn | Korps and Viorla complete; awaiting Cerberus | Logistics applied: Korps 21/13, Viorla 17/12, Cerberus 23/13; first Forge income +5 Supply. Event check 6, table 2: Ambush! Active throughout Cycle 9. |
 
 ## Cycle Records
 

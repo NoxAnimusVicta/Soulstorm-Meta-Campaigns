@@ -1,8 +1,8 @@
 {
   "cycle": 9,
-  "phase": "Korps turn complete — awaiting Vior'la Expedition orders",
+  "phase": "Vior'la turn complete — awaiting Splinter Fleet Cerberus orders",
   "event": "Ambush! (Cycle 9 check: 6; event table: 2)",
-  "nextFaction": "Vior'la Expedition",
-  "updated": "Cycle 9 — all Korps fleets at full strength",
-  "notes": "Korps expands Imperium’s Eye 3/5 to 5/5 at Sühne: Supply 21 to 20; Reinforce to 23, Manpower 13. Grunwald and Wraith of Krieg 5/5; all at Aschenvald, void superiority 15 vs 4. No movement, combat, social or construction actions. Viorla 17/12; Cerberus 23/13. Logistics already paid, including first Forge income; next Logistics Cycle 12. Ambush active through Cycle 9: attackers +1 difficulty, defenders -1 difficulty; AI vs AI defender +10 roll. Await Viorla, then Cerberus. No pending battles."
+  "nextFaction": "Splinter Fleet Cerberus",
+  "updated": "Cycle 9 — Viorla expands Ember and musters",
+  "notes": "Viorla expands Ember Carried Far 3/5 to 5/5 at Mont'au: Supply 17 to 16. Muster +4 Manpower: 12 to 16, equivalent to 1,280 combat personnel. Widening Circle 5/5; void superiority 10 vs 4. No movement, combat, social or construction action. Korps 23/13; Cerberus 23/13. Logistics already paid including first Forge income; next Logistics Cycle 12. Ambush remains active through Cycle 9: attackers +1 difficulty, defenders -1 difficulty; AI vs AI defender +10 roll. Await Cerberus; rollover after resolved turn. No pending battles."
 }
