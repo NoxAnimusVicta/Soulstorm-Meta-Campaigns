@@ -1,8 +1,8 @@
 {
   "cycle": 6,
-  "phase": "Vior'la turn complete — awaiting Splinter Fleet Cerberus orders",
+  "phase": "All Cycle 6 turns complete — rollover pending",
   "event": "No event (Cycle 6 event check: 3)",
-  "nextFaction": "Splinter Fleet Cerberus",
-  "updated": "Cycle 6 — Trial’s End Fabrication Array completed",
-  "notes": "Viorla Reinforce: Supply 9 to 13; Build -5 to 8, Manpower 11. Trial’s End Fabrication Array completed at 5/5 on Mont'au 12/12: +5 Supply per Logistics Cycle, first income Cycle 9; no retroactive Cycle 6 income. Widening Circle 5/5; no fleet/social action. Korps 21/13; Grunwald 5/5 and Wraith of Krieg 1/5 at Aschenvald. Cerberus 11/10; First Hunger 5/5 and Star-Mother 11/12 at Threnholt, not Defended. No event. Await Cerberus Cycle 6 orders."
+  "nextFaction": "41st Expeditionary Korps (after Cycle 7 opening)",
+  "updated": "Cycle 6 — Cerberus defeats the Star-Blessed",
+  "notes": "Cerberus wins 18 vs 12, margin 6: Brood Vessels 5/5 to 3/5. First Hunger 4/5 after initiation; Star-Mother 11/12, not Defended. Reinforce: Supply 14, Manpower 10. Korps 21/13; Viorla 8/11, Forge Complex completed. End-Cycle recovery and Cycle 7 event pending."
 }

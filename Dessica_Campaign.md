@@ -943,14 +943,15 @@ Star-Mother is exempt from fleet maintenance; First Hunger is not. Trial’s End
 
 - **41st Expeditionary Korps — turn complete:** No Fleet Action; Transit Command Grunwald remains **5/5 at Aschenvald**, with no movement or combat. Phase 3 **Create Fleet** at Sühne's built-in Orbital Shipyard: commission **Wraith of Krieg (1/5), Aschenvald**. Supply **22 → 21**; Manpower **14 → 13**. No social or construction actions. Sühne remains 12/12. Aschenvald Void Superiority: **Korps 6 vs Hesperine Guard 4**. No dice required. The new fleet was created after opening Logistics; no additional maintenance is charged this turn.
 - **Vior'la Expedition — turn complete:** No Fleet Action; Widening Circle remains **5/5 at Mont'au**, no movement or combat. Reinforce with The Provisioned Advance: **Supply 9 → 13**. No social action. Build: **Supply 13 → 8**, Trial’s End Fabrication Array — Major Forge Complex **4/5 → 5/5, completed**, at Mont'au **12/12 defence**. Manpower remains **11**. Total construction expenditure 25 Supply over five Build actions. Completed effect: **+5 Supply per Logistics Cycle**, first payable at **Cycle 9** if retained and operational; Cycle 6 opening Logistics preceded completion, so no retroactive income. No dice required.
-- **Next: Splinter Fleet Cerberus, Cycle 6**. No event this Cycle; no additional Logistics until Cycle 9. Rollover follows Cerberus's resolved turn.
+- **Splinter Fleet Cerberus — turn complete:** Fleet Battle in Threnholt. The First Hunger pays the single initiation cost, **5/5 → 4/5**; the Star-Mother contributes **11** current defence. Both use their Fleet Action. Cerberus rolls **d20 3 + (4 + 11) = 18**; Star-Blessed Brood Vessels roll **d20 7 + 5 = 12**. Cerberus wins by **6**, dealing **2 Fleet Strength damage**: Brood Vessels **5/5 → 3/5**. First Hunger remains **4/5**, Star-Mother **11/12**, not Defended. No fleet destroyed, resource battle loss, planetary damage or capture. Reinforce: **Supply 11 → 14**; Manpower **10**. No social or construction action. Void superiority: Cerberus **15 vs 3**. The Star-Blessed are ineligible for end-Cycle fleet recovery because they fought this Cycle.
+- All Cycle 6 faction turns resolved; end-Cycle recovery and Cycle 7 opening follow.
 
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (1/5) — Aschenvald | The Widening Circle (5/5) — Mont'au | The First Hunger (5/5) — Threnholt |
-| Supplies (1-100) | 21 | 8 | 11 |
+| Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (1/5) — Aschenvald | The Widening Circle (5/5) — Mont'au | The First Hunger (4/5) — Threnholt |
+| Supplies (1-100) | 21 | 8 | 14 |
 | Manpower (1-100) | 13 | 11 | 10 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
 | Constructions | — | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
@@ -999,7 +1000,7 @@ Star-Mother is exempt from fleet maintenance; First Hunger is not. Trial’s End
 
 ### Threnholt System (Contested — Splinter Fleet Cerberus)
 
-**Void Superiority:** Splinter Fleet Cerberus: 16 vs Independents: 5 — Splinter Fleet Cerberus
+**Void Superiority:** Splinter Fleet Cerberus: 15 vs Independents: 3 — Splinter Fleet Cerberus
 
 *The vox-towers in Threnholt's northern arcologies cycle a distress pattern on Imperial military frequencies that carries no further than the system boundary. The Shadow in the Warp arrived ahead of the Star-Mother and closed the astropathic channels behind it. The brood has spent two decades working the tunnel approaches beneath the arcologies. On Ossvarn the Last Rite sealed the outer catacombs the week the Hive Ship crossed the boundary and has held its services underground since. Spore clouds reached the upper atmosphere of both worlds in the third month.*
 
@@ -1011,8 +1012,8 @@ Star-Mother is exempt from fleet maintenance; First Hunger is not. Trial’s End
 
 **In-System Fleets:**
 - Splinter Fleet Cerberus: The Star-Mother (11/12 — Mobile Capital; not Defended)
-- Splinter Fleet Cerberus: The First Hunger (5/5)
-- The Star-Blessed: Star-Blessed Brood Vessels (5/5)
+- Splinter Fleet Cerberus: The First Hunger (4/5)
+- The Star-Blessed: Star-Blessed Brood Vessels (3/5)
 **Cycle 2 loss:** Ossvarn Funerary Fleet destroyed by Warp Storm (1/5 → 0). No Independent resource deduction: Ossvarn remains 40 Supply / 40 Manpower. No active Last Rite fleet remains.
 
 **Cycle 1 loss:** Kelmar Ore Haulers (1/5 → 0) destroyed by Warp Storm. No Independent Minor Faction Manpower loss applies; the earlier debit was rescinded.
@@ -1148,7 +1149,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | Asset | Type | Controller | Strength | Location | Notes |
 |-------|------|------------|----------|----------|-------|
-| The Star-Mother | Hive Ship (Mobile Capital) | Splinter Fleet Cerberus | 11/12 | Threnholt System | The splinter's reproductive core and the Norn Queen's vessel. Where it drifts, the swarm follows. Cycle 1: Warp Storm -1 defence; Fleet Battle initiation -1; defeat against the Last Rite -2. Cycle 2 Warp Storm reduced defence to 7/12; Defend restored +4 to 11/12. Previous Defended status expired at the start of Cerberus’s Cycle 3 turn. Created The First Hunger (1/5) at its shipyard. Warp Storm movement restriction has expired. |
+| The Star-Mother | Hive Ship (Mobile Capital) | Splinter Fleet Cerberus | 11/12 | Threnholt System | The splinter's reproductive core and the Norn Queen's vessel. Where it drifts, the swarm follows. Cycle 1: Warp Storm -1 defence; Fleet Battle initiation -1; defeat against the Last Rite -2. Cycle 2 Warp Storm reduced defence to 7/12; Defend restored +4 to 11/12. Previous Defended status expired at the start of Cerberus’s Cycle 3 turn. Created The First Hunger (1/5) at its shipyard. Warp Storm movement restriction has expired. Cycle 6: participated with The First Hunger in victory over the Star-Blessed, 18 vs 12; no damage sustained. |
 
 ---
 
@@ -1162,7 +1163,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 | 3 | Reinforce: Supply 18 → 21; Manpower 13. Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 9 → 13. Build: Supply 13 → 8; Forge Complex 2/5 → 3/5. Manpower 13. Widening Circle 5/5 at Mont’au; no fleet/social action; turn complete. | Create Fleet: The First Hunger 1/5 at Threnholt; Supply 13 → 12; Manpower 10 → 9. No fleet/social/construction actions. Star-Mother 11/12; Defended expired. | Cycle 3 complete; no battles or captures | Opening Logistics applied; event check 3, no event. End resources: Korps 21/13, Vior’la 8/13, Cerberus 12/9. Forge Complex 3/5. Seven Independent fleets recover +1 each (ledger above); others at original maximum or destroyed. |
 | 4 | Muster: Manpower 8 → 11 (+1,800 trained combat personnel). Supply 16; Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 3 → 7; Manpower 8. Widening Circle 5/5 at Mont'au. No fleet/social/construction actions; Forge Complex remains 3/5, incomplete. Turn complete. | Expand Fleet: First Hunger 1/5 → 3/5 at Threnholt, Supply 7 → 6. Muster: Manpower 4 → 7. Star-Mother 11/12, not Defended. No movement, combat, social or construction actions. Turn complete. | Cycle 4 complete; no battles or captures | Event check 1; table 3. Major resources after -5/-5: Korps 16/8, Vior’la 3/8, Cerberus 7/4. No Logistics. End resources: Korps 16/11, Vior’la 7/8, Cerberus 6/7. Independent recovery applied (ledger above); resources remain defence-derived. |
 | 5 | Reinforce: Supply 16 → 19; Manpower 11. Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 7 → 11. Build: Supply 11 → 6; Forge Complex 3/5 → 4/5 at Mont'au 12/12. Manpower 8; Widening Circle 5/5. No fleet/social action; turn complete. | Expand Fleet: First Hunger 3/5 → 5/5 at Threnholt, Supply 6 → 5. Reinforce: Supply 5 → 8; Manpower 7. Star-Mother 11/12, not Defended. No movement/combat/social/construction actions; turn complete. | Cycle 5 complete; no battles or captures | Event check 3; no table roll. No Logistics until Cycle 6. Opening resources: Korps 16/11, Vior’la 7/8, Cerberus 6/7. End resources: Korps 19/11, Vior’la 6/8, Cerberus 8/7. Forge Complex 4/5. Independent recovery applied. |
-| 6 | Create Fleet: Wraith of Krieg 1/5 at Aschenvald. Supply 22 → 21; Manpower 14 → 13. Grunwald 5/5; no fleet/social/construction actions. Turn complete. | Reinforce: Supply 9 → 13. Build: Supply 13 → 8; Forge Complex 4/5 → 5/5, completed at Mont'au 12/12. Manpower 11; Widening Circle 5/5. No fleet/social action; turn complete. First Forge income Cycle 9. | Awaiting turn | Korps and Vior'la complete; awaiting Cerberus | Capital income and ordinary fleet maintenance applied: Korps 22/14, Vior’la 9/11, Cerberus 11/10. Forge Complex incomplete, no income. Event check 3: no event. |
+| 6 | Create Fleet: Wraith of Krieg 1/5 at Aschenvald. Supply 22 → 21; Manpower 14 → 13. Grunwald 5/5; no fleet/social/construction actions. Turn complete. | Reinforce: Supply 9 → 13. Build: Supply 13 → 8; Forge Complex 4/5 → 5/5, completed at Mont'au 12/12. Manpower 11; Widening Circle 5/5. No fleet/social action; turn complete. First Forge income Cycle 9. | Fleet Battle victory: First Hunger pays 5/5 → 4/5; Star-Mother contributes 11. Rolls 3+15=18 vs 7+5=12; margin 6, Brood Vessels 5/5 → 3/5. Both Fleet Actions used. Reinforce Supply 11 → 14; Manpower 10. No social/construction action; turn complete. | All Cycle 6 turns complete; Cerberus wins; no captures | Capital income and ordinary fleet maintenance applied: Korps 22/14, Vior’la 9/11, Cerberus 11/10. Forge Complex incomplete, no income. Event check 3: no event. |
 
 ## Cycle Records
 
