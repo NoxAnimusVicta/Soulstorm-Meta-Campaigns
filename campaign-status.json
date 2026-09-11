@@ -1,8 +1,8 @@
 {
   "cycle": 7,
-  "phase": "Korps turn complete — awaiting Vior'la Expedition orders",
+  "phase": "Vior'la turn complete — awaiting Splinter Fleet Cerberus orders",
   "event": "No event (Cycle 7 event check: 3)",
-  "nextFaction": "Vior'la Expedition",
-  "updated": "Cycle 7 — Korps expands Wraith and commissions Imperium’s Eye",
-  "notes": "Korps Expand Fleet: Wraith of Krieg 1/5 to 3/5, Supply 21 to 20. Create Fleet: Imperium’s Eye 1/5, Supply 20 to 19, Manpower 13 to 12. Both at Sühne’s shipyard in Aschenvald with Grunwald 5/5; void superiority 9 vs Hesperine 4. No movement, combat, social or construction action. Viorla 8/11; Cerberus 14/10. No event (check 3); next Logistics Cycle 9, including first Forge Complex income. Await Viorla, then Cerberus. Threnholt Directorate retcon retained."
+  "nextFaction": "Splinter Fleet Cerberus",
+  "updated": "Cycle 7 — Viorla commissions The Ember Carried Far",
+  "notes": "Viorla Create Fleet: The Ember Carried Far 1/5 at Mont'au's built-in Orbital Shipyard. Supply 8 to 7; Manpower 11 to 10. Widening Circle 5/5 at Mont'au; void superiority 6 vs Vennick Accord 4. No fleet, social or construction action. Forge Complex completed, first income Cycle 9. Korps 19/12; Cerberus 14/10. No event (check 3); next Logistics Cycle 9. Await Cerberus Cycle 7 orders; rollover after its resolved turn. Threnholt Directorate retcon retained."
 }
