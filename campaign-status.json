@@ -1,8 +1,8 @@
 {
   "cycle": 6,
-  "phase": "Korps turn complete — awaiting Vior'la Expedition orders",
+  "phase": "Vior'la turn complete — awaiting Splinter Fleet Cerberus orders",
   "event": "No event (Cycle 6 event check: 3)",
-  "nextFaction": "Vior'la Expedition",
-  "updated": "Cycle 6 — Wraith of Krieg commissioned",
-  "notes": "Korps created Wraith of Krieg 1/5 at Sühne's shipyard in Aschenvald: Supply 22 to 21, Manpower 14 to 13. Grunwald remains 5/5; Korps Void Superiority 6 vs Hesperine Guard 4. No other actions. Viorla 9/11, Forge Complex 4/5 incomplete; Cerberus 11/10, First Hunger 5/5 and Star-Mother 11/12 at Threnholt, not Defended. Opening Logistics already applied; next Cycle 9. No event. Await Vior'la Cycle 6 orders."
+  "nextFaction": "Splinter Fleet Cerberus",
+  "updated": "Cycle 6 — Trial’s End Fabrication Array completed",
+  "notes": "Viorla Reinforce: Supply 9 to 13; Build -5 to 8, Manpower 11. Trial’s End Fabrication Array completed at 5/5 on Mont'au 12/12: +5 Supply per Logistics Cycle, first income Cycle 9; no retroactive Cycle 6 income. Widening Circle 5/5; no fleet/social action. Korps 21/13; Grunwald 5/5 and Wraith of Krieg 1/5 at Aschenvald. Cerberus 11/10; First Hunger 5/5 and Star-Mother 11/12 at Threnholt, not Defended. No event. Await Cerberus Cycle 6 orders."
 }
