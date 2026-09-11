@@ -1,8 +1,8 @@
 {
   "cycle": 6,
-  "phase": "Logistics and event resolved — awaiting 41st Expeditionary Korps orders",
+  "phase": "Korps turn complete — awaiting Vior'la Expedition orders",
   "event": "No event (Cycle 6 event check: 3)",
-  "nextFaction": "41st Expeditionary Korps",
-  "updated": "Cycle 6 — Logistics complete; no event",
-  "notes": "Capital income +4/+4 and one ordinary fleet maintenance -1/-1 per Major Faction: Korps 22 Supply/14 Manpower; Viorla 9/11; Cerberus 11/10. Star-Mother exempt from fleet maintenance. Forge Complex 4/5 incomplete: no income. First Hunger 5/5 and Star-Mother 11/12, not Defended, at Threnholt; other major fleets 5/5 at home systems. Cycle 5 Independent recovery applied. No battles or captures in Cycle 5. Await Korps Cycle 6; next Logistics Cycle 9."
+  "nextFaction": "Vior'la Expedition",
+  "updated": "Cycle 6 — Wraith of Krieg commissioned",
+  "notes": "Korps created Wraith of Krieg 1/5 at Sühne's shipyard in Aschenvald: Supply 22 to 21, Manpower 14 to 13. Grunwald remains 5/5; Korps Void Superiority 6 vs Hesperine Guard 4. No other actions. Viorla 9/11, Forge Complex 4/5 incomplete; Cerberus 11/10, First Hunger 5/5 and Star-Mother 11/12 at Threnholt, not Defended. Opening Logistics already applied; next Cycle 9. No event. Await Vior'la Cycle 6 orders."
 }
