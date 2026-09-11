@@ -1,8 +1,8 @@
 {
   "cycle": 8,
-  "phase": "Korps turn complete — awaiting Vior'la Expedition orders",
+  "phase": "Vior'la turn complete — awaiting Splinter Fleet Cerberus orders",
   "event": "No event (Cycle 8 event check: 3)",
-  "nextFaction": "Vior'la Expedition",
-  "updated": "Cycle 8 — Korps expands two fleets and reinforces",
-  "notes": "Korps expands Wraith of Krieg 3/5 to 5/5 and Imperium’s Eye 1/5 to 3/5 at Sühne's shipyard: Supply 19 to 18 to 17. Reinforce to 20; Manpower 12. Grunwald 5/5; all at Aschenvald, void superiority 13 vs 4. No movement, combat, social or construction action. Viorla 7/10; Cerberus 17/10. No event (Cycle 8 check 3); next Logistics Cycle 9 including first Forge Complex income. Await Viorla, then Cerberus; no pending battles."
+  "nextFaction": "Splinter Fleet Cerberus",
+  "updated": "Cycle 8 — Viorla expands Ember and reinforces",
+  "notes": "Viorla expands The Ember Carried Far 1/5 to 3/5 at Mont'au shipyard, Supply 7 to 6; Reinforce +4 to 10. Manpower 10. Widening Circle 5/5; Mont'au void superiority 8 vs 4. No movement, combat, social or construction action. Forge Complex complete; first income Cycle 9. Korps 20/12; Cerberus 17/10. Cycle 8 event check 3: no event. Await Cerberus; rollover to Cycle 9 includes Logistics and event after its resolved turn. No pending battles."
 }
