@@ -1,8 +1,8 @@
 {
-  "cycle": 5,
-  "phase": "All Cycle 5 turns complete — rollover pending",
-  "event": "No event (Cycle 5 event check: 3)",
-  "nextFaction": "41st Expeditionary Korps (after Cycle 6 opening)",
-  "updated": "Cycle 5 — Cerberus expansion and Reinforce resolved",
-  "notes": "Cerberus First Hunger 3/5 to 5/5 at Threnholt; Supply 6 to 5 to 8; Manpower 7. Star-Mother 11/12, not Defended. No other actions. Korps 19/11; Viorla 6/8, Forge Complex 4/5 incomplete. Cycle 5 recovery and Cycle 6 Logistics/event pending."
+  "cycle": 6,
+  "phase": "Logistics and event resolved — awaiting 41st Expeditionary Korps orders",
+  "event": "No event (Cycle 6 event check: 3)",
+  "nextFaction": "41st Expeditionary Korps",
+  "updated": "Cycle 6 — Logistics complete; no event",
+  "notes": "Capital income +4/+4 and one ordinary fleet maintenance -1/-1 per Major Faction: Korps 22 Supply/14 Manpower; Viorla 9/11; Cerberus 11/10. Star-Mother exempt from fleet maintenance. Forge Complex 4/5 incomplete: no income. First Hunger 5/5 and Star-Mother 11/12, not Defended, at Threnholt; other major fleets 5/5 at home systems. Cycle 5 Independent recovery applied. No battles or captures in Cycle 5. Await Korps Cycle 6; next Logistics Cycle 9."
 }
