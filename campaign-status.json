@@ -1,8 +1,8 @@
 {
   "cycle": 9,
-  "phase": "Cycle 9 opening complete — awaiting 41st Expeditionary Korps orders",
+  "phase": "Korps turn complete — awaiting Vior'la Expedition orders",
   "event": "Ambush! (Cycle 9 check: 6; event table: 2)",
-  "nextFaction": "41st Expeditionary Korps",
-  "updated": "Cycle 9 — Logistics paid; Ambush active",
-  "notes": "Cycle 8 complete: Cerberus wins 32 vs 20 and destroys Secession Fleet. First Hunger 2/5, Star-Mother 11/12, not Defended; Threnholt void superiority 13 vs 0. No captures or Independent resource loss. Cycle 9 Logistics: Korps 21/13, Viorla 17/12, Cerberus 23/13. First Forge income +5 Supply paid; next Logistics Cycle 12. Ambush active all Cycle 9: attackers +1 difficulty, defenders -1 difficulty; AI vs AI defender +10 roll. Expires Cycle 10. No Cycle 9 turns resolved or pending battles; await Korps."
+  "nextFaction": "Vior'la Expedition",
+  "updated": "Cycle 9 — all Korps fleets at full strength",
+  "notes": "Korps expands Imperium’s Eye 3/5 to 5/5 at Sühne: Supply 21 to 20; Reinforce to 23, Manpower 13. Grunwald and Wraith of Krieg 5/5; all at Aschenvald, void superiority 15 vs 4. No movement, combat, social or construction actions. Viorla 17/12; Cerberus 23/13. Logistics already paid, including first Forge income; next Logistics Cycle 12. Ambush active through Cycle 9: attackers +1 difficulty, defenders -1 difficulty; AI vs AI defender +10 roll. Await Viorla, then Cerberus. No pending battles."
 }

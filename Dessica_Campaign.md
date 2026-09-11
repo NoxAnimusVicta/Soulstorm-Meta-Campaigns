@@ -1025,12 +1025,17 @@ No deficits or repairs. Forge Complex remains complete; its first +5 Supply has 
 
 **Next: 41st Expeditionary Korps, Cycle 9.** No Cycle 9 faction turns resolved or pending battles. Fleet locations and strengths unchanged: Aschenvald Korps 5/5, 5/5, 3/5 (void superiority 13 vs 4); Mont'au Viorla 5/5, 3/5 (8 vs 4); Threnholt First Hunger 2/5 and Star-Mother 11/12, not Defended (13 vs 0).
 
+### Cycle 9 turn progress
+
+- **41st Expeditionary Korps — turn complete:** Grunwald and Wraith of Krieg take no Fleet Actions, each remaining **5/5 in Aschenvald**. Imperium’s Eye uses Expand Fleet at Sühne's built-in Orbital Shipyard: **3/5 → 5/5**, Supply **21 → 20**. Reinforce grants **+3 Supply: 20 → 23**. Manpower remains **13**. No movement, combat, social or construction action. All three fleets are at full strength; Korps void superiority **15 vs Hesperine Guard 4**. Sühne remains **12/12**. Ambush does not affect these actions; no dice required. Opening Logistics already paid; no additional maintenance.
+- **Next: Vior'la Expedition, Cycle 9.** Ambush remains active until Cycle 10. Next Logistics Cycle 12; Cerberus follows Vior'la.
+
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (3/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (3/5) — Mont'au | The First Hunger (2/5) — Threnholt |
-| Supplies (1-100) | 21 | 17 | 23 |
+| Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (3/5) — Mont'au | The First Hunger (2/5) — Threnholt |
+| Supplies (1-100) | 23 | 17 | 23 |
 | Manpower (1-100) | 13 | 12 | 13 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
 | Constructions | — | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
@@ -1043,7 +1048,7 @@ No deficits or repairs. Forge Complex remains complete; its first +5 Supply has 
 
 ### Aschenvald System (41st Expeditionary Korps)
 
-**Void Superiority:** 41st Expeditionary Korps: 13 vs Hesperine Guard: 4 — 41st Expeditionary Korps
+**Void Superiority:** 41st Expeditionary Korps: 15 vs Hesperine Guard: 4 — 41st Expeditionary Korps
 
 *Vantry broadcasts the same challenge to every vessel that enters the system — regimental cipher, verification codes, a standing order issued by Segmentum Command four decades ago. The 41st logs each transmission and answers with its own. Neither set of codes resolves against anything the other can check. Kolbrant has the guns to end the exchange and keeps them cold.*
 
@@ -1053,7 +1058,7 @@ No deficits or repairs. Forge Complex remains complete; its first +5 Supply has 
 | Vantry | Standard (Station) | Hesperine Guard | 4/4 | Orbital defence platform and garrison station. Rotation schedules, munitions inventories, and watch rosters have been maintained without interruption for four decades. Approach lanes are covered by macrocannon batteries that track every hull entering the system. Current Supply 60, Manpower 60, derived from full defence; Independent Minor Faction resource ruling applies. |
 
 **In-System Fleets:**
-- 41st Expeditionary Korps: Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (3/5)
+- 41st Expeditionary Korps: Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (5/5)
 - Hesperine Guard: Hesperine Watch Flotilla (4/5)
 
 ---
@@ -1250,7 +1255,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 8 | Expand Fleet twice: Wraith 3/5 → 5/5; Imperium’s Eye 1/5 → 3/5 at Sühne shipyard, Supply 19 → 18 → 17. Reinforce 17 → 20. Manpower 12; Grunwald 5/5. No movement/combat/social/construction actions; turn complete. | Expand Fleet: Ember Carried Far 1/5 → 3/5 at Mont'au shipyard; Supply 7 → 6. Reinforce +4: 6 → 10; Manpower 10. Widening Circle 5/5; no movement/combat/social/construction actions; turn complete. | Combined Fleet Battle: First Hunger pays 3/5 → 2/5; Star-Mother 11/12. Rolls 19+13=32 vs 19+1=20; margin 12, Secession Fleet destroyed by 3 damage. No Independent resource loss. Reinforce Supply 17 → 20, Manpower 10. No social/construction action; turn complete. | Cycle 8 complete; Secession Fleet destroyed; no captures | Event check d6=3: no event. No Logistics until Cycle 9. Opening Supply/Manpower: Korps 19/12, Viorla 7/10, Cerberus 17/10. Closing: Korps 20/12, Viorla 10/10, Cerberus 20/10. No recovery changes. |
 
-| 9 | Awaiting turn | Awaiting turn | Awaiting turn | Opening complete; awaiting Korps | Logistics applied: Korps 21/13, Viorla 17/12, Cerberus 23/13; first Forge income +5 Supply. Event check 6, table 2: Ambush! Active throughout Cycle 9. |
+| 9 | Expand Fleet: Imperium’s Eye 3/5 → 5/5 at Sühne, Supply 21 → 20. Reinforce to 23; Manpower 13. Grunwald and Wraith 5/5. No movement/combat/social/construction actions; turn complete. | Awaiting turn | Awaiting turn | Korps complete; awaiting Viorla | Logistics applied: Korps 21/13, Viorla 17/12, Cerberus 23/13; first Forge income +5 Supply. Event check 6, table 2: Ambush! Active throughout Cycle 9. |
 
 ## Cycle Records
 
