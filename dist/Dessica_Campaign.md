@@ -709,7 +709,7 @@ At the start of each Cycle, before any faction takes its turn, roll 1d6. On a 1 
 
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |---|---|---|---|---|---|---|---|---|---|
-| X | X | O | X | X | O | X | Ω | | |
+| X | X | O | X | X | O | X | X | Ω | |
 
 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
 |---|---|---|---|---|---|---|---|---|---|
@@ -728,7 +728,7 @@ At the start of each Cycle, before any faction takes its turn, roll 1d6. On a 1 
 - **O** = Past Logistics Cycle (every 3rd cycle)
 - **X** = Past Cycle
 
-**Current Cycle:** 8
+**Current Cycle:** 9
 
 ### Cycle 1 opening event: Warp Storm
 
@@ -1000,15 +1000,38 @@ The Directorate fought in a Fleet Battle, so the **Secession Fleet receives no r
 
 - **41st Expeditionary Korps — turn complete:** Grunwald takes no Fleet Action, remaining **5/5 at Aschenvald**. At Sühne's built-in Orbital Shipyard, Wraith of Krieg uses Expand Fleet **3/5 → 5/5**, Supply **19 → 18**; Imperium’s Eye uses Expand Fleet **1/5 → 3/5**, Supply **18 → 17**. Faction Action Reinforce grants **+3 Supply: 17 → 20**. Manpower remains **12**. No movement, combat, social or construction action. Sühne remains **12/12**. Korps void superiority in Aschenvald is **13 vs Hesperine Guard 4**. No dice required; no Logistics charged this turn.
 - **Vior'la Expedition — turn complete:** Widening Circle takes no Fleet Action and remains **5/5 at Mont'au**. The Ember Carried Far uses Expand Fleet at Mont'au's built-in Orbital Shipyard: **1/5 → 3/5**, Supply **7 → 6**. Reinforce with The Provisioned Advance grants **+4 Supply: 6 → 10**. Manpower remains **10**. No movement, combat, social or construction action; no construction expenditure. Mont'au remains **12/12**, Forge Complex complete with first income Cycle 9. Void superiority **Vior'la 8 vs Vennick Accord 4**. No dice required.
-- **Next: Splinter Fleet Cerberus, Cycle 8.** No event; rollover and Cycle 9 Logistics follow its resolved turn.
+- **Splinter Fleet Cerberus — turn complete:** First Hunger initiates against Secession Fleet in Threnholt, paying **3/5 → 2/5**. Star-Mother contributes **11**; both use their Fleet Action. Cerberus **d20 19 + (2 + 11) = 32**; Directorate **d20 19 + 1 = 20**. Margin **12** inflicts **3 Fleet Strength damage**, destroying Secession Fleet **1/5 → 0** (excess damage discarded). First Hunger remains **2/5**, Star-Mother **11/12**, not Defended. Independent Minor Faction ruling: no Directorate resource deduction. No planetary damage or capture. Reinforce **Supply 17 → 20**, Manpower **10**. No social/construction action. Cerberus void superiority **13 vs 0**.
+- All Cycle 8 turns complete; recovery and Cycle 9 opening follow.
+
+### Cycle 8 end-of-Cycle recovery
+
+The Directorate fought and its last fleet was destroyed; no recovery or resurrection. All other surviving Independent fleets are at their original maximums. All Independent planets are unattacked and at full defence; no recovery changes. Independent resources remain defence-derived. No automatic Major fleet or Star-Mother repair.
+
+**Cycle 8 complete:** Secession Fleet destroyed; no planetary damage or captures. Closing Supply / Manpower: **Korps 20 / 12, Vior'la 10 / 10, Cerberus 20 / 10**. First Hunger 2/5; Star-Mother 11/12, not Defended.
+
+### Cycle 9 opening: Logistics and event
+
+**Phase 0 Logistics applied before the event.**
+
+| Faction | Before Supply / Manpower | Capital income | Construction income | Fleet maintenance | After Supply / Manpower |
+|---|---|---|---|---|---|
+| 41st Expeditionary Korps | 20 / 12 | +4 / +4 | None | -3 / -3: Grunwald, Wraith of Krieg, Imperium’s Eye | **21 / 13** |
+| Vior'la Expedition | 10 / 10 | +4 / +4 | +5 Supply: Trial’s End Fabrication Array, first income | -2 / -2: Widening Circle, Ember Carried Far | **17 / 12** |
+| Splinter Fleet Cerberus | 20 / 10 | +4 / +4 | None | -1 / -1: First Hunger; Star-Mother exempt | **23 / 13** |
+
+No deficits or repairs. Forge Complex remains complete; its first +5 Supply has now been paid. Next Logistics **Cycle 12**.
+
+**Phase 1 event:** Check **1d6 = 6**, event triggered; table **1d6 = 2 — Ambush!** Attackers this Cycle get **+1 difficulty**, defenders **-1 difficulty**; AI vs AI defenders receive **+10 to their roll**. Applies throughout Cycle 9 and expires at the start of Cycle 10. No resource or fleet-strength changes from this event; no movement prohibition.
+
+**Next: 41st Expeditionary Korps, Cycle 9.** No Cycle 9 faction turns resolved or pending battles. Fleet locations and strengths unchanged: Aschenvald Korps 5/5, 5/5, 3/5 (void superiority 13 vs 4); Mont'au Viorla 5/5, 3/5 (8 vs 4); Threnholt First Hunger 2/5 and Star-Mother 11/12, not Defended (13 vs 0).
 
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (3/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (3/5) — Mont'au | The First Hunger (3/5) — Threnholt |
-| Supplies (1-100) | 20 | 10 | 17 |
-| Manpower (1-100) | 12 | 10 | 10 |
+| Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (3/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (3/5) — Mont'au | The First Hunger (2/5) — Threnholt |
+| Supplies (1-100) | 21 | 17 | 23 |
+| Manpower (1-100) | 13 | 12 | 13 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
 | Constructions | — | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
 
@@ -1056,7 +1079,7 @@ The Directorate fought in a Fleet Battle, so the **Secession Fleet receives no r
 
 ### Threnholt System (Contested — Splinter Fleet Cerberus)
 
-**Void Superiority:** Splinter Fleet Cerberus: 14 vs Independents: 1 — Splinter Fleet Cerberus
+**Void Superiority:** Splinter Fleet Cerberus: 13 vs Independents: 0 — Splinter Fleet Cerberus
 
 *The Threnholt Directorate still stamps its orders with the Imperial eagle, one head struck from the die. Governor-Commandant Rhedan Voss calls the secession a measure of necessity; the naval officers who secured it call it permanent. The northern arcologies refuse his authority, and the rail corridor supplying them has changed hands four times. When the Star-Mother arrived, both sides broadcast distress calls on the same abandoned Imperial frequencies. On Ossvarn, the Last Rite sealed the outer catacombs and continued its services underground.*
 
@@ -1070,8 +1093,8 @@ The Directorate fought in a Fleet Battle, so the **Secession Fleet receives no r
 
 **In-System Fleets:**
 - Splinter Fleet Cerberus: The Star-Mother (11/12 — Mobile Capital; not Defended)
-- Splinter Fleet Cerberus: The First Hunger (3/5)
-- The Threnholt Directorate: Secession Fleet (1/5)
+- Splinter Fleet Cerberus: The First Hunger (2/5)
+- The Threnholt Directorate: no surviving fleets. Secession Fleet destroyed in Cycle 8; Kelmar Convoy Auxiliary destroyed in Cycle 1.
 **Cycle 2 loss:** Ossvarn Funerary Fleet destroyed by Warp Storm (1/5 → 0). No Independent resource deduction: Ossvarn remains 40 Supply / 40 Manpower. No active Last Rite fleet remains.
 
 **Cycle 1 loss:** Kelmar Convoy Auxiliary (1/5 → 0) destroyed by Warp Storm. No Independent Minor Faction Manpower loss applies; the earlier debit was rescinded.
@@ -1207,7 +1230,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | Asset | Type | Controller | Strength | Location | Notes |
 |-------|------|------------|----------|----------|-------|
-| The Star-Mother | Hive Ship (Mobile Capital) | Splinter Fleet Cerberus | 11/12 | Threnholt System | The splinter's reproductive core and the Norn Queen's vessel. Where it drifts, the swarm follows. Cycle 1: Warp Storm -1 defence; Fleet Battle initiation -1; defeat against the Last Rite -2. Cycle 2 Warp Storm reduced defence to 7/12; Defend restored +4 to 11/12. Previous Defended status expired at the start of Cerberus’s Cycle 3 turn. Created The First Hunger (1/5) at its shipyard. Warp Storm movement restriction has expired. Cycle 6: participated with The First Hunger in victory over the Threnholt Directorate, 18 vs 12; no damage sustained. Cycle 7: combined victory over Secession Fleet, 28 vs 20; no damage sustained. |
+| The Star-Mother | Hive Ship (Mobile Capital) | Splinter Fleet Cerberus | 11/12 | Threnholt System | The splinter's reproductive core and the Norn Queen's vessel. Where it drifts, the swarm follows. Cycle 1: Warp Storm -1 defence; Fleet Battle initiation -1; defeat against the Last Rite -2. Cycle 2 Warp Storm reduced defence to 7/12; Defend restored +4 to 11/12. Previous Defended status expired at the start of Cerberus’s Cycle 3 turn. Created The First Hunger (1/5) at its shipyard. Warp Storm movement restriction has expired. Cycle 6: participated with The First Hunger in victory over the Threnholt Directorate, 18 vs 12; no damage sustained. Cycle 7: combined victory over Secession Fleet, 28 vs 20; no damage sustained. Cycle 8: combined victory 32 vs 20 destroys Secession Fleet; no damage sustained. |
 
 ---
 
@@ -1225,7 +1248,9 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 7 | Expand Fleet: Wraith of Krieg 1/5 → 3/5, Supply 21 → 20. Create Fleet: Imperium’s Eye 1/5 at Aschenvald, Supply 20 → 19, Manpower 13 → 12. Grunwald 5/5; no movement/combat/social/construction actions. Turn complete. | Create Fleet: The Ember Carried Far 1/5 at Mont'au's built-in Orbital Shipyard. Supply 8 → 7; Manpower 11 → 10. Widening Circle 5/5; no fleet/social/construction actions. Forge Complex remains complete; turn complete. | Combined Fleet Battle victory: First Hunger initiation 4/5 → 3/5; Star-Mother 11/12. Rolls 14+14=28 vs 17+3=20, margin 8; Secession Fleet 3/5 → 1/5. Reinforce Supply 14 → 17; Manpower 10. No social/construction actions; turn complete. | Cycle 7 complete; Cerberus wins, no captures | Event check d6=3: no event. No Logistics until Cycle 9. Opening Supply/Manpower: Korps 21/13, Viorla 8/11, Cerberus 14/10. Closing: Korps 19/12, Viorla 7/10, Cerberus 17/10. Directorate excluded from recovery for combat; other surviving Independent fleets at original maximums. |
 
-| 8 | Expand Fleet twice: Wraith 3/5 → 5/5; Imperium’s Eye 1/5 → 3/5 at Sühne shipyard, Supply 19 → 18 → 17. Reinforce 17 → 20. Manpower 12; Grunwald 5/5. No movement/combat/social/construction actions; turn complete. | Expand Fleet: Ember Carried Far 1/5 → 3/5 at Mont'au shipyard; Supply 7 → 6. Reinforce +4: 6 → 10; Manpower 10. Widening Circle 5/5; no movement/combat/social/construction actions; turn complete. | Awaiting turn | Korps and Viorla complete; awaiting Cerberus | Event check d6=3: no event. No Logistics until Cycle 9. Opening Supply/Manpower: Korps 19/12, Viorla 7/10, Cerberus 17/10. |
+| 8 | Expand Fleet twice: Wraith 3/5 → 5/5; Imperium’s Eye 1/5 → 3/5 at Sühne shipyard, Supply 19 → 18 → 17. Reinforce 17 → 20. Manpower 12; Grunwald 5/5. No movement/combat/social/construction actions; turn complete. | Expand Fleet: Ember Carried Far 1/5 → 3/5 at Mont'au shipyard; Supply 7 → 6. Reinforce +4: 6 → 10; Manpower 10. Widening Circle 5/5; no movement/combat/social/construction actions; turn complete. | Combined Fleet Battle: First Hunger pays 3/5 → 2/5; Star-Mother 11/12. Rolls 19+13=32 vs 19+1=20; margin 12, Secession Fleet destroyed by 3 damage. No Independent resource loss. Reinforce Supply 17 → 20, Manpower 10. No social/construction action; turn complete. | Cycle 8 complete; Secession Fleet destroyed; no captures | Event check d6=3: no event. No Logistics until Cycle 9. Opening Supply/Manpower: Korps 19/12, Viorla 7/10, Cerberus 17/10. Closing: Korps 20/12, Viorla 10/10, Cerberus 20/10. No recovery changes. |
+
+| 9 | Awaiting turn | Awaiting turn | Awaiting turn | Opening complete; awaiting Korps | Logistics applied: Korps 21/13, Viorla 17/12, Cerberus 23/13; first Forge income +5 Supply. Event check 6, table 2: Ambush! Active throughout Cycle 9. |
 
 ## Cycle Records
 
@@ -1301,3 +1326,14 @@ At Mont'au, another formation takes its place beside the Widening Circle. The Em
 In Threnholt, Cerberus presses its advantage! The First Hunger and the Star-Mother strike together against the Directorate's battered Secession Fleet. The renegade defenders fight on, but suffer another defeat. Reduced to the edge of combat effectiveness, their formation survives—without the respite needed to repair its losses.
 
 No world changes hands. The Directorate still holds its ground beneath a hostile sky, while the swarm replenishes its stores. With new fleets gathering and Threnholt's defenders wearing thin, Dessica enters its eighth year with the next offensive still in its commanders' hands!
+
+
+### Cycle 8
+
+**The Directorate loses the void!** After two defeats in Threnholt, the Secession Fleet faces the swarm once more. The First Hunger advances beside the Star-Mother, and this time the renegade formation cannot withstand the assault. Its remaining combat strength is broken. The Directorate still holds its worlds, but no fleet remains to oppose Cerberus above them.
+
+Across Dessica, the other powers strengthen their own formations. At Sühne, the Wraith of Krieg reaches full fighting strength and Imperium’s Eye expands beside Grunwald. At Mont'au, The Ember Carried Far grows under the protection of the Widening Circle. Both commanders replenish their stores as the next Logistics Cycle approaches.
+
+Cerberus gathers fresh supplies after its victory. The First Hunger has spent strength on three successive offensives, while the Star-Mother remains scarred but unbroken. No world has fallen, and the armies below have yet to face the swarm on the ground.
+
+With Threnholt's defenders stripped of their fleet and the great forge of Mont'au ready to deliver its first supplies, Dessica enters its ninth year. The long preparations have changed the balance above the worlds. What follows will depend on who is willing to make the next move!
