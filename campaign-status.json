@@ -1,8 +1,8 @@
 {
-  "cycle": 7,
-  "phase": "All Cycle 7 turns complete — rollover pending",
-  "event": "No event (Cycle 7 event check: 3)",
-  "nextFaction": "41st Expeditionary Korps (after Cycle 8 opening)",
-  "updated": "Cycle 7 — Cerberus defeats Secession Fleet again",
-  "notes": "Cerberus wins 28 vs 20, margin 8: Secession Fleet 3/5 to 1/5. First Hunger 3/5 after initiation; Star-Mother 11/12, not Defended. No destruction or captures. Reinforce: Supply 17, Manpower 10. Korps 19/12; Viorla 7/10. Directorate ineligible for fleet recovery due to combat. Cycle 8 opening pending."
+  "cycle": 8,
+  "phase": "Cycle 8 opening complete — awaiting 41st Expeditionary Korps orders",
+  "event": "No event (Cycle 8 event check: 3)",
+  "nextFaction": "41st Expeditionary Korps",
+  "updated": "Cycle 8 — opening complete after Cerberus victory",
+  "notes": "Cycle 7 complete. Cerberus wins 28 vs 20, margin 8: Secession Fleet 1/5, no recovery due to combat. First Hunger 3/5; Star-Mother 11/12, not Defended; Threnholt void superiority 14 vs 1. No destruction or captures. Resources: Korps 19/12, Viorla 7/10, Cerberus 17/10. Korps fleets 5/5, 3/5, 1/5 at Aschenvald; Viorla fleets 5/5, 1/5 at Montau. Other surviving Independent fleets at original maximums. Cycle 8 event check 3: no event. No Logistics until Cycle 9, including first Forge Complex income. Await Korps; no Cycle 8 turns resolved or pending battles."
 }
