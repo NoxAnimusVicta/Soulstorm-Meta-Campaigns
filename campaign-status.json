@@ -1,8 +1,8 @@
 {
   "cycle": 9,
-  "phase": "Vior'la turn complete — awaiting Splinter Fleet Cerberus orders",
+  "phase": "All Cycle 9 turns complete — rollover pending",
   "event": "Ambush! (Cycle 9 check: 6; event table: 2)",
-  "nextFaction": "Splinter Fleet Cerberus",
-  "updated": "Cycle 9 — Viorla expands Ember and musters",
-  "notes": "Viorla expands Ember Carried Far 3/5 to 5/5 at Mont'au: Supply 17 to 16. Muster +4 Manpower: 12 to 16, equivalent to 1,280 combat personnel. Widening Circle 5/5; void superiority 10 vs 4. No movement, combat, social or construction action. Korps 23/13; Cerberus 23/13. Logistics already paid including first Forge income; next Logistics Cycle 12. Ambush remains active through Cycle 9: attackers +1 difficulty, defenders -1 difficulty; AI vs AI defender +10 roll. Await Cerberus; rollover after resolved turn. No pending battles."
+  "nextFaction": "41st Expeditionary Korps (after Cycle 10 opening)",
+  "updated": "Cycle 9 — Kelmar bombarded to 1/2",
+  "notes": "Star-Mother alone bombards Kelmar to 1/2; 2 Supply, zero Manpower committed, no dice. Kelmar remains Directorate-held with defence-derived 20/20 resources; no recovery this Cycle. First Hunger expands to 4/5 for 1 Supply. Muster to 16 Manpower; Cerberus 20/16, Star-Mother 11/12 not Defended, void superiority 15 vs 0. Korps 23/13; Viorla 16/16. Cycle 10 opening pending."
 }
