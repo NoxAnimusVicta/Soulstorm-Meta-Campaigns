@@ -1,8 +1,8 @@
 {
   "cycle": 7,
-  "phase": "Vior'la turn complete — awaiting Splinter Fleet Cerberus orders",
+  "phase": "All Cycle 7 turns complete — rollover pending",
   "event": "No event (Cycle 7 event check: 3)",
-  "nextFaction": "Splinter Fleet Cerberus",
-  "updated": "Cycle 7 — Viorla commissions The Ember Carried Far",
-  "notes": "Viorla Create Fleet: The Ember Carried Far 1/5 at Mont'au's built-in Orbital Shipyard. Supply 8 to 7; Manpower 11 to 10. Widening Circle 5/5 at Mont'au; void superiority 6 vs Vennick Accord 4. No fleet, social or construction action. Forge Complex completed, first income Cycle 9. Korps 19/12; Cerberus 14/10. No event (check 3); next Logistics Cycle 9. Await Cerberus Cycle 7 orders; rollover after its resolved turn. Threnholt Directorate retcon retained."
+  "nextFaction": "41st Expeditionary Korps (after Cycle 8 opening)",
+  "updated": "Cycle 7 — Cerberus defeats Secession Fleet again",
+  "notes": "Cerberus wins 28 vs 20, margin 8: Secession Fleet 3/5 to 1/5. First Hunger 3/5 after initiation; Star-Mother 11/12, not Defended. No destruction or captures. Reinforce: Supply 17, Manpower 10. Korps 19/12; Viorla 7/10. Directorate ineligible for fleet recovery due to combat. Cycle 8 opening pending."
 }
