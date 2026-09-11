@@ -973,13 +973,18 @@ At the user's request during the Cycle 7 opening, the former Star-Blessed cult i
 
 All prior rolls, costs, damage, recovery, holdings and outcomes stand. The Secession Fleet remains **3/5** after its Cycle 6 defeat, with no recovery that Cycle; the Kelmar Convoy Auxiliary remains destroyed in Cycle 1. Resources, construction, void superiority and turn order are unchanged. No new event roll or Cycle advancement. Prior logs and Cycle Records use the replacement identities for consistency.
 
+### Cycle 7 turn progress
+
+- **41st Expeditionary Korps — turn complete:** Transit Command Grunwald takes no Fleet Action and remains **5/5 at Aschenvald**. Wraith of Krieg uses Expand Fleet at Sühne's built-in Orbital Shipyard: **1/5 → 3/5**, Supply **21 → 20**. Faction Action Create Fleet: commission **Imperium’s Eye (1/5)** at the same shipyard in Aschenvald; Supply **20 → 19**, Manpower **13 → 12**. No movement, combat, social or construction action. Sühne remains **12/12**. Total Korps Fleet Strength in Aschenvald **9**, versus Hesperine Guard **4**; Korps retains void superiority. No dice required and no maintenance charged outside Logistics.
+- **Next: Vior'la Expedition, Cycle 7.** No event; next Logistics Cycle 9. Cerberus follows Vior'la; no rollover until its turn is resolved.
+
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (1/5) — Aschenvald | The Widening Circle (5/5) — Mont'au | The First Hunger (4/5) — Threnholt |
-| Supplies (1-100) | 21 | 8 | 14 |
-| Manpower (1-100) | 13 | 11 | 10 |
+| Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (3/5), Imperium’s Eye (1/5) — Aschenvald | The Widening Circle (5/5) — Mont'au | The First Hunger (4/5) — Threnholt |
+| Supplies (1-100) | 19 | 8 | 14 |
+| Manpower (1-100) | 12 | 11 | 10 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
 | Constructions | — | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
 
@@ -991,7 +996,7 @@ All prior rolls, costs, damage, recovery, holdings and outcomes stand. The Seces
 
 ### Aschenvald System (41st Expeditionary Korps)
 
-**Void Superiority:** 41st Expeditionary Korps: 6 vs Hesperine Guard: 4 — 41st Expeditionary Korps
+**Void Superiority:** 41st Expeditionary Korps: 9 vs Hesperine Guard: 4 — 41st Expeditionary Korps
 
 *Vantry broadcasts the same challenge to every vessel that enters the system — regimental cipher, verification codes, a standing order issued by Segmentum Command four decades ago. The 41st logs each transmission and answers with its own. Neither set of codes resolves against anything the other can check. Kolbrant has the guns to end the exchange and keeps them cold.*
 
@@ -1001,7 +1006,7 @@ All prior rolls, costs, damage, recovery, holdings and outcomes stand. The Seces
 | Vantry | Standard (Station) | Hesperine Guard | 4/4 | Orbital defence platform and garrison station. Rotation schedules, munitions inventories, and watch rosters have been maintained without interruption for four decades. Approach lanes are covered by macrocannon batteries that track every hull entering the system. Current Supply 60, Manpower 60, derived from full defence; Independent Minor Faction resource ruling applies. |
 
 **In-System Fleets:**
-- 41st Expeditionary Korps: Transit Command Grunwald (5/5), Wraith of Krieg (1/5)
+- 41st Expeditionary Korps: Transit Command Grunwald (5/5), Wraith of Krieg (3/5), Imperium’s Eye (1/5)
 - Hesperine Guard: Hesperine Watch Flotilla (4/5)
 
 ---
@@ -1194,7 +1199,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 | 5 | Reinforce: Supply 16 → 19; Manpower 11. Grunwald 5/5 at Aschenvald. No fleet, social or construction actions; turn complete. | Reinforce: Supply 7 → 11. Build: Supply 11 → 6; Forge Complex 3/5 → 4/5 at Mont'au 12/12. Manpower 8; Widening Circle 5/5. No fleet/social action; turn complete. | Expand Fleet: First Hunger 3/5 → 5/5 at Threnholt, Supply 6 → 5. Reinforce: Supply 5 → 8; Manpower 7. Star-Mother 11/12, not Defended. No movement/combat/social/construction actions; turn complete. | Cycle 5 complete; no battles or captures | Event check 3; no table roll. No Logistics until Cycle 6. Opening resources: Korps 16/11, Vior’la 7/8, Cerberus 6/7. End resources: Korps 19/11, Vior’la 6/8, Cerberus 8/7. Forge Complex 4/5. Independent recovery applied. |
 | 6 | Create Fleet: Wraith of Krieg 1/5 at Aschenvald. Supply 22 → 21; Manpower 14 → 13. Grunwald 5/5; no fleet/social/construction actions. Turn complete. | Reinforce: Supply 9 → 13. Build: Supply 13 → 8; Forge Complex 4/5 → 5/5, completed at Mont'au 12/12. Manpower 11; Widening Circle 5/5. No fleet/social action; turn complete. First Forge income Cycle 9. | Fleet Battle victory: First Hunger pays 5/5 → 4/5; Star-Mother contributes 11. Rolls 3+15=18 vs 7+5=12; margin 6, Secession Fleet 5/5 → 3/5. Both Fleet Actions used. Reinforce Supply 11 → 14; Manpower 10. No social/construction action; turn complete. | Cycle 6 complete; Cerberus wins; no captures | Capital income and ordinary fleet maintenance applied: Korps 22/14, Vior’la 9/11, Cerberus 11/10. Forge Complex incomplete at opening Logistics, no income; completed during Viorla turn. Event check 3: no event. End resources Korps 21/13, Viorla 8/11, Cerberus 14/10. Recovery: Corvid, Merrow and Sest 3/5 → 4/5; Threnholt Directorate excluded for combat. |
 
-| 7 | Awaiting turn | Awaiting turn | Awaiting turn | Opening complete; awaiting Korps | Event check d6=3: no event. No Logistics until Cycle 9. Opening Supply/Manpower: Korps 21/13, Viorla 8/11, Cerberus 14/10. |
+| 7 | Expand Fleet: Wraith of Krieg 1/5 → 3/5, Supply 21 → 20. Create Fleet: Imperium’s Eye 1/5 at Aschenvald, Supply 20 → 19, Manpower 13 → 12. Grunwald 5/5; no movement/combat/social/construction actions. Turn complete. | Awaiting turn | Awaiting turn | Korps complete; awaiting Viorla | Event check d6=3: no event. No Logistics until Cycle 9. Opening Supply/Manpower: Korps 21/13, Viorla 8/11, Cerberus 14/10. |
 
 ## Cycle Records
 
