@@ -999,14 +999,15 @@ The Directorate fought in a Fleet Battle, so the **Secession Fleet receives no r
 ### Cycle 8 turn progress
 
 - **41st Expeditionary Korps — turn complete:** Grunwald takes no Fleet Action, remaining **5/5 at Aschenvald**. At Sühne's built-in Orbital Shipyard, Wraith of Krieg uses Expand Fleet **3/5 → 5/5**, Supply **19 → 18**; Imperium’s Eye uses Expand Fleet **1/5 → 3/5**, Supply **18 → 17**. Faction Action Reinforce grants **+3 Supply: 17 → 20**. Manpower remains **12**. No movement, combat, social or construction action. Sühne remains **12/12**. Korps void superiority in Aschenvald is **13 vs Hesperine Guard 4**. No dice required; no Logistics charged this turn.
-- **Next: Vior'la Expedition, Cycle 8.** Cerberus follows. No event; next Logistics Cycle 9. No rollover until Cerberus's turn is resolved.
+- **Vior'la Expedition — turn complete:** Widening Circle takes no Fleet Action and remains **5/5 at Mont'au**. The Ember Carried Far uses Expand Fleet at Mont'au's built-in Orbital Shipyard: **1/5 → 3/5**, Supply **7 → 6**. Reinforce with The Provisioned Advance grants **+4 Supply: 6 → 10**. Manpower remains **10**. No movement, combat, social or construction action; no construction expenditure. Mont'au remains **12/12**, Forge Complex complete with first income Cycle 9. Void superiority **Vior'la 8 vs Vennick Accord 4**. No dice required.
+- **Next: Splinter Fleet Cerberus, Cycle 8.** No event; rollover and Cycle 9 Logistics follow its resolved turn.
 
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (3/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (1/5) — Mont'au | The First Hunger (3/5) — Threnholt |
-| Supplies (1-100) | 20 | 7 | 17 |
+| Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (3/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (3/5) — Mont'au | The First Hunger (3/5) — Threnholt |
+| Supplies (1-100) | 20 | 10 | 17 |
 | Manpower (1-100) | 12 | 10 | 10 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
 | Constructions | — | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
@@ -1036,7 +1037,7 @@ The Directorate fought in a Fleet Battle, so the **Secession Fleet receives no r
 
 ### Mont'au System (Vior'la Expedition)
 
-**Void Superiority:** Vior'la Expedition: 6 vs Vennick Accord: 4 — Vior'la Expedition
+**Void Superiority:** Vior'la Expedition: 8 vs Vennick Accord: 4 — Vior'la Expedition
 
 *The primary dome went up in the second year; the processors began cycling atmosphere in the fourth. Halstrave returns every envoy the Expedition sends — alive, gifts intact, each carrying a written statement of the terms under which the six houses will discuss the future of the system. The terms have not been revised in thirty years. Shas'o Mont'yr keeps every copy.*
 
@@ -1046,7 +1047,7 @@ The Directorate fought in a Fleet Battle, so the **Secession Fleet receives no r
 | Halstrave | Standard | Vennick Accord | 4/4 | Hive world. Six noble houses occupy a single fortified spire-cluster, their household levies quartered in shared barracks along the lower tiers. Muster rolls run to eight figures. The approach lanes are ranged by house artillery. Current Supply 60, Manpower 60, derived from full defence; Independent Minor Faction resource ruling applies. |
 
 **In-System Fleets:**
-- Vior'la Expedition: The Widening Circle (5/5), The Ember Carried Far (1/5)
+- Vior'la Expedition: The Widening Circle (5/5), The Ember Carried Far (3/5)
 - Vennick Accord: Accord Levy Squadron (4/5)
 
 **Construction progress:** Trial’s End Fabrication Array — Major Forge Complex, owned by Vior'la Expedition on Mont'au. **Completed Cycle 6: 5/5 actions**, 25 Supply spent in total. Build actions in Cycles 1, 2, 3, 5 and 6; none in Cycle 4. Effect: **+5 Supply per Logistics Cycle**. First scheduled income **Cycle 9**, provided retained and operational; no retroactive Cycle 6 income because opening Logistics preceded completion. Major construction capture/destruction and damage rules apply.
@@ -1224,7 +1225,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 7 | Expand Fleet: Wraith of Krieg 1/5 → 3/5, Supply 21 → 20. Create Fleet: Imperium’s Eye 1/5 at Aschenvald, Supply 20 → 19, Manpower 13 → 12. Grunwald 5/5; no movement/combat/social/construction actions. Turn complete. | Create Fleet: The Ember Carried Far 1/5 at Mont'au's built-in Orbital Shipyard. Supply 8 → 7; Manpower 11 → 10. Widening Circle 5/5; no fleet/social/construction actions. Forge Complex remains complete; turn complete. | Combined Fleet Battle victory: First Hunger initiation 4/5 → 3/5; Star-Mother 11/12. Rolls 14+14=28 vs 17+3=20, margin 8; Secession Fleet 3/5 → 1/5. Reinforce Supply 14 → 17; Manpower 10. No social/construction actions; turn complete. | Cycle 7 complete; Cerberus wins, no captures | Event check d6=3: no event. No Logistics until Cycle 9. Opening Supply/Manpower: Korps 21/13, Viorla 8/11, Cerberus 14/10. Closing: Korps 19/12, Viorla 7/10, Cerberus 17/10. Directorate excluded from recovery for combat; other surviving Independent fleets at original maximums. |
 
-| 8 | Expand Fleet twice: Wraith 3/5 → 5/5; Imperium’s Eye 1/5 → 3/5 at Sühne shipyard, Supply 19 → 18 → 17. Reinforce 17 → 20. Manpower 12; Grunwald 5/5. No movement/combat/social/construction actions; turn complete. | Awaiting turn | Awaiting turn | Korps complete; awaiting Viorla | Event check d6=3: no event. No Logistics until Cycle 9. Opening Supply/Manpower: Korps 19/12, Viorla 7/10, Cerberus 17/10. |
+| 8 | Expand Fleet twice: Wraith 3/5 → 5/5; Imperium’s Eye 1/5 → 3/5 at Sühne shipyard, Supply 19 → 18 → 17. Reinforce 17 → 20. Manpower 12; Grunwald 5/5. No movement/combat/social/construction actions; turn complete. | Expand Fleet: Ember Carried Far 1/5 → 3/5 at Mont'au shipyard; Supply 7 → 6. Reinforce +4: 6 → 10; Manpower 10. Widening Circle 5/5; no movement/combat/social/construction actions; turn complete. | Awaiting turn | Korps and Viorla complete; awaiting Cerberus | Event check d6=3: no event. No Logistics until Cycle 9. Opening Supply/Manpower: Korps 19/12, Viorla 7/10, Cerberus 17/10. |
 
 ## Cycle Records
 
