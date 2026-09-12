@@ -1,8 +1,8 @@
 {
-  "cycle": 17,
-  "phase": "Cycle 17 — Vior’la turn complete; awaiting Splinter Fleet Cerberus",
-  "event": "Warp Storm (Cycle 17 check: 6; table: 1)",
-  "nextFaction": "Splinter Fleet Cerberus",
-  "updated": "Cycle 17 — Vior’la Academy completed",
-  "notes": "Korps 4 Supply/22 Manpower; Viorla 14/25; Cerberus 14/26. Widening Circle and Ember restored 5/5 in Montau, actions used; Promise Kept remains destroyed. Cadre Academy complete and active 5/5, first +5 Manpower at Cycle 18. Forge Complex and Vitae Womb active. Assimilation Viscera completed but damaged 4/5, inactive. Corvid 2/4; Forge fleets 3/5 each, no recovery this Cycle. Warp Storm prohibits movement. No pending battles; awaiting Cerberus before rollover; next Logistics Cycle 18."
+  "cycle": 18,
+  "phase": "Cycle 18 opening complete — awaiting 41st Expeditionary Korps",
+  "event": "No event (Cycle 18 check: 5)",
+  "nextFaction": "41st Expeditionary Korps",
+  "updated": "Cycle 18 — Logistics and event complete",
+  "notes": "Korps 7 Supply/30 Manpower; Viorla 23/34; Cerberus 18/28. Logistics applied including first Vitae Womb, Cadre Academy and Assimilation Viscera income. Star-Mother 12/12 Defended until Cerberus turn; First Hunger 5/5, Second Hunger 4/5. All constructions complete and active. Six eligible Independent fleets recover one strength each; Forge excluded, fleets 3/5 each; Corvid 2/4. Warp Storm expired; Fleet Actions reset, movement allowed. No pending battles; next Logistics Cycle 21."
 }
