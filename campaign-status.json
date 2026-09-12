@@ -1,8 +1,8 @@
 {
-  "cycle": 16,
-  "phase": "Cycle 16 — Vior’la turn complete; awaiting Splinter Fleet Cerberus",
-  "event": "No event (Cycle 16 check: 5)",
-  "nextFaction": "Splinter Fleet Cerberus",
-  "updated": "Cycle 16 — The Promise Kept commissioned",
-  "notes": "Korps 4 Supply/23 Manpower; Viorla 17/26; Cerberus 17/26. Promise Kept commissioned 1/5 in Montau, no action this Cycle; Widening Circle and Ember 5/5, unused. Cadre Academy 4/5, incomplete; Forge Complex active. Halstrave 4/4, no longer Defended. Thelks Rest 2/2 Defended until Korps Cycle 17; Vitae Womb Complex active 5/5. No pending battles. Awaiting Cerberus before rollover; no event or Logistics this Cycle; next Logistics Cycle 18."
+  "cycle": 17,
+  "phase": "Cycle 17 opening complete — awaiting 41st Expeditionary Korps",
+  "event": "Warp Storm (Cycle 17 check: 6; table: 1)",
+  "nextFaction": "41st Expeditionary Korps",
+  "updated": "Cycle 17 — Warp Storm applied",
+  "notes": "Korps 4 Supply/23 Manpower; Viorla 17/25; Cerberus 14/26. All fleets damaged by 1; movement prohibited. Promise Kept destroyed, Viorla loses 1 Manpower. Star-Mother 11/12; First Hunger 4/5; Second Hunger 2/5. Assimilation Viscera completed Cycle 16, now damaged 4/5 and inactive. Vitae Womb active; Cadre Academy unfinished 4/5. No Defended status remains. Fleet Actions reset; no pending battles. No Logistics; next Cycle 18."
 }
