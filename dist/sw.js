@@ -1,4 +1,4 @@
-const CACHE='dessica-d3e121f4f5a3';
+const CACHE='dessica-80c90e71b705';
 const ASSETS=['./','./index.html','./campaign.json','./Dessica_Campaign.md','./manifest.webmanifest','./icon-180.png','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('dessica-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
