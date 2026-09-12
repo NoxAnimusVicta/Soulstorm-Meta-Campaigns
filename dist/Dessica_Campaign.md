@@ -1156,16 +1156,30 @@ No Logistics; next Logistics **Cycle 12**, including Kelmar's first +1/+1 income
 
 No new fleet destruction or resource changes. Vennick, Directorate and Last Rite have no surviving fleets. Ground holdings retain their defence; Star-Mother's storm damage is the agreed exception. All Fleet Actions reset to **unused for Cycle 11**, including the Star-Mother; the storm itself consumes no Fleet Action. No Cycle 11 recovery applied early.
 
-**Next: 41st Expeditionary Korps, Cycle 11.** No pending battles or resolved Cycle 11 faction turns. Resources remain **Korps 26/19, Viorla 25/21, Cerberus 27/19**.
+**Opening state:** Korps 26/19, Viorla 25/21, Cerberus 27/19. Korps turn is resolved below.
+
+### Cycle 11 — Korps captures Vantry
+
+**Player-reported victory:** Kriegsmen and Deathriders pressed through Vantry’s enclosed corridors, leaving the defenders little room to evade the onslaught. Enemy ships were battered as they attempted to regroup without their station to fall back to.
+
+- Grunwald and Wraith of Krieg each contributed **4/5**, total **8**, for **1 base damage and 1 Manpower committed**. Player battle: Standard (2/5), one Korps formation versus one Hesperine Guard formation on a 2-player map. No battle dice required.
+- **Supply: 26 −2 assault −1 expansion = 23.** Imperium’s Eye expanded **4/5 → 5/5** at Sühne; it did not participate in the assault.
+- **Manpower: 19 −1 committed = 18; victory returns floor(0.6) = 0; then Muster +3 = 21.** Uses the Cycle 10 whole-point round-down ruling. Net battle loss 1 Manpower (600 combat personnel); recruitment adds 1,800 personnel.
+- **Vantry: 1/4 → 0 → 1/4**, captured by the 41st Expeditionary Korps. Standard Void Station; first **+2 Supply/+2 Manpower** income at Cycle 12 Logistics if retained. No automatic Major Faction defence recovery. Sühne remains 12/12. No construction or Social Action.
+- **Planet Fall fleet damage: 1**, reducing the sole Hesperine Watch Flotilla **3/5 → 2/5**. No additional fleet damage is inferred from the battle narrative. Korps fleets remain 4/5, 4/5, 5/5, all in Aschenvald.
+- Hesperine Guard has lost its only holding and is **eliminated under the no-remaining-planets rule**. Its Independent resource pool ceases with loss of Vantry; Major Faction resource penalties are not applied. The rules do not specify disposal of surviving fleets on faction elimination: retain the **2/5 flotilla as an unresolved remnant**, with no invented destruction, movement or orders. Resolve its continuing status before it affects another battle or recovery; no recovery applied now. Conservatively retain its strength in the displayed hostile void total until ruled otherwise.
+- Fleet Actions used this Cycle: **Grunwald — Ground Assault; Wraith — Ground Assault; Imperium’s Eye — Expand Fleet**. Warp Storm movement restriction remains active. Viorla and Cerberus actions remain unused.
+
+**Korps turn complete. Next: Vior’la Expedition, Cycle 11.** No pending player battle. No Cycle rollover or new event roll. Current resources: **Korps 23/21; Viorla 25/21; Cerberus 27/19**.
 
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (4/5), Wraith of Krieg (4/5), Imperium’s Eye (4/5) — Aschenvald | The Widening Circle (3/5), The Ember Carried Far (4/5) — Mont'au | The First Hunger (3/5) — Threnholt |
-| Supplies (1-100) | 26 | 25 | 27 |
-| Manpower (1-100) | 19 | 21 | 19 |
-| Planets Controlled | Sühne | Mont'au | The Star-Mother — Mobile Capital, 10/12 defence; Threnholt; not Defended; built-in Orbital Shipyard; +4 Supply/+4 Manpower per Logistics; exempt from fleet maintenance; Kelmar — Minor world, 1/2 defence, Threnholt; +1 Supply/+1 Manpower per Logistics from Cycle 12 |
+| Fleets | Transit Command Grunwald (4/5), Wraith of Krieg (4/5), Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (3/5), The Ember Carried Far (4/5) — Mont'au | The First Hunger (3/5) — Threnholt |
+| Supplies (1-100) | 23 | 25 | 27 |
+| Manpower (1-100) | 21 | 21 | 19 |
+| Planets Controlled | Sühne; Vantry — Standard Void Station, 1/4 defence; +2 Supply/+2 Manpower per Logistics from Cycle 12 | Mont'au | The Star-Mother — Mobile Capital, 10/12 defence; Threnholt; not Defended; built-in Orbital Shipyard; +4 Supply/+4 Manpower per Logistics; exempt from fleet maintenance; Kelmar — Minor world, 1/2 defence, Threnholt; +1 Supply/+1 Manpower per Logistics from Cycle 12 |
 | Constructions | — | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
 
 **AI vs AI Ground Battle Resolution:** Both factions roll d20 + participating Fleet Strength + Supply + Manpower. Attacker commits Manpower equal to base damage (fleet strength only); Defender commits half of total damage to planet (including bonuses, rounded down). Highest total wins. If the defender used the Defend action, their roll gains +15. Winner returns 60% committed Manpower (rounded down), loser loses 100%. **All calculations use resource values after attack costs (scaled by world type) and Manpower commitments are deducted.**
@@ -1176,18 +1190,18 @@ No new fleet destruction or resource changes. Vennick, Directorate and Last Rite
 
 ### Aschenvald System (41st Expeditionary Korps)
 
-**Void Superiority:** 41st Expeditionary Korps: 12 vs Hesperine Guard: 3 — 41st Expeditionary Korps
+**Void Superiority:** 41st Expeditionary Korps: 13 vs Hesperine remnant: 2 — 41st Expeditionary Korps
 
 *Vantry broadcasts the same challenge to every vessel that enters the system — regimental cipher, verification codes, a standing order issued by Segmentum Command four decades ago. The 41st logs each transmission and answers with its own. Neither set of codes resolves against anything the other can check. Kolbrant has the guns to end the exchange and keeps them cold.*
 
 | Planet | Type | Controller | Defense | Notes |
 |--------|------|------------|---------|-------|
 | Sühne | Capital | 41st Expeditionary Korps | 12/12 | Fortress world taken after eleven years of siege. Trench networks radiate from the old citadel across the ash plains, ringed by artillery in concentric emplacements. Tunnel systems run beneath the surface works, their extent known only to the Korps. The rebel curtain walls remain where they fell. |
-| Vantry | Standard (Station) | Hesperine Guard | 1/4 | Orbital defence platform and garrison station. Rotation schedules, munitions inventories, and watch rosters have been maintained without interruption for four decades. Approach lanes are covered by macrocannon batteries that track every hull entering the system. Cycle 10 Korps victory: defence 4/4 → 1/4. Korps holds extensive lodgements; Hesperine remains campaign controller until capture. Current Supply 15, Manpower 15 (60 × 1/4). No end-Cycle 10 recovery because attacked. |
+| Vantry | Standard (Station) | 41st Expeditionary Korps | 1/4 | Captured in Cycle 11 by Grunwald and Wraith of Krieg ground assault. Kriegsmen and Deathriders broke the remaining corridor defences. Resets to 1/4; no Independent resource pool. First +2 Supply/+2 Manpower Logistics income Cycle 12 if retained. No construction; not Defended. |
 
 **In-System Fleets:**
-- 41st Expeditionary Korps: Transit Command Grunwald (4/5), Wraith of Krieg (4/5), Imperium’s Eye (4/5)
-- Hesperine Guard: Hesperine Watch Flotilla (3/5)
+- 41st Expeditionary Korps: Transit Command Grunwald (4/5), Wraith of Krieg (4/5), Imperium’s Eye (5/5)
+- Hesperine remnant: Hesperine Watch Flotilla (2/5) — reduced by Cycle 11 Planet Fall; faction eliminated after losing Vantry. Surviving fleet disposition unspecified by rules; retained pending ruling, no recovery or orders invented.
 
 ---
 
@@ -1387,7 +1401,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 10 | Player victory at Vantry: 3 damage, 4/4 → 1/4; no capture. Supply 26. Manpower 15 available +1 returned +3 Muster =19. Three fleets 5/5; Hesperine fleet 4/5. No social/construction action; turn complete. | Combined Fleet Battle victory: Widening Circle initiation 5/5 → 4/5, Ember 5/5. Rolls 16+9=25 vs 5+4=9; margin 16 destroys Accord Levy Squadron. Reinforce Supply 21 → 25, Manpower 21. No social/construction action; turn complete. | Combined Ground Assault captures Kelmar, 62 vs 47. Supply 25 → 24 → 27 after Reinforce; Manpower 21 → 18 → 19 after victory return. Kelmar 1/2 Cerberus-held; no social/construction action. | Cycle 10 complete; Kelmar captured | War Fervor already awarded. Vantry resources now 15/15, no recovery this Cycle. Player reports Hellhound-led advances, extensive station lodgements and fortified supply routes. Map-size and allied eligibility rules recorded; no additional mechanical fleet damage. |
 
-| 11 | Awaiting turn | Awaiting turn | Awaiting turn | Opening complete; awaiting Korps | Event check 1, table 1: Warp Storm. Fleet losses listed above; no new destruction. No Logistics until Cycle 12. Resources Korps 26/19, Viorla 25/21, Cerberus 27/19. |
+| 11 | Player victory captures Vantry at 1/4. Grunwald and Wraith 4/5 assault for 1 damage; Imperium’s Eye expands to 5/5. Supply 26 −2 −1 =23; Manpower 19 −1 +0 returned +3 Muster =21. No Social/Construction action; turn complete. | Awaiting turn | Awaiting turn | Awaiting Viorla | Warp Storm active: check 1, table 1. Hesperine eliminated; Watch Flotilla 3/5 → 2/5 from Planet Fall, remnant disposition pending ruling. Next Logistics Cycle 12. |
 
 ## Cycle Records
 
