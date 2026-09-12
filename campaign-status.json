@@ -1,8 +1,8 @@
 {
-  "cycle": 11,
-  "phase": "Cycle 11 — all faction turns complete; rollover pending",
-  "event": "Warp Storm (Cycle 11 check: 1; event table: 1)",
-  "nextFaction": "41st Expeditionary Korps after Cycle 12 opening",
-  "updated": "Cycle 11 — Cerberus turn complete",
-  "notes": "Ossvarn bombarded to 1/2, Last Rite resources 20/20, no recovery. Cerberus 20 Supply/15 Manpower; First Hunger 5/5, Star-Mother 12/12 and Defended until its Cycle 12 turn. All Cycle 11 faction turns complete. Cycle 12 Logistics and event pending."
+  "cycle": 12,
+  "phase": "Cycle 12 opening complete — awaiting 41st Expeditionary Korps",
+  "event": "Ambush! (Cycle 12 check: 1; event table: 2)",
+  "nextFaction": "41st Expeditionary Korps",
+  "updated": "Cycle 12 — Logistics complete; Ambush!",
+  "notes": "Logistics applied: Korps 26 Supply/24 Manpower; Viorla 31/23; Cerberus 24/19. Vantry and Kelmar income included; Forge income +5, fleet maintenance paid. Star-Mother 12/12, Defended until start of Cerberus turn; First Hunger 5/5. Halstrave 3/4, Ossvarn 1/2; no recovery after bombardment. Seven eligible Independent fleets recovered one point each. Warp Storm expired; movement allowed; all Fleet Actions unused. Ambush: attackers +1 difficulty, defenders −1; AI ground defenders +10. No pending battles. Next Logistics Cycle 15."
 }
