@@ -61,8 +61,9 @@ for faction in factions:
   if len(row)>=5 and normalized(row[2])==normalized(faction['name']):
    registers['holdings'].append([row[0], row[4].replace(' System',''), row[1], row[3], '+4 Supply / +4 Manpower per Logistics; built-in Orbital Shipyard; no fleet maintenance'])
  construction=faction['values'].get('Constructions','—')
- if construction!='—':
-  parts=[part.strip() for part in construction.split(';')]
+ for project in construction.split(' • '):
+  if project.strip() in ('—',''): continue
+  parts=[part.strip() for part in project.split(';')]
   identity=parts[0].split(' — ',1)
   fields=identity[-1].split(', ')
   registers['constructions'].append([identity[0], ', '.join(fields[:-1]), fields[-1], '; '.join(parts[1:])])

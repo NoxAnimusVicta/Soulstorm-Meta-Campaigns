@@ -1,8 +1,8 @@
 {
   "cycle": 13,
-  "phase": "Cycle 13 — Korps turn complete; awaiting Vior’la Expedition",
+  "phase": "Cycle 13 — Vior’la turn complete; awaiting Splinter Fleet Cerberus",
   "event": "No event (Cycle 13 check: 4)",
-  "nextFaction": "Vior’la Expedition",
-  "updated": "Cycle 13 — Korps deploys to Anvarrus",
-  "notes": "Korps 15 Supply/22 Manpower. Grunwald and Wraith 5/5 each at Anvarrus; movement actions used. Forge Anvarrus strength 13 versus Korps 10. Imperium’s Eye remains Aschenvald 5/5, action unused. Vitae Womb Complex 2/5 Integrity, incomplete; Sühne 12/12. Vantry 3/4 not Defended. Viorla 27/23, Cerberus 21/17 unchanged. No event, combat or pending battle. Next Viorla, then Cerberus; Logistics Cycle 15."
+  "nextFaction": "Splinter Fleet Cerberus",
+  "updated": "Cycle 13 — Halstrave captured; Academy begun",
+  "notes": "Viorla 23 Supply/22 Manpower. Halstrave captured at 1/4, Vennick eliminated, no Independent resource pool; +2/+2 Logistics from Cycle 15. Both fleets 5/5 in Montau, both actions used. Unbroken Line Cadre Academy 1/5 Integrity; Forge Complex 5/5 active. Korps 15/22, Cerberus 21/17 unchanged. No event or pending battle; await Cerberus before rollover."
 }
