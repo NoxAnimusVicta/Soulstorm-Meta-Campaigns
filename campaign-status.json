@@ -1,8 +1,8 @@
 {
   "cycle": 12,
-  "phase": "Cycle 12 — Vior’la turn complete; awaiting Splinter Fleet Cerberus",
+  "phase": "Cycle 12 — all turns complete; rollover pending",
   "event": "Ambush! (Cycle 12 check: 1; event table: 2)",
-  "nextFaction": "Splinter Fleet Cerberus",
-  "updated": "Cycle 12 — Halstrave reduced to final defence",
-  "notes": "Viorla 27 Supply/23 Manpower. Two separate bombardments reduce Halstrave 3/4 → 1/4; Vennick resources 15/15, no capture or end-Cycle 12 defence recovery. Widening Circle 5/5, Ember 4/5 in Montau; both actions used. Korps 17/22, Cerberus 24/19 unchanged. Vantry 3/4 Defended until Korps Cycle 13 turn; Vitae Womb Complex 1/5. Star-Mother Defended expires at start of upcoming Cerberus turn. Ambush active; no pending battles. Await Cerberus before rollover."
+  "nextFaction": "41st Expeditionary Korps after Cycle 13 opening",
+  "updated": "Cycle 12 — Ossvarn captured",
+  "notes": "Cerberus captures Ossvarn 76 vs 57; Last Rite eliminated. Cerberus 21/17 after Reinforce and Build. Assimilation Viscera Major Forge Complex 1/5, incomplete. Star-Mother 12/12 not Defended; First Hunger 5/5. Cycle 12 complete; recovery and Cycle 13 event pending."
 }
