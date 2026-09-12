@@ -784,7 +784,7 @@ At the start of each Cycle, before any faction takes its turn, roll 1d6. On a 1 
 - **O** = Past Logistics Cycle (every 3rd cycle)
 - **X** = Past Cycle
 
-**Current Cycle:** 13
+**Current Cycle:** 14
 
 ### Cycle 1 opening event: Warp Storm
 
@@ -1295,15 +1295,33 @@ Victory returns floor(1 ×0.6)=**0 Manpower**, leaving **22**. Reinforce **+4 Su
 
 Both fleets remain Mont’au at **5/5**, void superiority **10 vs 0**. **Vior’la turn complete; Supply 23 / Manpower 22. Next: Splinter Fleet Cerberus, Cycle 13.** No pending battle or rollover.
 
+### Cycle 13 — Cerberus bombards Threnholt
+
+Star-Mother **12** and First Hunger **5** jointly conduct one Uncontested Bombardment, total **17 strength**. Both Fleet Actions used. **4 Supply: 21 → 17**, **zero Manpower**, no initiation cost or dice. **3 damage: Threnholt 4/4 → 1/4**. Directorate retains the world; resources **15 Supply /15 Manpower** (60 ×1/4). No capture; a Ground Assault is required for the final point. Threnholt receives no end-Cycle 13 defence recovery because attacked.
+
+**Reinforce +3 Supply: 17 → 20. Build −5: 20 → 15.** Assimilation Viscera advances **1/5 → 2/5 Integrity and progress** aboard Star-Mother at full **12/12**. Incomplete and inactive. Manpower unchanged **17**. No Social Action. Both assets remain Threnholt, strengths 12 and 5, not damaged; Star-Mother not Defended.
+
+**Cerberus turn complete; Cycle 13 turns complete.** Closing resources Korps **15/22**, Vior’la **23/22**, Cerberus **15/17**. No pending battles.
+
+### Cycle 13 closure and Cycle 14 opening
+
+Threnholt was attacked and remains **1/4**, Directorate resources **15/15**, with no defence recovery. Other Independent worlds are full defence. Major-held Vantry **3/4**, Halstrave **1/4**, Kelmar **1/2**, Ossvarn **1/2** receive no automatic repair.
+
+Eligible Independent fleet recovery: **Corvid Ore Escort, Merrow Tender Group and Sest Patrol Wing each 3/5 → 4/5**, restoring original maxima. Forge Anvarrus was not engaged in Fleet Battle or Ground Assault; Korps movement into the system does not prevent recovery. Other surviving fleets are already at original maxima. Destroyed fleets remain lost. Anvarrus void superiority is **Forge 14 vs Korps 10**.
+
+**Cycle 14 event check: 1d6 =5**, rolled with Python secrets; **no event**, no table roll. No Logistics until Cycle 15. All Fleet Actions reset unused; no Defended statuses or pending battles. Resources unchanged: **Korps 15/22, Vior’la 23/22, Cerberus 15/17**. Projects unchanged: Vitae Womb Complex **2/5**, Unbroken Line Cadre Academy **1/5**, Assimilation Viscera **2/5**, all incomplete; Trial’s End Fabrication Array **5/5 active**.
+
+**Next: 41st Expeditionary Korps, Cycle 14.** Grunwald and Wraith remain Anvarrus 5/5 each; Imperium’s Eye remains Aschenvald 5/5. No future assault has been resolved.
+
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
 | Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5) — Anvarrus; Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (5/5) — Mont'au | The First Hunger (5/5) — Threnholt |
-| Supplies (1-100) | 15 | 23 | 21 |
+| Supplies (1-100) | 15 | 23 | 15 |
 | Manpower (1-100) | 22 | 22 | 17 |
 | Planets Controlled | Sühne; Vantry — Standard Void Station, 3/4 defence, not Defended; +2 Supply/+2 Manpower per Logistics from Cycle 12 | Mont'au; Halstrave — Standard world, 1/4 defence, +2/+2 Logistics from Cycle 15 | The Star-Mother — Mobile Capital, 12/12 defence; Threnholt; not Defended; built-in Orbital Shipyard; +4 Supply/+4 Manpower per Logistics; exempt from fleet maintenance; Kelmar — Minor world, 1/2 defence, Threnholt; +1 Supply/+1 Manpower per Logistics from Cycle 12; Ossvarn — Minor world, 1/2 defence, Threnholt; +1/+1 Logistics from Cycle 15 |
-| Constructions | The Vitae Womb Complex — Major Military Academy, Sühne, 2/5 Integrity (under construction); begun Cycle 12; +5 Manpower per Logistics only after completion, no income while incomplete | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 Integrity (complete, active); completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 • The Unbroken Line Cadre Academy — Major Military Academy, Mont'au, 1/5 Integrity (under construction); begun Cycle 13; +5 Manpower per Logistics only when complete and at full Integrity | Assimilation Viscera — Major Forge Complex, Star-Mother (Threnholt), 1/5 Integrity (under construction); begun Cycle 12; +5 Supply per Logistics only after completion, no income while incomplete |
+| Constructions | The Vitae Womb Complex — Major Military Academy, Sühne, 2/5 Integrity (under construction); begun Cycle 12; +5 Manpower per Logistics only after completion, no income while incomplete | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 Integrity (complete, active); completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 • The Unbroken Line Cadre Academy — Major Military Academy, Mont'au, 1/5 Integrity (under construction); begun Cycle 13; +5 Manpower per Logistics only when complete and at full Integrity | Assimilation Viscera — Major Forge Complex, Star-Mother (Threnholt), 2/5 Integrity (under construction); begun Cycle 12; +5 Supply per Logistics only after completion, no income while incomplete |
 
 **AI vs AI Ground Battle Resolution:** Both factions roll d20 + participating Fleet Strength + Supply + Manpower. Attacker commits Manpower equal to base damage (fleet strength only); Defender commits half of total damage to planet (including bonuses, rounded down). Highest total wins. If the defender used the Defend action, their roll gains +15. Winner returns 60% committed Manpower (rounded down), loser loses 100%. **All calculations use resource values after attack costs (scaled by world type) and Manpower commitments are deducted.**
 
@@ -1357,12 +1375,12 @@ Both fleets remain Mont’au at **5/5**, void superiority **10 vs 0**. **Vior’
 
 | Planet | Type | Controller | Defense | Notes |
 |--------|------|------------|---------|-------|
-| Threnholt | Standard | The Threnholt Directorate | 4/4 | Civilised world. The Directorate holds the southern continent and planetary government. Loyalist enclaves in the northern arcologies resist its rule; their rail supply corridor is a recurring front in the secession war. Former Administratum vaults beneath the southern hive districts now house Directorate command posts. Local resistance is narrative background; the campaign holding remains under Directorate control at 4/4 defence. |
+| Threnholt | Standard | The Threnholt Directorate | 1/4 | Civilised world. The Directorate holds the southern continent and planetary government. Loyalist enclaves in the northern arcologies resist its rule; their rail supply corridor is a recurring front in the secession war. Former Administratum vaults beneath the southern hive districts now house Directorate command posts. Local resistance is narrative background; the campaign holding remains Directorate-held. Cycle 13 combined bombardment: 4/4 → 1/4; Independent resources 15/15. No end-Cycle 13 defence recovery because attacked. |
 | Ossvarn | Minor | Splinter Fleet Cerberus | 1/2 | Shrine world. The priesthood reorganised its liturgy around funerary rites in the year the Astronomican failed. Catacomb-cities extend three kilometres below the surface, walled with reliquary bone. Surface cathedrals stand empty and unlocked. Cycle 11 bombardment reduced defence 2/2 → 1/2. Cycle 12: captured by Cerberus, 76 vs 57; reset to 1/2. Last Rite eliminated. No Independent resource pool; +1/+1 Logistics from Cycle 15 if retained. |
 | Kelmar | Minor | Splinter Fleet Cerberus | 1/2 | Mining colony. Deep shafts, ration depots and evacuation shelters captured by the swarm in Cycle 10 after Star-Mother bombardment in Cycle 9. Ground Assault victory 62 vs 47; captured and reset to 1/2. No Independent resource pool remains here. Minor holding income +1 Supply/+1 Manpower per Logistics, first due Cycle 12 if retained. |
 
 **In-System Fleets:**
-- Splinter Fleet Cerberus: The Star-Mother (12/12 — Mobile Capital; not Defended; Assimilation Viscera — Major Forge Complex 1/5, no income while incomplete)
+- Splinter Fleet Cerberus: The Star-Mother (12/12 — Mobile Capital; not Defended; Assimilation Viscera — Major Forge Complex 2/5, no income while incomplete)
 - Splinter Fleet Cerberus: The First Hunger (5/5)
 - The Threnholt Directorate: no surviving fleets. Secession Fleet destroyed in Cycle 8; Kelmar Convoy Auxiliary destroyed in Cycle 1.
 **Cycle 2 loss:** Ossvarn Funerary Fleet destroyed by Warp Storm (1/5 → 0). No Independent resource deduction: Ossvarn remains 40 Supply / 40 Manpower. No active Last Rite fleet remains.
@@ -1375,7 +1393,7 @@ Both fleets remain Mont’au at **5/5**, void superiority **10 vs 0**. **Vior’
 
 ### Anvarrus System (Independent — Forge Anvarrus)
 
-**Void Superiority:** Forge Anvarrus: 13 vs 41st Expeditionary Korps: 10 — Forge Anvarrus
+**Void Superiority:** Forge Anvarrus: 14 vs 41st Expeditionary Korps: 10 — Forge Anvarrus
 
 *Magos-Dominus Thelk received four recall orders from Mars across six years. All four are archived on Thelk's Rest, sealed in the same vault as the research they were issued to halt. Three manufactorum districts on Anvarrus have been under quarantine since the reclamation yard incident. Skitarii cohorts hold the cordon and log every entry.*
 
@@ -1386,7 +1404,7 @@ Both fleets remain Mont’au at **5/5**, void superiority **10 vs 0**. **Vior’
 | Thelk's Rest | Minor (Station) | Forge Anvarrus | 2/2 | Research station and biologis facility. Vat-farms, specimen storage, and the sealed archive vault. Access requires Thelk's personal cipher. |
 
 **In-System Fleets:**
-- Forge Anvarrus: Omnissian Vigil (5/5), The Sanctioned Pattern (5/5), Corvid Ore Escort (3/5)
+- Forge Anvarrus: Omnissian Vigil (5/5), The Sanctioned Pattern (5/5), Corvid Ore Escort (4/5)
 - 41st Expeditionary Korps: Transit Command Grunwald (5/5), Wraith of Krieg (5/5)
 
 ---
@@ -1445,7 +1463,7 @@ Both fleets remain Mont’au at **5/5**, void superiority **10 vs 0**. **Vior’
 
 ### Havren System (Independent — The Havren Reclamation)
 
-**Void Superiority:** Havren Reclamation: 13 — Havren Reclamation
+**Void Superiority:** Havren Reclamation: 14 — Havren Reclamation
 
 *The Havren Warrant of Trade hangs in the receiving hall on Havren's Claim, nineteen signatures deep, the most recent countersigned by a Lord Militant four centuries dead. Lady Reclaimant Sevrine Havren receives petitioners beneath it. Her escorts run the patrol routes her grandmother set, and the tariff schedules are still enforced at Merrow.*
 
@@ -1456,13 +1474,13 @@ Both fleets remain Mont’au at **5/5**, void superiority **10 vs 0**. **Vior’
 | Merrow | Minor (Station) | Havren Reclamation | 2/2 | Refuelling depot and shipyard annex. Drydocks handle hulls up to cruiser tonnage. Tariff office sits at the station's primary approach. |
 
 **In-System Fleets:**
-- Havren Reclamation: The Nineteenth Warrant (5/5), Sevrine's Prerogative (5/5), Merrow Tender Group (3/5)
+- Havren Reclamation: The Nineteenth Warrant (5/5), Sevrine's Prerogative (5/5), Merrow Tender Group (4/5)
 
 ---
 
 ### Talgrave System (Independent — The Talgrave Dominion)
 
-**Void Superiority:** Talgrave Dominion: 13 — Talgrave Dominion
+**Void Superiority:** Talgrave Dominion: 14 — Talgrave Dominion
 
 *Governor Aurelian Vosk continues to file tithe assessments. They accumulate in the Palatine Spire's records office, bound and sealed by year, addressed to an Administratum that has not acknowledged receipt in four decades. Corrandine's governor declined the Dominion's protection in the eleventh year. The occupation garrison has held his capital since.*
 
@@ -1473,7 +1491,7 @@ Both fleets remain Mont’au at **5/5**, void superiority **10 vs 0**. **Vior’
 | Sest | Minor | Talgrave Dominion | 2/2 | Agricultural world. Serf-worked estates under manor-house administration, feeding Talgrave's hives on a fixed shipping quota. The militia is equipped for crowd suppression. |
 
 **In-System Fleets:**
-- Talgrave Dominion: The Palatine Guard (5/5), Corrandine Occupation Fleet (5/5), Sest Patrol Wing (3/5)
+- Talgrave Dominion: The Palatine Guard (5/5), Corrandine Occupation Fleet (5/5), Sest Patrol Wing (4/5)
 
 ---
 
@@ -1501,7 +1519,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | Asset | Type | Controller | Strength | Location | Notes |
 |-------|------|------------|----------|----------|-------|
-| The Star-Mother | Hive Ship (Mobile Capital) | Splinter Fleet Cerberus | 12/12 | Threnholt System | The splinter's reproductive core and the Norn Queen's vessel. Where it drifts, the swarm follows. Cycle 1: Warp Storm -1 defence; Fleet Battle initiation -1; defeat against the Last Rite -2. Cycle 2 Warp Storm reduced defence to 7/12; Defend restored +4 to 11/12. Previous Defended status expired at the start of Cerberus’s Cycle 3 turn. Created The First Hunger (1/5) at its shipyard. The Cycle 2 Warp Storm movement restriction expired at Cycle 3. Cycle 6: participated with The First Hunger in victory over the Threnholt Directorate, 18 vs 12; no damage sustained. Cycle 7: combined victory over Secession Fleet, 28 vs 20; no damage sustained. Cycle 8: combined victory 32 vs 20 destroys Secession Fleet; no damage sustained. Cycle 9: bombarded Kelmar to 1/2. Cycle 10: jointly captured Kelmar. Cycle 11 Warp Storm: 11/12 → 10/12, movement prohibited; not Defended at opening. Later Cycle 11: bombarded Ossvarn, then Defend restored 12/12. Cycle 12: Defended expired; captured Ossvarn jointly with First Hunger; Assimilation Viscera Major Forge Complex begun, 1/5. Current 12/12, not Defended. |
+| The Star-Mother | Hive Ship (Mobile Capital) | Splinter Fleet Cerberus | 12/12 | Threnholt System | The splinter's reproductive core and the Norn Queen's vessel. Where it drifts, the swarm follows. Cycle 1: Warp Storm -1 defence; Fleet Battle initiation -1; defeat against the Last Rite -2. Cycle 2 Warp Storm reduced defence to 7/12; Defend restored +4 to 11/12. Previous Defended status expired at the start of Cerberus’s Cycle 3 turn. Created The First Hunger (1/5) at its shipyard. The Cycle 2 Warp Storm movement restriction expired at Cycle 3. Cycle 6: participated with The First Hunger in victory over the Threnholt Directorate, 18 vs 12; no damage sustained. Cycle 7: combined victory over Secession Fleet, 28 vs 20; no damage sustained. Cycle 8: combined victory 32 vs 20 destroys Secession Fleet; no damage sustained. Cycle 9: bombarded Kelmar to 1/2. Cycle 10: jointly captured Kelmar. Cycle 11 Warp Storm: 11/12 → 10/12, movement prohibited; not Defended at opening. Later Cycle 11: bombarded Ossvarn, then Defend restored 12/12. Cycle 12: Defended expired; captured Ossvarn jointly with First Hunger; Assimilation Viscera Major Forge Complex begun, 1/5. Cycle 13: jointly bombarded Threnholt; Assimilation Viscera advanced to 2/5 Integrity. Current 12/12, not Defended. |
 
 ---
 
@@ -1529,7 +1547,9 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 12 | Grunwald and Wraith expand to 5/5 for 2 Supply; Eye 5/5, action unused. Defend Vantry to 3/4 for 2 Supply/2 Manpower, Defended until Cycle 13 Korps turn. Begin Vitae Womb Complex (Major Military Academy) 1/5 on Sühne for 5 Supply. Final 17 Supply/22 Manpower; no Social Action; turn complete. | Two separate bombardments reduce Halstrave 3/4 → 2/4 → 1/4, 4 Supply each, no Manpower or dice. Reinforce +4; final Supply 27, Manpower 23. Both fleet actions used; strengths 5/5 and 4/5. No Social/Construction action; turn complete. | Combined assault captures Ossvarn 76 vs 57; Last Rite eliminated. Reinforce then begin Assimilation Viscera Major Forge Complex 1/5 aboard Star-Mother. Final resources 21/17; Star-Mother 12/12 not Defended, First Hunger 5/5, both actions used. | Cycle 12 turns complete | Logistics: Korps 26/24, Viorla 31/23, Cerberus 24/19. Event check 1, table 2: Ambush! Movement permitted; Star-Mother Defended until Cerberus turn. |
 
-| 13 | Grunwald and Wraith move to Anvarrus at 5/5 each, actions used; Eye remains Aschenvald 5/5, unused. Reinforce +3 then Build −5: Supply 15, Manpower 22. Vitae Womb Complex 2/5 on Sühne 12/12; Vantry 3/4 not Defended. No Social Action or combat; turn complete. | Ember expands to 5/5; Widening Circle captures Halstrave, 61 vs 44, reset 1/4, Vennick eliminated. Reinforce then begin Unbroken Line Cadre Academy 1/5. Final Supply 23/Manpower 22; both actions used; no Social Action. | Awaiting turn | Awaiting Cerberus | Event check 4: no event. No Logistics until Cycle 15. Resources Korps 17/22, Viorla 27/23, Cerberus 21/17. All Fleet Actions unused; Vantry and Star-Mother not Defended. |
+| 13 | Grunwald and Wraith move to Anvarrus at 5/5 each, actions used; Eye remains Aschenvald 5/5, unused. Reinforce +3 then Build −5: Supply 15, Manpower 22. Vitae Womb Complex 2/5 on Sühne 12/12; Vantry 3/4 not Defended. No Social Action or combat; turn complete. | Ember expands to 5/5; Widening Circle captures Halstrave, 61 vs 44, reset 1/4, Vennick eliminated. Reinforce then begin Unbroken Line Cadre Academy 1/5. Final Supply 23/Manpower 22; both actions used; no Social Action. | Combined bombardment at 17 strength reduces Threnholt 4/4 → 1/4 for 4 Supply, zero Manpower, no dice. Reinforce +3 then Build −5 advances Assimilation Viscera 2/5; final 15 Supply/17 Manpower. Both fleet actions used; no Social Action. | Cycle 13 turns complete | Event check 4: no event. No Logistics until Cycle 15. Resources Korps 17/22, Viorla 27/23, Cerberus 21/17. All Fleet Actions unused; Vantry and Star-Mother not Defended. |
+
+| 14 | Awaiting turn | Awaiting turn | Awaiting turn | Opening complete; awaiting Korps | Event check 5: no event. No Logistics until Cycle 15. Resources Korps 15/22, Viorla 23/22, Cerberus 15/17. Three Independent fleets recover 3/5 → 4/5; all Fleet Actions reset. |
 
 ## Cycle Records
 
@@ -1654,3 +1674,11 @@ Across Threnholt, the Star-Mother turns its guns upon Ossvarn. The shrine world 
 In Aschenvald, the Korps repairs its fleets and strengthens its newly won station. Behind Sühne’s fortifications, work begins on the Vitae Womb Complex. The Vior’la Expedition presses its own siege: two successive bombardments leave Halstrave holding its final defensive line, but the noble houses refuse to yield.
 
 Aboard the Star-Mother, Assimilation Viscera begins to take shape. Both the Korps and the swarm are building for wars yet to come. As another year closes, damaged Independent fleets return to readiness, and Dessica enters its thirteenth Cycle with no new event to interrupt the commanders’ plans.
+
+### Cycle 13
+
+**The Expedition breaks through!** On Halstrave, The Widening Circle delivers the final assault against the Vennick Accord. The noble houses lose their last holding, and the Vior’la Expedition claims the world. As the fleet returns to readiness, a new academy begins to rise on Mont’au.
+
+In Anvarrus, two Korps formations arrive from Aschenvald. Grunwald and Wraith of Krieg hold position beneath the watch of the Forge’s stronger fleet, preparing for operations yet to come. Behind them, Sühne’s engineers advance the Vitae Womb Complex while Imperium’s Eye guards the home system.
+
+Across Threnholt, Cerberus turns its combined strength upon the Directorate’s remaining world. Bombardment shatters three lines of defence, but the government survives behind its final strongholds. Assimilation Viscera grows within the Star-Mother, still unfinished. Another Cycle closes with one power eliminated and another facing the swarm’s next advance. No new event disturbs the opening of Cycle 14—but the commanders have plenty of dangers of their own making.
