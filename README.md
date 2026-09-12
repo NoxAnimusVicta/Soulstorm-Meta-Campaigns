@@ -58,3 +58,6 @@ After Cerberus (the final faction) completes its turn, publish that turn, then c
 
 User instruction: prepare and explain player battle setup in chat, but wait until the player reports the result before updating GitHub documentation or publishing the website. Combine battle resolution and the remaining authorised turn updates in that publication. Do not advance to the next faction while the player battle is pending.
 
+
+### Faction decision tables
+Command overview derives fleet names, locations and strengths from current in-system fleet lists; holdings from system controller/defence entries and the Mobile Assets table; and project progress from the Resource Tracker. Keep those source entries synchronized when resolving turns. The interface uses one expandable register per faction, with tables on desktop and labelled asset rows on phones.

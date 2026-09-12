@@ -5,6 +5,17 @@ const tabState={};
 const main=document.getElementById('main');
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function heading(k,title,sub=''){return `<p class="eyebrow">${k}</p><h1>${title}</h1>${sub?`<p class="subtitle">${sub}</p>`:''}`;}
+function registerTable(title,columns,rows,empty){
+ return `<section class="asset-register"><h4>${esc(title)} <span>${rows.length}</span></h4>${rows.length?`<table class="asset-table"><caption class="sr-only">${esc(title)}</caption><thead><tr>${columns.map(c=>`<th scope="col">${esc(c)}</th>`).join('')}</tr></thead><tbody>${rows.map(row=>`<tr>${row.map((cell,i)=>`<${i?'td':'th scope="row"'} data-label="${esc(columns[i])}">${esc(cell)}</${i?'td':'th'}>`).join('')}</tr>`).join('')}</tbody></table>`:`<p class="asset-empty">${esc(empty)}</p>`}</section>`;
+}
+function factionRegisters(f){
+ const r=f.registers;
+ if(!r)return '<p>Refresh to load the latest faction registers.</p>';
+ return registerTable('Fleets',['Fleet','System','Strength'],r.fleets,'No conventional fleets.')+
+ registerTable('Holdings',['Holding','System','Type','Defence','Income / facilities'],r.holdings,'No holdings.')+
+ (r.holdings.some(h=>h[2].includes('Mobile Capital'))?'<p class="asset-note">Mobile Capital: built-in Orbital Shipyard · +4 Supply / +4 Manpower per Logistics · no fleet maintenance. See the system dossier for temporary effects.</p>':'')+
+ registerTable('Constructions',['Project','Type / location','Progress','Effect / status'],r.constructions,'No construction projects.');
+}
 function render(){
  document.getElementById('header-cycle').textContent=String(data.cycle).padStart(2,'0');
  document.querySelectorAll('[data-view]').forEach(b=>{if(b.dataset.view===view)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
@@ -13,7 +24,7 @@ function render(){
  const nextLog=data.cycle+(3-data.cycle%3);
  main.innerHTML=heading('THE DESSICA CAMPAIGN','Command overview')+`<section class="cycle-banner" aria-label="Current cycle"><div class="cycle-number">${String(data.cycle).padStart(2,'0')}<small>CYCLE</small></div><div><p class="kicker">CAMPAIGN STATUS</p><h2>${esc(data.status.phase)}</h2><p>Next: ${esc(data.status.nextFaction)}</p></div><span class="pill">${data.cycle%3===0?'Logistics Cycle':'Next logistics · Cycle '+nextLog}</span></section><div class="section-head"><h2>Major factions</h2><span>Turn order · I → II → III</span></div><div class="factions">${data.factions.map((f,i)=>{
  const v=f.values,s=Number(v['Supplies (1-100)']),m=Number(v['Manpower (1-100)']);
- return `<article class="faction" style="--accent:var(${['--green','--cyan','--purple'][i]||'--gold'})"><p class="kicker">${['I / IMPERIUM','II / T’AU','III / TYRANID'][i]||'ALLIED FACTION'}</p><h3>${esc(f.name)}</h3><div class="metrics">${[[s,'Supply'],[m,'Manpower']].map(([n,label])=>`<div class="metric"><strong>${esc(n)}</strong><span>${label} / 100</span><div class="meter"><i style="width:${Math.max(0,Math.min(100,n))}%"></i></div></div>`).join('')}</div><details class="faction-details"><summary>Fleets & holdings</summary><dl>${['Fleets','Planets Controlled','Constructions'].map(k=>`<dt>${k==='Planets Controlled'?'Holdings':k}</dt><dd>${esc(v[k])}</dd>`).join('')}</dl></details></article>`;
+ return `<article class="faction" style="--accent:var(${['--green','--cyan','--purple'][i]||'--gold'})"><p class="kicker">${['I / IMPERIUM','II / T’AU','III / TYRANID'][i]||'ALLIED FACTION'}</p><h3>${esc(f.name)}</h3><div class="metrics">${[[s,'Supply'],[m,'Manpower']].map(([n,label])=>`<div class="metric"><strong>${esc(n)}</strong><span>${label} / 100</span><div class="meter"><i style="width:${Math.max(0,Math.min(100,n))}%"></i></div></div>`).join('')}</div><details class="faction-details"><summary>Fleets, holdings & constructions</summary>${factionRegisters(f)}</details></article>`;
  }).join('')}</div><div class="section-head"><h2>Cycle dispatch</h2><span>Official campaign record</span></div><div class="brief-grid"><section class="panel"><p class="kicker">EVENT REPORT</p><h2>${esc(data.status.event)}</h2><p class="muted">${esc(data.status.notes)}</p></section><section class="panel"><p class="kicker">LOGISTICS SCHEDULE</p><p>Income and fleet maintenance every third Cycle.</p><div class="timeline">${Array.from({length:6},(_,i)=>{let n=data.cycle+i;return `<span class="${i===0?'current':n%3===0?'logistics':''}" title="Cycle ${n}${n%3===0?' · Logistics':''}">${n}</span>`;}).join('')}</div></section></div>`;
  }else if(view==='systems'){
  if(selectedSystem!==null){const s=data.systems[selectedSystem];main.innerHTML=`<button class="back" id="back">← All systems</button>`+heading('SYSTEM DOSSIER',esc(s.title.split(' System')[0]))+`<div class="article">${s.html}</div>`;document.getElementById('back').onclick=()=>{selectedSystem=null;render();window.scrollTo(0,systemScroll);};}

@@ -39,6 +39,34 @@ systems=[]
 for match in re.finditer(r'^### (.+)\n([\s\S]*?)(?=^### |\Z)',sub,re.M):
  title,body=match.groups(); worlds=table_rows(body)
  systems.append({'title':title,'worlds':[dict(zip(worlds[0],r)) for r in worlds[1:]],'html':render(body),'text':body})
+# Decision tables are derived from the authoritative tracker and system entries.
+def normalized(value):
+ return value.replace('’', "'").replace('‘', "'").strip()
+for faction in factions:
+ registers={'fleets':[], 'holdings':[], 'constructions':[]}
+ for system in systems:
+  location=system['title'].split(' System')[0]
+  for world in system['worlds']:
+   if normalized(world['Controller'])==normalized(faction['name']):
+    income=next((n for kind,n in [('Capital',4),('Major',3),('Standard',2),('Minor',1)] if kind in world['Type']),0)
+    registers['holdings'].append([world['Planet'], location, world['Type'], world['Defense'], f'+{income} Supply / +{income} Manpower per Logistics'+(' · built-in Orbital Shipyard' if 'Capital' in world['Type'] else '')])
+  for line in system['text'].splitlines():
+   if line.startswith('- ') and ': ' in line:
+    owner, listing=line[2:].split(': ',1)
+    if normalized(owner)==normalized(faction['name']):
+     for fleet in re.finditer(r"([^,]+?) \((\d+/\d+)\)",listing):
+      registers['fleets'].append([fleet[1].strip(), location, fleet[2]])
+ mobile_rows=table_rows(md.split('## Mobile Assets',1)[1].split('## Battle Log',1)[0])
+ for row in mobile_rows[1:]:
+  if len(row)>=5 and normalized(row[2])==normalized(faction['name']):
+   registers['holdings'].append([row[0], row[4].replace(' System',''), row[1], row[3], '+4 Supply / +4 Manpower per Logistics; built-in Orbital Shipyard; no fleet maintenance'])
+ construction=faction['values'].get('Constructions','—')
+ if construction!='—':
+  parts=[part.strip() for part in construction.split(';')]
+  identity=parts[0].split(' — ',1)
+  fields=identity[-1].split(', ')
+  registers['constructions'].append([identity[0], ', '.join(fields[:-1]), fields[-1], '; '.join(parts[1:])])
+ faction['registers']=registers
 rules=md.split('## SECTION 1:',1)[1].split('## SECTION 5:',1)[0]
 parts=re.split(r'^#{2,3} (.+)\n',rules,flags=re.M); chapters=[]
 if parts[0].strip(): chapters.append({'title':'Campaign setup','html':render(parts[0]),'text':parts[0]})
@@ -59,3 +87,4 @@ static_revision=hashlib.sha256(page.encode()).hexdigest()[:12]
 (OUT/'sw.js').write_text((ROOT/'sw.template.js').read_text().replace('__REVISION__',static_revision))
 (OUT/'.nojekyll').touch()
 print(f'Built Cycle {cycle}: {len(factions)} factions, {len(systems)} systems, {sum(len(s["worlds"]) for s in systems)} holdings, {len(chapters)} rule entries. Revision {revision}')
+
