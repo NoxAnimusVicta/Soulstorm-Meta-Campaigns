@@ -1,8 +1,8 @@
 {
   "cycle": 13,
-  "phase": "Cycle 13 opening complete — awaiting 41st Expeditionary Korps",
+  "phase": "Cycle 13 — Korps turn complete; awaiting Vior’la Expedition",
   "event": "No event (Cycle 13 check: 4)",
-  "nextFaction": "41st Expeditionary Korps",
-  "updated": "Cycle 13 — Ossvarn captured; opening complete",
-  "notes": "Korps 17 Supply/22 Manpower; Viorla 27/23; Cerberus 21/17. Ossvarn captured at 1/2; Last Rite eliminated. Assimilation Viscera Major Forge Complex and Vitae Womb Complex Major Military Academy each 1/5, no income while incomplete. Star-Mother 12/12 and First Hunger 5/5. Vantry 3/4; neither Vantry nor Star-Mother Defended. Seven eligible Independent factions recovered one fleet-strength point each. Halstrave remains 1/4 with 15/15 resources. Ambush expired; check 4 gives no event. All Fleet Actions unused; no pending battles. Next Logistics Cycle 15, including Ossvarn first +1/+1 if retained."
+  "nextFaction": "Vior’la Expedition",
+  "updated": "Cycle 13 — Korps deploys to Anvarrus",
+  "notes": "Korps 15 Supply/22 Manpower. Grunwald and Wraith 5/5 each at Anvarrus; movement actions used. Forge Anvarrus strength 13 versus Korps 10. Imperium’s Eye remains Aschenvald 5/5, action unused. Vitae Womb Complex 2/5 Integrity, incomplete; Sühne 12/12. Vantry 3/4 not Defended. Viorla 27/23, Cerberus 21/17 unchanged. No event, combat or pending battle. Next Viorla, then Cerberus; Logistics Cycle 15."
 }
