@@ -1,8 +1,8 @@
 {
   "cycle": 18,
-  "phase": "Cycle 18 opening complete — awaiting 41st Expeditionary Korps",
+  "phase": "Cycle 18 — Korps turn complete; awaiting Vior’la Expedition",
   "event": "No event (Cycle 18 check: 5)",
-  "nextFaction": "41st Expeditionary Korps",
-  "updated": "Cycle 18 — Logistics and event complete",
-  "notes": "Korps 7 Supply/30 Manpower; Viorla 23/34; Cerberus 18/28. Logistics applied including first Vitae Womb, Cadre Academy and Assimilation Viscera income. Star-Mother 12/12 Defended until Cerberus turn; First Hunger 5/5, Second Hunger 4/5. All constructions complete and active. Six eligible Independent fleets recover one strength each; Forge excluded, fleets 3/5 each; Corvid 2/4. Warp Storm expired; Fleet Actions reset, movement allowed. No pending battles; next Logistics Cycle 21."
+  "nextFaction": "Vior'la Expedition",
+  "updated": "Cycle 18 — Corvid reduced to final defence",
+  "notes": "Korps 6 Supply/29 Manpower; Viorla 23/34; Cerberus 18/28. Corvid 1/4 after defeat and Grinding Advance; Forge resources 15/15. Forge fleets 3/5 each, superiority 9 vs 8; no recovery this Cycle. Eye and Spear restored to 5/5 at Aschenvald; Grunwald and Wraith 4/5 in Anvarrus. All Korps fleet actions used. All constructions active. Star-Mother Defended until Cerberus turn. No pending battles; Logistics already applied, no event; next Logistics Cycle 21."
 }

@@ -1467,13 +1467,23 @@ First Logistics income for Vitae Womb Complex, Cadre Academy and Assimilation Vi
 
 **Next: 41st Expeditionary Korps, Cycle 18. No pending battles.**
 
+### Cycle 18 — Korps grinds down Corvid’s final lines
+
+**Player-reported defeat.** Mechanicus technology again turned the assault into a meatgrinder. The Kriegsmen pushed their beachhead forward slowly, paying for every inch in lives and dwindling vehicles. The narrative records the costly foothold; it does not add unruled resource or fleet losses.
+
+Grunwald and Wraith commit 8 strength, 1 base damage, 2 Supply (7 → 5) and 1 Manpower (30 → 29). Defeat loses the committed Manpower, equivalent to 600 combat personnel; no return. Both remain 4/5 in Anvarrus, Fleet Actions used. **Grinding Advance reduces Corvid 2/4 → 1/4**. Forge retains the world with 15 Supply/15 Manpower. No capture, Planet Fall or fleet damage. Forge fleets remain 3/5 each, superiority 9 vs 8. No end-Cycle 18 recovery for attacked Corvid or engaged Forge fleets.
+
+Imperium’s Eye expands 4/5 → 5/5 for 1 Supply (5 → 4), then Spear of Death expands 4/5 → 5/5 for 1 Supply (4 → 3), at Sühne’s built-in shipyard. Both Fleet Actions used. Reinforce adds 3 Supply (3 → 6). No Social or Construction Action; Vitae Womb Complex remains 5/5 complete and active.
+
+**Korps turn complete: 6 Supply /29 Manpower. Next: Vior’la Expedition, Cycle 18.** No pending battle or additional event/Logistics. All four Korps Fleet Actions used; next Logistics Cycle 21.
+
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (4/5), Wraith of Krieg (4/5) — Anvarrus; Imperium’s Eye (4/5), The Spear of Death (4/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (5/5) — Mont'au | The First Hunger (5/5), The Second Hunger (4/5) — Threnholt |
-| Supplies (1-100) | 7 | 23 | 18 |
-| Manpower (1-100) | 30 | 34 | 28 |
+| Fleets | Transit Command Grunwald (4/5), Wraith of Krieg (4/5) — Anvarrus; Imperium’s Eye (5/5), The Spear of Death (5/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (5/5) — Mont'au | The First Hunger (5/5), The Second Hunger (4/5) — Threnholt |
+| Supplies (1-100) | 6 | 23 | 18 |
+| Manpower (1-100) | 29 | 34 | 28 |
 | Planets Controlled | Sühne; Vantry — Standard Void Station, 3/4 defence, not Defended; +2 Supply/+2 Manpower per Logistics from Cycle 12; Thelk’s Rest — Minor Station, Anvarrus, 2/2 defence, not Defended; +1/+1 Logistics from Cycle 18 | Mont'au; Halstrave — Standard world, 4/4 defence, not Defended, +2/+2 Logistics from Cycle 15 | The Star-Mother — Mobile Capital, 12/12 defence; Threnholt; Defended until start of Cerberus Cycle 18 turn; built-in Orbital Shipyard; +4 Supply/+4 Manpower per Logistics; exempt from fleet maintenance; Kelmar — Minor world, 1/2 defence, Threnholt; +1 Supply/+1 Manpower per Logistics from Cycle 12; Ossvarn — Minor world, 1/2 defence, Threnholt; +1/+1 Logistics from Cycle 15; Threnholt — Standard world, 1/4 defence; +2/+2 Logistics from Cycle 15 |
 | Constructions | The Vitae Womb Complex — Major Military Academy, Sühne, 5/5 Integrity (complete, active); completed Cycle 16; +5 Manpower per Logistics from Cycle 18 while at full Integrity | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 Integrity (complete, active); completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 • The Unbroken Line Cadre Academy — Major Military Academy, Mont'au, 5/5 Integrity (complete, active); completed Cycle 17; +5 Manpower per Logistics from Cycle 18 while at full Integrity | Assimilation Viscera — Major Forge Complex, Star-Mother (Threnholt), 5/5 Integrity (complete, active); repaired Cycle 17; +5 Supply per Logistics from Cycle 18 while at full Integrity |
 
@@ -1485,7 +1495,7 @@ First Logistics income for Vitae Womb Complex, Cadre Academy and Assimilation Vi
 
 ### Aschenvald System (41st Expeditionary Korps)
 
-**Void Superiority:** 41st Expeditionary Korps: 8 vs hostile fleets: 0 — 41st Expeditionary Korps
+**Void Superiority:** 41st Expeditionary Korps: 10 vs hostile fleets: 0 — 41st Expeditionary Korps
 
 *Vantry broadcasts the same challenge to every vessel that enters the system — regimental cipher, verification codes, a standing order issued by Segmentum Command four decades ago. The 41st logs each transmission and answers with its own. Neither set of codes resolves against anything the other can check. Kolbrant has the guns to end the exchange and keeps them cold.*
 
@@ -1495,7 +1505,7 @@ First Logistics income for Vitae Womb Complex, Cadre Academy and Assimilation Vi
 | Vantry | Standard (Station) | 41st Expeditionary Korps | 3/4 | Captured in Cycle 11 by Grunwald and Wraith of Krieg ground assault. Kriegsmen and Deathriders broke the remaining corridor defences. Resets to 1/4; no Independent resource pool. First +2 Supply/+2 Manpower Logistics income Cycle 12 if retained. No construction. Cycle 12 Defend repaired 1/4 → 3/4; Cycle 12 Defended status expired at the start of Cycle 13 Korps turn; not Defended. |
 
 **In-System Fleets:**
-- 41st Expeditionary Korps: Imperium’s Eye (4/5), The Spear of Death (4/5)
+- 41st Expeditionary Korps: Imperium’s Eye (5/5), The Spear of Death (5/5)
 - Hesperine Guard: Hesperine Watch Flotilla **destroyed in Cycle 11** — Planet Fall reduced it from 3/5 to 2/5, then loss of the faction’s final fallback point destroyed the survivors. Hesperine eliminated; no recovery.
 
 ---
@@ -1554,7 +1564,7 @@ First Logistics income for Vitae Womb Complex, Cadre Academy and Assimilation Vi
 | Planet | Type | Controller | Defense | Notes |
 |--------|------|------------|---------|-------|
 | Anvarrus | Major | Forge Anvarrus | 8/8 | Forge world. Manufactorum districts run to the horizon beneath a permanent smog ceiling. Three eastern districts sit behind a Skitarii cordon, power still running to them. Output continues at full tithe capacity across the remainder. |
-| Corvid | Standard | Forge Anvarrus | 2/4 | Mining and refining world. Open-cast extraction sites feed raw ore to Anvarrus on a continuous rail cycle. Servitor labour throughout. Replacement requisitions run to four figures a year. Cycle 16 Korps assault defeated; Grinding Advance deals 1 damage, 4/4 → 3/4. Cycle 17: another Korps defeat; Grinding Advance deals 1 damage, 3/4 → 2/4. Current Independent resources 30 Supply/30 Manpower. No end-Cycle 17 defence recovery because attacked. |
+| Corvid | Standard | Forge Anvarrus | 1/4 | Mining and refining world. Open-cast extraction sites feed raw ore to Anvarrus on a continuous rail cycle. Servitor labour throughout. Replacement requisitions run to four figures a year. Cycle 16 Korps assault defeated; Grinding Advance deals 1 damage, 4/4 → 3/4. Cycle 17: another Korps defeat; Grinding Advance deals 1 damage, 3/4 → 2/4. No end-Cycle 17 defence recovery because attacked. Cycle 18: Korps defeated again; Grinding Advance 2/4 → 1/4. Current Independent resources 15 Supply/15 Manpower; no end-Cycle 18 defence recovery because attacked. |
 | Thelk's Rest | Minor (Station) | 41st Expeditionary Korps | 2/2 | Research station and biologis facility. Vat-farms, specimen storage, and the sealed archive vault. Access requires Thelk's personal cipher. Cycle 14: Korps assault repulsed; The Grinding Advance deals 1 damage, 2/2 → 1/2. No end-Cycle 14 defence recovery. Cycle 15: Korps player victory captures station, reset to 1/2. No Independent resource pool; no automatic repair. Cycle 16 Defend restores 1/2 → 2/2 for 1 Supply/1 Manpower; not Defended. +1 Supply/+1 Manpower per Logistics from Cycle 18 if retained. |
 
 **In-System Fleets:**
@@ -1707,6 +1717,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 | 15 | Player victory captures Thelk’s Rest at 1/2. Planet Fall: Vigil and Sanctioned Pattern each 5/5 → 4/5. Create The Spear of Death 1/5 in Aschenvald; Build Vitae Womb Complex 4/5. Final 13 Supply/26 Manpower; turn complete. | Defend Halstrave 3/4 → 4/4 for 2 Supply/2 Manpower; Defended until Cycle 16 turn. Build Academy 2/5 → 3/5 for 5 Supply. Fleets 5/5 each, unused. Final 23 Supply/27 Manpower; turn complete. | Create The Second Hunger 1/5 at Threnholt for 1 Supply/1 Manpower; Build Assimilation Viscera 3/5 → 4/5 for 5 Supply. No fleet/social actions. Final 17 Supply/26 Manpower; turn complete. | Cycle 15 complete; Korps captured Thelk’s Rest | Logistics and War Fervor applied, check 6/table 4. No end-Cycle recovery changes. |
 | 16 | Player defeat at Corvid; Grinding Advance 4/4 → 3/4. Spear expands to 3/5; Defend Thelks Rest to 2/2 until Cycle 17; complete Vitae Womb Complex 5/5. Final 4 Supply/23 Manpower. | Create The Promise Kept 1/5 at Montau for 1 Supply/1 Manpower; Build Academy 3/5 → 4/5 for 5 Supply. Halstrave Defended expires. Final 17 Supply/26 Manpower; turn complete. | Expand Second Hunger 1/5 → 3/5 for 1 Supply; Reinforce +3; complete Assimilation Viscera 5/5 for 5 Supply. Final 14 Supply/26 Manpower. | Cycle 16 complete | Event check 5, no event; no Logistics. No recovery changes. |
 | 17 | Player defeat at Corvid; Grinding Advance 3/4 → 2/4. Commit and lose 1 Manpower. Spear expands 2/5 → 4/5; Reinforce +3. Final 4 Supply/22 Manpower; turn complete. | Expand both fleets 4/5 → 5/5 for 2 Supply; Reinforce +4; complete Cadre Academy 5/5 for 5 Supply. Final 14 Supply/25 Manpower; turn complete. | Expand First Hunger to 5/5 and Second to 4/5; Defend Star-Mother to 12/12; Repair Assimilation Viscera to 5/5 active. Final 7 Supply/22 Manpower. | Cycle 17 complete | Warp Storm expired; six eligible Independent factions recover one fleet strength each; Forge excluded for combat. |
+| 18 | Player defeat at Corvid; Grinding Advance 2/4 → 1/4. Lose 1 committed Manpower. Eye and Spear expand to 5/5; Reinforce +3. Final 6 Supply/29 Manpower; all fleet actions used. | Awaiting orders. | Awaiting turn. | Korps turn complete; no pending battles | Logistics already applied; event check 5, no event. Next Viorla. |
 
 | 15 | Awaiting turn | Awaiting turn | Awaiting turn | Opening complete; awaiting Korps | Logistics then War Fervor (check 6, table 4). Final opening resources Korps 20/28, Viorla 30/29, Cerberus 23/27. All Fleet Actions unused; Halstrave Defended until Viorla turn. |
 
