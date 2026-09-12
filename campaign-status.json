@@ -1,8 +1,8 @@
 {
   "cycle": 14,
-  "phase": "Cycle 14 — Vior’la turn complete; awaiting Splinter Fleet Cerberus",
+  "phase": "Cycle 14 — all turns complete; rollover pending",
   "event": "No event (Cycle 14 check: 5)",
-  "nextFaction": "Splinter Fleet Cerberus",
-  "updated": "Cycle 14 — Halstrave fortified; Academy advanced",
-  "notes": "Viorla 16 Supply/20 Manpower. Halstrave 3/4, Defended until start of Viorla Cycle 15 turn. Both fleets 5/5 in Montau, actions unused. Unbroken Line Cadre Academy 2/5 Integrity, incomplete; Forge Complex 5/5 active. Korps 12/20, Cerberus 15/17 unchanged. Thelks Rest 1/2, no recovery for it or engaged Forge fleets this Cycle. No event or pending battles; await Cerberus before rollover and Cycle 15 Logistics."
+  "nextFaction": "41st Expeditionary Korps after Cycle 15 opening",
+  "updated": "Cycle 14 — Threnholt captured",
+  "notes": "Cerberus captures Threnholt 57 vs 43; Directorate eliminated. Closing resources Korps 12/20, Viorla 16/20, Cerberus 11/15. Assimilation Viscera 3/5, inactive. Cycle 15 Logistics and event pending."
 }
