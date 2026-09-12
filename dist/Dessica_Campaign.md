@@ -1212,15 +1212,25 @@ After Logistics, Python `secrets.randbelow(6)+1` produced **event check 1**, the
 
 **Next: 41st Expeditionary Korps, Cycle 12.** Opening resources: Korps **26/24**, Vior’la **31/23**, Cerberus **24/19**. All Fleet Actions unused; no pending battles. Next Logistics Cycle 15.
 
+### Cycle 12 — Korps repairs and Vitae Womb Complex
+
+Grunwald and Wraith of Krieg each Expand Fleet at Sühne’s built-in Orbital Shipyard: **4/5 → 5/5**, costing **1 Supply each: 26 → 24**. Both Fleet Actions used. Imperium’s Eye remains **5/5**, takes no action and retains its unused Fleet Action. All three remain in Aschenvald; void superiority **15 vs 0**.
+
+Defend Vantry (Standard Station): **−2 Supply: 24 → 22; −2 Manpower: 24 → 22**. Defence **1/4 → 3/4**, **Defended until the start of the Korps’ Cycle 13 turn**. No Social Action.
+
+Begin **The Vitae Womb Complex**, using the **Major Military Academy base construction profile**, on Sühne at **12/12 defence**. Pay **5 Supply: 22 → 17**; progress **1/5 Build actions**. Each further Build action costs 5 Supply under the existing construction rules. Grants **+5 Manpower per Logistics Cycle only after completion**; no income while incomplete. This is the base Major construction, not its +10 upgraded profile. Sühne defence unchanged.
+
+**Korps turn complete. Supply 17 / Manpower 22. Next: Vior’la Expedition, Cycle 12.** Ambush remains active; no combat or dice required. No rollover. Vantry’s and Star-Mother’s Defended statuses retain their respective expiry times.
+
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (4/5), Wraith of Krieg (4/5), Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (4/5) — Mont'au | The First Hunger (5/5) — Threnholt |
-| Supplies (1-100) | 26 | 31 | 24 |
-| Manpower (1-100) | 24 | 23 | 19 |
-| Planets Controlled | Sühne; Vantry — Standard Void Station, 1/4 defence; +2 Supply/+2 Manpower per Logistics from Cycle 12 | Mont'au | The Star-Mother — Mobile Capital, 12/12 defence; Threnholt; Defended until start of Cerberus Cycle 12 turn; built-in Orbital Shipyard; +4 Supply/+4 Manpower per Logistics; exempt from fleet maintenance; Kelmar — Minor world, 1/2 defence, Threnholt; +1 Supply/+1 Manpower per Logistics from Cycle 12 |
-| Constructions | — | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
+| Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (4/5) — Mont'au | The First Hunger (5/5) — Threnholt |
+| Supplies (1-100) | 17 | 31 | 24 |
+| Manpower (1-100) | 22 | 23 | 19 |
+| Planets Controlled | Sühne; Vantry — Standard Void Station, 3/4 defence, Defended until start of Korps Cycle 13 turn; +2 Supply/+2 Manpower per Logistics from Cycle 12 | Mont'au | The Star-Mother — Mobile Capital, 12/12 defence; Threnholt; Defended until start of Cerberus Cycle 12 turn; built-in Orbital Shipyard; +4 Supply/+4 Manpower per Logistics; exempt from fleet maintenance; Kelmar — Minor world, 1/2 defence, Threnholt; +1 Supply/+1 Manpower per Logistics from Cycle 12 |
+| Constructions | The Vitae Womb Complex — Major Military Academy, Sühne, 1/5 actions; begun Cycle 12; +5 Manpower per Logistics only after completion, no income while incomplete | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
 
 **AI vs AI Ground Battle Resolution:** Both factions roll d20 + participating Fleet Strength + Supply + Manpower. Attacker commits Manpower equal to base damage (fleet strength only); Defender commits half of total damage to planet (including bonuses, rounded down). Highest total wins. If the defender used the Defend action, their roll gains +15. Winner returns 60% committed Manpower (rounded down), loser loses 100%. **All calculations use resource values after attack costs (scaled by world type) and Manpower commitments are deducted.**
 
@@ -1230,17 +1240,17 @@ After Logistics, Python `secrets.randbelow(6)+1` produced **event check 1**, the
 
 ### Aschenvald System (41st Expeditionary Korps)
 
-**Void Superiority:** 41st Expeditionary Korps: 13 vs hostile fleets: 0 — 41st Expeditionary Korps
+**Void Superiority:** 41st Expeditionary Korps: 15 vs hostile fleets: 0 — 41st Expeditionary Korps
 
 *Vantry broadcasts the same challenge to every vessel that enters the system — regimental cipher, verification codes, a standing order issued by Segmentum Command four decades ago. The 41st logs each transmission and answers with its own. Neither set of codes resolves against anything the other can check. Kolbrant has the guns to end the exchange and keeps them cold.*
 
 | Planet | Type | Controller | Defense | Notes |
 |--------|------|------------|---------|-------|
-| Sühne | Capital | 41st Expeditionary Korps | 12/12 | Fortress world taken after eleven years of siege. Trench networks radiate from the old citadel across the ash plains, ringed by artillery in concentric emplacements. Tunnel systems run beneath the surface works, their extent known only to the Korps. The rebel curtain walls remain where they fell. |
-| Vantry | Standard (Station) | 41st Expeditionary Korps | 1/4 | Captured in Cycle 11 by Grunwald and Wraith of Krieg ground assault. Kriegsmen and Deathriders broke the remaining corridor defences. Resets to 1/4; no Independent resource pool. First +2 Supply/+2 Manpower Logistics income Cycle 12 if retained. No construction; not Defended. |
+| Sühne | Capital | 41st Expeditionary Korps | 12/12 | Fortress world taken after eleven years of siege. Trench networks radiate from the old citadel across the ash plains, ringed by artillery in concentric emplacements. Tunnel systems run beneath the surface works, their extent known only to the Korps. The rebel curtain walls remain where they fell. The Vitae Womb Complex — Major Military Academy: 1/5 actions, begun Cycle 12; incomplete, no income yet; +5 Manpower per Logistics when complete. |
+| Vantry | Standard (Station) | 41st Expeditionary Korps | 3/4 | Captured in Cycle 11 by Grunwald and Wraith of Krieg ground assault. Kriegsmen and Deathriders broke the remaining corridor defences. Resets to 1/4; no Independent resource pool. First +2 Supply/+2 Manpower Logistics income Cycle 12 if retained. No construction. Cycle 12 Defend repaired 1/4 → 3/4; Defended until start of Korps Cycle 13 turn. |
 
 **In-System Fleets:**
-- 41st Expeditionary Korps: Transit Command Grunwald (4/5), Wraith of Krieg (4/5), Imperium’s Eye (5/5)
+- 41st Expeditionary Korps: Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (5/5)
 - Hesperine Guard: Hesperine Watch Flotilla **destroyed in Cycle 11** — Planet Fall reduced it from 3/5 to 2/5, then loss of the faction’s final fallback point destroyed the survivors. Hesperine eliminated; no recovery.
 
 ---
@@ -1443,7 +1453,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 11 | Player victory captures Vantry at 1/4. Grunwald and Wraith 4/5 assault for 1 damage; Imperium’s Eye expands to 5/5. Supply 26 −2 −1 =23; Manpower 19 −1 +0 returned +3 Muster =21. No Social/Construction action; turn complete. | Widening Circle expands 3/5 → 5/5 for 1 Supply; Ember alone bombards Halstrave 4/4 → 3/4 for 4 Supply, zero Manpower, automatic success. Reinforce +4; final Supply 24, Manpower 21. Both fleet actions used; no Social/Construction action. | Star-Mother bombards Ossvarn 2/2 → 1/2; First Hunger expands 3/5 → 5/5; Defend restores Star-Mother 10/12 → 12/12, Defended until next turn. Final Supply 20, Manpower 15; both Fleet Actions used; no Social/Construction action. | All Cycle 11 turns complete | Warp Storm active: check 1, table 1. Hesperine eliminated; Watch Flotilla 3/5 → 2/5 from Planet Fall, then destroyed because no planet, station or Mobile Capital remains as a fallback. Next Logistics Cycle 12. |
 
-| 12 | Awaiting turn | Awaiting turn | Awaiting turn | Opening complete; awaiting Korps | Logistics: Korps 26/24, Viorla 31/23, Cerberus 24/19. Event check 1, table 2: Ambush! Movement permitted; Star-Mother Defended until Cerberus turn. |
+| 12 | Grunwald and Wraith expand to 5/5 for 2 Supply; Eye 5/5, action unused. Defend Vantry to 3/4 for 2 Supply/2 Manpower, Defended until Cycle 13 Korps turn. Begin Vitae Womb Complex (Major Military Academy) 1/5 on Sühne for 5 Supply. Final 17 Supply/22 Manpower; no Social Action; turn complete. | Awaiting turn | Awaiting turn | Awaiting Viorla | Logistics: Korps 26/24, Viorla 31/23, Cerberus 24/19. Event check 1, table 2: Ambush! Movement permitted; Star-Mother Defended until Cerberus turn. |
 
 ## Cycle Records
 
