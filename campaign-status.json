@@ -1,8 +1,8 @@
 {
   "cycle": 15,
-  "phase": "Cycle 15 opening complete — awaiting 41st Expeditionary Korps",
+  "phase": "Cycle 15 — Korps turn complete; awaiting Vior’la Expedition",
   "event": "War Fervor (Cycle 15 check: 6; event table: 4)",
-  "nextFaction": "41st Expeditionary Korps",
-  "updated": "Cycle 15 — Logistics and War Fervor complete",
-  "notes": "Logistics then War Fervor applied: Korps 20 Supply/28 Manpower; Viorla 30/29; Cerberus 23/27. Threnholt captured at 1/4; Directorate eliminated. Assimilation Viscera 3/5, Vitae Womb Complex 3/5, Unbroken Line Cadre Academy 2/5, incomplete; Forge Complex active. Star-Mother 12/12; First Hunger 5/5. No recovery for Thelks Rest 1/2 or engaged Forge fleets; other Independent fleets already full. All Fleet Actions unused; Halstrave 3/4 remains Defended until start of Viorla turn. No pending battles; next Logistics Cycle 18."
+  "nextFaction": "Vior'la Expedition",
+  "updated": "Cycle 15 — Korps captures Thelk’s Rest",
+  "notes": "Korps 13 Supply/26 Manpower; Viorla 30/29; Cerberus 23/27. Thelks Rest captured at 1/2. Forge fleets 4/5 each; void superiority Forge 12 vs Korps 10. Grunwald and Wraith actions used. Spear of Death commissioned 1/5 at Aschenvald, no action this Cycle; Eye 5/5 unused. Vitae Womb Complex 4/5, incomplete. Other constructions unchanged. Halstrave Defended expires at start of Viorla turn. No pending battle; Logistics and War Fervor already applied; next Logistics Cycle 18."
 }
