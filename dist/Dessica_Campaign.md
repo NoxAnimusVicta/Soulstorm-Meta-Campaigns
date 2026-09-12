@@ -1092,12 +1092,20 @@ All fleet strengths and locations unchanged. Korps three fleets at **5/5** in As
 
 **Korps turn complete. Next: Vior'la Expedition, Cycle 10.** No pending battle, no Cycle rollover. War Fervor resources were already awarded; next Logistics Cycle 12. The agreed map-size and in-system allied-faction eligibility rules are retained.
 
+### Cycle 10 — Vior'la Fleet Battle victory
+
+Both Vior'la fleets use their Fleet Action in one combined battle against Accord Levy Squadron at Mont'au. Widening Circle pays the single initiation cost **5/5 → 4/5**; Ember Carried Far contributes **5/5**, total **9**. Vior'la rolls **d20 16 + 9 = 25**; Vennick Accord rolls **d20 5 + 4 = 9**. Margin **16**: **Accord Levy Squadron destroyed**. Widening Circle remains **4/5**, Ember **5/5**. No Independent resource-loss penalty; Halstrave remains **4/4**, **60 Supply / 60 Manpower**, Vennick-controlled. No planetary damage or capture. Vior'la void superiority **9 vs 0**. Destroyed fleet cannot regenerate.
+
+Reinforce with The Provisioned Advance: **Supply 21 → 25**, Manpower **21**. No social or construction action. Mont'au 12/12; Forge Complex complete. War Fervor adds no combat modifier and its resources are not awarded again.
+
+**Vior'la turn complete. Next: Splinter Fleet Cerberus, Cycle 10.** No pending battles. Rollover follows Cerberus's resolved turn; next Logistics Cycle 12.
+
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (5/5) — Mont'au | The First Hunger (4/5) — Threnholt |
-| Supplies (1-100) | 26 | 21 | 25 |
+| Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (4/5), The Ember Carried Far (5/5) — Mont'au | The First Hunger (4/5) — Threnholt |
+| Supplies (1-100) | 26 | 25 | 25 |
 | Manpower (1-100) | 19 | 21 | 21 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
 | Constructions | — | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
@@ -1127,7 +1135,7 @@ All fleet strengths and locations unchanged. Korps three fleets at **5/5** in As
 
 ### Mont'au System (Vior'la Expedition)
 
-**Void Superiority:** Vior'la Expedition: 10 vs Vennick Accord: 4 — Vior'la Expedition
+**Void Superiority:** Vior'la Expedition: 9 vs Vennick Accord: 0 — Vior'la Expedition
 
 *The primary dome went up in the second year; the processors began cycling atmosphere in the fourth. Halstrave returns every envoy the Expedition sends — alive, gifts intact, each carrying a written statement of the terms under which the six houses will discuss the future of the system. The terms have not been revised in thirty years. Shas'o Mont'yr keeps every copy.*
 
@@ -1137,8 +1145,8 @@ All fleet strengths and locations unchanged. Korps three fleets at **5/5** in As
 | Halstrave | Standard | Vennick Accord | 4/4 | Hive world. Six noble houses occupy a single fortified spire-cluster, their household levies quartered in shared barracks along the lower tiers. Muster rolls run to eight figures. The approach lanes are ranged by house artillery. Current Supply 60, Manpower 60, derived from full defence; Independent Minor Faction resource ruling applies. |
 
 **In-System Fleets:**
-- Vior'la Expedition: The Widening Circle (5/5), The Ember Carried Far (5/5)
-- Vennick Accord: Accord Levy Squadron (4/5)
+- Vior'la Expedition: The Widening Circle (4/5), The Ember Carried Far (5/5)
+- Vennick Accord: no surviving fleet. Accord Levy Squadron destroyed in Cycle 10 Fleet Battle (Viorla 25 vs Vennick 9, margin 16).
 
 **Construction progress:** Trial’s End Fabrication Array — Major Forge Complex, owned by Vior'la Expedition on Mont'au. **Completed Cycle 6: 5/5 actions**, 25 Supply spent in total. Build actions in Cycles 1, 2, 3, 5 and 6; none in Cycle 4. Effect: **+5 Supply per Logistics Cycle**. First scheduled income **Cycle 9**, provided retained and operational; no retroactive Cycle 6 income because opening Logistics preceded completion. Major construction capture/destruction and damage rules apply.
 
@@ -1319,7 +1327,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 9 | Expand Fleet: Imperium’s Eye 3/5 → 5/5 at Sühne, Supply 21 → 20. Reinforce to 23; Manpower 13. Grunwald and Wraith 5/5. No movement/combat/social/construction actions; turn complete. | Expand Fleet: Ember Carried Far 3/5 → 5/5 at Mont'au; Supply 17 → 16. Muster +4 Manpower: 12 → 16 (+1,280 combat personnel). Widening Circle 5/5; no movement/combat/social/construction actions; turn complete. | Star-Mother alone bombards Kelmar 2/2 → 1/2; Supply 23 → 21, zero Manpower committed. First Hunger expands 2/5 → 4/5, Supply 21 → 20. Muster Manpower 13 → 16. No social/construction actions; turn complete. | Cycle 9 complete; Kelmar damaged, no captures | Logistics applied: Korps 21/13, Viorla 17/12, Cerberus 23/13; first Forge income +5 Supply. Event check 6, table 2: Ambush! Active throughout Cycle 9. Closing resources Korps 23/13, Viorla 16/16, Cerberus 20/16. Kelmar 1/2, no recovery because attacked. |
 
-| 10 | Player victory at Vantry: 3 damage, 4/4 → 1/4; no capture. Supply 26. Manpower 15 available +1 returned +3 Muster =19. Three fleets 5/5; Hesperine fleet 4/5. No social/construction action; turn complete. | Awaiting turn | Awaiting turn | Korps victory; awaiting Viorla | War Fervor already awarded. Vantry resources now 15/15, no recovery this Cycle. Player reports Hellhound-led advances, extensive station lodgements and fortified supply routes. Map-size and allied eligibility rules recorded; no additional mechanical fleet damage. |
+| 10 | Player victory at Vantry: 3 damage, 4/4 → 1/4; no capture. Supply 26. Manpower 15 available +1 returned +3 Muster =19. Three fleets 5/5; Hesperine fleet 4/5. No social/construction action; turn complete. | Combined Fleet Battle victory: Widening Circle initiation 5/5 → 4/5, Ember 5/5. Rolls 16+9=25 vs 5+4=9; margin 16 destroys Accord Levy Squadron. Reinforce Supply 21 → 25, Manpower 21. No social/construction action; turn complete. | Awaiting turn | Korps and Viorla complete; awaiting Cerberus | War Fervor already awarded. Vantry resources now 15/15, no recovery this Cycle. Player reports Hellhound-led advances, extensive station lodgements and fortified supply routes. Map-size and allied eligibility rules recorded; no additional mechanical fleet damage. |
 
 ## Cycle Records
 
