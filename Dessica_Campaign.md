@@ -210,7 +210,13 @@ Assault an enemy or neutral planet. Costs Supply based on world type (Minor -1, 
 
 #### Structure Assault
 
-Target a construction. Initiating faction pays -1 Fleet Strength. **In-Progress Constructions:** Any successful assault destroys the construction immediately. **Completed Constructions:** Minor constructions have 3/3 defence, Major constructions have 5/5 defence. Roll as per Fleet Battle — if attacker wins, deal 1 damage to structure per margin bracket (1-5 = 1 damage, 6-10 = 2 damage, 11-15 = 3 damage, 16+ = structure destroyed). If defender wins, normal Fleet Battle damage applied to attacker only. Structures destroyed via Structure Assault cannot be captured, only destroyed.
+Target one enemy construction, including a system-based construction. Each participating fleet spends its one Fleet Action; moving, striking and leaving require separate actions unless an existing ability explicitly permits a combination.
+
+**Defending fleets present:** Resolve as a Fleet Battle. The attacker pays the single initiation cost of **1 Fleet Strength** (or 1 defence from an initiating Mobile Capital). Use participating attacker strength after that cost and defending fleet strength. On an attacker win, damage **only the targeted construction**: margin 1–5 =1 Integrity, 6–10 =2, 11–15 =3, 16+ =target destroyed outright. Defending fleets take no damage from a successful targeted strike. On attacker defeat, participating attacker fleets suffer normal Fleet Battle losses; the targeted construction takes none. Normal Fleet Battle tie rules apply. This is not a Ground Assault.
+
+**No defending fleet:** Pay **2 Supply**, commit **0 Manpower**, and automatically deal **floor(participating Fleet Strength /5), minimum 1**, to the targeted construction’s Integrity. No initiation strength cost or dice roll. There is **no minimum-Integrity floor**: the attack can destroy the construction. This targeted bombardment damages only the construction, not the host or neighbouring structures. Relevant construction bonuses apply only where their stated effect covers this attack.
+
+Both unfinished and completed constructions use the same Integrity damage rules. A targeted strike cannot capture a construction. Completed Void Stations are holdings and use Void Station Assault instead; constructions aboard them may be targeted normally.
 
 #### Expand Fleet
 
@@ -233,7 +239,7 @@ A faction may take ONE Faction Action per turn. This represents the faction's ce
 
 #### Defend
 
-Fortify a Planet or repair a Construction you control. **Planet:** Costs Supply and Manpower based on world type (Minor -1/-1, Standard -2/-2, Major -3/-3, Capital -4/-4). Restore defence based on planet type: Minor +1, Standard +2, Major +3, Capital +4 (up to planet's maximum). The defended planet gains Defended status until your next turn: attackers face +1 difficulty, you face -1 difficulty when defending. AI vs AI: Defender roll +15. **Construction:** Minor constructions cost -1/-1 and restore +1 defence. Major constructions cost -3/-3 and restore +3 defence (up to maximum).
+Fortify a Planet or repair a Construction you control. **Planet:** Costs Supply and Manpower based on world type (Minor -1/-1, Standard -2/-2, Major -3/-3, Capital -4/-4). Restore defence based on planet type: Minor +1, Standard +2, Major +3, Capital +4 (up to planet's maximum). The defended planet gains Defended status until your next turn: attackers face +1 difficulty, you face -1 difficulty when defending. AI vs AI: Defender roll +15. **Construction:** The existing Faction Action repair option remains: Minor costs 1 Supply and 1 Manpower to restore 1 Integrity; Major costs 3 Supply and 3 Manpower to restore up to 3 Integrity, capped at maximum. Upgraded structures use their underlying Minor/Major class. Only completed structures may be repaired; the host must be at full defence/Fleet Strength. This repairs Integrity, does not advance an unfinished build or upgrade, and does not grant a structure Defended status. Planet, station and Mobile Capital Defend actions remain unchanged.
 
 #### Reinforce
 
@@ -293,7 +299,22 @@ A faction may take ONE Construction Action per turn. This represents the faction
 
 | Action | Effect |
 |--------|--------|
-| **Build** | Advance one in-progress construction by 1 action, OR begin a new construction. Costs -5 Supply. Only on planets with full defences. Construction time: 3 actions for Minor, 5 actions for Major. If the construction takes damage during the building process it is destroyed and must be restarted. For Planetary/Orbital constructions, damage to the planet destroys the construction. For fleet-attached Void constructions, damage to the fleet destroys the construction. Void Stations function as fleet constructions until completed, then follow Planetary/Orbital rules. Minor constructions can be captured and used by new controllers. Major constructions are destroyed when the planet changes hands (too specialized for enemy use). Shipyards allow fleet creation at that location. |
+| **Build** | Spend 5 Supply to begin or advance one construction or upgrade by 1 stage, adding 1 Integrity. Minor base builds require 3 stages; Major base builds require 5. Host must be at full defence or Fleet Strength for every Build action. Lost unfinished stages are regained through paid Build actions. See Construction Integrity below. |
+| **Repair** | Spend the Construction Action to restore up to 3 Integrity to one completed structure, paying 1 Supply per point actually restored, no Manpower cost. Cap at its maximum. Host must be at full defence/Fleet Strength. Does not advance an unfinished construction or upgrade; those require Build. |
+
+**Construction Integrity — agreed Cycle 13:**
+- Integrity is separate from planetary defence and Fleet Strength. Maximums: **Minor 3, Major 5, upgraded Minor 6, upgraded Major 10**. A new project starts at 1 Integrity after its first paid Build action. Track current/maximum Integrity and whether construction or upgrade has been completed.
+- Each point of damage suffered by a planet, station, fleet or Mobile Capital also removes **1 Integrity from every construction attached to that host**, independently. It is not divided between projects or absorbed instead of host damage. Apply actual host damage after applicable reductions, once per damage instance. A targeted Structure Assault damages only its named target instead.
+- Applies to unfinished and completed structures, including hostile Fleet Battles, Ground Assaults and environmental damage. A Warp Storm that damages a fleet or Mobile Capital by 1 also removes 1 Integrity from every attached construction. Ordinary Supply costs, Manpower costs and voluntarily paid initiation strength costs are not damage.
+- At **0 Integrity, any construction is destroyed**, Minor or Major, finished or unfinished, regardless of damage source. Rebuilding starts a new paid project. There are no disabled zero-Integrity foundations.
+- A construction provides **no effects unless completed and at full Integrity**. Damaged completed structures regain their effects when fully repaired. Repair cannot cheaply complete an unfinished project. Fleet Strength bonuses and other capacity effects are also unavailable while the granting structure is inactive; restoring the structure restores its granted capacity, not unrelated battle losses. Do not repeatedly propagate damage merely because a construction effect switches off.
+- Upgrading requires the same number of additional paid Build stages as its base construction. On beginning an upgrade, its maximum becomes 6 for Minor or 10 for Major; retained Integrity is preserved and each Build adds 1. It is inactive until the upgrade is completed at full Integrity. Damage during upgrading removes stages and requires additional Build actions to replace them.
+- Full host defence/Fleet Strength is required to begin, continue or Repair. A Mobile Capital may use its Faction Action to Defend itself, then Build or Repair in the same turn if fully restored. System-based structures without a host have no host-repair prerequisite. In-progress Void Stations remain attached to their construction fleet until completion.
+- Destruction of a fleet or Mobile Capital destroys its attached constructions. Completed Void Stations become holdings with their own defence and retain their existing capture rules; their own construction Integrity is superseded by holding defence. Constructions aboard them retain Integrity normally.
+- **Planetary/station capture:** apply assault damage to the host and all attached constructions first. **Any surviving construction transfers to the captor, Minor or Major**, at its remaining Integrity and build/upgrade state. Zero-Integrity structures are destroyed. The holding resets to 1 defence; structures do not reset or repair. Existing full-host requirements apply to subsequent Build or Repair actions.
+- **System-based capture remains distinct:** control all planets and have Void Superiority; surviving Minor constructions transfer, Major constructions are destroyed. Completed Void Stations are captured as holdings, not through this system-control rule.
+- Examples: a 4/5 project taking 3 damage becomes **1/5**; taking 2 becomes **2/5**. A 1/5 project hit by a Warp Storm is destroyed. If a host carries two projects, both lose the full damage amount.
+- Applies prospectively from this Cycle 13 clarification. Current projects map directly to Integrity: **Vitae Womb Complex 1/5, Assimilation Viscera 1/5, Trial’s End Fabrication Array 5/5 completed and active**. No past battle or construction outcome is recalculated.
 
 **Construction Limits:** A faction may have multiple constructions in progress simultaneously, but can only advance ONE per turn. Constructions on different planets progress independently.
 
@@ -396,7 +417,7 @@ To capture system-based constructions (Defence Platforms, System Defence Station
 Once both conditions are met:
 - **Minor constructions** transfer to the new controller
 - **Major constructions** are destroyed (too specialized for enemy use)
-- **Exception: Void Stations** — the only Major construction that transfers on capture (functions as a planet once complete). Constructions built ON the Void Station follow normal rules (Minors capturable, Majors destroyed).
+- **Exception: Void Stations** — the only Major construction that transfers on capture (functions as a planet once complete). Constructions built ON the Void Station follow planetary capture rules: any surviving Minor or Major construction transfers after assault damage; zero-Integrity constructions are destroyed.
 
 #### Void Station Assault
 
@@ -1264,7 +1285,7 @@ Seven eligible Independent factions each recover **one strength total**: The San
 | Supplies (1-100) | 17 | 27 | 21 |
 | Manpower (1-100) | 22 | 23 | 17 |
 | Planets Controlled | Sühne; Vantry — Standard Void Station, 3/4 defence, not Defended; +2 Supply/+2 Manpower per Logistics from Cycle 12 | Mont'au | The Star-Mother — Mobile Capital, 12/12 defence; Threnholt; not Defended; built-in Orbital Shipyard; +4 Supply/+4 Manpower per Logistics; exempt from fleet maintenance; Kelmar — Minor world, 1/2 defence, Threnholt; +1 Supply/+1 Manpower per Logistics from Cycle 12; Ossvarn — Minor world, 1/2 defence, Threnholt; +1/+1 Logistics from Cycle 15 |
-| Constructions | The Vitae Womb Complex — Major Military Academy, Sühne, 1/5 actions; begun Cycle 12; +5 Manpower per Logistics only after completion, no income while incomplete | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | Assimilation Viscera — Major Forge Complex, Star-Mother (Threnholt), 1/5 actions; begun Cycle 12; +5 Supply per Logistics only after completion, no income while incomplete |
+| Constructions | The Vitae Womb Complex — Major Military Academy, Sühne, 1/5 Integrity (under construction); begun Cycle 12; +5 Manpower per Logistics only after completion, no income while incomplete | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 Integrity (complete, active); completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | Assimilation Viscera — Major Forge Complex, Star-Mother (Threnholt), 1/5 Integrity (under construction); begun Cycle 12; +5 Supply per Logistics only after completion, no income while incomplete |
 
 **AI vs AI Ground Battle Resolution:** Both factions roll d20 + participating Fleet Strength + Supply + Manpower. Attacker commits Manpower equal to base damage (fleet strength only); Defender commits half of total damage to planet (including bonuses, rounded down). Highest total wins. If the defender used the Defend action, their roll gains +15. Winner returns 60% committed Manpower (rounded down), loser loses 100%. **All calculations use resource values after attack costs (scaled by world type) and Manpower commitments are deducted.**
 
