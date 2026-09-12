@@ -1116,16 +1116,28 @@ Reinforce with The Provisioned Advance: **Supply 21 → 25**, Manpower **21**. N
 |---|---|---|
 | 41st Expeditionary Korps | Grunwald; Wraith of Krieg; Imperium’s Eye | All used: Vantry Ground Assault |
 | Vior'la Expedition | Widening Circle; Ember Carried Far | Both used: Fleet Battle against Accord Levy Squadron |
-| Splinter Fleet Cerberus | First Hunger; Star-Mother | Both unused; awaiting Cerberus turn |
+| Splinter Fleet Cerberus | First Hunger; Star-Mother | Both used: Kelmar Ground Assault |
+
+### Cycle 10 — Cerberus captures Kelmar
+
+Star-Mother (11 defence) and First Hunger (4/5) jointly Ground Assault Kelmar; both use their Fleet Action. Participating strength **15**, full base damage **3** despite only 1 remaining defence. Supply **25 → 24**; attacker commits **3 Manpower: 21 → 18**. Ground Assault is permitted without hostile fleets, unlike bombardment it can capture the world. No Fleet Battle initiation cost.
+
+Kelmar starts **1/2**, defence-derived resources **20/20**, no fleet support or Defended status. AI defender commitment **floor(3/2)=1 Manpower**, giving battle values Supply 20, Manpower 19. This is a temporary battle calculation, not a persistent Independent resource debit.
+
+**Dice:** Cerberus **d20 5 + 15 + 24 + 18 = 62**. Kelmar **d20 8 + 0 + 20 + 19 = 47**. **Cerberus victory.** Three damage defeats the final defence; excess does not carry over. **Kelmar captured by Splinter Fleet Cerberus, reset to 1/2 defence.** No defending fleets survive to suffer Planet Fall damage. Directorate loses Kelmar but retains Threnholt; no Major Faction Supply/Manpower penalties applied to its Independent pools.
+
+Victory returns **1 Manpower** (60% of 3, rounded down): **18 → 19**. Net loss **2 Manpower**, equivalent to 1,600 Tyranid combat organisms. Reinforce **Supply 24 → 27**. Final Cerberus **27 Supply / 19 Manpower**. Star-Mother remains 11/12, not Defended; First Hunger 4/5. No social or construction actions. Kelmar becomes a Major Faction holding, not a separate Independent 20/20 pool; its Minor-world income **+1 Supply/+1 Manpower** is first due at Cycle 12 Logistics if retained. No immediate capture income or free defence recovery.
+
+All Cycle 10 faction turns complete; recovery and Cycle 11 opening follow.
 
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
 | Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (4/5), The Ember Carried Far (5/5) — Mont'au | The First Hunger (4/5) — Threnholt |
-| Supplies (1-100) | 26 | 25 | 25 |
-| Manpower (1-100) | 19 | 21 | 21 |
-| Planets Controlled | Sühne | Mont'au | The Star-Mother — Mobile Capital, 11/12 defence; Threnholt; not Defended; built-in Orbital Shipyard; +4 Supply/+4 Manpower per Logistics; exempt from fleet maintenance |
+| Supplies (1-100) | 26 | 25 | 27 |
+| Manpower (1-100) | 19 | 21 | 19 |
+| Planets Controlled | Sühne | Mont'au | The Star-Mother — Mobile Capital, 11/12 defence; Threnholt; not Defended; built-in Orbital Shipyard; +4 Supply/+4 Manpower per Logistics; exempt from fleet maintenance; Kelmar — Minor world, 1/2 defence, Threnholt; +1 Supply/+1 Manpower per Logistics from Cycle 12 |
 | Constructions | — | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
 
 **AI vs AI Ground Battle Resolution:** Both factions roll d20 + participating Fleet Strength + Supply + Manpower. Attacker commits Manpower equal to base damage (fleet strength only); Defender commits half of total damage to planet (including bonuses, rounded down). Highest total wins. If the defender used the Defend action, their roll gains +15. Winner returns 60% committed Manpower (rounded down), loser loses 100%. **All calculations use resource values after attack costs (scaled by world type) and Manpower commitments are deducted.**
@@ -1176,13 +1188,13 @@ Reinforce with The Provisioned Advance: **Supply 21 → 25**, Manpower **21**. N
 
 *The Threnholt Directorate still stamps its orders with the Imperial eagle, one head struck from the die. Governor-Commandant Rhedan Voss calls the secession a measure of necessity; the naval officers who secured it call it permanent. The northern arcologies refuse his authority, and the rail corridor supplying them has changed hands four times. When the Star-Mother arrived, both sides broadcast distress calls on the same abandoned Imperial frequencies. On Ossvarn, the Last Rite sealed the outer catacombs and continued its services underground.*
 
-**The Threnholt Directorate:** Independent Minor Faction; renegade human planetary government, PDF and former Imperial naval personnel. Broke from Imperial authority after the Great Rift; retains local Emperor worship but rejects Imperial command and tithes. Alignment **Independent**, not Imperium, Chaos or Tyranid. Controls Threnholt and Kelmar; the Last Rite remains a separate faction on Ossvarn. For human ground-force representation, use the Imperial Guard manpower ratio (**600 personnel per Manpower**); Independent defence-derived resources and recovery rules continue to apply.
+**The Threnholt Directorate:** Independent Minor Faction; renegade human planetary government, PDF and former Imperial naval personnel. Broke from Imperial authority after the Great Rift; retains local Emperor worship but rejects Imperial command and tithes. Alignment **Independent**, not Imperium, Chaos or Tyranid. Controls Threnholt; Kelmar was lost to Cerberus in Cycle 10. The Last Rite remains a separate faction on Ossvarn. For human ground-force representation, use the Imperial Guard manpower ratio (**600 personnel per Manpower**); Independent defence-derived resources and recovery rules continue to apply.
 
 | Planet | Type | Controller | Defense | Notes |
 |--------|------|------------|---------|-------|
 | Threnholt | Standard | The Threnholt Directorate | 4/4 | Civilised world. The Directorate holds the southern continent and planetary government. Loyalist enclaves in the northern arcologies resist its rule; their rail supply corridor is a recurring front in the secession war. Former Administratum vaults beneath the southern hive districts now house Directorate command posts. Local resistance is narrative background; the campaign holding remains under Directorate control at 4/4 defence. |
 | Ossvarn | Minor | The Last Rite | 2/2 | Shrine world. The priesthood reorganised its liturgy around funerary rites in the year the Astronomican failed. Catacomb-cities extend three kilometres below the surface, walled with reliquary bone. Surface cathedrals stand empty and unlocked. Current Supply 40, Manpower 40, derived from full defence; erroneous crisis and fleet-loss resource debits rescinded. |
-| Kelmar | Minor | The Threnholt Directorate | 1/2 | Mining colony. Directorate mining crews work the deep shafts under emergency production quotas. The former tithe depot serves as a ration office and PDF barracks; ore shipments once bound for Imperial authorities now sustain Threnholt. Evacuation shelters occupy exhausted workings beneath the primary shaft. Cycle 9: Star-Mother bombardment reduced defence 2/2 → 1/2; still Directorate-held. Current Supply 20, Manpower 20 (40 × 1/2). Attacked this Cycle: no end-Cycle 9 defence recovery. |
+| Kelmar | Minor | Splinter Fleet Cerberus | 1/2 | Mining colony. Deep shafts, ration depots and evacuation shelters captured by the swarm in Cycle 10 after Star-Mother bombardment in Cycle 9. Ground Assault victory 62 vs 47; captured and reset to 1/2. No Independent resource pool remains here. Minor holding income +1 Supply/+1 Manpower per Logistics, first due Cycle 12 if retained. |
 
 **In-System Fleets:**
 - Splinter Fleet Cerberus: The Star-Mother (11/12 — Mobile Capital; not Defended)
@@ -1345,7 +1357,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 9 | Expand Fleet: Imperium’s Eye 3/5 → 5/5 at Sühne, Supply 21 → 20. Reinforce to 23; Manpower 13. Grunwald and Wraith 5/5. No movement/combat/social/construction actions; turn complete. | Expand Fleet: Ember Carried Far 3/5 → 5/5 at Mont'au; Supply 17 → 16. Muster +4 Manpower: 12 → 16 (+1,280 combat personnel). Widening Circle 5/5; no movement/combat/social/construction actions; turn complete. | Star-Mother alone bombards Kelmar 2/2 → 1/2; Supply 23 → 21, zero Manpower committed. First Hunger expands 2/5 → 4/5, Supply 21 → 20. Muster Manpower 13 → 16. No social/construction actions; turn complete. | Cycle 9 complete; Kelmar damaged, no captures | Logistics applied: Korps 21/13, Viorla 17/12, Cerberus 23/13; first Forge income +5 Supply. Event check 6, table 2: Ambush! Active throughout Cycle 9. Closing resources Korps 23/13, Viorla 16/16, Cerberus 20/16. Kelmar 1/2, no recovery because attacked. |
 
-| 10 | Player victory at Vantry: 3 damage, 4/4 → 1/4; no capture. Supply 26. Manpower 15 available +1 returned +3 Muster =19. Three fleets 5/5; Hesperine fleet 4/5. No social/construction action; turn complete. | Combined Fleet Battle victory: Widening Circle initiation 5/5 → 4/5, Ember 5/5. Rolls 16+9=25 vs 5+4=9; margin 16 destroys Accord Levy Squadron. Reinforce Supply 21 → 25, Manpower 21. No social/construction action; turn complete. | Awaiting turn | Korps and Viorla complete; awaiting Cerberus | War Fervor already awarded. Vantry resources now 15/15, no recovery this Cycle. Player reports Hellhound-led advances, extensive station lodgements and fortified supply routes. Map-size and allied eligibility rules recorded; no additional mechanical fleet damage. |
+| 10 | Player victory at Vantry: 3 damage, 4/4 → 1/4; no capture. Supply 26. Manpower 15 available +1 returned +3 Muster =19. Three fleets 5/5; Hesperine fleet 4/5. No social/construction action; turn complete. | Combined Fleet Battle victory: Widening Circle initiation 5/5 → 4/5, Ember 5/5. Rolls 16+9=25 vs 5+4=9; margin 16 destroys Accord Levy Squadron. Reinforce Supply 21 → 25, Manpower 21. No social/construction action; turn complete. | Combined Ground Assault captures Kelmar, 62 vs 47. Supply 25 → 24 → 27 after Reinforce; Manpower 21 → 18 → 19 after victory return. Kelmar 1/2 Cerberus-held; no social/construction action. | All Cycle 10 turns complete; Kelmar captured | War Fervor already awarded. Vantry resources now 15/15, no recovery this Cycle. Player reports Hellhound-led advances, extensive station lodgements and fortified supply routes. Map-size and allied eligibility rules recorded; no additional mechanical fleet damage. |
 
 ## Cycle Records
 

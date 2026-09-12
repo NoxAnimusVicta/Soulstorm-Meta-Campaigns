@@ -1,8 +1,8 @@
 {
   "cycle": 10,
-  "phase": "Vior'la turn complete — awaiting Splinter Fleet Cerberus orders",
+  "phase": "All Cycle 10 turns complete — rollover pending",
   "event": "War Fervor! (Cycle 10 check: 6; event table: 4)",
-  "nextFaction": "Splinter Fleet Cerberus",
-  "updated": "Cycle 10 — participation rules clarified; capital under holdings",
-  "notes": "Viorla wins 25 vs 9, margin 16: Accord Levy Squadron destroyed. Widening Circle 4/5 after initiation, Ember 5/5 at Montau; void superiority 9 vs 0. Reinforce Supply 21 to 25; Manpower 21. Halstrave remains 4/4, Vennick-held, resources 60/60; no Independent destruction penalty. Korps 26/19; Vantry 1/4, no Hesperine recovery this Cycle. Cerberus 25/21. No pending battles; await Cerberus. War Fervor already awarded; next Logistics Cycle 12. Agreed rule: only participating fleets grant ground-battle strength and faction bonuses; full base-damage Manpower commitment required. Allied participation needs owner approval and an unused Fleet Action this Cycle; movement already uses that action. Korps and Viorla fleets have acted; Cerberus assets have not. No campaign state or prior outcomes changed."
+  "nextFaction": "41st Expeditionary Korps (after Cycle 11 opening)",
+  "updated": "Cycle 10 — Cerberus captures Kelmar",
+  "notes": "Cerberus Ground Assault wins 62 vs 47; Kelmar captured, reset to 1/2. Full 3 Manpower committed; 1 returned. Reinforce applied; Cerberus 27/19. Star-Mother 11/12, First Hunger 4/5; both Fleet Actions used. Kelmar +1/+1 income first due Cycle 12; no independent pool. Korps 26/19, Viorla 25/21. No unresolved battles; Cycle 11 opening pending."
 }
