@@ -1172,12 +1172,22 @@ No new fleet destruction or resource changes. Vennick, Directorate and Last Rite
 
 **Korps turn complete. Next: Vior’la Expedition, Cycle 11.** No pending player battle. No Cycle rollover or new event roll. Current resources: **Korps 23/21; Viorla 25/21; Cerberus 27/19**.
 
+### Cycle 11 — Vior’la bombardment of Halstrave
+
+- **Widening Circle — Expand Fleet:** Mont’au’s built-in Orbital Shipyard restores **3/5 → 5/5** for **1 Supply: 25 → 24**. Does not participate in the attack.
+- **Ember Carried Far — Uncontested Bombardment:** Participates alone at **4/5** against Halstrave. No hostile fleet remains in Mont’au; Accord Levy Squadron stays destroyed. Pay **4 Supply: 24 → 20**, commit **0 Manpower**, no Fleet Battle initiation cost. Minimum uncontested damage **1** reduces **Halstrave 4/4 → 3/4**. Automatic success; no dice or player battle. Vennick Accord retains the world; no capture or Planet Fall.
+- Halstrave’s Independent resources recalculate to **45 Supply / 45 Manpower** (60 × 3/4). No separate Major Faction resource penalties. As it was attacked, Halstrave receives **no end-Cycle 11 defence recovery**.
+- **Reinforce:** The Provisioned Advance grants **+4 Supply: 20 → 24**. Manpower unchanged at **21**. No Social or Construction Action; Trial’s End Fabrication Array remains complete at **5/5**, with its +5 Supply Logistics income retained.
+- Both fleets remain in Mont’au, **Widening Circle 5/5, Ember 4/5**. Both Fleet Actions used. Void superiority **9 vs 0**. Warp Storm movement restriction remains active; these local actions are permitted.
+
+**Vior’la turn complete. Next: Splinter Fleet Cerberus, Cycle 11.** Current resources: Korps **23/21**, Vior’la **24/21**, Cerberus **27/19**. No pending battle or rollover. Await Cerberus before closing Cycle 11 and conducting Cycle 12 Logistics and event.
+
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (4/5), Wraith of Krieg (4/5), Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (3/5), The Ember Carried Far (4/5) — Mont'au | The First Hunger (3/5) — Threnholt |
-| Supplies (1-100) | 23 | 25 | 27 |
+| Fleets | Transit Command Grunwald (4/5), Wraith of Krieg (4/5), Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (4/5) — Mont'au | The First Hunger (3/5) — Threnholt |
+| Supplies (1-100) | 23 | 24 | 27 |
 | Manpower (1-100) | 21 | 21 | 19 |
 | Planets Controlled | Sühne; Vantry — Standard Void Station, 1/4 defence; +2 Supply/+2 Manpower per Logistics from Cycle 12 | Mont'au | The Star-Mother — Mobile Capital, 10/12 defence; Threnholt; not Defended; built-in Orbital Shipyard; +4 Supply/+4 Manpower per Logistics; exempt from fleet maintenance; Kelmar — Minor world, 1/2 defence, Threnholt; +1 Supply/+1 Manpower per Logistics from Cycle 12 |
 | Constructions | — | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
@@ -1207,17 +1217,17 @@ No new fleet destruction or resource changes. Vennick, Directorate and Last Rite
 
 ### Mont'au System (Vior'la Expedition)
 
-**Void Superiority:** Vior'la Expedition: 7 vs Vennick Accord: 0 — Vior'la Expedition
+**Void Superiority:** Vior'la Expedition: 9 vs Vennick Accord: 0 — Vior'la Expedition
 
 *The primary dome went up in the second year; the processors began cycling atmosphere in the fourth. Halstrave returns every envoy the Expedition sends — alive, gifts intact, each carrying a written statement of the terms under which the six houses will discuss the future of the system. The terms have not been revised in thirty years. Shas'o Mont'yr keeps every copy.*
 
 | Planet | Type | Controller | Defense | Notes |
 |--------|------|------------|---------|-------|
 | Mont'au | Capital | Vior'la Expedition | 12/12 | Colony world under active terraforming. Habitation domes and atmospheric processors extend across former tundra, the settlement grid pushing outward each year. Fire caste cadres run live exercises on ground the Earth caste reclaimed a decade ago. Aun'el Shovah'ka's council chamber sits at the centre of the primary dome. Trial’s End Fabrication Array (Major Forge Complex) completed Cycle 6: 5/5 actions; +5 Supply per Logistics Cycle, first income Cycle 9. |
-| Halstrave | Standard | Vennick Accord | 4/4 | Hive world. Six noble houses occupy a single fortified spire-cluster, their household levies quartered in shared barracks along the lower tiers. Muster rolls run to eight figures. The approach lanes are ranged by house artillery. Current Supply 60, Manpower 60, derived from full defence; Independent Minor Faction resource ruling applies. |
+| Halstrave | Standard | Vennick Accord | 3/4 | Hive world. Six noble houses occupy a single fortified spire-cluster, their household levies quartered in shared barracks along the lower tiers. Muster rolls run to eight figures. The approach lanes are ranged by house artillery. Cycle 11 Ember Carried Far bombardment: 4/4 → 3/4. Current Supply 45, Manpower 45 (60 × 3/4); Independent Minor Faction resource ruling applies. No end-Cycle 11 defence recovery because attacked. |
 
 **In-System Fleets:**
-- Vior'la Expedition: The Widening Circle (3/5), The Ember Carried Far (4/5)
+- Vior'la Expedition: The Widening Circle (5/5), The Ember Carried Far (4/5)
 - Vennick Accord: no surviving fleet. Accord Levy Squadron destroyed in Cycle 10 Fleet Battle (Viorla 25 vs Vennick 9, margin 16).
 
 **Construction progress:** Trial’s End Fabrication Array — Major Forge Complex, owned by Vior'la Expedition on Mont'au. **Completed Cycle 6: 5/5 actions**, 25 Supply spent in total. Build actions in Cycles 1, 2, 3, 5 and 6; none in Cycle 4. Effect: **+5 Supply per Logistics Cycle**. First scheduled income **Cycle 9**, provided retained and operational; no retroactive Cycle 6 income because opening Logistics preceded completion. Major construction capture/destruction and damage rules apply.
@@ -1401,7 +1411,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 10 | Player victory at Vantry: 3 damage, 4/4 → 1/4; no capture. Supply 26. Manpower 15 available +1 returned +3 Muster =19. Three fleets 5/5; Hesperine fleet 4/5. No social/construction action; turn complete. | Combined Fleet Battle victory: Widening Circle initiation 5/5 → 4/5, Ember 5/5. Rolls 16+9=25 vs 5+4=9; margin 16 destroys Accord Levy Squadron. Reinforce Supply 21 → 25, Manpower 21. No social/construction action; turn complete. | Combined Ground Assault captures Kelmar, 62 vs 47. Supply 25 → 24 → 27 after Reinforce; Manpower 21 → 18 → 19 after victory return. Kelmar 1/2 Cerberus-held; no social/construction action. | Cycle 10 complete; Kelmar captured | War Fervor already awarded. Vantry resources now 15/15, no recovery this Cycle. Player reports Hellhound-led advances, extensive station lodgements and fortified supply routes. Map-size and allied eligibility rules recorded; no additional mechanical fleet damage. |
 
-| 11 | Player victory captures Vantry at 1/4. Grunwald and Wraith 4/5 assault for 1 damage; Imperium’s Eye expands to 5/5. Supply 26 −2 −1 =23; Manpower 19 −1 +0 returned +3 Muster =21. No Social/Construction action; turn complete. | Awaiting turn | Awaiting turn | Awaiting Viorla | Warp Storm active: check 1, table 1. Hesperine eliminated; Watch Flotilla 3/5 → 2/5 from Planet Fall, then destroyed because no planet, station or Mobile Capital remains as a fallback. Next Logistics Cycle 12. |
+| 11 | Player victory captures Vantry at 1/4. Grunwald and Wraith 4/5 assault for 1 damage; Imperium’s Eye expands to 5/5. Supply 26 −2 −1 =23; Manpower 19 −1 +0 returned +3 Muster =21. No Social/Construction action; turn complete. | Widening Circle expands 3/5 → 5/5 for 1 Supply; Ember alone bombards Halstrave 4/4 → 3/4 for 4 Supply, zero Manpower, automatic success. Reinforce +4; final Supply 24, Manpower 21. Both fleet actions used; no Social/Construction action. | Awaiting turn | Awaiting Cerberus | Warp Storm active: check 1, table 1. Hesperine eliminated; Watch Flotilla 3/5 → 2/5 from Planet Fall, then destroyed because no planet, station or Mobile Capital remains as a fallback. Next Logistics Cycle 12. |
 
 ## Cycle Records
 
