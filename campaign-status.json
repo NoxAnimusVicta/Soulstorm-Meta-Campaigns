@@ -1,8 +1,8 @@
 {
   "cycle": 16,
-  "phase": "Cycle 16 opening complete — awaiting 41st Expeditionary Korps",
+  "phase": "Cycle 16 — Korps turn complete; awaiting Vior’la Expedition",
   "event": "No event (Cycle 16 check: 5)",
-  "nextFaction": "41st Expeditionary Korps",
-  "updated": "Cycle 16 — opening complete",
-  "notes": "Korps 13 Supply/26 Manpower; Viorla 23/27; Cerberus 17/26. Second Hunger commissioned 1/5 in Threnholt. Assimilation Viscera 4/5, Vitae Womb Complex 4/5, Cadre Academy 3/5, all incomplete; Forge Complex active. No recovery changes; Forge fleets 4/5 each, void superiority 12 vs 10. All Fleet Actions reset unused. Halstrave 4/4 Defended until start of Viorla Cycle 16 turn. No pending battles, no event or Logistics this Cycle; next Logistics Cycle 18."
+  "nextFaction": "Vior'la Expedition",
+  "updated": "Cycle 16 — Korps assault on Corvid resolved",
+  "notes": "Korps 4 Supply/23 Manpower; Viorla 23/27; Cerberus 17/26. Corvid 3/4 after player defeat and Grinding Advance; Forge resources 45/45, fleets unchanged, no recovery this Cycle. Thelks Rest 2/2, Defended until Korps Cycle 17 turn. Spear of Death 3/5. Vitae Womb Complex complete and active 5/5, first income Cycle 18. Grunwald, Wraith and Spear actions used; Eye unused. Halstrave Defended expires at start of Viorla turn. No pending battles; no event or Logistics; next Logistics Cycle 18."
 }
