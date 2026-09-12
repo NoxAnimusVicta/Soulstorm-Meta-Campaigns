@@ -637,7 +637,7 @@ When a faction loses their Capital, they must designate a new Capital on an owne
 
 Once maximum defense reaches 12, the Capital is fully established and immediately gains a built-in Orbital Shipyard. The faction is then unlocked and may take other actions, even if current defense is below 12. If attacked during rebuild, damage is applied after the defense doubling.
 
-If a faction has no remaining planets, they are eliminated from the campaign.
+**Loss of the final fallback point:** If a faction has no remaining controlled planets, stations or surviving Mobile Capital, it is eliminated and all its remaining fleets are destroyed: they have nowhere to return, resupply or regroup. Apply normal Planet Fall fleet damage first, then destroy any survivors if no fallback point remains. A surviving controlled planet, station or Mobile Capital prevents this automatic destruction; normal battle and Planet Fall losses still apply. Apply normal fleet-destruction consequences where applicable; Independent factions do not suffer Major Faction resource penalties. Agreed after the Cycle 11 capture of Vantry and applied to the Hesperine Watch Flotilla.
 
 ### Independent Factions
 
@@ -1167,7 +1167,7 @@ No new fleet destruction or resource changes. Vennick, Directorate and Last Rite
 - **Manpower: 19 −1 committed = 18; victory returns floor(0.6) = 0; then Muster +3 = 21.** Uses the Cycle 10 whole-point round-down ruling. Net battle loss 1 Manpower (600 combat personnel); recruitment adds 1,800 personnel.
 - **Vantry: 1/4 → 0 → 1/4**, captured by the 41st Expeditionary Korps. Standard Void Station; first **+2 Supply/+2 Manpower** income at Cycle 12 Logistics if retained. No automatic Major Faction defence recovery. Sühne remains 12/12. No construction or Social Action.
 - **Planet Fall fleet damage: 1**, reducing the sole Hesperine Watch Flotilla **3/5 → 2/5**. No additional fleet damage is inferred from the battle narrative. Korps fleets remain 4/5, 4/5, 5/5, all in Aschenvald.
-- Hesperine Guard has lost its only holding and is **eliminated under the no-remaining-planets rule**. Its Independent resource pool ceases with loss of Vantry; Major Faction resource penalties are not applied. The rules do not specify disposal of surviving fleets on faction elimination: retain the **2/5 flotilla as an unresolved remnant**, with no invented destruction, movement or orders. Resolve its continuing status before it affects another battle or recovery; no recovery applied now. Conservatively retain its strength in the displayed hostile void total until ruled otherwise.
+- Hesperine Guard has lost its only holding and has no other planet, station or Mobile Capital. Under the agreed final-fallback ruling, the **Hesperine Watch Flotilla is destroyed** after Planet Fall reduced it to 2/5. Hesperine is eliminated; its Independent resource pool ceases with the loss of Vantry, with no Major Faction resource penalties. No surviving Hesperine fleet or recovery remains. Korps has uncontested void superiority, **13 vs 0**. This implements the player's clarification of the reported destruction and supersedes the provisional remnant entry.
 - Fleet Actions used this Cycle: **Grunwald — Ground Assault; Wraith — Ground Assault; Imperium’s Eye — Expand Fleet**. Warp Storm movement restriction remains active. Viorla and Cerberus actions remain unused.
 
 **Korps turn complete. Next: Vior’la Expedition, Cycle 11.** No pending player battle. No Cycle rollover or new event roll. Current resources: **Korps 23/21; Viorla 25/21; Cerberus 27/19**.
@@ -1190,7 +1190,7 @@ No new fleet destruction or resource changes. Vennick, Directorate and Last Rite
 
 ### Aschenvald System (41st Expeditionary Korps)
 
-**Void Superiority:** 41st Expeditionary Korps: 13 vs Hesperine remnant: 2 — 41st Expeditionary Korps
+**Void Superiority:** 41st Expeditionary Korps: 13 vs hostile fleets: 0 — 41st Expeditionary Korps
 
 *Vantry broadcasts the same challenge to every vessel that enters the system — regimental cipher, verification codes, a standing order issued by Segmentum Command four decades ago. The 41st logs each transmission and answers with its own. Neither set of codes resolves against anything the other can check. Kolbrant has the guns to end the exchange and keeps them cold.*
 
@@ -1201,7 +1201,7 @@ No new fleet destruction or resource changes. Vennick, Directorate and Last Rite
 
 **In-System Fleets:**
 - 41st Expeditionary Korps: Transit Command Grunwald (4/5), Wraith of Krieg (4/5), Imperium’s Eye (5/5)
-- Hesperine remnant: Hesperine Watch Flotilla (2/5) — reduced by Cycle 11 Planet Fall; faction eliminated after losing Vantry. Surviving fleet disposition unspecified by rules; retained pending ruling, no recovery or orders invented.
+- Hesperine Guard: Hesperine Watch Flotilla **destroyed in Cycle 11** — Planet Fall reduced it from 3/5 to 2/5, then loss of the faction’s final fallback point destroyed the survivors. Hesperine eliminated; no recovery.
 
 ---
 
@@ -1401,7 +1401,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 10 | Player victory at Vantry: 3 damage, 4/4 → 1/4; no capture. Supply 26. Manpower 15 available +1 returned +3 Muster =19. Three fleets 5/5; Hesperine fleet 4/5. No social/construction action; turn complete. | Combined Fleet Battle victory: Widening Circle initiation 5/5 → 4/5, Ember 5/5. Rolls 16+9=25 vs 5+4=9; margin 16 destroys Accord Levy Squadron. Reinforce Supply 21 → 25, Manpower 21. No social/construction action; turn complete. | Combined Ground Assault captures Kelmar, 62 vs 47. Supply 25 → 24 → 27 after Reinforce; Manpower 21 → 18 → 19 after victory return. Kelmar 1/2 Cerberus-held; no social/construction action. | Cycle 10 complete; Kelmar captured | War Fervor already awarded. Vantry resources now 15/15, no recovery this Cycle. Player reports Hellhound-led advances, extensive station lodgements and fortified supply routes. Map-size and allied eligibility rules recorded; no additional mechanical fleet damage. |
 
-| 11 | Player victory captures Vantry at 1/4. Grunwald and Wraith 4/5 assault for 1 damage; Imperium’s Eye expands to 5/5. Supply 26 −2 −1 =23; Manpower 19 −1 +0 returned +3 Muster =21. No Social/Construction action; turn complete. | Awaiting turn | Awaiting turn | Awaiting Viorla | Warp Storm active: check 1, table 1. Hesperine eliminated; Watch Flotilla 3/5 → 2/5 from Planet Fall, remnant disposition pending ruling. Next Logistics Cycle 12. |
+| 11 | Player victory captures Vantry at 1/4. Grunwald and Wraith 4/5 assault for 1 damage; Imperium’s Eye expands to 5/5. Supply 26 −2 −1 =23; Manpower 19 −1 +0 returned +3 Muster =21. No Social/Construction action; turn complete. | Awaiting turn | Awaiting turn | Awaiting Viorla | Warp Storm active: check 1, table 1. Hesperine eliminated; Watch Flotilla 3/5 → 2/5 from Planet Fall, then destroyed because no planet, station or Mobile Capital remains as a fallback. Next Logistics Cycle 12. |
 
 ## Cycle Records
 
