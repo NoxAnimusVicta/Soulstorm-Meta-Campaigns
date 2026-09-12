@@ -1,8 +1,8 @@
 {
   "cycle": 12,
-  "phase": "Cycle 12 — Korps turn complete; awaiting Vior’la Expedition",
+  "phase": "Cycle 12 — Vior’la turn complete; awaiting Splinter Fleet Cerberus",
   "event": "Ambush! (Cycle 12 check: 1; event table: 2)",
-  "nextFaction": "Vior’la Expedition",
-  "updated": "Cycle 12 — Vantry repaired; Vitae Womb Complex begun",
-  "notes": "Korps 17 Supply/22 Manpower. All three fleets 5/5 in Aschenvald; Grunwald and Wraith actions used, Imperium’s Eye unused. Vantry 3/4, Defended until start of Korps Cycle 13 turn. Vitae Womb Complex: Major Military Academy on Sühne 12/12, 1/5 actions, incomplete; no income until completion. Viorla 31/23; Cerberus 24/19. Star-Mother 12/12 remains Defended until start of Cerberus Cycle 12 turn. Ambush active; no pending battles. Next Viorla, then Cerberus. Next Logistics Cycle 15."
+  "nextFaction": "Splinter Fleet Cerberus",
+  "updated": "Cycle 12 — Halstrave reduced to final defence",
+  "notes": "Viorla 27 Supply/23 Manpower. Two separate bombardments reduce Halstrave 3/4 → 1/4; Vennick resources 15/15, no capture or end-Cycle 12 defence recovery. Widening Circle 5/5, Ember 4/5 in Montau; both actions used. Korps 17/22, Cerberus 24/19 unchanged. Vantry 3/4 Defended until Korps Cycle 13 turn; Vitae Womb Complex 1/5. Star-Mother Defended expires at start of upcoming Cerberus turn. Ambush active; no pending battles. Await Cerberus before rollover."
 }

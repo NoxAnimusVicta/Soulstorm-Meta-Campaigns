@@ -1222,12 +1222,24 @@ Begin **The Vitae Womb Complex**, using the **Major Military Academy base constr
 
 **Korps turn complete. Supply 17 / Manpower 22. Next: Vior’la Expedition, Cycle 12.** Ambush remains active; no combat or dice required. No rollover. Vantry’s and Star-Mother’s Defended statuses retain their respective expiry times.
 
+### Cycle 12 — Vior’la’s separate bombardments of Halstrave
+
+Two independent Attacks are permitted under Multi-Front Warfare; each fleet spends its own Fleet Action and pays its own attack cost. No hostile fleet remains in Mont’au.
+
+- **Widening Circle**, alone at **5/5**: Uncontested Bombardment costs **4 Supply: 31 → 27**, commits **0 Manpower**, deals **1 damage: Halstrave 3/4 → 2/4**. Independent resources temporarily become **30/30**.
+- **Ember Carried Far**, alone at **4/5**: separate Uncontested Bombardment costs **4 Supply: 27 → 23**, commits **0 Manpower**, deals minimum **1 damage: Halstrave 2/4 → 1/4**. Independent resources become **15 Supply / 15 Manpower** (60 × 1/4).
+- Both attacks succeed automatically: **no dice, Fleet Battle initiation cost or Ambush modifier**. Halstrave remains Vennick-held at the bombardment floor of **1/4**; a Ground Assault is required for capture. No Planet Fall or fleet damage. No end-Cycle 12 defence recovery because attacked.
+- **Reinforce +4 Supply: 23 → 27**. Manpower unchanged at **23**. No Social or Construction Action; Trial’s End Fabrication Array remains complete.
+- Both fleets remain Mont’au, **Widening Circle 5/5, Ember 4/5**, both Fleet Actions used. Void superiority remains **9 vs 0**.
+
+**Vior’la turn complete. Next: Splinter Fleet Cerberus, Cycle 12.** Resources: Korps **17/22**, Vior’la **27/23**, Cerberus **24/19**. Ambush remains active. No pending battles; await Cerberus before rollover.
+
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
 | Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (4/5) — Mont'au | The First Hunger (5/5) — Threnholt |
-| Supplies (1-100) | 17 | 31 | 24 |
+| Supplies (1-100) | 17 | 27 | 24 |
 | Manpower (1-100) | 22 | 23 | 19 |
 | Planets Controlled | Sühne; Vantry — Standard Void Station, 3/4 defence, Defended until start of Korps Cycle 13 turn; +2 Supply/+2 Manpower per Logistics from Cycle 12 | Mont'au | The Star-Mother — Mobile Capital, 12/12 defence; Threnholt; Defended until start of Cerberus Cycle 12 turn; built-in Orbital Shipyard; +4 Supply/+4 Manpower per Logistics; exempt from fleet maintenance; Kelmar — Minor world, 1/2 defence, Threnholt; +1 Supply/+1 Manpower per Logistics from Cycle 12 |
 | Constructions | The Vitae Womb Complex — Major Military Academy, Sühne, 1/5 actions; begun Cycle 12; +5 Manpower per Logistics only after completion, no income while incomplete | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
@@ -1264,7 +1276,7 @@ Begin **The Vitae Womb Complex**, using the **Major Military Academy base constr
 | Planet | Type | Controller | Defense | Notes |
 |--------|------|------------|---------|-------|
 | Mont'au | Capital | Vior'la Expedition | 12/12 | Colony world under active terraforming. Habitation domes and atmospheric processors extend across former tundra, the settlement grid pushing outward each year. Fire caste cadres run live exercises on ground the Earth caste reclaimed a decade ago. Aun'el Shovah'ka's council chamber sits at the centre of the primary dome. Trial’s End Fabrication Array (Major Forge Complex) completed Cycle 6: 5/5 actions; +5 Supply per Logistics Cycle, first income Cycle 9. |
-| Halstrave | Standard | Vennick Accord | 3/4 | Hive world. Six noble houses occupy a single fortified spire-cluster, their household levies quartered in shared barracks along the lower tiers. Muster rolls run to eight figures. The approach lanes are ranged by house artillery. Cycle 11 Ember Carried Far bombardment: 4/4 → 3/4. Current Supply 45, Manpower 45 (60 × 3/4); Independent Minor Faction resource ruling applies. No end-Cycle 11 defence recovery because attacked. |
+| Halstrave | Standard | Vennick Accord | 1/4 | Hive world. Six noble houses occupy a single fortified spire-cluster, their household levies quartered in shared barracks along the lower tiers. Muster rolls run to eight figures. The approach lanes are ranged by house artillery. Cycle 11 Ember Carried Far bombardment: 4/4 → 3/4. Cycle 12 separate bombardments by Widening Circle and Ember: 3/4 → 2/4 → 1/4. Current Supply 15, Manpower 15 (60 × 1/4). Still Vennick-held; Ground Assault required to capture. No end-Cycle 12 defence recovery because attacked. |
 
 **In-System Fleets:**
 - Vior'la Expedition: The Widening Circle (5/5), The Ember Carried Far (4/5)
@@ -1453,7 +1465,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 11 | Player victory captures Vantry at 1/4. Grunwald and Wraith 4/5 assault for 1 damage; Imperium’s Eye expands to 5/5. Supply 26 −2 −1 =23; Manpower 19 −1 +0 returned +3 Muster =21. No Social/Construction action; turn complete. | Widening Circle expands 3/5 → 5/5 for 1 Supply; Ember alone bombards Halstrave 4/4 → 3/4 for 4 Supply, zero Manpower, automatic success. Reinforce +4; final Supply 24, Manpower 21. Both fleet actions used; no Social/Construction action. | Star-Mother bombards Ossvarn 2/2 → 1/2; First Hunger expands 3/5 → 5/5; Defend restores Star-Mother 10/12 → 12/12, Defended until next turn. Final Supply 20, Manpower 15; both Fleet Actions used; no Social/Construction action. | All Cycle 11 turns complete | Warp Storm active: check 1, table 1. Hesperine eliminated; Watch Flotilla 3/5 → 2/5 from Planet Fall, then destroyed because no planet, station or Mobile Capital remains as a fallback. Next Logistics Cycle 12. |
 
-| 12 | Grunwald and Wraith expand to 5/5 for 2 Supply; Eye 5/5, action unused. Defend Vantry to 3/4 for 2 Supply/2 Manpower, Defended until Cycle 13 Korps turn. Begin Vitae Womb Complex (Major Military Academy) 1/5 on Sühne for 5 Supply. Final 17 Supply/22 Manpower; no Social Action; turn complete. | Awaiting turn | Awaiting turn | Awaiting Viorla | Logistics: Korps 26/24, Viorla 31/23, Cerberus 24/19. Event check 1, table 2: Ambush! Movement permitted; Star-Mother Defended until Cerberus turn. |
+| 12 | Grunwald and Wraith expand to 5/5 for 2 Supply; Eye 5/5, action unused. Defend Vantry to 3/4 for 2 Supply/2 Manpower, Defended until Cycle 13 Korps turn. Begin Vitae Womb Complex (Major Military Academy) 1/5 on Sühne for 5 Supply. Final 17 Supply/22 Manpower; no Social Action; turn complete. | Two separate bombardments reduce Halstrave 3/4 → 2/4 → 1/4, 4 Supply each, no Manpower or dice. Reinforce +4; final Supply 27, Manpower 23. Both fleet actions used; strengths 5/5 and 4/5. No Social/Construction action; turn complete. | Awaiting turn | Awaiting Cerberus | Logistics: Korps 26/24, Viorla 31/23, Cerberus 24/19. Event check 1, table 2: Ambush! Movement permitted; Star-Mother Defended until Cerberus turn. |
 
 ## Cycle Records
 
