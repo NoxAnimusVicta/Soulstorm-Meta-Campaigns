@@ -1056,15 +1056,32 @@ All fleet strengths and locations unchanged. Korps three fleets at **5/5** in As
 
 **Next: 41st Expeditionary Korps, Cycle 10.** No Cycle 10 faction turns resolved or pending battles.
 
+### Cycle 10 — pending player battle: Vantry
+
+**41st Expeditionary Korps, Phase 2:** Ground Assault on Vantry, Standard Station **4/4**, Hesperine Guard. Grunwald, Wraith of Krieg and Imperium’s Eye each participate at **5/5**; all three Fleet Actions committed to this single attack. Total strength **15**, base damage **3**. Ground Assault pays no Fleet Battle initiation strength cost; fleets remain 5/5.
+
+**Costs paid once for the combined assault:** Supply **28 → 26** (-2 Standard attack cost, spent regardless of outcome). Manpower **18 → 15 available**, with **3 committed** to the pending battle (1,800 combat personnel). Commitment is not yet a confirmed casualty loss. No battle result, planetary damage, capture or recovery resolved.
+
+**Player setup:** **2 attackers versus 1 defender**, **Harder (4/5)** difficulty. Attacking team: player Korps plus one allied AI Korps/Imperial Guard formation. Defending team: one AI Imperial Guard formation representing Hesperine Guard. These are battle formations, not newly created campaign factions. Use a map with at least three player slots, preferably a station/interior or industrial setting; no specific map or victory conditions are mandated by the campaign rules.
+
+- Difficulty: own post-cost Supply **26** gives **Harder 4/5**; Vantry Supply **60** adds **0**. No active Ambush or recorded Defended status. War Fervor was already awarded and adds no battle modifier. Grinding Advance ignores Defended if applicable.
+- Attacker slots: baseline **1 + 3** for Fleet Strength 15 **- 2** for available Manpower 15 = **2**. Apply the minimum after combining modifiers.
+- Defender slots: baseline **1 + 0** for fleet strength 4 **+ 0** for Manpower 60 = **1**. Vantry uses its own defence-derived **60 Supply / 60 Manpower**, not a Major Faction resource pool.
+- Victory would reduce Vantry **4/4 → 1/4** (3 damage); it would not capture the station. Defeat still inflicts **1 damage** through Grinding Advance, **4/4 → 3/4**. These are projections, not resolved outcomes.
+
+**Awaiting the player's reported result.** Declared Phase 3 Muster **+3 Manpower** is queued, not applied to this battle's setup. No Social or Construction Action. Resolve commitment returns/losses and the queued Muster after the result, then advance to Vior'la. No new event roll or Cycle advancement.
+
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
 | Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (5/5) — Mont'au | The First Hunger (4/5) — Threnholt |
-| Supplies (1-100) | 28 | 21 | 25 |
-| Manpower (1-100) | 18 | 21 | 21 |
+| Supplies (1-100) | 26 | 21 | 25 |
+| Manpower (1-100) | 15 | 21 | 21 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
 | Constructions | — | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
+
+**Pending commitment:** Korps tracker shows 15 available Manpower; another 3 is committed to the unresolved Vantry assault, not yet confirmed lost. Queued Muster +3 has not been applied.
 
 **AI vs AI Ground Battle Resolution:** Both factions roll d20 + Fleet Strength in System + Supply + Manpower. Attacker commits Manpower equal to base damage (fleet strength only); Defender commits half of total damage to planet (including bonuses, rounded down). Highest total wins. If the defender used the Defend action, their roll gains +15. Winner returns 60% committed Manpower (rounded down), loser loses 100%. **All calculations use resource values after attack costs (scaled by world type) and Manpower commitments are deducted.**
 
@@ -1283,7 +1300,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 9 | Expand Fleet: Imperium’s Eye 3/5 → 5/5 at Sühne, Supply 21 → 20. Reinforce to 23; Manpower 13. Grunwald and Wraith 5/5. No movement/combat/social/construction actions; turn complete. | Expand Fleet: Ember Carried Far 3/5 → 5/5 at Mont'au; Supply 17 → 16. Muster +4 Manpower: 12 → 16 (+1,280 combat personnel). Widening Circle 5/5; no movement/combat/social/construction actions; turn complete. | Star-Mother alone bombards Kelmar 2/2 → 1/2; Supply 23 → 21, zero Manpower committed. First Hunger expands 2/5 → 4/5, Supply 21 → 20. Muster Manpower 13 → 16. No social/construction actions; turn complete. | Cycle 9 complete; Kelmar damaged, no captures | Logistics applied: Korps 21/13, Viorla 17/12, Cerberus 23/13; first Forge income +5 Supply. Event check 6, table 2: Ambush! Active throughout Cycle 9. Closing resources Korps 23/13, Viorla 16/16, Cerberus 20/16. Kelmar 1/2, no recovery because attacked. |
 
-| 10 | Awaiting turn | Awaiting turn | Awaiting turn | Opening complete; awaiting Korps | No Logistics. Ambush expired. Event check 6, table 4: War Fervor +5/+5 to Major Factions; Korps 28/18, Viorla 21/21, Cerberus 25/21. Kelmar 1/2, resources 20/20. |
+| 10 | Vantry Ground Assault pending player result: three 5/5 fleets, base damage 3. Supply 28 → 26; 3 Manpower committed, 15 available. Setup Harder 4/5, 2v1. Muster +3 queued; no social/construction action. | Awaiting turn | Awaiting turn | Waiting for player battle; do not advance | No Logistics. Ambush expired. Event check 6, table 4: War Fervor +5/+5 to Major Factions; Korps 28/18, Viorla 21/21, Cerberus 25/21. Kelmar 1/2, resources 20/20. |
 
 ## Cycle Records
 
