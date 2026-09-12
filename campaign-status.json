@@ -1,8 +1,8 @@
 {
-  "cycle": 13,
-  "phase": "Cycle 13 — all turns complete; rollover pending",
-  "event": "No event (Cycle 13 check: 4)",
-  "nextFaction": "41st Expeditionary Korps after Cycle 14 opening",
-  "updated": "Cycle 13 — Threnholt bombarded",
-  "notes": "Cerberus 15 Supply/17 Manpower; Threnholt reduced to 1/4, Directorate-held with 15/15 resources, no recovery this Cycle. Assimilation Viscera 2/5 Integrity, inactive; Star-Mother 12/12 and First Hunger 5/5. All turns complete; recovery and Cycle 14 event pending."
+  "cycle": 14,
+  "phase": "Cycle 14 opening complete — awaiting 41st Expeditionary Korps",
+  "event": "No event (Cycle 14 check: 5)",
+  "nextFaction": "41st Expeditionary Korps",
+  "updated": "Cycle 14 — Threnholt bombarded; opening complete",
+  "notes": "Korps 15 Supply/22 Manpower; Viorla 23/22; Cerberus 15/17. Threnholt 1/4, Directorate-held, 15/15 resources, no recovery. Halstrave captured by Viorla at 1/4. Vitae Womb Complex 2/5, Unbroken Line Cadre Academy 1/5, Assimilation Viscera 2/5; incomplete and inactive. Three eligible Independent fleets recover to 4/5; Forge strength now 14 versus Korps 10 in Anvarrus. All Fleet Actions unused, no Defended statuses or pending battles. Event check 5: no event. Next Logistics Cycle 15."
 }
