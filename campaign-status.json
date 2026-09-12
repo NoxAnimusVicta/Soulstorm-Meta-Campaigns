@@ -1,8 +1,8 @@
 {
-  "cycle": 15,
-  "phase": "Cycle 15 — Vior’la turn complete; awaiting Splinter Fleet Cerberus",
-  "event": "War Fervor (Cycle 15 check: 6; event table: 4)",
-  "nextFaction": "Splinter Fleet Cerberus",
-  "updated": "Cycle 15 — Vior’la fortifies Halstrave",
-  "notes": "Korps 13 Supply/26 Manpower; Viorla 23/27; Cerberus 23/27. Halstrave 4/4, Defended until start of Viorla Cycle 16 turn. Unbroken Line Cadre Academy 3/5, Vitae Womb Complex 4/5, Assimilation Viscera 3/5, all incomplete; Forge Complex active. Both Viorla fleets 5/5 at Montau, actions unused. Thelks Rest Korps-held 1/2; Forge void superiority 12 vs 10. No pending battles. Awaiting Cerberus before rollover; Logistics and War Fervor already applied; next Logistics Cycle 18."
+  "cycle": 16,
+  "phase": "Cycle 16 opening complete — awaiting 41st Expeditionary Korps",
+  "event": "No event (Cycle 16 check: 5)",
+  "nextFaction": "41st Expeditionary Korps",
+  "updated": "Cycle 16 — opening complete",
+  "notes": "Korps 13 Supply/26 Manpower; Viorla 23/27; Cerberus 17/26. Second Hunger commissioned 1/5 in Threnholt. Assimilation Viscera 4/5, Vitae Womb Complex 4/5, Cadre Academy 3/5, all incomplete; Forge Complex active. No recovery changes; Forge fleets 4/5 each, void superiority 12 vs 10. All Fleet Actions reset unused. Halstrave 4/4 Defended until start of Viorla Cycle 16 turn. No pending battles, no event or Logistics this Cycle; next Logistics Cycle 18."
 }
