@@ -1,8 +1,8 @@
 {
   "cycle": 14,
-  "phase": "Cycle 14 — Korps turn complete; awaiting Vior’la Expedition",
+  "phase": "Cycle 14 — Vior’la turn complete; awaiting Splinter Fleet Cerberus",
   "event": "No event (Cycle 14 check: 5)",
-  "nextFaction": "Vior’la Expedition",
-  "updated": "Cycle 14 — Korps repulsed at Thelk’s Rest",
-  "notes": "Korps 12 Supply/20 Manpower. Player defeat: 2 committed Manpower lost; Grinding Advance reduces Thelk’s Rest to 1/2, still Forge-held, resources 20/20. No capture or fleet losses. Forge 14 vs Korps 10 in Anvarrus; Grunwald and Wraith actions used, Imperium’s Eye unused in Aschenvald. Vitae Womb Complex 3/5 Integrity, incomplete. No recovery for attacked station or engaged Forge fleets this Cycle. Viorla 23/22, Cerberus 15/17 unchanged. No event or pending battle; await Viorla. Next Logistics Cycle 15."
+  "nextFaction": "Splinter Fleet Cerberus",
+  "updated": "Cycle 14 — Halstrave fortified; Academy advanced",
+  "notes": "Viorla 16 Supply/20 Manpower. Halstrave 3/4, Defended until start of Viorla Cycle 15 turn. Both fleets 5/5 in Montau, actions unused. Unbroken Line Cadre Academy 2/5 Integrity, incomplete; Forge Complex 5/5 active. Korps 12/20, Cerberus 15/17 unchanged. Thelks Rest 1/2, no recovery for it or engaged Forge fleets this Cycle. No event or pending battles; await Cerberus before rollover and Cycle 15 Logistics."
 }
