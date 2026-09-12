@@ -1,8 +1,8 @@
 {
   "cycle": 10,
-  "phase": "Korps turn complete — awaiting Vior'la Expedition orders",
+  "phase": "Vior'la turn complete — awaiting Splinter Fleet Cerberus orders",
   "event": "War Fervor! (Cycle 10 check: 6; event table: 4)",
-  "nextFaction": "Vior'la Expedition",
-  "updated": "Cycle 10 — Korps victory at Vantry",
-  "notes": "Player victory: Vantry 4/4 to 1/4, Hesperine-held with 15/15 defence-derived resources. Supply 26; Manpower 15 +1 victory return (60% of 3 rounded down) +3 Muster =19. All Korps fleets 5/5; Hesperine fleet 4/5, no Planet Fall or separate Fleet Battle. Void superiority 15 vs 4. No Hesperine recovery this Cycle. Extensive Korps lodgements recorded; no new construction or Defended status. Viorla 21/21; Cerberus 25/21. War Fervor already applied; next Logistics Cycle 12. Await Viorla; no pending battle."
+  "nextFaction": "Splinter Fleet Cerberus",
+  "updated": "Cycle 10 — Accord Levy Squadron destroyed",
+  "notes": "Viorla wins 25 vs 9, margin 16: Accord Levy Squadron destroyed. Widening Circle 4/5 after initiation, Ember 5/5 at Montau; void superiority 9 vs 0. Reinforce Supply 21 to 25; Manpower 21. Halstrave remains 4/4, Vennick-held, resources 60/60; no Independent destruction penalty. Korps 26/19; Vantry 1/4, no Hesperine recovery this Cycle. Cerberus 25/21. No pending battles; await Cerberus. War Fervor already awarded; next Logistics Cycle 12."
 }
