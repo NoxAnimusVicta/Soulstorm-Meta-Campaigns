@@ -1,8 +1,8 @@
 {
   "cycle": 12,
-  "phase": "Cycle 12 opening complete — awaiting 41st Expeditionary Korps",
+  "phase": "Cycle 12 — Korps turn complete; awaiting Vior’la Expedition",
   "event": "Ambush! (Cycle 12 check: 1; event table: 2)",
-  "nextFaction": "41st Expeditionary Korps",
-  "updated": "Cycle 12 — Logistics complete; Ambush!",
-  "notes": "Logistics applied: Korps 26 Supply/24 Manpower; Viorla 31/23; Cerberus 24/19. Vantry and Kelmar income included; Forge income +5, fleet maintenance paid. Star-Mother 12/12, Defended until start of Cerberus turn; First Hunger 5/5. Halstrave 3/4, Ossvarn 1/2; no recovery after bombardment. Seven eligible Independent fleets recovered one point each. Warp Storm expired; movement allowed; all Fleet Actions unused. Ambush: attackers +1 difficulty, defenders −1; AI ground defenders +10. No pending battles. Next Logistics Cycle 15."
+  "nextFaction": "Vior’la Expedition",
+  "updated": "Cycle 12 — Vantry repaired; Vitae Womb Complex begun",
+  "notes": "Korps 17 Supply/22 Manpower. All three fleets 5/5 in Aschenvald; Grunwald and Wraith actions used, Imperium’s Eye unused. Vantry 3/4, Defended until start of Korps Cycle 13 turn. Vitae Womb Complex: Major Military Academy on Sühne 12/12, 1/5 actions, incomplete; no income until completion. Viorla 31/23; Cerberus 24/19. Star-Mother 12/12 remains Defended until start of Cerberus Cycle 12 turn. Ambush active; no pending battles. Next Viorla, then Cerberus. Next Logistics Cycle 15."
 }
