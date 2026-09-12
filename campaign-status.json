@@ -1,8 +1,8 @@
 {
   "cycle": 11,
-  "phase": "Cycle 11 — Korps turn complete; awaiting Vior’la Expedition",
+  "phase": "Cycle 11 — Vior’la turn complete; awaiting Splinter Fleet Cerberus",
   "event": "Warp Storm (Cycle 11 check: 1; event table: 1)",
-  "nextFaction": "Vior’la Expedition",
-  "updated": "Cycle 11 — Vantry capture and Hesperine destruction confirmed",
-  "notes": "Korps captures Vantry at 1/4; resources 23 Supply/21 Manpower. Grunwald 4/5, Wraith 4/5, Imperium’s Eye 5/5; all three actions used. Hesperine eliminated; remaining flotilla destroyed because no planet, station or Mobile Capital remains as a fallback. Korps has uncontested void superiority in Aschenvald, 13 vs 0. Viorla 25/21, Cerberus 27/19 unchanged. Warp Storm movement restriction active. No pending player battle. Next Logistics Cycle 12 includes Vantry +2/+2 and Kelmar +1/+1 if retained. Await Viorla, then Cerberus."
+  "nextFaction": "Splinter Fleet Cerberus",
+  "updated": "Cycle 11 — Halstrave bombarded",
+  "notes": "Viorla 24 Supply/21 Manpower. Widening Circle expanded to 5/5; Ember 4/5 bombarded Halstrave to 3/4, zero Manpower, no dice. Both Fleet Actions used. Vennick retains Halstrave with 45/45 Independent resources; no end-Cycle 11 defence recovery. Korps 23/21, Cerberus 27/19 unchanged. Warp Storm movement restriction remains. No pending battles. Await Cerberus before Cycle 12 Logistics and event."
 }
