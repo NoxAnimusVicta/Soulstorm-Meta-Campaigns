@@ -1,8 +1,8 @@
 {
   "cycle": 11,
-  "phase": "Cycle 11 — Vior’la turn complete; awaiting Splinter Fleet Cerberus",
+  "phase": "Cycle 11 — all faction turns complete; rollover pending",
   "event": "Warp Storm (Cycle 11 check: 1; event table: 1)",
-  "nextFaction": "Splinter Fleet Cerberus",
-  "updated": "Cycle 11 — Halstrave bombarded",
-  "notes": "Viorla 24 Supply/21 Manpower. Widening Circle expanded to 5/5; Ember 4/5 bombarded Halstrave to 3/4, zero Manpower, no dice. Both Fleet Actions used. Vennick retains Halstrave with 45/45 Independent resources; no end-Cycle 11 defence recovery. Korps 23/21, Cerberus 27/19 unchanged. Warp Storm movement restriction remains. No pending battles. Await Cerberus before Cycle 12 Logistics and event."
+  "nextFaction": "41st Expeditionary Korps after Cycle 12 opening",
+  "updated": "Cycle 11 — Cerberus turn complete",
+  "notes": "Ossvarn bombarded to 1/2, Last Rite resources 20/20, no recovery. Cerberus 20 Supply/15 Manpower; First Hunger 5/5, Star-Mother 12/12 and Defended until its Cycle 12 turn. All Cycle 11 faction turns complete. Cycle 12 Logistics and event pending."
 }
