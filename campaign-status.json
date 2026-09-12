@@ -1,8 +1,8 @@
 {
-  "cycle": 12,
-  "phase": "Cycle 12 — all turns complete; rollover pending",
-  "event": "Ambush! (Cycle 12 check: 1; event table: 2)",
-  "nextFaction": "41st Expeditionary Korps after Cycle 13 opening",
-  "updated": "Cycle 12 — Ossvarn captured",
-  "notes": "Cerberus captures Ossvarn 76 vs 57; Last Rite eliminated. Cerberus 21/17 after Reinforce and Build. Assimilation Viscera Major Forge Complex 1/5, incomplete. Star-Mother 12/12 not Defended; First Hunger 5/5. Cycle 12 complete; recovery and Cycle 13 event pending."
+  "cycle": 13,
+  "phase": "Cycle 13 opening complete — awaiting 41st Expeditionary Korps",
+  "event": "No event (Cycle 13 check: 4)",
+  "nextFaction": "41st Expeditionary Korps",
+  "updated": "Cycle 13 — Ossvarn captured; opening complete",
+  "notes": "Korps 17 Supply/22 Manpower; Viorla 27/23; Cerberus 21/17. Ossvarn captured at 1/2; Last Rite eliminated. Assimilation Viscera Major Forge Complex and Vitae Womb Complex Major Military Academy each 1/5, no income while incomplete. Star-Mother 12/12 and First Hunger 5/5. Vantry 3/4; neither Vantry nor Star-Mother Defended. Seven eligible Independent factions recovered one fleet-strength point each. Halstrave remains 1/4 with 15/15 resources. Ambush expired; check 4 gives no event. All Fleet Actions unused; no pending battles. Next Logistics Cycle 15, including Ossvarn first +1/+1 if retained."
 }
