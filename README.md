@@ -53,3 +53,8 @@ Store narrator recaps under `## Cycle Records` in Dessica_Campaign.md, with one 
 ## Automatic referee rollover
 
 After Cerberus (the final faction) completes its turn, publish that turn, then complete end-of-Cycle recovery and narrative, advance the Cycle, apply Logistics every third Cycle before the opening event roll, roll the event, and publish and verify the new starting state. Await the first faction’s orders after rollover. Do not advance past an unresolved battle. This is referee work during the chat, not autonomous website play.
+
+## Player battle publication timing
+
+User instruction: prepare and explain player battle setup in chat, but wait until the player reports the result before updating GitHub documentation or publishing the website. Combine battle resolution and the remaining authorised turn updates in that publication. Do not advance to the next faction while the player battle is pending.
+

@@ -1,8 +1,8 @@
 {
   "cycle": 10,
-  "phase": "Korps Ground Assault on Vantry — awaiting player battle result",
+  "phase": "Korps turn complete — awaiting Vior'la Expedition orders",
   "event": "War Fervor! (Cycle 10 check: 6; event table: 4)",
-  "nextFaction": "41st Expeditionary Korps — resolve Vantry, then queued Muster",
-  "updated": "Cycle 10 — Vantry player battle prepared",
-  "notes": "Vantry assault pending: all three Korps fleets 5/5, strength 15, base damage 3. Supply paid 28 to 26; 3 Manpower committed, 15 available. Play Harder 4/5, two attackers (player plus allied Guard AI) versus one Hesperine Guard AI. Vantry still 4/4, 60/60 resources; defender fleet 4/5. No outcome resolved. Muster +3 queued until result; Viorla waits. War Fervor award already applied; no combat modifier. No rollover or new dice."
+  "nextFaction": "Vior'la Expedition",
+  "updated": "Cycle 10 — Korps victory at Vantry",
+  "notes": "Player victory: Vantry 4/4 to 1/4, Hesperine-held with 15/15 defence-derived resources. Supply 26; Manpower 15 +1 victory return (60% of 3 rounded down) +3 Muster =19. All Korps fleets 5/5; Hesperine fleet 4/5, no Planet Fall or separate Fleet Battle. Void superiority 15 vs 4. No Hesperine recovery this Cycle. Extensive Korps lodgements recorded; no new construction or Defended status. Viorla 21/21; Cerberus 25/21. War Fervor already applied; next Logistics Cycle 12. Await Viorla; no pending battle."
 }
