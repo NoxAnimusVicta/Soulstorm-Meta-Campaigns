@@ -1,8 +1,8 @@
 {
   "cycle": 17,
-  "phase": "Cycle 17 opening complete — awaiting 41st Expeditionary Korps",
+  "phase": "Cycle 17 — Korps turn complete; awaiting Vior’la Expedition",
   "event": "Warp Storm (Cycle 17 check: 6; table: 1)",
-  "nextFaction": "41st Expeditionary Korps",
-  "updated": "Cycle 17 — Warp Storm applied",
-  "notes": "Korps 4 Supply/23 Manpower; Viorla 17/25; Cerberus 14/26. All fleets damaged by 1; movement prohibited. Promise Kept destroyed, Viorla loses 1 Manpower. Star-Mother 11/12; First Hunger 4/5; Second Hunger 2/5. Assimilation Viscera completed Cycle 16, now damaged 4/5 and inactive. Vitae Womb active; Cadre Academy unfinished 4/5. No Defended status remains. Fleet Actions reset; no pending battles. No Logistics; next Cycle 18."
+  "nextFaction": "Vior'la Expedition",
+  "updated": "Cycle 17 — Korps assault on Corvid resolved",
+  "notes": "Korps 4 Supply/22 Manpower; Viorla 17/25; Cerberus 14/26. Corvid 2/4 after defeat and Grinding Advance, Forge resources 30/30. Forge fleets remain 3/5 each, superiority 9 vs 8; no recovery this Cycle. Spear of Death expanded to 4/5. Grunwald, Wraith and Spear actions used; Eye 4/5 unused. Warp Storm prohibits movement. Vitae Womb active 5/5; Assimilation Viscera completed but damaged 4/5, inactive. No pending battles; next Logistics Cycle 18."
 }
