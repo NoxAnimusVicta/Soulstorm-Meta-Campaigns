@@ -740,11 +740,11 @@ At the start of each Cycle, before any faction takes its turn, roll 1d6. On a 1 
 
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |---|---|---|---|---|---|---|---|---|---|
-| X | X | O | X | X | O | X | X | O | Ω |
+| X | X | O | X | X | O | X | X | O | X |
 
 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
 |---|---|---|---|---|---|---|---|---|---|
-| | | | | | | | | | |
+| Ω | | | | | | | | | |
 
 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 |
 |---|---|---|---|---|---|---|---|---|---|
@@ -759,7 +759,7 @@ At the start of each Cycle, before any faction takes its turn, roll 1d6. On a 1 
 - **O** = Past Logistics Cycle (every 3rd cycle)
 - **X** = Past Cycle
 
-**Current Cycle:** 10
+**Current Cycle:** 11
 
 ### Cycle 1 opening event: Warp Storm
 
@@ -1130,14 +1130,42 @@ Victory returns **1 Manpower** (60% of 3, rounded down): **18 → 19**. Net loss
 
 All Cycle 10 faction turns complete; recovery and Cycle 11 opening follow.
 
+### Cycle 10 end-of-Cycle recovery
+
+No recovery changes. Vantry was attacked and stays **1/4**, Hesperine resources **15/15**; its fleet participated and receives no recovery. Kelmar is now a Cerberus holding at **1/2**, with no automatic Major Faction repair. All other Independent planets are full defence; all other surviving Independent fleets are at original starting maximums. Destroyed fleets, including Accord Levy Squadron, remain lost.
+
+Closing Supply / Manpower: **Korps 26/19, Viorla 25/21, Cerberus 27/19**. Cycle 10 complete: Korps foothold at Vantry, Vennick fleet destroyed, Kelmar captured by Cerberus. War Fervor expires without removing its already awarded resources.
+
+### Cycle 11 opening: Warp Storm
+
+No Logistics; next Logistics **Cycle 12**, including Kelmar's first +1/+1 income if retained. Event check **1d6 = 1**; event table **1d6 = 1 — Warp Storm**. All surviving fleets lose 1 strength and **cannot move during Cycle 11**. The agreed Star-Mother ruling applies: **11/12 → 10/12**, also unable to move. Expansion and other non-movement actions remain available.
+
+| Faction | Storm changes |
+|---|---|
+| Korps | Grunwald, Wraith of Krieg, Imperium’s Eye each 5/5 → 4/5 |
+| Viorla | Widening Circle 4/5 → 3/5; Ember Carried Far 5/5 → 4/5 |
+| Cerberus | First Hunger 4/5 → 3/5; Star-Mother 11/12 → 10/12 |
+| Hesperine Guard | Watch Flotilla 4/5 → 3/5 |
+| Forge Anvarrus | Omnissian Vigil and Sanctioned Pattern 5/5 → 4/5; Corvid Ore Escort 4/5 → 3/5 |
+| Waaagh! Skarjaw | Big Hulk and Da Krumpin' Krooza 5/5 → 4/5 |
+| Waaagh! Gutrekk | Rok Fleet and Da Bonegrinda 5/5 → 4/5 |
+| Kabal of the Withered Hand | Sculpted Scream 5/5 → 4/5; Sallow Slavers 3/5 → 2/5 |
+| Havren Reclamation | Nineteenth Warrant and Sevrine's Prerogative 5/5 → 4/5; Merrow Tender Group 4/5 → 3/5 |
+| Talgrave Dominion | Palatine Guard and Corrandine Occupation Fleet 5/5 → 4/5; Sest Patrol Wing 4/5 → 3/5 |
+| Corvus Reduction | Sealed Codex 5/5 → 4/5; Drask Archive Escort 3/5 → 2/5 |
+
+No new fleet destruction or resource changes. Vennick, Directorate and Last Rite have no surviving fleets. Ground holdings retain their defence; Star-Mother's storm damage is the agreed exception. All Fleet Actions reset to **unused for Cycle 11**, including the Star-Mother; the storm itself consumes no Fleet Action. No Cycle 11 recovery applied early.
+
+**Next: 41st Expeditionary Korps, Cycle 11.** No pending battles or resolved Cycle 11 faction turns. Resources remain **Korps 26/19, Viorla 25/21, Cerberus 27/19**.
+
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (4/5), The Ember Carried Far (5/5) — Mont'au | The First Hunger (4/5) — Threnholt |
+| Fleets | Transit Command Grunwald (4/5), Wraith of Krieg (4/5), Imperium’s Eye (4/5) — Aschenvald | The Widening Circle (3/5), The Ember Carried Far (4/5) — Mont'au | The First Hunger (3/5) — Threnholt |
 | Supplies (1-100) | 26 | 25 | 27 |
 | Manpower (1-100) | 19 | 21 | 19 |
-| Planets Controlled | Sühne | Mont'au | The Star-Mother — Mobile Capital, 11/12 defence; Threnholt; not Defended; built-in Orbital Shipyard; +4 Supply/+4 Manpower per Logistics; exempt from fleet maintenance; Kelmar — Minor world, 1/2 defence, Threnholt; +1 Supply/+1 Manpower per Logistics from Cycle 12 |
+| Planets Controlled | Sühne | Mont'au | The Star-Mother — Mobile Capital, 10/12 defence; Threnholt; not Defended; built-in Orbital Shipyard; +4 Supply/+4 Manpower per Logistics; exempt from fleet maintenance; Kelmar — Minor world, 1/2 defence, Threnholt; +1 Supply/+1 Manpower per Logistics from Cycle 12 |
 | Constructions | — | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
 
 **AI vs AI Ground Battle Resolution:** Both factions roll d20 + participating Fleet Strength + Supply + Manpower. Attacker commits Manpower equal to base damage (fleet strength only); Defender commits half of total damage to planet (including bonuses, rounded down). Highest total wins. If the defender used the Defend action, their roll gains +15. Winner returns 60% committed Manpower (rounded down), loser loses 100%. **All calculations use resource values after attack costs (scaled by world type) and Manpower commitments are deducted.**
@@ -1148,7 +1176,7 @@ All Cycle 10 faction turns complete; recovery and Cycle 11 opening follow.
 
 ### Aschenvald System (41st Expeditionary Korps)
 
-**Void Superiority:** 41st Expeditionary Korps: 15 vs Hesperine Guard: 4 — 41st Expeditionary Korps
+**Void Superiority:** 41st Expeditionary Korps: 12 vs Hesperine Guard: 3 — 41st Expeditionary Korps
 
 *Vantry broadcasts the same challenge to every vessel that enters the system — regimental cipher, verification codes, a standing order issued by Segmentum Command four decades ago. The 41st logs each transmission and answers with its own. Neither set of codes resolves against anything the other can check. Kolbrant has the guns to end the exchange and keeps them cold.*
 
@@ -1158,14 +1186,14 @@ All Cycle 10 faction turns complete; recovery and Cycle 11 opening follow.
 | Vantry | Standard (Station) | Hesperine Guard | 1/4 | Orbital defence platform and garrison station. Rotation schedules, munitions inventories, and watch rosters have been maintained without interruption for four decades. Approach lanes are covered by macrocannon batteries that track every hull entering the system. Cycle 10 Korps victory: defence 4/4 → 1/4. Korps holds extensive lodgements; Hesperine remains campaign controller until capture. Current Supply 15, Manpower 15 (60 × 1/4). No end-Cycle 10 recovery because attacked. |
 
 **In-System Fleets:**
-- 41st Expeditionary Korps: Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (5/5)
-- Hesperine Guard: Hesperine Watch Flotilla (4/5)
+- 41st Expeditionary Korps: Transit Command Grunwald (4/5), Wraith of Krieg (4/5), Imperium’s Eye (4/5)
+- Hesperine Guard: Hesperine Watch Flotilla (3/5)
 
 ---
 
 ### Mont'au System (Vior'la Expedition)
 
-**Void Superiority:** Vior'la Expedition: 9 vs Vennick Accord: 0 — Vior'la Expedition
+**Void Superiority:** Vior'la Expedition: 7 vs Vennick Accord: 0 — Vior'la Expedition
 
 *The primary dome went up in the second year; the processors began cycling atmosphere in the fourth. Halstrave returns every envoy the Expedition sends — alive, gifts intact, each carrying a written statement of the terms under which the six houses will discuss the future of the system. The terms have not been revised in thirty years. Shas'o Mont'yr keeps every copy.*
 
@@ -1175,7 +1203,7 @@ All Cycle 10 faction turns complete; recovery and Cycle 11 opening follow.
 | Halstrave | Standard | Vennick Accord | 4/4 | Hive world. Six noble houses occupy a single fortified spire-cluster, their household levies quartered in shared barracks along the lower tiers. Muster rolls run to eight figures. The approach lanes are ranged by house artillery. Current Supply 60, Manpower 60, derived from full defence; Independent Minor Faction resource ruling applies. |
 
 **In-System Fleets:**
-- Vior'la Expedition: The Widening Circle (4/5), The Ember Carried Far (5/5)
+- Vior'la Expedition: The Widening Circle (3/5), The Ember Carried Far (4/5)
 - Vennick Accord: no surviving fleet. Accord Levy Squadron destroyed in Cycle 10 Fleet Battle (Viorla 25 vs Vennick 9, margin 16).
 
 **Construction progress:** Trial’s End Fabrication Array — Major Forge Complex, owned by Vior'la Expedition on Mont'au. **Completed Cycle 6: 5/5 actions**, 25 Supply spent in total. Build actions in Cycles 1, 2, 3, 5 and 6; none in Cycle 4. Effect: **+5 Supply per Logistics Cycle**. First scheduled income **Cycle 9**, provided retained and operational; no retroactive Cycle 6 income because opening Logistics preceded completion. Major construction capture/destruction and damage rules apply.
@@ -1184,7 +1212,7 @@ All Cycle 10 faction turns complete; recovery and Cycle 11 opening follow.
 
 ### Threnholt System (Contested — Splinter Fleet Cerberus)
 
-**Void Superiority:** Splinter Fleet Cerberus: 15 vs Independents: 0 — Splinter Fleet Cerberus
+**Void Superiority:** Splinter Fleet Cerberus: 13 vs Independents: 0 — Splinter Fleet Cerberus
 
 *The Threnholt Directorate still stamps its orders with the Imperial eagle, one head struck from the die. Governor-Commandant Rhedan Voss calls the secession a measure of necessity; the naval officers who secured it call it permanent. The northern arcologies refuse his authority, and the rail corridor supplying them has changed hands four times. When the Star-Mother arrived, both sides broadcast distress calls on the same abandoned Imperial frequencies. On Ossvarn, the Last Rite sealed the outer catacombs and continued its services underground.*
 
@@ -1197,8 +1225,8 @@ All Cycle 10 faction turns complete; recovery and Cycle 11 opening follow.
 | Kelmar | Minor | Splinter Fleet Cerberus | 1/2 | Mining colony. Deep shafts, ration depots and evacuation shelters captured by the swarm in Cycle 10 after Star-Mother bombardment in Cycle 9. Ground Assault victory 62 vs 47; captured and reset to 1/2. No Independent resource pool remains here. Minor holding income +1 Supply/+1 Manpower per Logistics, first due Cycle 12 if retained. |
 
 **In-System Fleets:**
-- Splinter Fleet Cerberus: The Star-Mother (11/12 — Mobile Capital; not Defended)
-- Splinter Fleet Cerberus: The First Hunger (4/5)
+- Splinter Fleet Cerberus: The Star-Mother (10/12 — Mobile Capital; not Defended; Warp Storm movement prohibited Cycle 11)
+- Splinter Fleet Cerberus: The First Hunger (3/5)
 - The Threnholt Directorate: no surviving fleets. Secession Fleet destroyed in Cycle 8; Kelmar Convoy Auxiliary destroyed in Cycle 1.
 **Cycle 2 loss:** Ossvarn Funerary Fleet destroyed by Warp Storm (1/5 → 0). No Independent resource deduction: Ossvarn remains 40 Supply / 40 Manpower. No active Last Rite fleet remains.
 
@@ -1210,7 +1238,7 @@ All Cycle 10 faction turns complete; recovery and Cycle 11 opening follow.
 
 ### Anvarrus System (Independent — Forge Anvarrus)
 
-**Void Superiority:** Forge Anvarrus: 14 — Forge Anvarrus
+**Void Superiority:** Forge Anvarrus: 11 — Forge Anvarrus
 
 *Magos-Dominus Thelk received four recall orders from Mars across six years. All four are archived on Thelk's Rest, sealed in the same vault as the research they were issued to halt. Three manufactorum districts on Anvarrus have been under quarantine since the reclamation yard incident. Skitarii cohorts hold the cordon and log every entry.*
 
@@ -1221,13 +1249,13 @@ All Cycle 10 faction turns complete; recovery and Cycle 11 opening follow.
 | Thelk's Rest | Minor (Station) | Forge Anvarrus | 2/2 | Research station and biologis facility. Vat-farms, specimen storage, and the sealed archive vault. Access requires Thelk's personal cipher. |
 
 **In-System Fleets:**
-- Forge Anvarrus: Omnissian Vigil (5/5), The Sanctioned Pattern (5/5), Corvid Ore Escort (4/5)
+- Forge Anvarrus: Omnissian Vigil (4/5), The Sanctioned Pattern (4/5), Corvid Ore Escort (3/5)
 
 ---
 
 ### Skarjaw System (Independent — Waaagh! Skarjaw)
 
-**Void Superiority:** Waaagh! Skarjaw: 10 — Waaagh! Skarjaw
+**Void Superiority:** Waaagh! Skarjaw: 8 — Waaagh! Skarjaw
 
 *Skarjaw's throne is the prow of an Imperial escort, cut free and stood upright in the middle of the Yard. He took the ship six years ago. The Meks are still arguing over the rest of the hull, and the argument has cost eleven of them so far.*
 
@@ -1238,7 +1266,7 @@ All Cycle 10 faction turns complete; recovery and Cycle 11 opening follow.
 | Dakkatoof | Minor | Waaagh! Skarjaw | 2/2 | Raider staging ground. Launch pads cut into bedrock, hangar frames raised from scaffold and sheet plate. The Mek population runs to the thousands and the weapon shops never go dark. |
 
 **In-System Fleets:**
-- Waaagh! Skarjaw: Skarjaw's Big Hulk (5/5), Da Krumpin' Krooza (5/5)
+- Waaagh! Skarjaw: Skarjaw's Big Hulk (4/5), Da Krumpin' Krooza (4/5)
 
 **Cycle 2 loss:** Grotmire Scrap Barges destroyed by Warp Storm (1/5 → 0). No Independent Minor Faction Manpower loss applies; the earlier debit was rescinded.
 
@@ -1246,7 +1274,7 @@ All Cycle 10 faction turns complete; recovery and Cycle 11 opening follow.
 
 ### Gutrekk System (Independent — Waaagh! Gutrekk)
 
-**Void Superiority:** Waaagh! Gutrekk: 10 — Waaagh! Gutrekk
+**Void Superiority:** Waaagh! Gutrekk: 8 — Waaagh! Gutrekk
 
 *Gutrekk and Skarjaw fought each other for eleven years before either of them reached Dessica. The Rok came down on Bonegrind hard enough to crack the crust. Gutrekk's Boyz have painted the range markers on the surface batteries in Skarjaw's colours.*
 
@@ -1256,13 +1284,13 @@ All Cycle 10 faction turns complete; recovery and Cycle 11 opening follow.
 | Bonegrind | Minor | Waaagh! Gutrekk | 2/2 | Mining world stripped to bedrock. Extraction gear has been cut down and rebuilt into vehicle frames and gun mounts. The pit heads stand open and empty. |
 
 **In-System Fleets:**
-- Waaagh! Gutrekk: Gutrekk's Rok Fleet (5/5), Da Bonegrinda (5/5)
+- Waaagh! Gutrekk: Gutrekk's Rok Fleet (4/5), Da Bonegrinda (4/5)
 
 ---
 
 ### Vashenne System (Independent — Kabal of the Withered Hand)
 
-**Void Superiority:** Kabal of the Withered Hand: 8 — Kabal of the Withered Hand
+**Void Superiority:** Kabal of the Withered Hand: 6 — Kabal of the Withered Hand
 
 *The culling schedule on Vashenne runs on a two-hundred-day cycle. Kabalite crews work the northern hemisphere while the southern population is left to breed, then the hemispheres are exchanged. Archon Yssareth's court reviews the yield figures at the close of each cycle and revises the quotas. The portal in the polar wastes carries the take back to Commorragh within the hour.*
 
@@ -1273,13 +1301,13 @@ All Cycle 10 faction turns complete; recovery and Cycle 11 opening follow.
 | Threnn | Minor (Station) | Kabal of the Withered Hand | 2/2 | Raiding cache. Captured hulls in various states of stripping, cargo holds sorted by origin, and the accumulated take of four decades. |
 
 **In-System Fleets:**
-- Kabal of the Withered Hand: The Sculpted Scream (5/5), Sallow Slavers (3/5)
+- Kabal of the Withered Hand: The Sculpted Scream (4/5), Sallow Slavers (2/5)
 
 ---
 
 ### Havren System (Independent — The Havren Reclamation)
 
-**Void Superiority:** Havren Reclamation: 14 — Havren Reclamation
+**Void Superiority:** Havren Reclamation: 11 — Havren Reclamation
 
 *The Havren Warrant of Trade hangs in the receiving hall on Havren's Claim, nineteen signatures deep, the most recent countersigned by a Lord Militant four centuries dead. Lady Reclaimant Sevrine Havren receives petitioners beneath it. Her escorts run the patrol routes her grandmother set, and the tariff schedules are still enforced at Merrow.*
 
@@ -1290,13 +1318,13 @@ All Cycle 10 faction turns complete; recovery and Cycle 11 opening follow.
 | Merrow | Minor (Station) | Havren Reclamation | 2/2 | Refuelling depot and shipyard annex. Drydocks handle hulls up to cruiser tonnage. Tariff office sits at the station's primary approach. |
 
 **In-System Fleets:**
-- Havren Reclamation: The Nineteenth Warrant (5/5), Sevrine's Prerogative (5/5), Merrow Tender Group (4/5)
+- Havren Reclamation: The Nineteenth Warrant (4/5), Sevrine's Prerogative (4/5), Merrow Tender Group (3/5)
 
 ---
 
 ### Talgrave System (Independent — The Talgrave Dominion)
 
-**Void Superiority:** Talgrave Dominion: 14 — Talgrave Dominion
+**Void Superiority:** Talgrave Dominion: 11 — Talgrave Dominion
 
 *Governor Aurelian Vosk continues to file tithe assessments. They accumulate in the Palatine Spire's records office, bound and sealed by year, addressed to an Administratum that has not acknowledged receipt in four decades. Corrandine's governor declined the Dominion's protection in the eleventh year. The occupation garrison has held his capital since.*
 
@@ -1307,13 +1335,13 @@ All Cycle 10 faction turns complete; recovery and Cycle 11 opening follow.
 | Sest | Minor | Talgrave Dominion | 2/2 | Agricultural world. Serf-worked estates under manor-house administration, feeding Talgrave's hives on a fixed shipping quota. The militia is equipped for crowd suppression. |
 
 **In-System Fleets:**
-- Talgrave Dominion: The Palatine Guard (5/5), Corrandine Occupation Fleet (5/5), Sest Patrol Wing (4/5)
+- Talgrave Dominion: The Palatine Guard (4/5), Corrandine Occupation Fleet (4/5), Sest Patrol Wing (3/5)
 
 ---
 
 ### Ketterin System (Independent — The Corvus Reduction)
 
-**Void Superiority:** Corvus Reduction: 8 — Corvus Reduction
+**Void Superiority:** Corvus Reduction: 6 — Corvus Reduction
 
 *Thelk's envoys came to Ketterin in the fourteenth year. The Reduction received them in the outer chamber, observed the full ritual courtesies, and escorted them back to their shuttle within the hour. Drask's archive has been closed to Anvarrus ciphers by standing order since. The Reduction produces three sanctioned patterns and declines all other commissions.*
 
@@ -1324,7 +1352,7 @@ All Cycle 10 faction turns complete; recovery and Cycle 11 opening follow.
 | Drask | Minor | Corvus Reduction | 2/2 | Archive vault and cogitator bank. The Reduction's pattern records and doctrinal texts, held behind physical seals and a Skitarii watch. |
 
 **In-System Fleets:**
-- Corvus Reduction: The Sealed Codex (5/5), Drask Archive Escort (3/5)
+- Corvus Reduction: The Sealed Codex (4/5), Drask Archive Escort (2/5)
 
 ---
 
@@ -1335,7 +1363,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | Asset | Type | Controller | Strength | Location | Notes |
 |-------|------|------------|----------|----------|-------|
-| The Star-Mother | Hive Ship (Mobile Capital) | Splinter Fleet Cerberus | 11/12 | Threnholt System | The splinter's reproductive core and the Norn Queen's vessel. Where it drifts, the swarm follows. Cycle 1: Warp Storm -1 defence; Fleet Battle initiation -1; defeat against the Last Rite -2. Cycle 2 Warp Storm reduced defence to 7/12; Defend restored +4 to 11/12. Previous Defended status expired at the start of Cerberus’s Cycle 3 turn. Created The First Hunger (1/5) at its shipyard. Warp Storm movement restriction has expired. Cycle 6: participated with The First Hunger in victory over the Threnholt Directorate, 18 vs 12; no damage sustained. Cycle 7: combined victory over Secession Fleet, 28 vs 20; no damage sustained. Cycle 8: combined victory 32 vs 20 destroys Secession Fleet; no damage sustained. Cycle 9: bombarded Kelmar to 1/2; remains 11/12, not Defended. |
+| The Star-Mother | Hive Ship (Mobile Capital) | Splinter Fleet Cerberus | 10/12 | Threnholt System | The splinter's reproductive core and the Norn Queen's vessel. Where it drifts, the swarm follows. Cycle 1: Warp Storm -1 defence; Fleet Battle initiation -1; defeat against the Last Rite -2. Cycle 2 Warp Storm reduced defence to 7/12; Defend restored +4 to 11/12. Previous Defended status expired at the start of Cerberus’s Cycle 3 turn. Created The First Hunger (1/5) at its shipyard. The Cycle 2 Warp Storm movement restriction expired at Cycle 3. Cycle 6: participated with The First Hunger in victory over the Threnholt Directorate, 18 vs 12; no damage sustained. Cycle 7: combined victory over Secession Fleet, 28 vs 20; no damage sustained. Cycle 8: combined victory 32 vs 20 destroys Secession Fleet; no damage sustained. Cycle 9: bombarded Kelmar to 1/2. Cycle 10: jointly captured Kelmar. Cycle 11 Warp Storm: 11/12 → 10/12, movement prohibited; not Defended. |
 
 ---
 
@@ -1357,7 +1385,9 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 9 | Expand Fleet: Imperium’s Eye 3/5 → 5/5 at Sühne, Supply 21 → 20. Reinforce to 23; Manpower 13. Grunwald and Wraith 5/5. No movement/combat/social/construction actions; turn complete. | Expand Fleet: Ember Carried Far 3/5 → 5/5 at Mont'au; Supply 17 → 16. Muster +4 Manpower: 12 → 16 (+1,280 combat personnel). Widening Circle 5/5; no movement/combat/social/construction actions; turn complete. | Star-Mother alone bombards Kelmar 2/2 → 1/2; Supply 23 → 21, zero Manpower committed. First Hunger expands 2/5 → 4/5, Supply 21 → 20. Muster Manpower 13 → 16. No social/construction actions; turn complete. | Cycle 9 complete; Kelmar damaged, no captures | Logistics applied: Korps 21/13, Viorla 17/12, Cerberus 23/13; first Forge income +5 Supply. Event check 6, table 2: Ambush! Active throughout Cycle 9. Closing resources Korps 23/13, Viorla 16/16, Cerberus 20/16. Kelmar 1/2, no recovery because attacked. |
 
-| 10 | Player victory at Vantry: 3 damage, 4/4 → 1/4; no capture. Supply 26. Manpower 15 available +1 returned +3 Muster =19. Three fleets 5/5; Hesperine fleet 4/5. No social/construction action; turn complete. | Combined Fleet Battle victory: Widening Circle initiation 5/5 → 4/5, Ember 5/5. Rolls 16+9=25 vs 5+4=9; margin 16 destroys Accord Levy Squadron. Reinforce Supply 21 → 25, Manpower 21. No social/construction action; turn complete. | Combined Ground Assault captures Kelmar, 62 vs 47. Supply 25 → 24 → 27 after Reinforce; Manpower 21 → 18 → 19 after victory return. Kelmar 1/2 Cerberus-held; no social/construction action. | All Cycle 10 turns complete; Kelmar captured | War Fervor already awarded. Vantry resources now 15/15, no recovery this Cycle. Player reports Hellhound-led advances, extensive station lodgements and fortified supply routes. Map-size and allied eligibility rules recorded; no additional mechanical fleet damage. |
+| 10 | Player victory at Vantry: 3 damage, 4/4 → 1/4; no capture. Supply 26. Manpower 15 available +1 returned +3 Muster =19. Three fleets 5/5; Hesperine fleet 4/5. No social/construction action; turn complete. | Combined Fleet Battle victory: Widening Circle initiation 5/5 → 4/5, Ember 5/5. Rolls 16+9=25 vs 5+4=9; margin 16 destroys Accord Levy Squadron. Reinforce Supply 21 → 25, Manpower 21. No social/construction action; turn complete. | Combined Ground Assault captures Kelmar, 62 vs 47. Supply 25 → 24 → 27 after Reinforce; Manpower 21 → 18 → 19 after victory return. Kelmar 1/2 Cerberus-held; no social/construction action. | Cycle 10 complete; Kelmar captured | War Fervor already awarded. Vantry resources now 15/15, no recovery this Cycle. Player reports Hellhound-led advances, extensive station lodgements and fortified supply routes. Map-size and allied eligibility rules recorded; no additional mechanical fleet damage. |
+
+| 11 | Awaiting turn | Awaiting turn | Awaiting turn | Opening complete; awaiting Korps | Event check 1, table 1: Warp Storm. Fleet losses listed above; no new destruction. No Logistics until Cycle 12. Resources Korps 26/19, Viorla 25/21, Cerberus 27/19. |
 
 ## Cycle Records
 
@@ -1455,3 +1485,14 @@ Across Dessica, fresh provisions sustain the rival powers. Trial’s End Fabrica
 At Aschenvald, Imperium’s Eye completes its expansion. All three Korps formations now stand at full fighting strength, while Kolbrant replenishes his stores and keeps his guns silent. The danger of ambush hangs over the Cycle, but no contested battle is joined.
 
 In Threnholt, The First Hunger grows stronger at the Star-Mother's shipyard as fresh broods swell Cerberus's forces. No world changes hands. Yet for the first time, the swarm has carried its offensive from the void to a planet's defences. Dessica approaches its tenth year with Kelmar wounded, its defenders isolated, and the next assault still to come!
+
+
+### Cycle 10
+
+**The first world falls!** War Fervor swells the reserves of Dessica's rival powers, and the long years of preparation give way to a Cycle of decisive offensives.
+
+At Vantry, Hellhound tanks and waves of Krieg infantry force their way into the station. The Hesperine Guard fights hard, but the Korps secures extensive lodgements and digs in along its supply routes. The station's last defences remain unbroken; Kolbrant's victory has brought conquest within reach.
+
+In Mont'au, the Vior'la Expedition strikes with both fleets! The Widening Circle and The Ember Carried Far overwhelm the Accord Levy Squadron, destroying the formation that guarded Halstrave's approaches. The noble houses retain their world, but their fleet is gone.
+
+Then Cerberus descends on Kelmar. The Star-Mother and The First Hunger commit their combined strength against the battered mining colony. The Directorate's garrison is defeated, and the swarm claims its first planetary holding. Threnholt remains beyond its grasp, but the war has crossed a threshold: Dessica's borders have begun to change!
