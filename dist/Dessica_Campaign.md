@@ -515,6 +515,19 @@ The maximum factions per side is 4 (map maximum 8 total). If bonuses would creat
 
 Continue pattern: reduce both sides equally until largest side is 4, maintaining the original difference.
 
+### Map Size
+
+**Use a map with twice as many player slots as the larger team has factions, after applying all faction-count modifiers and limits.** Count every faction on that team, including the player. This determines the map's player capacity, not the number of factions that must participate: leave unused slots closed rather than adding extra factions.
+
+| Final teams | Required map size | Unused slots |
+|---|---|---|
+| 1v1 | 2-player map | 0 |
+| 2v1 or 2v2 | 4-player map | 1 or 0 |
+| 3v1, 3v2 or 3v3 | 6-player map | 2, 1 or 0 |
+| 4v1, 4v2, 4v3 or 4v4 | 8-player map | 3, 2, 1 or 0 |
+
+For example, **two attacking factions versus one defending faction use a 4-player map with one slot closed**, not a 3-player map. This keeps the map capacity consistent for the larger force instead of shrinking it to match an outnumbered opponent. Agreed during preparation for the Cycle 10 Vantry player battle; applies to that battle and future battles.
+
 ### Fleet Strength in System (Friendly Fleets)
 
 Calculate total Fleet Strength of all your fleets and allied fleets (same Alignment) in-system.
@@ -527,6 +540,14 @@ Calculate total Fleet Strength of all your fleets and allied fleets (same Alignm
 | 15-19 | +3 Allied Factions |
 | 20-24 | +4 Allied Factions |
 | 25+ | +5 Allied Factions |
+
+#### Allied Battle Faction Eligibility
+
+Extra allied slots in a Soulstorm battle may represent another campaign faction **only if that allied faction has a fleet in the system**. For an attack, its fleet must participate and use its Fleet Action under the normal participation rules. An allied alignment alone does not permit calling in an absent faction.
+
+When all contributing fleets belong to the same campaign faction, fill any additional allied battle slots with **duplicate formations of that faction**. These slots represent its own forces fighting together; they do not introduce a new campaign faction, grant extra resources or fleets, or constitute the Summon Allies Faction Action. Eligibility determines who may fill the calculated slots, not additional slot bonuses.
+
+**Vantry example:** Grunwald, Wraith of Krieg and Imperium’s Eye all belong to the 41st Expeditionary Korps. Therefore, the two attacking slots are **the player's 41st Expeditionary Korps and one AI-controlled duplicate 41st Expeditionary Korps formation**. No other Imperial faction is called in. Agreed during preparation for the Cycle 10 Vantry battle; applies to that battle and future battles.
 
 ### Fleet Strength in System (Hostile Fleets)
 
@@ -1056,20 +1077,20 @@ All fleet strengths and locations unchanged. Korps three fleets at **5/5** in As
 
 **Next: 41st Expeditionary Korps, Cycle 10.** No Cycle 10 faction turns resolved or pending battles.
 
-### Cycle 10 — pending player battle: Vantry
+### Cycle 10 — Korps victory at Vantry
 
-**41st Expeditionary Korps, Phase 2:** Ground Assault on Vantry, Standard Station **4/4**, Hesperine Guard. Grunwald, Wraith of Krieg and Imperium’s Eye each participate at **5/5**; all three Fleet Actions committed to this single attack. Total strength **15**, base damage **3**. Ground Assault pays no Fleet Battle initiation strength cost; fleets remain 5/5.
+**Player-reported victory:** The 41st Expeditionary Korps won the Ground Assault at Vantry on Harder (4/5), two Korps formations versus one Hesperine Guard formation. Grunwald, Wraith of Krieg and Imperium’s Eye contributed 15 Fleet Strength; all three Fleet Actions used.
 
-**Costs paid once for the combined assault:** Supply **28 → 26** (-2 Standard attack cost, spent regardless of outcome). Manpower **18 → 15 available**, with **3 committed** to the pending battle (1,800 combat personnel). Commitment is not yet a confirmed casualty loss. No battle result, planetary damage, capture or recovery resolved.
+- **Supply:** Attack cost already paid **28 → 26**; no second charge.
+- **Manpower:** Started 18; committed 3, leaving 15 available. Victory returns **1** (60% of 3 = 1.8, rounded down), giving **16**. Net battle loss **2 Manpower**, equivalent to **1,200 combat personnel**. Queued Phase 3 Muster then grants **+3: 16 → 19** (1,800 personnel). **Final Korps resources: 26 Supply / 19 Manpower**.
+- **Rounding interpretation:** The player outcome rule specifies 60% returned without rounding. This resolution uses the explicit round-down convention in the document's AI ground-resolution rule for whole Manpower points; recorded as a referee interpretation, not an additional casualty roll.
+- **Vantry defence: 4/4 → 1/4**, 3 damage. No capture or Planet Fall; Hesperine Guard remains campaign controller. Independent resources recalculate to **15 Supply / 15 Manpower** (60 × 1/4); no separate Major Faction resource penalties.
+- All Korps fleets remain **5/5**. Hesperine Watch Flotilla remains **4/5**: no separate Fleet Battle was ordered, and Ground Assault fleet damage is triggered by Planet Fall, which has not occurred. Void superiority remains **Korps 15 vs Hesperine 4**. Hesperine fleet and Vantry receive no end-Cycle 10 recovery because they participated/were attacked.
+- No Social or Construction Action. Reported fortification of lodgements and supply routes is battle narrative, not a Defend action or new construction. Sühne remains 12/12.
 
-**Player setup:** **2 attackers versus 1 defender**, **Harder (4/5)** difficulty. Attacking team: player Korps plus one allied AI Korps/Imperial Guard formation. Defending team: one AI Imperial Guard formation representing Hesperine Guard. These are battle formations, not newly created campaign factions. Use a map with at least three player slots, preferably a station/interior or industrial setting; no specific map or victory conditions are mandated by the campaign rules.
+**Player battle account:** The Hesperine Guard fought well. Hellhound tanks and repeated Krieg infantry assaults secured extensive lodgements across the majority of the station. Korps troops are digging in and fortifying supply routes while their fleets press the Hesperine flotilla in the void. Organised resistance still holds the remaining station defences; the flotilla's recorded combat strength is unchanged.
 
-- Difficulty: own post-cost Supply **26** gives **Harder 4/5**; Vantry Supply **60** adds **0**. No active Ambush or recorded Defended status. War Fervor was already awarded and adds no battle modifier. Grinding Advance ignores Defended if applicable.
-- Attacker slots: baseline **1 + 3** for Fleet Strength 15 **- 2** for available Manpower 15 = **2**. Apply the minimum after combining modifiers.
-- Defender slots: baseline **1 + 0** for fleet strength 4 **+ 0** for Manpower 60 = **1**. Vantry uses its own defence-derived **60 Supply / 60 Manpower**, not a Major Faction resource pool.
-- Victory would reduce Vantry **4/4 → 1/4** (3 damage); it would not capture the station. Defeat still inflicts **1 damage** through Grinding Advance, **4/4 → 3/4**. These are projections, not resolved outcomes.
-
-**Awaiting the player's reported result.** Declared Phase 3 Muster **+3 Manpower** is queued, not applied to this battle's setup. No Social or Construction Action. Resolve commitment returns/losses and the queued Muster after the result, then advance to Vior'la. No new event roll or Cycle advancement.
+**Korps turn complete. Next: Vior'la Expedition, Cycle 10.** No pending battle, no Cycle rollover. War Fervor resources were already awarded; next Logistics Cycle 12. The agreed map-size and in-system allied-faction eligibility rules are retained.
 
 ### Resource Tracker
 
@@ -1077,11 +1098,9 @@ All fleet strengths and locations unchanged. Korps three fleets at **5/5** in As
 |----------|--------------------------|--------------------|-------------------------|
 | Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (5/5), The Ember Carried Far (5/5) — Mont'au | The First Hunger (4/5) — Threnholt |
 | Supplies (1-100) | 26 | 21 | 25 |
-| Manpower (1-100) | 15 | 21 | 21 |
+| Manpower (1-100) | 19 | 21 | 21 |
 | Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
 | Constructions | — | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
-
-**Pending commitment:** Korps tracker shows 15 available Manpower; another 3 is committed to the unresolved Vantry assault, not yet confirmed lost. Queued Muster +3 has not been applied.
 
 **AI vs AI Ground Battle Resolution:** Both factions roll d20 + Fleet Strength in System + Supply + Manpower. Attacker commits Manpower equal to base damage (fleet strength only); Defender commits half of total damage to planet (including bonuses, rounded down). Highest total wins. If the defender used the Defend action, their roll gains +15. Winner returns 60% committed Manpower (rounded down), loser loses 100%. **All calculations use resource values after attack costs (scaled by world type) and Manpower commitments are deducted.**
 
@@ -1098,7 +1117,7 @@ All fleet strengths and locations unchanged. Korps three fleets at **5/5** in As
 | Planet | Type | Controller | Defense | Notes |
 |--------|------|------------|---------|-------|
 | Sühne | Capital | 41st Expeditionary Korps | 12/12 | Fortress world taken after eleven years of siege. Trench networks radiate from the old citadel across the ash plains, ringed by artillery in concentric emplacements. Tunnel systems run beneath the surface works, their extent known only to the Korps. The rebel curtain walls remain where they fell. |
-| Vantry | Standard (Station) | Hesperine Guard | 4/4 | Orbital defence platform and garrison station. Rotation schedules, munitions inventories, and watch rosters have been maintained without interruption for four decades. Approach lanes are covered by macrocannon batteries that track every hull entering the system. Current Supply 60, Manpower 60, derived from full defence; Independent Minor Faction resource ruling applies. |
+| Vantry | Standard (Station) | Hesperine Guard | 1/4 | Orbital defence platform and garrison station. Rotation schedules, munitions inventories, and watch rosters have been maintained without interruption for four decades. Approach lanes are covered by macrocannon batteries that track every hull entering the system. Cycle 10 Korps victory: defence 4/4 → 1/4. Korps holds extensive lodgements; Hesperine remains campaign controller until capture. Current Supply 15, Manpower 15 (60 × 1/4). No end-Cycle 10 recovery because attacked. |
 
 **In-System Fleets:**
 - 41st Expeditionary Korps: Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (5/5)
@@ -1300,7 +1319,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 
 | 9 | Expand Fleet: Imperium’s Eye 3/5 → 5/5 at Sühne, Supply 21 → 20. Reinforce to 23; Manpower 13. Grunwald and Wraith 5/5. No movement/combat/social/construction actions; turn complete. | Expand Fleet: Ember Carried Far 3/5 → 5/5 at Mont'au; Supply 17 → 16. Muster +4 Manpower: 12 → 16 (+1,280 combat personnel). Widening Circle 5/5; no movement/combat/social/construction actions; turn complete. | Star-Mother alone bombards Kelmar 2/2 → 1/2; Supply 23 → 21, zero Manpower committed. First Hunger expands 2/5 → 4/5, Supply 21 → 20. Muster Manpower 13 → 16. No social/construction actions; turn complete. | Cycle 9 complete; Kelmar damaged, no captures | Logistics applied: Korps 21/13, Viorla 17/12, Cerberus 23/13; first Forge income +5 Supply. Event check 6, table 2: Ambush! Active throughout Cycle 9. Closing resources Korps 23/13, Viorla 16/16, Cerberus 20/16. Kelmar 1/2, no recovery because attacked. |
 
-| 10 | Vantry Ground Assault pending player result: three 5/5 fleets, base damage 3. Supply 28 → 26; 3 Manpower committed, 15 available. Setup Harder 4/5, 2v1. Muster +3 queued; no social/construction action. | Awaiting turn | Awaiting turn | Waiting for player battle; do not advance | No Logistics. Ambush expired. Event check 6, table 4: War Fervor +5/+5 to Major Factions; Korps 28/18, Viorla 21/21, Cerberus 25/21. Kelmar 1/2, resources 20/20. |
+| 10 | Player victory at Vantry: 3 damage, 4/4 → 1/4; no capture. Supply 26. Manpower 15 available +1 returned +3 Muster =19. Three fleets 5/5; Hesperine fleet 4/5. No social/construction action; turn complete. | Awaiting turn | Awaiting turn | Korps victory; awaiting Viorla | War Fervor already awarded. Vantry resources now 15/15, no recovery this Cycle. Player reports Hellhound-led advances, extensive station lodgements and fortified supply routes. Map-size and allied eligibility rules recorded; no additional mechanical fleet damage. |
 
 ## Cycle Records
 
