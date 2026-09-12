@@ -1,8 +1,8 @@
 {
   "cycle": 14,
-  "phase": "Cycle 14 opening complete — awaiting 41st Expeditionary Korps",
+  "phase": "Cycle 14 — Korps turn complete; awaiting Vior’la Expedition",
   "event": "No event (Cycle 14 check: 5)",
-  "nextFaction": "41st Expeditionary Korps",
-  "updated": "Cycle 14 — Threnholt bombarded; opening complete",
-  "notes": "Korps 15 Supply/22 Manpower; Viorla 23/22; Cerberus 15/17. Threnholt 1/4, Directorate-held, 15/15 resources, no recovery. Halstrave captured by Viorla at 1/4. Vitae Womb Complex 2/5, Unbroken Line Cadre Academy 1/5, Assimilation Viscera 2/5; incomplete and inactive. Three eligible Independent fleets recover to 4/5; Forge strength now 14 versus Korps 10 in Anvarrus. All Fleet Actions unused, no Defended statuses or pending battles. Event check 5: no event. Next Logistics Cycle 15."
+  "nextFaction": "Vior’la Expedition",
+  "updated": "Cycle 14 — Korps repulsed at Thelk’s Rest",
+  "notes": "Korps 12 Supply/20 Manpower. Player defeat: 2 committed Manpower lost; Grinding Advance reduces Thelk’s Rest to 1/2, still Forge-held, resources 20/20. No capture or fleet losses. Forge 14 vs Korps 10 in Anvarrus; Grunwald and Wraith actions used, Imperium’s Eye unused in Aschenvald. Vitae Womb Complex 3/5 Integrity, incomplete. No recovery for attacked station or engaged Forge fleets this Cycle. Viorla 23/22, Cerberus 15/17 unchanged. No event or pending battle; await Viorla. Next Logistics Cycle 15."
 }
