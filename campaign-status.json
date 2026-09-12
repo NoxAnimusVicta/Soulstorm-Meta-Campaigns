@@ -1,8 +1,8 @@
 {
   "cycle": 17,
-  "phase": "Cycle 17 — Korps turn complete; awaiting Vior’la Expedition",
+  "phase": "Cycle 17 — Vior’la turn complete; awaiting Splinter Fleet Cerberus",
   "event": "Warp Storm (Cycle 17 check: 6; table: 1)",
-  "nextFaction": "Vior'la Expedition",
-  "updated": "Cycle 17 — Korps assault on Corvid resolved",
-  "notes": "Korps 4 Supply/22 Manpower; Viorla 17/25; Cerberus 14/26. Corvid 2/4 after defeat and Grinding Advance, Forge resources 30/30. Forge fleets remain 3/5 each, superiority 9 vs 8; no recovery this Cycle. Spear of Death expanded to 4/5. Grunwald, Wraith and Spear actions used; Eye 4/5 unused. Warp Storm prohibits movement. Vitae Womb active 5/5; Assimilation Viscera completed but damaged 4/5, inactive. No pending battles; next Logistics Cycle 18."
+  "nextFaction": "Splinter Fleet Cerberus",
+  "updated": "Cycle 17 — Vior’la Academy completed",
+  "notes": "Korps 4 Supply/22 Manpower; Viorla 14/25; Cerberus 14/26. Widening Circle and Ember restored 5/5 in Montau, actions used; Promise Kept remains destroyed. Cadre Academy complete and active 5/5, first +5 Manpower at Cycle 18. Forge Complex and Vitae Womb active. Assimilation Viscera completed but damaged 4/5, inactive. Corvid 2/4; Forge fleets 3/5 each, no recovery this Cycle. Warp Storm prohibits movement. No pending battles; awaiting Cerberus before rollover; next Logistics Cycle 18."
 }
