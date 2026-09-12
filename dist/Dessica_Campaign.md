@@ -182,7 +182,7 @@ Roll 1d6. On a 1 or 6, roll on the Event Table (Section 4). Otherwise, no event 
 
 ### Phase 2: Fleet Actions
 
-Each fleet may take ONE Fleet Action per turn. Different fleets can take different actions. A fleet that takes a Fleet Action cannot take another Fleet Action this turn.
+Each fleet may take **ONE Fleet Action per Cycle**, including actions taken during an allied faction's turn. Different fleets can take different actions. A fleet that takes a Fleet Action cannot take another Fleet Action this turn.
 
 #### Fleet Movement
 
@@ -202,7 +202,7 @@ Decommission this fleet and recover half its Fleet Strength as Supply (rounded d
 
 #### Attack
 
-Assault an enemy or neutral planet. Costs Supply based on world type (Minor -1, Standard -2, Major -3, Capital -4). Commit Manpower equal to base damage dealt. Damage dealt = 1 per 5 friendly Fleet Strength in system (minimum 1 if uncontested). **Uncontested Bombardment:** When no hostile fleets are present in-system, the attack automatically succeeds — no battle is fought. The attacker pays double Supply costs (Minor -2, Standard -4, Major -6, Capital -8) and commits no Manpower. Damage is applied directly. A planet cannot be reduced below 1 defence by Uncontested Bombardment — the final point of defence must be broken by a Ground Assault. **Ground Assault:** A full planetary assault engaging the planet's garrison directly. This can be launched whether or not hostile fleets are present in-system — you do not need to clear enemy fleets first. If hostile fleets ARE present, they contribute to the defender's strength in the battle. Difficulty and AI rolls are calculated after costs are paid and Manpower is committed.
+Assault an enemy or neutral planet. Costs Supply based on world type (Minor -1, Standard -2, Major -3, Capital -4). Commit Manpower equal to base damage dealt. Damage dealt = 1 per 5 participating friendly Fleet Strength (minimum 1 if uncontested). **Uncontested Bombardment:** When no hostile fleets are present in-system, the attack automatically succeeds — no battle is fought. The attacker pays double Supply costs (Minor -2, Standard -4, Major -6, Capital -8) and commits no Manpower. Damage is applied directly. A planet cannot be reduced below 1 defence by Uncontested Bombardment — the final point of defence must be broken by a Ground Assault. **Ground Assault:** A full planetary assault engaging the planet's garrison directly. This can be launched whether or not hostile fleets are present in-system — you do not need to clear enemy fleets first. If hostile fleets ARE present, they contribute to the defender's strength in the battle. Difficulty and AI rolls are calculated after costs are paid and Manpower is committed.
 
 **Attack Participation:** All friendly fleets in-system that wish to contribute their strength to an Attack must use their Fleet Action for that battle. Fleets that do not participate keep their Fleet Action for other purposes but do not add their strength to the damage calculation. Multiple fleets combining for a single Attack pool their Fleet Strength for calculating damage dealt.
 
@@ -528,9 +528,9 @@ Continue pattern: reduce both sides equally until largest side is 4, maintaining
 
 For example, **two attacking factions versus one defending faction use a 4-player map with one slot closed**, not a 3-player map. This keeps the map capacity consistent for the larger force instead of shrinking it to match an outnumbered opponent. Agreed during preparation for the Cycle 10 Vantry player battle; applies to that battle and future battles.
 
-### Fleet Strength in System (Friendly Fleets)
+### Participating Fleet Strength (Friendly Fleets)
 
-Calculate total Fleet Strength of all your fleets and allied fleets (same Alignment) in-system.
+For a Ground Assault, calculate total Fleet Strength only from your fleets and approved allied fleets **actually participating in that battle**. Fleets merely present in-system grant no ground-battle faction slots, damage or combat-roll strength. They still count for void superiority.
 
 | Fleet Strength | Modifier |
 |----------------|----------|
@@ -541,9 +541,19 @@ Calculate total Fleet Strength of all your fleets and allied fleets (same Alignm
 | 20-24 | +4 Allied Factions |
 | 25+ | +5 Allied Factions |
 
+#### Fleet Action Availability and Ground Assault Commitment
+
+**One action per fleet per Cycle:** A fleet may act on its owner's turn or, with its owner's approval, join an ally's assault on that ally's turn. Either use consumes the same single Fleet Action. A fleet that already moved, expanded, fought or otherwise acted this Cycle cannot participate in a later allied assault. Acting for an ally also prevents acting again on its owner's turn. For example, moving into an ally's system on your turn prevents that fleet joining the ally's assault later in the same Cycle. Mobile Capitals follow the same Fleet Action limit. Reset availability at the next Cycle; track the action used for each fleet.
+
+**Choose participants before paying costs.** Ground Assault base damage is **floor(total participating Fleet Strength / 5), minimum 1**. The attacker must commit Manpower equal to that full base damage, even when the target has fewer defence points remaining. You cannot undercommit Manpower while retaining the strength, damage or additional faction slots of more fleets. Construction damage bonuses do not increase this base commitment.
+
+Three participating 5/5 fleets mean **15 strength, 3 base damage and 3 Manpower committed**, even against 1 remaining defence. One participating 5/5 fleet means **5 strength, 1 base damage and 1 Manpower**, with only its own strength contributing to allied slot bonuses. Other fleets retain unused actions and contribute only to void superiority until assigned an action.
+
+These clarified participation rules apply prospectively from the Cycle 10 ruling. Previously resolved battles stand. Independent defensive fleet support continues under the Independent rules; this allied action-sharing rule does not create Independent turns or orders.
+
 #### Allied Battle Faction Eligibility
 
-Extra allied slots in a Soulstorm battle may represent another campaign faction **only if that allied faction has a fleet in the system**. For an attack, its fleet must participate and use its Fleet Action under the normal participation rules. An allied alignment alone does not permit calling in an absent faction.
+Extra allied slots in a Soulstorm battle may represent another campaign faction **only if that allied faction has a fleet in the system**. For an attack, its fleet must participate with its owner’s explicit approval and spend its one Fleet Action for that Cycle. Approval must be relayed to the referee; do not invent allied consent. An allied alignment alone does not permit calling in an absent faction.
 
 When all contributing fleets belong to the same campaign faction, fill any additional allied battle slots with **duplicate formations of that faction**. These slots represent its own forces fighting together; they do not introduce a new campaign faction, grant extra resources or fleets, or constitute the Summon Allies Faction Action. Eligibility determines who may fill the calculated slots, not additional slot bonuses.
 
@@ -1100,6 +1110,14 @@ Reinforce with The Provisioned Advance: **Supply 21 → 25**, Manpower **21**. N
 
 **Vior'la turn complete. Next: Splinter Fleet Cerberus, Cycle 10.** No pending battles. Rollover follows Cerberus's resolved turn; next Logistics Cycle 12.
 
+### Cycle 10 fleet actions used
+
+| Faction | Asset | Action status |
+|---|---|---|
+| 41st Expeditionary Korps | Grunwald; Wraith of Krieg; Imperium’s Eye | All used: Vantry Ground Assault |
+| Vior'la Expedition | Widening Circle; Ember Carried Far | Both used: Fleet Battle against Accord Levy Squadron |
+| Splinter Fleet Cerberus | First Hunger; Star-Mother | Both unused; awaiting Cerberus turn |
+
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
@@ -1107,10 +1125,10 @@ Reinforce with The Provisioned Advance: **Supply 21 → 25**, Manpower **21**. N
 | Fleets | Transit Command Grunwald (5/5), Wraith of Krieg (5/5), Imperium’s Eye (5/5) — Aschenvald | The Widening Circle (4/5), The Ember Carried Far (5/5) — Mont'au | The First Hunger (4/5) — Threnholt |
 | Supplies (1-100) | 26 | 25 | 25 |
 | Manpower (1-100) | 19 | 21 | 21 |
-| Planets Controlled | Sühne | Mont'au | None (Mobile Capital) |
+| Planets Controlled | Sühne | Mont'au | The Star-Mother — Mobile Capital, 11/12 defence; Threnholt; not Defended; built-in Orbital Shipyard; +4 Supply/+4 Manpower per Logistics; exempt from fleet maintenance |
 | Constructions | — | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 actions; completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 | — |
 
-**AI vs AI Ground Battle Resolution:** Both factions roll d20 + Fleet Strength in System + Supply + Manpower. Attacker commits Manpower equal to base damage (fleet strength only); Defender commits half of total damage to planet (including bonuses, rounded down). Highest total wins. If the defender used the Defend action, their roll gains +15. Winner returns 60% committed Manpower (rounded down), loser loses 100%. **All calculations use resource values after attack costs (scaled by world type) and Manpower commitments are deducted.**
+**AI vs AI Ground Battle Resolution:** Both factions roll d20 + participating Fleet Strength + Supply + Manpower. Attacker commits Manpower equal to base damage (fleet strength only); Defender commits half of total damage to planet (including bonuses, rounded down). Highest total wins. If the defender used the Defend action, their roll gains +15. Winner returns 60% committed Manpower (rounded down), loser loses 100%. **All calculations use resource values after attack costs (scaled by world type) and Manpower commitments are deducted.**
 
 ---
 
