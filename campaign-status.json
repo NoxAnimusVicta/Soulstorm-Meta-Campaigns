@@ -3,6 +3,6 @@
   "phase": "Cycle 20 opening complete — awaiting 41st Expeditionary Korps",
   "event": "Third Party Raid (Cycle 20 check: 1; table: 5)",
   "nextFaction": "41st Expeditionary Korps",
-  "updated": "Cycle 20 — Third Party Raid active",
-  "notes": "Korps 4 Supply/24 Manpower; Viorla 10/28; Cerberus 13/21. Cerberus won 35–12, destroying both Kabal fleets; First Hunger 4/5, Star-Mother 12/12 undamaged in Vashenne, superiority 16 vs 0. Kabal holdings intact. Corvid recovered to 2/4 (30/30); Forge fleet strength 10 ties Korps 10. Vigil, Merrow and Sest recovered one each. All actions reset, no Defended statuses. Third Party Raid applies to ground battles; identity/setup pending a battle declaration. No pending battle or Logistics; next Cycle 21."
+  "updated": "Cycle 20 — deficit recovery rules revised",
+  "notes": "Korps 4 Supply/24 Manpower; Viorla 10/28; Cerberus 13/21. Cerberus won 35–12, destroying both Kabal fleets; First Hunger 4/5, Star-Mother 12/12 undamaged in Vashenne, superiority 16 vs 0. Kabal holdings intact. Corvid recovered to 2/4 (30/30); Forge fleet strength 10 ties Korps 10. Vigil, Merrow and Sest recovered one each. All actions reset, no Defended statuses. Third Party Raid applies to ground battles; identity/setup pending a battle declaration. No pending battle or Logistics; next Cycle 21. Deficit rule revised: separate three-action recovery tracks restore each locked resource to 10. No faction currently in deficit."
 }
