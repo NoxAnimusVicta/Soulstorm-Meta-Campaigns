@@ -1,8 +1,8 @@
 {
   "cycle": 18,
-  "phase": "Cycle 18 — Korps turn complete; awaiting Vior’la Expedition",
+  "phase": "Cycle 18 — Vior’la turn complete; awaiting Splinter Fleet Cerberus",
   "event": "No event (Cycle 18 check: 5)",
-  "nextFaction": "Vior'la Expedition",
-  "updated": "Cycle 18 — Corvid reduced to final defence",
-  "notes": "Korps 6 Supply/29 Manpower; Viorla 23/34; Cerberus 18/28. Corvid 1/4 after defeat and Grinding Advance; Forge resources 15/15. Forge fleets 3/5 each, superiority 9 vs 8; no recovery this Cycle. Eye and Spear restored to 5/5 at Aschenvald; Grunwald and Wraith 4/5 in Anvarrus. All Korps fleet actions used. All constructions active. Star-Mother Defended until Cerberus turn. No pending battles; Logistics already applied, no event; next Logistics Cycle 21."
+  "nextFaction": "Splinter Fleet Cerberus",
+  "updated": "Cycle 18 — Trialwatch Interception Lattice begun",
+  "notes": "Korps 6 Supply/29 Manpower; Viorla 17/33; Cerberus 18/28. Returning Dawn commissioned 1/5 at Montau, no action; Widening Circle and Ember 5/5 unused. Trialwatch Interception Lattice, system-based Minor Defence Platform, 1/3 Integrity, incomplete and inactive. Existing constructions active. Corvid 1/4, Forge resources 15/15, no recovery this Cycle. Star-Mother Defended until Cerberus turn. No pending battles; awaiting Cerberus before rollover; next Logistics Cycle 21."
 }
