@@ -1,8 +1,8 @@
 {
   "cycle": 19,
-  "phase": "Cycle 19 — Korps turn complete; awaiting Vior’la Expedition",
+  "phase": "Cycle 19 — Vior’la turn complete; awaiting Splinter Fleet Cerberus",
   "event": "Supply Crisis (Cycle 19 check: 1; table: 3)",
-  "nextFaction": "Vior'la Expedition",
-  "updated": "Cycle 19 — Korps fleet rotation complete",
-  "notes": "Korps 4 Supply/24 Manpower; Viorla 12/28; Cerberus 10/21. Eye and Spear 5/5 in Anvarrus, Korps void superiority 10 vs Forge 9. Grunwald and Wraith 4/5 in Aschenvald. All four Korps Fleet Actions used; no repairs or battle this turn. Corvid remains Forge-held 1/4. Star-Mother and First Hunger in Vashenne; Threnholt Defended until Cerberus turn. No pending battles; Supply Crisis already applied; next Logistics Cycle 21."
+  "nextFaction": "Splinter Fleet Cerberus",
+  "updated": "Cycle 19 — Trialwatch Lattice advanced",
+  "notes": "Korps 4 Supply/24 Manpower; Viorla 10/28; Cerberus 10/21. Returning Dawn 3/5 in Montau, action used; Widening Circle and Ember 5/5 unused. Trialwatch Lattice 2/3 Integrity, incomplete and inactive; existing constructions active. Korps fleets rotated, all actions used. Corvid 1/4; no battle this Cycle yet. Star-Mother and First Hunger in Vashenne; Threnholt Defended until Cerberus turn. No pending battles; awaiting Cerberus before rollover; next Logistics Cycle 21."
 }
