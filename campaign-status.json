@@ -1,8 +1,8 @@
 {
-  "cycle": 19,
-  "phase": "Cycle 19 — Vior’la turn complete; awaiting Splinter Fleet Cerberus",
-  "event": "Supply Crisis (Cycle 19 check: 1; table: 3)",
-  "nextFaction": "Splinter Fleet Cerberus",
-  "updated": "Cycle 19 — Trialwatch Lattice advanced",
-  "notes": "Korps 4 Supply/24 Manpower; Viorla 10/28; Cerberus 10/21. Returning Dawn 3/5 in Montau, action used; Widening Circle and Ember 5/5 unused. Trialwatch Lattice 2/3 Integrity, incomplete and inactive; existing constructions active. Korps fleets rotated, all actions used. Corvid 1/4; no battle this Cycle yet. Star-Mother and First Hunger in Vashenne; Threnholt Defended until Cerberus turn. No pending battles; awaiting Cerberus before rollover; next Logistics Cycle 21."
+  "cycle": 20,
+  "phase": "Cycle 20 opening complete — awaiting 41st Expeditionary Korps",
+  "event": "Third Party Raid (Cycle 20 check: 1; table: 5)",
+  "nextFaction": "41st Expeditionary Korps",
+  "updated": "Cycle 20 — Third Party Raid active",
+  "notes": "Korps 4 Supply/24 Manpower; Viorla 10/28; Cerberus 13/21. Cerberus won 35–12, destroying both Kabal fleets; First Hunger 4/5, Star-Mother 12/12 undamaged in Vashenne, superiority 16 vs 0. Kabal holdings intact. Corvid recovered to 2/4 (30/30); Forge fleet strength 10 ties Korps 10. Vigil, Merrow and Sest recovered one each. All actions reset, no Defended statuses. Third Party Raid applies to ground battles; identity/setup pending a battle declaration. No pending battle or Logistics; next Cycle 21."
 }
