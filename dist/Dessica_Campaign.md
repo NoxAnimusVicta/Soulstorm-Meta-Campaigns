@@ -151,7 +151,7 @@ A faction with the [Mobile Capital] trait uses a mobile fortress — a Craftworl
 
 ## SECTION 2: TURN STRUCTURE
 
-**Resource Requirements:** A faction cannot voluntarily take any action that would reduce their Supply or Manpower below 0. If an action requires more resources than the faction possesses, that action cannot be taken. Deficits only occur from involuntary losses (Logistics maintenance, battle outcomes, Planet Fall, fleet destruction, etc.).
+**Resource Requirements:** A faction cannot voluntarily take any action that would reduce their Supply or Manpower below 0. If an action requires more resources than the faction possesses, that action cannot be taken. Reaching exactly 0 through an affordable voluntary action also triggers a deficit. Involuntary losses can trigger a deficit at 0 or below; record the affected resource as 0 and apply the recovery rules.
 
 Each turn represents one battle. Follow these phases in order:
 
@@ -243,11 +243,11 @@ Fortify a Planet or repair a Construction you control. **Planet:** Costs Supply 
 
 #### Reinforce
 
-+3 Supply (max 100).
++3 Supply (max 100). Unavailable while a deficit requires the compulsory Emergency Rationing Faction Action.
 
 #### Muster
 
-+3 Manpower (max 100).
++3 Manpower (max 100). Unavailable while a deficit requires the compulsory Emergency Rationing Faction Action.
 
 #### Create Fleet
 
@@ -717,30 +717,25 @@ Fleet Strength in system still counts for all Independent fleets present, but gr
 
 ### Resource Deficits
 
-**General Rules:**
-- Supply and Manpower cannot go below 0
-- Deficits cannot be triggered by voluntary actions but can occur from involuntary penalties (Logistics maintenance, battle losses, Planet Fall, fleet destruction, etc.)
+**Agreed Cycle 20 rule revision — applies prospectively.** Supply and Manpower have separate deficit and recovery tracks. Whenever either resource reaches **0 or below**, including through an affordable voluntary action, immediately trigger its deficit and record it as **0**. Voluntary actions that cost more than available resources remain prohibited. Past turns are not recalculated. No faction currently has an active deficit.
 
-**Supply Deficit:**
+**Resource lock:** While a track is active, its resource stays at 0 and cannot be spent. Ignore all income, gains and losses to that resource, including Logistics, events, returns and other effects; nothing is banked or deferred. The other resource continues to gain and lose normally unless it has its own active track. Further losses cannot restart, extend or retrigger an already active track. This immunity concerns resource changes only, not direct fleet, holding or construction damage.
 
-When a Supply Deficit occurs:
-- All fleets -1 Fleet Strength (fleets at 1/5 are destroyed)
-- The faction's next turn is locked into **Emergency Rationing** (no other action may be taken)
-- Emergency Rationing returns Supply to 25
+**Emergency Rationing — compulsory Faction Action:** While either track is active, the faction must spend its Faction Action on Emergency Rationing for one active resource. This replaces Reinforce for a Supply deficit and Muster for a Manpower deficit; neither ordinary action can bypass the recovery requirement. Each Emergency Rationing action advances the selected track by one, costs no resources, and gives no immediate income. After **three actions assigned to that track**, end its lock and restore that resource to **exactly 10 total**, not +10 per action. Recovery counts actions, not elapsed Cycles.
 
-**Manpower Deficit:**
+If a deficit begins after the Faction Action has already been used, the compulsory action starts next turn. If it begins before that phase, the next available Faction Action must be Emergency Rationing. Other phases remain available subject to their normal rules and affordable costs using unlocked resources. Completion releases the resource immediately for subsequent phases; income ignored earlier is not awarded retroactively.
 
-When a faction reaches 0 Manpower (from any source), Manpower Deficit occurs:
-- If currently being attacked, the defender must choose Forced Conscription OR Isolated Defense for this battle only (see below)
-- All fleets suffer -1 Fleet Strength (fleets cannot be destroyed by Manpower Deficit — minimum 1/5)
-- The faction's next turn is locked into **Emergency Muster** (no other action may be taken)
-- Emergency Muster returns Manpower to 25
+**Overlapping tracks:** Track Supply and Manpower separately, each at 0/3, 1/3 or 2/3 recovery actions. With both active, the faction chooses which one to advance each turn; one Faction Action cannot advance both. The unselected track retains its progress. Both tracks require six actions in total. Once a resource has recovered, normal gains and losses resume and a later fall to 0 can start a new deficit for it.
 
-*Forced Conscription:* Strip Defense from fully defended planets elsewhere (1 Defense = 1 Manpower required). Battle proceeds normally with standard 60%/100% Manpower return rules.
+**One-time fleet degradation on entry:**
+- Supply deficit: all fleets lose 1 Fleet Strength; fleets at 1/5 are destroyed.
+- Manpower deficit: all fleets lose 1 Fleet Strength, minimum 1/5; this degradation alone cannot destroy a fleet.
+- Apply each loss once when that resource’s new deficit begins, never once per recovery action or further ignored penalty. Existing mobile-capital and attached-construction damage rules still apply where relevant.
+- If both trigger together, resolve Supply first, then Manpower. A fleet-destruction Manpower loss can trigger the separate Manpower track if it is not already locked. Starting both tracks does not merge their recovery.
 
-*Isolated Defense:* The planet defends alone with local garrison. AI vs AI: Defender roll suffers -15 penalty. Player defending in Soulstorm: +2 Difficulty. If attacker wins: Normal damage dealt, defender loses 0 Manpower (none committed). If attacker loses: Attacker returns 60% Manpower (loses only 40% — isolated garrison cannot pursue).
+**Defending during a Manpower deficit:** Retain the existing battle options: Forced Conscription or Isolated Defense. Forced Conscription strips defence from fully defended planets elsewhere, one defence per required Manpower, providing that battle’s commitment only; it does not replenish or unlock the resource pool or advance recovery. Isolated Defense uses the local garrison: AI defender −15 to roll; player defender +2 difficulty. If the attacker wins, apply normal damage and no defender Manpower commitment; if the attacker loses, it returns 60% of its commitment. Any return to a resource currently locked by a deficit is ignored. Normal caps and rounding apply.
 
-**Cascade Deficits:** If multiple Deficits occur simultaneously (e.g., Supply Deficit destroys fleets, causing Manpower loss that triggers Manpower Deficit), resolve them in order: Supply Deficit first, then Manpower Deficit. The faction is locked into Emergency Rationing (the first deficit's recovery action). The Manpower Deficit's fleet damage still occurs, but the faction does not need to take Emergency Muster afterward — Emergency Rationing handles both.
+**Example:** Supply recovery is at 1/3 and Manpower is 2. A Supply Crisis ignores its Supply loss, leaving that track at 1/3, but its −5 Manpower triggers a new Manpower deficit at 0/3. Apply Manpower degradation once. The faction chooses which track its next compulsory Emergency Rationing action advances. Each resource stays at 0 until its own third action restores it to 10.
 
 ---
 
@@ -1528,6 +1523,10 @@ Forge did not fight this Cycle: Omnissian Vigil recovers 3/5 → 4/5 (one point 
 No Logistics in Cycle 20; next Cycle 21. Python secrets event check **1**, table **5 — Third Party Raid**. If a ground battle occurs this Cycle, add a random hostile faction under the event rules; its identity and battle setup must be determined when a ground battle is declared. No raid battle, capture or outcome is invented now. All Fleet Actions reset; movement allowed. No Defended status remains.
 
 **Cycle 20 opening: Korps 4 Supply/24 Manpower; Vior’la 10/28; Cerberus 13/21. Next: 41st Expeditionary Korps. No pending battle.**
+
+### Cycle 20 ruling — separate Emergency Rationing tracks
+
+At the user’s direction, deficits now lock only the affected resource at 0, ignoring its income and penalties, until three compulsory Faction Actions assigned to its track restore it to 10. Supply and Manpower tracks are separate; the faction chooses which to advance when both are active. Fleet degradation occurs once per new deficit. Other phases remain available under normal cost restrictions. This replaces the former single-action recovery to 25 and merged cascade recovery. No current resources, assets, actions, event or Cycle change; no current deficits.
 
 ### Resource Tracker
 
