@@ -1,8 +1,8 @@
 {
   "cycle": 19,
-  "phase": "Cycle 19 opening complete — awaiting 41st Expeditionary Korps",
+  "phase": "Cycle 19 — Korps turn complete; awaiting Vior’la Expedition",
   "event": "Supply Crisis (Cycle 19 check: 1; table: 3)",
-  "nextFaction": "41st Expeditionary Korps",
-  "updated": "Cycle 19 — Supply Crisis applied",
-  "notes": "Korps 1 Supply/24 Manpower; Viorla 12/28; Cerberus 10/21. Supply Crisis -5/-5 applied to Majors, no deficits. Star-Mother 12/12 and First Hunger 5/5 in Vashenne, void superiority 17 vs Kabal 8; Second Hunger 5/5 in Threnholt. Threnholt 3/4 Defended until Cerberus turn; Star-Mother not Defended. Six eligible Independent fleets recovered; Forge excluded, Corvid 1/4. Trialwatch Lattice 1/3 incomplete, other constructions active. Fleet Actions reset; no pending battles. No Logistics; next Cycle 21."
+  "nextFaction": "Vior'la Expedition",
+  "updated": "Cycle 19 — Korps fleet rotation complete",
+  "notes": "Korps 4 Supply/24 Manpower; Viorla 12/28; Cerberus 10/21. Eye and Spear 5/5 in Anvarrus, Korps void superiority 10 vs Forge 9. Grunwald and Wraith 4/5 in Aschenvald. All four Korps Fleet Actions used; no repairs or battle this turn. Corvid remains Forge-held 1/4. Star-Mother and First Hunger in Vashenne; Threnholt Defended until Cerberus turn. No pending battles; Supply Crisis already applied; next Logistics Cycle 21."
 }
