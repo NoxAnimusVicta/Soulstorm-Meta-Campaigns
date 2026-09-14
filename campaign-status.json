@@ -1,8 +1,8 @@
 {
   "cycle": 20,
-  "phase": "Cycle 20 — Korps turn complete; awaiting Vior’la Expedition",
+  "phase": "Cycle 20 — Vior’la turn complete; awaiting Splinter Fleet Cerberus",
   "event": "Third Party Raid (Cycle 20 check: 1; table: 5)",
-  "nextFaction": "Vior'la Expedition",
-  "updated": "Cycle 20 — Corvid battle and raid resolved",
-  "notes": "Korps 5 Supply/22 Manpower; Viorla 10/28; Cerberus 13/21. Forge defeated Korps and annihilated Iron Warriors raiders. Corvid 1/4 after Grinding Advance, resources 15/15; no recovery for Corvid or Forge fleets this Cycle. Eye and Spear 5/5 actions used; Grunwald and Wraith 4/5 unused. Anvarrus strength tied 10 vs 10. No fleet damage, capture, pending battle or deficit. Raid cannot capture territory; maps must preserve every formation. Third Party Raid remains active; next Logistics Cycle 21."
+  "nextFaction": "Splinter Fleet Cerberus",
+  "updated": "Cycle 20 — Trialwatch Lattice completed",
+  "notes": "Korps 5 Supply/22 Manpower; Viorla 8/28; Cerberus 13/21. All three Viorla fleets 5/5 in Montau; Returning Dawn action used, Widening Circle and Ember unused. Trialwatch Lattice complete and active 3/3, +5 to defensive Fleet Battle rolls; other constructions active. Corvid 1/4 after Korps defeat; no recovery for Corvid or Forge fleets this Cycle. Third Party Raid remains active; Corvid raid resolved. No pending battles; awaiting Cerberus before rollover; next Logistics Cycle 21."
 }
