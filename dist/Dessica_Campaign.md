@@ -1542,15 +1542,21 @@ Reinforce grants 3 Supply (2 → 5). Grunwald and Wraith remain 4/5 in Aschenval
 
 **Korps turn complete: 5 Supply /22 Manpower. Next: Vior’la Expedition, Cycle 20.** No pending battle or deficit. Third Party Raid remains the Cycle event; the Corvid encounter is resolved. Map-capacity and raid no-capture clarifications recorded in their rule sections.
 
+### Cycle 20 — Vior’la completes the Trialwatch Interception Lattice
+
+Widening Circle and Ember remain 5/5 in Mont’au, Fleet Actions unused. Returning Dawn expands 3/5 → 5/5 at Mont’au’s built-in Orbital Shipyard for 1 Supply (10 → 9); Fleet Action used. Reinforce through The Provisioned Advance grants 4 Supply (9 → 13). Build costs 5 Supply (13 → 8), completing Trialwatch Interception Lattice — system-based Minor Defence Platform — at 3/3 Integrity and construction progress. Active: +5 to defender roll in Fleet Battles while at full Integrity. This bonus does not add Fleet Strength or affect void-superiority totals. Mont’au strength is 15 vs 0. Existing Forge Complex and Cadre Academy remain active. No Social Action, battle or dice required.
+
+**Vior’la turn complete: 8 Supply /28 Manpower. Next: Splinter Fleet Cerberus, Cycle 20.** No pending battle or rollover; Third Party Raid remains active. Next Logistics Cycle 21.
+
 ### Resource Tracker
 
 | Resource | 41st Expeditionary Korps | Vior'la Expedition | Splinter Fleet Cerberus |
 |----------|--------------------------|--------------------|-------------------------|
-| Fleets | Transit Command Grunwald (4/5), Wraith of Krieg (4/5) — Aschenvald; Imperium’s Eye (5/5), The Spear of Death (5/5) — Anvarrus | The Widening Circle (5/5), The Ember Carried Far (5/5), The Returning Dawn (3/5) — Mont'au | The First Hunger (4/5) — Vashenne; The Second Hunger (5/5) — Threnholt |
-| Supplies (1-100) | 5 | 10 | 13 |
+| Fleets | Transit Command Grunwald (4/5), Wraith of Krieg (4/5) — Aschenvald; Imperium’s Eye (5/5), The Spear of Death (5/5) — Anvarrus | The Widening Circle (5/5), The Ember Carried Far (5/5), The Returning Dawn (5/5) — Mont'au | The First Hunger (4/5) — Vashenne; The Second Hunger (5/5) — Threnholt |
+| Supplies (1-100) | 5 | 8 | 13 |
 | Manpower (1-100) | 22 | 28 | 21 |
 | Planets Controlled | Sühne; Vantry — Standard Void Station, 3/4 defence, not Defended; +2 Supply/+2 Manpower per Logistics from Cycle 12; Thelk’s Rest — Minor Station, Anvarrus, 2/2 defence, not Defended; +1/+1 Logistics from Cycle 18 | Mont'au; Halstrave — Standard world, 4/4 defence, not Defended, +2/+2 Logistics from Cycle 15 | The Star-Mother — Mobile Capital, 12/12 defence; Vashenne; not Defended; built-in Orbital Shipyard; +4 Supply/+4 Manpower per Logistics; exempt from fleet maintenance; Kelmar — Minor world, 1/2 defence, Threnholt; +1 Supply/+1 Manpower per Logistics from Cycle 12; Ossvarn — Minor world, 1/2 defence, Threnholt; +1/+1 Logistics from Cycle 15; Threnholt — Standard world, 3/4 defence, not Defended; +2/+2 Logistics from Cycle 15 |
-| Constructions | The Vitae Womb Complex — Major Military Academy, Sühne, 5/5 Integrity (complete, active); completed Cycle 16; +5 Manpower per Logistics from Cycle 18 while at full Integrity | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 Integrity (complete, active); completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 • The Unbroken Line Cadre Academy — Major Military Academy, Mont'au, 5/5 Integrity (complete, active); completed Cycle 17; +5 Manpower per Logistics from Cycle 18 while at full Integrity • Trialwatch Interception Lattice — Minor Defence Platform, Mont'au system, 2/3 Integrity (under construction); begun Cycle 18; +5 to defender roll in Fleet Battles only when completed at full Integrity | Assimilation Viscera — Major Forge Complex, Star-Mother (Vashenne), 5/5 Integrity (complete, active); repaired Cycle 17; +5 Supply per Logistics from Cycle 18 while at full Integrity |
+| Constructions | The Vitae Womb Complex — Major Military Academy, Sühne, 5/5 Integrity (complete, active); completed Cycle 16; +5 Manpower per Logistics from Cycle 18 while at full Integrity | Trial’s End Fabrication Array — Major Forge Complex, Mont'au, 5/5 Integrity (complete, active); completed Cycle 6; +5 Supply per Logistics Cycle from Cycle 9 • The Unbroken Line Cadre Academy — Major Military Academy, Mont'au, 5/5 Integrity (complete, active); completed Cycle 17; +5 Manpower per Logistics from Cycle 18 while at full Integrity • Trialwatch Interception Lattice — Minor Defence Platform, Mont'au system, 3/3 Integrity (complete, active); completed Cycle 20; +5 to defender roll in Fleet Battles while at full Integrity | Assimilation Viscera — Major Forge Complex, Star-Mother (Vashenne), 5/5 Integrity (complete, active); repaired Cycle 17; +5 Supply per Logistics from Cycle 18 while at full Integrity |
 
 **AI vs AI Ground Battle Resolution:** Both factions roll d20 + participating Fleet Strength + Supply + Manpower. Attacker commits Manpower equal to base damage (fleet strength only); Defender commits half of total damage to planet (including bonuses, rounded down). Highest total wins. If the defender used the Defend action, their roll gains +15. Winner returns 60% committed Manpower (rounded down), loser loses 100%. **All calculations use resource values after attack costs (scaled by world type) and Manpower commitments are deducted.**
 
@@ -1577,7 +1583,7 @@ Reinforce grants 3 Supply (2 → 5). Grunwald and Wraith remain 4/5 in Aschenval
 
 ### Mont'au System (Vior'la Expedition)
 
-**Void Superiority:** Vior'la Expedition: 13 vs hostile fleets: 0 — Vior'la Expedition
+**Void Superiority:** Vior'la Expedition: 15 vs hostile fleets: 0 — Vior'la Expedition
 
 *The primary dome went up in the second year; the processors began cycling atmosphere in the fourth. Halstrave returns every envoy the Expedition sends — alive, gifts intact, each carrying a written statement of the terms under which the six houses will discuss the future of the system. The terms have not been revised in thirty years. Shas'o Mont'yr keeps every copy.*
 
@@ -1587,12 +1593,12 @@ Reinforce grants 3 Supply (2 → 5). Grunwald and Wraith remain 4/5 in Aschenval
 | Halstrave | Standard | Vior'la Expedition | 4/4 | Hive world. Six noble houses occupy a single fortified spire-cluster, their household levies quartered in shared barracks along the lower tiers. Muster rolls run to eight figures. The approach lanes are ranged by house artillery. Cycle 11 Ember Carried Far bombardment: 4/4 → 3/4. Cycle 12 separate bombardments by Widening Circle and Ember: 3/4 → 2/4 → 1/4. Cycle 13: Widening Circle ground assault wins 61–44, captures world at 1/4; Vennick eliminated. No Independent resource pool. +2/+2 Logistics from Cycle 15 if retained; Cycle 14 Defend restored 1/4 → 3/4; Cycle 15 Defend restored 3/4 → 4/4 for 2 Supply/2 Manpower; Defended expired at start of Vior’la Cycle 16 turn; currently not Defended; no automatic repair. |
 
 **In-System Fleets:**
-- Vior'la Expedition: The Widening Circle (5/5), The Ember Carried Far (5/5), The Returning Dawn (3/5), The Promise Kept — destroyed by Cycle 17 Warp Storm
+- Vior'la Expedition: The Widening Circle (5/5), The Ember Carried Far (5/5), The Returning Dawn (5/5), The Promise Kept — destroyed by Cycle 17 Warp Storm
 - Vennick Accord: no surviving fleet. Accord Levy Squadron destroyed in Cycle 10 Fleet Battle (Viorla 25 vs Vennick 9, margin 16).
 
 **Construction progress:** Trial’s End Fabrication Array — Major Forge Complex, owned by Vior'la Expedition on Mont'au. **Completed Cycle 6: 5/5 actions**, 25 Supply spent in total. Build actions in Cycles 1, 2, 3, 5 and 6; none in Cycle 4. Effect: **+5 Supply per Logistics Cycle**. First scheduled income **Cycle 9**, provided retained and operational; no retroactive Cycle 6 income because opening Logistics preceded completion. Major construction capture/destruction and damage rules apply.
 
-**System Constructions:** Trialwatch Interception Lattice — Minor Defence Platform, Vior’la-controlled, 2/3 Integrity and construction progress; advanced Cycle 19. Incomplete and inactive. When completed at full Integrity: +5 to defender roll in Fleet Battles.
+**System Constructions:** Trialwatch Interception Lattice — Minor Defence Platform, Vior’la-controlled, 3/3 Integrity, completed Cycle 20 and active. +5 to defender roll in Fleet Battles while at full Integrity.
 
 ---
 
@@ -1787,7 +1793,7 @@ Mobile Assets are fleet-based capitals or moveable planet-equivalents such as Ae
 | 17 | Player defeat at Corvid; Grinding Advance 3/4 → 2/4. Commit and lose 1 Manpower. Spear expands 2/5 → 4/5; Reinforce +3. Final 4 Supply/22 Manpower; turn complete. | Expand both fleets 4/5 → 5/5 for 2 Supply; Reinforce +4; complete Cadre Academy 5/5 for 5 Supply. Final 14 Supply/25 Manpower; turn complete. | Expand First Hunger to 5/5 and Second to 4/5; Defend Star-Mother to 12/12; Repair Assimilation Viscera to 5/5 active. Final 7 Supply/22 Manpower. | Cycle 17 complete | Warp Storm expired; six eligible Independent factions recover one fleet strength each; Forge excluded for combat. |
 | 18 | Player defeat at Corvid; Grinding Advance 2/4 → 1/4. Lose 1 committed Manpower. Eye and Spear expand to 5/5; Reinforce +3. Final 6 Supply/29 Manpower; all fleet actions used. | Create Returning Dawn 1/5 for 1 Supply/1 Manpower; begin Trialwatch Interception Lattice, Minor Defence Platform, 1/3 for 5 Supply. Final 17 Supply/33 Manpower; turn complete. | Expand Second Hunger to 5/5 before departure; move Star-Mother and First Hunger to Vashenne. Defend Threnholt to 3/4. Final 15 Supply/26 Manpower; turn complete. | Cycle 18 complete | Logistics applied; event check 5, no event. Six Independent recovery points; Forge excluded. |
 | 19 | Rotate Eye/Spear 5/5 to Anvarrus and Grunwald/Wraith 4/5 to Aschenvald; all Fleet Actions used. Reinforce +3. Final 4 Supply/24 Manpower. | Expand Returning Dawn 1/5 → 3/5 for 1 Supply; Reinforce +4; Build Lattice 1/3 → 2/3 for 5 Supply. Final 10 Supply/28 Manpower; turn complete. | Fleet Battle victory 35 vs 12 destroys both Kabal fleets. First Hunger initiation 5/5 → 4/5; Star-Mother undamaged. Reinforce +3, no repair needed. Final 13 Supply/21 Manpower. | Cycle 19 complete | Supply Crisis applied; end-Cycle Forge, Havren and Talgrave fleet recovery; Corvid recovers to 2/4. |
-| 20 | Forge victory; Korps defeated, Iron Warriors raid annihilated. Grinding Advance Corvid 2/4 → 1/4. Lose 2 Manpower; Reinforce +3. Final 5 Supply/22 Manpower. Eye/Spear actions used; Grunwald/Wraith unused. | Awaiting orders. | Awaiting turn. | Korps turn complete; no pending battle | Third Party Raid active; Corvid encounter resolved. No Logistics until 21. |
+| 20 | Forge victory; Korps defeated, Iron Warriors raid annihilated. Grinding Advance Corvid 2/4 → 1/4. Lose 2 Manpower; Reinforce +3. Final 5 Supply/22 Manpower. Eye/Spear actions used; Grunwald/Wraith unused. | Expand Returning Dawn 3/5 → 5/5 for 1 Supply; Reinforce +4; complete Trialwatch Lattice 3/3 for 5 Supply, active +5 defensive Fleet Battle roll. Final 8 Supply/28 Manpower. | Awaiting turn. | Korps and Viorla turns complete; no pending battle | Third Party Raid active; Corvid encounter resolved. No Logistics until 21. |
 
 | 15 | Awaiting turn | Awaiting turn | Awaiting turn | Opening complete; awaiting Korps | Logistics then War Fervor (check 6, table 4). Final opening resources Korps 20/28, Viorla 30/29, Cerberus 23/27. All Fleet Actions unused; Halstrave Defended until Viorla turn. |
 
