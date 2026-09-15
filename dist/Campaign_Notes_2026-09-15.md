@@ -168,3 +168,7 @@ is the best way to do this to ensure accuracy as they need to fit within the arm
 correctly. Best way to do this might be to restrict ourselves to assets from Soulstorm, Winter Assault, Dark Crusade and their 
 respective mods as we know those models and animations will work and for anything custom we can kitbash existing models from the
 listed material.
+
+## Simulation work begun — 15 September 2026
+
+Military-grade scope confirmed for both resources; Supply costs must remain for fleet building materials. Added a reproducible frontier/diagnostic laboratory, ledger tests and explicit coverage limits. This is not a full-game balance certification. See Balance_Simulation_Methods.md and Balance_Simulation_Report.md. No fleet-cost candidate adopted.

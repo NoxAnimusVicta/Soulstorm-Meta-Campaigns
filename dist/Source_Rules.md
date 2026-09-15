@@ -4,6 +4,10 @@ Version 0.1 • 2026-09-15 • Provisional development baseline, not a balanced 
 
 Extracted from resolved Dessica rules through Cycle 21. Named rosters, holdings and history are not starting state. Numerical rules remain for review, not as evidence of balance. Campaign_Notes_2026-09-15.md distinguishes proposals from decisions. Do not silently adopt alternatives.
 
+## Military resources
+
+Supply represents military-grade materiel, equipment, fuel and construction materials. Manpower represents military personnel/capacity, not a general civilian labour pool. Adding fleet Manpower costs must not remove shipbuilding Supply costs. Candidate changes require testing and approval. Clarified 15 September 2026.
+
 ## Source-level directions
 
 - New Subsector roster-building campaigns start each Major Faction at **20 Supply /20 Manpower**. Sector-directed campaigns may specify another recorded start. This does not reset Dessica.
@@ -277,7 +281,7 @@ A faction may take ONE Construction Action per turn. This represents the faction
 - **Planetary/station capture:** apply assault damage to the host and all attached constructions first. **Any surviving construction transfers to the captor, Minor or Major**, at its remaining Integrity and build/upgrade state. Zero-Integrity structures are destroyed. The holding resets to 1 defence; structures do not reset or repair. Existing full-host requirements apply to subsequent Build or Repair actions.
 - **System-based capture remains distinct:** control all planets and have Void Superiority; surviving Minor constructions transfer, Major constructions are destroyed. Completed Void Stations are captured as holdings, not through this system-control rule.
 - Examples: a 4/5 project taking 3 damage becomes **1/5**; taking 2 becomes **2/5**. A 1/5 project hit by a Warp Storm is destroyed. If a host carries two projects, both lose the full damage amount.
-- Applies prospectively from this inherited ruling. Current projects map directly to Integrity: **Vitae Womb Complex 1/5, Assimilation Viscera 1/5, Trial’s End Fabrication Array 5/5 completed and active**. No past battle or construction outcome is recalculated.
+- Existing campaigns require an explicit migration; no historical construction state is part of this template.
 
 **Construction Limits:** A faction may have multiple constructions in progress simultaneously, but can only advance ONE per turn. Constructions on different planets progress independently.
 
@@ -396,7 +400,9 @@ If any faction chose Attack, fight the battle in Soulstorm. See Section 3 for ba
 
 **Turn Order:** Factions act in order: Major Faction A → Major Faction B → Major Faction C. Each faction completes all their actions (Fleet, Faction, Social, Construction) before the next faction's turn begins.
 
-**AI vs AI Rules:** On a defended planet, the defender's total roll gains +15.
+**AI vs AI Ground Battle Resolution:** Both factions roll d20 + participating Fleet Strength + Supply + Manpower. Attacker commits Manpower equal to base damage (fleet strength only); Defender commits half of total damage to planet (including bonuses, rounded down). Highest total wins. If the defender used the Defend action, their roll gains +15. Winner returns 60% committed Manpower (rounded down), loser loses 100%. **All calculations use resource values after attack costs (scaled by world type) and Manpower commitments are deducted.**
+
+This specific AI procedure is distinct from the player battle commitment/return table. Defender Supply commitment is not specified consistently across these passages; simulations must disclose their convention and test the alternative, not silently conflate them. Three-team AI raid resolution and tied totals also need explicit conventions.
 
 If all factions skip combat actions: No battle this cycle. All sides gain their chosen benefits.
 
@@ -629,15 +635,9 @@ Once maximum defense reaches 12, the Capital is fully established and immediatel
 
 **Loss of the final fallback point:** If a faction has no remaining controlled planets, stations or surviving Mobile Capital, it is eliminated and all its remaining fleets are destroyed: they have nowhere to return, resupply or regroup. Apply normal Planet Fall fleet damage first, then destroy any survivors if no fallback point remains. A surviving controlled planet, station or Mobile Capital prevents this automatic destruction; normal battle and Planet Fall losses still apply. Apply normal fleet-destruction consequences where applicable; Minor factions do not suffer Major Faction resource penalties.
 
-### Minor Faction Factions
+### Faction role and Alignment
 
-**Terminology — Minor Factions vs Minor Faction-Aligned Major Factions:**
-
-"Minor Faction" serves two distinct roles in this campaign. **Minor Factions** are static NPC powers — they do not take turns, do not act strategically, and defend when attacked. They are obstacles and opportunities on the map. **Minor Faction-Aligned Major Factions** are full player or AI factions that happen to carry the Minor Faction alignment. They take turns, make strategic decisions, and operate with full agency. The alignment simply means they are not bound to Imperium, Chaos, Necron, or any other bloc — they fight for themselves. No Major Faction in the the example campaign Campaign currently carries this alignment.
-
-These two uses of "Minor Faction" should never be confused. The rules below apply only to Minor Factions.
-
----
+Minor Factions are static NPC powers that defend holdings and do not take strategic turns. Major Factions have full agency. Independent is an Alignment for unaligned powers, not a synonym for Minor; Independent-aligned Major Factions retain all Major rules. Unrelated Independent factions are not automatically allies.
 
 ### Minor Factions
 
@@ -678,7 +678,7 @@ Fleet Strength in system still counts for all Minor Faction fleets present, but 
 **Scope:**
 - Minor Factions are typically single-system, often single-planet
 - Multiple Minor factions can exist in the same system
-- Each Minor Faction faction has its own fleet, resources, and defense values
+- Each Minor faction has its own fleet, resources, and defense values
 
 ### Resource Deficits
 
