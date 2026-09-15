@@ -68,3 +68,7 @@ These steps are necessary to reach the user's requested full-game fidelity. The 
 ## Pilot rejection gate
 
 The initial 432 runs produced no bombardment actions or deficit entries and high closing stocks. This is a coverage/behaviour warning, not proof of a balanced economy. Exact-zero construction payments with host degradation are an unvalidated boundary and must be repaired/tested before extending to those situations. None of the reported pilot runs entered any deficit.
+
+## Continuation checkpoint
+
+shared_sim.py and shared_tests.py add the shared-Major integration layer. See the development handover for the current coverage matrix in prose, exact run commands, model conventions and remaining implementation order. Current runs are stored in shared-results-v2; the original frontier pilot remains archived intact. The construction exact-zero boundary now has regression coverage and explicitly stops for unresolved ordering. This does not retroactively validate the pilot's missing behaviours.

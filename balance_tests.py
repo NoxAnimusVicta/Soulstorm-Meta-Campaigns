@@ -60,6 +60,19 @@ class RulesTests(unittest.TestCase):
         s.projects[0].completed=True;self.assertIn(('repair',0),legal(s,'construction'))
         s.fleets[0].strength=11;self.assertNotIn(('repair',0),legal(s,'construction'))
 
+    def test_last_supply_cannot_resurrect_mobile_construction(self):
+        s=fixture('mobile');s.supply=5;s.projects=[Project('forge',-1,1,5)]
+        apply(s,('build',0),random.Random(0))
+        self.assertEqual(s.projects[0].integrity,0)
+        self.assertEqual(s.fleets[0].strength,11)
+        self.assertTrue(s.stop.startswith('Unresolved timing:'))
+
+    def test_last_supply_cannot_start_on_damaged_mobile_host(self):
+        s=fixture('mobile');s.supply=5
+        apply(s,('start','forge',-1),random.Random(0))
+        self.assertEqual(s.projects,[])
+        self.assertTrue(s.stop)
+
     def test_upgrade_inactive(self):
         s=fixture();s.projects=[Project('forge',0,5,5,True)]
         apply(s,('upgrade',0),random.Random(0));p=s.projects[0]

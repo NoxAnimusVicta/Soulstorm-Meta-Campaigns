@@ -9,6 +9,7 @@ DOCUMENTS = [
  ('Source_Rules.md', 'Rules baseline'),
  ('Balance_Simulation_Report.md', 'Simulation results'),
  ('Balance_Simulation_Methods.md', 'Simulation coverage'),
+ ('Simulation_Development_Handover.md', 'Development handover'),
  ('Campaign_Template.md', 'Blank campaign'),
  ('Briefing_Commander_Template.md', 'Commander briefing'),
  ('Briefing_Advisor_Template.md', 'Advisor briefing'),

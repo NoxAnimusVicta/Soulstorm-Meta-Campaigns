@@ -309,13 +309,24 @@ def apply(s,action,rng,forced=None):
             w=s.worlds[host];s.pay(w.tier,w.tier);w.defence=min(w.maximum,w.defence+w.tier)
     elif kind in ('build','repair','upgrade','start'):
         if kind=='start':
-            s.pay(5);name,host=action[1:];s.projects.append(Project(name,host,maximum=PROFILES[name][0]))
+            name,host=action[1:];s.pay(5)
+            if not s.full_host(host):
+                s.stop='Unresolved timing: construction payment damaged its host through a deficit'
+                s.record('unsupported_construction_timing');return
+            s.projects.append(Project(name,host,maximum=PROFILES[name][0]))
         else:
             p=s.projects[action[1]]
             if kind=='repair':
-                n=min(3,p.maximum-p.integrity);s.pay(n);p.integrity+=n
+                n=min(3,p.maximum-p.integrity);s.pay(n)
+                if not s.full_host(p.host) or p.integrity<=0:
+                    s.stop='Unresolved timing: repair payment damaged its host through a deficit'
+                    s.record('unsupported_construction_timing');return
+                p.integrity+=n
             else:
                 s.pay(5)
+                if not s.full_host(p.host) or p.integrity<=0:
+                    s.stop='Unresolved timing: construction payment damaged its host through a deficit'
+                    s.record('unsupported_construction_timing');return
                 if kind=='upgrade':p.upgraded=True;p.completed=False;p.maximum*=2
                 p.integrity+=1
                 if p.integrity==p.maximum:p.completed=True

@@ -172,3 +172,7 @@ listed material.
 ## Simulation work begun — 15 September 2026
 
 Military-grade scope confirmed for both resources; Supply costs must remain for fleet building materials. Added a reproducible frontier/diagnostic laboratory, ledger tests and explicit coverage limits. This is not a full-game balance certification. See Balance_Simulation_Methods.md and Balance_Simulation_Report.md. No fleet-cost candidate adopted.
+
+## Simulation continuation — 15 September 2026
+
+Shared-Major integration tests and reproducible traces are now available. This is not an adopted rebalance. Read Simulation_Development_Handover.md to resume development; it is included in the source library and simulation bundle. Supply still represents military materials and all experimental crew-cost variants retain Supply expenditure.
