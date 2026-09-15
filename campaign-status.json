@@ -1,8 +1,8 @@
 {
   "cycle": 21,
-  "phase": "Cycle 21 — Korps turn complete; awaiting Vior’la Expedition",
+  "phase": "SUSPENDED — Cycle 21 after Korps turn",
   "event": "Third Party Raid (Cycle 21 check: 6; table: 5)",
   "nextFaction": "Vior’la Expedition",
-  "updated": "Cycle 21 — Corvid captured by the Korps",
-  "notes": "Korps 9 Supply/29 Manpower; Viorla 16/36; Cerberus 19/27. Corvid captured at 1/4; Korps void superiority in Anvarrus 10 vs Forge 8. Vigil 2/5, Sanctioned Pattern and Corvid Ore Escort 3/5 each; Forge retains Anvarrus. Eye and Spear Fleet Actions used; Grunwald and Wraith unused. No pending battles or deficits. Third Party Raid active; Iron Warriors are the permanent raid faction. Next Logistics Cycle 24."
+  "updated": "15 September 2026 — Dessica test campaign suspended",
+  "notes": "Suspended pending system review. Next on resumption: Viorla Expedition; no further turns or rolls authorised. Korps 9 Supply/29 Manpower; Viorla 16/36; Cerberus 19/27. Corvid captured at 1/4; Korps void superiority in Anvarrus 10 vs Forge 8. Vigil 2/5, Sanctioned Pattern and Corvid Ore Escort 3/5 each; Forge retains Anvarrus. Eye and Spear Fleet Actions used; Grunwald and Wraith unused. No pending battles or deficits. Third Party Raid active; Iron Warriors are the permanent raid faction. Next Logistics Cycle 24."
 }

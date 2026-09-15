@@ -61,3 +61,7 @@ User instruction: prepare and explain player battle setup in chat, but wait unti
 
 ### Faction decision tables
 Command overview derives fleet names, locations and strengths from current in-system fleet lists; holdings from system controller/defence entries and the Mobile Assets table; and project progress from the Resource Tracker. Keep those source entries synchronized when resolving turns. The interface uses one expandable register per faction, with tables on desktop and labelled asset rows on phones.
+
+## Source library and suspension — 15 September 2026
+
+Dessica is suspended at Cycle 21 after the Korps turn. Source_README.md indexes reusable documents; source.html is their generated web reference. Dated notes distinguish proposals from rules. build.py builds both views. Source changes do not reset or migrate Dessica.

@@ -84,7 +84,9 @@ page=(ROOT/'index.template.html').read_text().replace('/*__STYLE__*/',(ROOT/'sty
 shutil.copyfile(ROOT/'Dessica_Campaign.md',OUT/'Dessica_Campaign.md')
 for name in ['manifest.webmanifest','icon-180.png','icon-192.png','icon-512.png']:
  shutil.copyfile(ROOT/name,OUT/name)
-static_revision=hashlib.sha256(page.encode()).hexdigest()[:12]
+from source_build import build_source
+source_page=build_source(ROOT,OUT,render)
+static_revision=hashlib.sha256((page+source_page).encode()).hexdigest()[:12]
 (OUT/'sw.js').write_text((ROOT/'sw.template.js').read_text().replace('__REVISION__',static_revision))
 (OUT/'.nojekyll').touch()
 print(f'Built Cycle {cycle}: {len(factions)} factions, {len(systems)} systems, {sum(len(s["worlds"]) for s in systems)} holdings, {len(chapters)} rule entries. Revision {revision}')

@@ -1,6 +1,8 @@
 # THE DESSICA CAMPAIGN
 ## Soulstorm Campaign System — Cycle-Based Strategic Layer
 
+**SUSPENDED — 15 September 2026.** Test campaign frozen in Cycle 21 after the Korps turn; next would be Vior’la. No further turns or rolls until resumed. Restart or retirement remains undecided. See Campaign_Notes_2026-09-15.md and the separate source library.
+
 ---
 
 *In the eleventh year of the siege of Aschenvald, the 41st Expeditionary Korps mined beneath the eastern curtain wall and brought four hundred metres of it down into the ditch. The citadel fell over the following winter. Lord Marshal Kolbrant filed the compliance assessment and requisitioned garrison regiments for the spring convoy.*
