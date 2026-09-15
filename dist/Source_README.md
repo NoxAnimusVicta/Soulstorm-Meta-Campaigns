@@ -20,7 +20,7 @@ Repository: https://github.com/NoxAnimusVicta/Soulstorm-Meta-Campaigns • branc
 
 Fill the blank framework, pin a source version and instantiate briefings. Approved source releases affect new campaigns; existing campaigns need an explicit migration. Templates contain no active event or faction orders. Campaign_Template.md needs a new-campaign parser adaptation before it can feed Dessica's name-specific builder.
 
-Provenance: Dessica rules through Cycle 21; user notes dated on receipt 15 September 2026; three historical briefings used for structure and voice only. No balance simulations or preset tables are claimed completed.
+Provenance: Dessica rules through Cycle 21; user notes dated on receipt 15 September 2026; three historical briefings used for structure and voice only. Pilot simulations and a shared-Major integration checkpoint are available; full-game validation and preset tables remain unfinished. See the simulation report and development handover.
 
 ## Balance laboratory — 15 September 2026
 

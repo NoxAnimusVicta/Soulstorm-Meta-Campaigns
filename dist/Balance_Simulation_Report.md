@@ -99,3 +99,13 @@ Extend to shared Major-versus-Major campaigns with the complete action/construct
 ## Files
 
 Download Balance_Simulation_Bundle.zip for scripts, rules snapshot, tests, full trial CSV/JSON, first-seed action traces and exact combat tables. Source changes are separate from suspended Dessica.
+
+## Shared Major integration checkpoint — 15 September 2026
+
+A separate shared-Major simulator now lets three active factions attack each other on one map. Ownership, defending resources, fleet losses and captured surviving buildings are shared state. This is an integration milestone, not the requested full-fidelity balance model yet.
+
+The current batch has **12 trials**: two seeds, two resource starts and three turn-order rotations, with a 12-Cycle horizon. **Eight** reached the horizon; **four** stopped when a capital was captured because relocation is not implemented. Stopped trials are retained and are not scored as victories. It produced **6 bombardments, 3 deficit entries and 9 rationing actions**, covering behaviours absent from the frontier pilot. It also produced 252 ground assaults, 23 naval battles, 59 expansions and 25 Defend actions. **No fleet creation occurred**, so another important strategy-coverage gate remains unmet.
+
+The policies still use shallow heuristic decisions. Traits remain tied to map positions and policy assignments; this batch cannot rank faction strength or recommend crew costs. Automatic defending fleets retaining their actions is an explicit provisional convention. Isolated Defense is selected when defender Manpower is insufficient; Forced Conscription is not searched. Raids, capital transitions, diplomatic consent and most constructions remain unsupported. See Simulation_Development_Handover.md for exact continuation steps.
+
+Validation: **30 tests pass** (21 core, 9 shared). Spending the final Supply no longer resurrects a destroyed construction on a mobile host: that timing edge stops with an explicit unresolved-rule marker. The intact original pilot is archived inside the downloadable bundle; current shared results have separate hashes and complete traces. No experimental rebalance has been adopted and Dessica remains suspended.
