@@ -29,7 +29,7 @@ def setup(player,enemy,*,player_attacking=True,defended=False,siege=False,
     if defended and not siege:difficulty+=1 if player_attacking else -1
     difficulty+=bunker_levels if player_attacking else -bunker_levels
     if ambush:difficulty+=1 if player_attacking else -1
-    if intel_difficulty and player_attacking:difficulty-=1
+    if intel_difficulty:difficulty+=-1 if player_attacking else 1
     if isolated and not player_attacking:difficulty+=2
     difficulty=min(5,max(1,difficulty))
     friendly=max(1,1+player.fleet_strength//5+band(player.manpower)-2)

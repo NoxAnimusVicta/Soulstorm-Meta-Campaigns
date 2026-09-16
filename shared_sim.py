@@ -7,6 +7,17 @@ from pathlib import Path
 import argparse, copy, hashlib, json, math, random
 from balance_sim import State, Fleet, World, Project, legal, apply, fleet_losses
 from construction_rules import PLANETARY, CATALOG, active, magnitude, legal_construction, construct
+from battle_setup import BattleSide, setup as soulstorm_setup
+
+class PendingBattle(Exception):
+    def __init__(self,setup):
+        self.setup=setup
+        super().__init__('Awaiting reported Soulstorm battle result')
+
+class PendingAllocation(Exception):
+    def __init__(self,point,candidates):
+        self.point=point;self.candidates=candidates
+        super().__init__('Attacker must choose tied Major fleet damage allocation')
 
 @dataclass
 class Holding:
@@ -95,6 +106,10 @@ class Arena:
         self.alliances=set();self.consents=set();self.turn_order=list(range(len(self.players)))
         self.phase_spent=set();self.phase_position={}
         self.defence_choices={}
+        self.human_players=set();self.reported_outcomes={}
+        self.intel_choices={}
+        self.planetfall_choices={}
+        self.messages=[]
         for p in range(3):self.refresh(p)
 
     def refresh(self,p):
@@ -247,6 +262,13 @@ class Arena:
     def actions(self,p,phase,allow_scout=True):
         self.refresh(p);s=self.players[p]
         if self.stop or p in self.eliminated or s.role=='minor':return [('none',)]
+        if phase=='social':
+            options=[('none',)]
+            for q in range(len(self.players)):
+                if q==p or q in self.eliminated:continue
+                self.refresh(q)
+                if s.present_systems & self.players[q].present_systems:options.append(('communique',q,'Request a diplomatic exchange.'))
+            return options
         if phase=='faction' and self.capitals[p] is None:
             # User ruling, 16 September: establish capital before rationing.
             host=self.provisional[p]
@@ -296,8 +318,7 @@ class Arena:
         for system in self.systems:
             here=[i for i in available if s.fleets[i].system==system]
             here.extend((q,fi) for q,fi,beneficiary in sorted(self.consents) if beneficiary==p and self.allied(p,q) and self.players[q].fleets[fi].strength>0 and not self.players[q].fleets[fi].used and self.players[q].fleets[fi].system==system)
-            groups=[g for n in range(1,min(6,len(here))+1) for g in combinations(here[:6],n)]
-            if len(here)>6:groups.append(tuple(here))
+            groups=[g for n in range(1,len(here)+1) for g in combinations(here,n)]
             hostile=[q for q in range(len(self.players)) if not self.allied(p,q) and self.strength(q,system)>0]
             for group in groups:
                 fs=self.ground_strength(p,group);damage=max(1,fs//5)
@@ -330,7 +351,11 @@ class Arena:
         if p in self.eliminated or self.players[p].role=='minor':raise ValueError('No active Major turn')
         if phases[phase]<self.phase_position.get(p,2):raise ValueError('Cannot return to an earlier phase')
         if (p,phase) in self.phase_spent:raise ValueError('Phase action already spent')
-        options=[('none',)] if phase=='social' else self.actions(p,phase)
+        options=self.actions(p,phase)
+        if a[0]=='communique' and phase=='social':
+            if not isinstance(a[2],str) or not a[2].strip():raise ValueError('Communique requires a message')
+            if not any(x[0]=='communique' and x[1]==a[1] for x in options):raise ValueError('No shared system presence')
+            options=options+[a]
         if a[0]=='garrison' and phase=='faction' and self.capitals[p] is not None and not self.players[p].deficits:
             self.validate_garrison(p,a[1])
         elif a not in options:raise ValueError('Illegal order for current phase and state')
@@ -343,6 +368,13 @@ class Arena:
             raise
         self.phase_position[p]=phases[phase]
         if phase!='fleet' or a[0]=='none':self.phase_spent.add((p,phase))
+
+    def reply(self,recipient,message_id,text):
+        message=self.messages[message_id]
+        if message['recipient']!=recipient or message['cycle']!=self.cycle or message['reply'] is not None:raise ValueError('Reply unavailable')
+        if not isinstance(text,str) or not text.strip():raise ValueError('Reply requires text')
+        message['reply']=text
+        self.log.append(dict(cycle=self.cycle,action='communique_reply',player=recipient,message_id=message_id))
 
     def validate_garrison(self,p,transfers):
         if not transfers:raise ValueError('Empty Garrison Transfer')
@@ -364,6 +396,9 @@ class Arena:
         if a[0]=='none':return
         self.refresh(p);s=self.players[p];kind=a[0]
         self.log.append(dict(cycle=self.cycle,player=p,action=kind,order=a))
+        if kind=='communique':
+            self.messages.append(dict(sender=p,recipient=a[1],text=a[2],reply=None,cycle=self.cycle))
+            return
         if kind=='garrison':
             for wi,delta in self.validate_garrison(p,a[1]).items():self.holdings[wi].defence+=delta
             self.check();return
@@ -513,6 +548,10 @@ class Arena:
                     w.attacked=True;self.check();return
             base_damage=max(1,self.ground_strength(p,group)//5)
             damage=base_damage+self.fleet_effect(p,group,'bombardment_bay')+self.fleet_effect(p,group,'siege_platform',2)
+            human_battle=p in self.human_players or q in self.human_players
+            intel=self.intel_choices.get(p) if self.event==6 and human_battle else None
+            if intel not in (None,'difficulty','damage'):raise ValueError('Invalid Intel Breakthrough choice')
+            if intel=='damage':damage+=1
             if kind=='bombard_shared':damage=max(1,self.participating_strength(p,group)//5)
             w.attacked=True
             if kind=='bombard_shared':
@@ -524,7 +563,7 @@ class Arena:
                 self.fleet_combat.update((q,i) for i in defenders)
                 # Inherited AI defender commitment convention; Supply ambiguity is a switch.
                 militia=bool(active(d,wi,'militia'))
-                commitment=0 if militia else damage//2
+                commitment=0 if militia else damage if human_battle else damage//2
                 defender_supply,defender_manpower=self.minor_resources(wi) if d.role=='minor' else (d.supply,d.manpower)
                 isolated=not militia and ('manpower' in d.deficits or defender_manpower<commitment)
                 conscription=self.defence_choices.pop((q,wi),None)
@@ -551,13 +590,31 @@ class Arena:
                     defender_supply-=defender_supply_paid
                 av=self.ground_strength(p,group)+s.supply+s.manpower+(10 if self.event==6 else 0)
                 dv=self.strength(q,w.system)+defender_supply+defender_manpower+(10 if self.event==2 else 0)+(15 if w.defended or shield_network else 0)-(15 if isolated else 0)+magnitude(d,wi,'bunker',5)
-                rolls=forced or (rng.randint(1,20),rng.randint(1,20));won=rolls[0]+av>rolls[1]+dv
+                if human_battle:
+                    if (p,wi) not in self.reported_outcomes:
+                        attacker=BattleSide(s.supply,s.manpower,self.ground_strength(p,group),str(p))
+                        defender=BattleSide(defender_supply,defender_manpower,self.strength(q,w.system),str(q))
+                        attacking=p in self.human_players
+                        setup=soulstorm_setup(attacker if attacking else defender,defender if attacking else attacker,
+                            player_attacking=attacking,defended=w.defended or shield_network,
+                            siege=s.trait=='siege',bunker_levels=magnitude(d,wi,'bunker'),
+                            ambush=self.event==2,intel_difficulty=intel=='difficulty',isolated=isolated,
+                            raider='Iron Warriors' if self.event==5 else None)
+                        if self.event==6:setup['intel_choice_required']=intel is None;setup['intel_options']=['difficulty','damage'];setup['intel_choosing_faction']=p
+                        raise PendingBattle(setup)
+                    if self.event==6 and intel is None:raise ValueError('Choose Intel Breakthrough effect before resolving')
+                    won=self.reported_outcomes.pop((p,wi))
+                    if type(won) is not bool:raise ValueError('Reported outcome must explicitly identify attacker victory or defeat')
+                    rolls=None
+                else:
+                    rolls=forced or (rng.randint(1,20),rng.randint(1,20));won=rolls[0]+av>rolls[1]+dv
                 transport=self.fleet_effect(p,group,'troop_transport',10)
                 if won or isolated:s.change('manpower',math.floor(base_damage*min(.8,.6+transport/100)))
-                if not won:d.change('manpower',math.floor(commitment*.6))
-                if not won:d.change('supply',math.floor(defender_supply_paid*.8))
+                defence_return=.6 if not human_battle or s.trait=='dread' else .8
+                if not won:d.change('manpower',math.floor(commitment*defence_return))
+                if not won:d.change('supply',math.floor(defender_supply_paid*(.6 if human_battle and s.trait=='dread' else .8)))
                 actual=damage if won else (1 if s.trait=='siege' else 0)
-                self.log.append(dict(cycle=self.cycle,combat='ground',attacker=p,defender=q,rolls=rolls,totals=[rolls[0]+av,rolls[1]+dv],won=won))
+                self.log.append(dict(cycle=self.cycle,combat='ground',attacker=p,defender=q,rolls=rolls,totals=None if human_battle else [rolls[0]+av,rolls[1]+dv],won=won,reported=human_battle))
                 for owner in (p,q):
                     if self.players[owner].trait=='salvagers':self.players[owner].change('supply',1)
             if kind!='bombard_shared':actual=max(0,actual-magnitude(d,wi,'void_shield'))
@@ -581,10 +638,19 @@ class Arena:
                 if self.provisional[q]==wi:self.provisional[q]=None
                 for project in list(d.projects):
                     if project.host==wi and project.integrity>0:d.projects.remove(project);s.projects.append(project)
-                for _ in range(actual):
+                allocation=self.planetfall_choices.get((p,wi),())
+                for point in range(actual):
                     eligible=[i for i,f in enumerate(d.fleets) if f.strength>0 and f.system==w.system]
                     if not eligible:break
-                    i=max(eligible,key=lambda i:(d.fleets[i].strength,-i));d.hit_fleet(i,1)
+                    strongest=max(d.fleets[i].strength for i in eligible)
+                    tied=[i for i in eligible if d.fleets[i].strength==strongest]
+                    if point<len(allocation):
+                        i=allocation[point]
+                        if i not in tied:raise ValueError('Planet Fall damage must hit a strongest surviving fleet')
+                    elif len(tied)>1 and p in self.human_players and d.role=='major':raise PendingAllocation(point,tied)
+                    else:
+                        i=max(tied,key=lambda fi:(sum(project.integrity for project in d.projects if project.host==('fleet',fi)),-fi))
+                    d.hit_fleet(i,1)
                 if not any(h.owner==q for h in self.holdings) and not any(f.mobile and f.strength for f in d.fleets):
                     for i,f in enumerate(d.fleets):
                         if f.strength:d.hit_fleet(i,f.strength)
@@ -632,6 +698,22 @@ class Arena:
             self.refresh(p);s.validate()
             if s.stop:self.stop=s.stop
         assert all(w.owner in range(len(self.players)) for w in self.holdings)
+        assert len(self.capitals)==len(self.provisional)==len(self.players)
+        assert len(self.turn_order)==len(set(self.turn_order))
+        for p,s in enumerate(self.players):
+            capital=self.capitals[p]
+            if capital is not None and capital>=0:
+                assert self.holdings[capital].owner==p and not self.holdings[capital].station
+            for project in s.projects:
+                assert project.profile in CATALOG
+                if project.integrity<=0:continue
+                if isinstance(project.host,tuple):
+                    kind,i=project.host
+                    assert kind in ('fleet','system')
+                    if kind=='fleet':assert 0<=i<len(s.fleets) and s.fleets[i].strength>0
+                    else:assert i in self.systems
+                elif project.host==-1:assert any(f.mobile and f.strength>0 for f in s.fleets)
+                else:assert self.holdings[project.host].owner==p
 
 # Distinct tactical priorities, still heuristic bots, not validated human substitutes.
 # Each compares sampled consequences and threat to its own holdings.
@@ -683,7 +765,7 @@ def run(seed,cycles=18,start=20,rotation=0,expand_mp=0,create_mp=1,planner_depth
     for _ in range(cycles):
         a.opening(events)
         if a.stop:break
-        for p in [(i+rotation)%3 for i in range(3)]:
+        for p in a.turn_order[rotation:]+a.turn_order[:rotation]:
             if p in a.eliminated:continue
             a.begin_turn(p)
             for _ in range(len(a.players[p].fleets)+1):
@@ -692,7 +774,7 @@ def run(seed,cycles=18,start=20,rotation=0,expand_mp=0,create_mp=1,planner_depth
                 a.submit(p,'fleet',order,combat)
                 if a.stop:break
             if a.stop:break
-            for phase in ('faction','construction'):
+            for phase in ('faction','social','construction'):
                 order=select(p,phase);a.submit(p,phase,order,combat)
                 if a.stop:break
             if a.stop:break

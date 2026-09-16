@@ -511,3 +511,76 @@ class AlignmentTests(unittest.TestCase):
   self.assertTrue(a.allied(0,1))
   for f in a.players[0].fleets:f.system=1
   self.assertFalse(any(x[0]=='ground' and x[2] in (2,3) for x in a.actions(0,'fleet')))
+
+class HumanBattleTests(unittest.TestCase):
+ def test_pending_human_battle_is_preview_only(self):
+  import copy
+  from shared_sim import PendingBattle
+  a=Arena();a.human_players.add(0)
+  for f in a.players[0].fleets:f.system=1
+  before=copy.deepcopy(a.__dict__)
+  with self.assertRaises(PendingBattle) as pending:a.submit(0,'fleet',('ground',(0,1),3),random.Random(0))
+  self.assertEqual(a.__dict__,before)
+  self.assertEqual(pending.exception.setup['outcome'],'awaiting reported result')
+
+ def test_explicit_human_result_resolves_without_dice(self):
+  a=Arena();a.human_players.add(0)
+  for f in a.players[0].fleets:f.system=1
+  a.reported_outcomes[(0,3)]=True;r=random.Random(42);before=r.getstate()
+  a.submit(0,'fleet',('ground',(0,1),3),r)
+  self.assertEqual(a.holdings[3].defence,2)
+  self.assertEqual(r.getstate(),before)
+  result=[e for e in a.log if e.get('combat')=='ground'][-1]
+  self.assertTrue(result['reported']);self.assertIsNone(result['rolls'])
+
+class CatalogueLifecycleTests(unittest.TestCase):
+ def test_every_catalogue_profile_can_be_built_through_validated_phases(self):
+  from construction_rules import CATALOG
+  for name,spec in CATALOG.items():
+   with self.subTest(profile=name):
+    a=Arena(start=100);s=a.players[0]
+    if name=='consolidation':
+     host=1
+    elif name=='void_station' or spec.domain=='fleet':host=('fleet',0)
+    elif spec.domain=='system':host=('system',0)
+    else:host=0
+    order=('start',name,host)
+    self.assertIn(order,a.actions(0,'construction'))
+    a.submit(0,'construction',order,random.Random(0))
+    for stage in range(1,spec.stages):
+     a.phase_spent.clear();a.phase_position.clear()
+     a.submit(0,'construction',('build',0),random.Random(0))
+    if name=='consolidation':self.assertEqual(a.holdings[1].maximum,8)
+    elif name=='void_station':self.assertTrue(a.holdings[-1].station)
+    else:self.assertTrue(s.projects[0].active)
+
+class SocialActionTests(unittest.TestCase):
+ def test_requires_presence_one_social_action_one_reply(self):
+  a=Arena();r=random.Random(0)
+  with self.assertRaises(ValueError):a.submit(0,'social',('communique',1,'Negotiate'),r)
+  a.players[0].fleets[0].system=1
+  a.submit(0,'social',('communique',1,'Negotiate'),r)
+  a.reply(1,0,'We will consider the proposal.')
+  with self.assertRaises(ValueError):a.reply(1,0,'Another reply')
+  with self.assertRaises(ValueError):a.submit(0,'social',('communique',1,'Another message'),r)
+  self.assertFalse(a.allied(0,1))
+
+class DreadReputationTests(unittest.TestCase):
+ def test_dread_reduces_human_defence_returns_to_sixty_percent(self):
+  from balance_sim import Fleet
+  a=Arena();s=a.players[0];s.trait='dread';s.fleets=[Fleet(5,system=1) for _ in range(5)]
+  a.human_players.add(0);a.reported_outcomes[(0,2)]=False
+  a.submit(0,'fleet',('ground',tuple(range(5)),2),random.Random(0))
+  self.assertEqual((a.players[1].supply,a.players[1].manpower),(18,18))
+
+class PlanetFallChoiceTests(unittest.TestCase):
+ def test_human_choice_against_major_is_required_and_honoured(self):
+  from shared_sim import PendingAllocation
+  a=Arena();a.human_players.add(0);a.holdings[3].defence=1
+  for f in a.players[0].fleets:f.system=1
+  a.reported_outcomes[(0,3)]=True
+  with self.assertRaises(PendingAllocation):a.submit(0,'fleet',('ground',(0,),3),random.Random(0))
+  self.assertEqual(a.holdings[3].owner,1)
+  a.planetfall_choices[(0,3)]=(1,)
+  a.submit(0,'fleet',('ground',(0,),3),random.Random(0))
+  self.assertEqual([f.strength for f in a.players[1].fleets],[5,4])

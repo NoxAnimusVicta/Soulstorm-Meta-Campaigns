@@ -11,7 +11,7 @@ def clone(a):
 
 def score(a,p,policy):
     # Relative position values slowing opponents as well as own holdings.
-    return utility(a,p,policy)-.15*sum(utility(a,q,policy) for q in range(3) if q!=p)
+    return utility(a,p,policy)-.15*sum(utility(a,q,policy) for q in range(len(a.players)) if q!=p and q not in a.eliminated)
 
 def finish_turn(a,p,phase,policies,rng,decision):
     if a.stop or p in a.eliminated:return
@@ -19,19 +19,20 @@ def finish_turn(a,p,phase,policies,rng,decision):
         for n in range(len(a.players[p].fleets)+1):
             order=choose(a,p,'fleet',policies[p],decision+n)
             if order[0]=='none':break
-            a.act(p,order,rng)
+            a.submit(p,'fleet',order,rng)
             if a.stop:return
-    phases=['faction','construction'] if phase in ('fleet','faction') else ['construction'] if phase=='construction' else []
+    remaining=['faction','social','construction']
+    phases=remaining if phase=='fleet' else remaining[remaining.index(phase):] if phase in remaining else []
     for n,ph in enumerate(phases):
         if a.stop:return
-        a.act(p,choose(a,p,ph,policies[p],decision+100+n),rng)
+        a.submit(p,ph,choose(a,p,ph,policies[p],decision+100+n),rng)
 
 def rollout(a,p,phase,order,policies,seed,horizon):
     t=clone(a);combat=random.Random(seed);events=random.Random(seed+10000000)
-    t.act(p,order,combat)
-    nextphase={'fleet':'fleet' if order[0]!='none' else 'faction','faction':'construction','construction':None}[phase]
+    t.submit(p,phase,order,combat)
+    nextphase={'fleet':'fleet' if order[0]!='none' else 'faction','faction':'social','social':'construction','construction':None}[phase]
     if nextphase:finish_turn(t,p,nextphase,policies,combat,seed)
-    turnorder=[(i+t.rotation)%3 for i in range(3)]
+    turnorder=t.turn_order[t.rotation:]+t.turn_order[:t.rotation]
     for q in turnorder[turnorder.index(p)+1:]:
         if t.stop:break
         t.begin_turn(q);finish_turn(t,q,'fleet',policies,combat,seed+1000+q)

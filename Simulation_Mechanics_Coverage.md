@@ -79,7 +79,7 @@ Implemented means a rule is available in the shared engine and has focused regre
 | Void Supremacy | Partial: effect implemented; interaction audit pending |
 | Swift Mobilization | Partial: effect implemented; interaction audit pending |
 | Fleet Endurance | Partial: effect implemented; interaction audit pending |
-| Dread Reputation | Missing; AI/player resource-return distinction must stay explicit |
+| Dread Reputation | Partial: explicit human defence return test; AI-specific return remains 60% |
 | Fortification Experts | Partial: effect implemented; interaction audit pending |
 | Industrial Efficiency | Partial: effect implemented; interaction audit pending |
 
@@ -103,8 +103,10 @@ Earlier checkpoint: 51 tests passed (21 core, 18 shared, 12 construction). No ne
 
 ### Local continuation (not yet published)
 
-108 regression tests pass. All 32 profiles are catalogued; unfinished effects are explicitly excluded from bot purchases. See the current handover for implementation progress and remaining gates. No balance certification.
+119 regression tests pass. All 32 profiles are catalogued; unfinished effects are explicitly excluded from bot purchases. See the current handover for implementation progress and remaining gates. No balance certification.
 
 The validated submit API now enforces phase budgets in production runs. Minor resource/starting fleet/recovery scaffolding and Scout movement-attacks are tested. Player setup calculations cover resource bands, modifiers, symmetric scaling, and third-team map capacity; outcome integration remains pending. Fleet Scuttle, ordinary Transfer and Merge are implemented; enhanced/Mobile Transfer interpretation remains pending.
 
 All 32 construction effects now have implementation paths. This does not certify all interactions. Explicit allied assault consent, Garrison Transfer, Minor local resources, transaction rollback, and permanent fleet-capacity constructions have tests. Summoning, raids, human outcome integration, strategy competence and full replay validation still prevent balance testing. See the latest handover first.
+
+Latest local verification: 119 tests across six suites. Eight pinned random-action stress replays verified 1351 transitions; these are legality diagnostics, not balance or competent-strategy evidence. Human preview/reporting, explicit Major fleet-damage choices, Social bandwidth and four-Major scenario handling are now implemented with focused tests. Pending rulings and completion work are listed at the top of the handover.
