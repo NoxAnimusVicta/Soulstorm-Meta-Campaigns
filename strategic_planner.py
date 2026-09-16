@@ -37,6 +37,7 @@ def rollout(a,p,phase,order,policies,seed,horizon):
         t.begin_turn(q);finish_turn(t,q,'fleet',policies,combat,seed+1000+q)
     for k in range(horizon):
         if t.stop:break
+        t.closing()
         t.opening(events)
         for q in turnorder:
             if t.stop:break

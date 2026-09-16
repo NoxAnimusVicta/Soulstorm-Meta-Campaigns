@@ -2,7 +2,11 @@
 
 Updated: 16 September 2026. Work in progress; experiments do not amend campaign rules.
 
-## Read first — current checkpoint
+## Mechanics completion phase — current priority
+
+User instruction: finish ALL simulation mechanics and validate their interactions before balance testing or working through proposed changes. Simulation_Mechanics_Coverage.md is the current checklist. Earlier experimental results are diagnostics only. Latest checkpoint: 51 tests pass; seven additional planetary construction profiles plus structure Defend and regeneration are integrated. planner_experiment.py now requires --diagnostic; no new balance experiment was run.
+
+## Read first — prior checkpoint
 
 The 16 September continuation at the end of this document is the current status. Earlier sections are retained as historical checkpoint notes, not a current task list. Current code includes capital recovery, Major Planet Fall resource costs, direct mobile ground targeting and a bounded future-turn planner. The user ruled that Establish New Capital takes priority over Emergency Rationing. No other experimental balance changes were approved.
 
@@ -76,3 +80,14 @@ Next work, in order:
 Resume commands: python -X utf8 balance_tests.py ; python -X utf8 shared_tests.py ; python -X utf8 planner_experiment.py --cycles 6 --seeds 2 --out NEW_DIRECTORY . Use separate commands in the shell. package_simulation.py bundles the current scripts, both fixed 16 September result directories, the handover and historical archives; add a new output directory to its folder list when packaging future runs. build.py generates the source-library page and downloads.
 
 Publication status at packaging: ready for upload; verify the GitHub commit, Actions run and live page. GitHub connector tools are absent after the account switch, but the signed-in in-app browser still exposes repository uploads. No login or permission change was needed. Earlier publication receipts refer to 15 September, not this continuation.
+
+
+## Mechanics implementation checkpoint — 16 September 2026
+
+Added construction_rules.py and construction_tests.py. Shared engine integrates shipyard creation eligibility, grand-yard creation strength and prerequisites, bunker defender bonuses, damage-reducing void shields, militia zero commitment, and automated/regenerative defence recovery. All effects require full Integrity and completed status; upgrades, capture, repairs and host damage use existing project state. Structure Defend is a Faction Action with its own Supply/Manpower price, not a replacement for construction-phase Repair.
+
+Cycle closing now runs in both shared_sim.run and strategic_planner.rollout; double-closing is rejected. Current test command: python -m unittest balance_tests shared_tests construction_tests -q (51 passing). A regression caught a mobile-target variable ordering error during development; it was fixed before this checkpoint. No unresolved failed test remains.
+
+Next: finish the five remaining planetary profiles (Orbital Cannons, Fortification Network, Landing Zones, Planetary Shield Network, Consolidation Works), then fleet-attached and system constructions with typed host references and capacity tracking. See the coverage register for the rest. Do not silently assume action/retaliation/transfer timings. The old source table's Major planetary destruction label is superseded by the explicit surviving-structure capture ruling.
+
+Packaging must include construction_rules.py, construction_tests.py and Simulation_Mechanics_Coverage.md. Experiment input snapshots now include construction_rules.py. Do not compare current runs with old results as identical engines. Github publication uses the existing signed-in browser if connector tools remain absent. Publication status at packaging: files prepared; confirm latest commit and Pages before calling this checkpoint published.

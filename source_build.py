@@ -5,6 +5,7 @@ import shutil
 import zipfile
 
 DOCUMENTS = [
+ ('Simulation_Mechanics_Coverage.md', 'Mechanics completion checklist'),
  ('Source_README.md', 'Start here'),
  ('Source_Rules.md', 'Rules baseline'),
  ('Balance_Simulation_Report.md', 'Simulation results'),

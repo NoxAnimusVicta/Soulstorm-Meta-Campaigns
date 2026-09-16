@@ -2,9 +2,10 @@
 import argparse,hashlib,json,time,shutil
 from pathlib import Path
 from shared_sim import run
-p=argparse.ArgumentParser();p.add_argument('--cycles',type=int,default=6);p.add_argument('--seeds',type=int,default=2);p.add_argument('--out',default='planner-results');args=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--cycles',type=int,default=6);p.add_argument('--seeds',type=int,default=2);p.add_argument('--out',default='planner-results');p.add_argument('--diagnostic',action='store_true');args=p.parse_args()
+if not args.diagnostic:p.error('Balance studies are locked until mechanics coverage is complete. Use --diagnostic only for implementation checks.')
 out=Path(args.out);out.mkdir(exist_ok=True);rows=[];began=time.monotonic()
-files=['shared_sim.py','balance_sim.py','strategic_planner.py','planner_experiment.py','Source_Rules.md']
+files=['shared_sim.py','balance_sim.py','construction_rules.py','strategic_planner.py','planner_experiment.py','Source_Rules.md']
 (out/'inputs').mkdir(exist_ok=True)
 for f in files:shutil.copyfile(f,out/'inputs'/f)
 hashes={f:hashlib.sha256((out/'inputs'/f).read_bytes()).hexdigest() for f in files}
