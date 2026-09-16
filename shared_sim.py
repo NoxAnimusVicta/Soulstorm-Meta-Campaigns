@@ -1,8 +1,8 @@
-"""Shared-Major integration laboratory. Experimental, incomplete rules coverage.
+"""Shared Subsector rules engine. Readiness is recorded separately from game balance.
 Run python shared_sim.py --seeds 4 --cycles 18 --out shared-results
 """
 from dataclasses import dataclass
-from itertools import combinations
+from itertools import combinations, product
 from pathlib import Path
 import argparse, copy, hashlib, json, math, random
 from balance_sim import State, Fleet, World, Project, legal, apply, fleet_losses
@@ -107,13 +107,13 @@ class Arena:
         self.mobile_defended=set()
         self.mobile_attacked=set();self.last_closed=-1
         self.fleet_combat=set();self.engaged_factions=set()
-        self.alliances=set();self.consents=set();self.turn_order=list(range(len(self.players)))
-        self.phase_spent=set();self.phase_position={}
-        self.defence_choices={}
+        self.alliances=set();self.consents=set();self.defensive_consents=set();self.turn_order=list(range(len(self.players)))
+        self.phase_spent=set();self.phase_position={};self.begun_turns=set()
+        self.defence_choices={};self.defender_policies={}
         self.human_players=set();self.reported_outcomes={}
         self.intel_choices={}
         self.planetfall_choices={}
-        self.messages=[]
+        self.messages=[];self.pacts={}
         self.raid_profile={'strength':5,'supply':20,'manpower':20,'provisional':True}
         for p in range(3):self.refresh(p)
 
@@ -133,15 +133,65 @@ class Arena:
         alignment=self.players[p].alignment
         return p==q or frozenset((p,q)) in self.alliances or (alignment!='Independent' and alignment==self.players[q].alignment)
 
+    def may_attack(self,p,q):
+        return not self.allied(p,q) and self.pacts.get(frozenset((p,q)),-1)<self.cycle
+
+    def propose_pact(self,p,q,through_cycle,rng):
+        if type(through_cycle) is not int or through_cycle<self.cycle:raise ValueError('Pact expiry must be current or later Cycle')
+        self.submit(p,'social',('communique',q,'Offer ceasefire through Cycle '+str(through_cycle)),rng)
+        message=self.messages[-1];message['pact_until']=through_cycle
+        return len(self.messages)-1
+
+    def answer_pact(self,q,message_id,accept):
+        if type(accept) is not bool:raise ValueError('Explicit acceptance or rejection required')
+        message=self.messages[message_id]
+        if 'pact_until' not in message:raise ValueError('No pact offer')
+        self.reply(q,message_id,'Accepted' if accept else 'Rejected')
+        if accept:self.pacts[frozenset((q,message['sender']))]=message['pact_until']
+        self.log.append(dict(cycle=self.cycle,action='pact_decision',player=q,accepted=accept,through_cycle=message['pact_until']))
+
     def void(self,p,system):
         friendly=sum(self.strength(q,system) for q in range(len(self.players)) if self.allied(p,q))
         hostile=sum(self.strength(q,system) for q in range(len(self.players)) if not self.allied(p,q))
         return friendly>hostile
 
     def fleet_effect(self,p,group,name,base=1):
-        return sum(magnitude(self.players[q],('fleet',i),name,base) for q,i in (self.fleet_ref(p,x) for x in group))
+        return sum(magnitude(self.players[q],('fleet',i),name,base) for q,i in (self.fleet_ref(p,x) for x in group) if self.players[q].fleets[i].strength>0)
 
     def fleet_ref(self,p,reference):return reference if isinstance(reference,tuple) else (p,reference)
+
+    def fleet_signature(self,p,reference,anchor=None):
+        owner,i=self.fleet_ref(p,reference);state=self.players[owner];fleet=state.fleets[i]
+        projects=tuple(sorted(tuple(sorted((k,repr(v)) for k,v in vars(pr).items() if k!='host')) for pr in state.projects if pr.host==('fleet',i) and pr.integrity>0))
+        return owner,tuple(sorted((k,repr(v)) for k,v in vars(fleet).items())),projects,reference==anchor
+
+    def fleet_buckets(self,p,here,anchor=None):
+        buckets={}
+        for reference in here:buckets.setdefault(self.fleet_signature(p,reference,anchor),[]).append(reference)
+        return list(buckets.values())
+
+    def representative_groups(self,p,here,anchor=None):
+        buckets=self.fleet_buckets(p,here,anchor)
+        groups=[tuple(ref for bucket,count in zip(buckets,counts) for ref in bucket[:count]) for counts in product(*(range(len(bucket)+1) for bucket in buckets)) if any(counts)]
+        return sorted(groups,key=lambda g:(len(g),repr(g)))
+
+    def canonical_order(self,p,order,anchor=None):
+        if order[0]=='scout_attack':
+            _,i,destination,attack=order
+            projected=copy.deepcopy(self,{id(self.log):[]})
+            projected.players[p].fleets[i].system=destination
+            return (*order[:3],projected.canonical_order(p,attack,anchor=i))
+        if order[0] not in ('naval','ground','ground_mobile','bombard_shared','structure_assault'):return order
+        group=order[1]
+        refs=[self.fleet_ref(p,x) for x in group]
+        if not refs or len(set(refs))!=len(refs):raise ValueError('Empty or repeated fleet participant')
+        system=self.players[refs[0][0]].fleets[refs[0][1]].system
+        here=[i for i,f in enumerate(self.players[p].fleets) if f.strength>0 and not f.used and f.system==system]
+        here.extend((q,i) for q,i,b in sorted(self.consents) if b==p and self.allied(p,q) and self.players[q].fleets[i].strength>0 and not self.players[q].fleets[i].used and self.players[q].fleets[i].system==system)
+        if any(ref not in here for ref in group):raise ValueError('Participant unavailable or unapproved')
+        selected=[]
+        for bucket in self.fleet_buckets(p,here,anchor):selected.extend(bucket[:sum(ref in group for ref in bucket)])
+        return (order[0],tuple(selected),*order[2:])
 
     def participating_strength(self,p,group):
         return sum(self.players[q].fleets[i].strength for q,i in (self.fleet_ref(p,x) for x in group))
@@ -152,6 +202,35 @@ class Arena:
             fleet=self.players[owner].fleets[fi]
             if fleet.strength<=0 or fleet.used:raise ValueError('Fleet action unavailable for support')
         self.consents.update((owner,fi,beneficiary) for fi in indices)
+
+    def grant_defence(self,owner,beneficiary,indices):
+        """Explicit defensive support; already-used fleets remain eligible."""
+        if owner==beneficiary or not self.allied(owner,beneficiary):raise ValueError('Defence requires allied factions')
+        for fi in indices:
+            if self.players[owner].fleets[fi].strength<=0:raise ValueError('Destroyed fleet cannot defend')
+        self.defensive_consents.update((owner,fi,beneficiary) for fi in indices)
+
+    def defenders(self,p,system):
+        refs={(p,i) for i,f in enumerate(self.players[p].fleets) if f.strength>0 and f.system==system}
+        refs.update((q,i) for q,i,beneficiary in self.defensive_consents if beneficiary==p and self.allied(p,q) and self.players[q].fleets[i].strength>0 and self.players[q].fleets[i].system==system)
+        return tuple(sorted(refs))
+
+    def engage(self,p,group,spend=False):
+        for owner,i in (self.fleet_ref(p,x) for x in group):
+            f=self.players[owner].fleets[i]
+            if spend:f.used=True
+            self.fleet_combat.add((owner,i));self.engaged_factions.add(owner)
+            if f.mobile:self.mobile_attacked.add(owner)
+
+    def initiation(self,p,group):
+        refs=[self.fleet_ref(p,x) for x in group]
+        owner,i=max((r for r in refs if self.players[r[0]].fleets[r[1]].strength>1),key=lambda r:(not self.players[r[0]].fleets[r[1]].mobile,self.players[r[0]].fleets[r[1]].strength,-r[0],-r[1]))
+        self.players[owner].fleets[i].strength-=1
+
+    def hurt_group(self,p,group,damage):
+        for owner,i in (self.fleet_ref(p,x) for x in group):
+            if damage and self.players[owner].fleets[i].mobile:self.mobile_attacked.add(owner)
+            self.players[owner].hit_fleet(i,damage)
 
     def ground_strength(self,p,group):
         return self.participating_strength(p,group)+self.fleet_effect(p,group,'assault_boats',2)+self.fleet_effect(p,group,'carrier',5)
@@ -164,7 +243,7 @@ class Arena:
             owner,fi=max((self.fleet_ref(p,x) for x in group),key=lambda ref:self.players[ref[0]].fleets[ref[1]].strength)
             projected.players[owner].hit_fleet(fi,damage)
         if projected.participating_strength(p,group)==0:return True
-        return projected.players[p].afford(tier,max(1,projected.ground_strength(p,group)//5))
+        return projected.players[p].afford(tier,projected.ground_strength(p,group)//5)
 
     def commit_owned(self,p):
         for w,v in zip(self.holdings,self.players[p].worlds):
@@ -197,13 +276,14 @@ class Arena:
     def opening(self,rng):
         self.cycle+=1
         self.mobile_attacked.clear()
-        self.fleet_combat.clear();self.engaged_factions.clear();self.consents.clear()
-        self.phase_spent.clear();self.phase_position.clear()
+        self.fleet_combat.clear();self.engaged_factions.clear();self.consents.clear();self.defensive_consents.clear()
+        self.phase_spent.clear();self.phase_position.clear();self.begun_turns.clear()
         for w in self.holdings:w.attacked=False
         # One shared event roll, after every player's Logistics. No player turn intervenes.
         for p,s in enumerate(self.players):
             if p in self.eliminated:continue
             self.refresh(p)
+            s.fleet_battled.clear()
             for f in s.fleets:f.used=False
             if self.cycle%3==0 and s.role=='major':
                 si,mi,up=s.income();s.change('supply',si);s.change('manpower',mi)
@@ -235,7 +315,8 @@ class Arena:
             if p not in self.eliminated:yield p
 
     def begin_turn(self,p):
-        self.players[p].fleet_battled.clear()
+        if p in self.begun_turns:return
+        self.begun_turns.add(p)
         self.mobile_defended.discard(p)
         for w in self.holdings:
             if w.owner==p:w.defended=False
@@ -248,7 +329,7 @@ class Arena:
         system_fire=[]
         for q,s in enumerate(self.players):
             for fi,f in enumerate(s.fleets):
-                damage=sum(magnitude(other,('system',f.system),'system_defence') for p,other in enumerate(self.players) if not self.allied(p,q))
+                damage=sum(magnitude(other,('system',f.system),'system_defence') for p,other in enumerate(self.players) if self.may_attack(p,q))
                 if f.strength and damage:system_fire.append((q,fi,damage))
         for q,fi,damage in system_fire:self.players[q].hit_fleet(fi,damage)
         self.check()
@@ -274,7 +355,7 @@ class Arena:
                 if f.mobile and f.strength>0 and regen:f.strength=min(f.maximum,f.strength+regen)
         self.check()
 
-    def actions(self,p,phase,allow_scout=True):
+    def actions(self,p,phase,allow_scout=True,search=False,anchor=None):
         self.refresh(p);s=self.players[p]
         if self.stop or p in self.eliminated or s.role=='minor':return [('none',)]
         if phase=='social':
@@ -291,6 +372,8 @@ class Arena:
         if phase=='construction':return legal_construction(s)
         if phase=='faction':
             options=legal(s,phase)
+            options.extend(('defend',i) for i,w in enumerate(self.holdings) if w.owner==p and w.defence==w.maximum and s.afford(w.tier,w.tier))
+            if any(f.mobile and f.strength==f.maximum and f.strength>0 for f in s.fleets) and s.afford(4,4):options.append(('defend',-1))
             if not s.deficits:
                 controlled=[system for system in self.systems if any(w.system==system and not w.station for w in self.holdings) and all(w.owner==p for w in self.holdings if w.system==system and not w.station)]
                 if len(controlled)>=2 and s.afford(10,10):
@@ -334,33 +417,33 @@ class Arena:
                         if destination==f.system:continue
                         hypothetical=copy.deepcopy(self)
                         hypothetical.players[p].fleets[i].system=destination
-                        for attack in hypothetical.actions(p,'fleet',allow_scout=False):
+                        for attack in hypothetical.actions(p,'fleet',allow_scout=False,search=search,anchor=i):
                             if attack[0] in ('ground','ground_mobile','bombard_shared') and i in attack[1]:
                                 actions.append(('scout_attack',i,destination,attack))
         for system in self.systems:
             here=[i for i in available if s.fleets[i].system==system]
             here.extend((q,fi) for q,fi,beneficiary in sorted(self.consents) if beneficiary==p and self.allied(p,q) and self.players[q].fleets[fi].strength>0 and not self.players[q].fleets[fi].used and self.players[q].fleets[fi].system==system)
-            groups=[g for n in range(1,len(here)+1) for g in combinations(here,n)]
+            groups=self.representative_groups(p,here,anchor) if search else [g for n in range(1,len(here)+1) for g in combinations(here,n)]
             hostile=[q for q in range(len(self.players)) if not self.allied(p,q) and self.strength(q,system)>0]
             for group in groups:
                 fs=self.ground_strength(p,group);damage=max(1,fs//5)
                 for q,d in enumerate(self.players):
-                    if any(isinstance(i,tuple) for i in group):continue
-                    if self.allied(p,q):continue
+                    if not self.may_attack(p,q):continue
                     for pi,project in enumerate(d.projects):
                         if project.integrity<=0 or d.host_system(project.host)!=system:continue
                         if project.completed and getattr(project,'permanent_integrity',0):continue
-                        guarded=self.strength(q,system)>0
-                        if (guarded and any(s.fleets[i].strength>1 for i in group)) or (not hostile and s.afford(2)):
+                        guarded=bool(self.defenders(q,system))
+                        if (guarded and system not in s.fleet_battled and any(self.players[o].fleets[i].strength>1 for o,i in (self.fleet_ref(p,x) for x in group))) or (not hostile and s.afford(2)):
                             actions.append(('structure_assault',group,q,pi))
-                if all(isinstance(i,int) for i in group) and system not in s.fleet_battled and any(s.fleets[i].strength>1 for i in group):
-                    actions.extend(('naval',group,system,q) for q in hostile)
+                if system not in s.fleet_battled and any(self.players[o].fleets[i].strength>1 for o,i in (self.fleet_ref(p,x) for x in group)):
+                    actions.extend(('naval',group,system,q) for q in hostile if self.may_attack(p,q))
                 for q in hostile:
+                    if not self.may_attack(p,q):continue
                     for fi,f in enumerate(self.players[q].fleets):
                         if f.mobile and f.strength>0 and f.system==system and self.assault_affordable(p,group,q,-1,4):
                             actions.append(('ground_mobile',group,q,fi))
                 for wi,w in enumerate(self.holdings):
-                    if w.system!=system or self.allied(p,w.owner):continue
+                    if w.system!=system or not self.may_attack(p,w.owner):continue
                     if not hostile and w.defence>1 and s.afford(w.tier*2):actions.append(('bombard_shared',group,wi))
                     if self.assault_affordable(p,group,w.owner,wi,w.tier):actions.append(('ground',group,wi))
         return actions
@@ -372,7 +455,8 @@ class Arena:
         if p in self.eliminated or self.players[p].role=='minor':raise ValueError('No active Major turn')
         if phases[phase]<self.phase_position.get(p,2):raise ValueError('Cannot return to an earlier phase')
         if (p,phase) in self.phase_spent:raise ValueError('Phase action already spent')
-        options=self.actions(p,phase)
+        options=self.actions(p,phase,search=True)
+        if phase=='fleet' and a not in options and self.canonical_order(p,a) in options:options.append(a)
         if a[0]=='communique' and phase=='social':
             if not isinstance(a[2],str) or not a[2].strip():raise ValueError('Communique requires a message')
             if not any(x[0]=='communique' and x[1]==a[1] for x in options):raise ValueError('No shared system presence')
@@ -382,7 +466,7 @@ class Arena:
         elif a not in options:raise ValueError('Illegal order for current phase and state')
         checkpoint=copy.deepcopy(self.__dict__)
         random_state=rng.getstate() if hasattr(rng,'getstate') else None
-        try:self.act(p,a,rng,forced)
+        try:self.act(p,a,rng,forced,_validated=True)
         except Exception:
             self.__dict__.clear();self.__dict__.update(checkpoint)
             if random_state is not None:rng.setstate(random_state)
@@ -413,15 +497,15 @@ class Arena:
             if not 1<=self.holdings[wi].defence+delta<=self.holdings[wi].maximum:raise ValueError('Garrison capacity exceeded')
         return totals
 
-    def act(self,p,a,rng,forced=None):
+    def act(self,p,a,rng,forced=None,_validated=False):
         if a[0]=='none':return
         self.refresh(p);s=self.players[p];kind=a[0]
         self.log.append(dict(cycle=self.cycle,player=p,action=kind,order=a))
         if kind=='summon':
-            if a not in self.actions(p,'faction'):raise ValueError('Illegal Summon Allies')
+            if not _validated and a not in self.actions(p,'faction'):raise ValueError('Illegal Summon Allies')
             _,system,capital,trait=a;s.pay(10,10)
             ally=SharedState(supply=10,manpower=10,trait=trait);ally.alignment=s.alignment;ally.fleets=[];ally.policy_parent=p
-            q=len(self.players);self.players.append(ally);self.capitals.append(None);self.provisional.append(capital)
+            q=len(self.players);self.defender_policies[q]=self.defender_policies.get(p,'balanced');self.players.append(ally);self.capitals.append(None);self.provisional.append(capital)
             granted={wi for wi,w in enumerate(self.holdings) if w.system==system and not w.station and w.owner==p}
             for wi in granted:self.holdings[wi].owner=q;self.holdings[wi].defended=False
             for project in list(s.projects):
@@ -437,7 +521,7 @@ class Arena:
             for wi,delta in self.validate_garrison(p,a[1]).items():self.holdings[wi].defence+=delta
             self.check();return
         if kind=='merge':
-            if a not in self.actions(p,'fleet'):raise ValueError('Illegal Fleet Merge')
+            if not _validated and a not in self.actions(p,'fleet',search=True):raise ValueError('Illegal Fleet Merge')
             _,survivor,absorbed=a;target=s.fleets[survivor];donor=s.fleets[absorbed]
             bonus=max(0,donor.maximum-5)
             target.maximum+=bonus;target.strength=min(target.maximum,target.strength+donor.strength)
@@ -446,47 +530,47 @@ class Arena:
                 if project.host==('fleet',absorbed):project.host=('fleet',survivor)
             self.check();return
         if kind=='transfer':
-            if a not in self.actions(p,'fleet'):raise ValueError('Illegal Fleet Transfer')
+            if not _validated and a not in self.actions(p,'fleet',search=True):raise ValueError('Illegal Fleet Transfer')
             _,donor,recipient,amount=a
             s.fleets[donor].strength-=amount;s.fleets[recipient].strength+=amount
             s.fleets[donor].used=True
             self.check();return
         if kind=='scuttle':
-            if a not in self.actions(p,'fleet'):raise ValueError('Illegal Scuttle')
+            if not _validated and a not in self.actions(p,'fleet',search=True):raise ValueError('Illegal Scuttle')
             fi=a[1];refund=s.fleets[fi].strength//2;s.fleets[fi].used=True
             s.hit_fleet(fi,s.fleets[fi].strength)
             s.change('supply',refund)
             self.check();return
         if kind=='scout_attack':
-            if a not in self.actions(p,'fleet'):raise ValueError('Illegal Scout movement/attack')
+            if not _validated and self.canonical_order(p,a) not in self.actions(p,'fleet',search=True):raise ValueError('Illegal Scout movement/attack')
             _,fi,destination,attack=a
             s.fleets[fi].system=destination
-            self.act(p,attack,rng,forced)
+            self.act(p,attack,rng,forced,_validated=True)
             return
         if kind=='structure_assault':
-            if a not in self.actions(p,'fleet'):raise ValueError('Illegal Structure Assault')
+            if not _validated and self.canonical_order(p,a) not in self.actions(p,'fleet',search=True):raise ValueError('Illegal Structure Assault')
             group,q,pi=a[1:];d=self.players[q];project=d.projects[pi]
             system=d.host_system(project.host)
-            defenders=[i for i,f in enumerate(d.fleets) if f.strength>0 and f.system==system]
-            for i in group:s.fleets[i].used=True
-            self.fleet_combat.update((p,i) for i in group);self.engaged_factions.add(p)
+            defenders=self.defenders(q,system)
+            self.engage(p,group,spend=True)
             if defenders:
-                self.fleet_combat.update((q,i) for i in defenders);self.engaged_factions.add(q)
-                initiator=max((i for i in group if s.fleets[i].strength>1),key=lambda i:(not s.fleets[i].mobile,s.fleets[i].strength,-i))
-                s.fleets[initiator].strength-=1
+                s.fleet_battled.add(system)
+                self.engage(q,defenders)
+                self.initiation(p,group)
                 rolls=forced or (rng.randint(1,20),rng.randint(1,20))
-                margin=rolls[0]+sum(s.fleets[i].strength for i in group)+self.fleet_effect(p,group,'escort',3)-rolls[1]-self.strength(q,system)-self.fleet_effect(q,defenders,'escort',3)-magnitude(d,('system',system),'defence_platform',5)
+                margin=rolls[0]+self.participating_strength(p,group)+self.fleet_effect(p,group,'escort',3)-rolls[1]-self.participating_strength(q,defenders)-self.fleet_effect(q,defenders,'escort',3)-magnitude(d,('system',system),'defence_platform',5)
                 if margin>0:project.integrity=max(getattr(project,'permanent_integrity',0),project.integrity-fleet_losses(margin))
-                elif margin<0:
-                    for i in group:s.hit_fleet(i,fleet_losses(-margin))
+                elif margin<0:self.hurt_group(p,group,fleet_losses(-margin))
                 self.log.append(dict(cycle=self.cycle,combat='structure',attacker=p,defender=q,rolls=rolls,margin=margin))
+                for owner in {p,q}|{o for o,i in [*(self.fleet_ref(p,x) for x in group),*defenders]}:
+                    if self.players[owner].trait=='salvagers':self.players[owner].change('supply',1)
             else:
                 s.pay(2)
-                damage=max(1,sum(s.fleets[i].strength for i in group)//5)
+                damage=max(1,self.participating_strength(p,group)//5)
                 project.integrity=max(getattr(project,'permanent_integrity',0),project.integrity-damage)
             self.check();return
         if kind=='defend_structure':
-            if a not in self.actions(p,'faction'):raise ValueError('Illegal structure Defend')
+            if not _validated and a not in self.actions(p,'faction'):raise ValueError('Illegal structure Defend')
             project=s.projects[a[1]];cost=1 if CATALOG[project.profile].stages==3 else 3
             s.pay(cost,cost)
             if not s.full_host(project.host) or project.integrity<=0:
@@ -494,7 +578,7 @@ class Arena:
             else:project.integrity=min(project.maximum,project.integrity+cost)
             self.check();return
         if kind in ('start','build','repair','upgrade'):
-            if a not in self.actions(p,'construction'):raise ValueError('Illegal construction action')
+            if not _validated and a not in self.actions(p,'construction'):raise ValueError('Illegal construction action')
             construct(s,a)
             project=s.projects[-1] if kind=='start' else s.projects[a[1]]
             if project.active and project.profile in ('assault_cruiser','flagship'):
@@ -526,7 +610,12 @@ class Arena:
                 if f.strength:f.strength=min(f.maximum,f.strength+2)
                 self.check();return
             creation_strength=s.creation_strength(a[1]) if kind=='create' else None
-            apply(s,a,rng);self.commit_owned(p)
+            if kind=='defend' and a[1]==-1:
+                s.pay(4,4)
+                for f in s.fleets:
+                    if f.mobile and f.strength:f.strength=min(f.maximum,f.strength+4)
+            else:apply(s,a,rng)
+            self.commit_owned(p)
             if creation_strength is not None:s.fleets[-1].strength=creation_strength
             if kind=='defend' and a[1]>=0:self.holdings[a[1]].defended=True
             if kind=='defend' and a[1]==-1:self.mobile_defended.add(p)
@@ -545,23 +634,19 @@ class Arena:
         if kind=='naval':
             system,q=a[2:];d=self.players[q]
             s.fleet_battled.add(system)
-            defenders=[i for i,f in enumerate(d.fleets) if f.strength>0 and f.system==system]
-            self.engaged_factions.add(q);self.fleet_combat.update((q,i) for i in defenders)
-            if any(d.fleets[i].mobile for i in defenders):self.mobile_attacked.add(q)
-            initiator=max((i for i in group if s.fleets[i].strength>1),key=lambda i:(not s.fleets[i].mobile,s.fleets[i].strength,-i))
-            s.fleets[initiator].strength-=1
+            defenders=self.defenders(q,system)
+            self.engage(q,defenders)
+            self.initiation(p,group)
             rolls=forced or (rng.randint(1,20),rng.randint(1,20))
-            margin=rolls[0]+sum(s.fleets[i].strength for i in group)+self.fleet_effect(p,group,'escort',3)-rolls[1]-sum(d.fleets[i].strength for i in defenders)-self.fleet_effect(q,defenders,'escort',3)-magnitude(d,('system',system),'defence_platform',5)
-            if margin>0:
-                if any(d.fleets[i].mobile for i in defenders):self.mobile_attacked.add(q)
-                for i in defenders:d.hit_fleet(i,fleet_losses(margin))
-            elif margin<0:
-                if any(s.fleets[i].mobile for i in group):self.mobile_attacked.add(p)
-                for i in group:s.hit_fleet(i,fleet_losses(-margin))
+            margin=rolls[0]+self.participating_strength(p,group)+self.fleet_effect(p,group,'escort',3)-rolls[1]-self.participating_strength(q,defenders)-self.fleet_effect(q,defenders,'escort',3)-magnitude(d,('system',system),'defence_platform',5)
+            if margin>0:self.hurt_group(q,defenders,fleet_losses(margin))
+            elif margin<0:self.hurt_group(p,group,fleet_losses(-margin))
             self.log.append(dict(cycle=self.cycle,combat='naval',attacker=p,defender=q,rolls=rolls,margin=margin))
-            if margin>0:s.change('supply',self.fleet_effect(p,group,'salvage_wing',3))
-            elif margin<0:d.change('supply',self.fleet_effect(q,defenders,'salvage_wing',3))
-            for owner in (p,q):
+            winners=group if margin>0 else defenders if margin<0 else ()
+            winner=p if margin>0 else q
+            for owner,i in (self.fleet_ref(winner,x) for x in winners):
+                self.players[owner].change('supply',magnitude(self.players[owner],('fleet',i),'salvage_wing',3))
+            for owner in {o for o,i in [*(self.fleet_ref(p,x) for x in group),*defenders]}:
                 if self.players[owner].trait=='salvagers':self.players[owner].change('supply',1)
         else:
             mobile_target=kind=='ground_mobile'
@@ -577,10 +662,11 @@ class Arena:
             if cannon_damage:
                 target_owner,target_i=max((self.fleet_ref(p,x) for x in group),key=lambda ref:self.players[ref[0]].fleets[ref[1]].strength)
                 self.players[target_owner].hit_fleet(target_i,cannon_damage)
+                if self.players[target_owner].fleets[target_i].mobile:self.mobile_attacked.add(target_owner)
                 self.log.append(dict(cycle=self.cycle,action='orbital_cannons',player=q,target_player=target_owner,target_fleet=target_i,damage=cannon_damage))
                 if self.participating_strength(p,group)==0:
                     w.attacked=True;self.check();return
-            base_damage=max(1,self.ground_strength(p,group)//5)
+            base_damage=self.ground_strength(p,group)//5
             damage=base_damage+self.fleet_effect(p,group,'bombardment_bay')+self.fleet_effect(p,group,'siege_platform',2)
             human_battle=p in self.human_players or q in self.human_players
             intel=self.intel_choices.get(p) if self.event==6 and human_battle else None
@@ -593,14 +679,17 @@ class Arena:
             else:
                 s.pay(w.tier,base_damage)
                 self.engaged_factions.add(q)
-                defenders=[i for i,f in enumerate(d.fleets) if f.strength>0 and f.system==w.system]
-                self.fleet_combat.update((q,i) for i in defenders)
+                defenders=self.defenders(q,w.system)
+                self.engage(q,defenders)
                 # Inherited AI defender commitment convention; Supply ambiguity is a switch.
                 militia=bool(active(d,wi,'militia'))
                 commitment=0 if militia else damage if human_battle else damage//2
                 defender_supply,defender_manpower=self.minor_resources(wi) if d.role=='minor' else (d.supply,d.manpower)
                 isolated=not militia and ('manpower' in d.deficits or defender_manpower<commitment)
                 conscription=self.defence_choices.pop((q,wi),None)
+                if isolated and commitment and conscription is None and q in self.defender_policies and q not in self.human_players:
+                    from bot_control import conscription as choose_conscription
+                    conscription=choose_conscription(self,q,wi,commitment,damage)
                 conscripted=False
                 if isolated and commitment and conscription is not None:
                     if sum(amount for di,amount in conscription)!=commitment:raise ValueError('Conscription must meet the exact commitment')
@@ -615,20 +704,20 @@ class Arena:
                 if isolated:
                     commitment=0
                     self.log.append(dict(cycle=self.cycle,player=q,action='isolated_defense'))
-                elif commitment and not conscripted:d.change('manpower',-commitment)
                 defender_supply_paid=min(defender_supply,w.tier) if self.defender_supply_cost else 0
                 if defender_supply_paid:d.change('supply',-defender_supply_paid)
+                if commitment and not conscripted:d.change('manpower',-commitment)
                 if d.role=='major':defender_supply,defender_manpower=d.supply,d.manpower
                 else:
                     defender_manpower-=commitment
                     defender_supply-=defender_supply_paid
                 av=self.ground_strength(p,group)+s.supply+s.manpower+(10 if self.event==6 else 0)
-                dv=self.strength(q,w.system)+defender_supply+defender_manpower+(10 if self.event==2 else 0)+(15 if w.defended or shield_network else 0)-(15 if isolated else 0)+magnitude(d,wi,'bunker',5)
+                dv=self.participating_strength(q,defenders)+defender_supply+defender_manpower+(10 if self.event==2 else 0)+(15 if w.defended or shield_network else 0)-(15 if isolated else 0)+magnitude(d,wi,'bunker',5)
                 raid_won=False
                 if human_battle:
                     if (p,wi) not in self.reported_outcomes:
                         attacker=BattleSide(s.supply,s.manpower,self.ground_strength(p,group),str(p))
-                        defender=BattleSide(defender_supply,defender_manpower,self.strength(q,w.system),str(q))
+                        defender=BattleSide(defender_supply,defender_manpower,self.participating_strength(q,defenders),str(q))
                         attacking=p in self.human_players
                         setup=soulstorm_setup(attacker if attacking else defender,defender if attacking else attacker,
                             player_attacking=attacking,defended=w.defended or shield_network,
@@ -653,17 +742,17 @@ class Arena:
                         won=not tied and totals[0]==highest
                         raid_won=not tied and totals[2]==highest
                         self.log.append(dict(cycle=self.cycle,combat='third_party_raid',rolls=[rolls[0],rolls[1],raid_roll],totals=totals,winner='raider' if raid_won else 'attacker' if won else 'defender',provisional=True,profile=dict(self.raid_profile)))
-                transport=self.fleet_effect(p,group,'troop_transport',10)
+                transport=max((magnitude(self.players[o],('fleet',i),'troop_transport',10) for o,i in (self.fleet_ref(p,x) for x in group) if self.players[o].fleets[i].strength>0),default=0)
                 if won or (isolated and not raid_won):s.change('manpower',math.floor(base_damage*min(.8,.6+transport/100)))
                 defence_return=.6 if not human_battle or s.trait=='dread' else .8
                 if not won and not raid_won:d.change('manpower',math.floor(commitment*defence_return))
-                if not won and not raid_won:d.change('supply',math.floor(defender_supply_paid*(.6 if human_battle and s.trait=='dread' else .8)))
+                if not won and not raid_won:d.change('supply',math.floor(defender_supply_paid*(.6 if s.trait=='dread' else .8)))
                 actual=damage if won else (1 if s.trait=='siege' else 0)
                 if raid_won:
                     if w.tier>=3:actual=max(actual,w.defence-w.defence//2)
                     actual=min(max(0,w.defence-1),actual)
                 self.log.append(dict(cycle=self.cycle,combat='ground',attacker=p,defender=q,rolls=rolls,totals=None if human_battle else [rolls[0]+av,rolls[1]+dv],won=won,reported=human_battle))
-                for owner in (p,q):
+                for owner in {p,q}|{o for o,i in [*(self.fleet_ref(p,x) for x in group),*defenders]}:
                     if self.players[owner].trait=='salvagers':self.players[owner].change('supply',1)
             if kind!='bombard_shared':actual=max(0,actual-magnitude(d,wi,'void_shield'))
             if shield_invulnerable:actual=0
@@ -725,7 +814,7 @@ class Arena:
             captor=next(iter(owners))
             if not self.void(captor,system):continue
             for q,other in enumerate(self.players):
-                if q==captor:continue
+                if self.allied(captor,q):continue
                 for project in list(other.projects):
                     if project.host!=('system',system) or project.integrity<=0:continue
                     if CATALOG[project.profile].stages==3:
@@ -763,42 +852,90 @@ class Arena:
                 elif project.host==-1:assert any(f.mobile and f.strength>0 for f in s.fleets)
                 else:assert self.holdings[project.host].owner==p
 
+def _copy_model(self,memo):
+    """Copy mutable state without generic reconstruction of primitive fields."""
+    result=type(self).__new__(type(self));memo[id(self)]=result
+    result.__dict__={key:(value if type(value) in (str,int,float,bool,type(None)) else copy.deepcopy(value,memo)) for key,value in vars(self).items()}
+    return result
+
+for _model in (Arena,SharedState,Holding,Fleet,World,Project):
+    _model.__deepcopy__=_copy_model
+
+def search_clone(arena):
+    # World lists are derived read-only caches: refresh() replaces an actor's
+    # cache before every mutation and check() replaces all caches afterwards.
+    memo={id(arena.log):[],id(arena.messages):[copy.deepcopy(m) for m in arena.messages if m['cycle']==arena.cycle]}
+    for state in arena.players:
+        memo[id(state.trace)]=[]
+        memo[id(state.worlds)]=state.worlds
+    return copy.deepcopy(arena,memo)
+
 # Distinct tactical priorities, still heuristic bots, not validated human substitutes.
 # Each compares sampled consequences and threat to its own holdings.
 def policy_for(arena,p,policies):
     while p>=len(policies):p=getattr(arena.players[p],'policy_parent',0)
     return policies[p]
 
+POLICY_WEIGHTS={
+ 'raider':(28,1.2,1.,1.,4.),
+ 'industrial':(14,1.2,3.,1.8,1.),
+ 'fleet_control':(18,2.,1.,1.4,1.),
+ 'conservative':(16,1.4,1.5,3.,1.),
+ 'opportunist':(30,1.2,1.,1.2,3.),
+ 'balanced':(20,1.4,2.,2.,2.),
+}
+
 def utility(arena,p,policy):
     s=arena.players[p];si,mi,up=s.income()
-    capture_weight={'raider':28,'industrial':14,'fleet_control':18}[policy]
+    capture_weight,naval,economy,caution,damage_weight=POLICY_WEIGHTS[policy]
+    if p in arena.eliminated:return -10000
     score=2*math.sqrt(s.supply)+2*math.sqrt(s.manpower)-25*len(s.deficits)
+    score+=8*sum(s.deficits.values())
+    # Predict mandatory upkeep and keep a buffer for the next assault/event.
+    reserve=max(3,up+2)
+    score-=caution*(max(0,reserve-s.supply)+max(0,reserve-s.manpower))
     score+=capture_weight*sum(w.tier for w in arena.holdings if w.owner==p)
-    score+=sum(f.strength for f in s.fleets)*1.4
-    score+=(3 if policy=='industrial' else 1)*(si+mi-2*up)
+    score+=sum(f.strength for f in s.fleets)*naval
+    # Logistics is a three-Cycle flow, not income received every turn.
+    score+=economy*(si+mi-2*up)/3
+    owned_systems={w.system for w in arena.holdings if w.owner==p}|{f.system for f in s.fleets if f.mobile and f.strength>0}
+    desired_strength=5*(len(owned_systems)+1)
+    actual_strength=sum(f.strength for f in s.fleets)
+    score-=naval*max(0,desired_strength-actual_strength)
+    # Repair access is a real strategic option. This rewards returning depleted
+    # fleets to a yard rather than banking resources indefinitely at the front.
+    for f in s.fleets:
+        if f.strength>0 and not f.mobile and f.strength<f.maximum and f.system in s.yards():
+            score+=naval*.8*(f.maximum-f.strength)
+    score-=caution*(max(0,2*(up-si)-s.supply)+max(0,2*(up-mi)-s.manpower))
     for project in s.projects:
-        score+=project.integrity*(2 if policy=='industrial' else .5)
+        if project.integrity>0:
+            score+=project.integrity*(2 if policy=='industrial' else .5)
+            if project.completed and not project.active:score-=3
     for system in arena.systems:
         own=arena.strength(p,system);enemy=sum(arena.strength(q,system) for q in range(len(arena.players)) if not arena.allied(p,q))
         holdings=[w for w in arena.holdings if w.system==system and w.owner==p]
-        targets=[w for w in arena.holdings if w.system==system and w.owner!=p]
-        score-=max(0,enemy-own)*(.7 if holdings else .1)
+        targets=[w for w in arena.holdings if w.system==system and arena.may_attack(p,w.owner)]
+        score-=max(0,enemy-own)*(.7*caution if holdings else .1)
+        score+=sum(w.defence*.35 for w in holdings)
         if targets:
-            score+=sum(w.maximum-w.defence for w in targets)*(4 if policy=='raider' else 1)
-            score+=min(own,enemy+10)*(.9 if policy=='raider' else .5)
+            score+=sum(w.maximum-w.defence for w in targets)*damage_weight
+            score+=min(own,enemy+10)*(.9 if policy in ('raider','opportunist') else .5)
             if policy=='fleet_control':score-=enemy*1.2
-    if arena.stop:score-=20 # Terminal unsupported paths are reported, not assigned a win.
+    # Alliances matter, but coalition assets never become the player's resources.
+    score+=.35*sum(capture_weight*sum(w.tier for w in arena.holdings if w.owner==q)+naval*sum(f.strength for f in other.fleets) for q,other in enumerate(arena.players) if q!=p and arena.allied(p,q))
+    if arena.stop:score-=10000
     return score
 
 def choose(arena,p,phase,policy,decision):
-    actions=arena.actions(p,phase)
+    actions=arena.actions(p,phase,search=True)
     best=(-float('inf'),actions[0])
     rng=random.Random(900000+decision);draws=[tuple(rng.randint(1,20) for _ in range(3 if arena.event==5 else 2)) for _ in range(3)]
     for a in actions:
         scores=[]
         for roll in draws if a[0] in ('ground','ground_mobile','naval','structure_assault','scout_attack') else draws[:1]:
-            t=copy.deepcopy(arena);t.log=[]
-            t.act(p,a,random.Random(0),roll if a[0] in ('ground','ground_mobile','scout_attack') else roll[:2]);scores.append(utility(t,p,policy))
+            t=search_clone(arena)
+            t.act(p,a,random.Random(0),roll if a[0] in ('ground','ground_mobile','scout_attack') else roll[:2],_validated=True);scores.append(utility(t,p,policy))
         score=sum(scores)/len(scores)-.15*(max(scores)-min(scores))
         if score>best[0]+1e-9:best=(score,a)
     return best[1]
@@ -806,6 +943,7 @@ def choose(arena,p,phase,policy,decision):
 def run(seed,cycles=18,start=20,rotation=0,expand_mp=0,create_mp=1,planner_depth=0,policy_rotation=0):
     a=Arena(start,expand_mp,create_mp,rotation);events=random.Random(seed);combat=random.Random(seed+1000000)
     base=['raider','industrial','fleet_control'];policies=base[policy_rotation:]+base[:policy_rotation];decision=0
+    a.defender_policies=dict(enumerate(policies))
     def select(p,phase):
         nonlocal decision
         if planner_depth:
@@ -820,6 +958,8 @@ def run(seed,cycles=18,start=20,rotation=0,expand_mp=0,create_mp=1,planner_depth
         for p in a.turns():
             if p in a.eliminated:continue
             a.begin_turn(p)
+            from bot_control import coordinate,social
+            coordinate(a,p,policies)
             for _ in range(len(a.players[p].fleets)+1):
                 order=select(p,'fleet')
                 if order[0]=='none':break
@@ -827,6 +967,8 @@ def run(seed,cycles=18,start=20,rotation=0,expand_mp=0,create_mp=1,planner_depth
                 if a.stop:break
             if a.stop:break
             for phase in ('faction','social','construction'):
+                if phase=='social':
+                    social(a,p,policies,combat);continue
                 order=select(p,phase);a.submit(p,phase,order,combat)
                 if a.stop:break
             if a.stop:break
@@ -839,8 +981,11 @@ def run(seed,cycles=18,start=20,rotation=0,expand_mp=0,create_mp=1,planner_depth
         players=[dict(supply=s.supply,manpower=s.manpower,holdings=sum(w.owner==p for w in a.holdings),strength=sum(f.strength for f in s.fleets),deficits=s.deficits,deficit_entries=sum(v for k,v in s.counts.items() if k.startswith('deficit_'))) for p,s in enumerate(a.players)]),a.log
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--diagnostic',action='store_true');parser.add_argument('--seeds',type=int,default=4);parser.add_argument('--cycles',type=int,default=18);parser.add_argument('--out',default='shared-results');args=parser.parse_args()
-    if not args.diagnostic:raise SystemExit('Balance studies locked: mechanics and strategy validation are incomplete. Use --diagnostic only for implementation checks.')
+    parser=argparse.ArgumentParser();parser.add_argument('--diagnostic',action='store_true');parser.add_argument('--balance',action='store_true');parser.add_argument('--seeds',type=int,default=4);parser.add_argument('--cycles',type=int,default=18);parser.add_argument('--out',default='shared-results');args=parser.parse_args()
+    if args.balance:
+        from readiness import require_ready
+        require_ready()
+    elif not args.diagnostic:raise SystemExit('Choose --diagnostic or validated --balance mode.')
     out=Path(args.out);out.mkdir(exist_ok=True);rows=[]
     for start in (6,20):
         for rotation in range(3):
@@ -849,7 +994,7 @@ def main():
                 (out/f'trace-{start}-{rotation}-{seed}.json').write_text(json.dumps(trace,indent=2))
         print('Starting resources',start,'finished',flush=True)
     (out/'trials.json').write_text(json.dumps(rows,indent=2))
-    (out/'manifest.json').write_text(json.dumps(dict(engine_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),core_sha256=hashlib.sha256(Path('balance_sim.py').read_bytes()).hexdigest(),source_sha256=hashlib.sha256(Path('Source_Rules.md').read_bytes()).hexdigest(),seeds=args.seeds,cycles=args.cycles,classification='integration experiments, not balance certification',limitations=['Synthetic asymmetrical Major-only map','Three heuristic policies, no multi-turn search yet','No diplomacy or consent model; all opponents hostile','Raid assaults omitted: this alone invalidates balance conclusions','Construction catalogue incomplete; see coverage register','Defender Supply debit enabled per 16 September ruling; AI tie favours defender','Turn order rotated, but policy/trait/map assignments not rotated','No human Soulstorm outcome model']),indent=2))
+    (out/'manifest.json').write_text(json.dumps(dict(engine_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),core_sha256=hashlib.sha256(Path('balance_sim.py').read_bytes()).hexdigest(),source_sha256=hashlib.sha256(Path('Source_Rules.md').read_bytes()).hexdigest(),seeds=args.seeds,cycles=args.cycles,classification='integration experiments, not balance certification',limitations=['Legacy asymmetric synthetic fixture; prefer balance_experiment.py for controlled comparisons','Bounded heuristic/search policies do not model human Soulstorm skill','Provisional raid profile and B21 defensive-cost timing are retained','Personnel and future Sector mechanics are not numerical Subsector mechanics']),indent=2))
     print('Trials',len(rows),'stopped',sum(bool(r['stop']) for r in rows),flush=True)
 
 if __name__=='__main__':main()

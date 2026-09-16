@@ -1,0 +1,52 @@
+{
+  "reviewed": true,
+  "inputs": {
+    "shared_sim.py": "b351c514ed3fc77cbb8d9e1c8ac0a555ce55ab33bc904207e411e99e0ff9b77a",
+    "balance_sim.py": "56e855e9c23a88e8122696256b71bc6f2f38fa7137470de10f1903bc0208cffc",
+    "construction_rules.py": "e7f0521be9d616ec6bd3fe0c3d9ed9e75cf85531007d5a5f006326e4f3102a24",
+    "battle_setup.py": "6b931085a3958e1305ad0c77ac295037c687cc436064376078a62a67c201742c",
+    "sim_replay.py": "5fa4fdc7b764fb9859268ead47b29734b0db2bd459bda6f742c3d65f39b5f3ee",
+    "bot_control.py": "c296a622aecfbf6dee323aab84eddf8612e6d7db8faea1c970de96ce4fc5b2d0",
+    "strategic_planner.py": "19eb35d5c7b36d3140c11d59d7f5a17aa437c94fc2b0a085f4a725bcd939492b",
+    "sim_scenarios.py": "5dcac5fb0081c4999b4b4eea32fc5f591c75a508ddfb0e1ef3df2b93fa66a5ba",
+    "strategy_validation.py": "7c2c5b1ae297a09ffddeb09bf1deeca7c3ad066fab03aec1688ab4b78b4d0392",
+    "balance_experiment.py": "cf7d68200b400998bb273e4fa5085139f8632db2602483d34619be04416bd84a",
+    "operational_bots.py": "72713c495a366043477b74a06301b1eafda1dfbe5a26ec37b8303c1b581cd5da",
+    "operational_search.py": "e73d6b4f0c160e8aa361a11710d260f61918859f5e6cb193b3872ad2d650661e",
+    "bot_dispatch.py": "8954d35536786e207c57789417da42874fd484ccba6e497c70fc5bbe9a0940b8",
+    "siege_diagnostic.py": "96545691e9d8993fd9446c830c47471e7fbcc1a1f0b1df09c40e212e455668a2",
+    "Source_Rules.md": "be74d298e314da6e6d3fd03ed228f21d13f59547347fe4c10884c6817128da3a"
+  },
+  "blocking_bot_failures": [],
+  "scope": "Operational horizon zero, numerical Subsector baseline comparisons",
+  "observations": [
+    "The sole matrix case still contested at100 was inspected: its last20Cycles contain9naval and3ground attacks,23expansions,9moves and13fleet creations, alongside repairs and resupply. This is active conflict, not an idle controller loop.",
+    "The unfinished independent-opponent case was inspected: repeated enemy ground assaults, losses, capital defence and rationing explain the operational faction recovery bottleneck; the other controllers remain distinct opponents, not an optimal-play standard.",
+    "The former200Cycle repair-loop case now reaches coalition/control milestones at41/44 under current inputs. Regression tests prevent repaired damage being repeatedly counted as fresh progress.",
+    "Independent replacements have mixed outcomes and can win seats their baseline counterpart lost; production controllers are not universally stronger and no losses were discarded.",
+    "All12traits occur with all6strategies in all3positions. Free Void expansion now survives the controller reserve check;15focused trait tests supplement the engine regressions.",
+    "Larger-map controls at52and68 are descriptive diagnostics, not estimates of average campaign duration."
+  ],
+  "limits": [
+    "Not optimal-human or Soulstorm-outcome certification",
+    "Two matrix replicates are insufficient for close trait rankings",
+    "Opponent contexts vary with seat; raw seat aggregates are descriptive",
+    "Rare actions and less-used constructions need targeted strategy scenarios before balance claims",
+    "Experimental sampled search is excluded"
+  ],
+  "unresolved_cases": [
+    "s0-t2-p5-seat0"
+  ],
+  "late_actions": {
+    "naval": 9,
+    "none": 79,
+    "reinforce": 12,
+    "create": 13,
+    "muster": 5,
+    "defend": 10,
+    "expand": 23,
+    "move": 9,
+    "ground": 3,
+    "start": 1
+  }
+}

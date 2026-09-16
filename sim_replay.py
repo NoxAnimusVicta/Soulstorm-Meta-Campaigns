@@ -8,7 +8,7 @@ TYPES={c.__name__:c for c in (Arena,SharedState,Holding,Fleet,World,Project)}
 
 def inputs():
  root=Path(__file__).resolve().parent
- names=('shared_sim.py','balance_sim.py','construction_rules.py','battle_setup.py','sim_replay.py','Source_Rules.md')
+ names=('shared_sim.py','balance_sim.py','construction_rules.py','battle_setup.py','sim_replay.py','bot_control.py','strategic_planner.py','sim_scenarios.py','strategy_validation.py','balance_experiment.py','operational_bots.py','operational_search.py','bot_dispatch.py','siege_diagnostic.py','Source_Rules.md')
  return {name:hashlib.sha256((root/name).read_bytes()).hexdigest() for name in names}
 
 def encode(value):
@@ -52,6 +52,10 @@ class Replay:
   if kind=='opening':self.arena.opening(self.rng)
   elif kind=='closing':self.arena.closing()
   elif kind=='begin':self.arena.begin_turn(command[1])
+  elif kind=='support':self.arena.grant_support(command[1],command[2],command[3])
+  elif kind=='defence_support':self.arena.grant_defence(command[1],command[2],command[3])
+  elif kind=='pact_offer':self.arena.propose_pact(command[1],command[2],command[3],self.rng)
+  elif kind=='pact_reply':self.arena.answer_pact(command[1],command[2],command[3])
   elif kind=='submit':self.arena.submit(command[1],command[2],command[3],self.rng)
   else:raise ValueError('Unknown replay command')
   self.commands.append({'command':encode(command),'after':digest(self.arena)})

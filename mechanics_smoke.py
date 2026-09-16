@@ -10,7 +10,7 @@ def run(seed,cycles):
  for _ in range(cycles):
   replay.apply(('opening',))
   if arena.stop:break
-  for p in list(arena.turn_order):
+  for p in arena.turns():
    if p in arena.eliminated:continue
    replay.apply(('begin',p))
    for phase in ('fleet','faction','social','construction'):
@@ -33,7 +33,8 @@ if __name__=='__main__':
   document,stop=run(seed,args.cycles)
   (out/f'replay-{seed}.json').write_text(json.dumps(document,indent=2),encoding='utf-8')
   results.append(dict(seed=seed,commands=len(document['commands']),stop=stop,replay_verified=True))
- inputs=['Source_Rules.md','balance_sim.py','shared_sim.py','construction_rules.py','battle_setup.py','sim_replay.py','mechanics_smoke.py']
+ from sim_replay import inputs as core_inputs
+ inputs=list(core_inputs())+['readiness.py','mechanics_smoke.py']
  (out/'inputs').mkdir(exist_ok=True)
  hashes={}
  for name in inputs:

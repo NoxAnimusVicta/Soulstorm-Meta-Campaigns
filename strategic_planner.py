@@ -3,11 +3,12 @@ This is a search improvement, not a claim of expert or optimal play.
 """
 import copy, random
 from shared_sim import choose, utility, policy_for
+from bot_control import coordinate,social
 
 def clone(a):
-    memo={id(a.log):[]}
-    for s in a.players:memo[id(s.trace)]=[]
-    return copy.deepcopy(a,memo)
+    from shared_sim import search_clone
+    return search_clone(a)
+
 
 def score(a,p,policy):
     # Relative position values slowing opponents as well as own holdings.
@@ -16,7 +17,8 @@ def score(a,p,policy):
 def finish_turn(a,p,phase,policies,rng,decision):
     if a.stop or p in a.eliminated:return
     if phase=='fleet':
-        for n in range(len(a.players[p].fleets)+1):
+        coordinate(a,p,policies)
+        for n in range(sum(len(st.fleets) for st in a.players)+1):
             order=choose(a,p,'fleet',policy_for(a,p,policies),decision+n)
             if order[0]=='none':break
             a.submit(p,'fleet',order,rng)
@@ -25,6 +27,8 @@ def finish_turn(a,p,phase,policies,rng,decision):
     phases=remaining if phase=='fleet' else remaining[remaining.index(phase):] if phase in remaining else []
     for n,ph in enumerate(phases):
         if a.stop:return
+        if ph=='social':
+            social(a,p,policies,rng);continue
         a.submit(p,ph,choose(a,p,ph,policy_for(a,p,policies),decision+100+n),rng)
 
 def rollout(a,p,phase,order,policies,seed,horizon):
@@ -46,16 +50,16 @@ def rollout(a,p,phase,order,policies,seed,horizon):
     return score(t,p,policy_for(a,p,policies)),t
 
 def candidates(a,p,phase,policy,decision,beam):
-    actions=a.actions(p,phase)
+    actions=a.actions(p,phase,search=True)
     if len(actions)<=beam:return actions
     ranked=[]
     for order in actions:
-        t=clone(a);t.act(p,order,random.Random(decision+700000),(10,10))
+        t=clone(a);t.act(p,order,random.Random(decision+700000),(10,10),_validated=True)
         ranked.append((score(t,p,policy),order))
     ranked.sort(key=lambda x:x[0],reverse=True)
     result=[x[1] for x in ranked[:beam]]
     # Retain investment/withdrawal options that immediate utility otherwise prunes.
-    for kind in ('none','create','move','expand','start','build','repair','defend','ration','establish'):
+    for kind in ('none','create','move','expand','start','build','repair','defend','ration','establish','garrison','summon','transfer','merge','scout_attack','structure_assault','ground','ground_mobile','naval','bombard_shared'):
         option=next((order for _,order in ranked if order[0]==kind),None)
         if option is not None and option not in result:result.append(option)
     return result

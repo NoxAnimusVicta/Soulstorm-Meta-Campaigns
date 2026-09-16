@@ -23,7 +23,7 @@ Track commanders and supporting staff: species, known age/range, elapsed local t
 ## Known conflicts requiring review
 
 - Planet Fall's old example conflicts with strongest-fleet point-by-point wording. Use the explicit point-by-point rule; referee chooses Minor ties. Major choice ownership/randomisation alternatives remain open.
-- Dread Reputation references 80% returns while other return rules differ. Resolve scope before selecting it.
+- Dread Reputation reduces successful defenders’ Supply return to 60% in both AI and player battles. AI Manpower return is already 60%; player defensive Manpower return falls from 80% to 60%.
 - Faction scaling mentions proportional reduction and equal subtraction; newer raid map rules preserve all participants. Resolve unsupported map capacities before battle.
 - One-battle-per-turn wording conflicts with separate Fleet Actions permitting attacks. Preserve per-asset limits; clarify edge cases before resolution.
 
@@ -167,7 +167,7 @@ Transfer strength points between this fleet and another fleet in the same system
 
 #### Fleet Merge
 
-Merge this fleet with another fleet in the same system. Combined strength caps at 5/5 (excess is lost). The absorbed fleet ceases to exist.
+Merge this fleet with another fleet in the same system. Combined strength caps at the surviving fleet's maximum (5 by default; excess is lost). Completed strength upgrades on the absorbed fleet transfer with its constructions and retain their capacity bonus. The absorbed fleet ceases to exist without being destroyed in combat.
 
 #### Scuttle Fleet
 
@@ -200,7 +200,7 @@ Both unfinished and completed constructions use the same Integrity damage rules.
 
 Initiating faction (aggressor) pays -1 Fleet Strength to initiate. Both Factions roll a d20 plus their in-system Fleet Strength (calculated after the -1 initiation cost is paid). Highest roll wins. 1-5 higher = Loser -1 Fleet Strength per Fleet in Battle. 6-10 higher = Loser -2 Fleet Strength per Fleet in Battle. 11-15 higher = Loser -3 Fleet Strength per Fleet in Battle. 16-20+ higher = Loser Fleet(s) destroyed. Multiple fleets in a system combine their strength for the roll. **All calculations use values after initiation costs are paid.**
 
-**Fleet Battle Participation:** All friendly fleets in-system that wish to contribute their strength to a Fleet Battle must use their Fleet Action for that battle. Fleets that do not participate keep their Fleet Action for other purposes but do not add their strength to the roll. Only one Fleet Battle may occur per system per turn, regardless of how many fleets participate.
+**Fleet Battle Participation:** All attacking friendly fleets in-system that wish to contribute their strength to a Fleet Battle must use their Fleet Action for that battle. Defending fleets always defend without spending an action, even if their action was already used. Fleets that do not participate keep their Fleet Action for other purposes but do not add their strength to the roll. Only one Fleet Battle may occur per system per turn, regardless of how many fleets participate.
 
 #### Void Superiority
 
@@ -328,7 +328,7 @@ When building constructions, rename them to describe what the structure actually
 | [Bunker Network] | +5 defender roll (AI) / -1 Difficulty (Player) | +10 defender roll (AI) / -2 Difficulty (Player) |
 | [Orbital Cannons] | -1 Fleet Strength to largest hostile fleet when attacked | -2 Fleet Strength to largest hostile fleet when attacked |
 
-*Major (5 actions base, 5 actions upgrade, destroyed on capture)*
+*Major (5 actions base, 5 actions upgrade; surviving planetary constructions transfer on capture)*
 
 | Placeholder | Base Effect | Upgraded Effect |
 |-------------|-------------|-----------------|
@@ -418,7 +418,7 @@ If any faction chose Attack, fight the battle in Soulstorm. See Section 3 for ba
 
 **AI vs AI Ground Battle Resolution:** Both factions roll d20 + participating Fleet Strength + Supply + Manpower. Attacker commits Manpower equal to base damage (fleet strength only); Defender commits half of total damage to planet (including bonuses, rounded down). Highest total wins. If the defender used the Defend action, their roll gains +15. Winner returns 60% committed Manpower (rounded down), loser loses 100%. **All calculations use resource values after attack costs (scaled by world type) and Manpower commitments are deducted.**
 
-This specific AI procedure is distinct from the player battle commitment/return table. Defender Supply commitment is not specified consistently across these passages; simulations must disclose their convention and test the alternative, not silently conflate them. Three-team AI raid resolution and tied totals also need explicit conventions.
+This specific AI procedure is distinct from the player battle commitment/return table. Use the dated defender-cost and tie rulings above and the provisional three-team raid procedure below. Do not substitute the player return table for the specific AI procedure. B21 records the retained defensive-commitment timing issue.
 
 If all factions skip combat actions: No battle this cycle. All sides gain their chosen benefits.
 
@@ -753,3 +753,19 @@ Authorised for implementation and testing, **not established as balanced**. This
 - For an actual player battle, use the reported winner (including an explicit raider victory) rather than rolling these substitute dice. The separate raider team and map-capacity rules remain unchanged.
 
 The raider profile and tie/halving conventions are provisional assumptions to audit. They do not retroactively change resolved Dessica battles.
+
+
+## Simulator implementation clarifications — 16 September 2026
+
+- **Mobile Capital bombardment:** The Mobile Capital itself counts as defending fleet presence and prevents Uncontested Bombardment, even without escorts. User-confirmed; use a Ground Assault or Fleet Battle instead.
+- **Troop Transports:** Use the best active transport attached to a surviving participating fleet: 70% Manpower return for a base transport or 80% for an upgraded transport. Multiple base transports do not stack to 80%. Referee selected under the user's delegated ruling; preserves the upgrade's distinct effect.
+- **Defensive battle commitments are not the Defend Faction Action.** Voluntary Defend remains blocked if its payment would cause a deficit. The baseline still debits automatic defensive battle commitments before resolution. This can trigger an irreversible deficit even where a later Planet Fall replacement would otherwise leave a positive resource balance. The user directed retaining the existing system for testing and logging this issue as B21, rather than silently redesigning it.
+- **Ground damage:** The minimum-one clause belongs to Uncontested Bombardment. Ground Assault base damage is floor(participating assault strength /5); a sub-five force does not receive the bombardment minimum. Applicable construction damage and Siege Doctrine still resolve.
+- **Full-defence Defend:** Paying the normal affordable cost can grant Defended status even when restoration is capped because the holding is already at full defence.
+- **Coalition participation:** Allied offensive fleets require owner consent and spend their own Cycle action. The simulator accepts separately recorded allied defensive support; defence never spends a Fleet Action, including for already-used fleets. No human consent is inferred. Fleet Battle damage applies to every participating losing fleet, charging losses and attached-construction damage to its actual owner. A guarded Structure Assault damages only the target on attacker victory.
+- **Temporary diplomatic agreements:** Record an explicit offer, one immediate acceptance/rejection, and an agreed expiry. A ceasefire prevents attacks between signatories while active; it does not turn them into allied formations, pool resources or grant fleet consent. Simulator bot expiry preferences are strategy settings, not compulsory campaign rules.
+
+- **One Fleet Battle per system per turn:** A guarded Structure Assault is resolved as that Fleet Battle and uses the same system limit. Separate Ground Assaults and unguarded targeted bombardments retain their per-asset action limits.
+- **Periodic construction timing (simulator convention):** At Cycle closure, snapshot active System Defence Stations, resolve their damage, then apply surviving regeneration/repair effects. Destroyed fleets do not regenerate. The source gives no finer ordering; retain this explicitly labelled baseline and test ordering sensitivity before recommending station balance changes.
+- **Mobile Capital loss baseline:** Apply the documented capital resource penalties and loss of trait; no additional ordinary-fleet Planet Fall collateral is inferred from its destruction. Ordinary planetary capture retains its point-by-point fleet damage. Preserve this distinction in sensitivity reports.
+- **Replacement-capital baseline:** Establish New Capital doubles current/maximum defence to a maximum of 12. Until establishment finishes, retain the holding's existing tier/income; only the finished Capital receives capital tier/income and its built-in shipyard. No free intermediate income tier is inferred.

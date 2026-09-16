@@ -1,3 +1,5 @@
+> Historical pilot report. For current qualification and full-game evidence, read Simulation_Readiness_Report.md and Trait_Qualification_Report.md. These older numerical results are preserved for provenance.
+
 # Balance laboratory — first calibration results
 
 15 September 2026 • Experimental model v0.1 • No rule changes adopted

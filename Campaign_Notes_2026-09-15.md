@@ -33,6 +33,8 @@ Suspended at Cycle 21 after the Korps captured Corvid and finished its turn. Nex
 | B17 | Alignment constructions | Warp resilience, Chaos/Necron options and fair access | Proposed |
 | B18 | Personnel/time | Ages, successors, local/Sector clocks, trait continuity | Framework adopted; lifespans unresolved |
 | B19 | Simulation quality | Multiple policies, uncertainty, sensitivity, meaningful choices | Pilot and shared-model experiments completed; full validation unfinished |
+| B22 | Periodic construction timing | Test system-station damage-before-repair baseline against alternative timing before recommending station balance | Added 16 September 2026; source does not specify fine ordering |
+| B21 | Defensive commitment timing | Automatic defender commitment can trigger an irreversible deficit before Planet Fall replaces that cost; review delayed net settlement versus current immediate entry | Added 16 September 2026; user directed preserving current baseline for testing |
 | B20 | Mod subproject | Compatible kitbashed units/factions, animation and Army Painter support | Separate future work; no assets changed |
 
 Suggested review sequence: terminology → economy/Manpower → Minor resistance → combat → construction/traits → generation/events → personnel/Sector. This is a recommendation, not an approved redesign.
@@ -185,3 +187,19 @@ Shared-Major integration tests and reproducible traces are now available. This i
 **Simulation correction:** The first shared-Major prototype omitted Planet Fall resource penalties. Those historical results are unsuitable for economic conclusions. The engine now applies them and separates a captured capital-tier holding from an established capital's non-transferable built-in shipyard. Replacement capital actions and mobile-capital destruction are tested.
 
 **Planner progress:** Bounded future-turn rollouts include opponent responses, privately sampled future events and delayed investment choices. The comparison shows that fleet creation can disappear under immediate-value bots and reappear under lookahead. This is a modelling warning relevant to B19, not evidence for adopting any balance proposal.
+
+## Campaign-duration balance target — 16 September 2026
+
+The user clarified that average campaign duration should be approximately 50–100 Cycles, with natural swing and some shorter outliers. Do not balance toward a mandatory100-Cycle minimum. Measure the distribution of actual endings and distinguish unfinished/censored runs from completed campaigns; extend observation beyond100 where necessary. Exact simulation victory/ending criterion is pending clarification. Early elimination alone is not a bot or rules failure. This records a design target, not an adopted rules change.
+
+
+## Bot stagnation investigation — 16 September 2026
+
+Do not rebalance the campaign economy to compensate for poor bot coordination. Nine additional 100-Cycle diagnostics found that a target-focused controller with a funded operational budget gained 8/7/8 holdings across three combat seeds where the original bot gained no territory (finishing with 1/0/1 holdings). Tactics-only and refusing-ceasefires-only variants were eliminated in the original seed; resupply-only did not expand. See Stagnation_Investigation_Report.md. The diagnostic fifteen-capacity force budget and 65% attack threshold are test settings, NOT proposed campaign rules. Production bot qualification remains outstanding; 174 regression tests pass. Average campaign-duration target remains approximately 50–100 Cycles with shorter outliers. Dessica remains suspended.
+
+
+## Production bot and trait qualification — 17 September 2026
+
+All 12 traits now rotate independently across six strategies and three turn positions in a 432-game, 100-Cycle-per-game qualification matrix. The production controller accounts for multi-turn operations, combat effects, resources, repairs and diplomacy; a free-expansion policy error for Void Supremacy was corrected. 210 regression checks pass. Current readiness and measured evidence are in Simulation_Readiness_Report.md and Trait_Qualification_Report.md; earlier stagnation reports remain historical.
+
+This qualifies scoped baseline comparisons, not a rebalance. Small-map duration must not be used as a representative campaign average; the two ten-system checks reached control at 52/68. Use more seeds and representative maps for the 50-100 Cycle target. Siege Doctrine and Dread Reputation have player/AI distinctions, so AI-only rankings cannot establish their full value in player games. Less-used construction/action strategies require targeted testing before recommendations about them. No numerical change has been adopted; Dessica stays suspended.
