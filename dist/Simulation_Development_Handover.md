@@ -1,3 +1,28 @@
+## Current handover — 16 September 2026: 119 tests, completion still pending
+
+User explicitly wants continued work until the sim is complete. Do not present this checkpoint as completion. Balance testing stays locked; no campaign changes. Dessica revision remains 65dc4a60d17b, suspended Cycle21.
+
+Verified publication of earlier 108-test checkpoint: source commit 478ad196c01d55fb65ab82142f028bccbb4996cd; documentation commit cd57f10ad1d5b0f8c5b20a489ed119f9586edb25; Pages run189 succeeded; live source.html displayed the 108-test handover and rulings. The older sections below describing these changes as unpublished are historical snapshots. This newer batch is prepared for publication; verify its resulting commit/deployment rather than assuming success.
+
+Current command: `python -m unittest balance_tests shared_tests construction_tests battle_setup_tests sim_replay_tests sim_scenario_tests -q` -> 119 passing tests. Added since108: player battle preview/explicit outcome injection and Dread returns; Intel choice plumbing; Major Planet Fall tie allocation choice; versioned safe JSON state snapshots preserving dynamic capacity fields, engine/rule fingerprints and deterministic replay; all32 construction build lifecycles; Social message/reply limits; arbitrary synthetic scenario loading/four-Major planner test; full fleet-group enumeration rather than first-six truncation; planner uses validated phase submissions. Human/raid integration still needs final audit.
+
+`mechanics_smoke.py` creates random legal-action stress traces, NOT strategic/balance evidence. Eight recorded mixed-Major/Minor eight-Cycle cases passed exact replay (1351 commands total). Inputs pinned under mechanics-diagnostics-20260916/inputs. Their engine is the earlier version stored there; use those inputs to reproduce them. A separate exploratory stress run found the known construction-payment/deficit timing stop; no balance conclusions drawn.
+
+Pending user replies (async questions already asked; do not repeat unnecessarily):
+- Summoned ally capital: proposed choose ceded planet and Establish New Capital normally; enhanced Fleet Transfer proposed use modified maximum.
+- AI-only Third Party Raid: design provisional tested procedure versus require supplied referee outcomes.
+- Construction final-Supply payment: proposed apply paid construction stage, then deficit host/construction damage (stage1 can be destroyed).
+
+Approved and recorded in Source_Rules: defending never spends Fleet Action; fleet/structure ties no damage, ground ties defender victory; specific AI MP half damage/60% winner return plus tier Supply/80% defending winner return; Fall replaces ordinary Supply loss. Completed Flagship/Assault Cruiser capacity persists; only initiating Transfer/Merge fleet spends action; absorbed constructions transfer; garrison retains1; system damage/repair affects every eligible fleet; cannons hit before strength and MP commitment.
+
+Remaining completion work: implement Summon/new capital/turn insertion; AI raids and human raider result; construction deficit timing; modified/Mobile transfer rules; diplomatic agreements/strategy policy integration; robust defender coalition pooling; all special interactions (including mobile Fall collateral), source consistency and bot strategy competence. Current human outcomes are explicit attacker win/lose only. Current typed Social messages do not independently form pacts. Current engine still omits raid-cycle ground orders instead of resolving AI raids; never use those runs for balance. No claim all mechanics or bots are finished.
+
+Other implementation notes: permanent strength fields are Project.granted_capacity/permanent_integrity and must survive snapshots. Existing upgrade progress can regress to permanent stage but completed capacity persists. System fire is at closure before repair, a timing convention to document/confirm. Transfer presently ordinary max5 fleets only; Merge can preserve transferred capacity. Garrison generator offers individual and one-target bundled transfers while validator accepts arbitrary legal multi-donor plans. Explicit allied support consents share fleet action use; no implicit consent. Defending AI defaults Isolated unless explicit conscription choices are supplied. Direct act is hypothetical/low-level; submit is transactional and phase-validated. Structural invariants checked after mutations. Planet Fall Supply replacement at deficit boundary remains an audit item.
+
+Next: respond to pending rulings, finish remaining mechanics, exercise strategies and all interactions, then consider balance tests. Publish all new scripts, updated package, source docs and generated source site. Keep updates concise and maintain this handover.
+
+---
+
 ## Latest continuation state — 16 September 2026 (read first)
 
 108 deterministic tests pass: `python -m unittest balance_tests shared_tests construction_tests battle_setup_tests -q`. Four six-Cycle diagnostic runs completed without engine exceptions; NOT balance evidence. All edits in this continuation remain LOCAL and unpublished. Source/build/package need final regeneration before upload. Do not stop at this checkpoint: user asks completion of the whole simulator.
