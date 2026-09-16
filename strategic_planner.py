@@ -2,7 +2,7 @@
 This is a search improvement, not a claim of expert or optimal play.
 """
 import copy, random
-from shared_sim import choose, utility
+from shared_sim import choose, utility, policy_for
 
 def clone(a):
     memo={id(a.log):[]}
@@ -11,13 +11,13 @@ def clone(a):
 
 def score(a,p,policy):
     # Relative position values slowing opponents as well as own holdings.
-    return utility(a,p,policy)-.15*sum(utility(a,q,policy) for q in range(len(a.players)) if q!=p and q not in a.eliminated)
+    return utility(a,p,policy)-.15*sum(utility(a,q,policy) for q in range(len(a.players)) if not a.allied(p,q) and q not in a.eliminated)
 
 def finish_turn(a,p,phase,policies,rng,decision):
     if a.stop or p in a.eliminated:return
     if phase=='fleet':
         for n in range(len(a.players[p].fleets)+1):
-            order=choose(a,p,'fleet',policies[p],decision+n)
+            order=choose(a,p,'fleet',policy_for(a,p,policies),decision+n)
             if order[0]=='none':break
             a.submit(p,'fleet',order,rng)
             if a.stop:return
@@ -25,7 +25,7 @@ def finish_turn(a,p,phase,policies,rng,decision):
     phases=remaining if phase=='fleet' else remaining[remaining.index(phase):] if phase in remaining else []
     for n,ph in enumerate(phases):
         if a.stop:return
-        a.submit(p,ph,choose(a,p,ph,policies[p],decision+100+n),rng)
+        a.submit(p,ph,choose(a,p,ph,policy_for(a,p,policies),decision+100+n),rng)
 
 def rollout(a,p,phase,order,policies,seed,horizon):
     t=clone(a);combat=random.Random(seed);events=random.Random(seed+10000000)
@@ -33,17 +33,17 @@ def rollout(a,p,phase,order,policies,seed,horizon):
     nextphase={'fleet':'fleet' if order[0]!='none' else 'faction','faction':'social','social':'construction','construction':None}[phase]
     if nextphase:finish_turn(t,p,nextphase,policies,combat,seed)
     turnorder=t.turn_order[t.rotation:]+t.turn_order[:t.rotation]
-    for q in turnorder[turnorder.index(p)+1:]:
+    for q in t.turns(after=p):
         if t.stop:break
         t.begin_turn(q);finish_turn(t,q,'fleet',policies,combat,seed+1000+q)
     for k in range(horizon):
         if t.stop:break
         t.closing()
         t.opening(events)
-        for q in turnorder:
+        for q in t.turns():
             if t.stop:break
             t.begin_turn(q);finish_turn(t,q,'fleet',policies,combat,seed+10000*(k+1)+q*1000)
-    return score(t,p,policies[p]),t
+    return score(t,p,policy_for(a,p,policies)),t
 
 def candidates(a,p,phase,policy,decision,beam):
     actions=a.actions(p,phase)
@@ -61,7 +61,7 @@ def candidates(a,p,phase,policy,decision,beam):
     return result
 
 def plan(a,p,phase,policies,decision,horizon=1,beam=2,samples=2):
-    actions=candidates(a,p,phase,policies[p],decision,beam)
+    actions=candidates(a,p,phase,policy_for(a,p,policies),decision,beam)
     if len(actions)==1:return actions[0]
     best=(-float('inf'),actions[0])
     for order in actions:

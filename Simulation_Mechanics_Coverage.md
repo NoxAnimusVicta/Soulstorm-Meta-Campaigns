@@ -110,3 +110,8 @@ The validated submit API now enforces phase budgets in production runs. Minor re
 All 32 construction effects now have implementation paths. This does not certify all interactions. Explicit allied assault consent, Garrison Transfer, Minor local resources, transaction rollback, and permanent fleet-capacity constructions have tests. Summoning, raids, human outcome integration, strategy competence and full replay validation still prevent balance testing. See the latest handover first.
 
 Latest local verification: 119 tests across six suites. Eight pinned random-action stress replays verified 1351 transitions; these are legality diagnostics, not balance or competent-strategy evidence. Human preview/reporting, explicit Major fleet-damage choices, Social bandwidth and four-Major scenario handling are now implemented with focused tests. Pending rulings and completion work are listed at the top of the handover.
+
+
+## Four rulings implemented — 16 September 2026
+
+125 tests pass. Summon Allies now creates a planet-capital ally with normal establishment and immediate turn insertion; ordinary upgraded fleets transfer to their modified cap. Voluntary expenditure leaving zero is prohibited, including construction. Ground attacks are no longer omitted during raid Cycles: a separately logged provisional three-team dice procedure is implemented, alongside explicit human raider outcomes. Eight new pinned random-legality replays verified1362 transitions with no stops. These are not balance or strategy-competence results. Earlier pending-question entries are superseded by the current handover and Source_Rules rulings.

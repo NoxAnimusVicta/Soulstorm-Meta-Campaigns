@@ -163,7 +163,7 @@ Move this fleet to any system within the Subsector.
 
 #### Fleet Transfer
 
-Transfer strength points between this fleet and another fleet in the same system. No fleet can drop below 1/5 or exceed 5/5. Requires Void Superiority.
+Transfer strength points between this fleet and another fleet in the same system. By default, no fleet can drop below 1 strength or exceed its ordinary maximum of 5. Fleet upgrades can raise that maximum; transfers may fill an upgraded fleet up to its actual modified maximum. Requires Void Superiority.
 
 #### Fleet Merge
 
@@ -255,6 +255,8 @@ The summoned faction must belong to the same broad alignment as the summoning fa
 | Necrons | Other Dynasties, Destroyer Cults | An awakening Tomb World, a vassal Dynasty, a Destroyer Lord claiming territory |
 | Tyranids | Other Hive Fleets, Genestealer Cults | A splinter fleet, a cult uprising on the granted world |
 | T'au | Other Septs, Auxiliaries | An expansion fleet, Kroot kindreds, Vespid contingents |
+
+**Summoned capital — ruling, 16 September 2026:** The new faction chooses an existing planet in the ceded system as its provisional capital and performs Establish New Capital normally. Summoning grants no free defence increase or built-in shipyard; the shipyard becomes available only when establishment is complete. The faction still starts with 10 Supply, 10 Manpower and no fleet, and takes its first turn immediately after its summoner.
 
 **Independent summoners:** Record an explicit subordinate pact when an Independent-aligned faction summons an ally. Shared Independent Alignment alone never allies unrelated factions. Sector-level grant and roster consequences remain undefined.
 
@@ -698,7 +700,7 @@ Fleet Strength in system still counts for all Minor Faction fleets present, but 
 
 ### Resource Deficits
 
-**Resource deficit rule — applies prospectively.** Supply and Manpower have separate deficit and recovery tracks. Whenever either resource reaches **0 or below**, including through an affordable voluntary action, immediately trigger its deficit and record it as **0**. Voluntary actions that cost more than available resources remain prohibited. Past turns are not recalculated.
+**Resource deficit rule — applies prospectively.** Supply and Manpower have separate deficit and recovery tracks. When an involuntary loss brings either resource to **0 or below**, immediately trigger its deficit and record it as **0**. **Voluntary actions cannot trigger a deficit.** An action spending Supply or Manpower must leave every resource it spends above zero; spending the last point is prohibited, even if the stated cost could otherwise be paid. In particular, block a Build, Upgrade or Repair that would trigger a deficit before spending anything or using its action. Enemy effects, mandatory upkeep and other involuntary losses can still trigger deficits. This ruling supersedes the earlier wording permitting voluntary expenditure to trigger a deficit. Past turns are not recalculated.
 
 **Resource lock:** While a track is active, its resource stays at 0 and cannot be spent. Ignore all income, gains and losses to that resource, including Logistics, events, returns and other effects; nothing is banked or deferred. The other resource continues to gain and lose normally unless it has its own active track. Further losses cannot restart, extend or retrigger an already active track. This immunity concerns resource changes only, not direct fleet, holding or construction damage.
 
@@ -736,3 +738,18 @@ At the start of each Cycle, before any faction takes its turn, roll 1d6. On a 1 
 ---
 
 
+
+
+## Provisional AI Third Party Raid procedure — 16 September 2026
+
+Authorised for implementation and testing, **not established as balanced**. This procedure is distinct from a reported Soulstorm result. Record the provisional profile in every affected simulation trace and test sensitivity before using those results to recommend balance changes.
+
+- Raiders are a separate temporary hostile team. Default numerical profile: **5 Fleet Strength, 20 Supply, 20 Manpower**. These are encounter values, not persistent campaign assets or a new faction resource pool.
+- Resolve normal attacker/defender commitments and modifiers, then roll one independent d20 for each of the three teams. Attacker and defender use their usual post-cost totals. Raiders use **d20 + 45**.
+- A unique highest total wins. If the highest total is tied, the provisional outcome is a defender hold, consistent with the ground-battle tie convention; no attacker or raider conquest results from the tie.
+- An attacker win or defender hold resolves the ordinary corresponding ground-battle outcome. A raider win means neither original side receives a winner's resource return. Resolve applicable defeat effects and traits.
+- On a raider win, a Major or Capital holding is reduced toward half its current defence, rounded down. For this provisional implementation, leave at least **1 defence**, preserving ownership; Minor/Standard holdings do not suffer this halving. Applicable defeat-trait damage likewise cannot cause territorial transfer on a raider win. Damage reductions and attached-construction damage still apply normally.
+- Raiders never capture territory, create holdings or gain persistent fleets/resources. They withdraw after resolution; no invented loot penalty is added.
+- For an actual player battle, use the reported winner (including an explicit raider victory) rather than rolling these substitute dice. The separate raider team and map-capacity rules remain unchanged.
+
+The raider profile and tie/halving conventions are provisional assumptions to audit. They do not retroactively change resolved Dessica battles.
