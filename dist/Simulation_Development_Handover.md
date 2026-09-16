@@ -1,3 +1,21 @@
+## Current ruling implementation — 16 September 2026 (supersedes pending questions below)
+
+User answered all four outstanding rulings. Implemented in Source_Rules.md and the shared engine:
+1. Summoned ally chooses a ceded planet and establishes its capital normally; no free defence/shipyard. Starts10/10 and no fleet; explicit Independent pact; dynamic turn iterator inserts it immediately after summoner. Synthetic choices cover eleven planet-capital traits (Mobile Capital summoning is not modelled).
+2. Fleet Transfer cap is5 by default, actual modified maximum for enhanced ordinary fleets; initiating fleet alone spends action. Merge retains transferred construction capacity. Mobile Capital transfers remain outside this implementation.
+3. User authorised a provisional AI raid procedure. Separate d20+45 team (5FS/20S/20MP), unique top total wins; tied highest is defender hold. Raiders never acquire territory/assets. Major/Capital raid victory halves toward at least1 defence; no winning returns to original sides. Logged as provisional, not a balance conclusion. Human raider victories accept explicit 'raider' result without dice substitution. Source_Rules documents exact assumptions.
+4. Voluntary spending cannot cause deficits. SharedState.afford now requires every spent resource remain above0. Construction blocked before payment/action use. Involuntary losses still trigger deficits. This supersedes the earlier contradictory source wording; the suspended Dessica record is unchanged. Scuttle legal generation also screens its known resource-loss consequences.
+
+Verification:125 tests with `python -m unittest balance_tests shared_tests construction_tests battle_setup_tests sim_replay_tests sim_scenario_tests ruling_tests -q`. Eight new mixed-faction eight-Cycle stress replays completed without stop and verified1362 transitions, saved with pinned inputs in mechanics-diagnostics-rulings-20260916. Earlier diagnostics remain archived unchanged. Historical frontier helper tests are not proof of current full-game fidelity.
+
+Publication of the previous119-test batch was verified: source2b2ac69e3993ce0f02964f5831b0db2ad84e0693; documentationbbbd4d5ed08ecb83c3c40b5ca54ef86ce257f719; Pages191 succeeded and live page displayed119-test handover. This125-test batch is prepared for publication; verify the next commit/run.
+
+Still not complete/certified. Remaining audits include defensive coalitions, diplomatic agreement/strategy integration, full construction/trait interactions, Mobile-specific edge cases, and bot strategy competence. New provisional raid profile needs sensitivity tests before balance recommendations. Planner no longer treats allies as enemies in relative scoring, and uses dynamic turn iteration/policy inheritance for summoned factions. Do not present completed ruling implementation as a completed simulation or begin balancing campaign notes.
+
+No further answer is needed for the four questions above. Continue independent completion work; keep handover and repository current. Latest campaign build remains Cycle21/revision65dc4a60d17b, unchanged.
+
+---
+
 ## Current handover — 16 September 2026: 119 tests, completion still pending
 
 User explicitly wants continued work until the sim is complete. Do not present this checkpoint as completion. Balance testing stays locked; no campaign changes. Dessica revision remains 65dc4a60d17b, suspended Cycle21.
