@@ -623,6 +623,8 @@ Calculate total Fleet Strength of all hostile fleets (different Alignment) in-sy
 
 When a faction loses their Capital, they must designate a new Capital on an owned planet. The faction is then locked into the **Establish New Capital** forced action until the new Capital reaches maximum defense of 12. This forced action has no Supply or Manpower cost.
 
+**Compulsory action priority — ruling, 16 September 2026:** Establish New Capital takes priority over Emergency Rationing. While the replacement Capital is being established, existing Supply and Manpower deficit tracks remain locked at 0 resources, retain their recovery progress, and continue to ignore income and penalties for their respective locked resource. Capital-establishment actions do not advance either rationing track. Once the Capital is established, the next available Faction Action must address any remaining deficit through Emergency Rationing. Completing establishment does not grant an additional Faction Action that turn.
+
 **Establish New Capital:** Each use doubles both current and maximum defense of the Provisional Capital until maximum reaches 12.
 
 | Starting World | Cycle 1 | Cycle 2 | Cycle 3 |
