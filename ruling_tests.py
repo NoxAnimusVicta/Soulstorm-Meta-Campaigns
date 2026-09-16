@@ -61,3 +61,19 @@ class RulingsTests(unittest.TestCase):
   a.submit(0,'fleet',('ground',(0,),2),rng)
   self.assertEqual(rng.getstate(),before)
   self.assertEqual((a.holdings[2].owner,a.holdings[2].defence),(1,6))
+
+class BoundaryAuditTests(unittest.TestCase):
+ def test_partial_repair_available_when_full_repair_would_trigger_deficit(self):
+  from balance_sim import Project
+  a=Arena();s=a.players[0];s.supply=3;s.projects=[Project('forge',0,2,5,True)]
+  self.assertNotIn(('repair',0),a.actions(0,'construction'))
+  self.assertIn(('repair',0,2),a.actions(0,'construction'))
+  a.submit(0,'construction',('repair',0,2),random.Random(0))
+  self.assertEqual((s.supply,s.projects[0].integrity),(1,4))
+  self.assertFalse(s.deficits)
+
+ def test_receiving_fleet_can_initiate_transfer_using_only_its_action(self):
+  a=Arena();s=a.players[0];s.fleets[0].strength=2;s.fleets[1].used=True
+  a.submit(0,'fleet',('transfer',0,1,-2),random.Random(0))
+  self.assertEqual([f.strength for f in s.fleets],[4,3])
+  self.assertTrue(s.fleets[0].used)

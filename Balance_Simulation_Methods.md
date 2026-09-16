@@ -1,6 +1,6 @@
 ## Current implementation notice — 16 September 2026
 
-The model descriptions and limitations below document earlier checkpoints. Current coverage is in Simulation_Mechanics_Coverage.md and the current handover. Do not treat historical conventions as current rules. The latest user rulings block voluntary expenditure reaching zero, permit enhanced Fleet Transfers to modified maxima, require normal capital establishment for summoned allies, and authorise a separately labelled provisional three-team AI raid procedure. Latest checks:125 tests and eight pinned legality stress replays (1362 transitions). These do not establish balance or strategy competence. See Source_Rules.md for the exact provisional raid parameters and confirmed rules. Original trial archives are unchanged.
+The model descriptions and limitations below document earlier checkpoints. Current coverage is in Simulation_Mechanics_Coverage.md and the current handover. Do not treat historical conventions as current rules. The latest user rulings block voluntary expenditure reaching zero, permit enhanced Fleet Transfers to modified maxima, require normal capital establishment for summoned allies, and authorise a separately labelled provisional three-team AI raid procedure. Latest checks:127 tests and eight pinned legality stress replays (1362 transitions). These do not establish balance or strategy competence. See Source_Rules.md for the exact provisional raid parameters and confirmed rules. Original trial archives are unchanged.
 
 # Balance laboratory — methods and coverage
 

@@ -50,6 +50,8 @@ def legal_construction(state,existing=None):
         spec=CATALOG[p.profile]
         if p.profile in UNIMPLEMENTED:continue
         if p.completed and p.integrity<p.maximum and state.afford(min(3,p.maximum-p.integrity)):result.append(('repair',i))
+        if p.completed:
+            result.extend(('repair',i,amount) for amount in range(1,min(3,p.maximum-p.integrity)+1) if state.afford(amount))
         if not p.completed and state.afford(cost(state)):result.append(('build',i))
         if p.active and not p.upgraded and spec.upgrade and state.afford(cost(state)):result.append(('upgrade',i))
     if not state.afford(cost(state)):return result
@@ -84,6 +86,9 @@ def construct(state,action):
     else:
         p=state.projects[action[1]]
         amount=min(3,p.maximum-p.integrity) if kind=='repair' else 1
+        if kind=='repair' and len(action)==3:
+            amount=action[2]
+            if type(amount) is not int or not 1<=amount<=min(3,p.maximum-p.integrity):raise ValueError('Invalid Repair amount')
         state.pay(amount if kind=='repair' else cost(state))
         if not state.full_host(p.host) or p.integrity<=0:
             state.stop='Unresolved timing: construction payment damaged its host through a deficit';return

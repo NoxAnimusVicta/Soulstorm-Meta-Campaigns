@@ -325,6 +325,7 @@ class Arena:
                 for j,recipient in enumerate(s.fleets):
                     if i==j or recipient.mobile or recipient.strength<=0 or recipient.system!=f.system:continue
                     actions.extend(('transfer',i,j,n) for n in range(1,min(f.strength-1,recipient.maximum-recipient.strength)+1))
+                    actions.extend(('transfer',i,j,-n) for n in range(1,min(recipient.strength-1,f.maximum-f.strength)+1))
             if not f.mobile and f.strength<f.maximum and f.system in s.yards() and s.afford(0 if s.trait=='void' else 1,s.expand_mp):actions.append(('expand',i))
             if self.event!=1:
                 actions.extend(('move',i,k) for k in self.systems if k!=f.system)
