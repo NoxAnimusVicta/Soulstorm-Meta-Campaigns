@@ -153,6 +153,14 @@ Each fleet may take **ONE Fleet Action per Cycle**, including actions taken duri
 
 Move this fleet to any system within the Subsector.
 
+**Defensive participation — ruling, 16 September 2026:** Fleets always defend when attacked, even if their Fleet Action has already been used that Cycle. Defensive participation does not consume an unused Fleet Action. Defending still counts as combat for rules such as Minor Faction regeneration and Repair Tenders.
+
+**Tied combat totals — referee ruling authorised 16 September 2026:** A Fleet Battle or guarded Structure Assault tie inflicts no combat damage on either side; paid initiation costs and spent actions remain spent. A Ground Assault tie is a defender victory, with normal defeat consequences and applicable traits (including Siege Doctrine) still resolving.
+
+**Fleet strength construction exception — ruling, 16 September 2026:** Completed Flagship and Assault Cruiser constructions add lasting Fleet Strength. Their completed strength contribution remains active despite damage and is lost with the fleet; it is not disabled by the ordinary full-Integrity requirement. Unfinished construction remains subject to normal construction progress rules.
+
+**Transfer/Merge action use — ruling, 16 September 2026:** Only the initiating fleet spends its Fleet Action. The other fleet does not spend an action merely by receiving a transfer or participating in a merge.
+
 #### Fleet Transfer
 
 Transfer strength points between this fleet and another fleet in the same system. No fleet can drop below 1/5 or exceed 5/5. Requires Void Superiority.
@@ -198,6 +206,8 @@ Initiating faction (aggressor) pays -1 Fleet Strength to initiate. Both Factions
 
 **Void Superiority:** Your total fleet strength in-system exceeds total enemy fleet strength.
 
+**Construction timing — rulings, 16 September 2026:** System Defence Stations affect every eligible enemy fleet in their system, and System Repair Stations affect every eligible allied fleet in their system. Orbital Cannons damage the largest attacking fleet before participating strength and Manpower commitment are calculated.
+
 ### Phase 3: Faction Action
 
 A faction may take ONE Faction Action per turn. This represents the faction's central command capacity.
@@ -217,6 +227,8 @@ Fortify a Planet or repair a Construction you control. **Planet:** Costs Supply 
 #### Create Fleet
 
 Create a new fleet at Fleet Strength 1/5. New fleets are created at the faction's Capital location or at any Shipyard. Costs -1 Supply and -1 Manpower.
+
+**Fleet Merge and Garrison Transfer — rulings, 16 September 2026:** Constructions attached to an absorbed fleet transfer to the surviving fleet. Garrison donors must retain at least 1 defence.
 
 #### Garrison Transfer
 
@@ -399,6 +411,8 @@ Once both conditions are met:
 If any faction chose Attack, fight the battle in Soulstorm. See Section 3 for battle setup. Or conduct AI to AI battle. Fleet Battles are handled by dice rolls outlined in Phase 2.
 
 **Turn Order:** Factions act in order: Major Faction A → Major Faction B → Major Faction C. Each faction completes all their actions (Fleet, Faction, Social, Construction) before the next faction's turn begins.
+
+**AI defensive costs — referee ruling authorised 16 September 2026:** Use half incoming damage (rounded down) for defender Manpower commitment, with 60% returned to the winning side. Defenders also commit the normal world-tier Supply cost, limited to available Supply; successful defence returns 80% of that Supply (rounded down). Planet Fall replaces the ordinary defeat Supply loss, rather than adding a second full loss. Minor defensive commitments are temporary battle calculations against the attacked world’s derived resources, not persistent Major resource pools.
 
 **AI vs AI Ground Battle Resolution:** Both factions roll d20 + participating Fleet Strength + Supply + Manpower. Attacker commits Manpower equal to base damage (fleet strength only); Defender commits half of total damage to planet (including bonuses, rounded down). Highest total wins. If the defender used the Defend action, their roll gains +15. Winner returns 60% committed Manpower (rounded down), loser loses 100%. **All calculations use resource values after attack costs (scaled by world type) and Manpower commitments are deducted.**
 

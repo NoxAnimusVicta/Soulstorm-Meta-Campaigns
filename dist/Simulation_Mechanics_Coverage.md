@@ -13,33 +13,33 @@ Implemented means a rule is available in the shared engine and has focused regre
 | Training Grounds | Implemented in shared engine | Core/shared/construction regression suites; effects require completion and full Integrity |
 | Automated Defences | Implemented in shared engine | Core/shared/construction regression suites; effects require completion and full Integrity |
 | Bunker Network | Implemented in shared engine | Core/shared/construction regression suites; effects require completion and full Integrity |
-| Orbital Cannons | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
+| Orbital Cannons | Partial | Effect implemented; full interaction and strategy coverage still required |
 | Grand Orbital Shipyard | Implemented in shared engine | Core/shared/construction regression suites; effects require completion and full Integrity |
 | Forge Complex | Implemented in shared engine | Core/shared/construction regression suites; effects require completion and full Integrity |
 | Military Academy | Implemented in shared engine | Core/shared/construction regression suites; effects require completion and full Integrity |
 | Regenerative Fortifications | Implemented in shared engine | Core/shared/construction regression suites; effects require completion and full Integrity |
 | Void Shield Generator | Implemented in shared engine | Core/shared/construction regression suites; effects require completion and full Integrity |
-| Fortification Network | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
+| Fortification Network | Partial | Effect implemented; full interaction and strategy coverage still required |
 | Militia Barracks | Implemented in shared engine | Core/shared/construction regression suites; effects require completion and full Integrity |
-| Landing Zones | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| Planetary Shield Network | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| Consolidation Works | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| Troop Transport | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| Repair Tender | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| Escort Squadron | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| Assault Boats | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| Bombardment Bay | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| Assault Cruiser | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| Flagship | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| Carrier | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| Siege Platform | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| Salvage Wing | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| Scout Squadron | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| Defence Platform | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| System Defence Station | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| System Repair Station | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| Logistics Anchorage | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
-| Void Station | Missing | Implement action availability, effects, damage, capture and upgrade interactions |
+| Landing Zones | Partial | Effect implemented; full interaction and strategy coverage still required |
+| Planetary Shield Network | Partial | Core effect and focused regression tests implemented; cross-mechanic audit remains |
+| Consolidation Works | Partial | Core effect and focused regression tests implemented; cross-mechanic audit remains |
+| Troop Transport | Partial | Effects added; focused tests and cross-mechanic audit still being completed |
+| Repair Tender | Partial | Effects added; focused tests and cross-mechanic audit still being completed |
+| Escort Squadron | Partial | Effects added; focused tests and cross-mechanic audit still being completed |
+| Assault Boats | Partial | Effects added; focused tests and cross-mechanic audit still being completed |
+| Bombardment Bay | Partial | Effects added; focused tests and cross-mechanic audit still being completed |
+| Assault Cruiser | Partial | Effect implemented; full interaction and strategy coverage still required |
+| Flagship | Partial | Effect implemented; full interaction and strategy coverage still required |
+| Carrier | Partial | Effects added; focused tests and cross-mechanic audit still being completed |
+| Siege Platform | Partial | Effects added; focused tests and cross-mechanic audit still being completed |
+| Salvage Wing | Partial | Effects added; focused tests and cross-mechanic audit still being completed |
+| Scout Squadron | Partial | Effects added; focused tests and cross-mechanic audit still being completed |
+| Defence Platform | Partial | Effects added; focused tests and cross-mechanic audit still being completed |
+| System Defence Station | Partial | Effect implemented; full interaction and strategy coverage still required |
+| System Repair Station | Partial | Effects added; focused tests and cross-mechanic audit still being completed |
+| Logistics Anchorage | Partial | Effects added; focused tests and cross-mechanic audit still being completed |
+| Void Station | Partial | Core effect and focused regression tests implemented; cross-mechanic audit remains |
 
 ## Other mechanics
 
@@ -51,7 +51,7 @@ Implemented means a rule is available in the shared engine and has focused regre
 | Fleet Transfer / Fleet Merge / Scuttle | Missing | Participant actions, donor limits, caps, attached structure fate and refunds |
 | Ground assaults / bombardment | Partial | Fleet constructions, shields, retaliation ordering, every player setup modifier |
 | Fleet Battles | Partial | Combat structures, chosen defending participation, ties and allied fleets |
-| Structure Assault, system construction control and capture | Missing | Guarded/unguarded targeting; construction-only damage; transfer/destruction rules |
+| Structure Assault, system construction control and capture | Partial | Guarded/unguarded attacks and control capture tested; allied guards and trait interactions remain |
 | Planet Fall, mobile destruction, elimination | Partial | Full allocation choices, mobile fall collateral interpretation and all capture effects |
 | Capital replacement | Partial | Approved capital-before-rationing priority implemented; provisional tier/income convention needs ruling |
 | Faction Reinforce / Muster / Defend | Partial | Basic actions and structure Defend implemented; remaining trait effects |
@@ -73,19 +73,19 @@ Implemented means a rule is available in the shared engine and has focused regre
 | Mobile Capital | Partial: movement, income, ground/naval combat, host damage, loss and replacement implemented; remaining hybrid interactions pending |
 | Efficient Logistics | Implemented +4 Reinforce/Muster |
 | Siege Doctrine | Partial: defeat damage; complete player difficulty integration pending |
-| War Economy | Missing |
-| Martial Culture | Missing |
-| Salvagers | Missing |
-| Void Supremacy | Missing |
-| Swift Mobilization | Missing |
-| Fleet Endurance | Missing |
+| War Economy | Partial: effect implemented; interaction audit pending |
+| Martial Culture | Partial: effect implemented; interaction audit pending |
+| Salvagers | Partial: effect implemented; interaction audit pending |
+| Void Supremacy | Partial: effect implemented; interaction audit pending |
+| Swift Mobilization | Partial: effect implemented; interaction audit pending |
+| Fleet Endurance | Partial: effect implemented; interaction audit pending |
 | Dread Reputation | Missing; AI/player resource-return distinction must stay explicit |
-| Fortification Experts | Missing |
-| Industrial Efficiency | Missing |
+| Fortification Experts | Partial: effect implemented; interaction audit pending |
+| Industrial Efficiency | Partial: effect implemented; interaction audit pending |
 
 ## Rulings to obtain during implementation
 
-Do not invent rulings to make tests pass. Pending: defensive fleet participation/action consumption; AI tied totals and defender costs; three-party AI raid procedure; provisional-capital tier/income; mobile destruction collateral fleet damage; donor/recipient action expenditure and construction fate for fleet transfers/merges; construction payment/deficit sequencing; ambiguous periodic system effects and retaliatory cannon ordering.
+Do not invent rulings to make tests pass. Resolved on 16 September: defensive participation never spends an action; fleet ties inflict no damage and ground ties favour defence; AI defender Supply/Manpower commitments recorded in Source_Rules. Pending: three-party AI raid procedure; provisional-capital tier/income; mobile destruction collateral fleet damage; donor/recipient action expenditure and construction fate for fleet transfers/merges; construction payment/deficit sequencing; ambiguous periodic system effects and retaliatory cannon ordering.
 
 Approved: Establish New Capital takes priority over Emergency Rationing, preserving locked resources and recovery progress. Surviving planetary structures transfer; obsolete Major-destroyed-on-capture table labels do not override that later explicit rule.
 
@@ -99,4 +99,12 @@ Approved: Establish New Capital takes priority over Emergency Rationing, preserv
 
 ## This checkpoint
 
-51 tests pass: 21 core, 18 shared, 12 construction tests. No new balance study was run. New construction coverage includes shipyards, grand shipyards, bunker bonuses, void shields, militia, automated defences and regenerative fortifications. Construction-phase Repair remains separate from Faction Action structure Defend. Regeneration runs once at Cycle closure in both real and simulated continuations. Capacity constructions and system/fleet structures remain missing.
+Earlier checkpoint: 51 tests passed (21 core, 18 shared, 12 construction). No new balance study was run. New construction coverage includes shipyards, grand shipyards, bunker bonuses, void shields, militia, automated defences and regenerative fortifications. Construction-phase Repair remains separate from Faction Action structure Defend. Regeneration runs once at Cycle closure in both real and simulated continuations. Capacity constructions and system/fleet structures remain missing.
+
+### Local continuation (not yet published)
+
+108 regression tests pass. All 32 profiles are catalogued; unfinished effects are explicitly excluded from bot purchases. See the current handover for implementation progress and remaining gates. No balance certification.
+
+The validated submit API now enforces phase budgets in production runs. Minor resource/starting fleet/recovery scaffolding and Scout movement-attacks are tested. Player setup calculations cover resource bands, modifiers, symmetric scaling, and third-team map capacity; outcome integration remains pending. Fleet Scuttle, ordinary Transfer and Merge are implemented; enhanced/Mobile Transfer interpretation remains pending.
+
+All 32 construction effects now have implementation paths. This does not certify all interactions. Explicit allied assault consent, Garrison Transfer, Minor local resources, transaction rollback, and permanent fleet-capacity constructions have tests. Summoning, raids, human outcome integration, strategy competence and full replay validation still prevent balance testing. See the latest handover first.
