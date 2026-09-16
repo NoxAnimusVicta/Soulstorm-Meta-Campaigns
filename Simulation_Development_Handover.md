@@ -1,3 +1,15 @@
+# Latest work — campaign notes review, 17 September 2026
+
+Every B01–B22 issue and the original source/briefing requests are reviewed in Campaign_Notes_Review_2026-09-17.md. Read that report before selecting changes. It proposes connected packages; none has been adopted or run as a full campaign variant. Original rules/controller hashes are unchanged.
+
+All five formerly unfinished cases reached full control: 102, 108, 111, 115 and 169 Cycles. Each 200-Cycle extension reproduced its original first 100 Cycles and orders exactly, then passed public replay. Including these endings, all 216 campaigns reached full control: mean 63.26, median 61, range 42–169. This is a complete duration distribution for this fixture, not all campaign maps.
+
+Evidence: Integrated_Notes_Evidence.json; Balance_Microtests_20260917.json; integrated-notes-investigation-20260917; Integrated_Balance_Evidence_20260917.zip (includes baseline traces, exact inputs, review scripts, reports and this handover). The first extension attempt failed a Python tuple-versus-JSON-list comparison; normalising the comparison fixed the audit wrapper, without changing engine results. All five corrected extensions passed.
+
+Next: discuss the connected proposals, then implement separate candidate variants and targeted scenario checks before matched full-package campaigns. Pay special attention to construction policy bias, the raw-stockpile combat bonus, Minor Capital support and player/AI differences. Publication verification is recorded in the task response. Dessica remains suspended.
+
+---
+
 # Current handover — 17 September 2026
 
 ## Status
@@ -30,3 +42,15 @@ Source library: https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/source
 Suspended campaign: https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/
 
 package_simulation.py bundles current code, evidence and historical work. build.py generates source.html and the unchanged campaign. The included GitHub Actions workflow publishes dist/ on main pushes. Browser upload is available through the signed-in repository owner session; no claim of publication should be made without a successful deployment and live-content check. The final chat response records verification of this release. Do not change repository visibility.
+
+## Active integrated balance work — 17 September 2026
+
+User rejected sequential isolated fixes. See Integrated_Balance_Review.md for the connected issue map and joint comparison procedure. A 216-game ten-system current-rules sample is now executing via integrated_balance_sample.py (three worker processes, no agent delegation). Results and compressed replay-verified traces are in integrated-balance-20260917. This crosses 12 focal traits, six strategies and three seats; there are 18 matched random blocks, not 216 independent replicates. No candidate package has been run or adopted yet. Do not present this running sample as completed. Resume from the manifest/case files; preserve qualified engine hashes. Analyse wartime resources before milestones, not post-conquest accumulation. The new study files have not yet been published.
+
+## Integrated sample completed — 17 September 2026
+
+All 216 ten-system campaigns completed their 100-Cycle observation. manifest.json is complete, results.json has all unique cases 0–215, and 199,376 decisions have matching public replay verification. All compressed traces are present. analyse_integrated_balance.py generated Integrated_Balance_Baseline_Report.md and integrated-balance-20260917/analysis.json.
+
+211 campaigns reached each ending milestone; five remained unfinished at Cycle 100. Among completed campaigns, mean full control was 61.90 Cycles (median 60, range 42–99); mean single surviving Major coalition was 61.47. Completed-only means exclude unfinished campaigns and are not uncensored duration estimates. One map layout and 18 matched seed blocks remain limitations.
+
+Next: inspect shared resource/combat/construction patterns and the five unfinished campaigns against the complete issue map in Integrated_Balance_Review.md, then compare coherent packages. Do not adopt isolated fixes or infer balance from aggregate duration alone. No candidate packages have yet been tested or adopted. Dessica remains suspended. These new study files/results are local and have not yet been published to GitHub.

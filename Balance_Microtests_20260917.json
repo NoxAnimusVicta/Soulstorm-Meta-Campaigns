@@ -1,0 +1,171 @@
+{
+  "fleet": {
+    "-1": {
+      "d20": {
+        "attacker_win": 0.4275,
+        "tie": 0.0475,
+        "defender_win": 0.525,
+        "either_extreme": 0.0525
+      },
+      "two_d10": {
+        "attacker_win": 0.4005,
+        "tie": 0.066,
+        "defender_win": 0.5335,
+        "either_extreme": 0.004
+      }
+    },
+    "0": {
+      "d20": {
+        "attacker_win": 0.475,
+        "tie": 0.05,
+        "defender_win": 0.475,
+        "either_extreme": 0.05
+      },
+      "two_d10": {
+        "attacker_win": 0.4665,
+        "tie": 0.067,
+        "defender_win": 0.4665,
+        "either_extreme": 0.003
+      }
+    },
+    "4": {
+      "d20": {
+        "attacker_win": 0.66,
+        "tie": 0.04,
+        "defender_win": 0.3,
+        "either_extreme": 0.09
+      },
+      "two_d10": {
+        "attacker_win": 0.722,
+        "tie": 0.054,
+        "defender_win": 0.224,
+        "either_extreme": 0.021
+      }
+    },
+    "8": {
+      "d20": {
+        "attacker_win": 0.805,
+        "tie": 0.03,
+        "defender_win": 0.165,
+        "either_extreme": 0.195
+      },
+      "two_d10": {
+        "attacker_win": 0.9003,
+        "tie": 0.0282,
+        "defender_win": 0.0715,
+        "either_extreme": 0.0997
+      }
+    }
+  },
+  "ground_examples": {
+    "-77": {
+      "attacker_win": 0.0,
+      "tie": 0.0,
+      "defender_win": 1.0,
+      "either_extreme": 1.0
+    },
+    "-74": {
+      "attacker_win": 0.0,
+      "tie": 0.0,
+      "defender_win": 1.0,
+      "either_extreme": 1.0
+    },
+    "-37": {
+      "attacker_win": 0.0,
+      "tie": 0.0,
+      "defender_win": 1.0,
+      "either_extreme": 1.0
+    },
+    "-34": {
+      "attacker_win": 0.0,
+      "tie": 0.0,
+      "defender_win": 1.0,
+      "either_extreme": 0.9975
+    },
+    "7": {
+      "attacker_win": 0.7725,
+      "tie": 0.0325,
+      "defender_win": 0.195,
+      "either_extreme": 0.165
+    },
+    "0": {
+      "attacker_win": 0.475,
+      "tie": 0.05,
+      "defender_win": 0.475,
+      "either_extreme": 0.05
+    }
+  },
+  "construction_payback": {
+    "depot_supply_cost": 15,
+    "depot_logistics_to_repay": 8,
+    "forge_supply_cost": 25,
+    "forge_logistics_to_repay": 5
+  },
+  "transports": [
+    {
+      "committed": 1,
+      "normal": 0,
+      "base": 0,
+      "upgraded": 0
+    },
+    {
+      "committed": 2,
+      "normal": 1,
+      "base": 1,
+      "upgraded": 1
+    },
+    {
+      "committed": 3,
+      "normal": 1,
+      "base": 2,
+      "upgraded": 2
+    },
+    {
+      "committed": 4,
+      "normal": 2,
+      "base": 2,
+      "upgraded": 3
+    },
+    {
+      "committed": 5,
+      "normal": 3,
+      "base": 3,
+      "upgraded": 4
+    },
+    {
+      "committed": 6,
+      "normal": 3,
+      "base": 4,
+      "upgraded": 4
+    },
+    {
+      "committed": 7,
+      "normal": 4,
+      "base": 4,
+      "upgraded": 5
+    },
+    {
+      "committed": 8,
+      "normal": 4,
+      "base": 5,
+      "upgraded": 6
+    },
+    {
+      "committed": 9,
+      "normal": 5,
+      "base": 6,
+      "upgraded": 7
+    },
+    {
+      "committed": 10,
+      "normal": 6,
+      "base": 7,
+      "upgraded": 8
+    }
+  ],
+  "event": {
+    "each_event_probability": 0.05555555555555555,
+    "expected_per100": 5.555555555555555,
+    "warp_during5_build_actions": 0.2485811571745501
+  }
+}

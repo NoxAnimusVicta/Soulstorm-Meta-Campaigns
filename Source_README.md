@@ -27,3 +27,8 @@ Provenance: Dessica rules through Cycle 21; user notes dated on receipt 15 Septe
 Balance_Simulation_Methods.md specifies scope and assumptions; Balance_Simulation_Report.md records the first calibration experiments. Download Balance_Simulation_Bundle.zip for reproducible code and data. The bundle contains the shared engine, production controllers, qualification evidence and preserved historical pilots. Qualification scope and limitations are explicit in the readiness report; this is not a claim that the rules are balanced. Military resource clarification and source-export corrections do not alter suspended Dessica.
 
 The current simulation bundle contains complete current qualification evidence. Earlier strategy-assessment and stagnation-investigation raw data are preserved separately in Historical_Bot_Diagnostics.zip, available from the source-library download links.
+
+
+## Campaign notes review — 17 September 2026
+
+Read Campaign_Notes_Review_2026-09-17.md for every note, supporting measurements and proposed connected changes. Integrated_Balance_Baseline_Report.md contains the completed 216-game baseline. These are proposals, not source rule changes. Integrated_Balance_Evidence_20260917.zip contains the new study and review evidence separately from the earlier qualification bundle.

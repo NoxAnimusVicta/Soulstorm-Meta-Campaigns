@@ -1,0 +1,393 @@
+{
+  "construction_starts": {
+    "academy": 515,
+    "forge": 484,
+    "system_repair": 290,
+    "assault_boats": 243,
+    "escort": 428,
+    "troop_transport": 37,
+    "training": 88,
+    "orbital_cannons": 217,
+    "defence_platform": 25,
+    "depot": 97,
+    "shipyard": 53,
+    "grand_shipyard": 48,
+    "bunker": 32,
+    "void_shield": 28,
+    "militia": 10,
+    "automated_defences": 5
+  },
+  "first_construction": {
+    "academy": 368,
+    "forge": 117,
+    "system_repair": 69,
+    "escort": 39,
+    "assault_boats": 17,
+    "orbital_cannons": 3
+  },
+  "construction_hosts": {
+    "original_capital": 1372,
+    "system": 315,
+    "fleet": 708,
+    "other_holding": 205
+  },
+  "combat": {
+    "naval": {
+      "battles": 4934,
+      "wipeout_margin": 1350
+    },
+    "minor": {
+      "battles": 5620,
+      "attacker_wins": 5053,
+      "deterministic": 3597,
+      "guaranteed_loss": 279,
+      "guaranteed_win": 3318
+    },
+    "major": {
+      "battles": 6227,
+      "attacker_wins": 5938,
+      "deterministic": 4246,
+      "guaranteed_loss": 0,
+      "guaranteed_win": 4246
+    }
+  },
+  "events": {
+    "0": 9265,
+    "2": 720,
+    "3": 790,
+    "6": 712,
+    "4": 547,
+    "5": 749,
+    "1": 688
+  },
+  "stocks": {
+    "supply": {
+      "mean": 32.31484637094627,
+      "median": 24.0,
+      "over40": 0.2532349965386868,
+      "over60": 0.1410618243782949,
+      "n": 37558
+    },
+    "manpower": {
+      "mean": 38.74615261728527,
+      "median": 28.0,
+      "over40": 0.34000745513605624,
+      "over60": 0.21103360136322488,
+      "n": 37558
+    }
+  },
+  "traits": {
+    "siege": {
+      "n": 18,
+      "survival": 5,
+      "mean_holdings": 5.166666666666667
+    },
+    "efficient": {
+      "n": 18,
+      "survival": 6,
+      "mean_holdings": 7.555555555555555
+    },
+    "mobile": {
+      "n": 18,
+      "survival": 7,
+      "mean_holdings": 8.5
+    },
+    "war_economy": {
+      "n": 18,
+      "survival": 7,
+      "mean_holdings": 8.833333333333334
+    },
+    "martial": {
+      "n": 18,
+      "survival": 15,
+      "mean_holdings": 19
+    },
+    "salvagers": {
+      "n": 18,
+      "survival": 7,
+      "mean_holdings": 8.833333333333334
+    },
+    "void": {
+      "n": 18,
+      "survival": 5,
+      "mean_holdings": 6.333333333333333
+    },
+    "swift": {
+      "n": 18,
+      "survival": 7,
+      "mean_holdings": 8.222222222222221
+    },
+    "endurance": {
+      "n": 18,
+      "survival": 5,
+      "mean_holdings": 6.333333333333333
+    },
+    "dread": {
+      "n": 18,
+      "survival": 6,
+      "mean_holdings": 7.611111111111111
+    },
+    "fortification": {
+      "n": 18,
+      "survival": 5,
+      "mean_holdings": 5.777777777777778
+    },
+    "industrial": {
+      "n": 18,
+      "survival": 4,
+      "mean_holdings": 3.8333333333333335
+    }
+  },
+  "unfinished": [
+    {
+      "id": 17,
+      "actions_last20": {
+        "reinforce": 29,
+        "ground": 25,
+        "create": 15,
+        "muster": 6,
+        "move": 103,
+        "expand": 56,
+        "build": 13,
+        "naval": 3,
+        "start": 3,
+        "defend": 10,
+        "repair": 3,
+        "structure_assault": 24
+      },
+      "players": [
+        {
+          "supply": 75,
+          "manpower": 82,
+          "holdings": 20,
+          "strength": 53,
+          "captures": 32,
+          "eliminated": false,
+          "deficits": {},
+          "projects": 4
+        },
+        {
+          "supply": 3,
+          "manpower": 54,
+          "holdings": 2,
+          "strength": 56,
+          "captures": 27,
+          "eliminated": false,
+          "deficits": {},
+          "projects": 0
+        },
+        {
+          "supply": 58,
+          "manpower": 56,
+          "holdings": 1,
+          "strength": 34,
+          "captures": 7,
+          "eliminated": false,
+          "deficits": {},
+          "projects": 0
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "actions_last20": {
+        "bombard_shared": 4,
+        "structure_assault": 16,
+        "move": 64,
+        "reinforce": 40,
+        "expand": 14,
+        "create": 8,
+        "start": 3,
+        "defend": 6,
+        "repair": 2,
+        "ground": 18,
+        "build": 12,
+        "naval": 6,
+        "upgrade": 1,
+        "muster": 2
+      },
+      "players": [
+        {
+          "supply": 73,
+          "manpower": 76,
+          "holdings": 1,
+          "strength": 28,
+          "captures": 7,
+          "eliminated": false,
+          "deficits": {},
+          "projects": 0
+        },
+        {
+          "supply": 88,
+          "manpower": 92,
+          "holdings": 22,
+          "strength": 31,
+          "captures": 37,
+          "eliminated": false,
+          "deficits": {},
+          "projects": 9
+        },
+        {
+          "supply": 59,
+          "manpower": 49,
+          "holdings": 0,
+          "strength": 0,
+          "captures": 20,
+          "eliminated": true,
+          "deficits": {},
+          "projects": 0
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "actions_last20": {
+        "naval": 7,
+        "defend": 15,
+        "move": 58,
+        "reinforce": 32,
+        "build": 12,
+        "muster": 9,
+        "bombard_shared": 11,
+        "ground": 23,
+        "start": 4,
+        "repair": 2,
+        "structure_assault": 6,
+        "create": 4,
+        "expand": 9
+      },
+      "players": [
+        {
+          "supply": 41,
+          "manpower": 73,
+          "holdings": 0,
+          "strength": 13,
+          "captures": 8,
+          "eliminated": false,
+          "deficits": {},
+          "projects": 1
+        },
+        {
+          "supply": 75,
+          "manpower": 86,
+          "holdings": 21,
+          "strength": 35,
+          "captures": 22,
+          "eliminated": false,
+          "deficits": {},
+          "projects": 7
+        },
+        {
+          "supply": 1,
+          "manpower": 6,
+          "holdings": 1,
+          "strength": 23,
+          "captures": 7,
+          "eliminated": false,
+          "deficits": {},
+          "projects": 0
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "actions_last20": {
+        "move": 55,
+        "defend": 11,
+        "build": 22,
+        "reinforce": 23,
+        "ground": 16,
+        "muster": 1,
+        "start": 4,
+        "expand": 25,
+        "bombard_shared": 1,
+        "repair": 2,
+        "create": 5,
+        "upgrade": 1
+      },
+      "players": [
+        {
+          "supply": 79,
+          "manpower": 87,
+          "holdings": 16,
+          "strength": 43,
+          "captures": 26,
+          "eliminated": false,
+          "deficits": {},
+          "projects": 5
+        },
+        {
+          "supply": 82,
+          "manpower": 87,
+          "holdings": 7,
+          "strength": 43,
+          "captures": 27,
+          "eliminated": false,
+          "deficits": {},
+          "projects": 10
+        },
+        {
+          "supply": 9,
+          "manpower": 19,
+          "holdings": 0,
+          "strength": 0,
+          "captures": 2,
+          "eliminated": true,
+          "deficits": {},
+          "projects": 0
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "actions_last20": {
+        "naval": 6,
+        "expand": 31,
+        "move": 79,
+        "muster": 8,
+        "reinforce": 25,
+        "build": 13,
+        "ground": 30,
+        "create": 15,
+        "bombard_shared": 2,
+        "defend": 12,
+        "repair": 3,
+        "start": 2,
+        "merge": 2,
+        "structure_assault": 2
+      },
+      "players": [
+        {
+          "supply": 68,
+          "manpower": 67,
+          "holdings": 3,
+          "strength": 35,
+          "captures": 18,
+          "eliminated": false,
+          "deficits": {},
+          "projects": 0
+        },
+        {
+          "supply": 75,
+          "manpower": 89,
+          "holdings": 17,
+          "strength": 30,
+          "captures": 22,
+          "eliminated": false,
+          "deficits": {},
+          "projects": 4
+        },
+        {
+          "supply": 62,
+          "manpower": 59,
+          "holdings": 1,
+          "strength": 25,
+          "captures": 21,
+          "eliminated": false,
+          "deficits": {},
+          "projects": 0
+        }
+      ]
+    }
+  ]
+}
