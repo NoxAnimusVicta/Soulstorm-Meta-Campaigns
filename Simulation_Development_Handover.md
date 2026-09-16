@@ -1,6 +1,10 @@
 # Simulation development handover
 
-Updated: 15 September 2026. Work in progress; experiments do not amend campaign rules.
+Updated: 16 September 2026. Work in progress; experiments do not amend campaign rules.
+
+## Read first — current checkpoint
+
+The 16 September continuation at the end of this document is the current status. Earlier sections are retained as historical checkpoint notes, not a current task list. Current code includes capital recovery, Major Planet Fall resource costs, direct mobile ground targeting and a bounded future-turn planner. The user ruled that Establish New Capital takes priority over Emergency Rationing. No other experimental balance changes were approved.
 
 ## Campaign and destination
 
@@ -44,3 +48,31 @@ Reactive Major opponents; multi-turn strategic policies with distinct behaviour;
 ## Resume and publication
 
 Work from this file's directory. Run python -X utf8 balance_tests.py. Existing pilot: python -X utf8 balance_sim.py --seeds 8 --cycles 36 --out NEW_OUTPUT_DIRECTORY (do not overwrite historic results). Build website with python -X utf8 build.py and validate node --check app.js. Update this handover after each checkpoint. GitHub connector reads worked; writes previously returned 403. Signed-in GitHub browser uploads successfully published root sources and generated dist files. Verify Actions and the live source page before calling an update published. Checkpoint source commit 3524c4026dcb79a8fef37a0d4e87043a4e9a6b0e deployed successfully in Actions run 34941755685; the live source page and development handover were verified on 15 September 2026. Later documentation-only commits may follow this receipt. Verify the latest run when resuming.
+
+## Active continuation — 16 September 2026
+
+The earlier sections describe the 15 September checkpoint. Current local work supersedes several gaps: shared_sim.py now applies Major Planet Fall resource penalties, tracks established capital shipyards separately from captured holdings, supports free doubling actions to establish a replacement capital, processes Mobile Capital loss penalties/trait loss once, and prevents eliminated factions taking turns or receiving Logistics/events. The user subsequently ruled that Establish New Capital takes priority over Emergency Rationing; that priority is now implemented and tested.
+
+strategic_planner.py adds bounded lookahead: it evaluates the rest of this Cycle and future Cycles, including opponent replies and privately sampled events. Investment candidates survive the immediate-value shortlist, so creation can be considered for future usefulness. This remains a bounded heuristic rollout, not expert play or complete game fidelity. planner_experiment.py compares depth 0 with depth 1 using paired event seeds and turn-order rotations, preserving every trace and saving partial results after each run. Completed first batch: python -X utf8 planner_experiment.py --cycles 6 --seeds 1 --out planner-results-20260916 . Six trials finished with no unsupported stops; this batch predates the ruling and mobile ground targeting and includes its exact source snapshots.
+
+Validation: 21 core tests and 18 shared tests pass. Historical shared engine preserved as shared_sim_checkpoint_20260915.py; its corresponding core as balance_sim_checkpoint_20260915.py. The old shared-results-v2 runs omitted Major Planet Fall resource penalties and therefore must not be used for economic conclusions. They remain historical integration evidence only. No campaign rules or Dessica state changed. This continuation has not yet been published.
+
+Early observation (not a completed comparison): the first lookahead trial commissioned four fleets, whereas its paired one-step trial commissioned none. This shows that future-turn evaluation can change investment behaviour. It does not establish that more fleets or the new planner are better. Wait for the full batch and report opposing outcomes, costs and limitations before drawing conclusions.
+
+
+## Final local checkpoint — 16 September 2026
+
+Current authoritative development files: shared_sim.py, strategic_planner.py, planner_experiment.py, shared_tests.py, balance_sim.py and balance_tests.py. Direct mobile ground targeting and destruction tests are now included. Source_Rules.md contains the user's capital-before-rationing ruling. No other balance changes or Dessica ledger changes were made.
+
+Both batches finished: planner-results-20260916 has six 6-Cycle trials; planner-results-20260916-ruling has six 3-Cycle trials with the current ruling and mobile targets. Both use seed 0 and three turn-order rotations at planner depths 0 and 1. No unsupported stops occurred. First batch: creation 0 versus 15; second batch: 0 versus 10. These are tiny integration/behaviour comparisons, not win-rate studies. Their manifests and inputs/ directories preserve the code actually used; do not combine them as identical model versions.
+
+Next work, in order:
+1. Add combat constructions, system construction targets and explicit capacity/effect invalidation tests. Four economic profiles remain the only construction choices. Add fleet transfers/merges/scuttles with documented participant-action accounting.
+2. Add mixed Minor/Major maps and fully rotate trait, policy, home-system layout and turn order. Current synthetic map grants extra starting assets and is not a standard campaign opening. Add explicit scenario objectives and independent policy families.
+3. Improve planning efficiency and deeper-horizon tests: the first 6-Cycle batch took about 249 seconds; the 3-Cycle batch about 94 seconds. Keep investment candidates, but test shortlist sensitivity and opponent-model errors. Current depth comparison also changes the relative-opponent scoring term, so it is not a pure horizon ablation.
+4. Settle remaining defensive participation, AI tie/defender Supply, three-way raid and mobile Planet Fall allocation conventions before claiming full fidelity. Review provisional-capital income tier (currently unchanged until maximum reaches 12). The captured capital's yard does not transfer.
+5. Calibrate human battle outcomes separately; do not infer them from AI dice or use the small Dessica sample to claim precise win probabilities.
+
+Resume commands: python -X utf8 balance_tests.py ; python -X utf8 shared_tests.py ; python -X utf8 planner_experiment.py --cycles 6 --seeds 2 --out NEW_DIRECTORY . Use separate commands in the shell. package_simulation.py bundles the current scripts, both fixed 16 September result directories, the handover and historical archives; add a new output directory to its folder list when packaging future runs. build.py generates the source-library page and downloads.
+
+Publication status at packaging: ready for upload; verify the GitHub commit, Actions run and live page. GitHub connector tools are absent after the account switch, but the signed-in in-app browser still exposes repository uploads. No login or permission change was needed. Earlier publication receipts refer to 15 September, not this continuation.

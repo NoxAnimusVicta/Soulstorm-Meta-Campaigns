@@ -109,3 +109,27 @@ The current batch has **12 trials**: two seeds, two resource starts and three tu
 The policies still use shallow heuristic decisions. Traits remain tied to map positions and policy assignments; this batch cannot rank faction strength or recommend crew costs. Automatic defending fleets retaining their actions is an explicit provisional convention. Isolated Defense is selected when defender Manpower is insufficient; Forced Conscription is not searched. Raids, capital transitions, diplomatic consent and most constructions remain unsupported. See Simulation_Development_Handover.md for exact continuation steps.
 
 Validation: **30 tests pass** (21 core, 9 shared). Spending the final Supply no longer resurrects a destroyed construction on a mobile host: that timing edge stops with an explicit unresolved-rule marker. The intact original pilot is archived inside the downloadable bundle; current shared results have separate hashes and complete traces. No experimental rebalance has been adopted and Dessica remains suspended.
+
+## Planner and capital recovery — 16 September 2026
+
+The current shared engine fixes missing **Major Planet Fall resource penalties**. The 15 September shared trials are preserved for debugging and are not valid economic evidence. Captured capital holdings no longer transfer their built-in shipyard. Replacement capitals can be established through free doubling actions; Mobile Capital loss applies its penalties and permanent trait loss once. Eliminated factions no longer receive income or take actions. Direct ground attacks can damage and destroy mobile capitals and their attached constructions.
+
+**Approved source ruling:** Establish New Capital takes priority over Emergency Rationing; deficit tracks remain locked and retain progress until establishment is complete. This changes the reusable source rules, not suspended Dessica's current ledger.
+
+A bounded planner now evaluates the remaining current Cycle plus one future Cycle, including the other factions' responses. It samples its own possible future events and combat outcomes without access to the realised campaign dice. Its shortlist deliberately keeps investment options that immediate-payoff pruning would discard. It still uses heuristic follow-up decisions and only two future samples per candidate, so it is not an optimal or human-level strategist.
+
+Six paired integration runs used one seed, three turn orders and six Cycles. They used the corrected Planet Fall model but preceded the capital-priority ruling and mobile ground targeting; their exact source snapshots are retained with the results.
+
+| Action across three trials | Immediate-value planner | One-future-Cycle planner |
+|---|---:|---:|
+| Create Fleet | 0 | 15 |
+| Expand Fleet | 7 | 17 |
+| Ground Assault | 49 | 21 |
+| Fleet Battle | 1 | 1 |
+| Bombardment | 0 | 1 |
+| Start construction | 3 | 9 |
+| Defend | 3 | 8 |
+
+All six reached their horizon without unsupported-state stops. These action counts demonstrate sensitivity to planning depth, not superior play or an approved resource balance. Different territorial outcomes, the tiny seed sample, fixed trait/map assignments and missing mechanics prevent a faction-strength or cost recommendation. There is no statistical confidence claim from three rotations of one seed.
+
+The current version is additionally covered by **39 regression tests** (21 core and 18 shared). A separate short post-ruling run is recorded in the handover and downloadable bundle. Next priorities are combat constructions and system targets, broader mixed Major/Minor scenarios, stronger opponent policies, deeper search sensitivity, explicit victory objectives and human-battle calibration.

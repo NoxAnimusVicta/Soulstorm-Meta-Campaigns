@@ -32,7 +32,7 @@ Suspended at Cycle 21 after the Korps captured Corvid and finished its turn. Nex
 | B16 | Events/travel | Balance events; consider delayed travel | Proposed |
 | B17 | Alignment constructions | Warp resilience, Chaos/Necron options and fair access | Proposed |
 | B18 | Personnel/time | Ages, successors, local/Sector clocks, trait continuity | Framework adopted; lifespans unresolved |
-| B19 | Simulation quality | Multiple policies, uncertainty, sensitivity, meaningful choices | Plan supplied; not run |
+| B19 | Simulation quality | Multiple policies, uncertainty, sensitivity, meaningful choices | Pilot and shared-model experiments completed; full validation unfinished |
 | B20 | Mod subproject | Compatible kitbashed units/factions, animation and Army Painter support | Separate future work; no assets changed |
 
 Suggested review sequence: terminology → economy/Manpower → Minor resistance → combat → construction/traits → generation/events → personnel/Sector. This is a recommendation, not an approved redesign.
@@ -176,3 +176,12 @@ Military-grade scope confirmed for both resources; Supply costs must remain for 
 ## Simulation continuation — 15 September 2026
 
 Shared-Major integration tests and reproducible traces are now available. This is not an adopted rebalance. Read Simulation_Development_Handover.md to resume development; it is included in the source library and simulation bundle. Supply still represents military materials and all experimental crew-cost variants retain Supply expenditure.
+
+
+## Review update — 16 September 2026
+
+**Approved ruling:** Establish New Capital takes priority over Emergency Rationing. Deficit resources stay locked at zero and their recovery progress is preserved during capital establishment. The next available Faction Action after establishment addresses remaining rationing. No extra Faction Action is granted. Added to Source_Rules.md; suspended Dessica remains unchanged.
+
+**Simulation correction:** The first shared-Major prototype omitted Planet Fall resource penalties. Those historical results are unsuitable for economic conclusions. The engine now applies them and separates a captured capital-tier holding from an established capital's non-transferable built-in shipyard. Replacement capital actions and mobile-capital destruction are tested.
+
+**Planner progress:** Bounded future-turn rollouts include opponent responses, privately sampled future events and delayed investment choices. The comparison shows that fleet creation can disappear under immediate-value bots and reappear under lookahead. This is a modelling warning relevant to B19, not evidence for adopting any balance proposal.
