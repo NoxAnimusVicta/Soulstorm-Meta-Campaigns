@@ -1,3 +1,37 @@
+## Latest continuation state — 16 September 2026 (read first)
+
+108 deterministic tests pass: `python -m unittest balance_tests shared_tests construction_tests battle_setup_tests -q`. Four six-Cycle diagnostic runs completed without engine exceptions; NOT balance evidence. All edits in this continuation remain LOCAL and unpublished. Source/build/package need final regeneration before upload. Do not stop at this checkpoint: user asks completion of the whole simulator.
+
+Approved rulings this continuation: defending always happens, costs no Fleet Action; referee selected fleet ties=no damage/ground ties=defender win; referee selected AI defender half-damage MP/60% winner return plus normal tier Supply/80% winner return, Planet Fall replaces ordinary Supply loss. Flagship/Assault Cruiser completed capacity persists until fleet destruction. Only initiator spends Transfer/Merge action; absorbed constructions transfer. Garrison donors retain >=1 defence. System damage/repair affects every eligible fleet. Cannons hit largest attacker before strength/MP commitment. Recorded in Source_Rules.md.
+
+All 32 construction effects now have implementation paths; UNIMPLEMENTED is empty. This is NOT complete validation. Permanent fleet capacity uses dynamic Project.granted_capacity/permanent_integrity fields. Completed capacity cannot be targeted separately; unfinished upgrade progress can be damaged down to existing permanent stage. These upgrade details need source wording review. Fortification max bonus clips current defence when disabled without extra structure damage. System fire currently resolves at Cycle closing before regeneration (timing convention still needs explicit source ruling).
+
+Added mechanics: Structure Assault, system construction control, planetary shield, station conversion, consolidation, fleet strength construction, scout move+attack, merge, ordinary Fleet Transfer, scuttle, garrison/multi-donor API/Landing Zones, minor local resource pools/static fleet creation, approved allied ground participation and one-action sharing, explicit defender conscription choices, validated transactional submit, separate pure human battle setup. Production run uses submit; planner hypothetical act remains low level. All modules must remain packaged (battle_setup.py and battle_setup_tests.py added).
+
+Still required: Summon Allies and dynamic turn/policy support; social/diplomacy strategy; human outcome injection; AI third-party raids; completed source/cross-interaction audit; all profile/trait effect regression tests; arbitrary scenarios and replay/invariants; competent bots using all mechanics, with adversarial strategy validation. Complete fixture/state serialization must preserve dynamic permanent capacity fields. Historical trials cannot be used as current baseline.
+
+Pending user questions: summoned ally capital setup; enhanced fleet Transfer cap; design provisional AI raid procedure versus supplied referee outcomes. Fleet Transfer currently limited to ordinary max5 non-Mobile fleets. Mobile transfers/merges not supported. Major Planet Fall tie choice still deterministic lowest-index (must expose choice). Multi-faction defensive fleet pooling/structure guards need audit. Ground-only construction buffs presently need destroyed-contributor filtering. Garrison generator offers individual transfers and one-target multi-donor plans; API accepts general validated plans. Bots do not yet optimize explicit consent or conscription choices. Capture Supply replacement at a zero-resource boundary needs audit to avoid premature deficit artefacts.
+
+Next: continue remaining mechanics and tests, keep handover current, publish coherent checkpoint once built. Dessica remains suspended at Cycle21 with revision65dc4a60d17b; no campaign changes.
+
+## Active continuation — 16 September 2026: mechanics implementation in progress
+
+User requests continuing until the simulator is complete. It is NOT complete and balance testing remains locked. Dessica remains suspended; campaign state untouched. These latest edits are local and have NOT yet been published.
+
+Latest verification: 85 tests pass with `python -m unittest balance_tests shared_tests construction_tests battle_setup_tests -q`.
+
+The construction catalogue now contains all 32 source profiles, but catalogue presence is not implementation. `UNIMPLEMENTED` explicitly prevents purchasing unfinished effects. Typed fleet/system hosts were added alongside existing planetary and Mobile Capital hosts. Added fleet combat modifiers, system repair/logistics effects, traits, and Minor scaffolding require more interaction tests before certification.
+
+New focused tests cover: attached construction damage/destruction; ground-only strength bonuses excluded from bombardment; Consolidation Works permanently upgrading holdings and repeatable only to Major; Void Stations becoming independent holdings and excluded from capital selection; guarded and unguarded Structure Assault outcomes; system control transferring Minor structures and destroying Major structures while excluding stations; Planetary Shield Network immunity/Defended effects. Fixed ground roll to include ground-strength construction effects.
+
+Still outstanding: complete profile effects (see UNIMPLEMENTED), dynamic faction/scenario support, diplomacy/consented allied participation, fleet transfer/merge/scuttle, garrison transfer, Summon Allies, minor resource profiles, phase-budget enforcement, player outcomes/setup, three-team raids, replay/invariant testing, competent policy coverage. Existing planner and run loops still assume three factions in places. Structure Assault needs allied guard and special-trait interaction review. Source ambiguities must not be silently guessed.
+
+Pending previously asked rulings: defensive fleet action use; ties; AI defending Supply/Manpower costs. Additional material ambiguities listed in mechanics coverage remain. Do not treat missing replies as approval. Current convention switches are diagnostic only.
+
+Further local implementation: validated `submit` enforces phase order, once-per-turn faction/construction actions and fleet availability; production run uses it. Minor creation/per-world resources and original fleet maxima implemented with tests. Scout combined movement/attack implemented (including joining unmoved fleets at destination), with Warp Storm/damaged-construction exclusions. Scuttle implemented with source any-means destruction penalty. Trait/escort/tender tests added. `battle_setup.py` calculates player difficulty, formations, map capacity and raids without inventing outcomes; impossible team scaling fails explicitly. Human outcome integration remains incomplete. Additional async questions: periodic system effects/cannon timing; inactive fleet strength constructions/merge construction fate.
+
+Next: finish mechanics, expand deterministic tests, update coverage truthfully, then rebuild/package/publish once coherent. No balance experiments or balancing proposals yet.
+
 # Simulation development handover
 
 Updated: 16 September 2026. Work in progress; experiments do not amend campaign rules.
