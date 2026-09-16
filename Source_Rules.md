@@ -116,7 +116,7 @@ A faction with the [Mobile Capital] trait uses a mobile fortress — a Craftworl
 
 ## SECTION 2: TURN STRUCTURE
 
-**Resource Requirements:** A faction cannot voluntarily take any action that would reduce their Supply or Manpower below 0. If an action requires more resources than the faction possesses, that action cannot be taken. Reaching exactly 0 through an affordable voluntary action also triggers a deficit. Involuntary losses can trigger a deficit at 0 or below; record the affected resource as 0 and apply the recovery rules.
+**Resource Requirements — ruling, 16 September 2026:** A faction cannot voluntarily take an action whose resource expenditure would leave Supply or Manpower at 0 or below. Every resource spent must remain above 0 after payment; otherwise block the action before expenditure or action consumption. Involuntary losses can trigger a deficit at 0 or below; record the affected resource as 0 and apply the recovery rules.
 
 Each turn represents one battle. Follow these phases in order:
 
