@@ -2,7 +2,7 @@ from pathlib import Path
 import json,zipfile,hashlib
 from sim_replay import inputs
 root=Path('.')
-files=set(inputs())|{'package_integrated_review.py','readiness.py','simulation_readiness.json','bot_qualification.py','verify_bot_trace.py','integrated_balance_sample.py','analyse_integrated_balance.py','audit_campaign_notes.py','balance_microtests_20260917.py','investigate_campaign_tails.py','Campaign_Notes_Review_2026-09-17.md','Campaign_Notes_2026-09-15.md','Integrated_Balance_Baseline_Report.md','Integrated_Balance_Review.md','Integrated_Notes_Evidence.json','Balance_Microtests_20260917.json','Simulation_Development_Handover.md'}
+files=set(inputs())|{'package_integrated_review.py','readiness.py','simulation_readiness.json','bot_qualification.py','verify_bot_trace.py','integrated_balance_sample.py','analyse_integrated_balance.py','audit_campaign_notes.py','balance_microtests_20260917.py','investigate_campaign_tails.py','Campaign_Notes_Review_2026-09-17.md','Campaign_Notes_Review_2026-09-17_SUPERSEDED.md','Campaign_Notes_2026-09-15.md','Integrated_Balance_Baseline_Report.md','Integrated_Balance_Review.md','Integrated_Notes_Evidence.json','Balance_Microtests_20260917.json','Simulation_Development_Handover.md'}
 for folder in ('integrated-balance-20260917','integrated-notes-investigation-20260917'):
  files.update(str(p) for p in Path(folder).rglob('*') if p.is_file())
 manifest={name:hashlib.sha256(Path(name).read_bytes()).hexdigest() for name in sorted(files)}

@@ -1,3 +1,11 @@
+# PRIORITY: creator corrections, 17 September 2026
+
+Read Campaign_Notes_Review_2026-09-17.md FIRST. The prior proposed packages were rejected in material respects. It now contains a point-by-point corrected decision record. Accepted: base operation during upgrades, Expand Fleet personnel cost, ordinary Minor starting-fleet reduction while retaining Planet Fall, stronger prize Minor concept, fixed extra Troop Transport recovery, and random allocation to eliminate faction-message overhead. Planetary capital shipyard exemption favoured; fleet/system slot limits, resource formula, naval redesign and exact trait improvements remain open. Sector/Subsector relationship, global Cycle effects, lore-based travel bypass and lifespan table requirements are corrected. Mod work parked.
+
+This turn corrected documentation only. Source_Rules.md and simulator still implement the old qualified baseline; approved design changes are not yet implemented or validated. No new sims were run. Do not describe the existing readiness result as qualification for new mechanics. Do not implement withdrawn proposal values. Original review is explicitly archived as SUPERSEDED.
+
+---
+
 # Latest work — campaign notes review, 17 September 2026
 
 Every B01–B22 issue and the original source/briefing requests are reviewed in Campaign_Notes_Review_2026-09-17.md. Read that report before selecting changes. It proposes connected packages; none has been adopted or run as a full campaign variant. Original rules/controller hashes are unchanged.

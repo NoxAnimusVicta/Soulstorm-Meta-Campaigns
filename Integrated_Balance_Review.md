@@ -1,3 +1,5 @@
+> Creator corrections take precedence: read Campaign_Notes_Review_2026-09-17.md. Earlier proposed packages were withdrawn; the baseline is historical evidence, not approval of those packages.
+
 # Integrated campaign balance review — 17 September 2026
 
 ## Mandate

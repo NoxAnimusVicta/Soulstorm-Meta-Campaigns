@@ -215,3 +215,8 @@ Campaign_Notes_Review_2026-09-17.md now reviews B01–B22 and the source/briefin
 
 
 All five formerly unfinished cases reached full control: 102, 108, 111, 115 and 169 Cycles. Each 200-Cycle extension reproduced its original first 100 Cycles and orders exactly, then passed public replay. Including these endings, all 216 campaigns reached full control: mean 63.26, median 61, range 42–169. This is a complete duration distribution for this fixture, not all campaign maps.
+
+
+## Creator corrections — 17 September 2026
+
+The first v0.2 proposal was materially rejected. Campaign_Notes_Review_2026-09-17.md now records accepted designs, withdrawn ideas and open questions in the creator's point order. It supersedes prior recommendations, without overwriting the original playtest notes. Resource caps, finite naval damage ceiling, permanent Dread difficulty modifiers, sparse d6 systems and damage-only storm protection are withdrawn. Accepted designs are pending synchronized source-rule/simulator implementation, not already validated by the historical baseline. Mod development is parked.
