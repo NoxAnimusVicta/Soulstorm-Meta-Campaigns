@@ -227,3 +227,16 @@ The first v0.2 proposal was materially rejected. Campaign_Notes_Review_2026-09-1
 The creator requested actual replacements rather than another restatement. Balance_Replacement_Proposal_2026-09-17.md supplies formulas, examples, attack choices, naval damage, traits, a complete d20 generation table and lore-supported all-alignment Warp Storm bypass. These are candidates, not silently adopted rules. Earlier accepted directions remain accepted for the next synchronized implementation. The underlying qualified engine and suspended Dessica ledger are unchanged.
 
 Exact probability/setup checks are in Proposal_Checks_20260917.json; no full-campaign outcome is claimed for the new package. Sector work has now explicitly been TABLED by the creator while Subsector balance is resolved. The missing separate Sector document is not grounds to invent a replacement. Mod work remains tabled.
+
+## Latest decisions — 17 September 2026, follow-up review
+
+Accepted for the connected candidate: holding construction rules and upgrade continuity; Expand Fleet personnel cost; resource-based ground formula; shared Minor pools; naval formula; ground breakthrough and bombardment pricing for testing; Siege successful-assault bonus; Warp transit implementations. Fleet and system construction limits are NOT approved. Remove the merger restriction: absorbed constructions transfer.
+
+System generation is now 2–4 total holdings (planets and stations combined), with a mean of 3: d20 1–5 gives 2, 6–15 gives 3, 16–20 gives 4. The updated proposal contains all twenty mixed profiles. A ten-system/three-Major map averages 30 holdings.
+
+Pending candidates: double the whole derived resource pool of designated prize Minors (including a proposed persistent designation after Capital loss); Fortification retains normal Defend prices and +2 restoration, with one completed defensive construction Integrity repaired if the host reaches full defence; Dread replaces its old effect with defensive Build/Upgrade at 3 Supply per stage. The rejected flat 1/1 Defend and half-defence capture proposals must not be implemented. These trait replacements have arithmetic comparisons, not validated balance claims.
+
+Mandatory evaluation: bombardment must have useful situations beyond being the only legal option at extreme Manpower shortage. Compare all three attack routes together. Exact generator and route-affordability checks pass, but no new full-campaign candidate run has occurred. Source_Rules.md and the qualified engine remain the historical baseline; Dessica stays suspended.
+
+See [updated replacement package](Balance_Replacement_Proposal_2026-09-17.md).
+

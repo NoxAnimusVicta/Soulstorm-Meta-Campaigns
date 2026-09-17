@@ -1,5 +1,18 @@
 # Latest work — concrete replacement proposals, 17 September 2026
 
+## Latest decisions — 17 September 2026, follow-up review
+
+Accepted for the connected candidate: holding construction rules and upgrade continuity; Expand Fleet personnel cost; resource-based ground formula; shared Minor pools; naval formula; ground breakthrough and bombardment pricing for testing; Siege successful-assault bonus; Warp transit implementations. Fleet and system construction limits are NOT approved. Remove the merger restriction: absorbed constructions transfer.
+
+System generation is now 2–4 total holdings (planets and stations combined), with a mean of 3: d20 1–5 gives 2, 6–15 gives 3, 16–20 gives 4. The updated proposal contains all twenty mixed profiles. A ten-system/three-Major map averages 30 holdings.
+
+Pending candidates: double the whole derived resource pool of designated prize Minors (including a proposed persistent designation after Capital loss); Fortification retains normal Defend prices and +2 restoration, with one completed defensive construction Integrity repaired if the host reaches full defence; Dread replaces its old effect with defensive Build/Upgrade at 3 Supply per stage. The rejected flat 1/1 Defend and half-defence capture proposals must not be implemented. These trait replacements have arithmetic comparisons, not validated balance claims.
+
+Mandatory evaluation: bombardment must have useful situations beyond being the only legal option at extreme Manpower shortage. Compare all three attack routes together. Exact generator and route-affordability checks pass, but no new full-campaign candidate run has occurred. Source_Rules.md and the qualified engine remain the historical baseline; Dessica stays suspended.
+
+See [updated replacement package](Balance_Replacement_Proposal_2026-09-17.md).
+
+
 Read Balance_Replacement_Proposal_2026-09-17.md before continuing. It answers the previously missing proposals: uncapped resource/5 score, shared 5/10/15/20 Minor contributions, +1 successful-assault breakthrough, bombardment 2*tier+damage, 2d6 naval rolls with ceil(margin/3) losses, stronger situational traits, a 20-entry map table, and all-alignment local storm bypass implementations with lore boundaries. None of these new numerical proposals has been approved merely by publication.
 
 Creator confirmed the earlier accepted directions; they remain implementation work for a synchronized candidate, not changes already present in Source_Rules.md or the qualified engine. Do not mark that engine rebalanced. Source_Rules.md and all pinned engine files remain unchanged. Dessica remains suspended at Cycle 21, revision 65dc4a60d17b.

@@ -1,6 +1,6 @@
 # Connected balance replacement proposal
 
-17 September 2026. **Proposal for review, not an adopted rules release.**
+17 September 2026. **Updated decision record and remaining candidates; not yet an implemented rules release.**
 
 This supplies the missing formulas, costs, system table and lore implementations. The accepted changes from the corrected decision record are included as dependencies. Dessica stays suspended at Cycle 21. Source_Rules.md and the qualified baseline engine are unchanged. Sector-scale work is tabled at the creator's explicit instruction on 17 September; no new Sector interpretation is proposed here. The mod project also remains tabled.
 
@@ -8,17 +8,15 @@ The numbers below have exact local arithmetic checks, including player setup exa
 
 ## 1. Construction capacity and upgrade continuity
 
-Recommended capacity rules:
+Accepted holding rules; fleet and system restrictions withdrawn:
 
 - Each planet, station or Mobile Capital has **one permanent planetary/orbital construction slot**. Its established Capital shipyard is built-in and uses no slot. An ordinary shipyard built elsewhere uses the slot and costs normally.
-- Each ordinary fleet has **one attached construction**, which may receive its existing upgrade. The Mobile Capital uses its holding slot rather than gaining a second free ordinary-fleet slot.
-- Each faction may build **one system construction of each type per system**, not just one construction across the whole system. This permits a Defence Station and a Repair Station together but prevents stacking multiple copies of either. Effects of identical allied installations do not stack on the same fleet/holding in the same Cycle; apply the strongest eligible effect once.
-- A completed Void Station becomes a holding, so it does not block construction of another Void Station. Only one unfinished Void Station project per faction per system at a time. Each completed station has its own holding slot.
+- No new fleet or system construction limit is approved. Preserve the existing capacity and effect rules while these categories remain under review. Fleet Merge transfers the absorbed fleet's constructions to the surviving fleet; multiple transferred constructions do not block the merge. Only the initiating fleet spends its Fleet Action.
 - Consolidation Works improve the holding itself and do not permanently occupy its construction slot. They still consume the normal paid Construction Actions and require the host to be at full defence.
 - Orbital Shipyard → Grand Orbital Shipyard → Grand Orbital Shipyard Complex is one infrastructure line, not multiple occupied slots. A Grand Shipyard developed from a Capital's free built-in yard occupies the ordinary slot. Its build and upgrade costs remain payable.
-- A Fleet Merge remains legal only if the transferred attachments fit the surviving fleet's capacity. Two attached constructions cannot be combined into one slot through merging; keep those fleets separate. Do not silently destroy either construction. Empty receiving fleets may accept the absorbed fleet's attachment normally.
 
-This is a proposed new-campaign restriction. It does not delete Dessica's existing constructions.
+
+The accepted holding restriction is for the new-campaign candidate. It does not delete Dessica's existing constructions.
 
 **Accepted upgrade continuity:** an upgrading Major retains its base effect at 5–9/10 Integrity; an upgrading Minor at 3–5/6. At 10/10 or 6/6 the upgraded effect starts. Below the original threshold neither ordinary effect operates. Damage is deducted from the current Integrity, so new stages provide a buffer. The full-host requirement remains. Preserve the existing special rule for completed Flagships/Assault Cruisers: their completed strength remains until the fleet is destroyed.
 
@@ -26,7 +24,7 @@ This is a proposed new-campaign restriction. It does not delete Dessica's existi
 
 **Accepted fleet personnel cost:** Expand Fleet costs **1 Supply and 1 Manpower** for up to +2 strength, limited by actual fleet capacity. Create Fleet remains 1 Supply/1 Manpower. Void Supremacy waives only Supply. Voluntary payment must leave each spent resource above zero.
 
-**Proposed AI ground score:**
+**Approved AI ground score for candidate implementation:**
 
 `d20 + participating Fleet Strength + floor(post-cost Supply / 5) + floor(post-commitment Manpower / 5) + situational modifiers`
 
@@ -64,13 +62,13 @@ Each controlled holding contributes the following to BOTH the Minor faction's sh
 
 **Formula:** add the contributions of every holding the Minor still controls. No starting constant, damage fraction, logarithm or artificial resource cap.
 
-Examples: Standard+Minor =15/15; Major+Standard+Minor =30/30; Capital+Major+Standard+Minor =50/50. Losing the Minor in the second example changes the whole faction to 25/25. Losing the Major next leaves 10/10. Losing the final fallback eliminates the faction and its remaining fleets.
+Examples: Standard+Minor =15/15; Major+Standard+Minor =30/30; Capital+Major+Standard+Minor =50/50 before the prize-faction multiplier below. Losing the Minor in the second example changes the whole faction to 25/25. Losing the Major next leaves 10/10. Losing the final fallback eliminates the faction and its remaining fleets.
 
 These remain derived military-support values, not a spendable treasury: Minors do not acquire strategic turns, income accumulation or deficit tracks. Pay the existing temporary defensive commitments for the individual combat calculation. Do not persist Major resource penalties against this pool.
 
 **Important change:** damaging a holding's defence does not reduce its contribution. Capturing it does. Bombardment weakens fortifications; conquest removes the wider faction's supporting infrastructure. This directly removes the present double reward in which bombardment both reduces defence and makes that planet's resource-based battle dramatically easier.
 
-**Accepted starting fleets:** ordinary Minor strength = `ceil(total starting maximum holding defence /2)`. Fill ordinary five-strength formations, then the remainder. Regeneration cannot recreate destroyed fleets or grow beyond initial capacities. Never recalculate away damage or create new strength when a planet falls. Apply Planet Fall and final-fallback elimination normally. Prize Minors retain the unhalved calculation, use the same uncapped resource-contribution table, and have a Capital-class holding.
+**Accepted starting fleets:** ordinary Minor strength = `ceil(total starting maximum holding defence /2)`. Fill ordinary five-strength formations, then the remainder. Regeneration cannot recreate destroyed fleets or grow beyond initial capacities. Never recalculate away damage or create new strength when a planet falls. Apply Planet Fall and final-fallback elimination normally. Prize Minors retain the unhalved fleet calculation and have a Capital-class holding. **New test candidate requested by the creator:** give each designated prize Minor twice its whole derived resource pool. A lone Capital provides 40/40; Capital+Standard+Minor provides 70/70; Capital+Major+Standard+Minor provides 100/100. This is one faction-wide multiplier, not a second treasury. Keep the prize designation after loss of its Capital, so captures remove the doubled contribution of the lost holding without also halving unrelated remaining support. A Capital+Standard+Minor prize losing its Capital therefore falls from 70/70 to 30/30. Final-fallback elimination and Planet Fall still apply. This persistence detail is a proposed procedure, not a previously agreed ruling.
 
 **Player setup checks**, before traits, events or constructions; attacker starts at 20/20:
 
@@ -79,11 +77,11 @@ These remain derived military-support values, not a spendable treasury: Minors d
 | One full fleet attacks the Standard world of a Standard+Minor owner | Insane, 1 versus 2 | Hard, 1 versus 1 |
 | Two full fleets attack the Major world of a Major+Standard+Minor owner | Insane, 1 versus 4 | Harder, 1 versus 1 |
 
-These use paid Supply and committed Manpower in the actual existing player setup calculator. The improvement comes from the proposed ordinary Minor fleet/resource changes, not a free player difficulty trait. Against richer regional powers and Major factions, resources and formations still scale normally. Scenario Minor resources above 100 would need an explicit extension of the last display band (81+) without truncating the derived value; the proposed generator below does not create that case.
+These use paid Supply and committed Manpower in the actual existing player setup calculator. The improvement comes from the proposed ordinary Minor fleet/resource changes, not a free player difficulty trait. Against richer regional powers and Major factions, resources and formations still scale normally. Scenario Minor resources above 100 would need an explicit extension of the last display band (81+) without truncating the derived value; an implementation must handle that case without truncating the pool, including a prize faction with enough high-tier holdings.
 
 ## 4. Three attack routes with different uses
 
-**Ground Assault candidate:** keep the existing tier Supply cost (1/2/3/4) and compulsory Manpower commitment `floor(participating strength /5)`. On a successful assault add **+1 breakthrough damage** to that base, plus existing construction/event bonuses, then apply defensive damage reductions. A below-five-strength force still cannot launch an ordinary Ground Assault under the current no-minimum ground rule. The breakthrough adds no formation slot and does not increase attacker Manpower commitment, just as damage-only constructions do not. Defender commitment uses total incoming damage under the relevant existing AI/player procedure. No new orbital attrition or Fleet Battle initiation cost is added.
+**Approved for connected testing — Ground Assault:** keep the existing tier Supply cost (1/2/3/4) and compulsory Manpower commitment `floor(participating strength /5)`. On a successful assault add **+1 breakthrough damage** to that base, plus existing construction/event bonuses, then apply defensive damage reductions. A below-five-strength force still cannot launch an ordinary Ground Assault under the current no-minimum ground rule. The breakthrough adds no formation slot and does not increase attacker Manpower commitment, just as damage-only constructions do not. Defender commitment uses total incoming damage under the relevant existing AI/player procedure. No new orbital attrition or Fleet Battle initiation cost is added.
 
 | Participating strength | Manpower commitment | Successful damage before other modifiers |
 |---|---:|---:|
@@ -93,7 +91,7 @@ These use paid Supply and committed Manpower in the actual existing player setup
 
 Ordinary defeat deals no damage; preserve Siege's separate defeat effect. Apply Planet Fall using the final assault's damage under the existing allocation rule. The extra point does not bypass Void Shields or an invulnerable Planetary Shield Network.
 
-**Uncontested Bombardment candidate:** retain no Manpower commitment, no dice and the one-defence floor. Replace the price with:
+**Approved for connected testing — Uncontested Bombardment:** retain no Manpower commitment, no dice and the one-defence floor. Replace the price with:
 
 `Supply cost = twice the target's tier cost + the strike's calculated bombardment damage`
 
@@ -114,7 +112,7 @@ The bot comparison must evaluate complete affordable routes and their consequenc
 
 ## 5. Less swingy naval combat without a damage ceiling
 
-**Candidate:** each side rolls `2d6 + actual participating Fleet Strength + applicable naval bonuses`. Keep the single one-strength initiation payment, one Fleet Action, free defensive participation and ordinary participation rules. A tie does no damage. The loser takes `ceil(winning margin /3)` damage on each participating fleet. Damage has no maximum; reaching zero destroys the formation. Attached construction damage follows normal host damage rules. This replaces the old 16+ automatic-destruction band with one continuing formula.
+**Approved for connected testing:** each side rolls `2d6 + actual participating Fleet Strength + applicable naval bonuses`. Keep the single one-strength initiation payment, one Fleet Action, free defensive participation and ordinary participation rules. A tie does no damage. The loser takes `ceil(winning margin /3)` damage on each participating fleet. Damage has no maximum; reaching zero destroys the formation. Attached construction damage follows normal host damage rules. This replaces the old 16+ automatic-destruction band with one continuing formula.
 
 For guarded targeted Structure Assaults, apply the same winning-margin damage to the target only on an attacker win; the defending fleets are not damaged. On attacker loss apply normal naval losses. High enough damage destroys the structure at zero. This replaces that attack's old separate 16+ destruction clause too.
 
@@ -133,42 +131,42 @@ This candidate makes naval superiority substantially more reliable and could enc
 
 ## 6. Strengthen situational traits through campaign effects
 
-These replace the rejected trait suggestions. They are proposals, not the creator's already approved values.
+Siege's added successful-assault damage is accepted. The previous Fortification discount and Dread capture benefit are withdrawn. The two replacements below are **new test candidates**, not claimed balanced or approved.
 
-- **Siege Doctrine:** retain ignoring Defended and its existing one-damage-on-defeat effect; add +1 damage on a successful Ground Assault, on top of the general breakthrough. Five strength therefore deals three on a win before mitigation, versus two for another trait. No new permanent Soulstorm difficulty change is added. Preserve existing defeat/capture semantics rather than silently changing them here.
-- **Fortification Experts:** a planetary/station/Mobile Capital Defend action costs **1 Supply and 1 Manpower**, restores the normal tier amount **plus 2**, and grants normal Defended status. A Capital repairs up to six defence for 1/1 instead of four for 4/4: six resources saved when that action is needed. This does not discount construction Repair, repair above maximum, waive the voluntary-deficit rule or grant a second action.
-- **Dread Reputation:** retain the existing enemy successful-defence return penalty, and add **captured holdings begin at half maximum defence, rounded up, instead of one**. Minor 2→1; Standard 4→2; Major 8→4; Capital-class 12→6. This represents a more intact surrender/occupation, rewarding conquest and reducing consolidation time. Apply battle damage and construction destruction before changing ownership; do not restore destroyed structures or give free construction Integrity. Do not grant a second Capital designation/shipyard or capture a Mobile Capital. No difficulty or army-count modifier.
+- **Siege Doctrine:** retain ignoring Defended and its existing one damage on a lost Ground Assault; add +1 damage on a successful Ground Assault, on top of the general breakthrough. Five strength deals three on a win before mitigation, versus two for another trait. The defeat effect already applied only to Ground Assaults; no restriction or new benefit is being invented there. Preserve existing defeat/capture semantics.
+- **Fortification Experts — revised candidate:** pay the normal world-tier Supply and Manpower costs for Defend, retain +2 defence restored and normal Defended status. If that action leaves the host at full defence, also restore **one Integrity to one damaged, completed defensive construction on that holding**. Choose the eligible structure with the smallest shortfall to full Integrity, breaking ties by oldest completion, to avoid an extra referee prompt. This cannot advance an unfinished construction or upgrade, repair a fleet/system structure elsewhere, or restore a destroyed structure. It does not use the Construction Action. A Capital still costs 4 Supply/4 Manpower and restores up to six defence; the new benefit is at most one point of construction repair (normally 1 Supply), with the potential to free that turn's Construction Action. This can reactivate a nearly repaired defence, so that action saving must be measured rather than dismissed as trivial.
+- **Dread Reputation — revised candidate:** fear of the faction compels military authorities to prioritise its fortifications. **Build and Upgrade defensive constructions for 3 Supply per construction stage instead of 5**, with unchanged stage counts, Integrity and full-host requirements. This replaces the old resource-return penalty; it does not stack with it or discount Repair. No difficulty, formation, capture-defence or general economic bonus. Industrial Efficiency remains 4 Supply for all construction; Dread is stronger in its narrower defensive speciality. A three-stage defensive project costs 9 Supply instead of 15 (Industrial: 12); a five-stage project costs 15 instead of 25 (Industrial: 20).
 
-Dread's benefit is deliberately after the fight; it cannot make the player's next enemy easier merely for possessing the trait. A Standard capture saves one defence point, a Major three and a Capital-class five. That is materially more than changing a fractional return which usually rounds identically. Fortification is responsive repair efficiency; Siege is faster offensive progress; Dread is stronger consolidation after conquest. Keep the useful economic/mobile traits intact while comparing these candidates together.
+For both defensive-construction benefits, qualifying profiles are Automated Defences, Bunker Network, Orbital Cannons, Regenerative Fortifications, Void Shield Generator, Fortification Network, Militia Barracks, Planetary Shield Network, Defence Platform and System Defence Station. Fortification's repair clause applies only to qualifying holding-based constructions on the defended host. Shipyards, economic buildings, repair facilities, transports, holding creation and Consolidation Works do not qualify. This explicit scope prevents a thematic discount becoming free general infrastructure. These definitions are candidates and require comparisons with all existing traits, including combined trait choices where allowed.
 
 **Accepted Troop Transport:** normal successful-assault recovery plus one committed Manpower (two upgraded), capped at what was committed, best participating transport only. No creation of additional personnel through the return.
 
 ## 7. A twenty-result system generator
 
-Roll d20 for each non-home system. All listed planets/stations are mechanically usable holdings; additional uninhabitable astronomical bodies are scenery and grant no income. Each exact result has a 5% chance. Two-holding systems occur on 1 and 3, not only on a maximum roll; most systems contain three to five holdings. Mean holdings per roll is exactly four.
+Roll d20 for each non-home system. Count planets and stations together toward the **2–4 holding total**. Rolls 1–5 give two holdings (25%); 6–15 give three (50%); 16–20 give four (25%). The mean and median are exactly three. Uninhabitable scenery supplies no additional strategic holdings or income.
 
 | d20 | Planets | Additional stations | Total holdings |
 |---:|---|---|---:|
 | 1 | 2 Minor | — | 2 |
-| 2 | 3 Minor | — | 3 |
+| 2 | 1 Minor | 1 Minor station | 2 |
 | 3 | 1 Standard, 1 Minor | — | 2 |
-| 4 | 1 Standard, 2 Minor | — | 3 |
-| 5 | 1 Standard, 3 Minor | — | 4 |
-| 6 | 1 Standard, 2 Minor | 1 Minor station | 4 |
-| 7 | 2 Standard, 1 Minor | — | 3 |
-| 8 | 2 Standard, 2 Minor | — | 4 |
-| 9 | 2 Standard, 1 Minor | 1 Standard station | 4 |
-| 10 | 1 Major, 2 Minor | — | 3 |
-| 11 | 1 Major, 1 Standard, 1 Minor | — | 3 |
-| 12 | 1 Major, 1 Standard, 2 Minor | — | 4 |
-| 13 | 1 Major, 2 Standard, 1 Minor | — | 4 |
-| 14 | 1 Major, 1 Standard, 1 Minor | 1 Minor station | 4 |
-| 15 | 3 Standard, 2 Minor | — | 5 |
-| 16 | 2 Standard, 2 Minor | 1 Minor station | 5 |
-| 17 | 1 Major, 2 Standard, 2 Minor | — | 5 |
-| 18 | 2 Major, 1 Standard, 2 Minor | — | 5 |
-| 19 | 1 Major, 2 Standard, 2 Minor | 1 Standard station | 6 |
-| 20 | 2 Major, 2 Standard, 2 Minor | 1 Major station | 7 |
+| 4 | 1 Standard | 1 Minor station | 2 |
+| 5 | 1 Major, 1 Minor | — | 2 |
+| 6 | 3 Minor | — | 3 |
+| 7 | 2 Minor | 1 Minor station | 3 |
+| 8 | 1 Standard, 2 Minor | — | 3 |
+| 9 | 1 Standard, 1 Minor | 1 Minor station | 3 |
+| 10 | 1 Standard | 2 Minor stations | 3 |
+| 11 | 2 Standard, 1 Minor | — | 3 |
+| 12 | 2 Standard | 1 Minor station | 3 |
+| 13 | 1 Major, 2 Minor | — | 3 |
+| 14 | 1 Major, 1 Minor | 1 Minor station | 3 |
+| 15 | 1 Major, 1 Standard, 1 Minor | — | 3 |
+| 16 | 1 Standard, 3 Minor | — | 4 |
+| 17 | 1 Standard, 2 Minor | 1 Minor station | 4 |
+| 18 | 2 Standard, 2 Minor | — | 4 |
+| 19 | 1 Major, 1 Standard, 1 Minor | 1 Minor station | 4 |
+| 20 | 1 Major, 1 Standard, 1 Minor | 1 Standard station | 4 |
 
 For equal opening opportunities, each Major home system contains its Capital plus a Standard and a Minor held by a hostile ordinary Minor faction; only the Capital starts owned by the Major. Names, world themes and station appearance can differ. This is a candidate standard opening, not a retcon to Dessica.
 
@@ -176,11 +174,11 @@ For ordinary non-home ownership roll another d20: 1–6 separate one-holding Min
 
 Place one declared prize Minor in a campaign of up to ten systems, two in a larger setup. Randomly choose non-home systems and upgrade the highest-tier planet in each to a Capital-class holding; stations are not Capitals. Its owner uses unhalved fleet calculation. Keep the remaining generated holdings and ownership unless the scenario explicitly allocates them to that prize faction. This makes the prize visible and contestable rather than hiding its existence behind a rare roll.
 
-A ten-system, three-Major map now averages 37 holdings (nine home-system holdings plus seven rolls averaging four). Compare it with Dessica's 27 and the old sample's specific fixture; do not report the old 61-Cycle median as a prediction for this map. The target remains typical completion in 50–100 Cycles with shorter and longer outliers.
+A ten-system, three-Major map now averages 30 holdings (nine home-system holdings plus seven rolls averaging three). Compare it with Dessica's 27 and the old sample's specific fixture; do not report the old 61-Cycle median as a prediction for this map. The target remains typical completion in 50–100 Cycles with shorter and longer outliers.
 
 ## 8. Warp Storm bypass, with an implementation for each alignment
 
-**Mechanical proposal: Major System Construction — Storm Transit Installation.** Five Build actions, 5 Supply per action, 5 maximum Integrity; no upgrade initially. It uses the same-type system limit above and the existing system-construction build/capture/destruction requirements.
+**Mechanical proposal: Major System Construction — Storm Transit Installation.** Five Build actions, 5 Supply per action, 5 maximum Integrity; no upgrade initially. It uses the existing system-construction build/capture/destruction requirements. No proposed new system capacity restriction is adopted.
 
 At the event roll, an active installation protects its owner's fleets and Mobile Capital in that system from the Warp Storm's one-point damage, including consequential attached-construction damage. During the storm, those assets may use their normal Fleet Movement action to depart that system for a legal destination despite the movement prohibition. A facility must still be active at departure; it grants no extra action. Protection does not extend to assets elsewhere. Explicitly authorised allied access can share the service; it creates no automatic Independent alliance. Completion during a storm permits subsequent departure but does not refund damage already suffered.
 
@@ -221,9 +219,13 @@ The next candidate implementation should include the connected set: capacity/upg
 - Alternative affordable routes against the SAME defended position; short-term damage, casualties, capture timing, enemy fleet threat and Planet Fall all counted.
 - Deficits from involuntary defence only; unavailable voluntary orders blocked without spending actions.
 - Equal and overwhelming naval forces, upgraded fleets, Mobile Capitals, targeted structures and construction damage.
-- Damaged upgrades retaining base effects, slot-safe mergers, built-in shipyard progression and automated system effects.
+- Damaged upgrades retaining base effects, mergers retaining absorbed constructions without a new capacity restriction, built-in shipyard progression and automated system effects.
 - All traits rotated across strategies/seats on multiple generated maps; record map size and rare prize ownership.
 
 Only after those cases pass should matched full campaigns assess duration, resource swings, first-build choices, trait performance and whether each attack route has situations where it is useful. No human difficulty claim can be certified from an AI-only run. Approval of this proposal is not a claim it is already balanced.
 
 **Reproduction:** proposal_checks_20260917.py and Proposal_Checks_20260917.json contain exact calculations, player setup examples and the historical expansion exposure count. The standalone proposal bundle contains these alongside this report. The old 216-campaign evidence remains historical and unchanged.
+
+### Latest review: mandatory bombardment viability checks
+
+Do not classify bombardment as balanced just because an extreme Manpower shortage makes it legal. Compare its use against direct assault across ordinary and scarce resources, human setup bands, fleet danger, shields, defended holdings, traits and multiple maps. Track route selection, capture time, Supply and Manpower expenditure, failed assaults, and foregone actions. If it is selected only when every alternative is unaffordable, or almost never selected, revise the price or damage before adopting the package. The exact affordability microchecks show a niche, not that the niche is broad enough.

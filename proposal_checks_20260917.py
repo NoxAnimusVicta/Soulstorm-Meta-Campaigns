@@ -72,14 +72,12 @@ def naval(attacker, defender):
 
 # (Minor planets, Standard planets, Major planets, Minor/Standard/Major stations)
 SYSTEMS = [
-    (2, 0, 0, ()), (3, 0, 0, ()), (1, 1, 0, ()),
-    (2, 1, 0, ()), (3, 1, 0, ()), (2, 1, 0, (1,)),
-    (1, 2, 0, ()), (2, 2, 0, ()), (1, 2, 0, (2,)),
-    (2, 0, 1, ()), (1, 1, 1, ()), (2, 1, 1, ()),
-    (1, 2, 1, ()), (1, 1, 1, (1,)), (2, 3, 0, ()),
-    (2, 2, 0, (1,)), (2, 2, 1, ()), (2, 1, 2, ()),
-    (2, 2, 1, (2,)), (2, 2, 2, (3,)),
+    (2,0,0,()), (1,0,0,(1,)), (1,1,0,()), (0,1,0,(1,)), (1,0,1,()),
+    (3,0,0,()), (2,0,0,(1,)), (2,1,0,()), (1,1,0,(1,)), (0,1,0,(1,1)),
+    (1,2,0,()), (0,2,0,(1,)), (2,0,1,()), (1,0,1,(1,)), (1,1,1,()),
+    (3,1,0,()), (2,1,0,(1,)), (2,2,0,()), (1,1,1,(1,)), (1,1,1,(2,)),
 ]
+
 
 
 def main():
@@ -94,6 +92,15 @@ def main():
     assert naval([5], [5])['defender_all_destroyed'] == 0
     assert len(SYSTEMS) == 20 and min(sum(x[:3]) + len(x[3]) for x in SYSTEMS) == 2
     checks += 3
+    counts = Counter(sum(x[:3]) + len(x[3]) for x in SYSTEMS)
+    assert counts == {2:5, 3:10, 4:5}
+    assert statistics.mean(sum(x[:3])+len(x[3]) for x in SYSTEMS) == 3
+    # Successful five-strength assaults spend one MP each; no return after flooring.
+    # S20/M2 cannot pay two assaults without voluntary depletion, but can bombard
+    # three times then assault: S20-17=3, M2-1=1. Low Supply reverses the choice.
+    assert 20-17 > 0 and 2-1 > 0 and not 2-2 > 0
+    assert 10-4 > 0 and 5-2 > 0 and not 10-17 > 0
+    checks += 4
     examples = []
     # Post-commitment values, no optional modifiers or third-party raid.
     for name, a, d in [
@@ -140,6 +147,10 @@ def main():
         naval=[naval(a,d) for a,d in [([5],[5]),([5,5],[5]),([5,5,5,5],[5]),([5]*20,[5])]],
         minor=[dict(tiers=t,each_resource=minor_resources(t)) for t in ([1],[2],[3],[2,1],[3,2,1],[4,3,2,1])],
         routes=routes,
+        prize_minor=[dict(tiers=t,each_resource=2*minor_resources(t)) for t in ([4],[4,2,1],[4,3,2,1])],
+        route_affordability=[
+            dict(supply=20,manpower=2,direct_two_wins=False,bombard_then_win=True),
+            dict(supply=10,manpower=5,direct_two_wins=True,bombard_then_win=False)],
         systems=[dict(d20=i+1,minor=x[0],standard=x[1],major=x[2],stations=x[3],holdings=sum(x[:3])+len(x[3])) for i,x in enumerate(SYSTEMS)],
         mean_holdings=statistics.mean(sum(x[:3])+len(x[3]) for x in SYSTEMS),
         expansion_exposure=dict(faction_histories=len(exposures),total=sum(exposures),

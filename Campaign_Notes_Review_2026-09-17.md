@@ -1,5 +1,18 @@
 > **Latest concrete proposals — 17 September 2026:** Read [Balance_Replacement_Proposal_2026-09-17.md](Balance_Replacement_Proposal_2026-09-17.md). It supplies replacement formulas, costs, player examples, a d20 generator and lore-supported storm installations. Candidate rules remain pending approval and integrated validation; Sector work is now tabled by the creator.
 
+## Latest decisions — 17 September 2026, follow-up review
+
+Accepted for the connected candidate: holding construction rules and upgrade continuity; Expand Fleet personnel cost; resource-based ground formula; shared Minor pools; naval formula; ground breakthrough and bombardment pricing for testing; Siege successful-assault bonus; Warp transit implementations. Fleet and system construction limits are NOT approved. Remove the merger restriction: absorbed constructions transfer.
+
+System generation is now 2–4 total holdings (planets and stations combined), with a mean of 3: d20 1–5 gives 2, 6–15 gives 3, 16–20 gives 4. The updated proposal contains all twenty mixed profiles. A ten-system/three-Major map averages 30 holdings.
+
+Pending candidates: double the whole derived resource pool of designated prize Minors (including a proposed persistent designation after Capital loss); Fortification retains normal Defend prices and +2 restoration, with one completed defensive construction Integrity repaired if the host reaches full defence; Dread replaces its old effect with defensive Build/Upgrade at 3 Supply per stage. The rejected flat 1/1 Defend and half-defence capture proposals must not be implemented. These trait replacements have arithmetic comparisons, not validated balance claims.
+
+Mandatory evaluation: bombardment must have useful situations beyond being the only legal option at extreme Manpower shortage. Compare all three attack routes together. Exact generator and route-affordability checks pass, but no new full-campaign candidate run has occurred. Source_Rules.md and the qualified engine remain the historical baseline; Dessica stays suspended.
+
+See [updated replacement package](Balance_Replacement_Proposal_2026-09-17.md).
+
+
 # Campaign Notes — corrected decisions and requirements
 17 September 2026 • Supersedes the first proposed v0.2 package
 

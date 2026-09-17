@@ -1,6 +1,6 @@
 {
   "status": "PROPOSAL ONLY: exact microchecks, not campaign validation",
-  "assertions": 184,
+  "assertions": 188,
   "ground": [
     {
       "name": "Equal supplied forces",
@@ -475,6 +475,45 @@
       "bombard_then_win_mp_net": 2
     }
   ],
+  "prize_minor": [
+    {
+      "tiers": [
+        4
+      ],
+      "each_resource": 40
+    },
+    {
+      "tiers": [
+        4,
+        2,
+        1
+      ],
+      "each_resource": 70
+    },
+    {
+      "tiers": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "each_resource": 100
+    }
+  ],
+  "route_affordability": [
+    {
+      "supply": 20,
+      "manpower": 2,
+      "direct_two_wins": false,
+      "bombard_then_win": true
+    },
+    {
+      "supply": 10,
+      "manpower": 5,
+      "direct_two_wins": true,
+      "bombard_then_win": false
+    }
+  ],
   "systems": [
     {
       "d20": 1,
@@ -486,11 +525,13 @@
     },
     {
       "d20": 2,
-      "minor": 3,
+      "minor": 1,
       "standard": 0,
       "major": 0,
-      "stations": [],
-      "holdings": 3
+      "stations": [
+        1
+      ],
+      "holdings": 2
     },
     {
       "d20": 3,
@@ -502,32 +543,71 @@
     },
     {
       "d20": 4,
-      "minor": 2,
-      "standard": 1,
-      "major": 0,
-      "stations": [],
-      "holdings": 3
-    },
-    {
-      "d20": 5,
-      "minor": 3,
-      "standard": 1,
-      "major": 0,
-      "stations": [],
-      "holdings": 4
-    },
-    {
-      "d20": 6,
-      "minor": 2,
+      "minor": 0,
       "standard": 1,
       "major": 0,
       "stations": [
         1
       ],
-      "holdings": 4
+      "holdings": 2
+    },
+    {
+      "d20": 5,
+      "minor": 1,
+      "standard": 0,
+      "major": 1,
+      "stations": [],
+      "holdings": 2
+    },
+    {
+      "d20": 6,
+      "minor": 3,
+      "standard": 0,
+      "major": 0,
+      "stations": [],
+      "holdings": 3
     },
     {
       "d20": 7,
+      "minor": 2,
+      "standard": 0,
+      "major": 0,
+      "stations": [
+        1
+      ],
+      "holdings": 3
+    },
+    {
+      "d20": 8,
+      "minor": 2,
+      "standard": 1,
+      "major": 0,
+      "stations": [],
+      "holdings": 3
+    },
+    {
+      "d20": 9,
+      "minor": 1,
+      "standard": 1,
+      "major": 0,
+      "stations": [
+        1
+      ],
+      "holdings": 3
+    },
+    {
+      "d20": 10,
+      "minor": 0,
+      "standard": 1,
+      "major": 0,
+      "stations": [
+        1,
+        1
+      ],
+      "holdings": 3
+    },
+    {
+      "d20": 11,
       "minor": 1,
       "standard": 2,
       "major": 0,
@@ -535,25 +615,17 @@
       "holdings": 3
     },
     {
-      "d20": 8,
-      "minor": 2,
-      "standard": 2,
-      "major": 0,
-      "stations": [],
-      "holdings": 4
-    },
-    {
-      "d20": 9,
-      "minor": 1,
+      "d20": 12,
+      "minor": 0,
       "standard": 2,
       "major": 0,
       "stations": [
-        2
+        1
       ],
-      "holdings": 4
+      "holdings": 3
     },
     {
-      "d20": 10,
+      "d20": 13,
       "minor": 2,
       "standard": 0,
       "major": 1,
@@ -561,7 +633,17 @@
       "holdings": 3
     },
     {
-      "d20": 11,
+      "d20": 14,
+      "minor": 1,
+      "standard": 0,
+      "major": 1,
+      "stations": [
+        1
+      ],
+      "holdings": 3
+    },
+    {
+      "d20": 15,
       "minor": 1,
       "standard": 1,
       "major": 1,
@@ -569,87 +651,53 @@
       "holdings": 3
     },
     {
-      "d20": 12,
-      "minor": 2,
-      "standard": 1,
-      "major": 1,
-      "stations": [],
-      "holdings": 4
-    },
-    {
-      "d20": 13,
-      "minor": 1,
-      "standard": 2,
-      "major": 1,
-      "stations": [],
-      "holdings": 4
-    },
-    {
-      "d20": 14,
-      "minor": 1,
-      "standard": 1,
-      "major": 1,
-      "stations": [
-        1
-      ],
-      "holdings": 4
-    },
-    {
-      "d20": 15,
-      "minor": 2,
-      "standard": 3,
-      "major": 0,
-      "stations": [],
-      "holdings": 5
-    },
-    {
       "d20": 16,
-      "minor": 2,
-      "standard": 2,
+      "minor": 3,
+      "standard": 1,
       "major": 0,
-      "stations": [
-        1
-      ],
-      "holdings": 5
+      "stations": [],
+      "holdings": 4
     },
     {
       "d20": 17,
       "minor": 2,
-      "standard": 2,
-      "major": 1,
-      "stations": [],
-      "holdings": 5
+      "standard": 1,
+      "major": 0,
+      "stations": [
+        1
+      ],
+      "holdings": 4
     },
     {
       "d20": 18,
       "minor": 2,
-      "standard": 1,
-      "major": 2,
+      "standard": 2,
+      "major": 0,
       "stations": [],
-      "holdings": 5
+      "holdings": 4
     },
     {
       "d20": 19,
-      "minor": 2,
-      "standard": 2,
+      "minor": 1,
+      "standard": 1,
+      "major": 1,
+      "stations": [
+        1
+      ],
+      "holdings": 4
+    },
+    {
+      "d20": 20,
+      "minor": 1,
+      "standard": 1,
       "major": 1,
       "stations": [
         2
       ],
-      "holdings": 6
-    },
-    {
-      "d20": 20,
-      "minor": 2,
-      "standard": 2,
-      "major": 2,
-      "stations": [
-        3
-      ],
-      "holdings": 7
+      "holdings": 4
     }
   ],
-  "mean_holdings": 4,
+  "mean_holdings": 3,
   "expansion_exposure": {
     "faction_histories": 648,
     "total": 14800,
@@ -657,7 +705,7 @@
     "mean": 22.839506172839506,
     "interpretation": "Additional nominal Manpower expenditure on old orders only; not a feasible new-rules replay or outcome prediction."
   },
-  "script_sha256": "996ae1be9624aef061a417ba6d5ae2bd8326d06d2bb20bfdfdc6082f39e083dd",
+  "script_sha256": "c6ff2c3472ccd6f1bf9c456464b206094a435c3144eb143688ab97acb77456fb",
   "player_examples": [
     {
       "name": "20/20 start, five strength attacks Standard of Standard+Minor owner",
