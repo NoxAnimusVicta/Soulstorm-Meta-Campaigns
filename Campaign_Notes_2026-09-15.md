@@ -220,3 +220,10 @@ All five formerly unfinished cases reached full control: 102, 108, 111, 115 and 
 ## Creator corrections — 17 September 2026
 
 The first v0.2 proposal was materially rejected. Campaign_Notes_Review_2026-09-17.md now records accepted designs, withdrawn ideas and open questions in the creator's point order. It supersedes prior recommendations, without overwriting the original playtest notes. Resource caps, finite naval damage ceiling, permanent Dread difficulty modifiers, sparse d6 systems and damage-only storm protection are withdrawn. Accepted designs are pending synchronized source-rule/simulator implementation, not already validated by the historical baseline. Mod development is parked.
+
+
+## Concrete replacement proposals — 17 September 2026
+
+The creator requested actual replacements rather than another restatement. Balance_Replacement_Proposal_2026-09-17.md supplies formulas, examples, attack choices, naval damage, traits, a complete d20 generation table and lore-supported all-alignment Warp Storm bypass. These are candidates, not silently adopted rules. Earlier accepted directions remain accepted for the next synchronized implementation. The underlying qualified engine and suspended Dessica ledger are unchanged.
+
+Exact probability/setup checks are in Proposal_Checks_20260917.json; no full-campaign outcome is claimed for the new package. Sector work has now explicitly been TABLED by the creator while Subsector balance is resolved. The missing separate Sector document is not grounds to invent a replacement. Mod work remains tabled.

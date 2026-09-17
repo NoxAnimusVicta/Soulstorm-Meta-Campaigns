@@ -1,3 +1,5 @@
+> **Latest concrete proposals — 17 September 2026:** Read [Balance_Replacement_Proposal_2026-09-17.md](Balance_Replacement_Proposal_2026-09-17.md). It supplies replacement formulas, costs, player examples, a d20 generator and lore-supported storm installations. Candidate rules remain pending approval and integrated validation; Sector work is now tabled by the creator.
+
 > Current design decisions: Campaign_Notes_Review_2026-09-17.md supersedes the first proposed balance package. Approved design changes await a synchronized rules/simulator revision; the executable rules remain the historical baseline.
 
 # Soulstorm Meta Campaigns — Source library

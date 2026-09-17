@@ -1,0 +1,737 @@
+{
+  "status": "PROPOSAL ONLY: exact microchecks, not campaign validation",
+  "assertions": 184,
+  "ground": [
+    {
+      "name": "Equal supplied forces",
+      "attacker": [
+        5,
+        30,
+        30
+      ],
+      "defender": [
+        5,
+        30,
+        30
+      ],
+      "scores": [
+        17,
+        17
+      ],
+      "delta": 0,
+      "win": 0.47500000000000003,
+      "tie": 0.05,
+      "loss": 0.47500000000000003
+    },
+    {
+      "name": "One full Supply band ahead",
+      "attacker": [
+        5,
+        50,
+        30
+      ],
+      "defender": [
+        5,
+        30,
+        30
+      ],
+      "scores": [
+        21,
+        17
+      ],
+      "delta": 4,
+      "win": 0.66,
+      "tie": 0.04,
+      "loss": 0.3
+    },
+    {
+      "name": "One full band ahead in both resources",
+      "attacker": [
+        5,
+        50,
+        50
+      ],
+      "defender": [
+        5,
+        30,
+        30
+      ],
+      "scores": [
+        25,
+        17
+      ],
+      "delta": 8,
+      "win": 0.805,
+      "tie": 0.03,
+      "loss": 0.165
+    },
+    {
+      "name": "Critical vs Abundant in Supply",
+      "attacker": [
+        5,
+        10,
+        30
+      ],
+      "defender": [
+        5,
+        90,
+        30
+      ],
+      "scores": [
+        13,
+        29
+      ],
+      "delta": -16,
+      "win": 0.015,
+      "tie": 0.01,
+      "loss": 0.975
+    },
+    {
+      "name": "Single Minor world; 20/20 attacker before cost",
+      "attacker": [
+        5,
+        19,
+        19
+      ],
+      "defender": [
+        1,
+        4,
+        4
+      ],
+      "scores": [
+        11,
+        1
+      ],
+      "delta": 10,
+      "win": 0.8625,
+      "tie": 0.025,
+      "loss": 0.1125
+    },
+    {
+      "name": "Standard plus Minor; 20/20 attacker before Standard assault",
+      "attacker": [
+        5,
+        18,
+        19
+      ],
+      "defender": [
+        3,
+        13,
+        14
+      ],
+      "scores": [
+        11,
+        7
+      ],
+      "delta": 4,
+      "win": 0.66,
+      "tie": 0.04,
+      "loss": 0.3
+    },
+    {
+      "name": "Major plus Standard plus Minor; 20/20 attacker, two full fleets",
+      "attacker": [
+        10,
+        17,
+        18
+      ],
+      "defender": [
+        7,
+        27,
+        29
+      ],
+      "scores": [
+        16,
+        17
+      ],
+      "delta": -1,
+      "win": 0.4275,
+      "tie": 0.0475,
+      "loss": 0.525
+    }
+  ],
+  "resource_scores": [
+    {
+      "resource": 0,
+      "score": 0
+    },
+    {
+      "resource": 1,
+      "score": 0
+    },
+    {
+      "resource": 5,
+      "score": 1
+    },
+    {
+      "resource": 10,
+      "score": 2
+    },
+    {
+      "resource": 20,
+      "score": 4
+    },
+    {
+      "resource": 21,
+      "score": 4
+    },
+    {
+      "resource": 30,
+      "score": 6
+    },
+    {
+      "resource": 40,
+      "score": 8
+    },
+    {
+      "resource": 50,
+      "score": 10
+    },
+    {
+      "resource": 60,
+      "score": 12
+    },
+    {
+      "resource": 70,
+      "score": 14
+    },
+    {
+      "resource": 80,
+      "score": 16
+    },
+    {
+      "resource": 90,
+      "score": 18
+    },
+    {
+      "resource": 100,
+      "score": 20
+    },
+    {
+      "resource": 120,
+      "score": 24
+    }
+  ],
+  "naval": [
+    {
+      "attacker": [
+        5
+      ],
+      "defender": [
+        5
+      ],
+      "delta": -1,
+      "win": 0.33564814814814814,
+      "tie": 0.10802469135802469,
+      "loss": 0.5563271604938271,
+      "defender_all_destroyed": 0,
+      "minimum_attacker_victory_damage": 1,
+      "maximum_damage": 4
+    },
+    {
+      "attacker": [
+        5,
+        5
+      ],
+      "defender": [
+        5
+      ],
+      "delta": 4,
+      "win": 0.8410493827160493,
+      "tie": 0.06172839506172839,
+      "loss": 0.09722222222222221,
+      "defender_all_destroyed": 0.0038580246913580245,
+      "minimum_attacker_victory_damage": 1,
+      "maximum_damage": 5
+    },
+    {
+      "attacker": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "defender": [
+        5
+      ],
+      "delta": 14,
+      "win": 1.0,
+      "tie": 0,
+      "loss": 0,
+      "defender_all_destroyed": 0.6643518518518519,
+      "minimum_attacker_victory_damage": 2,
+      "maximum_damage": 8
+    },
+    {
+      "attacker": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "defender": [
+        5
+      ],
+      "delta": 94,
+      "win": 1.0,
+      "tie": 0,
+      "loss": 0,
+      "defender_all_destroyed": 1.0,
+      "minimum_attacker_victory_damage": 28,
+      "maximum_damage": 35
+    }
+  ],
+  "minor": [
+    {
+      "tiers": [
+        1
+      ],
+      "each_resource": 5
+    },
+    {
+      "tiers": [
+        2
+      ],
+      "each_resource": 10
+    },
+    {
+      "tiers": [
+        3
+      ],
+      "each_resource": 15
+    },
+    {
+      "tiers": [
+        2,
+        1
+      ],
+      "each_resource": 15
+    },
+    {
+      "tiers": [
+        3,
+        2,
+        1
+      ],
+      "each_resource": 30
+    },
+    {
+      "tiers": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "each_resource": 50
+    }
+  ],
+  "routes": [
+    {
+      "strength": 5,
+      "tier": 1,
+      "defence": 2,
+      "direct_winning_assaults": 1,
+      "direct_supply": 1,
+      "direct_mp_net": 1,
+      "bombard_then_win_actions": 2,
+      "bombard_then_win_supply": 4,
+      "bombard_then_win_mp_net": 1
+    },
+    {
+      "strength": 5,
+      "tier": 2,
+      "defence": 4,
+      "direct_winning_assaults": 2,
+      "direct_supply": 4,
+      "direct_mp_net": 2,
+      "bombard_then_win_actions": 4,
+      "bombard_then_win_supply": 17,
+      "bombard_then_win_mp_net": 1
+    },
+    {
+      "strength": 5,
+      "tier": 3,
+      "defence": 8,
+      "direct_winning_assaults": 4,
+      "direct_supply": 12,
+      "direct_mp_net": 4,
+      "bombard_then_win_actions": 8,
+      "bombard_then_win_supply": 52,
+      "bombard_then_win_mp_net": 1
+    },
+    {
+      "strength": 5,
+      "tier": 4,
+      "defence": 12,
+      "direct_winning_assaults": 6,
+      "direct_supply": 24,
+      "direct_mp_net": 6,
+      "bombard_then_win_actions": 12,
+      "bombard_then_win_supply": 103,
+      "bombard_then_win_mp_net": 1
+    },
+    {
+      "strength": 10,
+      "tier": 1,
+      "defence": 2,
+      "direct_winning_assaults": 1,
+      "direct_supply": 1,
+      "direct_mp_net": 1,
+      "bombard_then_win_actions": 2,
+      "bombard_then_win_supply": 5,
+      "bombard_then_win_mp_net": 1
+    },
+    {
+      "strength": 10,
+      "tier": 2,
+      "defence": 4,
+      "direct_winning_assaults": 2,
+      "direct_supply": 4,
+      "direct_mp_net": 2,
+      "bombard_then_win_actions": 3,
+      "bombard_then_win_supply": 14,
+      "bombard_then_win_mp_net": 1
+    },
+    {
+      "strength": 10,
+      "tier": 3,
+      "defence": 8,
+      "direct_winning_assaults": 3,
+      "direct_supply": 9,
+      "direct_mp_net": 3,
+      "bombard_then_win_actions": 5,
+      "bombard_then_win_supply": 35,
+      "bombard_then_win_mp_net": 1
+    },
+    {
+      "strength": 10,
+      "tier": 4,
+      "defence": 12,
+      "direct_winning_assaults": 4,
+      "direct_supply": 16,
+      "direct_mp_net": 4,
+      "bombard_then_win_actions": 7,
+      "bombard_then_win_supply": 64,
+      "bombard_then_win_mp_net": 1
+    },
+    {
+      "strength": 15,
+      "tier": 1,
+      "defence": 2,
+      "direct_winning_assaults": 1,
+      "direct_supply": 1,
+      "direct_mp_net": 2,
+      "bombard_then_win_actions": 2,
+      "bombard_then_win_supply": 6,
+      "bombard_then_win_mp_net": 2
+    },
+    {
+      "strength": 15,
+      "tier": 2,
+      "defence": 4,
+      "direct_winning_assaults": 1,
+      "direct_supply": 2,
+      "direct_mp_net": 2,
+      "bombard_then_win_actions": 2,
+      "bombard_then_win_supply": 9,
+      "bombard_then_win_mp_net": 2
+    },
+    {
+      "strength": 15,
+      "tier": 3,
+      "defence": 8,
+      "direct_winning_assaults": 2,
+      "direct_supply": 6,
+      "direct_mp_net": 4,
+      "bombard_then_win_actions": 4,
+      "bombard_then_win_supply": 30,
+      "bombard_then_win_mp_net": 2
+    },
+    {
+      "strength": 15,
+      "tier": 4,
+      "defence": 12,
+      "direct_winning_assaults": 3,
+      "direct_supply": 12,
+      "direct_mp_net": 6,
+      "bombard_then_win_actions": 5,
+      "bombard_then_win_supply": 48,
+      "bombard_then_win_mp_net": 2
+    }
+  ],
+  "systems": [
+    {
+      "d20": 1,
+      "minor": 2,
+      "standard": 0,
+      "major": 0,
+      "stations": [],
+      "holdings": 2
+    },
+    {
+      "d20": 2,
+      "minor": 3,
+      "standard": 0,
+      "major": 0,
+      "stations": [],
+      "holdings": 3
+    },
+    {
+      "d20": 3,
+      "minor": 1,
+      "standard": 1,
+      "major": 0,
+      "stations": [],
+      "holdings": 2
+    },
+    {
+      "d20": 4,
+      "minor": 2,
+      "standard": 1,
+      "major": 0,
+      "stations": [],
+      "holdings": 3
+    },
+    {
+      "d20": 5,
+      "minor": 3,
+      "standard": 1,
+      "major": 0,
+      "stations": [],
+      "holdings": 4
+    },
+    {
+      "d20": 6,
+      "minor": 2,
+      "standard": 1,
+      "major": 0,
+      "stations": [
+        1
+      ],
+      "holdings": 4
+    },
+    {
+      "d20": 7,
+      "minor": 1,
+      "standard": 2,
+      "major": 0,
+      "stations": [],
+      "holdings": 3
+    },
+    {
+      "d20": 8,
+      "minor": 2,
+      "standard": 2,
+      "major": 0,
+      "stations": [],
+      "holdings": 4
+    },
+    {
+      "d20": 9,
+      "minor": 1,
+      "standard": 2,
+      "major": 0,
+      "stations": [
+        2
+      ],
+      "holdings": 4
+    },
+    {
+      "d20": 10,
+      "minor": 2,
+      "standard": 0,
+      "major": 1,
+      "stations": [],
+      "holdings": 3
+    },
+    {
+      "d20": 11,
+      "minor": 1,
+      "standard": 1,
+      "major": 1,
+      "stations": [],
+      "holdings": 3
+    },
+    {
+      "d20": 12,
+      "minor": 2,
+      "standard": 1,
+      "major": 1,
+      "stations": [],
+      "holdings": 4
+    },
+    {
+      "d20": 13,
+      "minor": 1,
+      "standard": 2,
+      "major": 1,
+      "stations": [],
+      "holdings": 4
+    },
+    {
+      "d20": 14,
+      "minor": 1,
+      "standard": 1,
+      "major": 1,
+      "stations": [
+        1
+      ],
+      "holdings": 4
+    },
+    {
+      "d20": 15,
+      "minor": 2,
+      "standard": 3,
+      "major": 0,
+      "stations": [],
+      "holdings": 5
+    },
+    {
+      "d20": 16,
+      "minor": 2,
+      "standard": 2,
+      "major": 0,
+      "stations": [
+        1
+      ],
+      "holdings": 5
+    },
+    {
+      "d20": 17,
+      "minor": 2,
+      "standard": 2,
+      "major": 1,
+      "stations": [],
+      "holdings": 5
+    },
+    {
+      "d20": 18,
+      "minor": 2,
+      "standard": 1,
+      "major": 2,
+      "stations": [],
+      "holdings": 5
+    },
+    {
+      "d20": 19,
+      "minor": 2,
+      "standard": 2,
+      "major": 1,
+      "stations": [
+        2
+      ],
+      "holdings": 6
+    },
+    {
+      "d20": 20,
+      "minor": 2,
+      "standard": 2,
+      "major": 2,
+      "stations": [
+        3
+      ],
+      "holdings": 7
+    }
+  ],
+  "mean_holdings": 4,
+  "expansion_exposure": {
+    "faction_histories": 648,
+    "total": 14800,
+    "median": 20.0,
+    "mean": 22.839506172839506,
+    "interpretation": "Additional nominal Manpower expenditure on old orders only; not a feasible new-rules replay or outcome prediction."
+  },
+  "script_sha256": "996ae1be9624aef061a417ba6d5ae2bd8326d06d2bb20bfdfdc6082f39e083dd",
+  "player_examples": [
+    {
+      "name": "20/20 start, five strength attacks Standard of Standard+Minor owner",
+      "baseline": {
+        "difficulty": 5,
+        "teams": [
+          {
+            "faction": "Player",
+            "formations": 1
+          },
+          {
+            "faction": "Minor",
+            "formations": 2
+          }
+        ],
+        "required_capacity": 4,
+        "map_capacity": 4,
+        "closed_slots": 1,
+        "outcome": "awaiting reported result"
+      },
+      "candidate": {
+        "difficulty": 3,
+        "teams": [
+          {
+            "faction": "Player",
+            "formations": 1
+          },
+          {
+            "faction": "Minor",
+            "formations": 1
+          }
+        ],
+        "required_capacity": 2,
+        "map_capacity": 2,
+        "closed_slots": 0,
+        "outcome": "awaiting reported result"
+      }
+    },
+    {
+      "name": "20/20 start, ten strength attacks Major of Major+Standard+Minor owner",
+      "baseline": {
+        "difficulty": 5,
+        "teams": [
+          {
+            "faction": "Player",
+            "formations": 1
+          },
+          {
+            "faction": "Minor",
+            "formations": 4
+          }
+        ],
+        "required_capacity": 8,
+        "map_capacity": 8,
+        "closed_slots": 3,
+        "outcome": "awaiting reported result"
+      },
+      "candidate": {
+        "difficulty": 4,
+        "teams": [
+          {
+            "faction": "Player",
+            "formations": 1
+          },
+          {
+            "faction": "Minor",
+            "formations": 1
+          }
+        ],
+        "required_capacity": 2,
+        "map_capacity": 2,
+        "closed_slots": 0,
+        "outcome": "awaiting reported result"
+      }
+    }
+  ]
+}

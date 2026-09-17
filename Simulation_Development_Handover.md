@@ -1,3 +1,17 @@
+# Latest work — concrete replacement proposals, 17 September 2026
+
+Read Balance_Replacement_Proposal_2026-09-17.md before continuing. It answers the previously missing proposals: uncapped resource/5 score, shared 5/10/15/20 Minor contributions, +1 successful-assault breakthrough, bombardment 2*tier+damage, 2d6 naval rolls with ceil(margin/3) losses, stronger situational traits, a 20-entry map table, and all-alignment local storm bypass implementations with lore boundaries. None of these new numerical proposals has been approved merely by publication.
+
+Creator confirmed the earlier accepted directions; they remain implementation work for a synchronized candidate, not changes already present in Source_Rules.md or the qualified engine. Do not mark that engine rebalanced. Source_Rules.md and all pinned engine files remain unchanged. Dessica remains suspended at Cycle 21, revision 65dc4a60d17b.
+
+184 exact assertions passed. Proposal_Checks_20260917.json records complete dice enumerations, player setup examples, map arithmetic and exposure to the new expansion cost on the old sample. The sample contained 14,800 expansion actions before coalition milestones (648 original-faction histories, median 20); do not claim the old orders remain affordable under changed costs. The whole connected package has not run through full campaigns. Earlier qualification and the 216-campaign sample are historical baseline evidence.
+
+Sector documentation was sought in the public campaign repository recursive tree, local archives and related Warhammer repository file list. No separate Sector rules were located. The creator replied: "Not sure, it should have been in there. Not really relevant until Subsector Scale is sorted properly. Table it". Sector work is TABLED, not permission to reconstruct or invent it. Mod work remains tabled.
+
+A standalone proposal/checks ZIP is published separately from the unchanged historical simulation evidence. Next: review the concrete candidate; implement the agreed package in an isolated variant, reconcile its bot valuations and player setup coverage, then run targeted checks and matched full-game comparisons across richer generated maps. Research sources and campaign-only extrapolations are listed in the report. Do not run rejected cap/difficulty/damage-ceiling proposals.
+
+---
+
 # PRIORITY: creator corrections, 17 September 2026
 
 Read Campaign_Notes_Review_2026-09-17.md FIRST. The prior proposed packages were rejected in material respects. It now contains a point-by-point corrected decision record. Accepted: base operation during upgrades, Expand Fleet personnel cost, ordinary Minor starting-fleet reduction while retaining Planet Fall, stronger prize Minor concept, fixed extra Troop Transport recovery, and random allocation to eliminate faction-message overhead. Planetary capital shipyard exemption favoured; fleet/system slot limits, resource formula, naval redesign and exact trait improvements remain open. Sector/Subsector relationship, global Cycle effects, lore-based travel bypass and lifespan table requirements are corrected. Mod work parked.
