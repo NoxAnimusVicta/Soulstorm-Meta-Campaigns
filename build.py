@@ -2,7 +2,7 @@ from pathlib import Path
 import re, json, html, hashlib, shutil
 ROOT=Path(__file__).parent
 OUT=ROOT/'dist'; OUT.mkdir(exist_ok=True)
-md=(ROOT/'Dessica_Campaign.md').read_text()
+# Dessica ledger is preserved in the archive; it is not the active data source.
 def inline(s):
  s=html.escape(s)
  s=re.sub(r'\*\*(.+?)\*\*',r'<strong>\1</strong>',s)
@@ -28,66 +28,29 @@ def render(text):
   else: out.append('<p>'+inline(s)+'</p>')
   i+=1
  return '\n'.join(out)
-cycle=int(re.search(r'\*\*Current Cycle:\*\* (\d+)',md)[1])
-tracker=md.split('### Resource Tracker',1)[1].split('**AI vs AI',1)[0]
-rows=table_rows(tracker); factions=[]
-for i,name in enumerate(rows[0][1:],1):
- values={r[0]:r[i] for r in rows[1:]}
- factions.append({'name':name,'values':values})
-sub=md.split('## The Dessica Subsector',1)[1].split('## Mobile Assets',1)[0]
-systems=[]
-for match in re.finditer(r'^### (.+)\n([\s\S]*?)(?=^### |\Z)',sub,re.M):
- title,body=match.groups(); worlds=table_rows(body)
- systems.append({'title':title,'worlds':[dict(zip(worlds[0],r)) for r in worlds[1:]],'html':render(body),'text':body})
-# Decision tables are derived from the authoritative tracker and system entries.
-def normalized(value):
- return value.replace('’', "'").replace('‘', "'").strip()
-for faction in factions:
- registers={'fleets':[], 'holdings':[], 'constructions':[]}
- for system in systems:
-  location=system['title'].split(' System')[0]
-  for world in system['worlds']:
-   if normalized(world['Controller'])==normalized(faction['name']):
-    income=next((n for kind,n in [('Capital',4),('Major',3),('Standard',2),('Minor',1)] if kind in world['Type']),0)
-    registers['holdings'].append([world['Planet'], location, world['Type'], world['Defense'], f'+{income} Supply / +{income} Manpower per Logistics'+(' · built-in Orbital Shipyard' if 'Capital' in world['Type'] else '')])
-  for line in system['text'].splitlines():
-   if line.startswith('- ') and ': ' in line:
-    owner, listing=line[2:].split(': ',1)
-    if normalized(owner)==normalized(faction['name']):
-     for fleet in re.finditer(r"([^,]+?) \((\d+/\d+)\)",listing):
-      registers['fleets'].append([fleet[1].strip(), location, fleet[2]])
- mobile_rows=table_rows(md.split('## Mobile Assets',1)[1].split('## Battle Log',1)[0])
- for row in mobile_rows[1:]:
-  if len(row)>=5 and normalized(row[2])==normalized(faction['name']):
-   registers['holdings'].append([row[0], row[4].replace(' System',''), row[1], row[3], '+4 Supply / +4 Manpower per Logistics; built-in Orbital Shipyard; no fleet maintenance'])
- construction=faction['values'].get('Constructions','—')
- for project in construction.split(' • '):
-  if project.strip() in ('—',''): continue
-  parts=[part.strip() for part in project.split(';')]
-  identity=parts[0].split(' — ',1)
-  fields=identity[-1].split(', ')
-  registers['constructions'].append([identity[0], ', '.join(fields[:-1]), fields[-1], '; '.join(parts[1:])])
- faction['registers']=registers
-rules=md.split('## SECTION 1:',1)[1].split('## SECTION 5:',1)[0]
-parts=re.split(r'^#{2,3} (.+)\n',rules,flags=re.M); chapters=[]
-if parts[0].strip(): chapters.append({'title':'Campaign setup','html':render(parts[0]),'text':parts[0]})
-for i in range(1,len(parts),2): chapters.append({'title':parts[i],'html':render(parts[i+1]),'text':parts[i+1]})
-status=json.loads((ROOT/'campaign-status.json').read_text())
-assert status['cycle']==cycle,'Status and campaign cycle disagree'
-data={'cycle':cycle,'status':status,'factions':factions,'systems':systems,'rules':chapters,'mobile':render(md.split('## Mobile Assets',1)[1].split('## Battle Log',1)[0]),'log':render(md.split('## Battle Log',1)[1].split('## Cycle Records',1)[0]),'narratives':render(md.split('## Cycle Records',1)[1]) if '## Cycle Records' in md else '','document':render(md)}
-revision=hashlib.sha256((md+json.dumps(status,sort_keys=True)).encode()).hexdigest()[:12]
-data['revision']=revision
+# The active app reads Atreus; Dessica is a frozen, independently browsable archive.
+from active_campaign import load_atreus
+from atreus_build import render as render_atreus, build_atreus
+data=load_atreus(ROOT,render_atreus)
+revision=data['revision'];cycle=data['cycle']
 payload=json.dumps(data,ensure_ascii=False).replace('</','<\\/')
-(OUT/'campaign.json').write_text(payload)
-page=(ROOT/'index.template.html').read_text().replace('/*__STYLE__*/',(ROOT/'style.css').read_text()).replace('/*__APP__*/',(ROOT/'app.js').read_text()).replace('/*__DATA__*/',payload)
-(OUT/'index.html').write_text(page)
-shutil.copyfile(ROOT/'Dessica_Campaign.md',OUT/'Dessica_Campaign.md')
+(OUT/'campaign.json').write_text(payload,encoding='utf-8')
+page=(ROOT/'index.template.html').read_text(encoding='utf-8').replace('/*__STYLE__*/',(ROOT/'style.css').read_text(encoding='utf-8')).replace('/*__APP__*/',(ROOT/'app.js').read_text(encoding='utf-8')).replace('/*__DATA__*/',payload)
+(OUT/'index.html').write_text(page,encoding='utf-8')
 for name in ['manifest.webmanifest','icon-180.png','icon-192.png','icon-512.png']:
  shutil.copyfile(ROOT/name,OUT/name)
 from source_build import build_source
 source_page=build_source(ROOT,OUT,render)
+build_atreus(ROOT,OUT)
+archive=ROOT/'archives/dessica-cycle21-20261007'
+if not archive.exists():
+ import zipfile
+ with zipfile.ZipFile(ROOT/'Dessica_Archive_Cycle21_2026-10-07.zip') as z:
+  archive.mkdir(parents=True)
+  z.extractall(archive)
+shutil.copytree(archive,OUT/'archives/dessica-cycle21-20261007',dirs_exist_ok=True)
+shutil.copyfile(ROOT/'Dessica_Archive_Cycle21_2026-10-07.zip',OUT/'Dessica_Archive_Cycle21_2026-10-07.zip')
 static_revision=hashlib.sha256((page+source_page).encode()).hexdigest()[:12]
 (OUT/'sw.js').write_text((ROOT/'sw.template.js').read_text().replace('__REVISION__',static_revision))
 (OUT/'.nojekyll').touch()
-print(f'Built Cycle {cycle}: {len(factions)} factions, {len(systems)} systems, {sum(len(s["worlds"]) for s in systems)} holdings, {len(chapters)} rule entries. Revision {revision}')
-
+print(f'Built Atreus Cycle {cycle}: {len(data["factions"])} factions, {len(data["systems"])} systems. Revision {revision}')

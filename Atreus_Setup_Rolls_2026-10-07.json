@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-07",
+  "method": "One secrets.randbelow(20)+1 draw for each ordinary non-home, non-prize system; no rerolls. Ownership is authored separately, not rolled.",
+  "rolls": [
+    {
+      "system": "Aulis",
+      "die": "d20",
+      "result": 5
+    },
+    {
+      "system": "Delphi",
+      "die": "d20",
+      "result": 17
+    },
+    {
+      "system": "Nemea",
+      "die": "d20",
+      "result": 13
+    },
+    {
+      "system": "Lerna",
+      "die": "d20",
+      "result": 12
+    },
+    {
+      "system": "Ithaca",
+      "die": "d20",
+      "result": 17
+    },
+    {
+      "system": "Thessaly",
+      "die": "d20",
+      "result": 16
+    }
+  ],
+  "fixed_profiles": {
+    "Argos": "Capital planet + Standard planet + Minor planet",
+    "Eleusis": "Capital planet + Standard planet + Minor planet",
+    "Calydon": "Capital planet + Standard planet + Minor planet",
+    "Mycenae": "Prize Minor Capital planet + Standard planet + Minor station; authored setup profile, not a d20 result"
+  },
+  "opening_event": "not rolled"
+}

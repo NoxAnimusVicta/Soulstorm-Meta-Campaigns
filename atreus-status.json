@@ -1,0 +1,19 @@
+{
+  "campaign": "Atreus",
+  "cycle": 1,
+  "phase": "Setup complete; awaiting opening Phase 0",
+  "event": null,
+  "logistics_due": 3,
+  "next_faction": "Iron Paladins",
+  "turn_order": [
+    "Iron Paladins",
+    "WAAAGH! Bell-Ringa",
+    "Order of Saint Erigone"
+  ],
+  "opened": false,
+  "updated": "2026-10-07",
+  "rules_file": "Source_Rules_Playtest_2026-10-06.md",
+  "rules_commit": "113ec69a6163d36fb2164b9b624d14d8889986e5",
+  "setup_rolls": "Atreus_Setup_Rolls_2026-10-07.json",
+  "pending_battles": []
+}

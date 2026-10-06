@@ -1,67 +1,22 @@
-# The Dessica Campaign
+# Soulstorm Campaign Command — Atreus
 
-Mobile campaign reference for Safari and iPhone Home Screen, built from the authoritative Markdown document. No server, API keys, package downloads or JavaScript dependencies are needed.
+The main app now runs the Atreus Subsector playtest. Cycle 1 is unopened. The grey command interface retains the original mobile navigation, faction registers, searchable systems and rules, record and Cycle narratives.
 
-## Campaign updates
+- [Active Atreus app](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/)
+- [Atreus briefings and complete reference](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html)
+- [Suspended Dessica archive](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/archives/dessica-cycle21-20261007/index.html)
+- [Download Dessica archive](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Dessica_Archive_Cycle21_2026-10-07.zip)
 
-1. Resolve the Cycle in the referee chat.
-2. Update `Dessica_Campaign.md`, including every affected tracker and system entry.
-3. Update `campaign-status.json`: the matching cycle number, phase, event, next faction, update label and notes. Do not invent event rolls or unresolved battle outcomes.
-4. Run `python3 build.py`. It validates the matching cycle and generates the dashboard from the document.
-5. Commit and push to `main`. The included GitHub Actions workflow builds and deploys `dist` to GitHub Pages.
+## Updating Atreus
 
-This automates publication after a push. It does not observe ChatGPT conversations, play turns, or create event rolls independently. The referee pushes the updated record after resolving each Cycle.
+Resolve play in the referee chat, then update `Atreus_Campaign.md` and `atreus-status.json`. The app derives resources and traits from Major faction tables, holdings and fleets from system tables, projects from the Construction register, records from Cycle ledger and Cycle Records, and rules from the pinned appendix. Keep duplicate summary rows consistent. `Atreus_Setup_Registers.json` is the opening snapshot, not the live ledger.
 
-## Initial publication
+Run `python build.py`, then publish the changed source files to main. GitHub Actions builds and deploys dist. Verify the published state before reporting completion. The site does not play turns, roll events or run background simulations. Phase 0 is construction effects, Logistics if due, then events. Do not advance past an unresolved player battle; publish its resolution only after the player reports the outcome.
 
-Push this project to the chosen GitHub repository. In Settings → Pages, choose GitHub Actions as the source. Run the Publish Dessica Campaign workflow if needed. The deployment job reports the live URL. GitHub Pages visibility depends on the account and repository configuration; confirm the intended audience before enabling publication.
+## Dessica preservation
 
-## iPhone
+Dessica remains suspended at Cycle 21, revision `65dc4a60d17b`. The archive ZIP contains the exact original generated page, data and source files plus a browsable snapshot. Its manifest records SHA-256 hashes. The browsable copy disables service worker registration and initial polling and links back to Atreus; the original page is retained in `source/original-published-index.html`. The root Dessica ledger and status are unchanged.
 
-Open the live URL in Safari, then Share → Add to Home Screen → Add. Keep Open as Web App enabled if shown. The icon opens in a standalone window. Visit online once to save offline assets. The app checks the published campaign on launch, on returning to the foreground, and once per minute while visible. Refresh checks immediately. Offline copies may be evicted by iOS; this is a reference cache, not the authoritative record.
+On a clean checkout build.py extracts the checked-in archive ZIP into archives, then copies it to dist. Do not regenerate the archive from the active app. The original root README is preserved separately as README_Dessica_Archived_2026-10-07.md.
 
-## Structure
-
-- `Dessica_Campaign.md`: full campaign rules, setting and state.
-- `campaign-status.json`: explicit referee status, never inferred as a rolled event.
-- `build.py`: dependency-free Markdown subset renderer and data extraction.
-- `index.template.html`, `style.css`, `app.js`: mobile interface.
-- `sw.template.js`: network-first offline cache.
-- `dist/`: generated standalone site. Its HTML includes the initial data, styles and scripts and can be opened locally for a preview. Hosting enables offline caching and live updates.
-
-All campaign content is escaped before rendering; raw HTML in campaign text is displayed literally. On iPhone, bottom navigation stays within thumb reach, faction details collapse, and rules tables become labelled cards. Search uses 17px input text and retains query and scroll position when switching tabs. Larger displays retain tables. The app preserves conflicting rules exactly as written for referee adjudication.
-
-## Publication destination
-
-- Repository: https://github.com/NoxAnimusVicta/Soulstorm-Meta-Campaigns
-- Branch: main
-- Publication: GitHub Actions, publishing dist/
-- Live website: https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/ (verified 10 September 2026)
-- Repository and intended website visibility: public.
-
-
-## Referee update policy
-
-Publish both the campaign Markdown and generated website whenever campaign state or an agreed ruling changes, including mid-Cycle events. Rebuild, push to main, and verify Pages before reporting publication complete. Do not advance a Cycle merely to update the site. The website rules index uses level 2 and 3 headings. Level 4 headings stay inside their parent entry: individual phase actions are subheadings, not separate dropdowns. Within Turn Structure, each Phase 0–7 is the dropdown container for all of its mechanics. Fleet Battles and Void Superiority belong to Phase 2; Summon Allies belongs to Phase 3; all construction guidance belongs to Phase 5. Use level 4 subheadings within those phases, never separate dropdowns for their mechanics.
-
-The ChatGPT project attachment is a separate copy. This local task cannot replace that attachment through a project-file tool; the user must replace it with the latest Dessica_Campaign.md download so other project chats receive the updated reference.
-
-## Cycle narratives
-
-Store narrator recaps under `## Cycle Records` in Dessica_Campaign.md, with one `### Cycle N` heading per completed Cycle. The build publishes these in the fifth navigation tab, Cycle Records. Narratives recount recorded outcomes and never establish new mechanical results.
-
-## Automatic referee rollover
-
-After Cerberus (the final faction) completes its turn, publish that turn, then complete end-of-Cycle recovery and narrative, advance the Cycle, apply Logistics every third Cycle before the opening event roll, roll the event, and publish and verify the new starting state. Await the first faction’s orders after rollover. Do not advance past an unresolved battle. This is referee work during the chat, not autonomous website play.
-
-## Player battle publication timing
-
-User instruction: prepare and explain player battle setup in chat, but wait until the player reports the result before updating GitHub documentation or publishing the website. Combine battle resolution and the remaining authorised turn updates in that publication. Do not advance to the next faction while the player battle is pending.
-
-
-### Faction decision tables
-Command overview derives fleet names, locations and strengths from current in-system fleet lists; holdings from system controller/defence entries and the Mobile Assets table; and project progress from the Resource Tracker. Keep those source entries synchronized when resolving turns. The interface uses one expandable register per faction, with tables on desktop and labelled asset rows on phones.
-
-## Source library and suspension — 15 September 2026
-
-Dessica is suspended at Cycle 21 after the Korps turn. Source_README.md indexes reusable documents; source.html is their generated web reference. Dated notes distinguish proposals from rules. build.py builds both views. Source changes do not reset or migrate Dessica.
+The Home Screen app uses the same URL and retains its identity, with an updated title and grey theme. Existing installations may keep their old OS-level icon/name until re-added. Offline caches are a convenience, never the authoritative campaign record.

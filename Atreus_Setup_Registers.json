@@ -1,0 +1,648 @@
+{
+  "majors": [
+    {
+      "name": "Iron Paladins",
+      "alignment": "Imperium",
+      "commander": "Warsmith Acastor Orontes",
+      "deputy": "First Paladin Menandros",
+      "controller": "Jake",
+      "system": "Argos",
+      "capital": "Tiryns",
+      "fleet": "Crusade Fleet Anabasis",
+      "trait": "The Iron Tithe — Efficient Logistics",
+      "effect": "Reinforce gives 8 Supply; Muster gives 8 Manpower. Total yield, one chosen Faction Action.",
+      "income": [
+        4,
+        4
+      ],
+      "brief": "briefing_first_paladin_menandros.md",
+      "art": "atreus_orontes.png"
+    },
+    {
+      "name": "WAAAGH! Bell-Ringa",
+      "alignment": "Ork",
+      "commander": "Warboss Bell-Ringa",
+      "deputy": "Boss Nob Klanga",
+      "controller": "AI faction instance",
+      "system": "Calydon",
+      "capital": "Da Bellworks",
+      "fleet": "Da Gate-Krasha",
+      "trait": "More Boyz Fer Da Fight — Martial Culture",
+      "effect": "+4 Manpower each Logistics Cycle.",
+      "income": [
+        4,
+        8
+      ],
+      "brief": "briefing_warboss_bell_ringa.md",
+      "art": "atreus_bell_ringa.png"
+    },
+    {
+      "name": "Order of Saint Erigone",
+      "alignment": "Imperium",
+      "commander": "Canoness Althaia",
+      "deputy": "Palatine Ianthe",
+      "controller": "AI faction instance",
+      "system": "Eleusis",
+      "capital": "Erigone",
+      "fleet": "The Third Refusal",
+      "trait": "The Consecrated Tithe — War Economy",
+      "effect": "+6 Supply each Logistics Cycle; no Manpower bonus.",
+      "income": [
+        10,
+        4
+      ],
+      "brief": "briefing_canoness_althaia.md",
+      "art": "atreus_althaia.png"
+    }
+  ],
+  "minors": [
+    {
+      "name": "Argive Muster Council",
+      "alignment": "Imperium",
+      "leader": "Strategos Damas",
+      "system": "Argos",
+      "prize": false,
+      "fleetbase": "Ashields",
+      "description": "The surviving muster authorities dispute Orontes’ right to requisition their armies and stores. They remain Imperial in allegiance but refuse his local command.",
+      "supply": 15,
+      "manpower": 15,
+      "initial_strength": 3
+    },
+    {
+      "name": "Eleusinian Synod",
+      "alignment": "Imperium",
+      "leader": "Prelate Lysandra",
+      "system": "Eleusis",
+      "prize": false,
+      "fleetbase": "Votive Watch",
+      "description": "Independent shrine administrators and militia reject Althaia’s claim to absorb their hospitals and levies. Their dispute concerns jurisdiction, not devotion to Chaos.",
+      "supply": 15,
+      "manpower": 15,
+      "initial_strength": 3
+    },
+    {
+      "name": "Calydonian Labour Defence",
+      "alignment": "Imperium",
+      "leader": "Marshal Oineus",
+      "system": "Calydon",
+      "prize": false,
+      "fleetbase": "Foundry Guard",
+      "description": "Human defence committees hold the settlements Bell-Ringa has not conquered. They welcome neither the Orks nor demands that would leave their people unprotected.",
+      "supply": 15,
+      "manpower": 15,
+      "initial_strength": 3
+    },
+    {
+      "name": "Aulis Anchorage Command",
+      "alignment": "Imperium",
+      "leader": "Commodore Thestor",
+      "system": "Aulis",
+      "prize": false,
+      "fleetbase": "Embarkation Guard",
+      "description": "Stranded naval officers preserve embarkation infrastructure under emergency orders. They will judge the Paladins by credentials and conduct; cooperation does not transfer ownership.",
+      "supply": 20,
+      "manpower": 20,
+      "initial_strength": 5
+    },
+    {
+      "name": "House Atreides",
+      "alignment": "Imperium",
+      "leader": "Archon Pleisthenes Atreides",
+      "system": "Mycenae",
+      "prize": true,
+      "fleetbase": "Dynastic Squadron",
+      "description": "The hereditary government claims a mandate to reunify Atreus. Its arsenal and fortified seat make it the prize Minor. It considers both incoming Imperial Major commanders to be exceeding their remit.",
+      "supply": 70,
+      "manpower": 70,
+      "initial_strength": 18
+    },
+    {
+      "name": "Delphic Custodians",
+      "alignment": "Imperium",
+      "leader": "Logothete Manto",
+      "system": "Delphi",
+      "prize": false,
+      "fleetbase": "Signal Guard",
+      "description": "Archive officials and station security restrict access to surviving astropathic records. Contradictory messages support competing claims; no unearned intelligence bonus follows.",
+      "supply": 20,
+      "manpower": 20,
+      "initial_strength": 4
+    },
+    {
+      "name": "Lotus Company",
+      "alignment": "Independent",
+      "leader": "Captain Eurylochos",
+      "system": "Delphi",
+      "prize": false,
+      "fleetbase": "Borrowed Warrant",
+      "description": "Human privateers occupy an outlying settlement and live by interception and salvage. Their contracts and warrants do not establish an Imperial alliance.",
+      "supply": 5,
+      "manpower": 5,
+      "initial_strength": 1
+    },
+    {
+      "name": "Nemean Estate Compact",
+      "alignment": "Imperium",
+      "leader": "Warden Adrastos",
+      "system": "Nemea",
+      "prize": false,
+      "fleetbase": "Harvest Watch",
+      "description": "Landowners and militia defend the agricultural estates and hunting preserves that once provisioned crusades. They require credible protection before accepting new obligations.",
+      "supply": 25,
+      "manpower": 25,
+      "initial_strength": 6
+    },
+    {
+      "name": "Lerna Reclamation Directorate",
+      "alignment": "Imperium",
+      "leader": "Magister Polydoros",
+      "system": "Lerna",
+      "prize": false,
+      "fleetbase": "Sluice Patrol",
+      "description": "Reclamation crews and manufactorum security preserve chemical works and settled islands. Their infrastructure is mutually dependent, but their authority remains local.",
+      "supply": 15,
+      "manpower": 15,
+      "initial_strength": 3
+    },
+    {
+      "name": "Rustjaw Mob",
+      "alignment": "Ork",
+      "leader": "Boss Skrag Rustjaw",
+      "system": "Lerna",
+      "prize": false,
+      "fleetbase": "Da Pipe-Bita",
+      "description": "A separate Ork mob holds a captured industrial outpost. It shares Ork alignment with Bell-Ringa but has not submitted to his command or granted use of its forces.",
+      "supply": 10,
+      "manpower": 10,
+      "initial_strength": 2
+    },
+    {
+      "name": "Ithacan Assembly",
+      "alignment": "Imperium",
+      "leader": "Speaker Eumaia",
+      "system": "Ithaca",
+      "prize": false,
+      "fleetbase": "Homeward Watch",
+      "description": "Settlement delegates and veterans govern displaced families. They value dependable protection over grand claims and may cooperate with the Paladins without endorsing their enemies’ accusations.",
+      "supply": 25,
+      "manpower": 25,
+      "initial_strength": 5
+    },
+    {
+      "name": "Thessalian First Command",
+      "alignment": "Imperium",
+      "leader": "General Leontes",
+      "system": "Thessaly",
+      "prize": false,
+      "fleetbase": "First Commission",
+      "description": "Officers of the senior surviving regimental headquarters claim authority over the vehicle depots and military estates.",
+      "supply": 15,
+      "manpower": 15,
+      "initial_strength": 3
+    },
+    {
+      "name": "Thessalian Remount Command",
+      "alignment": "Imperium",
+      "leader": "Colonel Phereas",
+      "system": "Thessaly",
+      "prize": false,
+      "fleetbase": "Remount Escort",
+      "description": "A rival commission protects dispersed remount settlements. Its officers dispute the First Command’s seniority; neither is automatically subordinate to a Major.",
+      "supply": 10,
+      "manpower": 10,
+      "initial_strength": 2
+    }
+  ],
+  "holdings": [
+    {
+      "system": "Argos",
+      "name": "Tiryns",
+      "tier": 4,
+      "kind": "Planet",
+      "owner": "Iron Paladins",
+      "maximum": 12,
+      "description": "Fortified industrial Capital and fortress-monastery of the Iron Paladins."
+    },
+    {
+      "system": "Argos",
+      "name": "Heraion",
+      "tier": 2,
+      "kind": "Planet",
+      "owner": "Argive Muster Council",
+      "maximum": 4,
+      "description": "Former army assembly world with storehouses and an entrenched military administration."
+    },
+    {
+      "system": "Argos",
+      "name": "Prosymna",
+      "tier": 1,
+      "kind": "Planet",
+      "owner": "Argive Muster Council",
+      "maximum": 2,
+      "description": "Service settlements whose levies support the Council’s larger holding."
+    },
+    {
+      "system": "Eleusis",
+      "name": "Erigone",
+      "tier": 4,
+      "kind": "Planet",
+      "owner": "Order of Saint Erigone",
+      "maximum": 12,
+      "description": "Shrine Capital centred on the convent and memorials of the Order’s campaign saint."
+    },
+    {
+      "system": "Eleusis",
+      "name": "Triptolemos",
+      "tier": 2,
+      "kind": "Planet",
+      "owner": "Eleusinian Synod",
+      "maximum": 4,
+      "description": "Pilgrim reception world, granaries and hospital communities."
+    },
+    {
+      "system": "Eleusis",
+      "name": "Daeira",
+      "tier": 1,
+      "kind": "Planet",
+      "owner": "Eleusinian Synod",
+      "maximum": 2,
+      "description": "A secluded shrine settlement guarding the Synod’s archives."
+    },
+    {
+      "system": "Calydon",
+      "name": "Da Bellworks",
+      "tier": 4,
+      "kind": "Planet",
+      "owner": "WAAAGH! Bell-Ringa",
+      "maximum": 12,
+      "description": "Captured foundry Capital; former Imperial name Chalkeia. Its furnaces cast machinery and cathedral bells."
+    },
+    {
+      "system": "Calydon",
+      "name": "Pleuron",
+      "tier": 2,
+      "kind": "Planet",
+      "owner": "Calydonian Labour Defence",
+      "maximum": 4,
+      "description": "Industrial estates still held by human militia and surviving regular troops."
+    },
+    {
+      "system": "Calydon",
+      "name": "Olenos",
+      "tier": 1,
+      "kind": "Planet",
+      "owner": "Calydonian Labour Defence",
+      "maximum": 2,
+      "description": "Polluted agricultural settlements supplying the remaining human enclaves."
+    },
+    {
+      "system": "Mycenae",
+      "name": "Perseia",
+      "tier": 4,
+      "kind": "Planet",
+      "owner": "House Atreides",
+      "maximum": 12,
+      "description": "Dynastic fortress Capital, armouries and seat of House Atreides."
+    },
+    {
+      "system": "Mycenae",
+      "name": "Dendra",
+      "tier": 2,
+      "kind": "Planet",
+      "owner": "House Atreides",
+      "maximum": 4,
+      "description": "Military estates supporting the dynasty’s household forces."
+    },
+    {
+      "system": "Mycenae",
+      "name": "Lion Gate",
+      "tier": 1,
+      "kind": "Station",
+      "owner": "House Atreides",
+      "maximum": 2,
+      "description": "An armed orbital anchorage, not a movement chokepoint."
+    },
+    {
+      "system": "Aulis",
+      "name": "Schoenus",
+      "tier": 1,
+      "kind": "Planet",
+      "owner": "Aulis Anchorage Command",
+      "maximum": 2,
+      "description": "Embarkation yards, troop-marshalling settlements and stranded naval administration."
+    },
+    {
+      "system": "Aulis",
+      "name": "Hyria",
+      "tier": 3,
+      "kind": "Planet",
+      "owner": "Aulis Anchorage Command",
+      "maximum": 8,
+      "description": "Embarkation yards, troop-marshalling settlements and stranded naval administration."
+    },
+    {
+      "system": "Delphi",
+      "name": "Castalia",
+      "tier": 1,
+      "kind": "Planet",
+      "owner": "Lotus Company",
+      "maximum": 2,
+      "description": "Astropathic facilities, signal stations and archives whose messages no longer agree."
+    },
+    {
+      "system": "Delphi",
+      "name": "Corycia",
+      "tier": 1,
+      "kind": "Planet",
+      "owner": "Delphic Custodians",
+      "maximum": 2,
+      "description": "Astropathic facilities, signal stations and archives whose messages no longer agree."
+    },
+    {
+      "system": "Delphi",
+      "name": "Pytho",
+      "tier": 2,
+      "kind": "Planet",
+      "owner": "Delphic Custodians",
+      "maximum": 4,
+      "description": "Astropathic facilities, signal stations and archives whose messages no longer agree."
+    },
+    {
+      "system": "Delphi",
+      "name": "Omphalos Relay",
+      "tier": 1,
+      "kind": "Station",
+      "owner": "Delphic Custodians",
+      "maximum": 2,
+      "description": "Astropathic facilities, signal stations and archives whose messages no longer agree."
+    },
+    {
+      "system": "Nemea",
+      "name": "Cleonae",
+      "tier": 1,
+      "kind": "Planet",
+      "owner": "Nemean Estate Compact",
+      "maximum": 2,
+      "description": "Agricultural estates and hunting preserves once bound to the crusade provisioning system."
+    },
+    {
+      "system": "Nemea",
+      "name": "Phlius",
+      "tier": 1,
+      "kind": "Planet",
+      "owner": "Nemean Estate Compact",
+      "maximum": 2,
+      "description": "Agricultural estates and hunting preserves once bound to the crusade provisioning system."
+    },
+    {
+      "system": "Nemea",
+      "name": "Apesas",
+      "tier": 3,
+      "kind": "Planet",
+      "owner": "Nemean Estate Compact",
+      "maximum": 8,
+      "description": "Agricultural estates and hunting preserves once bound to the crusade provisioning system."
+    },
+    {
+      "system": "Lerna",
+      "name": "Amymone",
+      "tier": 2,
+      "kind": "Planet",
+      "owner": "Rustjaw Mob",
+      "maximum": 4,
+      "description": "Wet industrial worlds and chemical works separated by contaminated waterways."
+    },
+    {
+      "system": "Lerna",
+      "name": "Pontinos",
+      "tier": 2,
+      "kind": "Planet",
+      "owner": "Lerna Reclamation Directorate",
+      "maximum": 4,
+      "description": "Wet industrial worlds and chemical works separated by contaminated waterways."
+    },
+    {
+      "system": "Lerna",
+      "name": "Alcyonian Dock",
+      "tier": 1,
+      "kind": "Station",
+      "owner": "Lerna Reclamation Directorate",
+      "maximum": 2,
+      "description": "Wet industrial worlds and chemical works separated by contaminated waterways."
+    },
+    {
+      "system": "Ithaca",
+      "name": "Neriton",
+      "tier": 1,
+      "kind": "Planet",
+      "owner": "Ithacan Assembly",
+      "maximum": 2,
+      "description": "Resettlement worlds of displaced families, veterans and descendants of missing crews."
+    },
+    {
+      "system": "Ithaca",
+      "name": "Eumaia’s Rest",
+      "tier": 1,
+      "kind": "Planet",
+      "owner": "Ithacan Assembly",
+      "maximum": 2,
+      "description": "Resettlement worlds of displaced families, veterans and descendants of missing crews."
+    },
+    {
+      "system": "Ithaca",
+      "name": "Same",
+      "tier": 2,
+      "kind": "Planet",
+      "owner": "Ithacan Assembly",
+      "maximum": 4,
+      "description": "Resettlement worlds of displaced families, veterans and descendants of missing crews."
+    },
+    {
+      "system": "Ithaca",
+      "name": "Return Anchorage",
+      "tier": 1,
+      "kind": "Station",
+      "owner": "Ithacan Assembly",
+      "maximum": 2,
+      "description": "Resettlement worlds of displaced families, veterans and descendants of missing crews."
+    },
+    {
+      "system": "Thessaly",
+      "name": "Pherae",
+      "tier": 1,
+      "kind": "Planet",
+      "owner": "Thessalian Remount Command",
+      "maximum": 2,
+      "description": "Military estates, vehicle depots and open-country settlements divided between surviving commands."
+    },
+    {
+      "system": "Thessaly",
+      "name": "Pagasae",
+      "tier": 1,
+      "kind": "Planet",
+      "owner": "Thessalian Remount Command",
+      "maximum": 2,
+      "description": "Military estates, vehicle depots and open-country settlements divided between surviving commands."
+    },
+    {
+      "system": "Thessaly",
+      "name": "Pelion",
+      "tier": 1,
+      "kind": "Planet",
+      "owner": "Thessalian First Command",
+      "maximum": 2,
+      "description": "Military estates, vehicle depots and open-country settlements divided between surviving commands."
+    },
+    {
+      "system": "Thessaly",
+      "name": "Pharsalos",
+      "tier": 2,
+      "kind": "Planet",
+      "owner": "Thessalian First Command",
+      "maximum": 4,
+      "description": "Military estates, vehicle depots and open-country settlements divided between surviving commands."
+    }
+  ],
+  "fleets": [
+    {
+      "name": "Crusade Fleet Anabasis",
+      "owner": "Iron Paladins",
+      "system": "Argos",
+      "strength": 5,
+      "maximum": 5
+    },
+    {
+      "name": "Da Gate-Krasha",
+      "owner": "WAAAGH! Bell-Ringa",
+      "system": "Calydon",
+      "strength": 5,
+      "maximum": 5
+    },
+    {
+      "name": "The Third Refusal",
+      "owner": "Order of Saint Erigone",
+      "system": "Eleusis",
+      "strength": 5,
+      "maximum": 5
+    },
+    {
+      "name": "Ashields 1",
+      "owner": "Argive Muster Council",
+      "system": "Argos",
+      "strength": 3,
+      "maximum": 3
+    },
+    {
+      "name": "Votive Watch 1",
+      "owner": "Eleusinian Synod",
+      "system": "Eleusis",
+      "strength": 3,
+      "maximum": 3
+    },
+    {
+      "name": "Foundry Guard 1",
+      "owner": "Calydonian Labour Defence",
+      "system": "Calydon",
+      "strength": 3,
+      "maximum": 3
+    },
+    {
+      "name": "Embarkation Guard 1",
+      "owner": "Aulis Anchorage Command",
+      "system": "Aulis",
+      "strength": 5,
+      "maximum": 5
+    },
+    {
+      "name": "Dynastic Squadron 1",
+      "owner": "House Atreides",
+      "system": "Mycenae",
+      "strength": 5,
+      "maximum": 5
+    },
+    {
+      "name": "Dynastic Squadron 2",
+      "owner": "House Atreides",
+      "system": "Mycenae",
+      "strength": 5,
+      "maximum": 5
+    },
+    {
+      "name": "Dynastic Squadron 3",
+      "owner": "House Atreides",
+      "system": "Mycenae",
+      "strength": 5,
+      "maximum": 5
+    },
+    {
+      "name": "Dynastic Squadron 4",
+      "owner": "House Atreides",
+      "system": "Mycenae",
+      "strength": 3,
+      "maximum": 3
+    },
+    {
+      "name": "Signal Guard 1",
+      "owner": "Delphic Custodians",
+      "system": "Delphi",
+      "strength": 4,
+      "maximum": 4
+    },
+    {
+      "name": "Borrowed Warrant 1",
+      "owner": "Lotus Company",
+      "system": "Delphi",
+      "strength": 1,
+      "maximum": 1
+    },
+    {
+      "name": "Harvest Watch 1",
+      "owner": "Nemean Estate Compact",
+      "system": "Nemea",
+      "strength": 5,
+      "maximum": 5
+    },
+    {
+      "name": "Harvest Watch 2",
+      "owner": "Nemean Estate Compact",
+      "system": "Nemea",
+      "strength": 1,
+      "maximum": 1
+    },
+    {
+      "name": "Sluice Patrol 1",
+      "owner": "Lerna Reclamation Directorate",
+      "system": "Lerna",
+      "strength": 3,
+      "maximum": 3
+    },
+    {
+      "name": "Da Pipe-Bita 1",
+      "owner": "Rustjaw Mob",
+      "system": "Lerna",
+      "strength": 2,
+      "maximum": 2
+    },
+    {
+      "name": "Homeward Watch 1",
+      "owner": "Ithacan Assembly",
+      "system": "Ithaca",
+      "strength": 5,
+      "maximum": 5
+    },
+    {
+      "name": "First Commission 1",
+      "owner": "Thessalian First Command",
+      "system": "Thessaly",
+      "strength": 3,
+      "maximum": 3
+    },
+    {
+      "name": "Remount Escort 1",
+      "owner": "Thessalian Remount Command",
+      "system": "Thessaly",
+      "strength": 2,
+      "maximum": 2
+    }
+  ]
+}
