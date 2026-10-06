@@ -17,8 +17,8 @@ def load_atreus(root,render):
  systems=[]
  for name,body in re.findall(r'^### (.+)\n([\s\S]*?)(?=^### |\Z)',section(md,'Systems and holdings'),re.M):
   ts=tables(body);holdings=ts[0];fleets=ts[1]
-  worlds=[{'Planet':x[0],'Type':x[1],'Controller':x[2],'Alignment':x[3],'Defense':x[4],'Income':x[5]} for x in holdings[1:]]
-  systems.append({'title':name,'worlds':worlds,'fleets':fleets[1:],'text':body,'html':render(body),'void':next((f[1] for f in fleets[1:] if f[1] in status['turn_order']),'Calculate for acting faction')})
+  worlds=[{'Planet':x[0],'Type':x[1],'Controller':x[2],'Alignment':x[3],'Defense':x[4],'Income':x[5],'Notes':x[6],'Map':x[7]} for x in holdings[1:]]
+  systems.append({'title':name,'worlds':worlds,'fleets':fleets[1:],'text':body,'html':render(body),'void':re.search(r'\*\*Void Superiority:\*\* ([^\n]+)',body)[1]})
  factions=[]
  for name,body in re.findall(r'^### \d+\. (.+)\n([\s\S]*?)(?=^### |\Z)',section(md,'Major faction registers'),re.M):
   fields=dict(tables(body)[0][1:]);resources=re.search(r'(\d+) Supply / (\d+) Manpower',fields['Resources'])
