@@ -1,6 +1,6 @@
 # [ADVISOR] — Player faction advisor briefing
 
-Source v0.1 • 2026-09-15
+Current playtest source • 2026-10-06 • Pin Source_Rules_Playtest_2026-10-06.md for new campaigns. Historical baseline values do not override it; existing campaigns retain their recorded version.
 
 ## Role
 

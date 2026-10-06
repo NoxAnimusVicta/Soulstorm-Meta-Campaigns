@@ -1,0 +1,303 @@
+{
+  "status": "complete",
+  "games": 432,
+  "arms": {
+    "matched": {
+      "games": 216,
+      "completed": 216,
+      "censored": 0,
+      "mean_completed": 62.25,
+      "median_completed": 59.0,
+      "minimum": 27,
+      "maximum": 186,
+      "below50": 54,
+      "within50_100": 152,
+      "above100": 10,
+      "restricted_mean100": 61.296,
+      "full_control_at_stop": 192,
+      "actions": {
+        "build": 6773,
+        "create": 5987,
+        "defend": 4656,
+        "establish": 382,
+        "expand": 13234,
+        "ground": 17786,
+        "move": 32572,
+        "muster": 6038,
+        "none": 65070,
+        "ration": 1579,
+        "reinforce": 19178,
+        "start": 2497,
+        "bombard_shared": 944,
+        "naval": 2498,
+        "merge": 535,
+        "repair": 787,
+        "structure_assault": 1280,
+        "upgrade": 513,
+        "ground_mobile": 31
+      },
+      "builds": {
+        "academy": 520,
+        "escort": 453,
+        "forge": 232,
+        "system_repair": 147,
+        "assault_boats": 511,
+        "storm_transit": 112,
+        "orbital_cannons": 70,
+        "defence_platform": 67,
+        "troop_transport": 291,
+        "repair_tender": 65,
+        "system_defence": 19,
+        "bombardment_bay": 2,
+        "consolidation": 7,
+        "assault_cruiser": 1
+      },
+      "fortification_repairs": 0,
+      "bombard_games": 183,
+      "initial_holdings_mean": 22.75,
+      "resources": {
+        "faction_cycles": 37604,
+        "supply_total": 826555,
+        "manpower_total": 1084069,
+        "supply_locked": 1313,
+        "supply_low": 2889,
+        "manpower_locked": 902,
+        "manpower_low": 2318,
+        "supply_mean": 21.98,
+        "manpower_mean": 28.83,
+        "supply_locked_pct": 3.49,
+        "manpower_locked_pct": 2.4
+      },
+      "traits": {
+        "siege": {
+          "games": 18,
+          "focal_surviving_winners": 7,
+          "unresolved": 0,
+          "median_duration": 60.0
+        },
+        "efficient": {
+          "games": 18,
+          "focal_surviving_winners": 6,
+          "unresolved": 0,
+          "median_duration": 59.0
+        },
+        "mobile": {
+          "games": 18,
+          "focal_surviving_winners": 12,
+          "unresolved": 0,
+          "median_duration": 55.5
+        },
+        "war_economy": {
+          "games": 18,
+          "focal_surviving_winners": 5,
+          "unresolved": 0,
+          "median_duration": 59.5
+        },
+        "martial": {
+          "games": 18,
+          "focal_surviving_winners": 9,
+          "unresolved": 0,
+          "median_duration": 61.5
+        },
+        "salvagers": {
+          "games": 18,
+          "focal_surviving_winners": 8,
+          "unresolved": 0,
+          "median_duration": 60.0
+        },
+        "void": {
+          "games": 18,
+          "focal_surviving_winners": 3,
+          "unresolved": 0,
+          "median_duration": 63.0
+        },
+        "swift": {
+          "games": 18,
+          "focal_surviving_winners": 6,
+          "unresolved": 0,
+          "median_duration": 54.5
+        },
+        "endurance": {
+          "games": 18,
+          "focal_surviving_winners": 5,
+          "unresolved": 0,
+          "median_duration": 63.5
+        },
+        "dread": {
+          "games": 18,
+          "focal_surviving_winners": 1,
+          "unresolved": 0,
+          "median_duration": 58.5
+        },
+        "fortification": {
+          "games": 18,
+          "focal_surviving_winners": 1,
+          "unresolved": 0,
+          "median_duration": 54.5
+        },
+        "industrial": {
+          "games": 18,
+          "focal_surviving_winners": 1,
+          "unresolved": 0,
+          "median_duration": 61.0
+        }
+      }
+    },
+    "generated": {
+      "games": 216,
+      "completed": 216,
+      "censored": 0,
+      "mean_completed": 70.046,
+      "median_completed": 67.0,
+      "minimum": 25,
+      "maximum": 187,
+      "below50": 35,
+      "within50_100": 164,
+      "above100": 17,
+      "restricted_mean100": 68.134,
+      "full_control_at_stop": 154,
+      "actions": {
+        "build": 7857,
+        "create": 6273,
+        "defend": 5644,
+        "expand": 14647,
+        "ground": 21264,
+        "move": 35084,
+        "muster": 6696,
+        "none": 72168,
+        "ration": 1550,
+        "reinforce": 21880,
+        "start": 2848,
+        "structure_assault": 1909,
+        "bombard_shared": 1169,
+        "naval": 2741,
+        "repair": 1378,
+        "establish": 376,
+        "merge": 484,
+        "upgrade": 641,
+        "ground_mobile": 29
+      },
+      "builds": {
+        "academy": 551,
+        "escort": 489,
+        "forge": 260,
+        "system_repair": 193,
+        "assault_boats": 591,
+        "storm_transit": 153,
+        "orbital_cannons": 119,
+        "troop_transport": 298,
+        "repair_tender": 65,
+        "defence_platform": 79,
+        "system_defence": 13,
+        "consolidation": 23,
+        "bombardment_bay": 12,
+        "assault_cruiser": 2
+      },
+      "fortification_repairs": 1,
+      "bombard_games": 190,
+      "initial_holdings_mean": 30.639,
+      "resources": {
+        "faction_cycles": 42242,
+        "supply_total": 1045013,
+        "manpower_total": 1351835,
+        "supply_locked": 1232,
+        "supply_low": 2871,
+        "manpower_locked": 885,
+        "manpower_low": 2197,
+        "supply_mean": 24.74,
+        "manpower_mean": 32.0,
+        "supply_locked_pct": 2.92,
+        "manpower_locked_pct": 2.1
+      },
+      "traits": {
+        "siege": {
+          "games": 18,
+          "focal_surviving_winners": 4,
+          "unresolved": 0,
+          "median_duration": 64.0
+        },
+        "efficient": {
+          "games": 18,
+          "focal_surviving_winners": 10,
+          "unresolved": 0,
+          "median_duration": 73.0
+        },
+        "mobile": {
+          "games": 18,
+          "focal_surviving_winners": 9,
+          "unresolved": 0,
+          "median_duration": 62.5
+        },
+        "war_economy": {
+          "games": 18,
+          "focal_surviving_winners": 7,
+          "unresolved": 0,
+          "median_duration": 70.5
+        },
+        "martial": {
+          "games": 18,
+          "focal_surviving_winners": 9,
+          "unresolved": 0,
+          "median_duration": 63.5
+        },
+        "salvagers": {
+          "games": 18,
+          "focal_surviving_winners": 6,
+          "unresolved": 0,
+          "median_duration": 69.0
+        },
+        "void": {
+          "games": 18,
+          "focal_surviving_winners": 6,
+          "unresolved": 0,
+          "median_duration": 71.0
+        },
+        "swift": {
+          "games": 18,
+          "focal_surviving_winners": 7,
+          "unresolved": 0,
+          "median_duration": 63.5
+        },
+        "endurance": {
+          "games": 18,
+          "focal_surviving_winners": 7,
+          "unresolved": 0,
+          "median_duration": 61.0
+        },
+        "dread": {
+          "games": 18,
+          "focal_surviving_winners": 3,
+          "unresolved": 0,
+          "median_duration": 74.0
+        },
+        "fortification": {
+          "games": 18,
+          "focal_surviving_winners": 3,
+          "unresolved": 0,
+          "median_duration": 72.0
+        },
+        "industrial": {
+          "games": 18,
+          "focal_surviving_winners": 1,
+          "unresolved": 0,
+          "median_duration": 70.5
+        }
+      }
+    }
+  },
+  "matched_restricted_duration_difference": {
+    "mean": -1.069,
+    "blocks": 18,
+    "block_bootstrap_95pct": [
+      -4.8,
+      2.91
+    ]
+  },
+  "route_audit_summary": {
+    "games": 36,
+    "bombardments": 149,
+    "with_affordable_ground": 46,
+    "with_ground_chance_at_least_65pct": 10
+  },
+  "player_setup_stress_failures": 32
+}

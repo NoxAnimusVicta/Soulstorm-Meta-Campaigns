@@ -10,11 +10,11 @@ Repository: [URL] • Branch: [branch] • Live site: [URL] • Authoritative fi
 | Field | Value |
 |---|---|
 | Sector / Subsector / level | [names; Subsector or Sector-directed] |
-| Cycle duration / Chronostrife | [one Terran year default; record overrides] |
-| Current Cycle / phase | 1 / Awaiting opening event |
+| Cycle duration / Chronostrife | [agree local timescale; no universal Cycle-to-years conversion] |
+| Current Cycle / phase | 1 / Awaiting Phase 0: constructions, Logistics if due, event |
 | Event / Logistics | Not rolled / next due Cycle 3 |
 | Fixed raid faction | [identity, motive, game representation; cannot capture territory] |
-| Rules / local overrides | Source_Rules.md at [version]; [dated approved exceptions] |
+| Rules / local overrides | Source_Rules_Playtest_2026-10-06.md at [pinned version]; [dated approved exceptions]. Current playtest edition, not a claim of final balance. |
 
 ## Major faction setup
 
@@ -29,6 +29,7 @@ Repeat for each faction, in fixed turn order.
 | Capital / system / defence | [12/12 established Capital or approved alternative] |
 | Starting Supply / Manpower | 20 /20; [Sector directive if different] |
 | Starting fleet | [approved formation; none for Mobile Capital profile] |
+| Explicit hostility or alliance overrides | [including same-Alignment infighting; never infer cooperation from Alignment when overridden] |
 | Doctrine / vulnerabilities / relationships | [faction identity] |
 | Palette / badges | [approved Army Painter channels and colours] |
 
@@ -50,7 +51,7 @@ Repeat for each faction, in fixed turn order.
 
 ## Systems and holdings
 
-Copy one dossier per system. Random generation presets remain pending; explicitly establish every starting defence and fleet maximum.
+Copy one dossier per system. Use the pinned source d20 table for ordinary systems and separately record approved home/prize overrides. Record every roll, starting defence and fleet maximum. Directions are descriptive; movement is not limited to adjacent systems.
 
 ### [System name]
 
@@ -60,11 +61,11 @@ Copy one dossier per system. Random generation presets remain pending; explicitl
 |---|---|---|---|---|---|---|
 | [name] | [tier] | [name/role] | [alignment] | [value] | [per Logistics] | None |
 
-Void superiority: [faction strength totals and winner/contested]. Ownership is separate.
+Void superiority: [friendly combat Strength strictly exceeds hostile total, or contested]. Separately record whether ANY hostile fleet is present for bombardment eligibility. Ownership is separate.
 
 ## Fleets and Mobile Capitals
 
-| Name | Owner | System | Strength/defence | Original maximum | Fleet Action used this Cycle | Host constructions | Maintenance exemption |
+| Name | Owner | System | Strength/defence | Base capacity / current maximum | Fleet Action used this Cycle | Host constructions | Maintenance exemption |
 |---|---|---|---|---|---|---|---|
 | [name] | [owner] | [system] | [value] | [value] | No | None | [yes/no] |
 

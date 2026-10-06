@@ -1,0 +1,266 @@
+[
+  {
+    "profile": "depot",
+    "label": "Supply Depot",
+    "stages": 3,
+    "upgrade": true,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "training",
+    "label": "Training Grounds",
+    "stages": 3,
+    "upgrade": true,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "forge",
+    "label": "Forge Complex",
+    "stages": 5,
+    "upgrade": true,
+    "supply_per_action": 5,
+    "industrial_supply_per_action": 2
+  },
+  {
+    "profile": "academy",
+    "label": "Military Academy",
+    "stages": 5,
+    "upgrade": true,
+    "supply_per_action": 5,
+    "industrial_supply_per_action": 2
+  },
+  {
+    "profile": "shipyard",
+    "label": "Orbital Shipyard",
+    "stages": 3,
+    "upgrade": false,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "grand_shipyard",
+    "label": "Grand Orbital Shipyard",
+    "stages": 3,
+    "upgrade": true,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "bunker",
+    "label": "Bunker Network",
+    "stages": 3,
+    "upgrade": true,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "void_shield",
+    "label": "Void Shield Generator",
+    "stages": 5,
+    "upgrade": true,
+    "supply_per_action": 2,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "militia",
+    "label": "Militia Barracks",
+    "stages": 5,
+    "upgrade": false,
+    "supply_per_action": 2,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "automated_defences",
+    "label": "Automated Defences",
+    "stages": 3,
+    "upgrade": true,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "regenerative_fortifications",
+    "label": "Regenerative Fortifications",
+    "stages": 5,
+    "upgrade": true,
+    "supply_per_action": 5,
+    "industrial_supply_per_action": 2
+  },
+  {
+    "profile": "orbital_cannons",
+    "label": "Orbital Cannons",
+    "stages": 3,
+    "upgrade": true,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "fortification_network",
+    "label": "Fortification Network",
+    "stages": 5,
+    "upgrade": true,
+    "supply_per_action": 5,
+    "industrial_supply_per_action": 2
+  },
+  {
+    "profile": "landing_zones",
+    "label": "Landing Zones",
+    "stages": 3,
+    "upgrade": false,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "planetary_shield",
+    "label": "Planetary Shield Network",
+    "stages": 5,
+    "upgrade": false,
+    "supply_per_action": 5,
+    "industrial_supply_per_action": 2
+  },
+  {
+    "profile": "consolidation",
+    "label": "Consolidation Works",
+    "stages": 5,
+    "upgrade": false,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "troop_transport",
+    "label": "Troop Transport",
+    "stages": 3,
+    "upgrade": true,
+    "supply_per_action": 2,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "repair_tender",
+    "label": "Repair Tender",
+    "stages": 3,
+    "upgrade": true,
+    "supply_per_action": 2,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "escort",
+    "label": "Escort Squadron",
+    "stages": 3,
+    "upgrade": true,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "assault_boats",
+    "label": "Assault Boats",
+    "stages": 3,
+    "upgrade": true,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "bombardment_bay",
+    "label": "Bombardment Bay",
+    "stages": 3,
+    "upgrade": true,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "assault_cruiser",
+    "label": "Assault Cruiser",
+    "stages": 3,
+    "upgrade": true,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "flagship",
+    "label": "Flagship",
+    "stages": 5,
+    "upgrade": true,
+    "supply_per_action": 5,
+    "industrial_supply_per_action": 2
+  },
+  {
+    "profile": "carrier",
+    "label": "Carrier",
+    "stages": 5,
+    "upgrade": true,
+    "supply_per_action": 5,
+    "industrial_supply_per_action": 2
+  },
+  {
+    "profile": "siege_platform",
+    "label": "Siege Platform",
+    "stages": 5,
+    "upgrade": true,
+    "supply_per_action": 5,
+    "industrial_supply_per_action": 2
+  },
+  {
+    "profile": "salvage_wing",
+    "label": "Salvage Wing",
+    "stages": 5,
+    "upgrade": true,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "scout",
+    "label": "Scout Squadron",
+    "stages": 5,
+    "upgrade": false,
+    "supply_per_action": 5,
+    "industrial_supply_per_action": 2
+  },
+  {
+    "profile": "defence_platform",
+    "label": "Defence Platform",
+    "stages": 3,
+    "upgrade": true,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "system_defence",
+    "label": "System Defence Station",
+    "stages": 5,
+    "upgrade": true,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "system_repair",
+    "label": "System Repair Station",
+    "stages": 5,
+    "upgrade": true,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "logistics_anchorage",
+    "label": "Logistics Anchorage",
+    "stages": 5,
+    "upgrade": true,
+    "supply_per_action": 5,
+    "industrial_supply_per_action": 2
+  },
+  {
+    "profile": "void_station",
+    "label": "Void Station",
+    "stages": 5,
+    "upgrade": false,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  },
+  {
+    "profile": "storm_transit",
+    "label": "Storm Transit",
+    "stages": 5,
+    "upgrade": false,
+    "supply_per_action": 3,
+    "industrial_supply_per_action": 1
+  }
+]

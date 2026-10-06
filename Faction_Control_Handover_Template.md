@@ -1,6 +1,8 @@
 # Faction control handover
 
-Source v0.1 • 2026-09-15
+For new campaigns, pin Source_Rules_Playtest_2026-10-06.md and the campaign revision. Historical Source_Rules.md does not override current rulings; an existing campaign keeps its recorded rules until migration is agreed.
+
+Source edition • 2026-10-06
 
 A handover does not advance time, refresh actions, grant resources, change traits or resolve battles.
 

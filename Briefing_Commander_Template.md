@@ -1,6 +1,6 @@
 # [FACTION / COMMANDER] — Commander briefing
 
-Source v0.1 • 2026-09-15 • Fill brackets before use.
+Current playtest source • 2026-10-06 • Fill brackets before use. For new campaigns, pin Source_Rules_Playtest_2026-10-06.md; historical baseline values do not override it. Do not migrate an existing campaign without agreement.
 
 ## Role and authority
 

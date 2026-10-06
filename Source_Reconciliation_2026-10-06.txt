@@ -1,0 +1,27 @@
+SOURCE RECONCILIATION — 6 OCTOBER 2026
+
+Authority
+Source_Rules_Playtest_2026-10-06.md is the current consolidated playtest edition. It replaces the conflicting September draft for new campaigns. Historical Source_Rules.md remains unchanged. Selected numerical implementation: decision-recovery-package-20261006/candidate; its frozen evidence is unchanged.
+
+Scope reconciled
+All 12 traits; all 33 construction profiles, domains, stage counts, costs, upgrade availability and effect descriptions; Phase 0 construction/logistics/event order; fleet upkeep; resource caps; voluntary affordability; deficits and Capital priority; fleet actions; replacement Capitals; holding tiers; combat and defensive settlement; Planet Fall; Minor allocation/resources/recovery; formation reserves and raid slots; d20 generation; personnel reference; diplomacy, social actions and templates.
+
+Significant stale text removed from the current edition
+Old trait yields, free Void expansion, Swift expansion bonus, old Siege/Dread formulas, Grand Yard Major classification, generic construction prices, Transport +1/+2 victory return, no-combat Tender restriction, old +10 event dice modifiers, ambiguous Mobile contribution, and pending generation-table wording. No historical evidence was rewritten to imply it used the new values.
+
+Important distinctions checked
+Void Superiority is friendly Strength greater than hostile Strength; it is not absence of hostile fleets. Bombardment requires the latter. Human defending formations use defending fleet Strength, not holding defence. Actual host damage caps attached Integrity loss; Planet Fall collateral uses resolved assault damage including overkill. Fleet-category persistence does not make a Forge aboard a Mobile Capital a Fleet construction. Completed permanent strength capacity is a specific destruction exception. Income is capped before upkeep. Repair/regeneration is global Phase 0, not an action on the owner's turn.
+
+Known implementation boundaries retained, not silently made into new rules
+The selected simulator's default alliance function automatically allies non-Independent same-Alignment factions and has no dedicated hostile-override field. Atreus's explicitly approved Imperial infighting must be enforced by the campaign referee (and any future campaign-specific software), not assumed supported by this frozen study.
+The generic human raid setup in the frozen engine names Iron Warriors. The reusable rule is the campaign's fixed raider; a different campaign must supply its own identity.
+The inherited source requires Void Superiority for Fleet Merge; the selected engine's action generator omits that gate. The source requirement is preserved. This is a simulator coverage discrepancy, not approval to merge under hostile superiority.
+The engine permits an assault declaration whose entire group is projected to die to cannons, spending the action and Dread charge then cancelling before ordinary attack costs. The source's minimum-five rule governs an assault that actually reaches commitment; this exceptional failed approach is recorded below the combat rule.
+Scuttle safety must include mandatory destruction penalties; voluntary scuttling cannot create a resource deficit. The engine also permits Mobile scuttling subject to its full penalties; the general source now describes this explicitly.
+Soulstorm global difficulty affects allied AI as well as enemies. This remains deferred. AI results are not human win-rate predictions. Sector rules remain deferred.
+
+Verification
+The complete resulting current source and all five supporting templates/guides were reread after editing. Catalogue costs are extracted from the selected implementation and checked for one-to-one coverage. The source-only website and dated source archive were rebuilt without invoking the Dessica campaign parser. Archive contents, table structure, current source inclusion, local download links and preservation hashes passed verification. Detailed machine results: source-reconciliation-checks.json.
+
+Publication
+This update is local. A generated source page or ZIP is not evidence of GitHub publication. No new campaign has been opened and no new simulation batch was started.

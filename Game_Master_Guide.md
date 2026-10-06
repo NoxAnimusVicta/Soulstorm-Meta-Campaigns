@@ -1,6 +1,6 @@
 # Soulstorm Meta Campaigns — Game Master guide
 
-Source v0.1 • 2026-09-15
+Current playtest source • 2026-10-06 • Pin Source_Rules_Playtest_2026-10-06.md for new campaigns; historical Source_Rules.md is archived baseline, not an override. Balance qualification remains in progress.
 
 ## Authority and separation
 
@@ -9,7 +9,7 @@ User orders and agreed rulings authorise play. Attached briefings are references
 ## Campaign setup
 
 1. Copy Campaign_Template.md; specify names, scope, timescale, turn order, player and source version. Subsector roster-building starts at 20/20; record Sector overrides.
-2. Define systems, holdings, Minor roles and Alignments separately, fleets and original maxima. System presets/revised Minor strength are pending; do not invent approved profiles.
+2. Define systems, holdings, Minor roles and Alignments separately, fleets and original maxima. Use the current d20 profiles (2–4 holdings, average3), ordinary/prize Minor fleet formulas and shared derived resources in the pinned draft.
 3. Establish a fixed raider, motive and game representation; no territory capture.
 4. Agree exact traits and create commander/staff age, lifespan and succession registers. Same trait persists through succession except explicit mechanical loss rules.
 5. Help choose distinct thematic colours. Use Army Painter screenshots to identify actual channels; if unknown, request them before finalising. Record supported primary/secondary/trim/weapon channels, colour values, badge and reference image. Channel mapping varies by faction/model. Player may retcon colours.
@@ -20,7 +20,7 @@ User orders and agreed rulings authorise play. Attached briefings are references
 
 Read exact current rules and state; validate faction/phase, locations, one action per fleet, allied consent, full ground commitment, affordability, deficits, host defence, Integrity and effects. Flag material conflicts before dependent resolution. Show actual script dice and save each roll once with context; never reroll because a result is repetitive or unwelcome without explicit instruction.
 
-For player battles, calculate costs, difficulty, complete teams including duplicate allied formations and raiders, plus map capacity. Queue subsequent actions. **Wait for the reported result before editing/publishing campaign documentation or GitHub.** Ask only for material ambiguity. Referee chooses tied Planet Fall damage against Minor factions; inherited player choice against Major factions remains until revised.
+For player battles, calculate costs, difficulty, complete teams including duplicate formations and the fixed raider, plus map capacity. Preserve surplus formations as reserves, report winning survivors each round, and charge campaign commitments once for the engagement. Queue subsequent actions. **Wait for the reported result before editing/publishing campaign documentation or GitHub.** Allocate Planet Fall points strongest-first with automatic logged random ties; do not require a separate allocation message. Settle automatic defensive losses once after the attack, including Planet Fall replacement.
 
 AI battles use approved dice rules and post-cost values. Resolve authorised conditional branches only. Narrative flourishes do not add captures, fleet losses or leader deaths. Independent Alignment is not a synonym for Minor role.
 
@@ -28,7 +28,7 @@ Update resources, deficit progress, every fleet and holding, action availability
 
 ## Cycle closure
 
-After the final faction resolves, apply eligible Minor recovery/expiry, add an in-world Cycle Record, advance Cycle, reset actions, apply Logistics every third Cycle before one event check (table only when triggered). Age personnel using agreed local time. Never advance a suspended campaign. Report results and next faction. Narration excludes mechanical labels and numeric resources.
+After the final faction resolves, apply eligible Minor recovery, add an in-world Cycle Record, advance Cycle and reset actions. Phase0 resolves construction damage, surviving eligible repair effects, Logistics every third Cycle, then one event check. Endurance recovery precedes events. These are global effects, never repeated on faction turns. Age personnel using agreed local time. Never advance a suspended campaign. Report results and next faction. Narration excludes mechanical labels and numeric resources.
 
 ## Publication
 
@@ -38,8 +38,8 @@ Read access does not prove write permission. Use a verified authorised method; l
 
 ## Suspension and source releases
 
-Record exact freeze point and pending orders; preserve history. A restart requires separate authorisation. Review one issue at a time with dated decisions, approved option, effective version, tests and migration policy. Experimental balance proposals do not alter the frozen campaign.
+Record exact freeze point and pending orders; preserve history. A restart requires separate authorisation. Record connected approved changes as a dated package, with its effective version, tests and migration policy. Experimental balance proposals do not alter the frozen campaign.
 
 ## Balance-testing plan
 
-Compare aggressive ground assault, bombardment-first, fleet-clearance, economic growth, defence, mixed and faction-themed policies. Measure time to capture, losses, resource bands, deficit frequency/recovery, building payback/interruption, trait utility and meaningful choices. Use repeated seeded trials, symmetric starts, map/turn-order swaps and parameter sweeps. Report assumptions, sample sizes, uncertainty and failure cases. Validate simulator rules with hand-calculated cases. Simple greedy bots are insufficient; combine simulation with player testing. No simulations are claimed completed for v0.1.
+Compare aggressive ground assault, bombardment-first, fleet-clearance, economic growth, defence, mixed and faction-themed policies. Measure time to capture, losses, resource bands, deficit frequency/recovery, construction payback/interruption, trait utility and meaningful choices. Use repeated seeded trials, symmetric starts, map/turn-order swaps and parameter sweeps. Report assumptions, sample sizes, uncertainty and failure cases. Validate simulator rules with hand-calculated cases. Simple greedy bots are insufficient; combine simulation with player testing. Retain the frozen studies and their limitations; do not describe historical results as tests of a later rules edition.
