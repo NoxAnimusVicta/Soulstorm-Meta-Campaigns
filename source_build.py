@@ -5,6 +5,10 @@ import shutil
 import zipfile
 
 DOCUMENTS = [
+ ('Source_Rules_Playtest_2026-10-06.md', 'Current playtest rules: 6 October'),
+ ('Source_Rules_Current_Draft_2026-09-27.md', 'Historical rules draft: 27 September'),
+ ('Full_Recommendations_2026-09-27.md', 'Full inspection recommendations: 27 September'),
+ ('Revised_Balance_Testing_2026-09-17.md', 'Revised balance testing: 432 campaigns'),
  ('Balance_Replacement_Proposal_2026-09-17.md', 'Concrete balance replacement proposal'),
  ('Campaign_Notes_Review_2026-09-17.md', 'Campaign notes: corrected decisions'),
  ('Integrated_Balance_Baseline_Report.md', '216-campaign baseline'),
@@ -13,7 +17,8 @@ DOCUMENTS = [
  ('Trait_Qualification_Report.md', 'Faction traits and bot testing'),
  ('Simulation_Mechanics_Coverage.md', 'Mechanics completion checklist'),
  ('Source_README.md', 'Start here'),
- ('Source_Rules.md', 'Rules baseline'),
+ ('Source_README_Historical_2026-10-06.md', 'Archived library status statements'),
+ ('Source_Rules.md', 'Historical rules baseline: 15 September'),
  ('Balance_Simulation_Report.md', 'Simulation results'),
  ('Balance_Simulation_Methods.md', 'Simulation coverage'),
  ('Simulation_Development_Handover.md', 'Development handover'),
@@ -26,10 +31,13 @@ DOCUMENTS = [
 ]
 
 def build_source(root, out, render):
+    shutil.copyfile(root / 'Source_Reconciliation_2026-10-06.txt', out / 'Source_Reconciliation_2026-10-06.txt')
     shutil.copyfile(root / "Balance_Simulation_Bundle.zip", out / "Balance_Simulation_Bundle.zip")
     shutil.copyfile(root / "Historical_Bot_Diagnostics.zip", out / "Historical_Bot_Diagnostics.zip")
     shutil.copyfile(root / "Integrated_Balance_Evidence_20260917.zip", out / "Integrated_Balance_Evidence_20260917.zip")
     shutil.copyfile(root / "Balance_Replacement_Proposal_20260917.zip", out / "Balance_Replacement_Proposal_20260917.zip")
+    for filename in ('Revised_Simulation_Code_20260917.zip', 'Revised_Matched_Evidence_20260917.zip', 'Revised_Generated_Evidence_20260917.zip', 'Revised_Balance_Results_20260917.json'):
+        shutil.copyfile(root / filename, out / filename)
     cards = []
     for filename, label in DOCUMENTS:
         text = (root / filename).read_text(encoding='utf-8')
@@ -45,13 +53,14 @@ def build_source(root, out, render):
             else:
                 content.append(render(section))
         cards.append('<article id="'+filename[:-3]+'"><h2>'+label+'</h2><a download href="./'+filename+'">Download Markdown ↗</a>'+''.join(content)+'</article>')
-    with zipfile.ZipFile(out / 'Campaign_Source_v0.1.zip', 'w', zipfile.ZIP_DEFLATED) as archive:
+    with zipfile.ZipFile(out / 'Campaign_Source_2026-10-06.zip', 'w', zipfile.ZIP_DEFLATED) as archive:
+        archive.write(root / 'Source_Reconciliation_2026-10-06.txt', 'Source_Reconciliation_2026-10-06.txt')
         for filename, _ in DOCUMENTS:
             archive.write(root / filename, filename)
     navigation = ''.join('<a href="#'+name[:-3]+'">'+label+'</a>' for name,label in DOCUMENTS)
     page = '''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101715"><title>Soulstorm • Source Library</title><style>
     :root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#101715;color:#e2e8df;font:16px/1.65 system-ui,sans-serif}main{max-width:1050px;margin:auto;padding:24px 20px 70px}a{color:#dcc18a;overflow-wrap:anywhere}header{border-bottom:1px solid #64715c;padding-bottom:20px}h1{font-size:clamp(1.8rem,5vw,3rem);line-height:1.15}h2,h3,h4{color:#ddc392}nav{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}nav a,.download{display:inline-block;padding:10px 14px;border:1px solid #5c6654;border-radius:6px}input{width:100%;padding:14px;background:#1a241f;color:inherit;border:1px solid #879177;border-radius:6px;font:inherit}article{margin-top:26px;padding:20px;background:#17221c;border:1px solid #394a3b;border-radius:10px}summary{cursor:pointer;padding:12px 4px;font-weight:650;color:#d8c296}details{border-top:1px solid #435140;margin-top:12px}details p{margin:10px 0}table{border-collapse:collapse;min-width:550px;width:100%;font-size:.92rem}td,th{text-align:left;vertical-align:top;border:1px solid #475343;padding:9px}.table-scroll{overflow:auto;margin:14px 0}article[hidden]{display:none}.status{color:#ddc392}a:focus-visible,summary:focus-visible,input:focus-visible{outline:3px solid #d9bd79;outline-offset:3px}@media(max-width:600px){main{padding:16px 12px 50px}article{padding:14px}nav a{font-size:.9rem}h2{font-size:1.4rem}}
-    </style><main><header><a href="./index.html">← Dessica campaign</a><h1>Soulstorm Source Library</h1><p class="status">Version 0.1 · Updated 17 September 2026 · Concrete replacement formulas, costs and system generation</p><p>Dessica is suspended at Cycle 21. This separate reference contains reusable rules, blank templates and dated design notes. Proposed balance changes remain open for review.</p><a class="download" download href="./Campaign_Source_v0.1.zip">Download all source documents</a> <a class="download" download href="./Balance_Simulation_Bundle.zip">Download simulation code &amp; data</a> <a class="download" download href="./Historical_Bot_Diagnostics.zip">Historical bot diagnostics</a><a class="download" download href="./Integrated_Balance_Evidence_20260917.zip">Integrated baseline &amp; notes evidence</a><a class="download" download href="./Balance_Replacement_Proposal_20260917.zip">Replacement proposal &amp; exact checks</a><nav aria-label="Source documents">'''+navigation+'''</nav><label for="search">Search the source library</label><input type="search" id="search" placeholder="Rules, briefings, construction…"><p id="matches" aria-live="polite"></p></header>'''+''.join(cards)+'''</main><script>
+    </style><main><header><a href="./index.html">← Dessica campaign</a><h1>Soulstorm Source Library</h1><p class="status">Current playtest edition · Updated 6 October 2026 · Final balance not claimed</p><p>Dessica is suspended at Cycle 21. This separate reference contains reusable rules, blank templates and dated design notes. Use the 6 October playtest edition for new campaigns. Historical studies and rules are labelled separately. Survivor/reserve formation rules are agreed; global Soulstorm difficulty remains deferred. Dessica has not been migrated.</p><a class="download" download href="./Campaign_Source_2026-10-06.zip">Download all source documents</a> <a class="download" download href="./Balance_Simulation_Bundle.zip">Historical simulation code &amp; data</a> <a class="download" download href="./Historical_Bot_Diagnostics.zip">Historical bot diagnostics</a><a class="download" download href="./Integrated_Balance_Evidence_20260917.zip">Integrated baseline &amp; notes evidence</a><a class="download" download href="./Balance_Replacement_Proposal_20260917.zip">Replacement proposal &amp; exact checks</a><a class="download" download href="./Revised_Simulation_Code_20260917.zip">Historical September simulator code</a><a class="download" download href="./Revised_Matched_Evidence_20260917.zip">216 matched-map games</a><a class="download" download href="./Revised_Generated_Evidence_20260917.zip">216 generated-map games</a><nav aria-label="Source documents">'''+navigation+'''</nav><label for="search">Search the source library</label><input type="search" id="search" placeholder="Rules, briefings, construction…"><p id="matches" aria-live="polite"></p></header>'''+''.join(cards)+'''</main><script>
     const search=document.querySelector('#search');const articles=[...document.querySelectorAll('article')];
     search.addEventListener('input',()=>{const q=search.value.trim().toLowerCase();let count=0;articles.forEach(a=>{a.hidden=!!q&&!a.textContent.toLowerCase().includes(q);if(!a.hidden)count++;a.querySelectorAll('details').forEach(d=>{d.open=!!q&&d.textContent.toLowerCase().includes(q)})});document.querySelector('#matches').textContent=q?count+' matching documents':''});
     document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>{search.value='';search.dispatchEvent(new Event('input'))}));
