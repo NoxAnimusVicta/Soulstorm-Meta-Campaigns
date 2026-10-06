@@ -37,7 +37,7 @@ payload=json.dumps(data,ensure_ascii=False).replace('</','<\\/')
 (OUT/'campaign.json').write_text(payload,encoding='utf-8')
 page=(ROOT/'index.template.html').read_text(encoding='utf-8').replace('/*__STYLE__*/',(ROOT/'style.css').read_text(encoding='utf-8')).replace('/*__APP__*/',(ROOT/'app.js').read_text(encoding='utf-8')).replace('/*__DATA__*/',payload)
 (OUT/'index.html').write_text(page,encoding='utf-8')
-for name in ['manifest.webmanifest','icon-180.png','icon-192.png','icon-512.png']:
+for name in ['manifest.webmanifest','atreus-icon-180.png','atreus-icon-192.png','atreus-icon-512.png']:
  shutil.copyfile(ROOT/name,OUT/name)
 from source_build import build_source
 source_page=build_source(ROOT,OUT,render)

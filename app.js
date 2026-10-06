@@ -34,7 +34,7 @@ function render(){
  }else if(view==='cycles'){
  main.innerHTML=heading('ATREUS CHRONICLE','Cycle Records')+`<article class="article cycle-narratives">${data.narratives||'<p>No Cycle narratives recorded yet.</p>'}</article>`;
  }else{
- main.innerHTML=heading('CAMPAIGN ARCHIVE','Campaign record',`Cycle ${data.cycle} · ${esc(data.status.updated)}`)+`<div class="record-actions"><a href="./Atreus_Campaign.md" download>Download Markdown ↗</a><button id="full">Read complete document</button></div><div class="record-actions"><a href="./archives/dessica-cycle21-20261007/index.html">Dessica archive ↗</a><a href="./Dessica_Archive_Cycle21_2026-10-07.zip" download>Download Dessica archive ↗</a><a href="./atreus.html">Briefings & campaign reference ↗</a></div><div class="panel"><p class="kicker">CURRENT POSITION</p><h2>${esc(data.status.phase)}</h2><p>${esc(data.status.notes)}</p></div><div class="section-head"><h2>Battle log</h2></div><div class="article">${data.log}</div>`;
+ main.innerHTML=heading('CAMPAIGN ARCHIVE','Campaign record',`Cycle ${data.cycle} · ${esc(data.status.updated)}`)+`<div class="record-actions"><a href="./Atreus_Campaign.md" download>Download Markdown ↗</a><button id="full">Read complete document</button></div><div class="record-actions"><a href="./atreus.html">Briefings & campaign reference ↗</a></div><div class="panel"><p class="kicker">CURRENT POSITION</p><h2>${esc(data.status.phase)}</h2><p>${esc(data.status.notes)}</p></div><div class="section-head"><h2>Battle log</h2></div><div class="article">${data.log}</div>`;
  document.getElementById('full').onclick=()=>{main.innerHTML='<button class="back" id="back">← Campaign record</button><div class="article">'+data.document+'</div>';document.getElementById('back').onclick=render;};
  }
 }

@@ -58,7 +58,6 @@
   "minors": [
     {
       "name": "Argive Muster Council",
-      "alignment": "Imperium",
       "leader": "Strategos Damas",
       "system": "Argos",
       "prize": false,
@@ -73,7 +72,6 @@
     },
     {
       "name": "Eleusinian Synod",
-      "alignment": "Imperium",
       "leader": "Prelate Lysandra",
       "system": "Eleusis",
       "prize": false,
@@ -88,7 +86,6 @@
     },
     {
       "name": "Calydonian Labour Defence",
-      "alignment": "Imperium",
       "leader": "Marshal Oineus",
       "system": "Calydon",
       "prize": false,
@@ -97,13 +94,12 @@
       "supply": 15,
       "manpower": 15,
       "initial_strength": 3,
-      "lore": "Marshal Oineus was a foundry defence officer before the Capital fell. His committees now bind surviving work gangs, PDF remnants and displaced families into a precarious common command. They will cooperate with Imperial relief, but fear requisitions that strip the remaining evacuation routes of protection. Their soldiers know the factories and maintain a few serviceable armoured vehicles amid much improvised equipment.",
+      "lore": "Marshal Oineus was a foundry defence officer before the Capital fell. His committees now bind surviving work gangs, PDF remnants and displaced families into a precarious common command. They refuse outside command, fearing requisitions that strip the remaining evacuation routes of protection. Their soldiers know the factories and maintain a few serviceable armoured vehicles amid much improvised equipment.",
       "soulstorm_faction": "Imperial Guard",
       "force_description": "Industrial PDF, worker levies and surviving armour; soot-grey fatigues and ochre identification bands."
     },
     {
       "name": "Aulis Anchorage Command",
-      "alignment": "Imperium",
       "leader": "Commodore Thestor",
       "system": "Aulis",
       "prize": false,
@@ -112,13 +108,12 @@
       "supply": 20,
       "manpower": 20,
       "initial_strength": 5,
-      "lore": "Commodore Thestor has preserved a fragment of the Imperial Navy’s embarkation administration rather than declaring a personal kingdom. His officers still inspect troop transports for assignments whose destinations may no longer exist. Armsmen, shore regiments and support personnel hold the landing fields; Thestor will recognise credible Imperial authority without treating an alliance as permission to surrender his ships.",
+      "lore": "Commodore Thestor has preserved a fragment of the Imperial Navy’s embarkation administration rather than declaring a personal kingdom. His officers still inspect troop transports for assignments whose destinations may no longer exist. Armsmen, shore regiments and support personnel hold the landing fields; Thestor refuses incoming claims of authority and orders his ships to challenge any force attempting to seize the anchorages.",
       "soulstorm_faction": "Imperial Guard",
       "force_description": "Naval shore troops and armsmen represented by Guard infantry and vehicles; navy blue and bone-white markings."
     },
     {
       "name": "House Atreides",
-      "alignment": "Imperium",
       "leader": "Archon Pleisthenes Atreides",
       "system": "Mycenae",
       "prize": true,
@@ -133,7 +128,6 @@
     },
     {
       "name": "Delphic Custodians",
-      "alignment": "Imperium",
       "leader": "Logothete Manto",
       "system": "Delphi",
       "prize": false,
@@ -142,13 +136,12 @@
       "supply": 20,
       "manpower": 20,
       "initial_strength": 4,
-      "lore": "Logothete Manto leads hereditary archive wardens and the security staff serving Delphi’s astropathic establishments. Contradictory orders have become dangerous currency: commanders seek whichever sealed transcript favours their claim. Manto keeps the custodial oath above these disputes and defends vaults against the Lotus privateers, while remaining willing to cooperate with recognised Imperial forces. Her soldiers are human guards, not Adeptus Custodes despite their title.",
+      "lore": "Logothete Manto leads hereditary archive wardens and the security staff serving Delphi’s astropathic establishments. Contradictory orders have become dangerous currency: commanders seek whichever sealed transcript favours their claim. Manto keeps the custodial oath above these disputes and defends vaults against the Lotus privateers, while refusing outside claims on her archives. Her soldiers are human guards, not Adeptus Custodes despite their title.",
       "soulstorm_faction": "Imperial Guard",
       "force_description": "Archive security and communications-defence regiments; ash-blue cloth, brass seals and ivory unit plates."
     },
     {
       "name": "Lotus Company",
-      "alignment": "Independent",
       "leader": "Captain Eurylochos",
       "system": "Delphi",
       "prize": false,
@@ -157,13 +150,12 @@
       "supply": 5,
       "manpower": 5,
       "initial_strength": 1,
-      "lore": "Captain Eurylochos commands human deserters, smugglers and hired gun crews from Castalia’s abandoned waterworks. His company presents expired letters of marque when useful and burns the records when they are not. It raids Delphi’s lighter traffic and avoids a decisive engagement with Manto’s stronger patrols. The company remains Independent and hostile, with no established pact or Chaos allegiance.",
+      "lore": "Captain Eurylochos commands human deserters, smugglers and hired gun crews from Castalia’s abandoned waterworks. His company presents expired letters of marque when useful and burns the records when they are not. It raids Delphi’s lighter traffic and avoids a decisive engagement with Manto’s stronger patrols. The company has no Alignment and remains hostile, with no established pact or Chaos allegiance.",
       "soulstorm_faction": "Imperial Guard",
       "force_description": "Human pirate ground troops using Guard representation; mismatched armour, faded violet patches and looted vehicles."
     },
     {
       "name": "Nemean Estate Compact",
-      "alignment": "Imperium",
       "leader": "Warden Adrastos",
       "system": "Nemea",
       "prize": false,
@@ -172,13 +164,12 @@
       "supply": 25,
       "manpower": 25,
       "initial_strength": 6,
-      "lore": "Warden Adrastos chairs a compact of landowners whose privileges depend on keeping crusade provisioning quotas. Isolation has let them retain more of the harvest, but loss of convoy protection has made those stores vulnerable. Estate riflemen, rural PDF and armoured agricultural security protect the processing towns. The Compact accepts Imperial cooperation while bargaining hard over the cost of permanent protection.",
+      "lore": "Warden Adrastos chairs a compact of landowners whose privileges depend on keeping crusade provisioning quotas. Isolation has let them retain more of the harvest, but loss of convoy protection has made those stores vulnerable. Estate riflemen, rural PDF and armoured agricultural security protect the processing towns. The Compact refuses outside authority and guards its harvest against requisition by any would-be protector.",
       "soulstorm_faction": "Imperial Guard",
       "force_description": "Estate militia and food-processing security with conventional armour; ochre cloth and dark green plates."
     },
     {
       "name": "Lerna Reclamation Directorate",
-      "alignment": "Imperium",
       "leader": "Magister Polydoros",
       "system": "Lerna",
       "prize": false,
@@ -187,13 +178,12 @@
       "supply": 15,
       "manpower": 15,
       "initial_strength": 3,
-      "lore": "Magister Polydoros administers the pumps, chemical plants and purification crews keeping Pontinos habitable. His title is a civic office: the Directorate is a human industrial government, not a Mechanicus forge cult. Plant security and PDF survivors contest the system with Rustjaw’s Orks, trying to preserve works they cannot afford to demolish. Cooperation with Imperial forces is welcome so long as it does not abandon the settled islands.",
+      "lore": "Magister Polydoros administers the pumps, chemical plants and purification crews keeping Pontinos habitable. His title is a civic office: the Directorate is a human industrial government, not a Mechanicus forge cult. Plant security and PDF survivors contest the system with Rustjaw’s Orks, trying to preserve works they cannot afford to demolish. He rejects outside command and treats approaching forces as a threat to the settled islands.",
       "soulstorm_faction": "Imperial Guard",
       "force_description": "Industrial PDF, engineers and chemical-plant security; slate armour with pale hazard markings."
     },
     {
       "name": "Rustjaw Mob",
-      "alignment": "Ork",
       "leader": "Boss Skrag Rustjaw",
       "system": "Lerna",
       "prize": false,
@@ -202,13 +192,12 @@
       "supply": 10,
       "manpower": 10,
       "initial_strength": 2,
-      "lore": "Boss Skrag Rustjaw earned his name biting through a seized pump-station gate after his breaching charges failed. His mob hoards pipes, tankers and stolen engines, turning Amymone’s chemical yards into ramshackle vehicle shops. Rustjaw recognises strength and shares the wider Ork allegiance with Bell-Ringa, but has neither surrendered his mob nor promised its ships. Their enemy in Lerna is the human Directorate.",
+      "lore": "Boss Skrag Rustjaw earned his name biting through a seized pump-station gate after his breaching charges failed. His mob hoards pipes, tankers and stolen engines, turning Amymone’s chemical yards into ramshackle vehicle shops. Rustjaw regards Bell-Ringa as another rival boss: he has neither surrendered his mob nor promised its ships. Their enemy in Lerna is the human Directorate.",
       "soulstorm_faction": "Orks",
       "force_description": "Boyz, Nobz and ramshackle vehicle mobs; rust-red plates, black checks and trophies made from industrial scrap."
     },
     {
       "name": "Ithacan Assembly",
-      "alignment": "Imperium",
       "leader": "Speaker Eumaia",
       "system": "Ithaca",
       "prize": false,
@@ -217,13 +206,12 @@
       "supply": 25,
       "manpower": 25,
       "initial_strength": 5,
-      "lore": "Speaker Eumaia speaks for settlement councils founded by stranded convoy families and demobilised soldiers. The Assembly’s officers have fought under too many absent patrons to confuse grand titles with reliable relief. Veteran-led militia protects the new towns and their reception station; the Assembly remains Imperial and can assist the Paladins without adopting the Order’s accusation of corruption. Its main fear is becoming another recruiting ground whose protectors never return.",
+      "lore": "Speaker Eumaia speaks for settlement councils founded by stranded convoy families and demobilised soldiers. The Assembly’s officers have fought under too many absent patrons to confuse grand titles with reliable relief. Veteran-led militia protects the new towns and their reception station; the Assembly refuses to submit to the Paladins or the Order, despite the population’s continued Emperor worship. Its main fear is becoming another recruiting ground whose protectors never return.",
       "soulstorm_faction": "Imperial Guard",
       "force_description": "Veteran-led colonial PDF and resettlement militia; weathered blue-grey and white settlement badges."
     },
     {
       "name": "Thessalian First Command",
-      "alignment": "Imperium",
       "leader": "General Leontes",
       "system": "Thessaly",
       "prize": false,
@@ -232,13 +220,12 @@
       "supply": 15,
       "manpower": 15,
       "initial_strength": 3,
-      "lore": "General Leontes possesses the senior surviving regimental commission and treats Pharsalos’s armoured depots as the centre of a future restored army. He resents Colonel Phereas keeping transport assets under a separate seal, yet neither command has opened hostilities against the other. Their Imperial fleets currently count together for Void Superiority. First Command favours disciplined infantry supported by well-maintained armour.",
+      "lore": "General Leontes possesses the senior surviving regimental commission and treats Pharsalos’s armoured depots as the centre of a future restored army. He resents Colonel Phereas keeping transport assets under a separate seal, yet neither command has opened hostilities against the other. Their separate fleets count as hostile for Void Superiority; neither command has recognised the other’s authority. First Command favours disciplined infantry supported by well-maintained armour.",
       "soulstorm_faction": "Imperial Guard",
       "force_description": "Regular regimental infantry and armoured reserves; deep red insignia on sand-grey armour."
     },
     {
       "name": "Thessalian Remount Command",
-      "alignment": "Imperium",
       "leader": "Colonel Phereas",
       "system": "Thessaly",
       "prize": false,
@@ -247,7 +234,7 @@
       "supply": 10,
       "manpower": 10,
       "initial_strength": 2,
-      "lore": "Colonel Phereas commands the officers, mechanics and rural levies responsible for keeping Thessaly’s scattered forces mobile. He argues that Leontes’s seniority does not cancel his independent transport commission. The dispute remains administrative at opening: both commands are allied, with no civil war or extra hostility exception invented. Remount troops defend the depots and coastal loading grounds that support their small fleet.",
+      "lore": "Colonel Phereas commands the officers, mechanics and rural levies responsible for keeping Thessaly’s scattered forces mobile. He argues that Leontes’s seniority does not cancel his independent transport commission. The rival commissions now reject each other’s authority and treat each other’s armed forces as hostile; no battle has yet been resolved. Remount troops defend the depots and coastal loading grounds that support their small fleet.",
       "soulstorm_faction": "Imperial Guard",
       "force_description": "Remount-service infantry, mechanised escorts and depot guards; dun uniforms and dark blue vehicle panels."
     }
@@ -260,7 +247,7 @@
       "kind": "Planet",
       "owner": "Iron Paladins",
       "maximum": 12,
-      "description": "A fortress-monastery crowns a basalt escarpment above ironworks and densely inhabited workers’ terraces. Siege roads climb through successive gate courts; outside them, ore conveyors cross ash fields scarred by old artillery pits. The Paladins occupy repaired Imperial works rather than a newly created construction bonus.",
+      "description": "A fortress-monastery crowns a basalt escarpment above ironworks and densely inhabited workers’ terraces. Siege roads climb through successive gate courts; outside them, ore conveyors cross ash fields scarred by old artillery pits. The Paladins have restored the battered gatehouses and reopened the ironworks below the monastery.",
       "map_theme": "Fortress or industrial city; steep approaches, broad breach lanes and enclosed courtyards."
     },
     {
@@ -430,7 +417,7 @@
       "kind": "Station",
       "owner": "Delphic Custodians",
       "maximum": 2,
-      "description": "An orbital relay station whose rotating habitation rings surround a hardened signal core. Maintenance galleries, antenna-control rooms and shielded message vaults connect through closely watched transit hubs. Boarding forces must secure the junctions without assuming every sealed door is a defensive construction.",
+      "description": "An orbital relay station whose rotating habitation rings surround a hardened signal core. Maintenance galleries, antenna-control rooms and shielded message vaults connect through closely watched transit hubs. Armoured bulkheads divide the station into compartments, with the main junctions controlling access to the signal core.",
       "map_theme": "Station interior; compact junctions, machinery chambers and enclosed service corridors."
     },
     {
@@ -597,119 +584,119 @@
       "maximum": 5
     },
     {
-      "name": "Ashields 1",
+      "name": "The Unspent Levy",
       "owner": "Argive Muster Council",
       "system": "Argos",
       "strength": 3,
       "maximum": 3
     },
     {
-      "name": "Votive Watch 1",
+      "name": "The Locked Reliquary",
       "owner": "Eleusinian Synod",
       "system": "Eleusis",
       "strength": 3,
       "maximum": 3
     },
     {
-      "name": "Foundry Guard 1",
+      "name": "The Last Shift",
       "owner": "Calydonian Labour Defence",
       "system": "Calydon",
       "strength": 3,
       "maximum": 3
     },
     {
-      "name": "Embarkation Guard 1",
+      "name": "The Unanswered Muster",
       "owner": "Aulis Anchorage Command",
       "system": "Aulis",
       "strength": 5,
       "maximum": 5
     },
     {
-      "name": "Dynastic Squadron 1",
+      "name": "Pleisthenes’ Oath",
       "owner": "House Atreides",
       "system": "Mycenae",
       "strength": 5,
       "maximum": 5
     },
     {
-      "name": "Dynastic Squadron 2",
+      "name": "The Copper Hawk",
       "owner": "House Atreides",
       "system": "Mycenae",
       "strength": 5,
       "maximum": 5
     },
     {
-      "name": "Dynastic Squadron 3",
+      "name": "Perseia’s Breakwater",
       "owner": "House Atreides",
       "system": "Mycenae",
       "strength": 5,
       "maximum": 5
     },
     {
-      "name": "Dynastic Squadron 4",
+      "name": "The Dendra Covenant",
       "owner": "House Atreides",
       "system": "Mycenae",
       "strength": 3,
       "maximum": 3
     },
     {
-      "name": "Signal Guard 1",
+      "name": "The Sealed Testimony",
       "owner": "Delphic Custodians",
       "system": "Delphi",
       "strength": 4,
       "maximum": 4
     },
     {
-      "name": "Borrowed Warrant 1",
+      "name": "The Convenient Pardon",
       "owner": "Lotus Company",
       "system": "Delphi",
       "strength": 1,
       "maximum": 1
     },
     {
-      "name": "Harvest Watch 1",
+      "name": "The Granary Key",
       "owner": "Nemean Estate Compact",
       "system": "Nemea",
       "strength": 5,
       "maximum": 5
     },
     {
-      "name": "Harvest Watch 2",
+      "name": "The Winter Measure",
       "owner": "Nemean Estate Compact",
       "system": "Nemea",
       "strength": 1,
       "maximum": 1
     },
     {
-      "name": "Sluice Patrol 1",
+      "name": "The Ninth Sluice",
       "owner": "Lerna Reclamation Directorate",
       "system": "Lerna",
       "strength": 3,
       "maximum": 3
     },
     {
-      "name": "Da Pipe-Bita 1",
+      "name": "Da Pressure Drop",
       "owner": "Rustjaw Mob",
       "system": "Lerna",
       "strength": 2,
       "maximum": 2
     },
     {
-      "name": "Homeward Watch 1",
+      "name": "A Place at the Hearth",
       "owner": "Ithacan Assembly",
       "system": "Ithaca",
       "strength": 5,
       "maximum": 5
     },
     {
-      "name": "First Commission 1",
+      "name": "The Senior Warrant",
       "owner": "Thessalian First Command",
       "system": "Thessaly",
       "strength": 3,
       "maximum": 3
     },
     {
-      "name": "Remount Escort 1",
+      "name": "The Unbroken Trace",
       "owner": "Thessalian Remount Command",
       "system": "Thessaly",
       "strength": 2,

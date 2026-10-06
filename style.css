@@ -25,3 +25,7 @@ html{-webkit-text-size-adjust:100%;scroll-padding-bottom:110px}button,a,summary{
 .system-fleets{margin:0 0 18px}.system-fleets h3{font-size:14px;color:var(--gold);margin:0 0 6px}.system-fleets .world-row{padding:8px 0}
 
 .world-description{grid-column:1/-1;font-size:14px;line-height:1.55;color:var(--muted);margin:2px 0 4px}.world-description span{color:var(--gold)}
+
+/* Stable right edge for defence/type, independent of label width. */
+.world-row>div:nth-child(2){text-align:right;justify-self:end;min-width:110px;font-variant-numeric:tabular-nums}.world-row>div:nth-child(2) strong,.world-row>div:nth-child(2) small{display:block;text-align:right}
+.topline{justify-content:flex-start;gap:12px}.topline>span{margin-right:auto}.archive-menu{position:relative;letter-spacing:0;font-size:14px}.archive-menu summary{padding:10px;min-height:44px}.archive-menu>a{position:absolute;right:0;top:100%;z-index:60;min-width:190px;padding:14px;background:var(--panel);border:1px solid var(--line);white-space:nowrap}.archive-menu:not([open])>a{display:none}@media(max-width:650px){.topline{gap:3px}.topline>span{font-size:11px;letter-spacing:0}.topline button{min-width:74px;font-size:14px}.archive-menu summary{font-size:13px;padding:10px 6px}}

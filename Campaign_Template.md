@@ -57,7 +57,7 @@ Copy one dossier per system. Use the pinned source d20 table for ordinary system
 
 [In-world description.]
 
-| Holding | Tier / planet or station | Controller / Major or Minor | Alignment | Defence current/max | Income | Constructions/status |
+| Holding | Tier / planet or station | Controller / Major or Minor | Major Alignment only; — for Minor | Defence current/max | Income | Constructions/status |
 |---|---|---|---|---|---|---|
 | [name] | [tier] | [name/role] | [alignment] | [value] | [per Logistics] | None |
 
@@ -79,9 +79,11 @@ Display Mobile Capitals under faction holdings; track their movement/action here
 
 ## Minor factions and diplomacy
 
-| Name | Alignment | Holdings | Fleets/original maxima | Resource calculation | Pacts/subordination | Recovery eligibility |
+Only Major Factions have Alignments. Minors are independent hostile powers and cannot enter diplomatic agreements or alliances; species and force representation do not create alliances.
+
+| Name | Force representation (no Alignment) | Holdings | Fleets/original maxima | Resource calculation | Independent hostile status | Recovery eligibility |
 |---|---|---|---|---|---|---|
-| [name] | [independent of role] | [list] | [list] | [baseline/override] | None | [current Cycle] |
+| [name] | [Soulstorm faction] | [list] | [list] | [baseline/override] | None | [current Cycle] |
 
 ## Cycle ledger
 

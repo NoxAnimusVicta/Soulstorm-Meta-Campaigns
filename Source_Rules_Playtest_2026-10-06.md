@@ -8,13 +8,15 @@ For a new campaign, copy the templates, pin this edition and record local except
 
 ## Setup, resources and personnel
 
-New roster-building Subsector Major factions begin with 20 Supply and 20 Manpower, capped at 100 each. Both represent military resources, not the civilian economy. Use one agreed rules version and record exceptions before play. Major/Minor are campaign roles; Independent is an Alignment, never an automatic alliance. Fleets measure combat effectiveness, not a literal ship count.
+New roster-building Subsector Major factions begin with 20 Supply and 20 Manpower, capped at 100 each. Both represent military resources, not the civilian economy. Use one agreed rules version and record exceptions before play. Only Major Factions have Alignments. Minor Factions have none; force species does not confer alliance. Independent remains a Major Alignment, never an automatic alliance. Fleets measure combat effectiveness, not a literal ship count.
 
 Establish the Subsector's fixed raiding faction at setup; raiders cannot hold territory. Dessica's raiders remain Iron Warriors. Generate ordinary systems from the d20 table below: 2–4 combined planets/stations, averaging 3. Exceptional prize factions can hold Capitals.
 
 ### Faction Alignments
 
-Factions sharing a non-Independent Alignment are allied by default; an explicit campaign hostility exception overrides that default. For example, the Atreus Sisters and Iron Paladins remain hostile despite both being Imperium-aligned. Record such exceptions before play. Otherwise, different Alignments are hostile unless an applicable diplomatic agreement says otherwise. Independent is an Alignment, not a faction size: two Independent-aligned factions are not automatically allied. They need an explicit pact or recorded subordinate relationship. Major/Minor describes campaign role separately from Alignment.
+**7 October 2026 creator correction:** Alignments apply only to Major Factions. Majors sharing a non-Independent Alignment are allied by default unless an explicit hostility exception is recorded, such as the Atreus Sisters and Iron Paladins. Different Major Alignments are hostile without an applicable agreement; two Independent Majors are not automatically allied.
+
+Minor Factions have no Alignment and cannot enter diplomatic agreements or alliances. They are hostile to other factions; species, force representation and narrative worship do not make them allied. A Minor absorbed into a Major is no longer a separate aligned Minor. The Alignment column below applies only when the force is a Major; the manpower and representation guidance applies to both roles.
 
 | Faction | Alignment | Per Manpower | Ratio to Marine | vs Guard | Force Description |
 |---------|-----------|--------------|-----------------|----------|-------------------|
@@ -150,11 +152,11 @@ A faction may take ONE Social Action per turn. This represents diplomatic bandwi
 
 | Action | Effect |
 |--------|--------|
-| **Communiqué** | Send one message to another Faction. They may respond immediately but only once. Requires both Factions to have a presence in the same system (fleet or planet — any combination). Extended conversations require multiple cycles. |
+| **Communiqué** | Send one message to another Major Faction. They may respond immediately but only once. Requires both Factions to have a presence in the same system (fleet or planet — any combination). Extended conversations require multiple cycles. |
 
-#### Diplomacy with Non-Aligned Factions
+#### Diplomacy between Major Factions
 
-**Diplomacy with Non-Aligned Factions:** Temporary cease-fires or non-aggression pacts with factions outside your alignment are possible through the Communiqué action, but these are inherently unstable. Conflicting alignments will inevitably come to blows — such arrangements should be treated as temporary strategic convenience, not true alliance.
+**Diplomacy between Major Factions:** Temporary cease-fires or non-aggression pacts with other Major Factions outside your alignment are possible through the Communiqué action, but these are inherently unstable. Conflicting alignments will inevitably come to blows — such arrangements should be treated as temporary strategic convenience, not true alliance.
 
 ## Combat and capture
 

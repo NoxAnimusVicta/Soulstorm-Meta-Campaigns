@@ -9,7 +9,7 @@ User orders and agreed rulings authorise play. Attached briefings are references
 ## Campaign setup
 
 1. Copy Campaign_Template.md; specify names, scope, timescale, turn order, player and source version. Subsector roster-building starts at 20/20; record Sector overrides.
-2. Define systems, holdings, Minor roles and Alignments separately, fleets and original maxima. Use the current d20 profiles (2–4 holdings, average3), ordinary/prize Minor fleet formulas and shared derived resources in the pinned draft.
+2. Define systems, holdings, Minor roles, Major Alignments, fleets and original maxima. Minor Factions have no Alignment and cannot negotiate agreements or alliances. Use the current d20 profiles (2–4 holdings, average3), ordinary/prize Minor fleet formulas and shared derived resources in the pinned draft.
 3. Establish a fixed raider, motive and game representation; no territory capture.
 4. Agree exact traits and create commander/staff age, lifespan and succession registers. Same trait persists through succession except explicit mechanical loss rules.
 5. Help choose distinct thematic colours. Use Army Painter screenshots to identify actual channels; if unknown, request them before finalising. Record supported primary/secondary/trim/weapon channels, colour values, badge and reference image. Channel mapping varies by faction/model. Player may retcon colours.

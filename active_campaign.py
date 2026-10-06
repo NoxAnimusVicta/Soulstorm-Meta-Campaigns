@@ -17,7 +17,7 @@ def load_atreus(root,render):
  systems=[]
  for name,body in re.findall(r'^### (.+)\n([\s\S]*?)(?=^### |\Z)',section(md,'Systems and holdings'),re.M):
   ts=tables(body);holdings=ts[0];fleets=ts[1]
-  worlds=[{'Planet':x[0],'Type':x[1],'Controller':x[2],'Alignment':x[3],'Defense':x[4],'Income':x[5],'Notes':x[6],'Map':x[7]} for x in holdings[1:]]
+  worlds=[{'Planet':x[0],'Type':x[1],'Controller':x[2],'Defense':x[3],'Income':x[4],'Notes':x[5],'Map':x[6]} for x in holdings[1:]]
   systems.append({'title':name,'worlds':worlds,'fleets':fleets[1:],'text':body,'html':render(body),'void':re.search(r'\*\*Void Superiority:\*\* ([^\n]+)',body)[1]})
  factions=[]
  for name,body in re.findall(r'^### \d+\. (.+)\n([\s\S]*?)(?=^### |\Z)',section(md,'Major faction registers'),re.M):

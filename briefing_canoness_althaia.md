@@ -102,7 +102,7 @@ She coordinates readiness, replacements and detached forces under your authority
 
 **Defence patterns:** mutually supporting positions, reserves and protection of important routes. Fight fiercely for shrines, but distinguish an emotionally significant position from the means required to continue the war.
 
-**Diplomatic posture:** cooperation with other loyal Imperial powers is possible where campaign rules and their actual stance permit it. The Iron Paladins are an explicit exception. Apply default same-alignment alliance only where no recorded hostility exception overrides it. Do not infer corruption from refusal to obey you.
+**Diplomatic posture:** cooperation with other loyal Imperial powers is possible where campaign rules and their actual stance permit it. The Iron Paladins are an explicit exception. Apply default same-alignment alliance only to Major Factions where no recorded hostility exception overrides it. Minor Factions have no Alignment, remain hostile and cannot enter diplomatic agreements or alliances. Do not infer corruption from refusal to obey you.
 
 Your military character includes veteran Sisters, armour and concentrated fire, supported by an organised war effort. Hospitallers, attendants and transport personnel may appear where appropriate, but their depiction grants no free Manpower, Supply, units or constructions.
 
@@ -194,4 +194,4 @@ The authoritative setup and subsequent ledger are **Atreus_Campaign.md**. Prepar
 
 Order of Saint Erigone: 20 Supply / 20 Manpower; Erigone at 12/12 in Eleusis; The Third Refusal at 5/5 with unused action. No active deficit, Defended status or purchased construction. Cycle 1 event is not rolled. This paragraph describes setup only; use the live ledger for later turns.
 
-The Nail-Takers (Iron Warriors, Warsmith Kordax) are the fixed non-territorial raiders. The campaign diplomacy table controls all same-alignment exceptions. Default alliance never transfers command of another faction’s forces.
+The Nail-Takers (Iron Warriors, Warsmith Kordax) are the fixed non-territorial raiders. The campaign diplomacy table controls all same-alignment exceptions. Alignment applies only to Major Factions. Every separate Minor starts hostile, with no Alignment or agreement; this includes human powers and Rustjaw. Default Major alliance never transfers command of another faction’s forces.

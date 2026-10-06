@@ -169,4 +169,4 @@ The authoritative setup and subsequent ledger are **Atreus_Campaign.md**. Prepar
 
 WAAAGH! Bell-Ringa: 20 Supply / 20 Manpower; Da Bellworks at 12/12 in Calydon; Da Gate-Krasha at 5/5 with unused action. No active deficit, Defended status or purchased construction. Cycle 1 event is not rolled. This paragraph describes setup only; use the live ledger for later turns.
 
-The Nail-Takers (Iron Warriors, Warsmith Kordax) are the fixed non-territorial raiders. The campaign diplomacy table controls all same-alignment exceptions. Default alliance never transfers command of another faction’s forces.
+The Nail-Takers (Iron Warriors, Warsmith Kordax) are the fixed non-territorial raiders. The campaign diplomacy table controls all same-alignment exceptions. Alignment applies only to Major Factions. Every separate Minor starts hostile, with no Alignment or agreement; this includes human powers and Rustjaw. Default Major alliance never transfers command of another faction’s forces.

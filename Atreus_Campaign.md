@@ -4,7 +4,7 @@ Created 7 October 2026 · Subsector playtest · **Cycle 1 unopened**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
-Rules: **6 October 2026 playtest edition**, pinned to GitHub commit `113ec69a6163d36fb2164b9b624d14d8889986e5`. The complete pinned rules follow the campaign registers below. Later source changes do not automatically migrate this campaign. The observed balance spread remains 28 percentage points; human playtesting is now the purpose. Dessica remains a separate suspended campaign.
+Rules: **6 October 2026 playtest edition with the approved 7 October Minor Alignment correction**. The base edition was pinned to GitHub commit `113ec69a6163d36fb2164b9b624d14d8889986e5`. The complete rules, including that correction, follow the campaign registers below. Later source changes do not automatically migrate this campaign. The observed balance spread remains 28 percentage points; human playtesting is now the purpose. Dessica remains a separate suspended campaign.
 
 ## Opening situation
 
@@ -22,7 +22,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 - Ten systems; Fleet Movement reaches any system with the normal action. **No directional, adjacency, distance or travel-lane mechanics.** The system directory is a roster, not a route network.
 - Mycenae is the authored prize system: House Atreides owns a Capital planet, Standard planet and Minor station. This fixed profile implements the approved prize placement; it is not represented as a rolled ordinary profile.
 - The remaining six systems use the saved d20 rolls. Ownership, names and faction identities are authored independently of those rolls. No rerolls were made.
-- Campaign victory convention: the last surviving Major wins after rival Majors lose their final fallback. An agreed concession can end play earlier. Allied Minor holdings do not become owned territory and need not be conquered to meet this condition. No forced 100-Cycle ending.
+- Campaign victory convention: the last surviving Major wins after rival Majors lose their final fallback. An agreed concession can end play earlier. Minor holdings do not become owned territory and need not be conquered to meet this condition. No forced 100-Cycle ending.
 - No opening event, income, recovery, action or battle has occurred. On opening, resolve Phase 0 once: construction effects, Logistics if due, then the event check. First Logistics is Cycle 3.
 - Calendar date within Imperium Nihilus is intentionally unspecified. Track elapsed Cycles; there is no invented conversion to years. Exact officer ages and any finite lifespan windows remain unassigned, so no automatic ageing deaths are scheduled.
 - Artwork establishes visual identity. Army Painter channel mapping remains unassigned until the actual faction interfaces are checked; this gives no mechanical benefit and does not delay campaign setup.
@@ -106,13 +106,11 @@ One Manpower represents approximately 40 Astartes, 400 Orks or 100 Sisters in th
 
 ## Diplomacy and explicit hostility exceptions
 
-All three Majors are mutually hostile. **Iron Paladins ↔ Order of Saint Erigone** is an explicit same-Imperium exception: no alliance or joint operation during this campaign. This does not force every other Imperial faction to share Althaia’s accusation.
+**7 October ruling: only Major Factions have Alignments.** Minor Factions have no Alignment. They are independent hostile powers and cannot enter diplomatic agreements or alliances. Species, Emperor worship, human origin and Soulstorm army selection do not confer alliance. A Minor incorporated into a Major ceases to be a separate aligned Minor.
 
-The **Argive Muster Council, Eleusinian Synod and House Atreides are hostile to both Imperial Majors** despite shared alignment: each rejects those Majors’ local authority. These are recorded political exceptions, not evidence of Chaos worship. Calydonian Labour Defence is hostile to the Orks and retains default Imperial alliance with the two Imperial Majors separately.
+All three Majors are mutually hostile. Iron Paladins and Order of Saint Erigone retain Imperium Alignment but have the agreed explicit hostility exception. WAAAGH! Bell-Ringa has Ork Alignment.
 
-Aulis Anchorage Command, Delphic Custodians, Nemean Estate Compact, Lerna Reclamation Directorate, Ithacan Assembly and both Thessalian Commands retain default Imperial alliance with Imperial Majors. Allied does not mean subordinate: no shared stockpiles, automatic fleet orders or free cession. Allied participation needs consent and uses participating fleets’ actions. A Minor allied to both hostile Majors supplies neither side against the other unless its stance is explicitly resolved and recorded; do not count its fleet simultaneously as both friendly and hostile.
-
-Rustjaw Mob shares default Ork alliance with Bell-Ringa but is a separate Minor, not an extra player-controlled fleet. Lotus Company is Independent and has no pact: hostile to all Majors. Different alignments are hostile by default. No communiqué, submission or negotiation has yet occurred.
+All 13 Minors are independent hostile powers; none can negotiate an agreement with a Major or another Minor. Their ships count as hostile to other factions, including other Minors. Rustjaw is not allied to Bell-Ringa; the Thessalian commands are not allied to each other. No territorial absorption, truce or communiqué has occurred.
 
 ## Fixed Third Party Raid
 
@@ -137,16 +135,16 @@ Setup: fixed home/prize profile recorded above.
 
 **Soulstorm selection:** Imperial Guard. Disciplined PDF infantry, artillery crews and depot armour; muted khaki with dark red unit markings.
 
-|Holding|Tier / type|Controller|Alignment|Defence|Logistics / infrastructure|Description|Map theme|
-|---|---|---|---|---|---|---|
-|Tiryns|Capital Planet|Iron Paladins|Imperium|12/12|4 Supply + 4 Manpower; built-in shipyard|A fortress-monastery crowns a basalt escarpment above ironworks and densely inhabited workers’ terraces. Siege roads climb through successive gate courts; outside them, ore conveyors cross ash fields scarred by old artillery pits. The Paladins occupy repaired Imperial works rather than a newly created construction bonus.|Fortress or industrial city; steep approaches, broad breach lanes and enclosed courtyards.|
-|Heraion|Standard Planet|Argive Muster Council|Imperium|4/4|2 Supply + 2 Manpower|A military-administrative world built around immense muster squares and munition warehouses. The Council occupies the former tithe citadel; barrack districts and rail sidings form successive defensive belts around it. Civilian streets remain crowded with families of regiments that never returned.|Urban barracks or military depot; streets, warehouse cover and open parade grounds.|
-|Prosymna|Minor Planet|Argive Muster Council|Imperium|2/2|1 Supply + 1 Manpower|Dry uplands are divided into recruiting estates and grain stores. Walled villages overlook dusty roads leading to a central levy camp, where obsolete troop transports serve as permanent accommodation. Cisterns and granaries are the settlements’ most valuable ground.|Arid rural settlement; low hills, scattered walls and a fortified central camp.|
+|Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
+|---|---|---|---|---|---|
+|Tiryns|Capital Planet|Iron Paladins|12/12|4 Supply + 4 Manpower; built-in shipyard|A fortress-monastery crowns a basalt escarpment above ironworks and densely inhabited workers’ terraces. Siege roads climb through successive gate courts; outside them, ore conveyors cross ash fields scarred by old artillery pits. The Paladins have restored the battered gatehouses and reopened the ironworks below the monastery.|Fortress or industrial city; steep approaches, broad breach lanes and enclosed courtyards.|
+|Heraion|Standard Planet|Argive Muster Council|4/4|2 Supply + 2 Manpower|A military-administrative world built around immense muster squares and munition warehouses. The Council occupies the former tithe citadel; barrack districts and rail sidings form successive defensive belts around it. Civilian streets remain crowded with families of regiments that never returned.|Urban barracks or military depot; streets, warehouse cover and open parade grounds.|
+|Prosymna|Minor Planet|Argive Muster Council|2/2|1 Supply + 1 Manpower|Dry uplands are divided into recruiting estates and grain stores. Walled villages overlook dusty roads leading to a central levy camp, where obsolete troop transports serve as permanent accommodation. Cisterns and granaries are the settlements’ most valuable ground.|Arid rural settlement; low hills, scattered walls and a fortified central camp.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
 |Crusade Fleet Anabasis|Iron Paladins|5/5|
-|Ashields 1|Argive Muster Council|3/3|
+|The Unspent Levy|Argive Muster Council|3/3|
 
 
 
@@ -164,16 +162,16 @@ Setup: fixed home/prize profile recorded above.
 
 **Soulstorm selection:** Imperial Guard. Ecclesiastical human militia and shrine guards; cream cloth, red insignia and worn military equipment.
 
-|Holding|Tier / type|Controller|Alignment|Defence|Logistics / infrastructure|Description|Map theme|
-|---|---|---|---|---|---|---|
-|Erigone|Capital Planet|Order of Saint Erigone|Imperium|12/12|4 Supply + 4 Manpower; built-in shipyard|A shrine Capital of pale stone basilicas, processional avenues and fortified convent precincts. Hospitals and pilgrims’ dormitories fill the lower city beneath the Order’s blackened bell towers. Broad ceremonial approaches become exposed killing grounds between substantial masonry walls.|Cathedral city or shrine fortress; plazas, cloisters and defended avenues.|
-|Triptolemos|Standard Planet|Eleusinian Synod|Imperium|4/4|2 Supply + 2 Manpower|Hospitaller estates and cathedral granaries feed a crowded pilgrim population. The Synod’s militia occupies gatehouses between terraced farms and a walled ecclesiastical town. Canal bridges carry both grain carts and penitential processions.|Temperate shrine settlement; farmland, waterways and stone bridges.|
-|Daeira|Minor Planet|Eleusinian Synod|Imperium|2/2|1 Supply + 1 Manpower|Funerary settlements cling to a cold limestone plateau. Reliquary chapels mark entrances to ossuary galleries, while militia posts overlook the narrow roads between tomb fields. Most inhabitants live in austere service towns around the great burial gates.|Graveyard or ruined shrine; narrow passages, stone cover and bleak open ground.|
+|Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
+|---|---|---|---|---|---|
+|Erigone|Capital Planet|Order of Saint Erigone|12/12|4 Supply + 4 Manpower; built-in shipyard|A shrine Capital of pale stone basilicas, processional avenues and fortified convent precincts. Hospitals and pilgrims’ dormitories fill the lower city beneath the Order’s blackened bell towers. Broad ceremonial approaches become exposed killing grounds between substantial masonry walls.|Cathedral city or shrine fortress; plazas, cloisters and defended avenues.|
+|Triptolemos|Standard Planet|Eleusinian Synod|4/4|2 Supply + 2 Manpower|Hospitaller estates and cathedral granaries feed a crowded pilgrim population. The Synod’s militia occupies gatehouses between terraced farms and a walled ecclesiastical town. Canal bridges carry both grain carts and penitential processions.|Temperate shrine settlement; farmland, waterways and stone bridges.|
+|Daeira|Minor Planet|Eleusinian Synod|2/2|1 Supply + 1 Manpower|Funerary settlements cling to a cold limestone plateau. Reliquary chapels mark entrances to ossuary galleries, while militia posts overlook the narrow roads between tomb fields. Most inhabitants live in austere service towns around the great burial gates.|Graveyard or ruined shrine; narrow passages, stone cover and bleak open ground.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
 |The Third Refusal|Order of Saint Erigone|5/5|
-|Votive Watch 1|Eleusinian Synod|3/3|
+|The Locked Reliquary|Eleusinian Synod|3/3|
 
 
 
@@ -187,20 +185,20 @@ The Orks hold the principal foundry world; neighbouring human holdings remain un
 
 Setup: fixed home/prize profile recorded above.
 
-**Calydonian Labour Defence — Imperial Guard:** Marshal Oineus was a foundry defence officer before the Capital fell. His committees now bind surviving work gangs, PDF remnants and displaced families into a precarious common command. They will cooperate with Imperial relief, but fear requisitions that strip the remaining evacuation routes of protection. Their soldiers know the factories and maintain a few serviceable armoured vehicles amid much improvised equipment.
+**Calydonian Labour Defence — Imperial Guard:** Marshal Oineus was a foundry defence officer before the Capital fell. His committees now bind surviving work gangs, PDF remnants and displaced families into a precarious common command. They refuse outside command, fearing requisitions that strip the remaining evacuation routes of protection. Their soldiers know the factories and maintain a few serviceable armoured vehicles amid much improvised equipment.
 
 **Soulstorm selection:** Imperial Guard. Industrial PDF, worker levies and surviving armour; soot-grey fatigues and ochre identification bands.
 
-|Holding|Tier / type|Controller|Alignment|Defence|Logistics / infrastructure|Description|Map theme|
-|---|---|---|---|---|---|---|
-|Da Bellworks|Capital Planet|WAAAGH! Bell-Ringa|Ork|12/12|4 Supply + 4 Manpower; built-in shipyard|Looted cathedral foundries cover a soot-black plain. Bell-Ringa’s mobs have hung bells from gantries and welded checkered armour onto furnace halls; slag heaps and wrecked transporters form rough outer walls. The original human avenues survive beneath scrap barricades and assembly yards.|Ork-held industrial city; scrap piles, furnace buildings and broad vehicle approaches.|
-|Pleuron|Standard Planet|Calydonian Labour Defence|Imperium|4/4|2 Supply + 2 Manpower|Human factory districts survive behind improvised barricades along an elevated freight railway. Labour companies shift wounded workers between machine shops while the militia holds crossings over drainage cuts. Empty districts nearer the Ork holdings have become belts of burned-out machinery.|Industrial ruins; rail embankments, workshops and barricaded intersections.|
-|Olenos|Minor Planet|Calydonian Labour Defence|Imperium|2/2|1 Supply + 1 Manpower|Mining townships shelter beneath slag ridges on a wind-scoured plain. Refugees crowd the pithead compounds, and militia roadblocks cover the surviving routes to the evacuation yards. Conveyor towers and disused quarry terraces interrupt the otherwise open approaches.|Quarry or ash wasteland; stepped pits, mining buildings and evacuation pads.|
+|Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
+|---|---|---|---|---|---|
+|Da Bellworks|Capital Planet|WAAAGH! Bell-Ringa|12/12|4 Supply + 4 Manpower; built-in shipyard|Looted cathedral foundries cover a soot-black plain. Bell-Ringa’s mobs have hung bells from gantries and welded checkered armour onto furnace halls; slag heaps and wrecked transporters form rough outer walls. The original human avenues survive beneath scrap barricades and assembly yards.|Ork-held industrial city; scrap piles, furnace buildings and broad vehicle approaches.|
+|Pleuron|Standard Planet|Calydonian Labour Defence|4/4|2 Supply + 2 Manpower|Human factory districts survive behind improvised barricades along an elevated freight railway. Labour companies shift wounded workers between machine shops while the militia holds crossings over drainage cuts. Empty districts nearer the Ork holdings have become belts of burned-out machinery.|Industrial ruins; rail embankments, workshops and barricaded intersections.|
+|Olenos|Minor Planet|Calydonian Labour Defence|2/2|1 Supply + 1 Manpower|Mining townships shelter beneath slag ridges on a wind-scoured plain. Refugees crowd the pithead compounds, and militia roadblocks cover the surviving routes to the evacuation yards. Conveyor towers and disused quarry terraces interrupt the otherwise open approaches.|Quarry or ash wasteland; stepped pits, mining buildings and evacuation pads.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
 |Da Gate-Krasha|WAAAGH! Bell-Ringa|5/5|
-|Foundry Guard 1|Calydonian Labour Defence|3/3|
+|The Last Shift|Calydonian Labour Defence|3/3|
 
 
 
@@ -214,18 +212,18 @@ Embarkation yards, troop-marshalling settlements and stranded naval administrati
 
 Setup: d20 **5**; ownership authored separately.
 
-**Aulis Anchorage Command — Imperial Guard:** Commodore Thestor has preserved a fragment of the Imperial Navy’s embarkation administration rather than declaring a personal kingdom. His officers still inspect troop transports for assignments whose destinations may no longer exist. Armsmen, shore regiments and support personnel hold the landing fields; Thestor will recognise credible Imperial authority without treating an alliance as permission to surrender his ships.
+**Aulis Anchorage Command — Imperial Guard:** Commodore Thestor has preserved a fragment of the Imperial Navy’s embarkation administration rather than declaring a personal kingdom. His officers still inspect troop transports for assignments whose destinations may no longer exist. Armsmen, shore regiments and support personnel hold the landing fields; Thestor refuses incoming claims of authority and orders his ships to challenge any force attempting to seize the anchorages.
 
 **Soulstorm selection:** Imperial Guard. Naval shore troops and armsmen represented by Guard infantry and vehicles; navy blue and bone-white markings.
 
-|Holding|Tier / type|Controller|Alignment|Defence|Logistics / infrastructure|Description|Map theme|
-|---|---|---|---|---|---|---|
-|Schoenus|Minor Planet|Aulis Anchorage Command|Imperium|2/2|1 Supply + 1 Manpower|A coastal supply world of fuel farms, barracks and disused embarkation beaches. Concrete causeways cross tidal flats to cargo piers; inland storage compounds still carry destination markings for vanished crusades. Naval ground crews defend the pump stations and transport terminals.|Coastal military depot; low terrain, causeways and fuel-storage compounds.|
-|Hyria|Major Planet|Aulis Anchorage Command|Imperium|8/8|3 Supply + 3 Manpower|A heavily developed naval support world whose largest cities grew around surface landing fields. Repair sheds, training squares and Administratum offices lie beneath rows of grounded bulk lifters. The Command’s headquarters occupies an armoured traffic-control citadel overlooking the primary embarkation field.|Spaceport or military-industrial city; hangars, long landing strips and a hardened central complex.|
+|Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
+|---|---|---|---|---|---|
+|Schoenus|Minor Planet|Aulis Anchorage Command|2/2|1 Supply + 1 Manpower|A coastal supply world of fuel farms, barracks and disused embarkation beaches. Concrete causeways cross tidal flats to cargo piers; inland storage compounds still carry destination markings for vanished crusades. Naval ground crews defend the pump stations and transport terminals.|Coastal military depot; low terrain, causeways and fuel-storage compounds.|
+|Hyria|Major Planet|Aulis Anchorage Command|8/8|3 Supply + 3 Manpower|A heavily developed naval support world whose largest cities grew around surface landing fields. Repair sheds, training squares and Administratum offices lie beneath rows of grounded bulk lifters. The Command’s headquarters occupies an armoured traffic-control citadel overlooking the primary embarkation field.|Spaceport or military-industrial city; hangars, long landing strips and a hardened central complex.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Embarkation Guard 1|Aulis Anchorage Command|5/5|
+|The Unanswered Muster|Aulis Anchorage Command|5/5|
 
 
 
@@ -243,18 +241,18 @@ Setup: fixed home/prize profile recorded above.
 
 **Soulstorm selection:** Imperial Guard. Human household regiments and PDF armour; deep green uniforms, charcoal armour and copper heraldry. No Space Marines, psychic bonus or custom trait.
 
-|Holding|Tier / type|Controller|Alignment|Defence|Logistics / infrastructure|Description|Map theme|
-|---|---|---|---|---|---|---|
-|Perseia|Capital Planet|House Atreides|Imperium|12/12|4 Supply + 4 Manpower; built-in shipyard|The dynasty’s Capital is a storm-lashed ocean world with inhabited mountain islands. Black coastal bastions guard terraced cities and reservoir tunnels; the ruling household keeps its court above a harbour cut into volcanic rock. Sea approaches, cliff roads and sheltered dock basins determine where an invader can land.|Coastal fortress or wet mountain city; cliffs, bridges, stone bastions and harbour approaches.|
-|Dendra|Standard Planet|House Atreides|Imperium|4/4|2 Supply + 2 Manpower|A temperate estate world supplying the household regiments with food and recruits. Old orchards surround fortified manor towns, while oath-halls and vehicle barns stand along the military roads. The orderly estates conceal hard distinctions between protected tenants and hereditary labour obligations.|Wooded agricultural settlement; hedges, orchards, estate walls and open fields for armour.|
-|Lion Gate|Minor Station|House Atreides|Imperium|2/2|1 Supply + 1 Manpower|An orbital customs bastion built around a broad freight spine. Armoured inspection halls open into stacked cargo vaults; household armsmen guard the pressure doors leading to the fleet anchorage. Its carved heraldic beasts are devotional ornament, not xenos technology.|Station or ship-interior map; cargo halls, bulkhead chokepoints and docking galleries.|
+|Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
+|---|---|---|---|---|---|
+|Perseia|Capital Planet|House Atreides|12/12|4 Supply + 4 Manpower; built-in shipyard|The dynasty’s Capital is a storm-lashed ocean world with inhabited mountain islands. Black coastal bastions guard terraced cities and reservoir tunnels; the ruling household keeps its court above a harbour cut into volcanic rock. Sea approaches, cliff roads and sheltered dock basins determine where an invader can land.|Coastal fortress or wet mountain city; cliffs, bridges, stone bastions and harbour approaches.|
+|Dendra|Standard Planet|House Atreides|4/4|2 Supply + 2 Manpower|A temperate estate world supplying the household regiments with food and recruits. Old orchards surround fortified manor towns, while oath-halls and vehicle barns stand along the military roads. The orderly estates conceal hard distinctions between protected tenants and hereditary labour obligations.|Wooded agricultural settlement; hedges, orchards, estate walls and open fields for armour.|
+|Lion Gate|Minor Station|House Atreides|2/2|1 Supply + 1 Manpower|An orbital customs bastion built around a broad freight spine. Armoured inspection halls open into stacked cargo vaults; household armsmen guard the pressure doors leading to the fleet anchorage. Its carved heraldic beasts are devotional ornament, not xenos technology.|Station or ship-interior map; cargo halls, bulkhead chokepoints and docking galleries.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Dynastic Squadron 1|House Atreides|5/5|
-|Dynastic Squadron 2|House Atreides|5/5|
-|Dynastic Squadron 3|House Atreides|5/5|
-|Dynastic Squadron 4|House Atreides|3/3|
+|Pleisthenes’ Oath|House Atreides|5/5|
+|The Copper Hawk|House Atreides|5/5|
+|Perseia’s Breakwater|House Atreides|5/5|
+|The Dendra Covenant|House Atreides|3/3|
 
 
 
@@ -268,25 +266,25 @@ Astropathic facilities, signal stations and archives whose messages no longer ag
 
 Setup: d20 **17**; ownership authored separately.
 
-**Delphic Custodians — Imperial Guard:** Logothete Manto leads hereditary archive wardens and the security staff serving Delphi’s astropathic establishments. Contradictory orders have become dangerous currency: commanders seek whichever sealed transcript favours their claim. Manto keeps the custodial oath above these disputes and defends vaults against the Lotus privateers, while remaining willing to cooperate with recognised Imperial forces. Her soldiers are human guards, not Adeptus Custodes despite their title.
+**Delphic Custodians — Imperial Guard:** Logothete Manto leads hereditary archive wardens and the security staff serving Delphi’s astropathic establishments. Contradictory orders have become dangerous currency: commanders seek whichever sealed transcript favours their claim. Manto keeps the custodial oath above these disputes and defends vaults against the Lotus privateers, while refusing outside claims on her archives. Her soldiers are human guards, not Adeptus Custodes despite their title.
 
 **Soulstorm selection:** Imperial Guard. Archive security and communications-defence regiments; ash-blue cloth, brass seals and ivory unit plates.
 
-**Lotus Company — Imperial Guard:** Captain Eurylochos commands human deserters, smugglers and hired gun crews from Castalia’s abandoned waterworks. His company presents expired letters of marque when useful and burns the records when they are not. It raids Delphi’s lighter traffic and avoids a decisive engagement with Manto’s stronger patrols. The company remains Independent and hostile, with no established pact or Chaos allegiance.
+**Lotus Company — Imperial Guard:** Captain Eurylochos commands human deserters, smugglers and hired gun crews from Castalia’s abandoned waterworks. His company presents expired letters of marque when useful and burns the records when they are not. It raids Delphi’s lighter traffic and avoids a decisive engagement with Manto’s stronger patrols. The company has no Alignment and remains hostile, with no established pact or Chaos allegiance.
 
 **Soulstorm selection:** Imperial Guard. Human pirate ground troops using Guard representation; mismatched armour, faded violet patches and looted vehicles.
 
-|Holding|Tier / type|Controller|Alignment|Defence|Logistics / infrastructure|Description|Map theme|
-|---|---|---|---|---|---|---|
-|Castalia|Minor Planet|Lotus Company|Independent|2/2|1 Supply + 1 Manpower|Privateers occupy a dry basin city around an abandoned water-processing plant. Cargo stolen from three systems is stacked beneath patched landing gantries, while concealed paths thread the surrounding rock gullies. The old civic reservoirs now hide fuel, prisoners and contraband.|Arid spaceport or outlaw settlement; gullies, cargo cover and refinery ruins.|
-|Corycia|Minor Planet|Delphic Custodians|Imperium|2/2|1 Supply + 1 Manpower|A mountainous archive world with repositories cut into cavern faces. Monastic service towns and cable stations cling to ledges above mist-filled ravines. The Custodians’ rifle companies guard bridgeheads and the lift terminals serving sealed record vaults.|Mountain stronghold; ravines, bridges, tunnels or narrow rocky approaches.|
-|Pytho|Standard Planet|Delphic Custodians|Imperium|4/4|2 Supply + 2 Manpower|A civilised world of signal towers, scribal districts and crowded transmission courts. Ceremonial streets connect fortified archive buildings to the astropathic precinct; surrounding tenements house generations of clerks and guards. Rooftop antenna forests break the skyline above courtyards suitable for mustering infantry.|Dense Imperial city; plazas, administrative blocks and communications installations.|
-|Omphalos Relay|Minor Station|Delphic Custodians|Imperium|2/2|1 Supply + 1 Manpower|An orbital relay station whose rotating habitation rings surround a hardened signal core. Maintenance galleries, antenna-control rooms and shielded message vaults connect through closely watched transit hubs. Boarding forces must secure the junctions without assuming every sealed door is a defensive construction.|Station interior; compact junctions, machinery chambers and enclosed service corridors.|
+|Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
+|---|---|---|---|---|---|
+|Castalia|Minor Planet|Lotus Company|2/2|1 Supply + 1 Manpower|Privateers occupy a dry basin city around an abandoned water-processing plant. Cargo stolen from three systems is stacked beneath patched landing gantries, while concealed paths thread the surrounding rock gullies. The old civic reservoirs now hide fuel, prisoners and contraband.|Arid spaceport or outlaw settlement; gullies, cargo cover and refinery ruins.|
+|Corycia|Minor Planet|Delphic Custodians|2/2|1 Supply + 1 Manpower|A mountainous archive world with repositories cut into cavern faces. Monastic service towns and cable stations cling to ledges above mist-filled ravines. The Custodians’ rifle companies guard bridgeheads and the lift terminals serving sealed record vaults.|Mountain stronghold; ravines, bridges, tunnels or narrow rocky approaches.|
+|Pytho|Standard Planet|Delphic Custodians|4/4|2 Supply + 2 Manpower|A civilised world of signal towers, scribal districts and crowded transmission courts. Ceremonial streets connect fortified archive buildings to the astropathic precinct; surrounding tenements house generations of clerks and guards. Rooftop antenna forests break the skyline above courtyards suitable for mustering infantry.|Dense Imperial city; plazas, administrative blocks and communications installations.|
+|Omphalos Relay|Minor Station|Delphic Custodians|2/2|1 Supply + 1 Manpower|An orbital relay station whose rotating habitation rings surround a hardened signal core. Maintenance galleries, antenna-control rooms and shielded message vaults connect through closely watched transit hubs. Armoured bulkheads divide the station into compartments, with the main junctions controlling access to the signal core.|Station interior; compact junctions, machinery chambers and enclosed service corridors.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Signal Guard 1|Delphic Custodians|4/4|
-|Borrowed Warrant 1|Lotus Company|1/1|
+|The Sealed Testimony|Delphic Custodians|4/4|
+|The Convenient Pardon|Lotus Company|1/1|
 
 
 
@@ -300,20 +298,20 @@ Agricultural estates and hunting preserves once bound to the crusade provisionin
 
 Setup: d20 **13**; ownership authored separately.
 
-**Nemean Estate Compact — Imperial Guard:** Warden Adrastos chairs a compact of landowners whose privileges depend on keeping crusade provisioning quotas. Isolation has let them retain more of the harvest, but loss of convoy protection has made those stores vulnerable. Estate riflemen, rural PDF and armoured agricultural security protect the processing towns. The Compact accepts Imperial cooperation while bargaining hard over the cost of permanent protection.
+**Nemean Estate Compact — Imperial Guard:** Warden Adrastos chairs a compact of landowners whose privileges depend on keeping crusade provisioning quotas. Isolation has let them retain more of the harvest, but loss of convoy protection has made those stores vulnerable. Estate riflemen, rural PDF and armoured agricultural security protect the processing towns. The Compact refuses outside authority and guards its harvest against requisition by any would-be protector.
 
 **Soulstorm selection:** Imperial Guard. Estate militia and food-processing security with conventional armour; ochre cloth and dark green plates.
 
-|Holding|Tier / type|Controller|Alignment|Defence|Logistics / infrastructure|Description|Map theme|
-|---|---|---|---|---|---|---|
-|Cleonae|Minor Planet|Nemean Estate Compact|Imperium|2/2|1 Supply + 1 Manpower|Grain-producing plains are broken by silo towns and irrigation cuts. Estate militia drill beside threshing sheds, and old redoubts overlook the bridges used by tithe convoys. Harvest stubble leaves little shelter outside the settlements.|Open farmland; irrigation channels, scattered villages and grain depots.|
-|Phlius|Minor Planet|Nemean Estate Compact|Imperium|2/2|1 Supply + 1 Manpower|Hill country supports vineyards, livestock estates and fortified market towns. Stone retaining walls divide narrow tracks climbing toward hilltop manor compounds. The Compact’s patrols know the gullies through which smugglers bypass its requisition stations.|Hilly rural map; stone walls, winding approaches and isolated compounds.|
-|Apesas|Major Planet|Nemean Estate Compact|Imperium|8/8|3 Supply + 3 Manpower|A populous agricultural processing world dominated by canneries, grain elevators and immense livestock yards. Its governing estates maintain walled pleasure preserves beside crowded industrial towns. Rail hubs and food warehouses are more strategically valuable than the ceremonial hunting lodges.|Agri-industrial city; rail yards, factories and wooded estate margins.|
+|Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
+|---|---|---|---|---|---|
+|Cleonae|Minor Planet|Nemean Estate Compact|2/2|1 Supply + 1 Manpower|Grain-producing plains are broken by silo towns and irrigation cuts. Estate militia drill beside threshing sheds, and old redoubts overlook the bridges used by tithe convoys. Harvest stubble leaves little shelter outside the settlements.|Open farmland; irrigation channels, scattered villages and grain depots.|
+|Phlius|Minor Planet|Nemean Estate Compact|2/2|1 Supply + 1 Manpower|Hill country supports vineyards, livestock estates and fortified market towns. Stone retaining walls divide narrow tracks climbing toward hilltop manor compounds. The Compact’s patrols know the gullies through which smugglers bypass its requisition stations.|Hilly rural map; stone walls, winding approaches and isolated compounds.|
+|Apesas|Major Planet|Nemean Estate Compact|8/8|3 Supply + 3 Manpower|A populous agricultural processing world dominated by canneries, grain elevators and immense livestock yards. Its governing estates maintain walled pleasure preserves beside crowded industrial towns. Rail hubs and food warehouses are more strategically valuable than the ceremonial hunting lodges.|Agri-industrial city; rail yards, factories and wooded estate margins.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Harvest Watch 1|Nemean Estate Compact|5/5|
-|Harvest Watch 2|Nemean Estate Compact|1/1|
+|The Granary Key|Nemean Estate Compact|5/5|
+|The Winter Measure|Nemean Estate Compact|1/1|
 
 
 
@@ -327,24 +325,24 @@ Wet industrial worlds and chemical works separated by contaminated waterways.
 
 Setup: d20 **12**; ownership authored separately.
 
-**Lerna Reclamation Directorate — Imperial Guard:** Magister Polydoros administers the pumps, chemical plants and purification crews keeping Pontinos habitable. His title is a civic office: the Directorate is a human industrial government, not a Mechanicus forge cult. Plant security and PDF survivors contest the system with Rustjaw’s Orks, trying to preserve works they cannot afford to demolish. Cooperation with Imperial forces is welcome so long as it does not abandon the settled islands.
+**Lerna Reclamation Directorate — Imperial Guard:** Magister Polydoros administers the pumps, chemical plants and purification crews keeping Pontinos habitable. His title is a civic office: the Directorate is a human industrial government, not a Mechanicus forge cult. Plant security and PDF survivors contest the system with Rustjaw’s Orks, trying to preserve works they cannot afford to demolish. He rejects outside command and treats approaching forces as a threat to the settled islands.
 
 **Soulstorm selection:** Imperial Guard. Industrial PDF, engineers and chemical-plant security; slate armour with pale hazard markings.
 
-**Rustjaw Mob — Orks:** Boss Skrag Rustjaw earned his name biting through a seized pump-station gate after his breaching charges failed. His mob hoards pipes, tankers and stolen engines, turning Amymone’s chemical yards into ramshackle vehicle shops. Rustjaw recognises strength and shares the wider Ork allegiance with Bell-Ringa, but has neither surrendered his mob nor promised its ships. Their enemy in Lerna is the human Directorate.
+**Rustjaw Mob — Orks:** Boss Skrag Rustjaw earned his name biting through a seized pump-station gate after his breaching charges failed. His mob hoards pipes, tankers and stolen engines, turning Amymone’s chemical yards into ramshackle vehicle shops. Rustjaw regards Bell-Ringa as another rival boss: he has neither surrendered his mob nor promised its ships. Their enemy in Lerna is the human Directorate.
 
 **Soulstorm selection:** Orks. Boyz, Nobz and ramshackle vehicle mobs; rust-red plates, black checks and trophies made from industrial scrap.
 
-|Holding|Tier / type|Controller|Alignment|Defence|Logistics / infrastructure|Description|Map theme|
-|---|---|---|---|---|---|---|
-|Amymone|Standard Planet|Rustjaw Mob|Ork|4/4|2 Supply + 2 Manpower|The Rustjaw Mob has seized a chain of chemical plants amid reed-choked wetlands. Ork workshops occupy corroded tank farms; leaking pipes and welded scrap bridges connect islands of relatively firm ground. Polluted pools and collapsed process towers split the approaches into uneven lanes.|Toxic swamp or ruined refinery; water barriers, pipework and raised causeways.|
-|Pontinos|Standard Planet|Lerna Reclamation Directorate|Imperium|4/4|2 Supply + 2 Manpower|Habitable islands rise above a poisonous floodplain, each crowded with pump houses and worker settlements. Directorate troops guard levees linking reclamation plants to the principal town. Deliberate drainage keeps the roads usable, but the outer industrial zones are half submerged.|Flooded industrial terrain; levees, pumps, narrow crossings and low settlement blocks.|
-|Alcyonian Dock|Minor Station|Lerna Reclamation Directorate|Imperium|2/2|1 Supply + 1 Manpower|A compact orbital transfer station handling sealed chemical cargoes. Pressure-separated tank galleries surround a central customs hall and tug-control deck. Security troops favour the short approaches between freight lifts and docking collars.|Station cargo terminal; enclosed halls, machinery and short bulkhead chokepoints.|
+|Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
+|---|---|---|---|---|---|
+|Amymone|Standard Planet|Rustjaw Mob|4/4|2 Supply + 2 Manpower|The Rustjaw Mob has seized a chain of chemical plants amid reed-choked wetlands. Ork workshops occupy corroded tank farms; leaking pipes and welded scrap bridges connect islands of relatively firm ground. Polluted pools and collapsed process towers split the approaches into uneven lanes.|Toxic swamp or ruined refinery; water barriers, pipework and raised causeways.|
+|Pontinos|Standard Planet|Lerna Reclamation Directorate|4/4|2 Supply + 2 Manpower|Habitable islands rise above a poisonous floodplain, each crowded with pump houses and worker settlements. Directorate troops guard levees linking reclamation plants to the principal town. Deliberate drainage keeps the roads usable, but the outer industrial zones are half submerged.|Flooded industrial terrain; levees, pumps, narrow crossings and low settlement blocks.|
+|Alcyonian Dock|Minor Station|Lerna Reclamation Directorate|2/2|1 Supply + 1 Manpower|A compact orbital transfer station handling sealed chemical cargoes. Pressure-separated tank galleries surround a central customs hall and tug-control deck. Security troops favour the short approaches between freight lifts and docking collars.|Station cargo terminal; enclosed halls, machinery and short bulkhead chokepoints.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Sluice Patrol 1|Lerna Reclamation Directorate|3/3|
-|Da Pipe-Bita 1|Rustjaw Mob|2/2|
+|The Ninth Sluice|Lerna Reclamation Directorate|3/3|
+|Da Pressure Drop|Rustjaw Mob|2/2|
 
 
 
@@ -358,20 +356,20 @@ Resettlement worlds of displaced families, veterans and descendants of missing c
 
 Setup: d20 **17**; ownership authored separately.
 
-**Ithacan Assembly — Imperial Guard:** Speaker Eumaia speaks for settlement councils founded by stranded convoy families and demobilised soldiers. The Assembly’s officers have fought under too many absent patrons to confuse grand titles with reliable relief. Veteran-led militia protects the new towns and their reception station; the Assembly remains Imperial and can assist the Paladins without adopting the Order’s accusation of corruption. Its main fear is becoming another recruiting ground whose protectors never return.
+**Ithacan Assembly — Imperial Guard:** Speaker Eumaia speaks for settlement councils founded by stranded convoy families and demobilised soldiers. The Assembly’s officers have fought under too many absent patrons to confuse grand titles with reliable relief. Veteran-led militia protects the new towns and their reception station; the Assembly refuses to submit to the Paladins or the Order, despite the population’s continued Emperor worship. Its main fear is becoming another recruiting ground whose protectors never return.
 
 **Soulstorm selection:** Imperial Guard. Veteran-led colonial PDF and resettlement militia; weathered blue-grey and white settlement badges.
 
-|Holding|Tier / type|Controller|Alignment|Defence|Logistics / infrastructure|Description|Map theme|
-|---|---|---|---|---|---|---|
-|Neriton|Minor Planet|Ithacan Assembly|Imperium|2/2|1 Supply + 1 Manpower|Wooded highlands shelter settlements founded by retired soldiers and stranded crew families. Timber stockades have gradually acquired ferrocrete bunkers, while narrow roads climb through abandoned extraction sites. The veterans favour prepared village approaches over exposing their homes in open battle.|Forested hills; dispersed settlements, tracks and rough defensive works.|
-|Eumaia’s Rest|Minor Planet|Ithacan Assembly|Imperium|2/2|1 Supply + 1 Manpower|A quiet resettlement world of low houses, communal workshops and memorial gardens. The oldest transport hulls remain embedded in the original landing field and now serve as clinics and meeting halls. Assembly militia drill beyond irrigated fields rather than among the crowded homes.|Rural colony; low buildings, fields and a central landing-ground settlement.|
-|Same|Standard Planet|Ithacan Assembly|Imperium|4/4|2 Supply + 2 Manpower|The Assembly’s principal industrial and administrative world is a patchwork of rebuilt cities. Repair yards reuse machinery from scores of refugee vessels; elected delegates meet in a former naval victualling hall. Broad service roads connect workshops to dense residential quarters.|Rebuilt urban or industrial colony; workshops, wide roads and inhabited districts.|
-|Return Anchorage|Minor Station|Ithacan Assembly|Imperium|2/2|1 Supply + 1 Manpower|An orbital reception station expanded with salvaged habitation modules. Customs lines, quarantine wards and crowded arrival concourses flank the freight spine. Former naval personnel maintain a disciplined watch around the docking control rooms.|Orbital terminal or ship interior; concourses, cargo bays and narrow connecting passages.|
+|Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
+|---|---|---|---|---|---|
+|Neriton|Minor Planet|Ithacan Assembly|2/2|1 Supply + 1 Manpower|Wooded highlands shelter settlements founded by retired soldiers and stranded crew families. Timber stockades have gradually acquired ferrocrete bunkers, while narrow roads climb through abandoned extraction sites. The veterans favour prepared village approaches over exposing their homes in open battle.|Forested hills; dispersed settlements, tracks and rough defensive works.|
+|Eumaia’s Rest|Minor Planet|Ithacan Assembly|2/2|1 Supply + 1 Manpower|A quiet resettlement world of low houses, communal workshops and memorial gardens. The oldest transport hulls remain embedded in the original landing field and now serve as clinics and meeting halls. Assembly militia drill beyond irrigated fields rather than among the crowded homes.|Rural colony; low buildings, fields and a central landing-ground settlement.|
+|Same|Standard Planet|Ithacan Assembly|4/4|2 Supply + 2 Manpower|The Assembly’s principal industrial and administrative world is a patchwork of rebuilt cities. Repair yards reuse machinery from scores of refugee vessels; elected delegates meet in a former naval victualling hall. Broad service roads connect workshops to dense residential quarters.|Rebuilt urban or industrial colony; workshops, wide roads and inhabited districts.|
+|Return Anchorage|Minor Station|Ithacan Assembly|2/2|1 Supply + 1 Manpower|An orbital reception station expanded with salvaged habitation modules. Customs lines, quarantine wards and crowded arrival concourses flank the freight spine. Former naval personnel maintain a disciplined watch around the docking control rooms.|Orbital terminal or ship interior; concourses, cargo bays and narrow connecting passages.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Homeward Watch 1|Ithacan Assembly|5/5|
+|A Place at the Hearth|Ithacan Assembly|5/5|
 
 
 
@@ -379,31 +377,31 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Thessaly
 
-**Void Superiority:** Allied Thessalian commands 5 (First Command 3 + Remount Command 2) vs hostile fleets 0 — both commands share superiority.
+**Void Superiority:** Thessalian First Command 3 vs Thessalian Remount Command 2 — Thessalian First Command superior; hostile fleet present.
 
 Military estates, vehicle depots and open-country settlements divided between surviving commands.
 
 Setup: d20 **16**; ownership authored separately.
 
-**Thessalian First Command — Imperial Guard:** General Leontes possesses the senior surviving regimental commission and treats Pharsalos’s armoured depots as the centre of a future restored army. He resents Colonel Phereas keeping transport assets under a separate seal, yet neither command has opened hostilities against the other. Their Imperial fleets currently count together for Void Superiority. First Command favours disciplined infantry supported by well-maintained armour.
+**Thessalian First Command — Imperial Guard:** General Leontes possesses the senior surviving regimental commission and treats Pharsalos’s armoured depots as the centre of a future restored army. He resents Colonel Phereas keeping transport assets under a separate seal, yet neither command has opened hostilities against the other. Their separate fleets count as hostile for Void Superiority; neither command has recognised the other’s authority. First Command favours disciplined infantry supported by well-maintained armour.
 
 **Soulstorm selection:** Imperial Guard. Regular regimental infantry and armoured reserves; deep red insignia on sand-grey armour.
 
-**Thessalian Remount Command — Imperial Guard:** Colonel Phereas commands the officers, mechanics and rural levies responsible for keeping Thessaly’s scattered forces mobile. He argues that Leontes’s seniority does not cancel his independent transport commission. The dispute remains administrative at opening: both commands are allied, with no civil war or extra hostility exception invented. Remount troops defend the depots and coastal loading grounds that support their small fleet.
+**Thessalian Remount Command — Imperial Guard:** Colonel Phereas commands the officers, mechanics and rural levies responsible for keeping Thessaly’s scattered forces mobile. He argues that Leontes’s seniority does not cancel his independent transport commission. The rival commissions now reject each other’s authority and treat each other’s armed forces as hostile; no battle has yet been resolved. Remount troops defend the depots and coastal loading grounds that support their small fleet.
 
 **Soulstorm selection:** Imperial Guard. Remount-service infantry, mechanised escorts and depot guards; dun uniforms and dark blue vehicle panels.
 
-|Holding|Tier / type|Controller|Alignment|Defence|Logistics / infrastructure|Description|Map theme|
-|---|---|---|---|---|---|---|
-|Pherae|Minor Planet|Thessalian Remount Command|Imperium|2/2|1 Supply + 1 Manpower|Open steppe surrounds cavalry breeding estates and vehicle remount compounds. The Remount Command occupies low fortresses beside watering stations, maintaining both draft animals and battered military haulers. Trenches interrupt the roads between otherwise widely separated settlements.|Grassland or steppe; open manoeuvre space, low forts and scattered compounds.|
-|Pagasae|Minor Planet|Thessalian Remount Command|Imperium|2/2|1 Supply + 1 Manpower|A wind-beaten embarkation world with transport pens and coastal freight towns. Abandoned troop-loading ramps rise over tidal marshes; Colonel Phereas keeps his workshops dispersed to avoid losing them in one raid. Raised roads connect the depots.|Coastal depot; marshes, ramps, causeways and dispersed industrial sheds.|
-|Pelion|Minor Planet|Thessalian First Command|Imperium|2/2|1 Supply + 1 Manpower|Mountain training estates overlook deep wooded valleys. First Command recruits march between ridge camps, artillery observation posts and enclosed supply yards. Heavy vehicles follow a handful of engineered switchback roads through the passes.|Mountain or forest military map; ridges, restricted passes and camp clearings.|
-|Pharsalos|Standard Planet|Thessalian First Command|Imperium|4/4|2 Supply + 2 Manpower|A broad continental plain carries the First Command’s principal armoured depots. Regimental towns cluster around repair factories and concrete dispersal yards; earthworks cover the major road junctions. Its officers favour keeping approach fields clear enough for long-range fire.|Open military-industrial plain; tank yards, road junctions and long firing lanes.|
+|Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
+|---|---|---|---|---|---|
+|Pherae|Minor Planet|Thessalian Remount Command|2/2|1 Supply + 1 Manpower|Open steppe surrounds cavalry breeding estates and vehicle remount compounds. The Remount Command occupies low fortresses beside watering stations, maintaining both draft animals and battered military haulers. Trenches interrupt the roads between otherwise widely separated settlements.|Grassland or steppe; open manoeuvre space, low forts and scattered compounds.|
+|Pagasae|Minor Planet|Thessalian Remount Command|2/2|1 Supply + 1 Manpower|A wind-beaten embarkation world with transport pens and coastal freight towns. Abandoned troop-loading ramps rise over tidal marshes; Colonel Phereas keeps his workshops dispersed to avoid losing them in one raid. Raised roads connect the depots.|Coastal depot; marshes, ramps, causeways and dispersed industrial sheds.|
+|Pelion|Minor Planet|Thessalian First Command|2/2|1 Supply + 1 Manpower|Mountain training estates overlook deep wooded valleys. First Command recruits march between ridge camps, artillery observation posts and enclosed supply yards. Heavy vehicles follow a handful of engineered switchback roads through the passes.|Mountain or forest military map; ridges, restricted passes and camp clearings.|
+|Pharsalos|Standard Planet|Thessalian First Command|4/4|2 Supply + 2 Manpower|A broad continental plain carries the First Command’s principal armoured depots. Regimental towns cluster around repair factories and concrete dispersal yards; earthworks cover the major road junctions. Its officers favour keeping approach fields clear enough for long-range fire.|Open military-industrial plain; tank yards, road junctions and long firing lanes.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|First Commission 1|Thessalian First Command|3/3|
-|Remount Escort 1|Thessalian Remount Command|2/2|
+|The Senior Warrant|Thessalian First Command|3/3|
+|The Unbroken Trace|Thessalian Remount Command|2/2|
 
 
 
@@ -413,21 +411,21 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 Minor resources below are **derived defence values**, not spendable Major stockpiles. Ordinary fleet allocation is ceil(total maximum holding defence / 2); the prize uses the full sum. Partial final fleets keep their original setup maximum. No automatic rebuild follows a lost holding. No Minor has a faction trait.
 
-|Minor|Leader / Alignment|Holdings|Fleet allocation|Derived Supply / Manpower|
+|Minor|Leader|Holdings|Fleet allocation|Derived Supply / Manpower|
 |---|---|---|---|---|
-|Argive Muster Council|Strategos Damas / Imperium|Heraion, Prosymna|3 total: 3|15 / 15|
-|Eleusinian Synod|Prelate Lysandra / Imperium|Triptolemos, Daeira|3 total: 3|15 / 15|
-|Calydonian Labour Defence|Marshal Oineus / Imperium|Pleuron, Olenos|3 total: 3|15 / 15|
-|Aulis Anchorage Command|Commodore Thestor / Imperium|Schoenus, Hyria|5 total: 5|20 / 20|
-|House Atreides (prize)|Archon Pleisthenes Atreides / Imperium|Perseia, Dendra, Lion Gate|18 total: 5, 5, 5, 3|70 / 70|
-|Delphic Custodians|Logothete Manto / Imperium|Corycia, Pytho, Omphalos Relay|4 total: 4|20 / 20|
-|Lotus Company|Captain Eurylochos / Independent|Castalia|1 total: 1|5 / 5|
-|Nemean Estate Compact|Warden Adrastos / Imperium|Cleonae, Phlius, Apesas|6 total: 5, 1|25 / 25|
-|Lerna Reclamation Directorate|Magister Polydoros / Imperium|Pontinos, Alcyonian Dock|3 total: 3|15 / 15|
-|Rustjaw Mob|Boss Skrag Rustjaw / Ork|Amymone|2 total: 2|10 / 10|
-|Ithacan Assembly|Speaker Eumaia / Imperium|Neriton, Eumaia’s Rest, Same, Return Anchorage|5 total: 5|25 / 25|
-|Thessalian First Command|General Leontes / Imperium|Pelion, Pharsalos|3 total: 3|15 / 15|
-|Thessalian Remount Command|Colonel Phereas / Imperium|Pherae, Pagasae|2 total: 2|10 / 10|
+|Argive Muster Council|Strategos Damas|Heraion, Prosymna|3 total: 3|15 / 15|
+|Eleusinian Synod|Prelate Lysandra|Triptolemos, Daeira|3 total: 3|15 / 15|
+|Calydonian Labour Defence|Marshal Oineus|Pleuron, Olenos|3 total: 3|15 / 15|
+|Aulis Anchorage Command|Commodore Thestor|Schoenus, Hyria|5 total: 5|20 / 20|
+|House Atreides (prize)|Archon Pleisthenes Atreides|Perseia, Dendra, Lion Gate|18 total: 5, 5, 5, 3|70 / 70|
+|Delphic Custodians|Logothete Manto|Corycia, Pytho, Omphalos Relay|4 total: 4|20 / 20|
+|Lotus Company|Captain Eurylochos|Castalia|1 total: 1|5 / 5|
+|Nemean Estate Compact|Warden Adrastos|Cleonae, Phlius, Apesas|6 total: 5, 1|25 / 25|
+|Lerna Reclamation Directorate|Magister Polydoros|Pontinos, Alcyonian Dock|3 total: 3|15 / 15|
+|Rustjaw Mob|Boss Skrag Rustjaw|Amymone|2 total: 2|10 / 10|
+|Ithacan Assembly|Speaker Eumaia|Neriton, Eumaia’s Rest, Same, Return Anchorage|5 total: 5|25 / 25|
+|Thessalian First Command|General Leontes|Pelion, Pharsalos|3 total: 3|15 / 15|
+|Thessalian Remount Command|Colonel Phereas|Pherae, Pagasae|2 total: 2|10 / 10|
 
 ### Argive Muster Council
 
@@ -443,13 +441,13 @@ Prelate Lysandra governs through competing shrine chapters, granary trusts and h
 
 ### Calydonian Labour Defence
 
-Marshal Oineus was a foundry defence officer before the Capital fell. His committees now bind surviving work gangs, PDF remnants and displaced families into a precarious common command. They will cooperate with Imperial relief, but fear requisitions that strip the remaining evacuation routes of protection. Their soldiers know the factories and maintain a few serviceable armoured vehicles amid much improvised equipment.
+Marshal Oineus was a foundry defence officer before the Capital fell. His committees now bind surviving work gangs, PDF remnants and displaced families into a precarious common command. They refuse outside command, fearing requisitions that strip the remaining evacuation routes of protection. Their soldiers know the factories and maintain a few serviceable armoured vehicles amid much improvised equipment.
 
 **Soulstorm selection:** Imperial Guard. Industrial PDF, worker levies and surviving armour; soot-grey fatigues and ochre identification bands.
 
 ### Aulis Anchorage Command
 
-Commodore Thestor has preserved a fragment of the Imperial Navy’s embarkation administration rather than declaring a personal kingdom. His officers still inspect troop transports for assignments whose destinations may no longer exist. Armsmen, shore regiments and support personnel hold the landing fields; Thestor will recognise credible Imperial authority without treating an alliance as permission to surrender his ships.
+Commodore Thestor has preserved a fragment of the Imperial Navy’s embarkation administration rather than declaring a personal kingdom. His officers still inspect troop transports for assignments whose destinations may no longer exist. Armsmen, shore regiments and support personnel hold the landing fields; Thestor refuses incoming claims of authority and orders his ships to challenge any force attempting to seize the anchorages.
 
 **Soulstorm selection:** Imperial Guard. Naval shore troops and armsmen represented by Guard infantry and vehicles; navy blue and bone-white markings.
 
@@ -461,55 +459,55 @@ Archon Pleisthenes Atreides is the hereditary Imperial governor of Perseia and m
 
 ### Delphic Custodians
 
-Logothete Manto leads hereditary archive wardens and the security staff serving Delphi’s astropathic establishments. Contradictory orders have become dangerous currency: commanders seek whichever sealed transcript favours their claim. Manto keeps the custodial oath above these disputes and defends vaults against the Lotus privateers, while remaining willing to cooperate with recognised Imperial forces. Her soldiers are human guards, not Adeptus Custodes despite their title.
+Logothete Manto leads hereditary archive wardens and the security staff serving Delphi’s astropathic establishments. Contradictory orders have become dangerous currency: commanders seek whichever sealed transcript favours their claim. Manto keeps the custodial oath above these disputes and defends vaults against the Lotus privateers, while refusing outside claims on her archives. Her soldiers are human guards, not Adeptus Custodes despite their title.
 
 **Soulstorm selection:** Imperial Guard. Archive security and communications-defence regiments; ash-blue cloth, brass seals and ivory unit plates.
 
 ### Lotus Company
 
-Captain Eurylochos commands human deserters, smugglers and hired gun crews from Castalia’s abandoned waterworks. His company presents expired letters of marque when useful and burns the records when they are not. It raids Delphi’s lighter traffic and avoids a decisive engagement with Manto’s stronger patrols. The company remains Independent and hostile, with no established pact or Chaos allegiance.
+Captain Eurylochos commands human deserters, smugglers and hired gun crews from Castalia’s abandoned waterworks. His company presents expired letters of marque when useful and burns the records when they are not. It raids Delphi’s lighter traffic and avoids a decisive engagement with Manto’s stronger patrols. The company has no Alignment and remains hostile, with no established pact or Chaos allegiance.
 
 **Soulstorm selection:** Imperial Guard. Human pirate ground troops using Guard representation; mismatched armour, faded violet patches and looted vehicles.
 
 ### Nemean Estate Compact
 
-Warden Adrastos chairs a compact of landowners whose privileges depend on keeping crusade provisioning quotas. Isolation has let them retain more of the harvest, but loss of convoy protection has made those stores vulnerable. Estate riflemen, rural PDF and armoured agricultural security protect the processing towns. The Compact accepts Imperial cooperation while bargaining hard over the cost of permanent protection.
+Warden Adrastos chairs a compact of landowners whose privileges depend on keeping crusade provisioning quotas. Isolation has let them retain more of the harvest, but loss of convoy protection has made those stores vulnerable. Estate riflemen, rural PDF and armoured agricultural security protect the processing towns. The Compact refuses outside authority and guards its harvest against requisition by any would-be protector.
 
 **Soulstorm selection:** Imperial Guard. Estate militia and food-processing security with conventional armour; ochre cloth and dark green plates.
 
 ### Lerna Reclamation Directorate
 
-Magister Polydoros administers the pumps, chemical plants and purification crews keeping Pontinos habitable. His title is a civic office: the Directorate is a human industrial government, not a Mechanicus forge cult. Plant security and PDF survivors contest the system with Rustjaw’s Orks, trying to preserve works they cannot afford to demolish. Cooperation with Imperial forces is welcome so long as it does not abandon the settled islands.
+Magister Polydoros administers the pumps, chemical plants and purification crews keeping Pontinos habitable. His title is a civic office: the Directorate is a human industrial government, not a Mechanicus forge cult. Plant security and PDF survivors contest the system with Rustjaw’s Orks, trying to preserve works they cannot afford to demolish. He rejects outside command and treats approaching forces as a threat to the settled islands.
 
 **Soulstorm selection:** Imperial Guard. Industrial PDF, engineers and chemical-plant security; slate armour with pale hazard markings.
 
 ### Rustjaw Mob
 
-Boss Skrag Rustjaw earned his name biting through a seized pump-station gate after his breaching charges failed. His mob hoards pipes, tankers and stolen engines, turning Amymone’s chemical yards into ramshackle vehicle shops. Rustjaw recognises strength and shares the wider Ork allegiance with Bell-Ringa, but has neither surrendered his mob nor promised its ships. Their enemy in Lerna is the human Directorate.
+Boss Skrag Rustjaw earned his name biting through a seized pump-station gate after his breaching charges failed. His mob hoards pipes, tankers and stolen engines, turning Amymone’s chemical yards into ramshackle vehicle shops. Rustjaw regards Bell-Ringa as another rival boss: he has neither surrendered his mob nor promised its ships. Their enemy in Lerna is the human Directorate.
 
 **Soulstorm selection:** Orks. Boyz, Nobz and ramshackle vehicle mobs; rust-red plates, black checks and trophies made from industrial scrap.
 
 ### Ithacan Assembly
 
-Speaker Eumaia speaks for settlement councils founded by stranded convoy families and demobilised soldiers. The Assembly’s officers have fought under too many absent patrons to confuse grand titles with reliable relief. Veteran-led militia protects the new towns and their reception station; the Assembly remains Imperial and can assist the Paladins without adopting the Order’s accusation of corruption. Its main fear is becoming another recruiting ground whose protectors never return.
+Speaker Eumaia speaks for settlement councils founded by stranded convoy families and demobilised soldiers. The Assembly’s officers have fought under too many absent patrons to confuse grand titles with reliable relief. Veteran-led militia protects the new towns and their reception station; the Assembly refuses to submit to the Paladins or the Order, despite the population’s continued Emperor worship. Its main fear is becoming another recruiting ground whose protectors never return.
 
 **Soulstorm selection:** Imperial Guard. Veteran-led colonial PDF and resettlement militia; weathered blue-grey and white settlement badges.
 
 ### Thessalian First Command
 
-General Leontes possesses the senior surviving regimental commission and treats Pharsalos’s armoured depots as the centre of a future restored army. He resents Colonel Phereas keeping transport assets under a separate seal, yet neither command has opened hostilities against the other. Their Imperial fleets currently count together for Void Superiority. First Command favours disciplined infantry supported by well-maintained armour.
+General Leontes possesses the senior surviving regimental commission and treats Pharsalos’s armoured depots as the centre of a future restored army. He resents Colonel Phereas keeping transport assets under a separate seal, yet neither command has opened hostilities against the other. Their separate fleets count as hostile for Void Superiority; neither command has recognised the other’s authority. First Command favours disciplined infantry supported by well-maintained armour.
 
 **Soulstorm selection:** Imperial Guard. Regular regimental infantry and armoured reserves; deep red insignia on sand-grey armour.
 
 ### Thessalian Remount Command
 
-Colonel Phereas commands the officers, mechanics and rural levies responsible for keeping Thessaly’s scattered forces mobile. He argues that Leontes’s seniority does not cancel his independent transport commission. The dispute remains administrative at opening: both commands are allied, with no civil war or extra hostility exception invented. Remount troops defend the depots and coastal loading grounds that support their small fleet.
+Colonel Phereas commands the officers, mechanics and rural levies responsible for keeping Thessaly’s scattered forces mobile. He argues that Leontes’s seniority does not cancel his independent transport commission. The rival commissions now reject each other’s authority and treat each other’s armed forces as hostile; no battle has yet been resolved. Remount troops defend the depots and coastal loading grounds that support their small fleet.
 
 **Soulstorm selection:** Imperial Guard. Remount-service infantry, mechanised escorts and depot guards; dun uniforms and dark blue vehicle panels.
 
 ## Minor force representation
 
-All human Minor forces use Imperial Guard representation in Soulstorm: regulars, household troops, militia or naval landing parties according to their dossier. This is a declared proxy for their ground armies, not a change to Alignment. Rustjaw Mob uses Orks. Lotus Company uses Imperial Guard as human pirate troops while retaining Independent alignment. These choices add no traits or specialist construction bonuses. Exact unit rosters follow the battle setup, not the narrative titles.
+All human Minor forces use Imperial Guard representation in Soulstorm: regulars, household troops, militia or naval landing parties according to their dossier. This is a declared proxy for their ground armies, not an Alignment or diplomatic alliance. Rustjaw Mob uses Orks. Lotus Company uses Imperial Guard as human pirate troops without acquiring an Alignment. These choices add no traits or specialist construction bonuses. Exact unit rosters follow the battle setup, not the narrative titles.
 
 ## Construction register
 
@@ -559,13 +557,15 @@ For a new campaign, copy the templates, pin this edition and record local except
 
 ## Setup, resources and personnel
 
-New roster-building Subsector Major factions begin with 20 Supply and 20 Manpower, capped at 100 each. Both represent military resources, not the civilian economy. Use one agreed rules version and record exceptions before play. Major/Minor are campaign roles; Independent is an Alignment, never an automatic alliance. Fleets measure combat effectiveness, not a literal ship count.
+New roster-building Subsector Major factions begin with 20 Supply and 20 Manpower, capped at 100 each. Both represent military resources, not the civilian economy. Use one agreed rules version and record exceptions before play. Only Major Factions have Alignments. Minor Factions have none; force species does not confer alliance. Independent remains a Major Alignment, never an automatic alliance. Fleets measure combat effectiveness, not a literal ship count.
 
 Establish the Subsector's fixed raiding faction at setup; raiders cannot hold territory. Dessica's raiders remain Iron Warriors. Generate ordinary systems from the d20 table below: 2–4 combined planets/stations, averaging 3. Exceptional prize factions can hold Capitals.
 
 ### Faction Alignments
 
-Factions sharing a non-Independent Alignment are allied by default; an explicit campaign hostility exception overrides that default. For example, the Atreus Sisters and Iron Paladins remain hostile despite both being Imperium-aligned. Record such exceptions before play. Otherwise, different Alignments are hostile unless an applicable diplomatic agreement says otherwise. Independent is an Alignment, not a faction size: two Independent-aligned factions are not automatically allied. They need an explicit pact or recorded subordinate relationship. Major/Minor describes campaign role separately from Alignment.
+**7 October 2026 creator correction:** Alignments apply only to Major Factions. Majors sharing a non-Independent Alignment are allied by default unless an explicit hostility exception is recorded, such as the Atreus Sisters and Iron Paladins. Different Major Alignments are hostile without an applicable agreement; two Independent Majors are not automatically allied.
+
+Minor Factions have no Alignment and cannot enter diplomatic agreements or alliances. They are hostile to other factions; species, force representation and narrative worship do not make them allied. A Minor absorbed into a Major is no longer a separate aligned Minor. The Alignment column below applies only when the force is a Major; the manpower and representation guidance applies to both roles.
 
 | Faction | Alignment | Per Manpower | Ratio to Marine | vs Guard | Force Description |
 |---------|-----------|--------------|-----------------|----------|-------------------|
@@ -701,11 +701,11 @@ A faction may take ONE Social Action per turn. This represents diplomatic bandwi
 
 | Action | Effect |
 |--------|--------|
-| **Communiqué** | Send one message to another Faction. They may respond immediately but only once. Requires both Factions to have a presence in the same system (fleet or planet — any combination). Extended conversations require multiple cycles. |
+| **Communiqué** | Send one message to another Major Faction. They may respond immediately but only once. Requires both Factions to have a presence in the same system (fleet or planet — any combination). Extended conversations require multiple cycles. |
 
-#### Diplomacy with Non-Aligned Factions
+#### Diplomacy between Major Factions
 
-**Diplomacy with Non-Aligned Factions:** Temporary cease-fires or non-aggression pacts with factions outside your alignment are possible through the Communiqué action, but these are inherently unstable. Conflicting alignments will inevitably come to blows — such arrangements should be treated as temporary strategic convenience, not true alliance.
+**Diplomacy between Major Factions:** Temporary cease-fires or non-aggression pacts with other Major Factions outside your alignment are possible through the Communiqué action, but these are inherently unstable. Conflicting alignments will inevitably come to blows — such arrangements should be treated as temporary strategic convenience, not true alliance.
 
 ## Combat and capture
 
