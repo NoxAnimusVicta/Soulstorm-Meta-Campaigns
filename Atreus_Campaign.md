@@ -112,6 +112,24 @@ All three Majors are mutually hostile. Iron Paladins and Order of Saint Erigone 
 
 All 13 Minors are independent hostile powers; none can negotiate an agreement with a Major or another Minor. Their ships count as hostile to other factions, including other Minors. Rustjaw is not allied to Bell-Ringa; the Thessalian commands are not allied to each other. No territorial absorption, truce or communiqué has occurred.
 
+### Death is the only absolution
+
+The Order of Saint Erigone and the Iron Paladins begin the campaign with this exchange defining their hostility.
+
+**The Sisters:**
+
+> The traitor legions are damned. The sin is in the geneseed. You carry Perturabo's legacy in your blood. Death is the only absolution.
+
+**The Paladins:**
+
+> We agree. We ARE damned. We owe a debt that can never be repaid. But a corpse digs no trenches. A corpse holds no wall. We will serve until our bodies fail, and THEN you can have our deaths - but not one moment sooner, because wasted potential is its own sin against the Great Work.
+
+For Althaia, their answer confirms the sentence: continued service cannot cleanse what she believes is corruption carried in their blood. She seeks their destruction, not their departure from Atreus. Their years in the Eye of Terror deepen her conviction, even in the absence of outward taint.
+
+For the Paladins, damnation expresses the debt they accept and the penance they owe. They remain loyal servants of the Emperor. Every trench dug, wall held and Imperial life defended is work still owed; surrendering their lives while they can perform that work would itself betray their duty. Their acknowledgement gives the Order no right to decide when that service ends.
+
+The same language of guilt and absolution therefore sustains both sides of the conflict. The Order demands death now; the Paladins insist upon service for as long as they can give it.
+
 ## Fixed Third Party Raid
 
 **The Nail-Takers**, an Iron Warriors raiding detachment led by **Warsmith Kordax**, are the fixed raiders for Atreus. Their name refers to the metal spikes driven through armour plates stripped from captured engines and displayed as trophies. They seek war matériel and captives while local defenders are committed elsewhere. They are separate from House Atreides and every other holding faction.
