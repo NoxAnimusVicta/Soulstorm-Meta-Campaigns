@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 2 - WAAAGH! Bell-Ringa turn complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 3 - Phase 0 complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -25,14 +25,14 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 - Mycenae is the authored prize system: House Atreides owns a Capital planet, Standard planet and Minor station. This fixed profile implements the approved prize placement; it is not represented as a rolled ordinary profile.
 - The remaining six systems use the saved d20 rolls. Ownership, names and faction identities are authored independently of those rolls. No rerolls were made.
 - Campaign victory convention: the last surviving Major wins after rival Majors lose their final fallback. An agreed concession can end play earlier. Minor holdings do not become owned territory and need not be conquered to meet this condition. No forced 100-Cycle ending.
-- Cycle 1 Phase 0 is resolved once: no periodic construction effects or Endurance recovery; Logistics is not due; event check d6 = 3, so no event. Opening effects left starting resources, holdings and fleets unchanged. First Logistics is Cycle 3. All three Major turns are resolved below. Olenos has fallen to the Orks and Daeira to the Order. Cycle 1 is complete. Cycle 2 Phase 0 is resolved below; Warp Storm is active.
+- Cycle 1 Phase 0 is resolved once: no periodic construction effects or Endurance recovery; Logistics is not due; event check d6 = 3, so no event. Opening effects left starting resources, holdings and fleets unchanged. First Logistics is Cycle 3. All three Major turns are resolved below. Olenos has fallen to the Orks and Daeira to the Order. Cycle 1 is complete. Cycle 2 is complete; its Warp Storm has expired. Cycle 3 construction effects, Logistics and event check are resolved below; no event is active.
 - Calendar date within Imperium Nihilus is intentionally unspecified. Track elapsed Cycles; there is no invented conversion to years. Exact officer ages and any finite lifespan windows remain unassigned, so no automatic ageing deaths are scheduled.
 - Artwork establishes visual identity. Army Painter channel mapping remains unassigned until the actual faction interfaces are checked; this gives no mechanical benefit and does not delay campaign setup.
 
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|2|WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders|Warp Storm: opening fleet damage resolved; ordinary movement blocked|Order of Saint Erigone|None|3|
+|3|Phase 0 complete; awaiting Iron Paladins orders|No event (check: 3)|Iron Paladins|None|6|
 
 ## Major faction registers
 
@@ -50,8 +50,8 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Trait|The Iron Tithe — Efficient Logistics|
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
-|Resources|25 Supply / 19 Manpower; neither deficit active|
-|Fleet|Crusade Fleet Anabasis - Argos - 5/5; Fleet Action spent on Expand in Cycle 2|
+|Resources|28 Supply / 22 Manpower; neither deficit active|
+|Fleet|Crusade Fleet Anabasis - Argos - 5/5; action unused in Cycle 3|
 |Constructions|Built-in Capital Orbital Shipyard; The Forge of Iron (Major Forge Complex), Tiryns, progress 2/5 and Integrity 2/5; inactive|
 |Next Logistics if unchanged|4 Supply / 4 Manpower gross; 1/1 fleet upkeep; net +3 / +3|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
@@ -70,8 +70,8 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Trait|More Boyz Fer Da Fight — Martial Culture|
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
-|Resources|14 Supply / 18 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Calydon - 5/5; Fleet Action spent on Expand in Cycle 2|
+|Resources|18 Supply / 26 Manpower; neither deficit active|
+|Fleet|Da Gate-Krasha - Calydon - 5/5; action unused in Cycle 3|
 |Constructions|Built-in Capital Orbital Shipyard; unnamed Major Forge Complex on Da Bellworks, progress 2/5 and Integrity 2/5; inactive|
 |Next Logistics if unchanged|5 Supply / 9 Manpower gross; 1/1 fleet upkeep; net +4 / +8|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
@@ -90,9 +90,9 @@ The Order’s convents and shrine network preserve hospitals, military stores an
 |Trait|Offerings of the Faithful — War Economy|
 |Exact effect|+6 Supply each Logistics Cycle.|
 |Capital|Erigone — Eleusis — 12/12|
-|Resources|14 Supply / 22 Manpower; neither deficit active|
-|Fleet|The Third Refusal - Eleusis - 4/5; action unused in Cycle 2|
-|Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 1/5 and Integrity 1/5; inactive|
+|Resources|21 Supply / 25 Manpower; neither deficit active|
+|Fleet|The Third Refusal - Eleusis - 5/5; action unused in Cycle 3|
+|Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 2/5 and Integrity 2/5; inactive|
 |Next Logistics if unchanged|11 Supply / 5 Manpower gross; 1/1 fleet upkeep; net +10 / +4|
 |Briefing|[briefing_canoness_althaia.md](briefing_canoness_althaia.md)|
 
@@ -145,7 +145,7 @@ All holdings start at full defence; none is Defended. All fleets are unengaged w
 
 ### Argos
 
-**Void Superiority:** Iron Paladins 5 vs Argive Muster Council 2 - Iron Paladins superior; hostile fleet present.
+**Void Superiority:** Iron Paladins 5 vs Argive Muster Council 3 - Iron Paladins superior; hostile fleet present.
 
 Former assembly and administration centre; the Chapter controls Tiryns, not the entire system.
 
@@ -164,7 +164,7 @@ Setup: fixed home/prize profile recorded above.
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
 |Crusade Fleet Anabasis|Iron Paladins|5/5|
-|The Unspent Levy|Argive Muster Council|2/3|
+|The Unspent Levy|Argive Muster Council|3/3|
 
 
 
@@ -172,7 +172,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Eleusis
 
-**Void Superiority:** Order of Saint Erigone 4 vs hostile fleets 0 - Order of Saint Erigone superior; no hostile fleet present.
+**Void Superiority:** Order of Saint Erigone 5 vs hostile fleets 0 - Order of Saint Erigone superior; no hostile fleet present.
 
 The Order holds Erigone and has captured Daeira. Triptolemos remains under the independent Eleusinian Synod.
 
@@ -190,7 +190,7 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Third Refusal|Order of Saint Erigone|4/5|
+|The Third Refusal|Order of Saint Erigone|5/5|
 
 
 
@@ -226,7 +226,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Aulis
 
-**Void Superiority:** Aulis Anchorage Command 4 vs hostile fleets 0 - Aulis Anchorage Command superior; no hostile fleet present.
+**Void Superiority:** Aulis Anchorage Command 5 vs hostile fleets 0 - Aulis Anchorage Command superior; no hostile fleet present.
 
 Embarkation yards, troop-marshalling settlements and stranded naval administration.
 
@@ -243,7 +243,7 @@ Setup: d20 **5**; ownership authored separately.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Unanswered Muster|Aulis Anchorage Command|4/5|
+|The Unanswered Muster|Aulis Anchorage Command|5/5|
 
 
 
@@ -251,7 +251,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Mycenae
 
-**Void Superiority:** House Atreides 14 vs hostile fleets 0 - House Atreides superior; no hostile fleet present.
+**Void Superiority:** House Atreides 15 vs hostile fleets 0 - House Atreides superior; no hostile fleet present.
 
 The prize dynasty holds a fortified seat, military estates and an orbital anchorage.
 
@@ -269,7 +269,7 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Pleisthenes’ Oath|House Atreides|4/5|
+|Pleisthenes’ Oath|House Atreides|5/5|
 |The Copper Hawk|House Atreides|4/5|
 |Perseia’s Breakwater|House Atreides|4/5|
 |The Dendra Covenant|House Atreides|2/3|
@@ -280,7 +280,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Delphi
 
-**Void Superiority:** Delphic Custodians 3 vs hostile fleets 0 - Delphic Custodians superior; no hostile fleet present.
+**Void Superiority:** Delphic Custodians 4 vs hostile fleets 0 - Delphic Custodians superior; no hostile fleet present.
 
 Astropathic facilities, signal stations and archives whose messages no longer agree.
 
@@ -303,7 +303,7 @@ Setup: d20 **17**; ownership authored separately.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Sealed Testimony|Delphic Custodians|3/4|
+|The Sealed Testimony|Delphic Custodians|4/4|
 
 
 
@@ -312,7 +312,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Nemea
 
-**Void Superiority:** Nemean Estate Compact 4 vs hostile fleets 0 - Nemean Estate Compact superior; no hostile fleet present.
+**Void Superiority:** Nemean Estate Compact 5 vs hostile fleets 0 - Nemean Estate Compact superior; no hostile fleet present.
 
 Agricultural estates and hunting preserves once bound to the crusade provisioning system.
 
@@ -330,7 +330,7 @@ Setup: d20 **13**; ownership authored separately.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Granary Key|Nemean Estate Compact|4/5|
+|The Granary Key|Nemean Estate Compact|5/5|
 
 
 
@@ -339,7 +339,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Lerna
 
-**Void Superiority:** Lerna Reclamation Directorate 2 vs Rustjaw Mob 1 - Lerna Reclamation Directorate superior; hostile fleet present.
+**Void Superiority:** Lerna Reclamation Directorate 3 vs Rustjaw Mob 2 - Lerna Reclamation Directorate superior; hostile fleet present.
 
 Wet industrial worlds and chemical works separated by contaminated waterways.
 
@@ -361,8 +361,8 @@ Setup: d20 **12**; ownership authored separately.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Ninth Sluice|Lerna Reclamation Directorate|2/3|
-|Da Pressure Drop|Rustjaw Mob|1/2|
+|The Ninth Sluice|Lerna Reclamation Directorate|3/3|
+|Da Pressure Drop|Rustjaw Mob|2/2|
 
 
 
@@ -370,7 +370,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Ithaca
 
-**Void Superiority:** Ithacan Assembly 4 vs hostile fleets 0 - Ithacan Assembly superior; no hostile fleet present.
+**Void Superiority:** Ithacan Assembly 5 vs hostile fleets 0 - Ithacan Assembly superior; no hostile fleet present.
 
 Resettlement worlds of displaced families, veterans and descendants of missing crews.
 
@@ -389,7 +389,7 @@ Setup: d20 **17**; ownership authored separately.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|A Place at the Hearth|Ithacan Assembly|4/5|
+|A Place at the Hearth|Ithacan Assembly|5/5|
 
 
 
@@ -397,7 +397,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Thessaly
 
-**Void Superiority:** Thessalian First Command 2 vs Thessalian Remount Command 1 - Thessalian First Command superior; hostile fleet present.
+**Void Superiority:** Thessalian First Command 3 vs Thessalian Remount Command 2 - Thessalian First Command superior; hostile fleet present.
 
 Military estates, vehicle depots and open-country settlements divided between surviving commands.
 
@@ -420,8 +420,8 @@ Setup: d20 **16**; ownership authored separately.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Senior Warrant|Thessalian First Command|2/3|
-|The Unbroken Trace|Thessalian Remount Command|1/2|
+|The Senior Warrant|Thessalian First Command|3/3|
+|The Unbroken Trace|Thessalian Remount Command|2/2|
 
 
 
@@ -433,19 +433,20 @@ Minor resources below are **derived defence values**, not spendable Major stockp
 
 |Minor|Leader|Holdings|Fleet allocation|Derived Supply / Manpower|
 |---|---|---|---|---|
-|Argive Muster Council|Strategos Damas|Heraion, Prosymna|2/3 surviving|15 / 15|
+|Argive Muster Council|Strategos Damas|Heraion, Prosymna|3/3 surviving|15 / 15|
 |Eleusinian Synod|Prelate Lysandra|Triptolemos|None; fleet destroyed in Cycle 2 Warp Storm|10 / 10|
 |Calydonian Labour Defence|Marshal Oineus|Pleuron|None; fleet destroyed in Cycle 2 Warp Storm|10 / 10|
-|Aulis Anchorage Command|Commodore Thestor|Schoenus, Hyria|4/5 surviving|20 / 20|
-|House Atreides (prize)|Archon Pleisthenes Atreides|Perseia, Dendra, Lion Gate|4/5, 4/5, 4/5, 2/3 surviving|70 / 70|
-|Delphic Custodians|Logothete Manto|Corycia, Pytho, Omphalos Relay|3/4 surviving|20 / 20|
+|Aulis Anchorage Command|Commodore Thestor|Schoenus, Hyria|5/5 surviving|20 / 20|
+|House Atreides (prize)|Archon Pleisthenes Atreides|Perseia, Dendra, Lion Gate|5/5, 4/5, 4/5, 2/3 surviving|70 / 70|
+|Delphic Custodians|Logothete Manto|Corycia, Pytho, Omphalos Relay|4/4 surviving|20 / 20|
 |Lotus Company|Captain Eurylochos|Castalia|None; fleet destroyed in Cycle 2 Warp Storm|5 / 5|
-|Nemean Estate Compact|Warden Adrastos|Cleonae, Phlius, Apesas|4/5 surviving|25 / 25|
-|Lerna Reclamation Directorate|Magister Polydoros|Pontinos, Alcyonian Dock|2/3 surviving|15 / 15|
-|Rustjaw Mob|Boss Skrag Rustjaw|Amymone|1/2 surviving|10 / 10|
-|Ithacan Assembly|Speaker Eumaia|Neriton, Eumaia’s Rest, Same, Return Anchorage|4/5 surviving|25 / 25|
-|Thessalian First Command|General Leontes|Pelion, Pharsalos|2/3 surviving|15 / 15|
-|Thessalian Remount Command|Colonel Phereas|Pherae, Pagasae|1/2 surviving|10 / 10|
+|Nemean Estate Compact|Warden Adrastos|Cleonae, Phlius, Apesas|5/5 surviving|25 / 25|
+|Lerna Reclamation Directorate|Magister Polydoros|Pontinos, Alcyonian Dock|3/3 surviving|15 / 15|
+|Rustjaw Mob|Boss Skrag Rustjaw|Amymone|2/2 surviving|10 / 10|
+|Ithacan Assembly|Speaker Eumaia|Neriton, Eumaia’s Rest, Same, Return Anchorage|5/5 surviving|25 / 25|
+|Thessalian First Command|General Leontes|Pelion, Pharsalos|3/3 surviving|15 / 15|
+|Thessalian Remount Command|Colonel Phereas|Pherae, Pagasae|2/2 surviving|10 / 10|
+
 
 
 ### Argive Muster Council
@@ -540,7 +541,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Er
 |---|---|---|---|---|
 |Iron Paladins|The Forge of Iron|Major Forge Complex / Tiryns, Argos|Progress 2/5; Integrity 2/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Tiryns construction slot occupied.|
 |WAAAGH! Bell-Ringa|Forge Complex (name unassigned)|Major Forge Complex / Da Bellworks, Calydon|Progress 2/5; Integrity 2/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Da Bellworks construction slot occupied.|
-|Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 1/5; Integrity 1/5|Under construction; inactive. +7 Manpower per Logistics Cycle only when completed and at full Integrity. Erigone construction slot occupied.|
+|Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 2/5; Integrity 2/5|Under construction; inactive. +7 Manpower per Logistics Cycle only when completed and at full Integrity. Erigone construction slot occupied.|
 
 ## Setup provenance and decision ledger
 
@@ -585,6 +586,14 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 | 2 / WAAAGH! Bell-Ringa / Faction | Reinforce | None | +3 Supply: 16 to 19. | None |
 | 2 / WAAAGH! Bell-Ringa / Social | No action | None | No Communique. | None |
 | 2 / WAAAGH! Bell-Ringa / Construction | Continue Major Forge Complex on Da Bellworks | 5 Supply: 19 to 14 | Progress and Integrity 1/5 to 2/5; unfinished and inactive. Da Bellworks remains 12/12. Final resources 14 Supply / 18 Manpower. | Order of Saint Erigone orders |
+| 2 / Order of Saint Erigone / Fleet | Expand The Third Refusal at Erigone built-in shipyard | 1 Supply: 14 to 13; 1 Manpower: 22 to 21 | Restored 4/5 to 5/5; Fleet Action spent. No assault. | None |
+| 2 / Order of Saint Erigone / Faction | Reinforce | None | +3 Supply: 13 to 16. | None |
+| 2 / Order of Saint Erigone / Social | No action | None | No Communique. | None |
+| 2 / Order of Saint Erigone / Construction | Continue The Vigil of the Three Refusals on Erigone | 5 Supply: 16 to 11 | Progress and Integrity 1/5 to 2/5; inactive. Host remains 12/12. Ends turn at 11 Supply / 21 Manpower. | Cycle closure |
+| 2 / Cycle end | Unattacked Minor holding and unengaged Minor fleet recovery | None | Holdings already full. Each eligible Minor restores 1 total Strength; House Atreides restores Pleisthenes' Oath, first listed damaged fleet, only. Destroyed fleets remain destroyed. Full per-fleet recovery audit in Cycle 3 opening record. Warp Storm expires. | Cycle 3 Phase 0 |
+| 3 / Phase 0 / Constructions | Resolve eligible construction effects and Endurance | None | Three Major projects at 2/5 remain unfinished and inactive; no eligible effects or automatic progress. Fleet Actions reset. | Logistics |
+| 3 / Phase 0 / Logistics | Income followed by upkeep | Each Major pays 1 Supply and 1 Manpower fleet upkeep | Iron Paladins: 25/19 +4/4 -1/1 = 28/22. Bell-Ringa: 14/18 +5/9 -1/1 = 18/26. Order: 11/21 +11/5 -1/1 = 21/25. No construction income. Next Logistics Cycle 6. | Event check |
+| 3 / Phase 0 / Events | Event check d6 | None | Check 3: no event; no event-table roll. [Opening roll, Logistics and recovery audit](Atreus_Cycle_03_Phase_0_Rolls.json). | Iron Paladins orders |
 
 ## Cycle Records
 
@@ -597,6 +606,14 @@ In Calydon, Bell-Ringa's first assault broke the Calydonian Labour Defence's hol
 The Order advanced upon Daeira's funerary settlements and overcame the Synod's defenders. The Locked Reliquary survived the fall of the world with its fighting strength severely reduced, and the Synod retained Triptolemos. Back on Erigone, new musters gathered as work began on The Vigil of the Three Refusals. The Order had gained ground, but the academy's promised flow of trained replacements still lay ahead.
 
 No communiques passed between the Major powers. Each had committed to a new construction; two had taken their first hostile holdings. The next Cycle had yet to open.
+
+### Cycle 2 - Repairs beneath closed skies
+
+The storm battered the fleets of Atreus and closed their passages between systems. Ships already crippled by the fall of Olenos and Daeira were lost, along with two smaller Minor formations. Surviving local squadrons attended to what damage their remaining crews could repair.
+
+At Tiryns, the Iron Paladins restored Anabasis, replenished their military stores and continued work on The Forge of Iron. Bell-Ringa's Meks brought Da Gate-Krasha back to fighting condition while the foundries of Da Bellworks supplied the next stage of his forge. At Erigone, The Third Refusal returned to readiness and work continued on The Vigil of the Three Refusals.
+
+No new assault was launched. Olenos and Daeira remained damaged conquests, and the three new construction projects remained unfinished. When the storm passed, the Major fleets were ready again. The next scheduled deliveries reached their holdings, with provisions set aside to sustain the ships before another round of orders.
 
 ## Pinned rules appendix
 

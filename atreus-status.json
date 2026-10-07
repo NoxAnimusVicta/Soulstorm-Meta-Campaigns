@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
-  "cycle": 2,
-  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
-  "event": "Warp Storm",
-  "logistics_due": 3,
-  "next_faction": "Order of Saint Erigone",
+  "cycle": 3,
+  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "event": "No event",
+  "logistics_due": 6,
+  "next_faction": "Iron Paladins",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -19,11 +19,11 @@
   "rules_amendments": [
     "2026-10-07: only Major Factions have Alignments; Minors are independent hostile powers and cannot enter diplomatic agreements or alliances."
   ],
-  "notes": "Cycle 2 Warp Storm remains active; ordinary movement blocked. Bell-Ringa restored Da Gate-Krasha to 5/5, Reinforced and advanced the Da Bellworks Forge Complex to 2/5 progress and Integrity. Final resources 14 Supply / 18 Manpower. Fleet Action spent. Order of Saint Erigone next; Logistics due Cycle 3.",
+  "notes": "Cycle 3 open: Warp Storm expired; ordinary movement available. Minor recovery completed without resurrecting destroyed fleets. All Major fleets 5/5 with unused actions. Projects 2/5, inactive. Logistics settled: Iron Paladins 28/22, Bell-Ringa 18/26, Order 21/25 (Supply/Manpower). Event check 3: no event. Iron Paladins to act.",
   "phase_zero_resolved": true,
-  "event_check": 1,
-  "phase_zero_rolls": "Atreus_Cycle_02_Phase_0_Rolls.json",
+  "event_check": 3,
+  "phase_zero_rolls": "Atreus_Cycle_03_Phase_0_Rolls.json",
   "cycle_complete": false,
-  "event_roll": 1,
+  "event_roll": null,
   "rollover_policy": "After third Major turn: close Cycle, increment and reset actions; resolve constructions, scheduled Logistics, events; hand back to Iron Paladins."
 }
