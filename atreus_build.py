@@ -1,7 +1,7 @@
 """Build Atreus from its authoritative Markdown, without advancing play."""
 import re, html, json, hashlib, shutil, zipfile
 
-FILES=['Atreus_Campaign.md','atreus-status.json','Atreus_Setup_Rolls_2026-10-07.json','Atreus_Setup_Registers.json','briefing_first_paladin_menandros.md','briefing_warboss_bell_ringa.md','briefing_canoness_althaia.md','atreus_orontes.png','atreus_bell_ringa.png','atreus_althaia.png']
+FILES=['Unification_Roster_Reference_2026-10-07.md','Atreus_Campaign.md','atreus-status.json','Atreus_Setup_Rolls_2026-10-07.json','Atreus_Setup_Registers.json','briefing_first_paladin_menandros.md','briefing_warboss_bell_ringa.md','briefing_canoness_althaia.md','atreus_orontes.png','atreus_bell_ringa.png','atreus_althaia.png']
 
 def inline(text):
  text=html.escape(text)

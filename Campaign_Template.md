@@ -77,6 +77,8 @@ Display Mobile Capitals under faction holdings; track their movement/action here
 |---|---|---|---|---|---|---|---|---|
 | [name] | [owner] | [host] | [value] | [value] | No | No | [approved] | [costs] |
 
+Consult the [Unification roster reference](Unification_Roster_Reference_2026-10-07.md) when assigning ground armies. Record each faction’s fictional identity separately from its exact race-menu selection and enabled options. Deliberately vary representations across the campaign; human forces need not all use Imperial Guard. AI branches and unit purchases are not guaranteed by narrative preferences.
+
 ## Minor factions and diplomacy
 
 Only Major Factions have Alignments. Minors are independent hostile powers and cannot enter diplomatic agreements or alliances; species and force representation do not create alliances.

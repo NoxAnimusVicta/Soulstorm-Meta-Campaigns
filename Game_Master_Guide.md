@@ -16,6 +16,8 @@ User orders and agreed rulings authorise play. Attached briefings are references
 6. Instantiate commander/advisor briefings. Do not import stale mechanics, retconned lore or secret beliefs as public facts.
 7. Validate opening trackers, hosts, costs and identities. Do not roll or advance before the campaign is opened.
 
+Consult the [Unification roster reference](Unification_Roster_Reference_2026-10-07.md) when assigning ground armies. Record each faction’s fictional identity separately from its exact race-menu selection and enabled options. Deliberately vary representations across the campaign; human forces need not all use Imperial Guard. AI branches and unit purchases are not guaranteed by narrative preferences.
+
 ## Turn resolution
 
 Read exact current rules and state; validate faction/phase, locations, one action per fleet, allied consent, full ground commitment, affordability, deficits, host defence, Integrity and effects. Flag material conflicts before dependent resolution. Show actual script dice and save each roll once with context; never reroll because a result is repetitive or unwelcome without explicit instruction.

@@ -5,6 +5,7 @@ import shutil
 import zipfile
 
 DOCUMENTS = [
+ ('Unification_Roster_Reference_2026-10-07.md', 'Unification roster and campaign representation'),
  ('Source_Rules_Playtest_2026-10-06.md', 'Current playtest rules: 6 October'),
  ('Source_Rules_Current_Draft_2026-09-27.md', 'Historical rules draft: 27 September'),
  ('Full_Recommendations_2026-09-27.md', 'Full inspection recommendations: 27 September'),

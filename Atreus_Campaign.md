@@ -134,7 +134,7 @@ The same language of guilt and absolution therefore sustains both sides of the c
 
 **The Nail-Takers**, an Iron Warriors raiding detachment led by **Warsmith Kordax**, are the fixed raiders for Atreus. Their name refers to the metal spikes driven through armour plates stripped from captured engines and displayed as trophies. They seek war matériel and captives while local defenders are committed elsewhere. They are separate from House Atreides and every other holding faction.
 
-Use the **Iron Warriors** Soulstorm/Unification faction. The detachment has no campaign holdings, resource pool, fleet register, turns or territory-capture rights. The raid event is not active at setup. When it occurs, the raider fields one team in the first round, with each main side limited to three deployed teams while the raider remains; overflow waits in reserve. Once beaten, the raider is removed for that engagement. Subsequent main-side rounds use the agreed maximum four each and the survivor/reserve procedure. No extra trait or bespoke difficulty effect is granted.
+Use **Chaos Marines** to represent the Iron Warriors; switch to a dedicated Iron Warriors entry only if confirmed in the installed mod. The verified Unification roster does not list a standalone Iron Warriors race. The detachment has no campaign holdings, resource pool, fleet register, turns or territory-capture rights. The raid event is not active at setup. When it occurs, the raider fields one team in the first round, with each main side limited to three deployed teams while the raider remains; overflow waits in reserve. Once beaten, the raider is removed for that engagement. Subsequent main-side rounds use the agreed maximum four each and the survivor/reserve procedure. No extra trait or bespoke difficulty effect is granted.
 
 ## Systems and holdings
 
@@ -149,9 +149,9 @@ Former assembly and administration centre; the Chapter controls Tiryns, not the 
 
 Setup: fixed home/prize profile recorded above.
 
-**Argive Muster Council — Imperial Guard:** Strategos Damas commands hereditary PDF officers whose authority rests on muster warrants issued before the isolation. Their families kept Heraion’s depots intact while promised reinforcements failed to arrive; they regard the Paladins’ requisitions as another attempt to spend Argive lives elsewhere. Loyal to the Emperor, they oppose both Imperial Majors’ claims to local command. Damas fights from prepared barrack lines, with artillery and reserve armour drawn from mothballed stores.
+**Argive Muster Council — Death Korps of Krieg:** Strategos Damas commands hereditary PDF officers whose authority rests on muster warrants issued before the isolation. Their families kept Heraion’s depots intact while promised reinforcements failed to arrive; they regard the Paladins’ requisitions as another attempt to spend Argive lives elsewhere. Loyal to the Emperor, they oppose both Imperial Majors’ claims to local command. Damas fights from prepared barrack lines, with artillery and reserve armour drawn from mothballed stores.
 
-**Soulstorm selection:** Imperial Guard. Disciplined PDF infantry, artillery crews and depot armour; muted khaki with dark red unit markings.
+**Soulstorm selection:** Death Korps of Krieg. Local siege infantry, artillery crews and depot armour represented by Krieg; muted khaki with dark red unit markings. These are Argive troops, not a regiment imported from Dessica.
 
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
@@ -176,9 +176,9 @@ Pilgrimage system divided between the Order and independent shrine authorities.
 
 Setup: fixed home/prize profile recorded above.
 
-**Eleusinian Synod — Imperial Guard:** Prelate Lysandra governs through competing shrine chapters, granary trusts and hospital superiors. These institutions sheltered pilgrims during isolation and refuse to surrender their levies to Althaia’s convent. Their hostility to the Paladins and the Order is a jurisdictional dispute; they remain Emperor-worshipping humans, not a Chaos cult or a second Sisters army. Militia companies defend sacred precincts while household guards provide a more reliable reserve.
+**Eleusinian Synod — Witch Hunters:** Prelate Lysandra governs through competing shrine chapters, granary trusts and hospital superiors. These institutions sheltered pilgrims during isolation and refuse to surrender their levies to Althaia’s convent. Their hostility to the Paladins and the Order is a jurisdictional dispute; they remain Emperor-worshipping humans, not a Chaos cult or a second Sisters army. Militia companies defend sacred precincts while household guards provide a more reliable reserve.
 
-**Soulstorm selection:** Imperial Guard. Ecclesiastical human militia and shrine guards; cream cloth, red insignia and worn military equipment.
+**Soulstorm selection:** Witch Hunters. Shrine guards and religious enforcement troops represented by the Witch Hunters roster; cream cloth, red insignia and worn military equipment. They belong to the independent Synod, not Althaia’s Order.
 
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
@@ -203,9 +203,9 @@ The Orks hold the principal foundry world; neighbouring human holdings remain un
 
 Setup: fixed home/prize profile recorded above.
 
-**Calydonian Labour Defence — Imperial Guard:** Marshal Oineus was a foundry defence officer before the Capital fell. His committees now bind surviving work gangs, PDF remnants and displaced families into a precarious common command. They refuse outside command, fearing requisitions that strip the remaining evacuation routes of protection. Their soldiers know the factories and maintain a few serviceable armoured vehicles amid much improvised equipment.
+**Calydonian Labour Defence — Renegade Guard:** Marshal Oineus was a foundry defence officer before the Capital fell. His committees now bind surviving work gangs, PDF remnants and displaced families into a precarious common command. They refuse outside command, fearing requisitions that strip the remaining evacuation routes of protection. Their soldiers know the factories and maintain a few serviceable armoured vehicles amid much improvised equipment.
 
-**Soulstorm selection:** Imperial Guard. Industrial PDF, worker levies and surviving armour; soot-grey fatigues and ochre identification bands.
+**Soulstorm selection:** Renegade Guard. Industrial rebels, worker levies and salvaged armour; soot-grey fatigues and ochre identification bands. Accept either Vraksian or Tekarn AI branch; this proxy does not establish a Chaos Alignment or dictate every unit’s narrative identity.
 
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
@@ -255,9 +255,9 @@ The prize dynasty holds a fortified seat, military estates and an orbital anchor
 
 Setup: fixed home/prize profile recorded above.
 
-**House Atreides — Imperial Guard:** Archon Pleisthenes Atreides is the hereditary Imperial governor of Perseia and master of a household compact binding Dendra’s estates to Lion Gate. The dynasty won loyalty by sheltering refugee crews and honouring old service pensions; it also enforces hereditary labour dues and executes breaches of the tithe oath. Its sea-cliff court maintains sanctioned confessors, Administratum assessors and an exacting household officer corps. Pleisthenes claims an old emergency commission gives him responsibility for Mycenae and refuses the competing authority of both Imperial Majors. His disciplined regiments and substantial flotilla make that claim expensive to challenge. Green livery, a copper hawk clutching an Imperial aquila, maritime ancestry and cultivated public duty provide the deliberate Dune homage; the people, history and conflict are native to this campaign. There is no spice monopoly, prescient heir or imported Dune political system.
+**House Atreides — Vostroyan Firstborn:** Archon Pleisthenes Atreides is the hereditary Imperial governor of Perseia and master of a household compact binding Dendra’s estates to Lion Gate. The dynasty won loyalty by sheltering refugee crews and honouring old service pensions; it also enforces hereditary labour dues and executes breaches of the tithe oath. Its sea-cliff court maintains sanctioned confessors, Administratum assessors and an exacting household officer corps. Pleisthenes claims an old emergency commission gives him responsibility for Mycenae and refuses the competing authority of both Imperial Majors. His disciplined regiments and substantial flotilla make that claim expensive to challenge. Green livery, a copper hawk clutching an Imperial aquila, maritime ancestry and cultivated public duty provide the deliberate Dune homage; the people, history and conflict are native to this campaign. There is no spice monopoly, prescient heir or imported Dune political system.
 
-**Soulstorm selection:** Imperial Guard. Human household regiments and PDF armour; deep green uniforms, charcoal armour and copper heraldry. No Space Marines, psychic bonus or custom trait.
+**Soulstorm selection:** Vostroyan Firstborn. Hereditary household regiments with heirloom weapons and heavy infantry; deep green uniforms, charcoal armour and copper heraldry. Vostroyan models represent local troops rather than a visiting Vostroyan regiment.
 
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
@@ -284,13 +284,13 @@ Astropathic facilities, signal stations and archives whose messages no longer ag
 
 Setup: d20 **17**; ownership authored separately.
 
-**Delphic Custodians — Imperial Guard:** Logothete Manto leads hereditary archive wardens and the security staff serving Delphi’s astropathic establishments. Contradictory orders have become dangerous currency: commanders seek whichever sealed transcript favours their claim. Manto keeps the custodial oath above these disputes and defends vaults against the Lotus privateers, while refusing outside claims on her archives. Her soldiers are human guards, not Adeptus Custodes despite their title.
+**Delphic Custodians — Witch Hunters:** Logothete Manto leads hereditary archive wardens and the security staff serving Delphi’s astropathic establishments. Contradictory orders have become dangerous currency: commanders seek whichever sealed transcript favours their claim. Manto keeps the custodial oath above these disputes and defends vaults against the Lotus privateers, while refusing outside claims on her archives. Her soldiers are human guards, not Adeptus Custodes despite their title.
 
-**Soulstorm selection:** Imperial Guard. Archive security and communications-defence regiments; ash-blue cloth, brass seals and ivory unit plates.
+**Soulstorm selection:** Witch Hunters. Archive wardens and armoured enforcers represented by the Witch Hunters roster; ash-blue cloth, brass seals and ivory unit plates. Their title does not make them Adeptus Custodes.
 
-**Lotus Company — Imperial Guard:** Captain Eurylochos commands human deserters, smugglers and hired gun crews from Castalia’s abandoned waterworks. His company presents expired letters of marque when useful and burns the records when they are not. It raids Delphi’s lighter traffic and avoids a decisive engagement with Manto’s stronger patrols. The company has no Alignment and remains hostile, with no established pact or Chaos allegiance.
+**Lotus Company — Praetorian Guard:** Captain Eurylochos commands human deserters, smugglers, hired gun crews and Ork mercenaries from Castalia’s abandoned waterworks. His company presents expired letters of marque when useful and burns the records when they are not. It raids Delphi’s lighter traffic and avoids a decisive engagement with Manto’s stronger patrols. The company has no Alignment and remains hostile, with no established pact or Chaos allegiance.
 
-**Soulstorm selection:** Imperial Guard. Human pirate ground troops using Guard representation; mismatched armour, faded violet patches and looted vehicles.
+**Soulstorm selection:** Praetorian Guard. Human privateers, hired Ork muscle and looted vehicles using the Praetorian roster; mismatched armour and faded violet patches. Its mercenary options fit the company’s mixed crews.
 
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
@@ -316,9 +316,9 @@ Agricultural estates and hunting preserves once bound to the crusade provisionin
 
 Setup: d20 **13**; ownership authored separately.
 
-**Nemean Estate Compact — Imperial Guard:** Warden Adrastos chairs a compact of landowners whose privileges depend on keeping crusade provisioning quotas. Isolation has let them retain more of the harvest, but loss of convoy protection has made those stores vulnerable. Estate riflemen, rural PDF and armoured agricultural security protect the processing towns. The Compact refuses outside authority and guards its harvest against requisition by any would-be protector.
+**Nemean Estate Compact — Praetorian Guard:** Warden Adrastos chairs a compact of landowners whose privileges depend on keeping crusade provisioning quotas. Isolation has let them retain more of the harvest, but loss of convoy protection has made those stores vulnerable. Estate riflemen, rural PDF and armoured agricultural security protect the processing towns. The Compact refuses outside authority and guards its harvest against requisition by any would-be protector.
 
-**Soulstorm selection:** Imperial Guard. Estate militia and food-processing security with conventional armour; ochre cloth and dark green plates.
+**Soulstorm selection:** Praetorian Guard. Estate riflemen, regular household companies, mortar crews and hired auxiliaries; ochre cloth and dark green plates. The full Praetorian roster is permitted, including its mercenary options.
 
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
@@ -343,9 +343,9 @@ Wet industrial worlds and chemical works separated by contaminated waterways.
 
 Setup: d20 **12**; ownership authored separately.
 
-**Lerna Reclamation Directorate — Imperial Guard:** Magister Polydoros administers the pumps, chemical plants and purification crews keeping Pontinos habitable. His title is a civic office: the Directorate is a human industrial government, not a Mechanicus forge cult. Plant security and PDF survivors contest the system with Rustjaw’s Orks, trying to preserve works they cannot afford to demolish. He rejects outside command and treats approaching forces as a threat to the settled islands.
+**Lerna Reclamation Directorate — Adeptus Mechanicus Explorators:** Magister Polydoros administers the pumps, chemical plants and purification crews keeping Pontinos habitable. His civic administration depends on hereditary technical guilds, augmented engineers and machine-tending crews whose survival is tied to the reclamation works. Plant security and PDF survivors contest the system with Rustjaw’s Orks, trying to preserve works they cannot afford to demolish. He rejects outside command and treats approaching forces as a threat to the settled islands.
 
-**Soulstorm selection:** Imperial Guard. Industrial PDF, engineers and chemical-plant security; slate armour with pale hazard markings.
+**Soulstorm selection:** Adeptus Mechanicus Explorators. Augmented plant guards, engineer cadres and reclamation machines represented by Mechanicus Explorators; slate armour with pale hazard markings. The Directorate remains a locally governed technical power.
 
 **Rustjaw Mob — Orks:** Boss Skrag Rustjaw earned his name biting through a seized pump-station gate after his breaching charges failed. His mob hoards pipes, tankers and stolen engines, turning Amymone’s chemical yards into ramshackle vehicle shops. Rustjaw regards Bell-Ringa as another rival boss: he has neither surrendered his mob nor promised its ships. Their enemy in Lerna is the human Directorate.
 
@@ -401,13 +401,13 @@ Military estates, vehicle depots and open-country settlements divided between su
 
 Setup: d20 **16**; ownership authored separately.
 
-**Thessalian First Command — Imperial Guard:** General Leontes possesses the senior surviving regimental commission and treats Pharsalos’s armoured depots as the centre of a future restored army. He resents Colonel Phereas keeping transport assets under a separate seal, yet neither command has opened hostilities against the other. Their separate fleets count as hostile for Void Superiority; neither command has recognised the other’s authority. First Command favours disciplined infantry supported by well-maintained armour.
+**Thessalian First Command — Steel Legion:** General Leontes possesses the senior surviving regimental commission and treats Pharsalos’s armoured depots as the centre of a future restored army. He resents Colonel Phereas keeping transport assets under a separate seal, yet neither command has opened hostilities against the other. Their separate fleets count as hostile for Void Superiority; neither command has recognised the other’s authority. First Command favours disciplined infantry supported by well-maintained armour.
 
-**Soulstorm selection:** Imperial Guard. Regular regimental infantry and armoured reserves; deep red insignia on sand-grey armour.
+**Soulstorm selection:** Steel Legion. Mechanised infantry and armoured depot reserves; deep red insignia on sand-grey armour. Both Steel Legion branches are valid representations; an AI tank preference is not guaranteed.
 
-**Thessalian Remount Command — Imperial Guard:** Colonel Phereas commands the officers, mechanics and rural levies responsible for keeping Thessaly’s scattered forces mobile. He argues that Leontes’s seniority does not cancel his independent transport commission. The rival commissions now reject each other’s authority and treat each other’s armed forces as hostile; no battle has yet been resolved. Remount troops defend the depots and coastal loading grounds that support their small fleet.
+**Thessalian Remount Command — Vostroyan Firstborn:** Colonel Phereas commands the officers, mechanics and rural levies responsible for keeping Thessaly’s scattered forces mobile. He argues that Leontes’s seniority does not cancel his independent transport commission. The rival commissions now reject each other’s authority and treat each other’s armed forces as hostile; no battle has yet been resolved. Remount troops defend the depots and coastal loading grounds that support their small fleet.
 
-**Soulstorm selection:** Imperial Guard. Remount-service infantry, mechanised escorts and depot guards; dun uniforms and dark blue vehicle panels.
+**Soulstorm selection:** Vostroyan Firstborn. Remount-service troops, cavalry traditions and workshop escorts represented by Vostroyans; dun uniforms and dark blue vehicle panels.
 
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
@@ -449,19 +449,19 @@ Minor resources below are **derived defence values**, not spendable Major stockp
 
 Strategos Damas commands hereditary PDF officers whose authority rests on muster warrants issued before the isolation. Their families kept Heraion’s depots intact while promised reinforcements failed to arrive; they regard the Paladins’ requisitions as another attempt to spend Argive lives elsewhere. Loyal to the Emperor, they oppose both Imperial Majors’ claims to local command. Damas fights from prepared barrack lines, with artillery and reserve armour drawn from mothballed stores.
 
-**Soulstorm selection:** Imperial Guard. Disciplined PDF infantry, artillery crews and depot armour; muted khaki with dark red unit markings.
+**Soulstorm selection:** Death Korps of Krieg. Local siege infantry, artillery crews and depot armour represented by Krieg; muted khaki with dark red unit markings. These are Argive troops, not a regiment imported from Dessica.
 
 ### Eleusinian Synod
 
 Prelate Lysandra governs through competing shrine chapters, granary trusts and hospital superiors. These institutions sheltered pilgrims during isolation and refuse to surrender their levies to Althaia’s convent. Their hostility to the Paladins and the Order is a jurisdictional dispute; they remain Emperor-worshipping humans, not a Chaos cult or a second Sisters army. Militia companies defend sacred precincts while household guards provide a more reliable reserve.
 
-**Soulstorm selection:** Imperial Guard. Ecclesiastical human militia and shrine guards; cream cloth, red insignia and worn military equipment.
+**Soulstorm selection:** Witch Hunters. Shrine guards and religious enforcement troops represented by the Witch Hunters roster; cream cloth, red insignia and worn military equipment. They belong to the independent Synod, not Althaia’s Order.
 
 ### Calydonian Labour Defence
 
 Marshal Oineus was a foundry defence officer before the Capital fell. His committees now bind surviving work gangs, PDF remnants and displaced families into a precarious common command. They refuse outside command, fearing requisitions that strip the remaining evacuation routes of protection. Their soldiers know the factories and maintain a few serviceable armoured vehicles amid much improvised equipment.
 
-**Soulstorm selection:** Imperial Guard. Industrial PDF, worker levies and surviving armour; soot-grey fatigues and ochre identification bands.
+**Soulstorm selection:** Renegade Guard. Industrial rebels, worker levies and salvaged armour; soot-grey fatigues and ochre identification bands. Accept either Vraksian or Tekarn AI branch; this proxy does not establish a Chaos Alignment or dictate every unit’s narrative identity.
 
 ### Aulis Anchorage Command
 
@@ -473,31 +473,31 @@ Commodore Thestor has preserved a fragment of the Imperial Navy’s embarkation 
 
 Archon Pleisthenes Atreides is the hereditary Imperial governor of Perseia and master of a household compact binding Dendra’s estates to Lion Gate. The dynasty won loyalty by sheltering refugee crews and honouring old service pensions; it also enforces hereditary labour dues and executes breaches of the tithe oath. Its sea-cliff court maintains sanctioned confessors, Administratum assessors and an exacting household officer corps. Pleisthenes claims an old emergency commission gives him responsibility for Mycenae and refuses the competing authority of both Imperial Majors. His disciplined regiments and substantial flotilla make that claim expensive to challenge. Green livery, a copper hawk clutching an Imperial aquila, maritime ancestry and cultivated public duty provide the deliberate Dune homage; the people, history and conflict are native to this campaign. There is no spice monopoly, prescient heir or imported Dune political system.
 
-**Soulstorm selection:** Imperial Guard. Human household regiments and PDF armour; deep green uniforms, charcoal armour and copper heraldry. No Space Marines, psychic bonus or custom trait.
+**Soulstorm selection:** Vostroyan Firstborn. Hereditary household regiments with heirloom weapons and heavy infantry; deep green uniforms, charcoal armour and copper heraldry. Vostroyan models represent local troops rather than a visiting Vostroyan regiment.
 
 ### Delphic Custodians
 
 Logothete Manto leads hereditary archive wardens and the security staff serving Delphi’s astropathic establishments. Contradictory orders have become dangerous currency: commanders seek whichever sealed transcript favours their claim. Manto keeps the custodial oath above these disputes and defends vaults against the Lotus privateers, while refusing outside claims on her archives. Her soldiers are human guards, not Adeptus Custodes despite their title.
 
-**Soulstorm selection:** Imperial Guard. Archive security and communications-defence regiments; ash-blue cloth, brass seals and ivory unit plates.
+**Soulstorm selection:** Witch Hunters. Archive wardens and armoured enforcers represented by the Witch Hunters roster; ash-blue cloth, brass seals and ivory unit plates. Their title does not make them Adeptus Custodes.
 
 ### Lotus Company
 
-Captain Eurylochos commands human deserters, smugglers and hired gun crews from Castalia’s abandoned waterworks. His company presents expired letters of marque when useful and burns the records when they are not. It raids Delphi’s lighter traffic and avoids a decisive engagement with Manto’s stronger patrols. The company has no Alignment and remains hostile, with no established pact or Chaos allegiance.
+Captain Eurylochos commands human deserters, smugglers, hired gun crews and Ork mercenaries from Castalia’s abandoned waterworks. His company presents expired letters of marque when useful and burns the records when they are not. It raids Delphi’s lighter traffic and avoids a decisive engagement with Manto’s stronger patrols. The company has no Alignment and remains hostile, with no established pact or Chaos allegiance.
 
-**Soulstorm selection:** Imperial Guard. Human pirate ground troops using Guard representation; mismatched armour, faded violet patches and looted vehicles.
+**Soulstorm selection:** Praetorian Guard. Human privateers, hired Ork muscle and looted vehicles using the Praetorian roster; mismatched armour and faded violet patches. Its mercenary options fit the company’s mixed crews.
 
 ### Nemean Estate Compact
 
 Warden Adrastos chairs a compact of landowners whose privileges depend on keeping crusade provisioning quotas. Isolation has let them retain more of the harvest, but loss of convoy protection has made those stores vulnerable. Estate riflemen, rural PDF and armoured agricultural security protect the processing towns. The Compact refuses outside authority and guards its harvest against requisition by any would-be protector.
 
-**Soulstorm selection:** Imperial Guard. Estate militia and food-processing security with conventional armour; ochre cloth and dark green plates.
+**Soulstorm selection:** Praetorian Guard. Estate riflemen, regular household companies, mortar crews and hired auxiliaries; ochre cloth and dark green plates. The full Praetorian roster is permitted, including its mercenary options.
 
 ### Lerna Reclamation Directorate
 
-Magister Polydoros administers the pumps, chemical plants and purification crews keeping Pontinos habitable. His title is a civic office: the Directorate is a human industrial government, not a Mechanicus forge cult. Plant security and PDF survivors contest the system with Rustjaw’s Orks, trying to preserve works they cannot afford to demolish. He rejects outside command and treats approaching forces as a threat to the settled islands.
+Magister Polydoros administers the pumps, chemical plants and purification crews keeping Pontinos habitable. His civic administration depends on hereditary technical guilds, augmented engineers and machine-tending crews whose survival is tied to the reclamation works. Plant security and PDF survivors contest the system with Rustjaw’s Orks, trying to preserve works they cannot afford to demolish. He rejects outside command and treats approaching forces as a threat to the settled islands.
 
-**Soulstorm selection:** Imperial Guard. Industrial PDF, engineers and chemical-plant security; slate armour with pale hazard markings.
+**Soulstorm selection:** Adeptus Mechanicus Explorators. Augmented plant guards, engineer cadres and reclamation machines represented by Mechanicus Explorators; slate armour with pale hazard markings. The Directorate remains a locally governed technical power.
 
 ### Rustjaw Mob
 
@@ -515,17 +515,19 @@ Speaker Eumaia speaks for settlement councils founded by stranded convoy familie
 
 General Leontes possesses the senior surviving regimental commission and treats Pharsalos’s armoured depots as the centre of a future restored army. He resents Colonel Phereas keeping transport assets under a separate seal, yet neither command has opened hostilities against the other. Their separate fleets count as hostile for Void Superiority; neither command has recognised the other’s authority. First Command favours disciplined infantry supported by well-maintained armour.
 
-**Soulstorm selection:** Imperial Guard. Regular regimental infantry and armoured reserves; deep red insignia on sand-grey armour.
+**Soulstorm selection:** Steel Legion. Mechanised infantry and armoured depot reserves; deep red insignia on sand-grey armour. Both Steel Legion branches are valid representations; an AI tank preference is not guaranteed.
 
 ### Thessalian Remount Command
 
 Colonel Phereas commands the officers, mechanics and rural levies responsible for keeping Thessaly’s scattered forces mobile. He argues that Leontes’s seniority does not cancel his independent transport commission. The rival commissions now reject each other’s authority and treat each other’s armed forces as hostile; no battle has yet been resolved. Remount troops defend the depots and coastal loading grounds that support their small fleet.
 
-**Soulstorm selection:** Imperial Guard. Remount-service infantry, mechanised escorts and depot guards; dun uniforms and dark blue vehicle panels.
+**Soulstorm selection:** Vostroyan Firstborn. Remount-service troops, cavalry traditions and workshop escorts represented by Vostroyans; dun uniforms and dark blue vehicle panels.
 
 ## Minor force representation
 
-All human Minor forces use Imperial Guard representation in Soulstorm: regulars, household troops, militia or naval landing parties according to their dossier. This is a declared proxy for their ground armies, not an Alignment or diplomatic alliance. Rustjaw Mob uses Orks. Lotus Company uses Imperial Guard as human pirate troops without acquiring an Alignment. These choices add no traits or specialist construction bonuses. Exact unit rosters follow the battle setup, not the narrative titles.
+Each Minor has an explicit Soulstorm selection in its system dossier and faction register. The thirteen Minors now use nine roster selections, including Krieg, Witch Hunters, Renegade Guard, Vostroyans, Praetorians, Mechanicus Explorators and Steel Legion alongside Guard and Orks. These are full gameplay rosters representing local forces, not just uniform changes. All Minors remain independent hostile powers without Alignment or diplomatic agreements.
+
+Use the full selected roster; narrative preferences do not force an AI branch or prohibit its units. These selections add no meta-campaign traits or construction bonuses. Consult the [Unification roster reference](Unification_Roster_Reference_2026-10-07.md) for available armies, source links and optional-content distinctions. Record the actual installed menu selection and enabled options with each player battle.
 
 ## Construction register
 
