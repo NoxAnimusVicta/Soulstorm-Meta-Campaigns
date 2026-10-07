@@ -1,0 +1,29 @@
+{
+  "cycle": 1,
+  "battle": "The Third Refusal Ground Assault on Daeira",
+  "rolled_at_utc": "2026-10-07T10:17:33.278955+00:00",
+  "method": "Python secrets.randbelow(20)+1; one roll per side; no rerolls",
+  "attacker": {
+    "d20": 8,
+    "strength": 5,
+    "post_commitment_supply": 19,
+    "post_commitment_manpower": 19,
+    "modifier": 11,
+    "total": 19
+  },
+  "defender": {
+    "d20": 4,
+    "fleet": "The Locked Reliquary",
+    "strength": 3,
+    "derived_supply_before_commitment": 15,
+    "derived_manpower_before_commitment": 15,
+    "post_commitment_supply": 14,
+    "post_commitment_manpower": 14,
+    "modifier": 7,
+    "total": 11
+  },
+  "ties": "defender wins",
+  "winner": "Order of Saint Erigone",
+  "potential_damage": 2,
+  "attacker_manpower_return": 0
+}

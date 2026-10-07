@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 1,
-  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
+  "phase": "Cycle 1 complete; awaiting Cycle 2 Phase 0",
   "event": "No event",
   "logistics_due": 3,
-  "next_faction": "Order of Saint Erigone",
+  "next_faction": "Iron Paladins",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -19,8 +19,10 @@
   "rules_amendments": [
     "2026-10-07: only Major Factions have Alignments; Minors are independent hostile powers and cannot enter diplomatic agreements or alliances."
   ],
-  "notes": "Bell-Ringa captured Olenos at 1/2; AI assault 23 to 17. Da Gate-Krasha 5/5, action spent; The Last Shift 1/3 after Planet Fall. Orks 17 Supply / 19 Manpower after Reinforce and starting a Major Forge Complex on Da Bellworks at 1/5 progress and Integrity. Order of Saint Erigone next.",
+  "notes": "Cycle 1 closed. Order captured Daeira at 1/2, winning 19 to 11; The Locked Reliquary reduced to 1/3. Order ends at 14 Supply / 22 Manpower after Muster and starting The Vigil of the Three Refusals at 1/5 progress and Integrity. Minor recovery check made no changes. Cycle 2 opening not yet conducted; Iron Paladins act afterward.",
   "phase_zero_resolved": true,
   "event_check": 3,
-  "phase_zero_rolls": "Atreus_Cycle_01_Phase_0_Rolls.json"
+  "phase_zero_rolls": "Atreus_Cycle_01_Phase_0_Rolls.json",
+  "cycle_complete": true,
+  "next_cycle": 2
 }
