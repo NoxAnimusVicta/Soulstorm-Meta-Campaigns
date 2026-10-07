@@ -10,7 +10,7 @@
       "capital": "Tiryns",
       "fleet": "Crusade Fleet Anabasis",
       "trait": "The Iron Tithe — Efficient Logistics",
-      "effect": "Reinforce gives 8 Supply; Muster gives 8 Manpower. Total yield, one chosen Faction Action.",
+      "effect": "Reinforce grants 8 Supply; Muster grants 8 Manpower.",
       "income": [
         4,
         4
@@ -45,8 +45,8 @@
       "system": "Eleusis",
       "capital": "Erigone",
       "fleet": "The Third Refusal",
-      "trait": "The Consecrated Tithe — War Economy",
-      "effect": "+6 Supply each Logistics Cycle; no Manpower bonus.",
+      "trait": "Offerings of the Faithful — War Economy",
+      "effect": "+6 Supply each Logistics Cycle.",
       "income": [
         10,
         4

@@ -46,7 +46,7 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Alignment|Imperium|
 |Commander / deputy|Warsmith Acastor Orontes / First Paladin Menandros|
 |Trait|The Iron Tithe — Efficient Logistics|
-|Exact effect|Reinforce gives 8 Supply; Muster gives 8 Manpower. Total yield, one chosen Faction Action.|
+|Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
 |Resources|20 Supply / 20 Manpower; neither deficit active|
 |Fleet|Crusade Fleet Anabasis — Argos — 5/5; action unused|
@@ -85,8 +85,8 @@ The Order’s convents and shrine network preserve hospitals, military stores an
 |Controller|AI faction instance|
 |Alignment|Imperium|
 |Commander / deputy|Canoness Althaia / Palatine Ianthe|
-|Trait|The Consecrated Tithe — War Economy|
-|Exact effect|+6 Supply each Logistics Cycle; no Manpower bonus.|
+|Trait|Offerings of the Faithful — War Economy|
+|Exact effect|+6 Supply each Logistics Cycle.|
 |Capital|Erigone — Eleusis — 12/12|
 |Resources|20 Supply / 20 Manpower; neither deficit active|
 |Fleet|The Third Refusal — Eleusis — 5/5; action unused|

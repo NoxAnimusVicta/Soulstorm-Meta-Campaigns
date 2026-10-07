@@ -148,13 +148,13 @@ Your military character includes veteran Sisters, armour and concentrated fire, 
 | Commander | Canoness Althaia |
 | Second-in-command | Palatine Ianthe |
 | Capital | **Erigone, Eleusis system**; shrine Capital, 12/12 defence at setup |
-| Faction Trait | **The Consecrated Tithe** — narrative name for **War Economy** |
+| Faction Trait | **Offerings of the Faithful** — narrative name for **War Economy** |
 | Starting Resources | 20 Supply / 20 Manpower at setup |
 | Starting Fleet | **The Third Refusal**, 5/5 in Eleusis; action unused |
 
-**Adopted trait mechanic: +6 Supply each Logistics Cycle.** This is additional trait income at the scheduled Logistics step. It does not also grant Manpower, increase Reinforce or provide income every Cycle. The adopted version is the 6 October 2026 playtest edition pinned below.
+**Trait effect: +6 Supply each Logistics Cycle.**
 
-The Consecrated Tithe represents military stores collected, maintained and directed into the Order's campaigns. It does not represent all civilian wealth or give you unlimited authority over other factions' populations.
+Offerings of the Faithful represents arms, ammunition and military stores donated by the Order's congregations, maintained by its attendants and directed into its campaigns.
 
 **Advantages:** regular military supplies support repeated operations and investment. **Vulnerabilities:** trained personnel still need replenishment; material abundance cannot replace exhausted formations. Fighting both enemies at once can dissipate your strength.
 
