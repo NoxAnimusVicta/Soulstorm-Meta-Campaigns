@@ -1,0 +1,7 @@
+{
+  "cycle": 1,
+  "phase": 0,
+  "rolled_at": "2026-10-07T18:28:01.182354+11:00",
+  "method": "Python secrets.randbelow(6)+1",
+  "event_check": 3
+}

@@ -13,7 +13,7 @@ def load_atreus(root,render):
  md=(root/'Atreus_Campaign.md').read_text(encoding='utf-8')
  status=json.loads((root/'atreus-status.json').read_text(encoding='utf-8'))
  status['nextFaction']=status['next_faction']
- status['notes']='Setup complete. Phase 0 has not opened: resolve construction effects, Logistics if due, then events. No actions or battles have occurred.'
+ status.setdefault('notes','Awaiting campaign orders.')
  systems=[]
  for name,body in re.findall(r'^### (.+)\n([\s\S]*?)(?=^### |\Z)',section(md,'Systems and holdings'),re.M):
   ts=tables(body);holdings=ts[0];fleets=ts[1]

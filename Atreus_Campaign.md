@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 1 unopened**
+Created 7 October 2026 · Subsector playtest · **Cycle 1 — Phase 0 complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -23,14 +23,14 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 - Mycenae is the authored prize system: House Atreides owns a Capital planet, Standard planet and Minor station. This fixed profile implements the approved prize placement; it is not represented as a rolled ordinary profile.
 - The remaining six systems use the saved d20 rolls. Ownership, names and faction identities are authored independently of those rolls. No rerolls were made.
 - Campaign victory convention: the last surviving Major wins after rival Majors lose their final fallback. An agreed concession can end play earlier. Minor holdings do not become owned territory and need not be conquered to meet this condition. No forced 100-Cycle ending.
-- No opening event, income, recovery, action or battle has occurred. On opening, resolve Phase 0 once: construction effects, Logistics if due, then the event check. First Logistics is Cycle 3.
+- Cycle 1 Phase 0 is resolved once: no periodic construction effects or Endurance recovery; Logistics is not due; event check d6 = 3, so no event. Starting resources, holdings and fleets are unchanged. First Logistics is Cycle 3. No faction actions or battles have occurred.
 - Calendar date within Imperium Nihilus is intentionally unspecified. Track elapsed Cycles; there is no invented conversion to years. Exact officer ages and any finite lifespan windows remain unassigned, so no automatic ageing deaths are scheduled.
 - Artwork establishes visual identity. Army Painter channel mapping remains unassigned until the actual faction interfaces are checked; this gives no mechanical benefit and does not delay campaign setup.
 
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|1|Setup complete; awaiting opening Phase 0|Not rolled|Iron Paladins|None|3|
+|1|Phase 0 complete; awaiting Iron Paladins orders|No event (check: 3)|Iron Paladins|None|3|
 
 ## Major faction registers
 
@@ -556,11 +556,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 
 | Cycle / phase | Orders | Costs | Outcome | Pending |
 |---|---|---|---|---|
-| 1 / unopened | None | None | Starting registers established | Open Phase 0, then request Iron Paladins orders |
+| 1 / Phase 0 | Construction effects → Logistics check → event check | None | No eligible periodic effects; Logistics not due; d6 = 3, no event. All starting values unchanged. [Saved roll](Atreus_Cycle_01_Phase_0_Rolls.json). | Iron Paladins orders |
 
 ## Cycle Records
 
-No Cycle has been played. The opening situation is background, not a resolved-turn narrative.
+Cycle 1 has opened. No faction turn or battle has yet resolved; the full Cycle narrative will follow its conclusion.
 
 ## Pinned rules appendix
 

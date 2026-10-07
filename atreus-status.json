@@ -1,8 +1,8 @@
 {
   "campaign": "Atreus",
   "cycle": 1,
-  "phase": "Setup complete; awaiting opening Phase 0",
-  "event": null,
+  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "event": "No event",
   "logistics_due": 3,
   "next_faction": "Iron Paladins",
   "turn_order": [
@@ -10,7 +10,7 @@
     "WAAAGH! Bell-Ringa",
     "Order of Saint Erigone"
   ],
-  "opened": false,
+  "opened": true,
   "updated": "2026-10-07",
   "rules_file": "Source_Rules_Playtest_2026-10-06.md",
   "rules_commit": "113ec69a6163d36fb2164b9b624d14d8889986e5",
@@ -18,5 +18,9 @@
   "pending_battles": [],
   "rules_amendments": [
     "2026-10-07: only Major Factions have Alignments; Minors are independent hostile powers and cannot enter diplomatic agreements or alliances."
-  ]
+  ],
+  "notes": "Cycle 1 opening complete: no periodic construction effects or Endurance recovery; Logistics not due. Event check d6: 3 — no event. All starting resources and fleet strengths unchanged.",
+  "phase_zero_resolved": true,
+  "event_check": 3,
+  "phase_zero_rolls": "Atreus_Cycle_01_Phase_0_Rolls.json"
 }
