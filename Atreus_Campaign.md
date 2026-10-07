@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 3 - Prosymna assault awaiting player result**
+Created 7 October 2026 · Subsector playtest · **Cycle 3 - Iron Paladins turn complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|3|Fleet phase; awaiting player battle result|No event (check: 3)|Iron Paladins|Prosymna Ground Assault|6|
+|3|Iron Paladins turn complete|No event (check: 3)|WAAAGH! Bell-Ringa|None|6|
 
 ## Major faction registers
 
@@ -50,10 +50,10 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Trait|The Iron Tithe — Efficient Logistics|
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
-|Resources|27 Supply / 21 Manpower; neither deficit active; Prosymna assault cost and commitment deducted|
-|Fleet|Crusade Fleet Anabasis - Argos - 5/5; action spent on pending Prosymna Ground Assault|
-|Constructions|Built-in Capital Orbital Shipyard; The Forge of Iron (Major Forge Complex), Tiryns, progress 2/5 and Integrity 2/5; inactive|
-|Next Logistics if unchanged|4 Supply / 4 Manpower gross; 1/1 fleet upkeep; net +3 / +3|
+|Resources|30 Supply / 21 Manpower; neither deficit active|
+|Fleet|Crusade Fleet Anabasis - Argos - 5/5; action spent on victorious Prosymna Ground Assault|
+|Constructions|Built-in Capital Orbital Shipyard; The Forge of Iron (Major Forge Complex), Tiryns, progress 3/5 and Integrity 3/5; inactive|
+|Next Logistics if unchanged|5 Supply / 5 Manpower gross; 1/1 fleet upkeep; net +4 / +4|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
 
 ### 2. WAAAGH! Bell-Ringa
@@ -145,7 +145,7 @@ All holdings start at full defence; none is Defended. All fleets are unengaged w
 
 ### Argos
 
-**Void Superiority:** Iron Paladins 5 vs Argive Muster Council 3 - Iron Paladins superior; hostile fleet present.
+**Void Superiority:** Iron Paladins 5 vs Argive Muster Council 1 - Iron Paladins superior; hostile fleet present.
 
 Former assembly and administration centre; the Chapter controls Tiryns, not the entire system.
 
@@ -159,12 +159,12 @@ Setup: fixed home/prize profile recorded above.
 |---|---|---|---|---|---|
 |Tiryns|Capital Planet|Iron Paladins|12/12|4 Supply + 4 Manpower; built-in shipyard|A fortress-monastery crowns a basalt escarpment above ironworks and densely inhabited workers’ terraces. Siege roads climb through successive gate courts; outside them, ore conveyors cross ash fields scarred by old artillery pits. The Paladins have restored the battered gatehouses and reopened the ironworks below the monastery.|Fortress or industrial city; steep approaches, broad breach lanes and enclosed courtyards.|
 |Heraion|Standard Planet|Argive Muster Council|4/4|2 Supply + 2 Manpower|A military-administrative world built around immense muster squares and munition warehouses. The Council occupies the former tithe citadel; barrack districts and rail sidings form successive defensive belts around it. Civilian streets remain crowded with families of regiments that never returned.|Urban barracks or military depot; streets, warehouse cover and open parade grounds.|
-|Prosymna|Minor Planet|Argive Muster Council|2/2|1 Supply + 1 Manpower|Dry uplands are divided into recruiting estates and grain stores. Walled villages overlook dusty roads leading to a central levy camp, where obsolete troop transports serve as permanent accommodation. Cisterns and granaries are the settlements’ most valuable ground.|Arid rural settlement; low hills, scattered walls and a fortified central camp.|
+|Prosymna|Minor Planet|Iron Paladins|1/2|1 Supply + 1 Manpower|Dry uplands are divided into recruiting estates and grain stores. Walled villages overlook dusty roads leading to a central levy camp, where obsolete troop transports serve as permanent accommodation. Cisterns and granaries are the settlements’ most valuable ground.|Arid rural settlement; low hills, scattered walls and a fortified central camp.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
 |Crusade Fleet Anabasis|Iron Paladins|5/5|
-|The Unspent Levy|Argive Muster Council|3/3|
+|The Unspent Levy|Argive Muster Council|1/3|
 
 
 
@@ -433,7 +433,7 @@ Minor resources below are **derived defence values**, not spendable Major stockp
 
 |Minor|Leader|Holdings|Fleet allocation|Derived Supply / Manpower|
 |---|---|---|---|---|
-|Argive Muster Council|Strategos Damas|Heraion, Prosymna|3/3 surviving|15 / 15|
+|Argive Muster Council|Strategos Damas|Heraion|1/3 surviving|10 / 10|
 |Eleusinian Synod|Prelate Lysandra|Triptolemos|None; fleet destroyed in Cycle 2 Warp Storm|10 / 10|
 |Calydonian Labour Defence|Marshal Oineus|Pleuron|None; fleet destroyed in Cycle 2 Warp Storm|10 / 10|
 |Aulis Anchorage Command|Commodore Thestor|Schoenus, Hyria|5/5 surviving|20 / 20|
@@ -539,7 +539,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Er
 
 |Faction|Project|Type / location|Progress / Integrity|Effect / status|
 |---|---|---|---|---|
-|Iron Paladins|The Forge of Iron|Major Forge Complex / Tiryns, Argos|Progress 2/5; Integrity 2/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Tiryns construction slot occupied.|
+|Iron Paladins|The Forge of Iron|Major Forge Complex / Tiryns, Argos|Progress 3/5; Integrity 3/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Tiryns construction slot occupied.|
 |WAAAGH! Bell-Ringa|Forge Complex (name unassigned)|Major Forge Complex / Da Bellworks, Calydon|Progress 2/5; Integrity 2/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Da Bellworks construction slot occupied.|
 |Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 2/5; Integrity 2/5|Under construction; inactive. +7 Manpower per Logistics Cycle only when completed and at full Integrity. Erigone construction slot occupied.|
 
@@ -595,7 +595,10 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 | 3 / Phase 0 / Logistics | Income followed by upkeep | Each Major pays 1 Supply and 1 Manpower fleet upkeep | Iron Paladins: 25/19 +4/4 -1/1 = 28/22. Bell-Ringa: 14/18 +5/9 -1/1 = 18/26. Order: 11/21 +11/5 -1/1 = 21/25. No construction income. Next Logistics Cycle 6. | Event check |
 | 3 / Phase 0 / Events | Event check d6 | None | Check 3: no event; no event-table roll. [Opening roll, Logistics and recovery audit](Atreus_Cycle_03_Phase_0_Rolls.json). | Iron Paladins orders |
 
-|3 - Iron Paladins Fleet phase|Ground Assault: Anabasis 5/5 attacks Prosymna 2/2 in Argos.|1 Supply and 1 Manpower committed once: 28/22 to 27/21.|Pending human Soulstorm result: Standard difficulty, 1 vs 1 against Death Korps of Krieg; at least 2-player map. No AI battle roll.|Reinforce +8 Supply, no Social action, Forge of Iron Build 5 Supply to 3/5 queued until battle resolution.|
+|3 / Iron Paladins / Fleet|Anabasis 5/5 assaults Prosymna 2/2.|Previously paid 1 Supply and committed 1 Manpower: 28/22 to 27/21. No duplicate charge. Victory return floor(60% of 1) = 0.|Jake reported overwhelming victory, 8 October 2026. Human result; no AI roll. 2 damage (1 base + 1 breakthrough) captures Prosymna at 1/2. Planet Fall reduces The Unspent Levy 3/3 to 1/3. Council retains Heraion; derived resources now 10/10. Anabasis remains 5/5.|None|
+|3 / Iron Paladins / Faction|Reinforce through The Iron Tithe.|+8 Supply: 27 to 35.|Resolved after battle.|None|
+|3 / Iron Paladins / Social|No action.|None.|No change.|None|
+|3 / Iron Paladins / Construction|Continue The Forge of Iron on Tiryns.|5 Supply: 35 to 30.|Progress and Integrity 2/5 to 3/5; inactive. Tiryns remains 12/12. Final resources 30 Supply / 21 Manpower.|WAAAGH! Bell-Ringa orders|
 
 ## Cycle Records
 
@@ -617,16 +620,15 @@ At Tiryns, the Iron Paladins restored Anabasis, replenished their military store
 
 No new assault was launched. Olenos and Daeira remained damaged conquests, and the three new construction projects remained unfinished. When the storm passed, the Major fleets were ready again. The next scheduled deliveries reached their holdings, with provisions set aside to sustain the ships before another round of orders.
 
-### Cycle 3 - Prosymna: pending player battle
+### Cycle 3 - Iron Paladins: Prosymna taken
 
-Anabasis commits its Fleet Action at 5/5. Assault expenditure is already recorded; do not charge it again. Prosymna remains Council-owned at 2/2 until Jake reports the result.
+The Iron Paladins carried Prosymna in an overwhelming victory. The Council's levy positions fell, and the recruiting estates and grain stores passed into the Warsmith's keeping. Damas retains Heraion, but the loss has weakened his remaining fleet. Anabasis holds its strength above the newly claimed world.
 
-- Opponent: Argive Muster Council, represented by Death Korps of Krieg under Strategos Damas. The Unspent Levy contributes 3 Strength. No Defended status, constructions, event or raider modifies this battle.
-- Soulstorm: **Standard difficulty (2/5), one player against one enemy AI, no allies or reserves**. Minimum map capacity 2; a larger thematic map is allowed with unused slots closed.
-- Terrain: dry uplands and low hills, rural settlements, scattered walls and grain stores around a fortified levy camp; dusty roads. Council colours: khaki and dark red.
-- Calculation: attacker post-commitment Supply 27 gives Harder (4); defender setup Supply 14 gives -2, producing Standard (2). Attacker post-commitment Manpower 21 and Strength 5 give 1 formation; defender setup Manpower 13 and Strength 3 give 1 formation. Council begins with derived 15/15, committing 1 Supply and 2 Manpower for this human battle; these are setup values, not a permanently depleted Minor treasury.
-- Victory would inflict 2 defence damage (1 base plus 1 breakthrough), capture Prosymna at 1/2 and inflict 2 Planet Fall fleet damage. Ordinary defeat inflicts no defence damage. Neither outcome has been applied. Jake reports the winning side and surviving formation.
-- Reinforce and construction remain queued. Forge of Iron stays at 2/5 until resolution. The turn has not passed to Bell-Ringa.
+On Tiryns, replenishment continued and work advanced on the Forge of Iron. Its halls remain unfinished. The Chapter now has another world to defend.
+
+Battle record: Jake reported an overwhelming victory on 8 October 2026. The engagement was Standard difficulty, one player against one Death Korps of Krieg AI representing the Argive Muster Council. This descriptive result confers no additional damage bonus. Assault costs were already recorded; the remaining approved actions are now complete.
+
+Standing player-battle workflow: provide the Soulstorm setup in chat, await Jake's result, then settle the battle and remaining approved actions and publish the completed turn once. Do not publish a pending setup or require a separate result source for faction instances; they read the published ledger at the start of their turn.
 
 ## Pinned rules appendix
 
