@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 1 — Iron Paladins turn complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 1 — WAAAGH! Bell-Ringa turn complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -23,14 +23,14 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 - Mycenae is the authored prize system: House Atreides owns a Capital planet, Standard planet and Minor station. This fixed profile implements the approved prize placement; it is not represented as a rolled ordinary profile.
 - The remaining six systems use the saved d20 rolls. Ownership, names and faction identities are authored independently of those rolls. No rerolls were made.
 - Campaign victory convention: the last surviving Major wins after rival Majors lose their final fallback. An agreed concession can end play earlier. Minor holdings do not become owned territory and need not be conquered to meet this condition. No forced 100-Cycle ending.
-- Cycle 1 Phase 0 is resolved once: no periodic construction effects or Endurance recovery; Logistics is not due; event check d6 = 3, so no event. Opening effects left starting resources, holdings and fleets unchanged. First Logistics is Cycle 3. The Iron Paladins turn is now resolved below; no battles have occurred.
+- Cycle 1 Phase 0 is resolved once: no periodic construction effects or Endurance recovery; Logistics is not due; event check d6 = 3, so no event. Opening effects left starting resources, holdings and fleets unchanged. First Logistics is Cycle 3. The Iron Paladins and WAAAGH! Bell-Ringa turns are resolved below; Olenos has fallen to the Orks.
 - Calendar date within Imperium Nihilus is intentionally unspecified. Track elapsed Cycles; there is no invented conversion to years. Exact officer ages and any finite lifespan windows remain unassigned, so no automatic ageing deaths are scheduled.
 - Artwork establishes visual identity. Army Painter channel mapping remains unassigned until the actual faction interfaces are checked; this gives no mechanical benefit and does not delay campaign setup.
 
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|1|Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders|No event (check: 3)|WAAAGH! Bell-Ringa|None|3|
+|1|WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders|No event (check: 3)|Order of Saint Erigone|None|3|
 
 ## Major faction registers
 
@@ -68,10 +68,10 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Trait|More Boyz Fer Da Fight — Martial Culture|
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
-|Resources|20 Supply / 20 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha — Calydon — 5/5; action unused|
-|Constructions|Built-in Capital Orbital Shipyard only; no slot or Integrity project|
-|Next Logistics if unchanged|4 Supply / 8 Manpower gross; 1/1 fleet upkeep; net +3 / +7|
+|Resources|17 Supply / 19 Manpower; neither deficit active|
+|Fleet|Da Gate-Krasha — Calydon — 5/5; Fleet Action spent on Olenos Ground Assault|
+|Constructions|Built-in Capital Orbital Shipyard; unnamed Major Forge Complex on Da Bellworks, progress 1/5 and Integrity 1/5; inactive|
+|Next Logistics if unchanged|5 Supply / 9 Manpower gross; 1/1 fleet upkeep; net +4 / +8|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
 
 ### 3. Order of Saint Erigone
@@ -197,9 +197,9 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Calydon
 
-**Void Superiority:** WAAAGH! Bell-Ringa 5 vs Calydonian Labour Defence 3 — WAAAGH! Bell-Ringa superior; hostile fleet present.
+**Void Superiority:** WAAAGH! Bell-Ringa 5 vs Calydonian Labour Defence 1 — WAAAGH! Bell-Ringa superior; hostile fleet present.
 
-The Orks hold the principal foundry world; neighbouring human holdings remain unconquered.
+The Orks hold Da Bellworks and have captured Olenos. Pleuron remains under Calydonian Labour Defence control.
 
 Setup: fixed home/prize profile recorded above.
 
@@ -211,12 +211,12 @@ Setup: fixed home/prize profile recorded above.
 |---|---|---|---|---|---|
 |Da Bellworks|Capital Planet|WAAAGH! Bell-Ringa|12/12|4 Supply + 4 Manpower; built-in shipyard|Looted cathedral foundries cover a soot-black plain. Bell-Ringa’s mobs have hung bells from gantries and welded checkered armour onto furnace halls; slag heaps and wrecked transporters form rough outer walls. The original human avenues survive beneath scrap barricades and assembly yards.|Ork-held industrial city; scrap piles, furnace buildings and broad vehicle approaches.|
 |Pleuron|Standard Planet|Calydonian Labour Defence|4/4|2 Supply + 2 Manpower|Human factory districts survive behind improvised barricades along an elevated freight railway. Labour companies shift wounded workers between machine shops while the militia holds crossings over drainage cuts. Empty districts nearer the Ork holdings have become belts of burned-out machinery.|Industrial ruins; rail embankments, workshops and barricaded intersections.|
-|Olenos|Minor Planet|Calydonian Labour Defence|2/2|1 Supply + 1 Manpower|Mining townships shelter beneath slag ridges on a wind-scoured plain. Refugees crowd the pithead compounds, and militia roadblocks cover the surviving routes to the evacuation yards. Conveyor towers and disused quarry terraces interrupt the otherwise open approaches.|Quarry or ash wasteland; stepped pits, mining buildings and evacuation pads.|
+|Olenos|Minor Planet|WAAAGH! Bell-Ringa|1/2|1 Supply + 1 Manpower|Mining townships shelter beneath slag ridges on a wind-scoured plain. Refugees crowd the pithead compounds, and militia roadblocks cover the surviving routes to the evacuation yards. Conveyor towers and disused quarry terraces interrupt the otherwise open approaches.|Quarry or ash wasteland; stepped pits, mining buildings and evacuation pads.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
 |Da Gate-Krasha|WAAAGH! Bell-Ringa|5/5|
-|The Last Shift|Calydonian Labour Defence|3/3|
+|The Last Shift|Calydonian Labour Defence|1/3|
 
 
 
@@ -433,7 +433,7 @@ Minor resources below are **derived defence values**, not spendable Major stockp
 |---|---|---|---|---|
 |Argive Muster Council|Strategos Damas|Heraion, Prosymna|3 total: 3|15 / 15|
 |Eleusinian Synod|Prelate Lysandra|Triptolemos, Daeira|3 total: 3|15 / 15|
-|Calydonian Labour Defence|Marshal Oineus|Pleuron, Olenos|3 total: 3|15 / 15|
+|Calydonian Labour Defence|Marshal Oineus|Pleuron|1 surviving / original 3; Planet Fall loss 2|10 / 10|
 |Aulis Anchorage Command|Commodore Thestor|Schoenus, Hyria|5 total: 5|20 / 20|
 |House Atreides (prize)|Archon Pleisthenes Atreides|Perseia, Dendra, Lion Gate|18 total: 5, 5, 5, 3|70 / 70|
 |Delphic Custodians|Logothete Manto|Corycia, Pytho, Omphalos Relay|4 total: 4|20 / 20|
@@ -536,6 +536,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Er
 |Faction|Project|Type / location|Progress / Integrity|Effect / status|
 |---|---|---|---|---|
 |Iron Paladins|The Forge of Iron|Major Forge Complex / Tiryns, Argos|Progress 1/5; Integrity 1/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Tiryns construction slot occupied.|
+|WAAAGH! Bell-Ringa|Forge Complex (name unassigned)|Major Forge Complex / Da Bellworks, Calydon|Progress 1/5; Integrity 1/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Da Bellworks construction slot occupied.|
 
 ## Setup provenance and decision ledger
 
@@ -562,10 +563,14 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 | 1 / Iron Paladins / Faction | Reinforce through The Iron Tithe | None | +8 Supply: 20 to 28. Manpower remains 20. | None |
 | 1 / Iron Paladins / Social | No action | None | No Communique. | None |
 | 1 / Iron Paladins / Construction | Begin The Forge of Iron, Major Forge Complex on Tiryns | 5 Supply: 28 to 23 | Progress 1/5; Integrity 1/5. Tiryns 12/12 satisfies full-defence requirement; ordinary slot occupied. Unfinished and inactive. | WAAAGH! Bell-Ringa orders |
+| 1 / WAAAGH! Bell-Ringa / Fleet | Da Gate-Krasha Ground Assault on Olenos, 5 Strength | 1 Supply: 20 to 19; commit 1 Manpower: 20 to 19 | AI victory 23 to 17: attacker d20 12 + 5 + 3 + 3; defender d20 10 + 3 + 2 + 2, using post-commitment resources. Damage 2 captures Olenos at 1/2. Return floor(60% of 1) = 0 Manpower. Da Gate-Krasha stays 5/5, action spent. Planet Fall damages The Last Shift by 2: 3/3 to 1/3; Pleuron remains its fallback. Minor derived resources become 10/10. [Saved battle roll](Atreus_Cycle_01_Olenos_Battle.json). | None |
+| 1 / WAAAGH! Bell-Ringa / Faction | Reinforce | None | +3 Supply: 19 to 22. | None |
+| 1 / WAAAGH! Bell-Ringa / Social | No action | None | No Communique. | None |
+| 1 / WAAAGH! Bell-Ringa / Construction | Begin unnamed Major Forge Complex on Da Bellworks | 5 Supply: 22 to 17 | Progress 1/5; Integrity 1/5; inactive. Host at 12/12, ordinary slot available and now occupied. Final resources 17 Supply / 19 Manpower. | Order of Saint Erigone orders |
 
 ## Cycle Records
 
-Cycle 1 is in progress. The Iron Paladins have held their fleet in Argos, replenished their military stores and begun The Forge of Iron on Tiryns. No assault or Social Action was undertaken. WAAAGH! Bell-Ringa is next to act; the full Cycle narrative will follow its conclusion.
+Cycle 1 is in progress. The Iron Paladins have held their fleet in Argos, replenished their military stores and begun The Forge of Iron on Tiryns. No assault or Social Action was undertaken by the Iron Paladins. Bell-Ringa has since captured Olenos, weakened the defending fleet, replenished stores and begun a Forge Complex on Da Bellworks. The Order of Saint Erigone is next to act; the full Cycle narrative will follow its conclusion.
 
 ## Pinned rules appendix
 

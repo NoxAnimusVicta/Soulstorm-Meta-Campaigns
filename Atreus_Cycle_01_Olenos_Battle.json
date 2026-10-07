@@ -1,0 +1,29 @@
+{
+  "cycle": 1,
+  "battle": "Da Gate-Krasha Ground Assault on Olenos",
+  "rolled_at_utc": "2026-10-07T10:06:39.073111+00:00",
+  "method": "Python secrets.randbelow(20)+1, one roll per side, no rerolls",
+  "attacker": {
+    "d20": 12,
+    "strength": 5,
+    "post_commitment_supply": 19,
+    "post_commitment_manpower": 19,
+    "modifier": 11,
+    "total": 23
+  },
+  "defender": {
+    "d20": 10,
+    "fleet": "The Last Shift",
+    "strength": 3,
+    "derived_supply_before_commitment": 15,
+    "derived_manpower_before_commitment": 15,
+    "post_commitment_supply": 14,
+    "post_commitment_manpower": 14,
+    "modifier": 7,
+    "total": 17
+  },
+  "ties": "defender wins",
+  "winner": "WAAAGH! Bell-Ringa",
+  "potential_damage": 2,
+  "attacker_manpower_return": 0
+}
