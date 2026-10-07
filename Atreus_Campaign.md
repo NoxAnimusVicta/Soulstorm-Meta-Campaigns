@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 3 - Phase 0 complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 3 - Prosymna assault awaiting player result**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|3|Phase 0 complete; awaiting Iron Paladins orders|No event (check: 3)|Iron Paladins|None|6|
+|3|Fleet phase; awaiting player battle result|No event (check: 3)|Iron Paladins|Prosymna Ground Assault|6|
 
 ## Major faction registers
 
@@ -50,8 +50,8 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Trait|The Iron Tithe — Efficient Logistics|
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
-|Resources|28 Supply / 22 Manpower; neither deficit active|
-|Fleet|Crusade Fleet Anabasis - Argos - 5/5; action unused in Cycle 3|
+|Resources|27 Supply / 21 Manpower; neither deficit active; Prosymna assault cost and commitment deducted|
+|Fleet|Crusade Fleet Anabasis - Argos - 5/5; action spent on pending Prosymna Ground Assault|
 |Constructions|Built-in Capital Orbital Shipyard; The Forge of Iron (Major Forge Complex), Tiryns, progress 2/5 and Integrity 2/5; inactive|
 |Next Logistics if unchanged|4 Supply / 4 Manpower gross; 1/1 fleet upkeep; net +3 / +3|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
@@ -595,6 +595,8 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 | 3 / Phase 0 / Logistics | Income followed by upkeep | Each Major pays 1 Supply and 1 Manpower fleet upkeep | Iron Paladins: 25/19 +4/4 -1/1 = 28/22. Bell-Ringa: 14/18 +5/9 -1/1 = 18/26. Order: 11/21 +11/5 -1/1 = 21/25. No construction income. Next Logistics Cycle 6. | Event check |
 | 3 / Phase 0 / Events | Event check d6 | None | Check 3: no event; no event-table roll. [Opening roll, Logistics and recovery audit](Atreus_Cycle_03_Phase_0_Rolls.json). | Iron Paladins orders |
 
+|3 - Iron Paladins Fleet phase|Ground Assault: Anabasis 5/5 attacks Prosymna 2/2 in Argos.|1 Supply and 1 Manpower committed once: 28/22 to 27/21.|Pending human Soulstorm result: Standard difficulty, 1 vs 1 against Death Korps of Krieg; at least 2-player map. No AI battle roll.|Reinforce +8 Supply, no Social action, Forge of Iron Build 5 Supply to 3/5 queued until battle resolution.|
+
 ## Cycle Records
 
 ### Cycle 1 - Foundries and burial gates
@@ -614,6 +616,17 @@ The storm battered the fleets of Atreus and closed their passages between system
 At Tiryns, the Iron Paladins restored Anabasis, replenished their military stores and continued work on The Forge of Iron. Bell-Ringa's Meks brought Da Gate-Krasha back to fighting condition while the foundries of Da Bellworks supplied the next stage of his forge. At Erigone, The Third Refusal returned to readiness and work continued on The Vigil of the Three Refusals.
 
 No new assault was launched. Olenos and Daeira remained damaged conquests, and the three new construction projects remained unfinished. When the storm passed, the Major fleets were ready again. The next scheduled deliveries reached their holdings, with provisions set aside to sustain the ships before another round of orders.
+
+### Cycle 3 - Prosymna: pending player battle
+
+Anabasis commits its Fleet Action at 5/5. Assault expenditure is already recorded; do not charge it again. Prosymna remains Council-owned at 2/2 until Jake reports the result.
+
+- Opponent: Argive Muster Council, represented by Death Korps of Krieg under Strategos Damas. The Unspent Levy contributes 3 Strength. No Defended status, constructions, event or raider modifies this battle.
+- Soulstorm: **Standard difficulty (2/5), one player against one enemy AI, no allies or reserves**. Minimum map capacity 2; a larger thematic map is allowed with unused slots closed.
+- Terrain: dry uplands and low hills, rural settlements, scattered walls and grain stores around a fortified levy camp; dusty roads. Council colours: khaki and dark red.
+- Calculation: attacker post-commitment Supply 27 gives Harder (4); defender setup Supply 14 gives -2, producing Standard (2). Attacker post-commitment Manpower 21 and Strength 5 give 1 formation; defender setup Manpower 13 and Strength 3 give 1 formation. Council begins with derived 15/15, committing 1 Supply and 2 Manpower for this human battle; these are setup values, not a permanently depleted Minor treasury.
+- Victory would inflict 2 defence damage (1 base plus 1 breakthrough), capture Prosymna at 1/2 and inflict 2 Planet Fall fleet damage. Ordinary defeat inflicts no defence damage. Neither outcome has been applied. Jake reports the winning side and surviving formation.
+- Reinforce and construction remain queued. Forge of Iron stays at 2/5 until resolution. The turn has not passed to Bell-Ringa.
 
 ## Pinned rules appendix
 

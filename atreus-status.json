@@ -1,7 +1,7 @@
 {
   "campaign": "Atreus",
   "cycle": 3,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Fleet phase; awaiting player battle result",
   "event": "No event",
   "logistics_due": 6,
   "next_faction": "Iron Paladins",
@@ -15,11 +15,34 @@
   "rules_file": "Source_Rules_Playtest_2026-10-06.md",
   "rules_commit": "113ec69a6163d36fb2164b9b624d14d8889986e5",
   "setup_rolls": "Atreus_Setup_Rolls_2026-10-07.json",
-  "pending_battles": [],
+  "pending_battles": [
+    {
+      "id": "cycle3-prosymna",
+      "attacker": "Iron Paladins",
+      "target": "Prosymna",
+      "system": "Argos",
+      "resolution": "player Soulstorm result required",
+      "difficulty": "Standard (2/5)",
+      "formations": [
+        1,
+        1
+      ],
+      "enemy_roster": "Death Korps of Krieg",
+      "costs_already_deducted": {
+        "supply": 1,
+        "manpower": 1
+      },
+      "queued_actions": [
+        "Reinforce +8 Supply",
+        "No Social action",
+        "Build Forge of Iron: 5 Supply, 2/5 to 3/5"
+      ]
+    }
+  ],
   "rules_amendments": [
     "2026-10-07: only Major Factions have Alignments; Minors are independent hostile powers and cannot enter diplomatic agreements or alliances."
   ],
-  "notes": "Cycle 3 open: Warp Storm expired; ordinary movement available. Minor recovery completed without resurrecting destroyed fleets. All Major fleets 5/5 with unused actions. Projects 2/5, inactive. Logistics settled: Iron Paladins 28/22, Bell-Ringa 18/26, Order 21/25 (Supply/Manpower). Event check 3: no event. Iron Paladins to act.",
+  "notes": "Prosymna assault pending human result. Iron Paladins 27 Supply / 21 Manpower; Anabasis 5/5 action spent. Reinforce and Build queued, not executed. Other faction registers unchanged.",
   "phase_zero_resolved": true,
   "event_check": 3,
   "phase_zero_rolls": "Atreus_Cycle_03_Phase_0_Rolls.json",
