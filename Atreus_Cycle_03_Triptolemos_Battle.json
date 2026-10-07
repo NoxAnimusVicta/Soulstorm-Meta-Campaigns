@@ -1,0 +1,30 @@
+{
+  "cycle": 3,
+  "battle": "The Third Refusal Ground Assault on Triptolemos",
+  "rolled_at_utc": "2026-10-07T15:31:20.899515+00:00",
+  "method": "Python secrets.randbelow(20)+1; one roll per side, no rerolls",
+  "attacker": {
+    "d20": 4,
+    "strength": 5,
+    "post_commitment_supply": 19,
+    "post_commitment_manpower": 24,
+    "modifier": 12,
+    "total": 16
+  },
+  "defender": {
+    "d20": 9,
+    "strength": 0,
+    "derived_resources_before": [
+      10,
+      10
+    ],
+    "post_commitment_supply": 8,
+    "post_commitment_manpower": 9,
+    "modifier": 2,
+    "total": 11
+  },
+  "ties": "defender wins",
+  "winner": "Order of Saint Erigone",
+  "actual_damage": 2,
+  "attacker_manpower_return": 0
+}

@@ -1,0 +1,19 @@
+{
+  "cycle": 4,
+  "rolled_at_utc": "2026-10-07T15:31:20.899515+00:00",
+  "method": "Python secrets.randbelow(6)+1; no rerolls",
+  "construction_effects": "None; all three projects 3/5 inactive",
+  "logistics": "Not due; next Cycle 6",
+  "event_check": 2,
+  "event_roll": null,
+  "event": "No event",
+  "preceding_cycle_end_minor_recovery": [
+    {
+      "fleet": "The Copper Hawk",
+      "owner": "House Atreides",
+      "before": "4/5",
+      "after": "5/5"
+    }
+  ],
+  "minor_recovery_selection": "First listed surviving damaged fleet per unengaged owner. Argive, Calydonian and Eleusinian factions engaged: no fleet recovery. Attacked holdings do not recover. Other Minor holdings full."
+}
