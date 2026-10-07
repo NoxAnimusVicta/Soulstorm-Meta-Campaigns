@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 3 - Iron Paladins turn complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 3 - Bell-Ringa turn complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|3|Iron Paladins turn complete|No event (check: 3)|WAAAGH! Bell-Ringa|None|6|
+|3|Bell-Ringa turn complete|No event (check: 3)|Order of Saint Erigone|None|6|
 
 ## Major faction registers
 
@@ -70,9 +70,9 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Trait|More Boyz Fer Da Fight — Martial Culture|
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
-|Resources|18 Supply / 26 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Calydon - 5/5; action unused in Cycle 3|
-|Constructions|Built-in Capital Orbital Shipyard; unnamed Major Forge Complex on Da Bellworks, progress 2/5 and Integrity 2/5; inactive|
+|Resources|14 Supply / 25 Manpower; neither deficit active|
+|Fleet|Da Gate-Krasha - Calydon - 5/5; action spent on Pleuron Ground Assault|
+|Constructions|Built-in Capital Orbital Shipyard; unnamed Major Forge Complex on Da Bellworks, progress 3/5 and Integrity 3/5; inactive|
 |Next Logistics if unchanged|5 Supply / 9 Manpower gross; 1/1 fleet upkeep; net +4 / +8|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
 
@@ -212,7 +212,7 @@ Setup: fixed home/prize profile recorded above.
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
 |Da Bellworks|Capital Planet|WAAAGH! Bell-Ringa|12/12|4 Supply + 4 Manpower; built-in shipyard|Looted cathedral foundries cover a soot-black plain. Bell-Ringa’s mobs have hung bells from gantries and welded checkered armour onto furnace halls; slag heaps and wrecked transporters form rough outer walls. The original human avenues survive beneath scrap barricades and assembly yards.|Ork-held industrial city; scrap piles, furnace buildings and broad vehicle approaches.|
-|Pleuron|Standard Planet|Calydonian Labour Defence|4/4|2 Supply + 2 Manpower|Human factory districts survive behind improvised barricades along an elevated freight railway. Labour companies shift wounded workers between machine shops while the militia holds crossings over drainage cuts. Empty districts nearer the Ork holdings have become belts of burned-out machinery.|Industrial ruins; rail embankments, workshops and barricaded intersections.|
+|Pleuron|Standard Planet|Calydonian Labour Defence|2/4|2 Supply + 2 Manpower|Human factory districts survive behind improvised barricades along an elevated freight railway. Labour companies shift wounded workers between machine shops while the militia holds crossings over drainage cuts. Empty districts nearer the Ork holdings have become belts of burned-out machinery.|Industrial ruins; rail embankments, workshops and barricaded intersections.|
 |Olenos|Minor Planet|WAAAGH! Bell-Ringa|1/2|1 Supply + 1 Manpower|Mining townships shelter beneath slag ridges on a wind-scoured plain. Refugees crowd the pithead compounds, and militia roadblocks cover the surviving routes to the evacuation yards. Conveyor towers and disused quarry terraces interrupt the otherwise open approaches.|Quarry or ash wasteland; stepped pits, mining buildings and evacuation pads.|
 
 |Fleet|Owner|Strength / original maximum|
@@ -540,7 +540,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Er
 |Faction|Project|Type / location|Progress / Integrity|Effect / status|
 |---|---|---|---|---|
 |Iron Paladins|The Forge of Iron|Major Forge Complex / Tiryns, Argos|Progress 3/5; Integrity 3/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Tiryns construction slot occupied.|
-|WAAAGH! Bell-Ringa|Forge Complex (name unassigned)|Major Forge Complex / Da Bellworks, Calydon|Progress 2/5; Integrity 2/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Da Bellworks construction slot occupied.|
+|WAAAGH! Bell-Ringa|Forge Complex (name unassigned)|Major Forge Complex / Da Bellworks, Calydon|Progress 3/5; Integrity 3/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Da Bellworks construction slot occupied.|
 |Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 2/5; Integrity 2/5|Under construction; inactive. +7 Manpower per Logistics Cycle only when completed and at full Integrity. Erigone construction slot occupied.|
 
 ## Setup provenance and decision ledger
@@ -600,6 +600,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |3 / Iron Paladins / Social|No action.|None.|No change.|None|
 |3 / Iron Paladins / Construction|Continue The Forge of Iron on Tiryns.|5 Supply: 35 to 30.|Progress and Integrity 2/5 to 3/5; inactive. Tiryns remains 12/12. Final resources 30 Supply / 21 Manpower.|WAAAGH! Bell-Ringa orders|
 
+|3 / WAAAGH! Bell-Ringa / Fleet|Da Gate-Krasha assaults Pleuron with 5 Strength.|2 Supply: 18 to 16; commit 1 Manpower: 26 to 25. Victory recovery rounds down to 0.|AI victory 33 to 20: attacker d20 20 + 5 Strength + 3 Supply + 5 Manpower; defender d20 18 + 0 Strength + 1 Supply + 1 Manpower. Defender setup 8 Supply / 9 Manpower. Pleuron 4/4 to 2/4, still Calydonian Labour Defence-controlled; no capture or Planet Fall. Da Gate-Krasha remains 5/5, action spent. [Saved roll](Atreus_Cycle_03_Pleuron_Battle.json).|None|
+|3 / WAAAGH! Bell-Ringa / Faction|Reinforce.|+3 Supply: 16 to 19.|Resolved after assault.|None|
+|3 / WAAAGH! Bell-Ringa / Social|No action.|None.|No change.|None|
+|3 / WAAAGH! Bell-Ringa / Construction|Continue Major Forge Complex on Da Bellworks.|5 Supply: 19 to 14.|Progress and Integrity 2/5 to 3/5; unfinished and inactive. Host remains 12/12. Final resources 14 Supply / 25 Manpower.|Order of Saint Erigone orders|
+
 ## Cycle Records
 
 ### Cycle 1 - Foundries and burial gates
@@ -629,6 +634,12 @@ On Tiryns, replenishment continued and work advanced on the Forge of Iron. Its h
 Battle record: Jake reported an overwhelming victory on 8 October 2026. The engagement was Standard difficulty, one player against one Death Korps of Krieg AI representing the Argive Muster Council. This descriptive result confers no additional damage bonus. Assault costs were already recorded; the remaining approved actions are now complete.
 
 Standing player-battle workflow: provide the Soulstorm setup in chat, await Jake's result, then settle the battle and remaining approved actions and publish the completed turn once. Do not publish a pending setup or require a separate result source for faction instances; they read the published ledger at the start of their turn.
+
+### Cycle 3 - Bell-Ringa: the assault on Pleuron
+
+Bell-Ringa's mobs broke into Pleuron's industrial districts, forcing the labour defence back through workshops and barricaded crossings. The victory opened ground for the Orks, but Marshal Oineus still held enough of the world to continue the resistance. Pleuron had been battered, not conquered.
+
+Da Gate-Krasha remained ready above Calydon. At Da Bellworks, fresh military stores reached the war host while the Meks pushed the unfinished forge onward.
 
 ## Pinned rules appendix
 

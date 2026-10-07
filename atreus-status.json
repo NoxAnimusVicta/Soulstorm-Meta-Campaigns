@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 3,
-  "phase": "Iron Paladins turn complete; awaiting Bell-Ringa orders",
+  "phase": "Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "No event",
   "logistics_due": 6,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -19,7 +19,7 @@
   "rules_amendments": [
     "2026-10-07: only Major Factions have Alignments; Minors are independent hostile powers and cannot enter diplomatic agreements or alliances."
   ],
-  "notes": "Iron Paladins captured Prosymna at 1/2 after reported overwhelming victory. Anabasis 5/5, action spent; Unspent Levy 1/3. Reinforce and Build resolved: 30 Supply / 21 Manpower, Forge of Iron 3/5 inactive. Bell-Ringa to act.",
+  "notes": "Bell-Ringa won the Pleuron assault 33 to 20; defence 4/4 to 2/4, still Minor-controlled. Da Gate-Krasha 5/5, action spent. Reinforce and construction complete: 14 Supply / 25 Manpower; Forge Complex 3/5 inactive. Order of Saint Erigone to act. Cycle 3 remains open.",
   "phase_zero_resolved": true,
   "event_check": 3,
   "phase_zero_rolls": "Atreus_Cycle_03_Phase_0_Rolls.json",

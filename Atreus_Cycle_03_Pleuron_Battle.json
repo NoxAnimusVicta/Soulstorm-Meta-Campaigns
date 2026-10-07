@@ -1,0 +1,29 @@
+{
+  "cycle": 3,
+  "battle": "Da Gate-Krasha Ground Assault on Pleuron",
+  "rolled_at_utc": "2026-10-07T14:26:48.469541+00:00",
+  "method": "Python secrets.randbelow(20)+1; one roll per side, no rerolls",
+  "attacker": {
+    "d20": 20,
+    "strength": 5,
+    "post_commitment_supply": 16,
+    "post_commitment_manpower": 25,
+    "modifier": 13,
+    "total": 33
+  },
+  "defender": {
+    "d20": 18,
+    "strength": 0,
+    "derived_supply_before_commitment": 10,
+    "derived_manpower_before_commitment": 10,
+    "post_commitment_supply": 8,
+    "post_commitment_manpower": 9,
+    "modifier": 2,
+    "total": 20
+  },
+  "ties": "defender wins",
+  "winner": "WAAAGH! Bell-Ringa",
+  "potential_damage": 2,
+  "actual_damage": 2,
+  "attacker_manpower_return": 0
+}
