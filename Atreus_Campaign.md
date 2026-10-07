@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 2 - Iron Paladins turn complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 2 - WAAAGH! Bell-Ringa turn complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|2|Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders|Warp Storm: opening fleet damage resolved; ordinary movement blocked|WAAAGH! Bell-Ringa|None|3|
+|2|WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders|Warp Storm: opening fleet damage resolved; ordinary movement blocked|Order of Saint Erigone|None|3|
 
 ## Major faction registers
 
@@ -70,9 +70,9 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Trait|More Boyz Fer Da Fight — Martial Culture|
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
-|Resources|17 Supply / 19 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Calydon - 4/5; action unused in Cycle 2|
-|Constructions|Built-in Capital Orbital Shipyard; unnamed Major Forge Complex on Da Bellworks, progress 1/5 and Integrity 1/5; inactive|
+|Resources|14 Supply / 18 Manpower; neither deficit active|
+|Fleet|Da Gate-Krasha - Calydon - 5/5; Fleet Action spent on Expand in Cycle 2|
+|Constructions|Built-in Capital Orbital Shipyard; unnamed Major Forge Complex on Da Bellworks, progress 2/5 and Integrity 2/5; inactive|
 |Next Logistics if unchanged|5 Supply / 9 Manpower gross; 1/1 fleet upkeep; net +4 / +8|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
 
@@ -199,7 +199,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Calydon
 
-**Void Superiority:** WAAAGH! Bell-Ringa 4 vs hostile fleets 0 - WAAAGH! Bell-Ringa superior; no hostile fleet present.
+**Void Superiority:** WAAAGH! Bell-Ringa 5 vs hostile fleets 0 - WAAAGH! Bell-Ringa superior; no hostile fleet present.
 
 The Orks hold Da Bellworks and have captured Olenos. Pleuron remains under Calydonian Labour Defence control.
 
@@ -217,7 +217,7 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Da Gate-Krasha|WAAAGH! Bell-Ringa|4/5|
+|Da Gate-Krasha|WAAAGH! Bell-Ringa|5/5|
 
 
 
@@ -539,7 +539,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Er
 |Faction|Project|Type / location|Progress / Integrity|Effect / status|
 |---|---|---|---|---|
 |Iron Paladins|The Forge of Iron|Major Forge Complex / Tiryns, Argos|Progress 2/5; Integrity 2/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Tiryns construction slot occupied.|
-|WAAAGH! Bell-Ringa|Forge Complex (name unassigned)|Major Forge Complex / Da Bellworks, Calydon|Progress 1/5; Integrity 1/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Da Bellworks construction slot occupied.|
+|WAAAGH! Bell-Ringa|Forge Complex (name unassigned)|Major Forge Complex / Da Bellworks, Calydon|Progress 2/5; Integrity 2/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Da Bellworks construction slot occupied.|
 |Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 1/5; Integrity 1/5|Under construction; inactive. +7 Manpower per Logistics Cycle only when completed and at full Integrity. Erigone construction slot occupied.|
 
 ## Setup provenance and decision ledger
@@ -581,6 +581,10 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 | 2 / Iron Paladins / Faction | Reinforce through The Iron Tithe | None | +8 Supply: 22 to 30. | None |
 | 2 / Iron Paladins / Social | No action | None | No Communique. | None |
 | 2 / Iron Paladins / Construction | Continue The Forge of Iron on Tiryns | 5 Supply: 30 to 25 | Progress and Integrity 1/5 to 2/5; unfinished and inactive. Tiryns remains 12/12. Final resources 25 Supply / 19 Manpower. Submitted heading said Cycle 1; resolved as Cycle 2 because orders match the current state. | WAAAGH! Bell-Ringa orders |
+| 2 / WAAAGH! Bell-Ringa / Fleet | Expand Da Gate-Krasha at Da Bellworks built-in shipyard | 1 Supply: 17 to 16; 1 Manpower: 19 to 18 | Restored 4/5 to 5/5, capped at maximum. Fleet Action spent; no assault. | None |
+| 2 / WAAAGH! Bell-Ringa / Faction | Reinforce | None | +3 Supply: 16 to 19. | None |
+| 2 / WAAAGH! Bell-Ringa / Social | No action | None | No Communique. | None |
+| 2 / WAAAGH! Bell-Ringa / Construction | Continue Major Forge Complex on Da Bellworks | 5 Supply: 19 to 14 | Progress and Integrity 1/5 to 2/5; unfinished and inactive. Da Bellworks remains 12/12. Final resources 14 Supply / 18 Manpower. | Order of Saint Erigone orders |
 
 ## Cycle Records
 

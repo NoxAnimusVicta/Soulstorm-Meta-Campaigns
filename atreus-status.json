@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 2,
-  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
+  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "Warp Storm",
   "logistics_due": 3,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -19,7 +19,7 @@
   "rules_amendments": [
     "2026-10-07: only Major Factions have Alignments; Minors are independent hostile powers and cannot enter diplomatic agreements or alliances."
   ],
-  "notes": "Cycle 2 Warp Storm remains active; ordinary movement blocked. Iron Paladins repaired Anabasis to 5/5, Reinforced and advanced The Forge of Iron to 2/5 progress and Integrity. Final resources 25 Supply / 19 Manpower. Fleet Action spent. Bell-Ringa next; Logistics due Cycle 3.",
+  "notes": "Cycle 2 Warp Storm remains active; ordinary movement blocked. Bell-Ringa restored Da Gate-Krasha to 5/5, Reinforced and advanced the Da Bellworks Forge Complex to 2/5 progress and Integrity. Final resources 14 Supply / 18 Manpower. Fleet Action spent. Order of Saint Erigone next; Logistics due Cycle 3.",
   "phase_zero_resolved": true,
   "event_check": 1,
   "phase_zero_rolls": "Atreus_Cycle_02_Phase_0_Rolls.json",
