@@ -25,7 +25,9 @@ def load_atreus(root,render):
   assert resources,'Missing resources for '+name
   holdings=[[w['Planet'],s['title'],w['Type'],w['Defense'],w['Income']] for s in systems for w in s['worlds'] if w['Controller']==name]
   fleets=[[f[0],s['title'],f[2]] for s in systems for f in s['fleets'] if f[1]==name]
-  factions.append({'name':name,'alignment':fields['Alignment'],'trait':fields['Trait'],'effect':fields['Exact effect'],'values':{'Supplies (1-100)':resources[1],'Manpower (1-100)':resources[2]},'registers':{'fleets':fleets,'holdings':holdings,'constructions':[]}})
+  portrait=re.search(r'!\[([^\]]+)\]\((atreus_[a-z_]+\.png)\)',body)
+  assert portrait and (root/portrait[2]).is_file(),'Missing commander artwork for '+name
+  factions.append({'name':name,'alignment':fields['Alignment'],'commander':fields['Commander / deputy'].split(' / ')[0],'portrait':{'src':portrait[2].replace('.png','_preview.webp'),'full':portrait[2],'alt':portrait[1]},'trait':fields['Trait'],'effect':fields['Exact effect'],'values':{'Supplies (1-100)':resources[1],'Manpower (1-100)':resources[2]},'registers':{'fleets':fleets,'holdings':holdings,'constructions':[]}})
  # Read only the campaign's frozen appendix, not a changing source-library file.
  appendix=md.split('## Pinned rules appendix\n',1)[1]
  rules=chapters(appendix[appendix.index('# Soulstorm campaign rules'):],render)

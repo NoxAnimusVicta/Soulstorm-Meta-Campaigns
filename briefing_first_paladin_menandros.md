@@ -3,6 +3,14 @@
 *Atreus campaign briefing — 7 October 2026. Cycle 1 unopened; adopted rules pinned below.*
 ## For the instance playing the Warsmith's deputy and adviser
 
+## COMMANDER VISUAL REFERENCE
+
+![Warsmith Acastor Orontes — supplied concept art](atreus_orontes.png)
+
+This is Warsmith Acastor Orontes, your commander, whom Jake plays. It depicts the Warsmith, not First Paladin Menandros. Use it as the visual reference when describing him: dark plate, brass edging, hazard markings, a heavy hammer and mounted mechanical arms.
+
+[Open full-resolution artwork](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus_orontes.png). The image is included in the campaign pack alongside this briefing.
+
 ---
 
 ## YOUR ROLE
