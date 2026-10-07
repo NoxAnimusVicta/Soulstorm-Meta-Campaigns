@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 1 — Phase 0 complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 1 — Iron Paladins turn complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -23,14 +23,14 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 - Mycenae is the authored prize system: House Atreides owns a Capital planet, Standard planet and Minor station. This fixed profile implements the approved prize placement; it is not represented as a rolled ordinary profile.
 - The remaining six systems use the saved d20 rolls. Ownership, names and faction identities are authored independently of those rolls. No rerolls were made.
 - Campaign victory convention: the last surviving Major wins after rival Majors lose their final fallback. An agreed concession can end play earlier. Minor holdings do not become owned territory and need not be conquered to meet this condition. No forced 100-Cycle ending.
-- Cycle 1 Phase 0 is resolved once: no periodic construction effects or Endurance recovery; Logistics is not due; event check d6 = 3, so no event. Starting resources, holdings and fleets are unchanged. First Logistics is Cycle 3. No faction actions or battles have occurred.
+- Cycle 1 Phase 0 is resolved once: no periodic construction effects or Endurance recovery; Logistics is not due; event check d6 = 3, so no event. Opening effects left starting resources, holdings and fleets unchanged. First Logistics is Cycle 3. The Iron Paladins turn is now resolved below; no battles have occurred.
 - Calendar date within Imperium Nihilus is intentionally unspecified. Track elapsed Cycles; there is no invented conversion to years. Exact officer ages and any finite lifespan windows remain unassigned, so no automatic ageing deaths are scheduled.
 - Artwork establishes visual identity. Army Painter channel mapping remains unassigned until the actual faction interfaces are checked; this gives no mechanical benefit and does not delay campaign setup.
 
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|1|Phase 0 complete; awaiting Iron Paladins orders|No event (check: 3)|Iron Paladins|None|3|
+|1|Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders|No event (check: 3)|WAAAGH! Bell-Ringa|None|3|
 
 ## Major faction registers
 
@@ -40,7 +40,7 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 
 ![Warsmith Acastor Orontes — supplied concept art](atreus_orontes.png)
 
-|Field|Starting value|
+|Field|Current value|
 |---|---|
 |Controller|Jake|
 |Alignment|Imperium|
@@ -48,9 +48,9 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Trait|The Iron Tithe — Efficient Logistics|
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
-|Resources|20 Supply / 20 Manpower; neither deficit active|
+|Resources|23 Supply / 20 Manpower; neither deficit active|
 |Fleet|Crusade Fleet Anabasis — Argos — 5/5; action unused|
-|Constructions|Built-in Capital Orbital Shipyard only; no slot or Integrity project|
+|Constructions|Built-in Capital Orbital Shipyard; The Forge of Iron (Major Forge Complex), Tiryns, progress 1/5 and Integrity 1/5; inactive|
 |Next Logistics if unchanged|4 Supply / 4 Manpower gross; 1/1 fleet upkeep; net +3 / +3|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
 
@@ -60,7 +60,7 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 
 ![Warboss Bell-Ringa — supplied concept art](atreus_bell_ringa.png)
 
-|Field|Starting value|
+|Field|Current value|
 |---|---|
 |Controller|AI faction instance|
 |Alignment|Ork|
@@ -80,7 +80,7 @@ The Order’s convents and shrine network preserve hospitals, military stores an
 
 ![Canoness Althaia — supplied concept art](atreus_althaia.png)
 
-|Field|Starting value|
+|Field|Current value|
 |---|---|
 |Controller|AI faction instance|
 |Alignment|Imperium|
@@ -535,6 +535,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Er
 
 |Faction|Project|Type / location|Progress / Integrity|Effect / status|
 |---|---|---|---|---|
+|Iron Paladins|The Forge of Iron|Major Forge Complex / Tiryns, Argos|Progress 1/5; Integrity 1/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Tiryns construction slot occupied.|
 
 ## Setup provenance and decision ledger
 
@@ -550,17 +551,21 @@ The 6 October thematic roster, Major identities, Capitals, deputies and hostilit
 |Ithaca|17|None|
 |Thessaly|16|None|
 
-The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](Atreus_Setup_Rolls_2026-10-07.json). No campaign event roll has been made. The system directory’s order does not encode movement restrictions. Planet/station type follows the roll; lore does not add holdings.
+The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](Atreus_Setup_Rolls_2026-10-07.json). The Cycle 1 event check is recorded separately in the Cycle ledger. The system directory’s order does not encode movement restrictions. Planet/station type follows the roll; lore does not add holdings.
 
 ## Cycle ledger
 
 | Cycle / phase | Orders | Costs | Outcome | Pending |
 |---|---|---|---|---|
 | 1 / Phase 0 | Construction effects → Logistics check → event check | None | No eligible periodic effects; Logistics not due; d6 = 3, no event. All starting values unchanged. [Saved roll](Atreus_Cycle_01_Phase_0_Rolls.json). | Iron Paladins orders |
+| 1 / Iron Paladins / Fleet | Crusade Fleet Anabasis holds position; no assault | None | Remains 5/5 in Argos; Fleet Action unused. | None |
+| 1 / Iron Paladins / Faction | Reinforce through The Iron Tithe | None | +8 Supply: 20 to 28. Manpower remains 20. | None |
+| 1 / Iron Paladins / Social | No action | None | No Communique. | None |
+| 1 / Iron Paladins / Construction | Begin The Forge of Iron, Major Forge Complex on Tiryns | 5 Supply: 28 to 23 | Progress 1/5; Integrity 1/5. Tiryns 12/12 satisfies full-defence requirement; ordinary slot occupied. Unfinished and inactive. | WAAAGH! Bell-Ringa orders |
 
 ## Cycle Records
 
-Cycle 1 has opened. No faction turn or battle has yet resolved; the full Cycle narrative will follow its conclusion.
+Cycle 1 is in progress. The Iron Paladins have held their fleet in Argos, replenished their military stores and begun The Forge of Iron on Tiryns. No assault or Social Action was undertaken. WAAAGH! Bell-Ringa is next to act; the full Cycle narrative will follow its conclusion.
 
 ## Pinned rules appendix
 

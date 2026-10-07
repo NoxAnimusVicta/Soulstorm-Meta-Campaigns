@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 1,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
   "event": "No event",
   "logistics_due": 3,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -19,7 +19,7 @@
   "rules_amendments": [
     "2026-10-07: only Major Factions have Alignments; Minors are independent hostile powers and cannot enter diplomatic agreements or alliances."
   ],
-  "notes": "Cycle 1 opening complete: no periodic construction effects or Endurance recovery; Logistics not due. Event check d6: 3 — no event. All starting resources and fleet strengths unchanged.",
+  "notes": "Iron Paladins Cycle 1 resolved: Anabasis holds in Argos at 5/5; Reinforce +8 Supply, then Build The Forge of Iron for 5 Supply. Final resources 23 Supply / 20 Manpower. Forge progress and Integrity 1/5; inactive. No battle. WAAAGH! Bell-Ringa next.",
   "phase_zero_resolved": true,
   "event_check": 3,
   "phase_zero_rolls": "Atreus_Cycle_01_Phase_0_Rolls.json"
