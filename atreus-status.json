@@ -1,8 +1,8 @@
 {
   "campaign": "Atreus",
-  "cycle": 1,
-  "phase": "Cycle 1 complete; awaiting Cycle 2 Phase 0",
-  "event": "No event",
+  "cycle": 2,
+  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "event": "Warp Storm",
   "logistics_due": 3,
   "next_faction": "Iron Paladins",
   "turn_order": [
@@ -19,10 +19,11 @@
   "rules_amendments": [
     "2026-10-07: only Major Factions have Alignments; Minors are independent hostile powers and cannot enter diplomatic agreements or alliances."
   ],
-  "notes": "Cycle 1 closed. Order captured Daeira at 1/2, winning 19 to 11; The Locked Reliquary reduced to 1/3. Order ends at 14 Supply / 22 Manpower after Muster and starting The Vigil of the Three Refusals at 1/5 progress and Integrity. Minor recovery check made no changes. Cycle 2 opening not yet conducted; Iron Paladins act afterward.",
+  "notes": "Cycle 2 open. Warp Storm: all surviving fleets lost 1 Strength; ordinary movement blocked this Cycle. Anabasis, Da Gate-Krasha and The Third Refusal are 4/5, actions reset. Four Minor fleets destroyed at 0. Resources unchanged; projects remain inactive at 1/5. Logistics due Cycle 3. Iron Paladins to act.",
   "phase_zero_resolved": true,
-  "event_check": 3,
-  "phase_zero_rolls": "Atreus_Cycle_01_Phase_0_Rolls.json",
-  "cycle_complete": true,
-  "next_cycle": 2
+  "event_check": 1,
+  "phase_zero_rolls": "Atreus_Cycle_02_Phase_0_Rolls.json",
+  "cycle_complete": false,
+  "event_roll": 1,
+  "rollover_policy": "After third Major turn: close Cycle, increment and reset actions; resolve constructions, scheduled Logistics, events; hand back to Iron Paladins."
 }

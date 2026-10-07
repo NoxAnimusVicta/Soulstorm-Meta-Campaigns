@@ -1,0 +1,172 @@
+{
+  "cycle": 2,
+  "rolled_at_utc": "2026-10-07T11:08:10.528589+00:00",
+  "method": "Python secrets.randbelow(6)+1; no rerolls",
+  "construction_effects": "None: three unfinished projects at 1/5 remain inactive; no automatic Build progress",
+  "logistics": "Not due; next Cycle 3",
+  "event_check": 1,
+  "event_roll": 1,
+  "event": "Warp Storm",
+  "fleet_effects": [
+    {
+      "fleet": "Crusade Fleet Anabasis",
+      "owner": "Iron Paladins",
+      "system": "Argos",
+      "before": "5/5",
+      "after": "4/5",
+      "destroyed": false
+    },
+    {
+      "fleet": "The Unspent Levy",
+      "owner": "Argive Muster Council",
+      "system": "Argos",
+      "before": "3/3",
+      "after": "2/3",
+      "destroyed": false
+    },
+    {
+      "fleet": "The Third Refusal",
+      "owner": "Order of Saint Erigone",
+      "system": "Eleusis",
+      "before": "5/5",
+      "after": "4/5",
+      "destroyed": false
+    },
+    {
+      "fleet": "The Locked Reliquary",
+      "owner": "Eleusinian Synod",
+      "system": "Eleusis",
+      "before": "1/3",
+      "after": "0/3",
+      "destroyed": true
+    },
+    {
+      "fleet": "Da Gate-Krasha",
+      "owner": "WAAAGH! Bell-Ringa",
+      "system": "Calydon",
+      "before": "5/5",
+      "after": "4/5",
+      "destroyed": false
+    },
+    {
+      "fleet": "The Last Shift",
+      "owner": "Calydonian Labour Defence",
+      "system": "Calydon",
+      "before": "1/3",
+      "after": "0/3",
+      "destroyed": true
+    },
+    {
+      "fleet": "The Unanswered Muster",
+      "owner": "Aulis Anchorage Command",
+      "system": "Aulis",
+      "before": "5/5",
+      "after": "4/5",
+      "destroyed": false
+    },
+    {
+      "fleet": "Pleisthenes’ Oath",
+      "owner": "House Atreides",
+      "system": "Mycenae",
+      "before": "5/5",
+      "after": "4/5",
+      "destroyed": false
+    },
+    {
+      "fleet": "The Copper Hawk",
+      "owner": "House Atreides",
+      "system": "Mycenae",
+      "before": "5/5",
+      "after": "4/5",
+      "destroyed": false
+    },
+    {
+      "fleet": "Perseia’s Breakwater",
+      "owner": "House Atreides",
+      "system": "Mycenae",
+      "before": "5/5",
+      "after": "4/5",
+      "destroyed": false
+    },
+    {
+      "fleet": "The Dendra Covenant",
+      "owner": "House Atreides",
+      "system": "Mycenae",
+      "before": "3/3",
+      "after": "2/3",
+      "destroyed": false
+    },
+    {
+      "fleet": "The Sealed Testimony",
+      "owner": "Delphic Custodians",
+      "system": "Delphi",
+      "before": "4/4",
+      "after": "3/4",
+      "destroyed": false
+    },
+    {
+      "fleet": "The Convenient Pardon",
+      "owner": "Lotus Company",
+      "system": "Delphi",
+      "before": "1/1",
+      "after": "0/1",
+      "destroyed": true
+    },
+    {
+      "fleet": "The Granary Key",
+      "owner": "Nemean Estate Compact",
+      "system": "Nemea",
+      "before": "5/5",
+      "after": "4/5",
+      "destroyed": false
+    },
+    {
+      "fleet": "The Winter Measure",
+      "owner": "Nemean Estate Compact",
+      "system": "Nemea",
+      "before": "1/1",
+      "after": "0/1",
+      "destroyed": true
+    },
+    {
+      "fleet": "The Ninth Sluice",
+      "owner": "Lerna Reclamation Directorate",
+      "system": "Lerna",
+      "before": "3/3",
+      "after": "2/3",
+      "destroyed": false
+    },
+    {
+      "fleet": "Da Pressure Drop",
+      "owner": "Rustjaw Mob",
+      "system": "Lerna",
+      "before": "2/2",
+      "after": "1/2",
+      "destroyed": false
+    },
+    {
+      "fleet": "A Place at the Hearth",
+      "owner": "Ithacan Assembly",
+      "system": "Ithaca",
+      "before": "5/5",
+      "after": "4/5",
+      "destroyed": false
+    },
+    {
+      "fleet": "The Senior Warrant",
+      "owner": "Thessalian First Command",
+      "system": "Thessaly",
+      "before": "3/3",
+      "after": "2/3",
+      "destroyed": false
+    },
+    {
+      "fleet": "The Unbroken Trace",
+      "owner": "Thessalian Remount Command",
+      "system": "Thessaly",
+      "before": "2/2",
+      "after": "1/2",
+      "destroyed": false
+    }
+  ]
+}

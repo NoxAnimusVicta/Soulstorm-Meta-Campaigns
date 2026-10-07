@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 1 complete; Cycle 2 opening pending**
+Created 7 October 2026 · Subsector playtest · **Cycle 2 - Phase 0 complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -16,6 +16,8 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 ## Campaign conventions and opening status
 
+- Standing rollover procedure (Jake, 7 October 2026): after the third Major turn, finish Cycle-end checks, increment the Cycle, reset Fleet Actions and resolve Phase 0 in order: construction effects, scheduled Logistics including income/upkeep, then events. Publish the resulting state before handing back to the Iron Paladins. Do not wait for a separate opening request.
+
 - Three Major Factions, in fixed order: **Iron Paladins → WAAAGH! Bell-Ringa → Order of Saint Erigone**. Minor factions take no turns.
 - Every Major starts with 20 Supply, 20 Manpower, one 5/5 fleet and its 12/12 Capital only. This equal 5/5 opening is the explicit Atreus setup convention; Create Fleet during play remains 1/5 unless a rule changes it.
 - Each Major home system also contains one hostile ordinary Minor with a Standard and Minor planet. This is the approved home profile, not extra territory for the Major.
@@ -23,14 +25,14 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 - Mycenae is the authored prize system: House Atreides owns a Capital planet, Standard planet and Minor station. This fixed profile implements the approved prize placement; it is not represented as a rolled ordinary profile.
 - The remaining six systems use the saved d20 rolls. Ownership, names and faction identities are authored independently of those rolls. No rerolls were made.
 - Campaign victory convention: the last surviving Major wins after rival Majors lose their final fallback. An agreed concession can end play earlier. Minor holdings do not become owned territory and need not be conquered to meet this condition. No forced 100-Cycle ending.
-- Cycle 1 Phase 0 is resolved once: no periodic construction effects or Endurance recovery; Logistics is not due; event check d6 = 3, so no event. Opening effects left starting resources, holdings and fleets unchanged. First Logistics is Cycle 3. All three Major turns are resolved below. Olenos has fallen to the Orks and Daeira to the Order. Cycle 1 is complete; Cycle 2 Phase 0 has not yet been conducted.
+- Cycle 1 Phase 0 is resolved once: no periodic construction effects or Endurance recovery; Logistics is not due; event check d6 = 3, so no event. Opening effects left starting resources, holdings and fleets unchanged. First Logistics is Cycle 3. All three Major turns are resolved below. Olenos has fallen to the Orks and Daeira to the Order. Cycle 1 is complete. Cycle 2 Phase 0 is resolved below; Warp Storm is active.
 - Calendar date within Imperium Nihilus is intentionally unspecified. Track elapsed Cycles; there is no invented conversion to years. Exact officer ages and any finite lifespan windows remain unassigned, so no automatic ageing deaths are scheduled.
 - Artwork establishes visual identity. Army Painter channel mapping remains unassigned until the actual faction interfaces are checked; this gives no mechanical benefit and does not delay campaign setup.
 
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|1|Complete; awaiting Cycle 2 Phase 0|No event (check: 3)|Iron Paladins, after Cycle 2 Phase 0|None|3|
+|2|Phase 0 complete; awaiting Iron Paladins orders|Warp Storm: all fleets -1 Strength; ordinary movement blocked|Iron Paladins|None|3|
 
 ## Major faction registers
 
@@ -49,7 +51,7 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
 |Resources|23 Supply / 20 Manpower; neither deficit active|
-|Fleet|Crusade Fleet Anabasis — Argos — 5/5; action unused|
+|Fleet|Crusade Fleet Anabasis - Argos - 4/5; action unused in Cycle 2|
 |Constructions|Built-in Capital Orbital Shipyard; The Forge of Iron (Major Forge Complex), Tiryns, progress 1/5 and Integrity 1/5; inactive|
 |Next Logistics if unchanged|4 Supply / 4 Manpower gross; 1/1 fleet upkeep; net +3 / +3|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
@@ -69,7 +71,7 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
 |Resources|17 Supply / 19 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha — Calydon — 5/5; Fleet Action spent on Olenos Ground Assault|
+|Fleet|Da Gate-Krasha - Calydon - 4/5; action unused in Cycle 2|
 |Constructions|Built-in Capital Orbital Shipyard; unnamed Major Forge Complex on Da Bellworks, progress 1/5 and Integrity 1/5; inactive|
 |Next Logistics if unchanged|5 Supply / 9 Manpower gross; 1/1 fleet upkeep; net +4 / +8|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
@@ -89,7 +91,7 @@ The Order’s convents and shrine network preserve hospitals, military stores an
 |Exact effect|+6 Supply each Logistics Cycle.|
 |Capital|Erigone — Eleusis — 12/12|
 |Resources|14 Supply / 22 Manpower; neither deficit active|
-|Fleet|The Third Refusal — Eleusis — 5/5; Fleet Action spent on Daeira Ground Assault|
+|Fleet|The Third Refusal - Eleusis - 4/5; action unused in Cycle 2|
 |Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 1/5 and Integrity 1/5; inactive|
 |Next Logistics if unchanged|11 Supply / 5 Manpower gross; 1/1 fleet upkeep; net +10 / +4|
 |Briefing|[briefing_canoness_althaia.md](briefing_canoness_althaia.md)|
@@ -143,7 +145,7 @@ All holdings start at full defence; none is Defended. All fleets are unengaged w
 
 ### Argos
 
-**Void Superiority:** Iron Paladins 5 vs Argive Muster Council 3 — Iron Paladins superior; hostile fleet present.
+**Void Superiority:** Iron Paladins 4 vs Argive Muster Council 2 - Iron Paladins superior; hostile fleet present.
 
 Former assembly and administration centre; the Chapter controls Tiryns, not the entire system.
 
@@ -161,8 +163,8 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Crusade Fleet Anabasis|Iron Paladins|5/5|
-|The Unspent Levy|Argive Muster Council|3/3|
+|Crusade Fleet Anabasis|Iron Paladins|4/5|
+|The Unspent Levy|Argive Muster Council|2/3|
 
 
 
@@ -170,7 +172,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Eleusis
 
-**Void Superiority:** Order of Saint Erigone 5 vs Eleusinian Synod 1 — Order of Saint Erigone superior; hostile fleet present.
+**Void Superiority:** Order of Saint Erigone 4 vs hostile fleets 0 - Order of Saint Erigone superior; no hostile fleet present.
 
 The Order holds Erigone and has captured Daeira. Triptolemos remains under the independent Eleusinian Synod.
 
@@ -188,8 +190,8 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Third Refusal|Order of Saint Erigone|5/5|
-|The Locked Reliquary|Eleusinian Synod|1/3|
+|The Third Refusal|Order of Saint Erigone|4/5|
+
 
 
 
@@ -197,7 +199,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Calydon
 
-**Void Superiority:** WAAAGH! Bell-Ringa 5 vs Calydonian Labour Defence 1 — WAAAGH! Bell-Ringa superior; hostile fleet present.
+**Void Superiority:** WAAAGH! Bell-Ringa 4 vs hostile fleets 0 - WAAAGH! Bell-Ringa superior; no hostile fleet present.
 
 The Orks hold Da Bellworks and have captured Olenos. Pleuron remains under Calydonian Labour Defence control.
 
@@ -215,8 +217,8 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Da Gate-Krasha|WAAAGH! Bell-Ringa|5/5|
-|The Last Shift|Calydonian Labour Defence|1/3|
+|Da Gate-Krasha|WAAAGH! Bell-Ringa|4/5|
+
 
 
 
@@ -224,7 +226,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Aulis
 
-**Void Superiority:** Aulis Anchorage Command 5 vs hostile fleets 0 — Aulis Anchorage Command superior.
+**Void Superiority:** Aulis Anchorage Command 4 vs hostile fleets 0 - Aulis Anchorage Command superior; no hostile fleet present.
 
 Embarkation yards, troop-marshalling settlements and stranded naval administration.
 
@@ -241,7 +243,7 @@ Setup: d20 **5**; ownership authored separately.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Unanswered Muster|Aulis Anchorage Command|5/5|
+|The Unanswered Muster|Aulis Anchorage Command|4/5|
 
 
 
@@ -249,7 +251,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Mycenae
 
-**Void Superiority:** House Atreides 18 vs hostile fleets 0 — House Atreides superior.
+**Void Superiority:** House Atreides 14 vs hostile fleets 0 - House Atreides superior; no hostile fleet present.
 
 The prize dynasty holds a fortified seat, military estates and an orbital anchorage.
 
@@ -267,10 +269,10 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Pleisthenes’ Oath|House Atreides|5/5|
-|The Copper Hawk|House Atreides|5/5|
-|Perseia’s Breakwater|House Atreides|5/5|
-|The Dendra Covenant|House Atreides|3/3|
+|Pleisthenes’ Oath|House Atreides|4/5|
+|The Copper Hawk|House Atreides|4/5|
+|Perseia’s Breakwater|House Atreides|4/5|
+|The Dendra Covenant|House Atreides|2/3|
 
 
 
@@ -278,7 +280,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Delphi
 
-**Void Superiority:** Delphic Custodians 4 vs Lotus Company 1 — Delphic Custodians superior; hostile fleet present.
+**Void Superiority:** Delphic Custodians 3 vs hostile fleets 0 - Delphic Custodians superior; no hostile fleet present.
 
 Astropathic facilities, signal stations and archives whose messages no longer agree.
 
@@ -301,8 +303,8 @@ Setup: d20 **17**; ownership authored separately.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Sealed Testimony|Delphic Custodians|4/4|
-|The Convenient Pardon|Lotus Company|1/1|
+|The Sealed Testimony|Delphic Custodians|3/4|
+
 
 
 
@@ -310,7 +312,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Nemea
 
-**Void Superiority:** Nemean Estate Compact 6 vs hostile fleets 0 — Nemean Estate Compact superior.
+**Void Superiority:** Nemean Estate Compact 4 vs hostile fleets 0 - Nemean Estate Compact superior; no hostile fleet present.
 
 Agricultural estates and hunting preserves once bound to the crusade provisioning system.
 
@@ -328,8 +330,8 @@ Setup: d20 **13**; ownership authored separately.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Granary Key|Nemean Estate Compact|5/5|
-|The Winter Measure|Nemean Estate Compact|1/1|
+|The Granary Key|Nemean Estate Compact|4/5|
+
 
 
 
@@ -337,7 +339,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Lerna
 
-**Void Superiority:** Lerna Reclamation Directorate 3 vs Rustjaw Mob 2 — Lerna Reclamation Directorate superior; hostile fleet present.
+**Void Superiority:** Lerna Reclamation Directorate 2 vs Rustjaw Mob 1 - Lerna Reclamation Directorate superior; hostile fleet present.
 
 Wet industrial worlds and chemical works separated by contaminated waterways.
 
@@ -359,8 +361,8 @@ Setup: d20 **12**; ownership authored separately.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Ninth Sluice|Lerna Reclamation Directorate|3/3|
-|Da Pressure Drop|Rustjaw Mob|2/2|
+|The Ninth Sluice|Lerna Reclamation Directorate|2/3|
+|Da Pressure Drop|Rustjaw Mob|1/2|
 
 
 
@@ -368,7 +370,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Ithaca
 
-**Void Superiority:** Ithacan Assembly 5 vs hostile fleets 0 — Ithacan Assembly superior.
+**Void Superiority:** Ithacan Assembly 4 vs hostile fleets 0 - Ithacan Assembly superior; no hostile fleet present.
 
 Resettlement worlds of displaced families, veterans and descendants of missing crews.
 
@@ -387,7 +389,7 @@ Setup: d20 **17**; ownership authored separately.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|A Place at the Hearth|Ithacan Assembly|5/5|
+|A Place at the Hearth|Ithacan Assembly|4/5|
 
 
 
@@ -395,7 +397,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Thessaly
 
-**Void Superiority:** Thessalian First Command 3 vs Thessalian Remount Command 2 — Thessalian First Command superior; hostile fleet present.
+**Void Superiority:** Thessalian First Command 2 vs Thessalian Remount Command 1 - Thessalian First Command superior; hostile fleet present.
 
 Military estates, vehicle depots and open-country settlements divided between surviving commands.
 
@@ -418,8 +420,8 @@ Setup: d20 **16**; ownership authored separately.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Senior Warrant|Thessalian First Command|3/3|
-|The Unbroken Trace|Thessalian Remount Command|2/2|
+|The Senior Warrant|Thessalian First Command|2/3|
+|The Unbroken Trace|Thessalian Remount Command|1/2|
 
 
 
@@ -431,19 +433,20 @@ Minor resources below are **derived defence values**, not spendable Major stockp
 
 |Minor|Leader|Holdings|Fleet allocation|Derived Supply / Manpower|
 |---|---|---|---|---|
-|Argive Muster Council|Strategos Damas|Heraion, Prosymna|3 total: 3|15 / 15|
-|Eleusinian Synod|Prelate Lysandra|Triptolemos|1 surviving / original 3; Planet Fall loss 2|10 / 10|
-|Calydonian Labour Defence|Marshal Oineus|Pleuron|1 surviving / original 3; Planet Fall loss 2|10 / 10|
-|Aulis Anchorage Command|Commodore Thestor|Schoenus, Hyria|5 total: 5|20 / 20|
-|House Atreides (prize)|Archon Pleisthenes Atreides|Perseia, Dendra, Lion Gate|18 total: 5, 5, 5, 3|70 / 70|
-|Delphic Custodians|Logothete Manto|Corycia, Pytho, Omphalos Relay|4 total: 4|20 / 20|
-|Lotus Company|Captain Eurylochos|Castalia|1 total: 1|5 / 5|
-|Nemean Estate Compact|Warden Adrastos|Cleonae, Phlius, Apesas|6 total: 5, 1|25 / 25|
-|Lerna Reclamation Directorate|Magister Polydoros|Pontinos, Alcyonian Dock|3 total: 3|15 / 15|
-|Rustjaw Mob|Boss Skrag Rustjaw|Amymone|2 total: 2|10 / 10|
-|Ithacan Assembly|Speaker Eumaia|Neriton, Eumaia’s Rest, Same, Return Anchorage|5 total: 5|25 / 25|
-|Thessalian First Command|General Leontes|Pelion, Pharsalos|3 total: 3|15 / 15|
-|Thessalian Remount Command|Colonel Phereas|Pherae, Pagasae|2 total: 2|10 / 10|
+|Argive Muster Council|Strategos Damas|Heraion, Prosymna|2/3 surviving|15 / 15|
+|Eleusinian Synod|Prelate Lysandra|Triptolemos|None; fleet destroyed in Cycle 2 Warp Storm|10 / 10|
+|Calydonian Labour Defence|Marshal Oineus|Pleuron|None; fleet destroyed in Cycle 2 Warp Storm|10 / 10|
+|Aulis Anchorage Command|Commodore Thestor|Schoenus, Hyria|4/5 surviving|20 / 20|
+|House Atreides (prize)|Archon Pleisthenes Atreides|Perseia, Dendra, Lion Gate|4/5, 4/5, 4/5, 2/3 surviving|70 / 70|
+|Delphic Custodians|Logothete Manto|Corycia, Pytho, Omphalos Relay|3/4 surviving|20 / 20|
+|Lotus Company|Captain Eurylochos|Castalia|None; fleet destroyed in Cycle 2 Warp Storm|5 / 5|
+|Nemean Estate Compact|Warden Adrastos|Cleonae, Phlius, Apesas|4/5 surviving|25 / 25|
+|Lerna Reclamation Directorate|Magister Polydoros|Pontinos, Alcyonian Dock|2/3 surviving|15 / 15|
+|Rustjaw Mob|Boss Skrag Rustjaw|Amymone|1/2 surviving|10 / 10|
+|Ithacan Assembly|Speaker Eumaia|Neriton, Eumaia’s Rest, Same, Return Anchorage|4/5 surviving|25 / 25|
+|Thessalian First Command|General Leontes|Pelion, Pharsalos|2/3 surviving|15 / 15|
+|Thessalian Remount Command|Colonel Phereas|Pherae, Pagasae|1/2 surviving|10 / 10|
+
 
 ### Argive Muster Council
 
@@ -573,6 +576,7 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 | 1 / Order of Saint Erigone / Social | No action | None | No Communique. | None |
 | 1 / Order of Saint Erigone / Construction | Begin The Vigil of the Three Refusals, Major Military Academy on Erigone | 5 Supply: 19 to 14 | Progress 1/5; Integrity 1/5; inactive. Host at 12/12; ordinary slot now occupied. Final resources 14 Supply / 22 Manpower. | None |
 | 1 / Cycle end | Minor recovery check | None | All surviving unattacked Minor holdings are already at maximum defence. Calydonian Labour Defence and Eleusinian Synod engaged this Cycle and receive no fleet recovery; other surviving Minor fleets are full. No changes. Cycle 1 closed. | Cycle 2 Phase 0; then Iron Paladins |
+| 2 / Phase 0 | Construction effects, Logistics check, event check; Fleet Actions reset | Warp Storm: 1 Strength per fleet | Three unfinished projects remain inactive at 1/5; no automatic progress. Logistics not due until Cycle 3. Event check 1; event-table roll 1: Warp Storm. All Major fleets 5/5 to 4/5. The Locked Reliquary, The Last Shift, The Convenient Pardon and The Winter Measure destroyed at 0. All other fleets lose 1; no attached fleet projects or Major fleet destruction penalties. No resource changes. Ordinary movement blocked for Cycle 2. [Saved rolls and fleet audit](Atreus_Cycle_02_Phase_0_Rolls.json). | Iron Paladins orders |
 
 ## Cycle Records
 
