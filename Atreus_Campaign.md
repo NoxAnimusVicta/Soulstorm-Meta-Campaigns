@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 2 - Phase 0 complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 2 - Iron Paladins turn complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|2|Phase 0 complete; awaiting Iron Paladins orders|Warp Storm: all fleets -1 Strength; ordinary movement blocked|Iron Paladins|None|3|
+|2|Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders|Warp Storm: opening fleet damage resolved; ordinary movement blocked|WAAAGH! Bell-Ringa|None|3|
 
 ## Major faction registers
 
@@ -50,9 +50,9 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Trait|The Iron Tithe — Efficient Logistics|
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
-|Resources|23 Supply / 20 Manpower; neither deficit active|
-|Fleet|Crusade Fleet Anabasis - Argos - 4/5; action unused in Cycle 2|
-|Constructions|Built-in Capital Orbital Shipyard; The Forge of Iron (Major Forge Complex), Tiryns, progress 1/5 and Integrity 1/5; inactive|
+|Resources|25 Supply / 19 Manpower; neither deficit active|
+|Fleet|Crusade Fleet Anabasis - Argos - 5/5; Fleet Action spent on Expand in Cycle 2|
+|Constructions|Built-in Capital Orbital Shipyard; The Forge of Iron (Major Forge Complex), Tiryns, progress 2/5 and Integrity 2/5; inactive|
 |Next Logistics if unchanged|4 Supply / 4 Manpower gross; 1/1 fleet upkeep; net +3 / +3|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
 
@@ -145,7 +145,7 @@ All holdings start at full defence; none is Defended. All fleets are unengaged w
 
 ### Argos
 
-**Void Superiority:** Iron Paladins 4 vs Argive Muster Council 2 - Iron Paladins superior; hostile fleet present.
+**Void Superiority:** Iron Paladins 5 vs Argive Muster Council 2 - Iron Paladins superior; hostile fleet present.
 
 Former assembly and administration centre; the Chapter controls Tiryns, not the entire system.
 
@@ -163,7 +163,7 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Crusade Fleet Anabasis|Iron Paladins|4/5|
+|Crusade Fleet Anabasis|Iron Paladins|5/5|
 |The Unspent Levy|Argive Muster Council|2/3|
 
 
@@ -538,7 +538,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Er
 
 |Faction|Project|Type / location|Progress / Integrity|Effect / status|
 |---|---|---|---|---|
-|Iron Paladins|The Forge of Iron|Major Forge Complex / Tiryns, Argos|Progress 1/5; Integrity 1/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Tiryns construction slot occupied.|
+|Iron Paladins|The Forge of Iron|Major Forge Complex / Tiryns, Argos|Progress 2/5; Integrity 2/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Tiryns construction slot occupied.|
 |WAAAGH! Bell-Ringa|Forge Complex (name unassigned)|Major Forge Complex / Da Bellworks, Calydon|Progress 1/5; Integrity 1/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Da Bellworks construction slot occupied.|
 |Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 1/5; Integrity 1/5|Under construction; inactive. +7 Manpower per Logistics Cycle only when completed and at full Integrity. Erigone construction slot occupied.|
 
@@ -577,6 +577,10 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 | 1 / Order of Saint Erigone / Construction | Begin The Vigil of the Three Refusals, Major Military Academy on Erigone | 5 Supply: 19 to 14 | Progress 1/5; Integrity 1/5; inactive. Host at 12/12; ordinary slot now occupied. Final resources 14 Supply / 22 Manpower. | None |
 | 1 / Cycle end | Minor recovery check | None | All surviving unattacked Minor holdings are already at maximum defence. Calydonian Labour Defence and Eleusinian Synod engaged this Cycle and receive no fleet recovery; other surviving Minor fleets are full. No changes. Cycle 1 closed. | Cycle 2 Phase 0; then Iron Paladins |
 | 2 / Phase 0 | Construction effects, Logistics check, event check; Fleet Actions reset | Warp Storm: 1 Strength per fleet | Three unfinished projects remain inactive at 1/5; no automatic progress. Logistics not due until Cycle 3. Event check 1; event-table roll 1: Warp Storm. All Major fleets 5/5 to 4/5. The Locked Reliquary, The Last Shift, The Convenient Pardon and The Winter Measure destroyed at 0. All other fleets lose 1; no attached fleet projects or Major fleet destruction penalties. No resource changes. Ordinary movement blocked for Cycle 2. [Saved rolls and fleet audit](Atreus_Cycle_02_Phase_0_Rolls.json). | Iron Paladins orders |
+| 2 / Iron Paladins / Fleet | Expand Crusade Fleet Anabasis at Tiryns built-in shipyard | 1 Supply: 23 to 22; 1 Manpower: 20 to 19 | Restored 4/5 to 5/5, capped at maximum. Fleet Action spent; no assault. Warp Storm blocks movement, not yard expansion. | None |
+| 2 / Iron Paladins / Faction | Reinforce through The Iron Tithe | None | +8 Supply: 22 to 30. | None |
+| 2 / Iron Paladins / Social | No action | None | No Communique. | None |
+| 2 / Iron Paladins / Construction | Continue The Forge of Iron on Tiryns | 5 Supply: 30 to 25 | Progress and Integrity 1/5 to 2/5; unfinished and inactive. Tiryns remains 12/12. Final resources 25 Supply / 19 Manpower. Submitted heading said Cycle 1; resolved as Cycle 2 because orders match the current state. | WAAAGH! Bell-Ringa orders |
 
 ## Cycle Records
 

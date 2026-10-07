@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 2,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
   "event": "Warp Storm",
   "logistics_due": 3,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -19,7 +19,7 @@
   "rules_amendments": [
     "2026-10-07: only Major Factions have Alignments; Minors are independent hostile powers and cannot enter diplomatic agreements or alliances."
   ],
-  "notes": "Cycle 2 open. Warp Storm: all surviving fleets lost 1 Strength; ordinary movement blocked this Cycle. Anabasis, Da Gate-Krasha and The Third Refusal are 4/5, actions reset. Four Minor fleets destroyed at 0. Resources unchanged; projects remain inactive at 1/5. Logistics due Cycle 3. Iron Paladins to act.",
+  "notes": "Cycle 2 Warp Storm remains active; ordinary movement blocked. Iron Paladins repaired Anabasis to 5/5, Reinforced and advanced The Forge of Iron to 2/5 progress and Integrity. Final resources 25 Supply / 19 Manpower. Fleet Action spent. Bell-Ringa next; Logistics due Cycle 3.",
   "phase_zero_resolved": true,
   "event_check": 1,
   "phase_zero_rolls": "Atreus_Cycle_02_Phase_0_Rolls.json",
