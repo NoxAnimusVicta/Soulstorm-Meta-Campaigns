@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
-  "cycle": 10,
-  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
-  "event": "Supply Crisis",
+  "cycle": 11,
+  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "event": "No event",
   "logistics_due": 12,
-  "next_faction": "Order of Saint Erigone",
+  "next_faction": "Iron Paladins",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -22,11 +22,11 @@
     "2026-10-08: Uniform construction baseline restored: Minor 3 actions at 3 Supply; Major 5 actions at 5 Supply, for base and supported upgrades. Construction-specific discounts removed; trait modifiers remain in trait descriptions.",
     "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70."
   ],
-  "notes": "Iron Paladins and Bell-Ringa Cycle 10 turns complete. Bell-Ringa 7 Supply / 27 Manpower. Gate-Krasha 7/7, Da Fist 5/5 and Da Backhand 3/5 all in Calydon, actions spent; Void Superiority 15 to 5 over Returning Escort. No combat. Da Iron Gob upgrade paused 1/5, Integrity 6/10, base income active. Iron Paladins 17/15; Order 12/35 and yet to act. Supply Crisis already applied; next Logistics Cycle 12.",
+  "notes": "Cycle 10 closed; Cycle 11 Phase 0 complete. Pytho reduced to 2/4, still Custodian-controlled. Third Refusal and Returning Escort both 5/5 in Delphi; Unbroken Procession 3/5 Eleusis. Breach Litany 1/3 inactive, host at Castalia shipyard system. Actions reset. No periodic construction effects or Logistics; next Logistics Cycle 12. Event check 4: no event; previous Supply Crisis not repeated. Resources Iron Paladins 17/15, Bell-Ringa 7/27, Order 9/33. Iron Paladins to act.",
   "phase_zero_resolved": true,
-  "event_check": 6,
-  "phase_zero_rolls": "Atreus_Cycle_10_Phase_0_Rolls.json",
+  "event_check": 4,
+  "phase_zero_rolls": "Atreus_Cycle_11_Phase_0_Rolls.json",
   "cycle_complete": false,
-  "event_roll": 3,
+  "event_roll": null,
   "rollover_policy": "After third Major turn: close Cycle, increment and reset actions; resolve constructions, scheduled Logistics, events; hand back to Iron Paladins."
 }

@@ -1,0 +1,24 @@
+{
+  "cycle": 10,
+  "method": "JavaScript Math.random; raw draws saved once.",
+  "raw": [
+    0.8549764296771739,
+    0.3853333675904982
+  ],
+  "attacker": {
+    "roll": 18,
+    "strength": 5,
+    "supply": 10,
+    "manpower": 34,
+    "total": 31
+  },
+  "defender": {
+    "roll": 8,
+    "strength": 0,
+    "supply": 8,
+    "manpower": 9,
+    "total": 10
+  },
+  "outcome": "Attacker victory; 2 damage reduces Pytho 4/4 to 2/4; no capture or Planet Fall.",
+  "manpower_return": 0
+}

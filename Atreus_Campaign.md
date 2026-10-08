@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 10 - WAAAGH! Bell-Ringa turn complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 11 - Phase 0 complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|10|WAAAGH! Bell-Ringa turn complete|Supply Crisis (check 6; event 3; applied)|Order of Saint Erigone|None|12|
+|11|Phase 0 complete; awaiting Iron Paladins orders|No event (check: 4)|Iron Paladins|None|12|
 
 ## Major faction registers
 
@@ -51,7 +51,7 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
 |Resources|17 Supply / 15 Manpower; neither deficit active|
-|Fleet|Crusade Fleet Anabasis - Argos - 5/5 and The Emperor’s Judgement - Argos - 5/5, actions unused; Vigilatius - Argos - 3/5, action spent in Cycle 10|
+|Fleet|Crusade Fleet Anabasis - Argos - 5/5; The Emperor’s Judgement - Argos - 5/5; Vigilatius - Argos - 3/5; all actions unused in Cycle 11|
 |Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle|
 |Next Logistics if unchanged|21 Supply / 7 Manpower gross including upgraded Forge; 3/3 fleet upkeep; net +18 / +4|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
@@ -71,7 +71,7 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
 |Resources|7 Supply / 27 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Calydon - 7/7; Da Fist - Calydon - 5/5; Da Backhand - Calydon - 3/5; all actions spent in Cycle 10|
+|Fleet|Da Gate-Krasha - Calydon - 7/7; Da Fist - Calydon - 5/5; Da Backhand - Calydon - 3/5; all actions unused in Cycle 11|
 |Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 1/5 and Integrity 6/10; base +7 Supply income retained at Integrity 5 or above, +14 at full upgraded Integrity; Da Jaw-Breaka (Assault Cruiser) on Da Gate-Krasha, progress and Integrity 3/3, complete; +2 permanent Fleet Strength and capacity granted (7/7 total)|
 |Next Logistics if unchanged|14 Supply / 11 Manpower gross including Forge and trait; 3/3 fleet upkeep; net +11 / +8|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
@@ -90,9 +90,9 @@ The Order’s convents and shrine network preserve hospitals, military stores an
 |Trait|Offerings of the Faithful — War Economy|
 |Exact effect|+6 Supply each Logistics Cycle.|
 |Capital|Erigone — Eleusis — 12/12|
-|Resources|12 Supply / 35 Manpower; neither deficit active|
-|Fleet|The Third Refusal - Delphi - 5/5; The Returning Escort - Calydon - 5/5; The Unbroken Procession - Eleusis - 1/5; all actions unused in Cycle 10|
-|Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 5/5 and Integrity 5/5; complete and active, +7 Manpower per Logistics Cycle; Castalia Anchorage (Minor Orbital Shipyard), progress and Integrity 3/3, complete and operational|
+|Resources|9 Supply / 33 Manpower; neither deficit active|
+|Fleet|The Third Refusal - Delphi - 5/5; The Returning Escort - Delphi - 5/5; The Unbroken Procession - Eleusis - 3/5; all actions unused in Cycle 11|
+|Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 5/5 and Integrity 5/5; complete and active, +7 Manpower per Logistics Cycle; Castalia Anchorage (Minor Orbital Shipyard), progress and Integrity 3/3, complete and operational; The Breach Litany (Bombardment Bay) on The Third Refusal, progress and Integrity 1/3, inactive|
 |Next Logistics if unchanged|16 Supply / 17 Manpower gross including Academy and trait; 3/3 fleet upkeep; net +13 / +14|
 |Briefing|[briefing_canoness_althaia.md](briefing_canoness_althaia.md)|
 
@@ -173,7 +173,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Eleusis
 
-**Void Superiority:** Order of Saint Erigone 1 vs hostile fleets 0 - Order of Saint Erigone superior; no hostile fleet present.
+**Void Superiority:** Order of Saint Erigone 3 vs hostile fleets 0 - Order of Saint Erigone superior; no hostile fleet present.
 
 The Order holds Erigone, Daeira and newly captured Triptolemos. The Eleusinian Synod has lost its final holding and is eliminated as an independent campaign faction.
 
@@ -191,7 +191,7 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Unbroken Procession|Order of Saint Erigone|1/5|
+|The Unbroken Procession|Order of Saint Erigone|3/5|
 
 
 
@@ -200,7 +200,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Calydon
 
-**Void Superiority:** WAAAGH! Bell-Ringa 15 vs Order of Saint Erigone 5 - WAAAGH! Bell-Ringa superior; hostile fleet present.
+**Void Superiority:** WAAAGH! Bell-Ringa 15 vs hostile fleets 0 - WAAAGH! Bell-Ringa superior; no hostile fleet present.
 
 The Orks hold all of Calydon: Da Bellworks, Olenos and newly captured Pleuron. The Calydonian Labour Defence has lost its final holding and is eliminated.
 
@@ -221,7 +221,6 @@ Setup: fixed home/prize profile recorded above.
 |Da Backhand|WAAAGH! Bell-Ringa|3/5|
 |Da Gate-Krasha|WAAAGH! Bell-Ringa|7/7|
 |Da Fist|WAAAGH! Bell-Ringa|5/5|
-|The Returning Escort|Order of Saint Erigone|5/5|
 
 
 
@@ -284,7 +283,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Delphi
 
-**Void Superiority:** Order of Saint Erigone 5 vs hostile fleets 0 - Order of Saint Erigone superior; no hostile fleet present.
+**Void Superiority:** Order of Saint Erigone 10 vs hostile fleets 0 - Order of Saint Erigone superior; no hostile fleet present.
 
 Astropathic facilities, signal stations and archives whose messages no longer agree.
 
@@ -302,12 +301,13 @@ Setup: d20 **17**; ownership authored separately.
 |---|---|---|---|---|---|
 |Castalia|Minor Planet|Order of Saint Erigone|2/2|1 Supply + 1 Manpower|The Order of Saint Erigone occupies the dry basin city around Castalia's abandoned water-processing plant. Sisters guard repaired landing approaches and the reservoir compounds seized from the Lotus Company, while patrols search the rock gullies beyond the settlement. Cargo yards have been secured and work has begun on an orbital anchorage above the captured world.|Arid spaceport or outlaw settlement; gullies, cargo cover and refinery ruins.|
 |Corycia|Minor Planet|Order of Saint Erigone|1/2|1 Supply + 1 Manpower|The Order of Saint Erigone holds Corycia's cavern archive entrances and the lift terminals above its mist-filled ravines. Sisters establish battered bridgeheads among the monastic service towns, securing paths to the sealed repositories. Damaged cable stations and breached positions mark the assault; the Delphic Custodians retain Pytho beyond this newly captured world.|Mountain stronghold; ravines, bridges, tunnels or narrow rocky approaches.|
-|Pytho|Standard Planet|Delphic Custodians|4/4|2 Supply + 2 Manpower|A civilised world of signal towers, scribal districts and crowded transmission courts. Ceremonial streets connect fortified archive buildings to the astropathic precinct; surrounding tenements house generations of clerks and guards. Rooftop antenna forests break the skyline above courtyards suitable for mustering infantry.|Dense Imperial city; plazas, administrative blocks and communications installations.|
+|Pytho|Standard Planet|Delphic Custodians|2/4|2 Supply + 2 Manpower|A civilised world of signal towers, scribal districts and crowded transmission courts. The Delphic Custodians retain the astropathic precinct and inner archive buildings after the Order of Saint Erigone breached the outer defensive districts. Damaged antenna towers overlook barricaded courtyards, while surviving wardens reinforce the approaches through the clerks’ tenements.|Dense Imperial city; plazas, administrative blocks and communications installations.|
 |Omphalos Relay|Minor Station|Order of Saint Erigone|1/2|1 Supply + 1 Manpower|An orbital relay station whose rotating habitation rings surround a hardened signal core. Sisters of the Order of Saint Erigone hold the breached transit hubs and message vaults, establishing a garrison amid damaged bulkheads and machinery. The Custodians have lost the relay, though their surviving fleet and other holdings remain elsewhere in Delphi.|Station interior; compact junctions, machinery chambers and enclosed service corridors.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
 |The Third Refusal|Order of Saint Erigone|5/5|
+|The Returning Escort|Order of Saint Erigone|5/5|
 
 
 
@@ -549,6 +549,8 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and
 |WAAAGH! Bell-Ringa|Da Jaw-Breaka|Minor Fleet Construction / Da Gate-Krasha, Calydon|Progress 3/3; Integrity 3/3|Complete. Grants +2 permanent current and maximum Fleet Strength; Da Gate-Krasha is 7/7 (base 5 plus 2 from Da Jaw-Breaka). Granted capacity remains until the fleet is destroyed.|
 |Order of Saint Erigone|Castalia Anchorage|Minor Orbital Shipyard / Castalia, Delphi|Progress 3/3; Integrity 3/3|Complete and operational. Orbital Shipyard available in Delphi. Castalia ordinary construction slot occupied.|
 
+|Order of Saint Erigone|The Breach Litany|Minor Bombardment Bay / The Third Refusal, Delphi|Progress 1/3; Integrity 1/3|Unfinished and inactive. Completion grants +1 Ground Assault damage.|
+
 ## Setup provenance and decision ledger
 
 **9 October 2026 correction:** Minor Factions cannot have Capital-tier holdings. Perseia is corrected to Major 8/8 and Lion Gate to Standard Station 4/4; Dendra stays Standard 4/4. Perseia has no inherent Capital shipyard. House Atreides retains its existing fleets and prize-resource multiplier; its total holding tiers remain 7, so derived resources remain 70 Supply / 70 Manpower. This holding-tier correction does not retroactively rerun battles or fleet recovery.
@@ -747,6 +749,15 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |10 / WAAAGH! Bell-Ringa / Social|No action.|None.|No change.|None|
 |10 / WAAAGH! Bell-Ringa / Construction|Pause Da Iron Gob upgrade; no action.|None.|Upgrade stays 1/5, Integrity 6/10; base +7 Supply per Logistics Cycle active. Final resources 7 Supply / 27 Manpower.|Order of Saint Erigone orders|
 
+|10 / Order of Saint Erigone / Fleet|First Third Refusal assaults Pytho; then Returning Escort moves Calydon to Delphi; Expand Unbroken Procession at Erigone.|Assault 2 Supply / 1 Manpower: 12/35 to 10/34; victory recovery rounds down to 0. Movement free. Expand 1/1: 10/34 to 9/33.|AI victory 31 to 10: attacker d20 18 +5 Strength +2 Supply +6 Manpower; defender d20 8 +0 Strength +1 Supply +1 Manpower (8/9 after commitment). 2 damage reduces Pytho 4/4 to 2/4, still Custodian-controlled; no Planet Fall. Returning Escort does not participate in assault. Procession 1/5 to 3/5. All actions spent. [Saved roll](Atreus_Cycle_10_Pytho_Battle.json).|None|
+|10 / Order of Saint Erigone / Faction|Reinforce.|+3 Supply: 9 to 12.|Resolved.|None|
+|10 / Order of Saint Erigone / Social|No action.|None.|No change.|None|
+|10 / Order of Saint Erigone / Construction|Begin The Breach Litany, Bombardment Bay on Third Refusal, Delphi.|3 Supply: 12 to 9.|Progress and Integrity 1/3, inactive. Host full 5/5; Castalia Anchorage operational in same system. Final resources 9 Supply / 33 Manpower.|Cycle closure|
+|10 / Cycle end|Minor recovery and completed narrative.|None.|Pytho attacked: no defence recovery. Custodians engaged and have no surviving fleet. Other surviving Minor assets full; no changes or resurrection.|Cycle 11 Phase 0|
+|11 / Phase 0 / Constructions|Periodic effects and Fleet Action reset.|None.|No periodic damage, repair or Endurance. Grand Forge upgraded income active; Da Iron Gob retains base income; Breach Litany inactive 1/3. No automatic progress or repeated permanent Strength grant.|Logistics check|
+|11 / Phase 0 / Logistics|Scheduled Logistics check.|None.|Not due until Cycle 12. Resources Iron Paladins 17/15, Bell-Ringa 7/27, Order 9/33 (Supply/Manpower).|Events|
+|11 / Phase 0 / Events|Roll d6 once.|None.|Check 4: no event. Prior Supply Crisis already settled; no repeat loss. [Opening audit](Atreus_Cycle_11_Phase_0_Rolls.json).|Iron Paladins orders|
+
 ## Cycle Records
 
 ### Cycle 1 - Foundries and burial gates
@@ -838,6 +849,16 @@ Bell-Ringa sent Da Gate-Krasha and Da Fist into Lerna. Their combined strength o
 In Delphi, the Order seized Corycia's archive entrances and bridgeheads. The loss destroyed The Sealed Testimony, leaving the Delphic Custodians holding Pytho without a surviving fleet. Castalia Anchorage was completed, giving Althaia an operational shipyard in the system.
 
 The Returning Escort departed Eleusis for Calydon, where it confronted the newly commissioned Da Backhand without opening battle. The Unbroken Procession took up the Order's presence at Erigone. With the Ork main fleet in Lerna and the Order's ships above Da Bellworks, the Cycle ended with the Major powers facing each other directly in the void.
+
+### Cycle 10 — A narrow withdrawal
+
+The supply crisis strained the armies of Atreus. The Iron Paladins replenished their military stores and strengthened Vigilatius while Anabasis and The Emperor’s Judgement held in Argos. At Tiryns, the Grand Forge's expansion was completed, bringing its new halls into production.
+
+Bell-Ringa recalled Da Gate-Krasha and Da Fist from Lerna. Their return, together with the strengthening of Da Backhand, restored Ork superiority above Calydon. The Returning Escort withdrew to Delphi without battle. Work on Da Iron Gob's expansion paused as the Warboss replenished his stores, its existing furnaces continuing to serve the host.
+
+The Third Refusal struck Pytho before the returning fleet arrived. The Order broke the outer defensive districts, but the Custodians retained their inner archives and astropathic precinct. At Castalia Anchorage, work began on The Breach Litany aboard The Third Refusal, while The Unbroken Procession was expanded at Erigone.
+
+The Cycle closed with the Order's advance fleets gathered in Delphi and the Ork fleets back over their own holdings. No communiques passed between the Major powers.
 
 ## Pinned rules appendix
 

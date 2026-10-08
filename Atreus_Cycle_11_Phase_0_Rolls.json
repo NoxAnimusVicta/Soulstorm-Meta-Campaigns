@@ -1,0 +1,25 @@
+{
+  "cycle": 11,
+  "method": "JavaScript Math.random; raw draws saved once.",
+  "raw_check": 0.6505979094235029,
+  "event_check": 4,
+  "raw_event": null,
+  "event_roll": null,
+  "minor_recovery": "Pytho attacked; no recovery. Other surviving assets full; no resurrection.",
+  "construction_effects": "None; Breach Litany unfinished.",
+  "logistics": "Not due until Cycle 12.",
+  "resources": {
+    "iron_paladins": [
+      17,
+      15
+    ],
+    "bell_ringa": [
+      7,
+      27
+    ],
+    "order": [
+      9,
+      33
+    ]
+  }
+}
