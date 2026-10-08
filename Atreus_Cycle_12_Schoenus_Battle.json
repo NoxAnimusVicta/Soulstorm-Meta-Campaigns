@@ -1,0 +1,42 @@
+{
+  "campaign": "Atreus",
+  "cycle": 12,
+  "date": "2026-10-09",
+  "resolution": "Human-reported Soulstorm victory; no AI roll",
+  "attacker": "Iron Paladins",
+  "defender": "Aulis Anchorage Command",
+  "target": "Schoenus",
+  "player_report": "The Aulis Anchorage Command put up a worthy resistance but they were eventually drowned in a wave of Iron",
+  "attacking_fleet": "The Emperor’s Judgement",
+  "ground_strength": 5,
+  "assault_cost": {
+    "supply": 1,
+    "manpower": 1
+  },
+  "returned_manpower": 0,
+  "damage": 2,
+  "capture_defence": "1/2",
+  "planet_fall": {
+    "fleet": "The Unanswered Muster",
+    "before": "5/5",
+    "after": "3/5"
+  },
+  "fallback": "Hyria",
+  "defend": {
+    "supply": 1,
+    "manpower": 1,
+    "after": "2/2",
+    "until": "Start of Iron Paladins Cycle 13 turn"
+  },
+  "construction": {
+    "project": "Gene-Seed Vaults",
+    "supply": 5,
+    "progress": "2/5",
+    "integrity": "2/5",
+    "active": false
+  },
+  "final_resources": {
+    "supply": 22,
+    "manpower": 24
+  }
+}

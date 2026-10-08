@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 12 - Phase 0 complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 12 - Iron Paladins turn complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|12|Phase 0 complete; awaiting Iron Paladins orders|No event (check: 5)|Iron Paladins|None|15|
+|12|Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders|No event (check: 5)|WAAAGH! Bell-Ringa|None|15|
 
 ## Major faction registers
 
@@ -50,10 +50,10 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Trait|The Iron Tithe — Efficient Logistics|
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
-|Resources|29 Supply / 26 Manpower; neither deficit active|
-|Fleet|Crusade Fleet Anabasis - Argos - 5/5; The Emperor’s Judgement - Aulis - 5/5; Vigilatius - Argos - 5/5; all actions unused in Cycle 12|
-|Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Gene-Seed Vaults (Major Military Academy) on Heraion, progress and Integrity 1/5, inactive|
-|Next Logistics if unchanged|21 Supply / 7 Manpower gross including upgraded Forge; 3/3 fleet upkeep; net +18 / +4|
+|Resources|22 Supply / 24 Manpower; neither deficit active|
+|Fleet|Crusade Fleet Anabasis - Aulis - 5/5, action spent; The Emperor’s Judgement - Aulis - 5/5, action spent; Vigilatius - Argos - 5/5, action unused in Cycle 12|
+|Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Gene-Seed Vaults (Major Military Academy) on Heraion, progress and Integrity 2/5, inactive|
+|Next Logistics if unchanged|22 Supply / 8 Manpower gross including upgraded Forge and Schoenus; 3/3 fleet upkeep; net +19 / +5|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
 
 ### 2. WAAAGH! Bell-Ringa
@@ -145,7 +145,7 @@ All holdings start at full defence; none is Defended. All fleets are unengaged w
 
 ### Argos
 
-**Void Superiority:** Iron Paladins 10 vs hostile fleets 0 - Iron Paladins superior; no hostile fleet present.
+**Void Superiority:** Iron Paladins 5 vs hostile fleets 0 - Iron Paladins superior; no hostile fleet present.
 
 The Iron Paladins control Tiryns, Prosymna and newly captured Heraion, securing all holdings in Argos. The Argive Muster Council has lost its final holding and is eliminated.
 
@@ -163,7 +163,6 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Crusade Fleet Anabasis|Iron Paladins|5/5|
 |Vigilatius|Iron Paladins|5/5|
 
 
@@ -229,7 +228,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Aulis
 
-**Void Superiority:** Iron Paladins 5 vs Aulis Anchorage Command 5 - contested; neither side has Void Superiority.
+**Void Superiority:** Iron Paladins 10 vs Aulis Anchorage Command 3 - Iron Paladins superior; hostile fleet present.
 
 Embarkation yards, troop-marshalling settlements and stranded naval administration.
 
@@ -241,12 +240,13 @@ Setup: d20 **5**; ownership authored separately.
 
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
-|Schoenus|Minor Planet|Aulis Anchorage Command|2/2|1 Supply + 1 Manpower|A coastal supply world of fuel farms, barracks and disused embarkation beaches. Concrete causeways cross tidal flats to cargo piers; inland storage compounds still carry destination markings for vanished crusades. Naval ground crews defend the pump stations and transport terminals.|Coastal military depot; low terrain, causeways and fuel-storage compounds.|
+|Schoenus|Minor Planet|Iron Paladins|2/2; Defended until start of Iron Paladins Cycle 13 turn|1 Supply + 1 Manpower|A coastal supply world of fuel farms, barracks and disused embarkation beaches. Concrete causeways cross tidal flats to cargo piers; inland storage compounds still carry destination markings for vanished crusades. The Anchorage Command’s shore troops put up worthy resistance before the Iron Paladins overwhelmed their positions. Paladin sentries now hold the pump stations and transport terminals; repaired coastal defences guard the causeways and cargo piers.|Coastal military depot; low terrain, causeways and fuel-storage compounds.|
 |Hyria|Major Planet|Aulis Anchorage Command|8/8|3 Supply + 3 Manpower|A heavily developed naval support world whose largest cities grew around surface landing fields. Repair sheds, training squares and Administratum offices lie beneath rows of grounded bulk lifters. The Command’s headquarters occupies an armoured traffic-control citadel overlooking the primary embarkation field.|Spaceport or military-industrial city; hangars, long landing strips and a hardened central complex.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Unanswered Muster|Aulis Anchorage Command|5/5|
+|The Unanswered Muster|Aulis Anchorage Command|3/5|
+|Crusade Fleet Anabasis|Iron Paladins|5/5|
 |The Emperor’s Judgement|Iron Paladins|5/5|
 
 
@@ -440,7 +440,7 @@ Minor resources below are **derived defence values**, not spendable Major stockp
 |Argive Muster Council|Strategos Damas|None; eliminated in Cycle 5|None; The Unspent Levy destroyed at Heraion|0 / 0; eliminated|
 |Eleusinian Synod|Prelate Lysandra|None; eliminated in Cycle 4|None; fleet destroyed in Cycle 2 Warp Storm|0 / 0; eliminated|
 |Calydonian Labour Defence|Marshal Oineus|None; eliminated in Cycle 6|None; fleet destroyed in Cycle 2 Warp Storm|0 / 0; eliminated|
-|Aulis Anchorage Command|Commodore Thestor|Schoenus, Hyria|5/5 surviving|20 / 20|
+|Aulis Anchorage Command|Commodore Thestor|Hyria|3/5 surviving|15 / 15|
 |House Atreides (prize)|Archon Pleisthenes Atreides|Perseia, Dendra, Lion Gate|5/5, 5/5, 5/5, 3/3 surviving|70 / 70|
 |Delphic Custodians|Logothete Manto|Pytho|None; The Sealed Testimony destroyed by Planet Fall in Cycle 9|10 / 10|
 |Lotus Company|Captain Eurylochos|None; eliminated in Cycle 7|None; fleet destroyed in Cycle 2 Warp Storm|0 / 0; eliminated|
@@ -548,10 +548,8 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and
 |Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 5/5; Integrity 5/5|Complete and active at full Integrity. +7 Manpower per Logistics Cycle. Erigone construction slot occupied.|
 |WAAAGH! Bell-Ringa|Da Jaw-Breaka|Minor Fleet Construction / Da Gate-Krasha, Eleusis|Progress 3/3; Integrity 3/3|Complete. Grants +2 permanent current and maximum Fleet Strength; Da Gate-Krasha is 7/7 (base 5 plus 2 from Da Jaw-Breaka). Granted capacity remains until the fleet is destroyed.|
 |Order of Saint Erigone|Castalia Anchorage|Minor Orbital Shipyard / Castalia, Delphi|Progress 3/3; Integrity 3/3|Complete and operational. Orbital Shipyard available in Delphi. Castalia ordinary construction slot occupied.|
-
 |Order of Saint Erigone|The Breach Litany|Minor Bombardment Bay / The Third Refusal, Delphi|Progress 2/3; Integrity 2/3|Unfinished and inactive. Completion grants +1 Ground Assault damage.|
-
-|Iron Paladins|Gene-Seed Vaults|Major Military Academy / Heraion, Argos|Progress 1/5; Integrity 1/5|Unfinished and inactive. +7 Manpower per Logistics Cycle when complete at full Integrity. Heraion ordinary construction slot occupied.|
+|Iron Paladins|Gene-Seed Vaults|Major Military Academy / Heraion, Argos|Progress 2/5; Integrity 2/5|Unfinished and inactive. +7 Manpower per Logistics Cycle when complete at full Integrity. Heraion ordinary construction slot occupied.|
 
 ## Setup provenance and decision ledger
 
@@ -778,6 +776,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |12 / Phase 0 / Constructions|Periodic effects and Fleet Action reset.|None.|No damage, repair or Endurance effects. Grand Forge +14 Supply, Da Iron Gob base +7 Supply, Academy +7 Manpower eligible for Logistics. Gene-Seed Vaults 1/5 and Breach Litany 2/3 remain inactive. No automatic progress.|Logistics|
 |12 / Phase 0 / Logistics|Income then fleet upkeep.|3 Supply / 3 Manpower upkeep per Major.|Iron Paladins 11/22 +21/7 gross -3/3 = 29/26. Bell-Ringa 4/26 +14/11 gross -3/3 = 15/34. Order 6/31 +16/17 gross -3/3 = 19/45. Supply/Manpower; construction and passive trait income included. Next Logistics Cycle 15.|Events|
 |12 / Phase 0 / Events|Roll d6 once.|None.|Check 5: no event; no event-table roll. [Opening audit](Atreus_Cycle_12_Phase_0_Rolls.json).|Iron Paladins orders|
+
+|12 / Iron Paladins / Fleet|Move Anabasis from Argos to Aulis before Emperor’s Judgement assaults Schoenus; Vigilatius holds in Argos.|Movement free. Assault 1 Supply: 29 to 28; commit 1 Manpower: 26 to 25. Victory return floor(60% of 1) = 0.|Jake reported Iron Paladin victory: “The Aulis Anchorage Command put up a worthy resistance but they were eventually drowned in a wave of Iron.” Human Soulstorm result; no AI roll. Judgement alone commits 5 Strength; Anabasis cannot attack after moving. 2 damage captures Schoenus at 1/2. Planet Fall reduces Unanswered Muster 5/5 to 3/5; Command retains Hyria, derived resources 15/15. Paladin fleets remain 5/5; Anabasis and Judgement actions spent, Vigilatius unused. Void Superiority 10 to 3 in Aulis. [Battle record](Atreus_Cycle_12_Schoenus_Battle.json).|Conditional Faction action|
+|12 / Iron Paladins / Faction|Defend captured Schoenus.|1 Supply: 28 to 27; 1 Manpower: 25 to 24.|Defence 1/2 to 2/2; Defended until start of Iron Paladins Cycle 13 turn. Reinforce alternative not taken.|None|
+|12 / Iron Paladins / Social|No action.|None.|No change.|None|
+|12 / Iron Paladins / Construction|Continue Gene-Seed Vaults on Heraion.|5 Supply: 27 to 22.|Progress and Integrity 1/5 to 2/5; unfinished and inactive. Host full at 4/4. Final resources 22 Supply / 24 Manpower. Cycle 12 remains open; no Cycle-end recovery or Phase 0 repeated.|WAAAGH! Bell-Ringa orders|
 
 ## Cycle Records
 

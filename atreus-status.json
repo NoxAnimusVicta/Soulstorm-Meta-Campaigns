@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 12,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
   "event": "No event",
   "logistics_due": 15,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -23,7 +23,7 @@
     "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70.",
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions."
   ],
-  "notes": "Cycle 11 closed; Cycle 12 Phase 0 complete. Pytho assault lost 13 to 14, remains 2/4. Returning Escort and Procession 5/5 each Eleusis; Orks retain Void Superiority 12 to 10. Breach Litany 2/3 inactive. Fleet Actions reset. Logistics settled: Iron Paladins 29/26, Bell-Ringa 15/34, Order 19/45. Check 5: no event. Next Logistics Cycle 15. Iron Paladins to act.",
+  "notes": "Iron Paladins Cycle 12 complete. Human victory at Schoenus; captured then Defended to 2/2 until Iron Paladins Cycle 13. Unanswered Muster 3/5; Anchorage Command retains Hyria. Anabasis and Judgement 5/5 each in Aulis, actions spent; Vigilatius holds Argos 5/5, unused. Gene-Seed Vaults 2/5 inactive. Iron Paladins 22 Supply / 24 Manpower. No further Logistics or event roll; Cycle 12 remains open. WAAAGH! Bell-Ringa to act.",
   "phase_zero_resolved": true,
   "event_check": 5,
   "phase_zero_rolls": "Atreus_Cycle_12_Phase_0_Rolls.json",
