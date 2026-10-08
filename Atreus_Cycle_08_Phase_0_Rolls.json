@@ -1,0 +1,24 @@
+{
+  "cycle": 8,
+  "event_check": 2,
+  "event_roll": null,
+  "method": "JavaScript Math.random; single check and conditional event-table draw saved once.",
+  "minor_recovery": "All surviving Minor holdings and fleets full; no changes or resurrection.",
+  "construction_effects": "No periodic damage, repair or Endurance; no automatic progress.",
+  "logistics": "Not due; next Cycle 9.",
+  "defended": "Castalia until start of Order Cycle 8 turn.",
+  "resources": {
+    "iron_paladins": [
+      23,
+      21
+    ],
+    "bell_ringa": [
+      10,
+      28
+    ],
+    "order": [
+      11,
+      30
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 7 - WAAAGH! Bell-Ringa turn complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 8 - Phase 0 complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|7|WAAAGH! Bell-Ringa turn complete|No event (check: 2)|Order of Saint Erigone|None|9|
+|8|Phase 0 complete; awaiting Iron Paladins orders|No event (check: 2)|Iron Paladins|None|9|
 
 ## Major faction registers
 
@@ -51,7 +51,7 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
 |Resources|23 Supply / 21 Manpower; neither deficit active|
-|Fleet|Crusade Fleet Anabasis - Argos - 5/5, action unused; The Emperor’s Judgement - Argos - 1/5, newly created and cannot act in Cycle 7|
+|Fleet|Crusade Fleet Anabasis - Argos - 5/5; The Emperor’s Judgement - Argos - 1/5; both actions unused in Cycle 8|
 |Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 2/5 and Integrity 7/10; base active at +7 Supply per Logistics Cycle while Integrity is at least 5; +14 at full upgraded Integrity|
 |Next Logistics if unchanged|14 Supply / 7 Manpower gross including Forge; 2/2 fleet upkeep; net +12 / +5|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
@@ -71,7 +71,7 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
 |Resources|10 Supply / 28 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Calydon - 5/5, action unused; Da Fist - Calydon - 3/5, action spent in Cycle 7|
+|Fleet|Da Gate-Krasha - Calydon - 5/5; Da Fist - Calydon - 3/5; both actions unused in Cycle 8|
 |Constructions|Built-in Capital Orbital Shipyard; unnamed Major Forge Complex on Da Bellworks, progress 5/5 and Integrity 5/5; complete and active, +7 Supply per Logistics Cycle; Da Jaw-Breaka (Assault Cruiser) on Da Gate-Krasha, progress and Integrity 2/3, unfinished and inactive|
 |Next Logistics if unchanged|14 Supply / 11 Manpower gross including Forge and trait; 2/2 fleet upkeep; net +12 / +9|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
@@ -90,10 +90,10 @@ The Order’s convents and shrine network preserve hospitals, military stores an
 |Trait|Offerings of the Faithful — War Economy|
 |Exact effect|+6 Supply each Logistics Cycle.|
 |Capital|Erigone — Eleusis — 12/12|
-|Resources|17 Supply / 33 Manpower; neither deficit active|
-|Fleet|The Third Refusal - Delphi - 5/5; The Returning Escort - Eleusis - 1/5; both actions unused in Cycle 7|
-|Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 5/5 and Integrity 5/5; complete and active, +7 Manpower per Logistics Cycle|
-|Next Logistics if unchanged|13 Supply / 14 Manpower gross including Academy; 2/2 fleet upkeep; net +11 / +12|
+|Resources|11 Supply / 30 Manpower; neither deficit active|
+|Fleet|The Third Refusal - Delphi - 5/5; The Returning Escort - Eleusis - 3/5; both actions unused in Cycle 8|
+|Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 5/5 and Integrity 5/5; complete and active, +7 Manpower per Logistics Cycle; Castalia Anchorage (Minor Orbital Shipyard), progress and Integrity 1/3, unfinished and inactive|
+|Next Logistics if unchanged|14 Supply / 15 Manpower gross including Academy and trait; 2/2 fleet upkeep; net +12 / +13|
 |Briefing|[briefing_canoness_althaia.md](briefing_canoness_althaia.md)|
 
 ## Personnel and succession
@@ -172,7 +172,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Eleusis
 
-**Void Superiority:** Order of Saint Erigone 1 vs hostile fleets 0 - Order of Saint Erigone superior; no hostile fleet present.
+**Void Superiority:** Order of Saint Erigone 3 vs hostile fleets 0 - Order of Saint Erigone superior; no hostile fleet present.
 
 The Order holds Erigone, Daeira and newly captured Triptolemos. The Eleusinian Synod has lost its final holding and is eliminated as an independent campaign faction.
 
@@ -190,7 +190,7 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Returning Escort|Order of Saint Erigone|1/5|
+|The Returning Escort|Order of Saint Erigone|3/5|
 
 
 
@@ -297,7 +297,7 @@ Setup: d20 **17**; ownership authored separately.
 
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
-|Castalia|Minor Planet|Lotus Company|2/2|1 Supply + 1 Manpower|Privateers occupy a dry basin city around an abandoned water-processing plant. Cargo stolen from three systems is stacked beneath patched landing gantries, while concealed paths thread the surrounding rock gullies. The old civic reservoirs now hide fuel, prisoners and contraband.|Arid spaceport or outlaw settlement; gullies, cargo cover and refinery ruins.|
+|Castalia|Minor Planet|Order of Saint Erigone|2/2|1 Supply + 1 Manpower; Defended until start of Order Cycle 8 turn|The Order of Saint Erigone occupies the dry basin city around Castalia's abandoned water-processing plant. Sisters guard repaired landing approaches and the reservoir compounds seized from the Lotus Company, while patrols search the rock gullies beyond the settlement. Cargo yards have been secured and work has begun on an orbital anchorage above the captured world.|Arid spaceport or outlaw settlement; gullies, cargo cover and refinery ruins.|
 |Corycia|Minor Planet|Delphic Custodians|2/2|1 Supply + 1 Manpower|A mountainous archive world with repositories cut into cavern faces. Monastic service towns and cable stations cling to ledges above mist-filled ravines. The Custodians’ rifle companies guard bridgeheads and the lift terminals serving sealed record vaults.|Mountain stronghold; ravines, bridges, tunnels or narrow rocky approaches.|
 |Pytho|Standard Planet|Delphic Custodians|4/4|2 Supply + 2 Manpower|A civilised world of signal towers, scribal districts and crowded transmission courts. Ceremonial streets connect fortified archive buildings to the astropathic precinct; surrounding tenements house generations of clerks and guards. Rooftop antenna forests break the skyline above courtyards suitable for mustering infantry.|Dense Imperial city; plazas, administrative blocks and communications installations.|
 |Omphalos Relay|Minor Station|Delphic Custodians|2/2|1 Supply + 1 Manpower|An orbital relay station whose rotating habitation rings surround a hardened signal core. Maintenance galleries, antenna-control rooms and shielded message vaults connect through closely watched transit hubs. Armoured bulkheads divide the station into compartments, with the main junctions controlling access to the signal core.|Station interior; compact junctions, machinery chambers and enclosed service corridors.|
@@ -441,7 +441,7 @@ Minor resources below are **derived defence values**, not spendable Major stockp
 |Aulis Anchorage Command|Commodore Thestor|Schoenus, Hyria|5/5 surviving|20 / 20|
 |House Atreides (prize)|Archon Pleisthenes Atreides|Perseia, Dendra, Lion Gate|5/5, 5/5, 5/5, 3/3 surviving|70 / 70|
 |Delphic Custodians|Logothete Manto|Corycia, Pytho, Omphalos Relay|4/4 surviving|20 / 20|
-|Lotus Company|Captain Eurylochos|Castalia|None; fleet destroyed in Cycle 2 Warp Storm|5 / 5|
+|Lotus Company|Captain Eurylochos|None; eliminated in Cycle 7|None; fleet destroyed in Cycle 2 Warp Storm|0 / 0; eliminated|
 |Nemean Estate Compact|Warden Adrastos|Cleonae, Phlius, Apesas|5/5 surviving|25 / 25|
 |Lerna Reclamation Directorate|Magister Polydoros|Pontinos, Alcyonian Dock|3/3 surviving|15 / 15|
 |Rustjaw Mob|Boss Skrag Rustjaw|Amymone|2/2 surviving|10 / 10|
@@ -546,6 +546,8 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Er
 |Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 5/5; Integrity 5/5|Complete and active at full Integrity. +7 Manpower per Logistics Cycle. Erigone construction slot occupied.|
 
 |WAAAGH! Bell-Ringa|Da Jaw-Breaka|Minor Fleet Construction / Da Gate-Krasha, Calydon|Progress 2/3; Integrity 2/3|Unfinished and inactive. Completion grants +2 current and maximum Fleet Strength.|
+
+|Order of Saint Erigone|Castalia Anchorage|Minor Orbital Shipyard / Castalia, Delphi|Progress 1/3; Integrity 1/3|Unfinished and inactive; operational upon completion. Castalia ordinary construction slot occupied.|
 
 ## Setup provenance and decision ledger
 
@@ -686,6 +688,15 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |7 / WAAAGH! Bell-Ringa / Social|No action.|None.|No change.|None|
 |7 / WAAAGH! Bell-Ringa / Construction|Continue Da Jaw-Breaka, Assault Cruiser on Da Gate-Krasha.|3 Supply: 13 to 10.|Progress and Integrity 1/3 to 2/3; unfinished and inactive. Host remains full at 5/5 in Calydon with Da Bellworks' operational shipyard. Final resources 10 Supply / 28 Manpower.|Order of Saint Erigone orders|
 
+|7 / Order of Saint Erigone / Fleet|Third Refusal assaults Castalia; Returning Escort expands at Erigone.|Assault 1 Supply / 1 Manpower: 17/33 to 16/32; victory recovery rounds down to 0. Expand 1/1: 16/32 to 15/31.|AI victory 16 to 2: attacker d20 2 +5 Strength +3 Supply +6 Manpower; defender d20 2 +0 Strength +0 Supply +0 Manpower, post-commitment 4/4. Custodians do not defend the separate hostile Lotus Company. 2 damage captures Castalia at 1/2; Lotus eliminated with no surviving fleet for Planet Fall. Third Refusal stays 5/5; Escort 1/5 to 3/5. Both actions spent. [Saved roll](Atreus_Cycle_07_Castalia_Battle.json).|Conditional Faction action|
+|7 / Order of Saint Erigone / Faction|Defend captured Castalia.|1 Supply / 1 Manpower: 15/31 to 14/30.|Defence 1/2 to 2/2; Defended until start of Order Cycle 8 turn. No Reinforce.|None|
+|7 / Order of Saint Erigone / Social|No action.|None.|No change.|None|
+|7 / Order of Saint Erigone / Construction|Begin Castalia Anchorage, Minor Orbital Shipyard.|3 Supply: 14 to 11.|Progress and Integrity 1/3; unfinished and inactive, ordinary slot occupied. Castalia full 2/2. Planetary construction does not require an existing yard. Final resources 11 Supply / 30 Manpower.|Cycle closure|
+|7 / Cycle end|Minor recovery and completed narrative.|None.|Lotus eliminated; no resurrection. All surviving Minor holdings and fleets already full; no recovery changes.|Cycle 8 Phase 0|
+|8 / Phase 0 / Constructions|Periodic effects; reset Fleet Actions.|None.|No automatic damage, repair or Endurance effects. Grand Forge 7/10 retains base income; Da Jaw-Breaka 2/3 and Castalia Anchorage 1/3 inactive. All fleets may act, including Emperor’s Judgement. Castalia remains Defended until Order's own turn.|Logistics check|
+|8 / Phase 0 / Logistics|Scheduled Logistics check.|None.|Not due until Cycle 9. Resources unchanged: Iron Paladins 23/21, Bell-Ringa 10/28, Order 11/30 (Supply/Manpower).|Events|
+|8 / Phase 0 / Events|Roll d6 once.|None.|Check 2: no event. [Opening audit](Atreus_Cycle_08_Phase_0_Rolls.json).|Iron Paladins orders|
+
 ## Cycle Records
 
 ### Cycle 1 - Foundries and burial gates
@@ -747,6 +758,16 @@ Bell-Ringa finally broke the resistance on Pleuron. Ork mobs poured into the fac
 The Order looked beyond Eleusis. The Third Refusal departed for Delphi, where the arrival of Althaia's fleet challenged the Delphic Custodians' control of the void. Their warship remained in place, and no battle was fought. Back at Erigone, The Returning Escort entered service to maintain the Order's presence at home. The Breach Litany remained deferred, with no shipyard available to support its construction in Delphi.
 
 No communiques passed between the Major powers. The Cycle closed with the Paladins strengthening their holdings, Bell-Ringa master of Calydon, and the Order's advance fleet facing a new enemy beyond its home system.
+
+### Cycle 7 — A foothold in Delphi
+
+Anabasis held the watch over Argos as The Emperor’s Judgement entered service at Tiryns. Around the working furnaces of the Grand Forge, the Paladins continued the expansion of their industrial halls. Heraion's garrison held its repaired positions while the Chapter committed its resources to the fleet and forge.
+
+In Calydon, Bell-Ringa gathered strength after the conquest of Pleuron. Da Fist received additional ships at Da Bellworks, while the Meks continued work on Da Jaw-Breaka with Da Gate-Krasha remaining at the shipyard. No new assault drew the Orks away from their captured system.
+
+The Order struck at Castalia. The Third Refusal carried Althaia's forces against the Lotus Company's basin city, where the privateers' positions fell and their last territorial foothold was taken. Sisters secured the reservoir compounds and restored the landing approaches. Work began on Castalia Anchorage above the newly occupied world, though the yard was not yet ready to serve the fleet. The Delphic Custodians retained their own holdings and warship, leaving the Order with a foothold in a system still contested by a separate enemy.
+
+At Erigone, The Returning Escort was strengthened to maintain the Order's presence at home. No communiques passed between the Major powers as the Cycle closed.
 
 ## Pinned rules appendix
 

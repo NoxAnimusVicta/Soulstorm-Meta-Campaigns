@@ -1,0 +1,22 @@
+{
+  "cycle": 7,
+  "method": "JavaScript Math.random; two d20 draws saved once before resolution.",
+  "attacker": {
+    "roll": 2,
+    "strength": 5,
+    "supply": 16,
+    "manpower": 32,
+    "total": 16
+  },
+  "defender": {
+    "roll": 2,
+    "strength": 0,
+    "supply": 4,
+    "manpower": 4,
+    "total": 2
+  },
+  "note": "Lotus Company has no fleet. Delphic Custodians are a separate hostile Minor and do not defend Lotus Company.",
+  "result": "Attacker victory; Castalia captured at 1/2; Lotus Company eliminated.",
+  "damage": 2,
+  "manpower_return": 0
+}
