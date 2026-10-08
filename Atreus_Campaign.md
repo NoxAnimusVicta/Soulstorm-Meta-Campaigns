@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 11 - Phase 0 complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 11 - Iron Paladins turn complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|11|Phase 0 complete; awaiting Iron Paladins orders|No event (check: 4)|Iron Paladins|None|12|
+|11|Iron Paladins turn complete|No event (check: 4)|WAAAGH! Bell-Ringa|None|12|
 
 ## Major faction registers
 
@@ -50,9 +50,9 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Trait|The Iron Tithe — Efficient Logistics|
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
-|Resources|17 Supply / 15 Manpower; neither deficit active|
-|Fleet|Crusade Fleet Anabasis - Argos - 5/5; The Emperor’s Judgement - Argos - 5/5; Vigilatius - Argos - 3/5; all actions unused in Cycle 11|
-|Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle|
+|Resources|11 Supply / 22 Manpower; neither deficit active|
+|Fleet|Crusade Fleet Anabasis - Argos - 5/5, action unused; The Emperor’s Judgement - Aulis - 5/5, action spent; Vigilatius - Argos - 5/5, action spent in Cycle 11|
+|Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Gene-Seed Vaults (Major Military Academy) on Heraion, progress and Integrity 1/5, inactive|
 |Next Logistics if unchanged|21 Supply / 7 Manpower gross including upgraded Forge; 3/3 fleet upkeep; net +18 / +4|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
 
@@ -145,7 +145,7 @@ All holdings start at full defence; none is Defended. All fleets are unengaged w
 
 ### Argos
 
-**Void Superiority:** Iron Paladins 13 vs hostile fleets 0 - Iron Paladins superior; no hostile fleet present.
+**Void Superiority:** Iron Paladins 10 vs hostile fleets 0 - Iron Paladins superior; no hostile fleet present.
 
 The Iron Paladins control Tiryns, Prosymna and newly captured Heraion, securing all holdings in Argos. The Argive Muster Council has lost its final holding and is eliminated.
 
@@ -164,8 +164,7 @@ Setup: fixed home/prize profile recorded above.
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
 |Crusade Fleet Anabasis|Iron Paladins|5/5|
-|The Emperor’s Judgement|Iron Paladins|5/5|
-|Vigilatius|Iron Paladins|3/5|
+|Vigilatius|Iron Paladins|5/5|
 
 
 
@@ -229,7 +228,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Aulis
 
-**Void Superiority:** Aulis Anchorage Command 5 vs hostile fleets 0 - Aulis Anchorage Command superior; no hostile fleet present.
+**Void Superiority:** Iron Paladins 5 vs Aulis Anchorage Command 5 - contested; neither side has Void Superiority.
 
 Embarkation yards, troop-marshalling settlements and stranded naval administration.
 
@@ -247,6 +246,7 @@ Setup: d20 **5**; ownership authored separately.
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
 |The Unanswered Muster|Aulis Anchorage Command|5/5|
+|The Emperor’s Judgement|Iron Paladins|5/5|
 
 
 
@@ -551,6 +551,8 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and
 
 |Order of Saint Erigone|The Breach Litany|Minor Bombardment Bay / The Third Refusal, Delphi|Progress 1/3; Integrity 1/3|Unfinished and inactive. Completion grants +1 Ground Assault damage.|
 
+|Iron Paladins|Gene-Seed Vaults|Major Military Academy / Heraion, Argos|Progress 1/5; Integrity 1/5|Unfinished and inactive. +7 Manpower per Logistics Cycle when complete at full Integrity. Heraion ordinary construction slot occupied.|
+
 ## Setup provenance and decision ledger
 
 **9 October 2026 correction:** Minor Factions cannot have Capital-tier holdings. Perseia is corrected to Major 8/8 and Lion Gate to Standard Station 4/4; Dendra stays Standard 4/4. Perseia has no inherent Capital shipyard. House Atreides retains its existing fleets and prize-resource multiplier; its total holding tiers remain 7, so derived resources remain 70 Supply / 70 Manpower. This holding-tier correction does not retroactively rerun battles or fleet recovery.
@@ -757,6 +759,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |11 / Phase 0 / Constructions|Periodic effects and Fleet Action reset.|None.|No periodic damage, repair or Endurance. Grand Forge upgraded income active; Da Iron Gob retains base income; Breach Litany inactive 1/3. No automatic progress or repeated permanent Strength grant.|Logistics check|
 |11 / Phase 0 / Logistics|Scheduled Logistics check.|None.|Not due until Cycle 12. Resources Iron Paladins 17/15, Bell-Ringa 7/27, Order 9/33 (Supply/Manpower).|Events|
 |11 / Phase 0 / Events|Roll d6 once.|None.|Check 4: no event. Prior Supply Crisis already settled; no repeat loss. [Opening audit](Atreus_Cycle_11_Phase_0_Rolls.json).|Iron Paladins orders|
+
+|11 / Iron Paladins / Fleet|Move The Emperor’s Judgement to Aulis; Anabasis holds; Expand Vigilatius at Tiryns.|Movement free; Expand 1 Supply: 17 to 16; 1 Manpower: 15 to 14.|Judgement 5/5 in Aulis, action spent, no assault; 5 to 5 contested with Unanswered Muster. Anabasis 5/5 Argos, action unused; Vigilatius 3/5 to 5/5 Argos, action spent.|None|
+|11 / Iron Paladins / Faction|Muster through The Iron Tithe.|+8 Manpower: 14 to 22.|Resolved.|None|
+|11 / Iron Paladins / Social|No action.|None.|No change.|None|
+|11 / Iron Paladins / Construction|Begin Gene-Seed Vaults, Major Military Academy on Heraion.|5 Supply: 16 to 11.|Progress and Integrity 1/5, inactive; full host 4/4, ordinary slot occupied. +7 Manpower per Logistics Cycle upon completion at full Integrity. Final resources 11 Supply / 22 Manpower.|WAAAGH! Bell-Ringa orders|
 
 ## Cycle Records
 

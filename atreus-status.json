@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 11,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
   "event": "No event",
   "logistics_due": 12,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -22,7 +22,7 @@
     "2026-10-08: Uniform construction baseline restored: Minor 3 actions at 3 Supply; Major 5 actions at 5 Supply, for base and supported upgrades. Construction-specific discounts removed; trait modifiers remain in trait descriptions.",
     "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70."
   ],
-  "notes": "Cycle 10 closed; Cycle 11 Phase 0 complete. Pytho reduced to 2/4, still Custodian-controlled. Third Refusal and Returning Escort both 5/5 in Delphi; Unbroken Procession 3/5 Eleusis. Breach Litany 1/3 inactive, host at Castalia shipyard system. Actions reset. No periodic construction effects or Logistics; next Logistics Cycle 12. Event check 4: no event; previous Supply Crisis not repeated. Resources Iron Paladins 17/15, Bell-Ringa 7/27, Order 9/33. Iron Paladins to act.",
+  "notes": "Iron Paladins Cycle 11 resolved: 11 Supply / 22 Manpower. Judgement 5/5 Aulis, action spent, contested 5 to 5; Anabasis holds 5/5 Argos, action unused; Vigilatius 5/5 Argos, action spent. Gene-Seed Vaults on full Heraion 4/4 begun at 1/5, inactive. Bell-Ringa and Order yet to act. No event; next Logistics Cycle 12.",
   "phase_zero_resolved": true,
   "event_check": 4,
   "phase_zero_rolls": "Atreus_Cycle_11_Phase_0_Rolls.json",
