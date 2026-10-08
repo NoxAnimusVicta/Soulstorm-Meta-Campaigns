@@ -52,6 +52,25 @@ Record Jake's balance feedback during the Atreus campaign for a combined assessm
 
 **Decision:** Feedback and proposed package recorded only. No active rules, resources or completed turns changed.
 
+### AT-BAL-002 — Siege Platform invalidates Carriers
+
+**Recorded:** 8 October 2026 (Australia/Sydney)  
+**Campaign Cycle:** 7, before Iron Paladins orders  
+**Topic:** Construction value — Siege Platform versus Carriers  
+**Status:** Recorded for end-of-campaign review
+
+**Jake's feedback:** “Siege Platform completely invalidates Carriers as a construction type.”
+
+**Observed situation and impact:** Jake considers the Siege Platform to remove the practical reason to choose Carriers. No specific battle or numerical comparison was supplied with this observation.
+
+**Suggested change:** None specified.
+
+**Interactions and questions for campaign-end review:** Compare the constructions' costs, completion times, base and upgraded effects, assault damage and formation contributions, and the situations in which each is useful. Include the new shipyard requirement and damage vulnerability. Assess whether Carriers have a worthwhile distinct role before proposing changes.
+
+**Campaign evidence:** [Current Atreus construction catalogue](Atreus_Campaign.md); [playtest rules](Source_Rules_Playtest_2026-10-06.md).
+
+**Decision:** Player feedback recorded for the combined campaign-end assessment. No rule change or new simulation authorised by this entry.
+
 ### Entry template
 
 **ID:** AT-BAL-NNN  
