@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 10 - Phase 0 complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 10 - Iron Paladins turn complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|10|Phase 0 complete; awaiting Iron Paladins orders|Supply Crisis (check 6; event 3)|Iron Paladins|None|12|
+|10|Iron Paladins turn complete|Supply Crisis (check 6; event 3; applied)|WAAAGH! Bell-Ringa|None|12|
 
 ## Major faction registers
 
@@ -50,10 +50,10 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Trait|The Iron Tithe — Efficient Logistics|
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
-|Resources|15 Supply / 16 Manpower; neither deficit active|
-|Fleet|Crusade Fleet Anabasis - Argos - 5/5; The Emperor’s Judgement - Argos - 5/5; Vigilatius - Argos - 1/5; all actions unused in Cycle 10|
-|Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 4/5 and Integrity 9/10; base active at +7 Supply per Logistics Cycle while Integrity is at least 5; +14 at full upgraded Integrity|
-|Next Logistics if unchanged|14 Supply / 7 Manpower gross including Forge; 3/3 fleet upkeep; net +11 / +4|
+|Resources|17 Supply / 15 Manpower; neither deficit active|
+|Fleet|Crusade Fleet Anabasis - Argos - 5/5 and The Emperor’s Judgement - Argos - 5/5, actions unused; Vigilatius - Argos - 3/5, action spent in Cycle 10|
+|Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle|
+|Next Logistics if unchanged|21 Supply / 7 Manpower gross including upgraded Forge; 3/3 fleet upkeep; net +18 / +4|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
 
 ### 2. WAAAGH! Bell-Ringa
@@ -145,7 +145,7 @@ All holdings start at full defence; none is Defended. All fleets are unengaged w
 
 ### Argos
 
-**Void Superiority:** Iron Paladins 11 vs hostile fleets 0 - Iron Paladins superior; no hostile fleet present.
+**Void Superiority:** Iron Paladins 13 vs hostile fleets 0 - Iron Paladins superior; no hostile fleet present.
 
 The Iron Paladins control Tiryns, Prosymna and newly captured Heraion, securing all holdings in Argos. The Argive Muster Council has lost its final holding and is eliminated.
 
@@ -165,7 +165,7 @@ Setup: fixed home/prize profile recorded above.
 |---|---|---|
 |Crusade Fleet Anabasis|Iron Paladins|5/5|
 |The Emperor’s Judgement|Iron Paladins|5/5|
-|Vigilatius|Iron Paladins|1/5|
+|Vigilatius|Iron Paladins|3/5|
 
 
 
@@ -543,7 +543,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Er
 
 |Faction|Project|Type / location|Progress / Integrity|Effect / status|
 |---|---|---|---|---|
-|Iron Paladins|The Grand Forge of Iron|Upgraded Major Forge Complex / Tiryns, Argos|Upgrade progress 4/5; Integrity 9/10|Base complete and active: +7 Supply per Logistics Cycle while Integrity remains at least 5. Upgrade unfinished; +14 Supply per Logistics Cycle at full upgraded Integrity. Tiryns construction slot occupied.|
+|Iron Paladins|The Grand Forge of Iron|Upgraded Major Forge Complex / Tiryns, Argos|Upgrade progress 5/5; Integrity 10/10|Upgrade complete and active at full Integrity. +14 Supply per Logistics Cycle; no immediate payout. Tiryns construction slot occupied.|
 |WAAAGH! Bell-Ringa|Da Iron Gob|Upgraded Major Forge Complex / Da Bellworks, Calydon|Upgrade progress 1/5; Integrity 6/10|Base complete and active: +7 Supply per Logistics Cycle while Integrity remains at least 5. Upgrade unfinished; +14 Supply per Logistics Cycle at full upgraded Integrity. Da Bellworks construction slot occupied.|
 |Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 5/5; Integrity 5/5|Complete and active at full Integrity. +7 Manpower per Logistics Cycle. Erigone construction slot occupied.|
 |WAAAGH! Bell-Ringa|Da Jaw-Breaka|Minor Fleet Construction / Da Gate-Krasha, Lerna|Progress 3/3; Integrity 3/3|Complete. Grants +2 permanent current and maximum Fleet Strength; Da Gate-Krasha is 7/7 (base 5 plus 2 from Da Jaw-Breaka). Granted capacity remains until the fleet is destroyed.|
@@ -734,6 +734,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |10 / Phase 0 / Constructions|Periodic effects; reset Fleet Actions.|None.|No periodic damage, repair or Endurance. Forges retain base income during upgrades; Castalia Anchorage operational. No automatic progress or repeat Cruiser bonus. Newly created fleets may act.|Logistics check|
 |10 / Phase 0 / Logistics|Scheduled Logistics check.|None.|Not due; next Cycle 12.|Events|
 |10 / Phase 0 / Events|Check 6; event-table result 3: Supply Crisis.|Each Major loses 5 Supply and 5 Manpower.|Iron Paladins 20/21 to 15/16; Bell-Ringa 10/33 to 5/28; Order 17/40 to 12/35. No deficit triggered. Minor values remain holding-derived, not persistent resource pools. [Raw rolls and opening audit](Atreus_Cycle_10_Phase_0_Rolls.json).|Iron Paladins orders|
+
+|10 / Iron Paladins / Fleet|Anabasis and The Emperor’s Judgement hold; Expand Vigilatius at Tiryns's shipyard.|1 Supply: 15 to 14; 1 Manpower: 16 to 15.|First two fleets remain 5/5 with unused actions. Vigilatius 1/5 to 3/5, action spent. All in Argos.|None|
+|10 / Iron Paladins / Faction|Reinforce through The Iron Tithe.|+8 Supply: 14 to 22.|Resolved; no additional Logistics payout.|None|
+|10 / Iron Paladins / Social|No action.|None.|No change.|None|
+|10 / Iron Paladins / Construction|Complete The Grand Forge of Iron upgrade.|5 Supply: 22 to 17.|Upgrade progress 4/5 to 5/5; Integrity 9/10 to 10/10. Host remains 12/12. Upgraded +14 Supply per Logistics Cycle now active, replacing base +7; no immediate payout. Final resources 17 Supply / 15 Manpower.|WAAAGH! Bell-Ringa orders|
 
 ## Cycle Records
 
