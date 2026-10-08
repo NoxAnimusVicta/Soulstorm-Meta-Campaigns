@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 5,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting Bell-Ringa orders",
   "event": "No event",
   "logistics_due": 6,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -19,7 +19,7 @@
   "rules_amendments": [
     "2026-10-07: only Major Factions have Alignments; Minors are independent hostile powers and cannot enter diplomatic agreements or alliances."
   ],
-  "notes": "Cycle 4 closed. Triptolemos captured at 1/4; Eleusinian Synod eliminated. Order resources 13 Supply / 23 Manpower. All three projects 4/5 inactive; Major fleets 5/5, Cycle 5 actions unused. Minor recovery resolved. No Logistics due until Cycle 6; event check 4, no event. Prosymna Defended expires as Iron Paladins turn begins; remains 2/2. Iron Paladins to act.",
+  "notes": "Heraion captured at 1/4; The Unspent Levy destroyed and Argive Muster Council eliminated. Iron Paladins control all Argos holdings. Anabasis 5/5, action spent. Reinforce and Forge completion resolved: 23 Supply / 18 Manpower; Forge of Iron 5/5 active. Its +7 Supply begins at the next Logistics Cycle if operational. Bell-Ringa to act. Cycle 5 remains open.",
   "phase_zero_resolved": true,
   "event_check": 4,
   "phase_zero_rolls": "Atreus_Cycle_05_Phase_0_Rolls.json",
