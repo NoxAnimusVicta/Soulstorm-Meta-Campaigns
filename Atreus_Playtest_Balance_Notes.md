@@ -122,6 +122,29 @@ Consider a random event that reduces Authority according to the number of holdin
 
 **Decision for AT-BAL-004 and AT-BAL-005:** Record for combined campaign-end assessment only. No active Authority pool, event, construction, ownership change or simulation introduced.
 
+### AT-BAL-006 — Planet and Station traits
+
+**Recorded:** 8 October 2026 (Australia/Sydney)  
+**Campaign Cycle:** 9, before Iron Paladins orders  
+**Status:** Initial concept recorded for end-of-campaign review
+
+**Jake's proposal:** Introduce traits for planets and stations, inspired by Empire at War. Most holdings would receive minor traits, some would receive none, and assignment would be largely random. Player-constructed stations do not receive traits. This is a basic outline to workshop, not a final distribution.
+
+**Provisional d20 table, as supplied:**
+
+| Roll | Outcome | Share of d20 |
+|---|---|---:|
+| 1 | Very bad trait | 5% |
+| 2–5 | Bad trait | 20% |
+| 6–9 | Not yet assigned | 20% |
+| 10–15 | No trait | 30% |
+| 16–19 | Good trait | 20% |
+| 20 | Very good trait | 5% |
+
+**Details to workshop:** Assign rolls 6–9; define trait effects and their magnitude, generation timing, and any differences between planet and station traits. Determine whether traits persist through conquest or tier changes and how they interact with Authority, construction value, resources and starting-position fairness. No missing outcomes or numerical effects have been filled in on Jake's behalf.
+
+**Decision:** Record as a prospective system only. No traits rolled or assigned to current holdings, no existing campaign state changed, and no simulations launched.
+
 ### Entry template
 
 **ID:** AT-BAL-NNN  
