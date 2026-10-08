@@ -1,0 +1,66 @@
+{
+  "cycle": 12,
+  "method": "JavaScript Math.random; raw draws saved once.",
+  "raw_check": 0.7974178767399734,
+  "event_check": 5,
+  "raw_event": null,
+  "event_roll": null,
+  "minor_recovery": "Pytho attacked; no recovery. Other surviving assets full.",
+  "constructions": "No periodic effects. Vaults and Breach Litany inactive. Grand Forge upgraded yield; Iron Gob base yield.",
+  "logistics": {
+    "iron_paladins": {
+      "before": [
+        11,
+        22
+      ],
+      "gross": [
+        21,
+        7
+      ],
+      "upkeep": [
+        3,
+        3
+      ],
+      "after": [
+        29,
+        26
+      ]
+    },
+    "bell_ringa": {
+      "before": [
+        4,
+        26
+      ],
+      "gross": [
+        14,
+        11
+      ],
+      "upkeep": [
+        3,
+        3
+      ],
+      "after": [
+        15,
+        34
+      ]
+    },
+    "order": {
+      "before": [
+        6,
+        31
+      ],
+      "gross": [
+        16,
+        17
+      ],
+      "upkeep": [
+        3,
+        3
+      ],
+      "after": [
+        19,
+        45
+      ]
+    }
+  }
+}

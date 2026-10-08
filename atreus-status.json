@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
-  "cycle": 11,
-  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
+  "cycle": 12,
+  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
   "event": "No event",
-  "logistics_due": 12,
-  "next_faction": "Order of Saint Erigone",
+  "logistics_due": 15,
+  "next_faction": "Iron Paladins",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -22,10 +22,10 @@
     "2026-10-08: Uniform construction baseline restored: Minor 3 actions at 3 Supply; Major 5 actions at 5 Supply, for base and supported upgrades. Construction-specific discounts removed; trait modifiers remain in trait descriptions.",
     "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70."
   ],
-  "notes": "Iron Paladins and Bell-Ringa Cycle 11 turns complete. Bell-Ringa 4 Supply / 26 Manpower. Gate-Krasha 7/7 and Da Fist 5/5 in Eleusis, Void Superiority 12 to 3 over Unbroken Procession. Da Backhand expanded to 5/5 Calydon; all Ork actions spent, no combat. Da Iron Gob upgrade 2/5, Integrity 7/10, base income active. Iron Paladins 11/22; Order 9/33 and yet to act. No event; next Logistics Cycle 12.",
+  "notes": "Cycle 11 closed; Cycle 12 Phase 0 complete. Pytho assault lost 13 to 14, remains 2/4. Returning Escort and Procession 5/5 each Eleusis; Orks retain Void Superiority 12 to 10. Breach Litany 2/3 inactive. Fleet Actions reset. Logistics settled: Iron Paladins 29/26, Bell-Ringa 15/34, Order 19/45. Check 5: no event. Next Logistics Cycle 15. Iron Paladins to act.",
   "phase_zero_resolved": true,
-  "event_check": 4,
-  "phase_zero_rolls": "Atreus_Cycle_11_Phase_0_Rolls.json",
+  "event_check": 5,
+  "phase_zero_rolls": "Atreus_Cycle_12_Phase_0_Rolls.json",
   "cycle_complete": false,
   "event_roll": null,
   "rollover_policy": "After third Major turn: close Cycle, increment and reset actions; resolve constructions, scheduled Logistics, events; hand back to Iron Paladins."
