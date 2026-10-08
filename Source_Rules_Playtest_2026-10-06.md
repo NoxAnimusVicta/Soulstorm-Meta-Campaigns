@@ -289,51 +289,124 @@ Costs below are per action, not total project prices. Action counts assume undam
 
 ## Player battle setup and overflow
 
-Use the existing Supply difficulty brackets below; the global difficulty effect on allied AI is explicitly deferred. Formation pools use the current Manpower bands and participating ground strength. Do not compress a large battle by deleting formations.
-
 ### Difficulty (Based on YOUR Supply)
 
-Supply represents logistics capacity: materiel, munitions, fuel, food, replacement parts, and everything needed to sustain military operations. **In human Soulstorm setup, Supply determines difficulty — how well-equipped your forces are.**
+Supply represents the materiel, ammunition, fuel and provisions available to sustain the battle. **Your post-commitment Supply sets the base Soulstorm difficulty.**
 
 | Supply | Base Difficulty |
-|--------|-----------------|
-| 0-20 Critical | Insane 5/5 |
-| 21-40 Rationed | Harder 4/5 |
-| 41-60 Sustainable | Hard 3/5 |
-| 61-80 Surplus | Standard 2/5 |
-| 81-100 Abundant | Easy 1/5 |
+|---|---|
+| 0–20 Critical | Insane 5/5 |
+| 21–40 Rationed | Harder 4/5 |
+| 41–60 Sustainable | Hard 3/5 |
+| 61–80 Surplus | Standard 2/5 |
+| 81–100 Abundant | Easy 1/5 |
 
 ### Difficulty (Based on ENEMY Supply)
 
 | Enemy Supply | Modifier |
-|--------------|----------|
-| 0-20 Critical | -2 Difficulty |
-| 21-40 Rationed | -1 Difficulty |
-| 41-60 Sustainable | — |
-| 61-80 Surplus | +1 Difficulty |
-| 81-100 Abundant | +2 Difficulty |
+|---|---|
+| 0–20 Critical | −2 Difficulty |
+| 21–40 Rationed | −1 Difficulty |
+| 41–60 Sustainable | No modifier |
+| 61–80 Surplus | +1 Difficulty |
+| 81–100 Abundant | +2 Difficulty |
 
-### Formations (Based on BOTH sides’ Manpower)
+### Allied Factions (Based on YOUR Manpower)
 
-Calculate each side independently using post-commitment Manpower. One formation means one Soulstorm team. Your pool includes your own team; additional formations are allies. Enemy formations use the same calculation.
+Manpower represents trained personnel, replacements and the capacity to field multiple formations. **Use your post-commitment Manpower to modify your total team count.** One formation is one Soulstorm team; your total includes the player.
 
-| Manpower | Band | Formation modifier |
+| Your Manpower | Effect |
+|---|---|
+| 0–20 Critical | −2 formations |
+| 21–40 Rationed | −1 formation |
+| 41–60 Sustainable | No modifier |
+| 61–80 Surplus | +1 formation |
+| 81–100 Abundant | +2 formations |
+
+### Enemy Factions (Based on ENEMY Manpower)
+
+Calculate the enemy's team count independently using its post-commitment Manpower.
+
+| Enemy Manpower | Effect |
+|---|---|
+| 0–20 Critical | −2 formations |
+| 21–40 Rationed | −1 formation |
+| 41–60 Sustainable | No modifier |
+| 61–80 Surplus | +1 formation |
+| 81–100 Abundant | +2 formations |
+
+### Quick Reference: Modifier Stacking
+
+| Source | Effect |
+|---|---|
+| Your Supply | Sets base difficulty from 1/5 to 5/5 |
+| Enemy Supply | Modifies difficulty by −2 to +2 |
+| Your participating Strength | +1 formation per full 5 Strength |
+| Your Manpower | Modifies your formation pool by −2 to +2 |
+| Enemy defending fleet Strength | +1 enemy formation per full 5 Strength |
+| Enemy Manpower | Modifies the enemy formation pool by −2 to +2 |
+
+**Total formations per side = max(1, 1 + floor(participating Strength / 5) + Manpower modifier).**
+
+Apply battle-specific difficulty modifiers, then cap difficulty at 1/5–5/5. Each side has a minimum of one formation after all formation modifiers.
+
+Example: 5 Strength and 21–40 Manpower give 1 + 1 − 1 = 1 team. At 41–60 Manpower, that same Strength gives 2 teams: you and one ally. Calculate the opposing force separately.
+
+### Faction Count Limits and Reserves
+
+Keep the full calculated formation pools. Deploy up to four teams per side in each battle; retain overflow in reserve.
+
+| Situation | Deployment |
+|---|---|
+| No active raider | Up to 4 vs 4 |
+| Active Third Party Raid | Up to 3 vs 3, plus one hostile raider |
+| Raider defeated | Raider leaves the engagement; subsequent rounds return to up to 4 vs 4 |
+
+After each reported round, remove defeated formations and destroyed winning formations. Surviving winners may fight again and refill from reserves. There is no free replacement principal team. Once defeated, the raider never returns. Resolve campaign costs, Fleet Actions and the final outcome once for the whole engagement.
+
+### Map Size
+
+Use a map with at least twice the largest deployed main side's team count and enough slots for every participant, up to eight. Choose a larger available map when needed for availability or the battlefield's theme; close unused slots.
+
+| Deployed teams | Minimum map capacity | Unused slots at that capacity |
 |---|---|---|
-| 0–20 | Critical | −2 |
-| 21–40 | Rationed | −1 |
-| 41–60 | Sustainable | 0 |
-| 61–80 | Surplus | +1 |
-| 81–100 | Abundant | +2 |
+| 1 vs 1 | 2 | 0 |
+| 2 vs 1 or 2 vs 2 | 4 | 1 or 0 |
+| 3 vs 1, 3 vs 2 or 3 vs 3 | 6 | 2, 1 or 0 |
+| 4 vs 1, 4 vs 2, 4 vs 3 or 4 vs 4 | 8 | 3, 2, 1 or 0 |
+| 3 vs 3 plus one raider | 7; an 8-player map is also suitable | 0; or 1 on an 8-player map |
 
-Total formations = 1 + floor(participating Strength ÷ 5) + Manpower modifier, with a minimum of one. Use attacking ground Strength and eligible defending fleet combat Strength, not holding defence. Distinct allied factions need participating fleets and consent; otherwise duplicate the controlling faction.
+Do not remove formations, change their allegiance or add unearned teams to fit a map. Keep excess formations in reserve for later rounds.
 
-Example: 5 Strength and 21–40 Manpower give 1 + 1 − 1 = 1 team. At 41–60 Manpower, the same Strength gives 2 teams: you and one ally. Calculate the enemy pool separately.
+### Participating Fleet Strength (Friendly Fleets)
 
-Deploy up to 4 per side. With a live raider, deploy at most 3 per main side plus the single raider. Keep overflow in reserve. After each reported round, remove defeated formations and destroyed winning formations; surviving winners may fight again and refill from reserves. There is no free replacement principal team. Once defeated the raider never returns; limits revert to 4 per side. Campaign costs/actions and outcome resolve once for the engagement, not per round.
+Only assets committed to the assault contribute attacking ground Strength and formation bonuses. Fleets merely present in-system still count for Void Superiority but do not join the assault automatically.
 
-Manpower bands are Critical, Rationed, Sustainable, Surplus and Abundant in the same 0–20 / 21–40 / 41–60 / 61–80 / 81–100 intervals.
+| Participating Strength | Formation bonus |
+|---|---|
+| 0–4 | No bonus |
+| 5–9 | +1 |
+| 10–14 | +2 |
+| 15–19 | +3 |
+| 20–24 | +4 |
+| 25–29 | +5 |
+| Each further full 5 Strength | Another +1 |
 
-Map capacity is at least twice the largest deployed side and at least total deployed participants, up to 8. Choose a larger available thematic map where needed; leave spare slots closed, not filled with unearned formations. Report winning survivors, not just a win. AI campaign rolls do not simulate these human outcomes.
+Pool participating Strength before dividing by five. Use attacking ground Strength for the attacker and eligible in-system defending fleet combat Strength for the defender. Holding defence is not defending Fleet Strength. Ground-only Carrier or Assault Boats bonuses do not contribute to the defender's fleet combat Strength.
+
+Distinct allied factions require participating fleets and consent. Otherwise, additional teams use the controlling faction.
+
+### Battle Modifiers and Reporting
+
+| Condition | Human battle effect |
+|---|---|
+| Defended | One difficulty step in the defender's favour, unless Siege Doctrine ignores it |
+| Bunker | One or two difficulty steps in the defender's favour, according to its level |
+| Ambush | One difficulty step in the defender's favour |
+| Intel Breakthrough | Attacker chooses one easier step or +1 successful damage |
+| Isolated human defender | +2 difficulty for that defender |
+
+Global Soulstorm difficulty also affects allied AI; this engine limitation remains unresolved. Report the winning side and its surviving formations after each round so reserves and subsequent rounds can be resolved. AI campaign rolls do not predict human Soulstorm results.
 
 ## Events and alignment transit
 
