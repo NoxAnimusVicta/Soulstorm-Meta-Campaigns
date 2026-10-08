@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 8,
-  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
+  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "No event",
   "logistics_due": 9,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -21,7 +21,7 @@
     "2026-10-08: Fleet and System Build/Upgrade require an operational friendly Orbital Shipyard in the same system. Fleet projects may travel suspended and resume at any eligible shipyard; normal damage vulnerability persists.",
     "2026-10-08: Uniform construction baseline restored: Minor 3 actions at 3 Supply; Major 5 actions at 5 Supply, for base and supported upgrades. Construction-specific discounts removed; trait modifiers remain in trait descriptions."
   ],
-  "notes": "Iron Paladins Cycle 8 resolved: 15 Supply / 18 Manpower. Anabasis 5/5 holds, action unused; Emperor’s Judgement 3/5, action spent; both Argos. Heraion 4/4, Defended until start of Iron Paladins Cycle 9 turn. Grand Forge upgrade 3/5, Integrity 8/10, base income active. Bell-Ringa and Order yet to act. No event; next Logistics Cycle 9.",
+  "notes": "Iron Paladins and Bell-Ringa Cycle 8 turns complete. Bell-Ringa 4 Supply / 25 Manpower. Da Fist 5/5, action spent; Da Gate-Krasha 7/7, action unused, both Calydon. Da Jaw-Breaka complete 3/3, permanent +2 Strength/capacity granted. Pleuron 3/4, Defended until start of Bell-Ringa Cycle 9 turn. Iron Paladins 15/18; Order 11/30 and yet to act. No event; next Logistics Cycle 9.",
   "phase_zero_resolved": true,
   "event_check": 2,
   "phase_zero_rolls": "Atreus_Cycle_08_Phase_0_Rolls.json",
