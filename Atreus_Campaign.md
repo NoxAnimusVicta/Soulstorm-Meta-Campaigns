@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 6 - Iron Paladins turn complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 6 - WAAAGH! Bell-Ringa turn complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|6|Iron Paladins turn complete|No event (check: 4)|WAAAGH! Bell-Ringa|None|9|
+|6|WAAAGH! Bell-Ringa turn complete|No event (check: 4)|Order of Saint Erigone|None|9|
 
 ## Major faction registers
 
@@ -70,10 +70,10 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Trait|More Boyz Fer Da Fight — Martial Culture|
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
-|Resources|17 Supply / 31 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Calydon - 5/5; action unused in Cycle 6|
-|Constructions|Built-in Capital Orbital Shipyard; unnamed Major Forge Complex on Da Bellworks, progress 5/5 and Integrity 5/5; complete and active, +7 Supply per Logistics Cycle|
-|Next Logistics if unchanged|12 Supply / 9 Manpower gross including Forge; 1/1 fleet upkeep; net +11 / +8|
+|Resources|11 Supply / 29 Manpower; neither deficit active|
+|Fleet|Da Gate-Krasha - Calydon - 5/5, action spent; Da Fist - Calydon - 1/5, newly created and cannot act in Cycle 6|
+|Constructions|Built-in Capital Orbital Shipyard; unnamed Major Forge Complex on Da Bellworks, progress 5/5 and Integrity 5/5; complete and active, +7 Supply per Logistics Cycle; Assault Cruiser on Da Gate-Krasha, progress and Integrity 1/3, unfinished and inactive|
+|Next Logistics if unchanged|14 Supply / 11 Manpower gross including Forge and trait; 2/2 fleet upkeep; net +12 / +9|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
 
 ### 3. Order of Saint Erigone
@@ -198,9 +198,9 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Calydon
 
-**Void Superiority:** WAAAGH! Bell-Ringa 5 vs hostile fleets 0 - WAAAGH! Bell-Ringa superior; no hostile fleet present.
+**Void Superiority:** WAAAGH! Bell-Ringa 6 vs hostile fleets 0 - WAAAGH! Bell-Ringa superior; no hostile fleet present.
 
-The Orks hold Da Bellworks and have captured Olenos. Pleuron remains under Calydonian Labour Defence control.
+The Orks hold all of Calydon: Da Bellworks, Olenos and newly captured Pleuron. The Calydonian Labour Defence has lost its final holding and is eliminated.
 
 Setup: fixed home/prize profile recorded above.
 
@@ -211,12 +211,13 @@ Setup: fixed home/prize profile recorded above.
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
 |Da Bellworks|Capital Planet|WAAAGH! Bell-Ringa|12/12|4 Supply + 4 Manpower; built-in shipyard|Looted cathedral foundries cover a soot-black plain. Bell-Ringa’s mobs have hung bells from gantries and welded checkered armour onto furnace halls; slag heaps and wrecked transporters form rough outer walls. The original human avenues survive beneath scrap barricades and assembly yards.|Ork-held industrial city; scrap piles, furnace buildings and broad vehicle approaches.|
-|Pleuron|Standard Planet|Calydonian Labour Defence|2/4|2 Supply + 2 Manpower|Human factory districts survive behind improvised barricades along an elevated freight railway. Labour companies shift wounded workers between machine shops while the militia holds crossings over drainage cuts. Empty districts nearer the Ork holdings have become belts of burned-out machinery.|Industrial ruins; rail embankments, workshops and barricaded intersections.|
+|Pleuron|Standard Planet|WAAAGH! Bell-Ringa|1/4|2 Supply + 2 Manpower|Ork mobs occupy the shattered factory districts along the elevated freight railway. Looted machine shops ring with hammering as Meks strip the militia's abandoned equipment, while crude barricades guard crossings over the drainage cuts. Burned-out machinery and broken human strongpoints mark the fighting that brought Pleuron under Bell-Ringa's rule.|Industrial ruins; rail embankments, workshops and barricaded intersections.|
 |Olenos|Minor Planet|WAAAGH! Bell-Ringa|1/2|1 Supply + 1 Manpower|Mining townships shelter beneath slag ridges on a wind-scoured plain. Bell-Ringa's mobs occupy the captured pithead compounds, piling scrap around their camps and hauling machinery toward Ork workshops. Stolen bells summon work gangs and fighters alike. Conveyor towers and disused quarry terraces overlook the battered evacuation yards and rudimentary Ork positions.|Quarry or ash wasteland; stepped pits, mining buildings and evacuation pads.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
 |Da Gate-Krasha|WAAAGH! Bell-Ringa|5/5|
+|Da Fist|WAAAGH! Bell-Ringa|1/5|
 
 
 
@@ -434,7 +435,7 @@ Minor resources below are **derived defence values**, not spendable Major stockp
 |---|---|---|---|---|
 |Argive Muster Council|Strategos Damas|None; eliminated in Cycle 5|None; The Unspent Levy destroyed at Heraion|0 / 0; eliminated|
 |Eleusinian Synod|Prelate Lysandra|None; eliminated in Cycle 4|None; fleet destroyed in Cycle 2 Warp Storm|0 / 0; eliminated|
-|Calydonian Labour Defence|Marshal Oineus|Pleuron|None; fleet destroyed in Cycle 2 Warp Storm|10 / 10|
+|Calydonian Labour Defence|Marshal Oineus|None; eliminated in Cycle 6|None; fleet destroyed in Cycle 2 Warp Storm|0 / 0; eliminated|
 |Aulis Anchorage Command|Commodore Thestor|Schoenus, Hyria|5/5 surviving|20 / 20|
 |House Atreides (prize)|Archon Pleisthenes Atreides|Perseia, Dendra, Lion Gate|5/5, 5/5, 5/5, 3/3 surviving|70 / 70|
 |Delphic Custodians|Logothete Manto|Corycia, Pytho, Omphalos Relay|4/4 surviving|20 / 20|
@@ -542,6 +543,8 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Er
 |WAAAGH! Bell-Ringa|Forge Complex (name unassigned)|Major Forge Complex / Da Bellworks, Calydon|Progress 5/5; Integrity 5/5|Complete and active at full Integrity. +7 Supply per Logistics Cycle. Da Bellworks construction slot occupied.|
 |Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 5/5; Integrity 5/5|Complete and active at full Integrity. +7 Manpower per Logistics Cycle. Erigone construction slot occupied.|
 
+|WAAAGH! Bell-Ringa|Assault Cruiser|Minor Fleet Construction / Da Gate-Krasha, Calydon|Progress 1/3; Integrity 1/3|Unfinished and inactive. Completion grants +2 current and maximum Fleet Strength.|
+
 ## Setup provenance and decision ledger
 
 The 6 October thematic roster, Major identities, Capitals, deputies and hostility concept were approved by Jake. The 7 October documentation task supplies the remaining authored setup: equal 5/5 starts, turn order, local holding names and ownership, the fixed Mycenae profile and Nail-Takers raider. These are declared setup choices, not historical campaign outcomes or random ownership results.
@@ -557,6 +560,7 @@ The 6 October thematic roster, Major identities, Capitals, deputies and hostilit
 |Thessaly|16|None|
 
 The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](Atreus_Setup_Rolls_2026-10-07.json). The Cycle 1 event check is recorded separately in the Cycle ledger. The system directory’s order does not encode movement restrictions. Planet/station type follows the roll; lore does not add holdings.
+
 
 ## Cycle ledger
 
@@ -655,6 +659,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |6 / Iron Paladins / Faction|Defend Heraion.|2 Supply: 36 to 34; 2 Manpower: 24 to 22.|Defence 1/4 to 3/4; Defended until start of Iron Paladins Cycle 7 turn.|None|
 |6 / Iron Paladins / Social|No action.|None.|No change.|None|
 |6 / Iron Paladins / Construction|Begin upgrade to The Grand Forge of Iron on Tiryns.|5 Supply: 34 to 29.|Upgrade stage 1/5; Integrity 5/5 to 6/10. Host remains 12/12. Base +7 Supply per Logistics Cycle retained at Integrity 5 or above; +14 only at full upgraded Integrity. No immediate payout. Final resources 29 Supply / 22 Manpower.|WAAAGH! Bell-Ringa orders|
+
+|6 / WAAAGH! Bell-Ringa / Fleet|Da Gate-Krasha 5/5 assaults Pleuron 2/4.|2 Supply: 17 to 15; commit 1 Manpower: 31 to 30. Victory recovery floor(60% of 1) = 0.|AI victory 29 to 6: attacker d20 15 + 5 Strength + 3 Supply + 6 Manpower; defender d20 4 + 0 Strength + 1 Supply + 1 Manpower. 2 damage captures Pleuron at 1/4. Calydonian Labour Defence loses its final holding and is eliminated; no surviving fleet for Planet Fall. Da Gate-Krasha remains 5/5, action spent. [Saved roll](Atreus_Cycle_06_Pleuron_Battle.json).|None|
+|6 / WAAAGH! Bell-Ringa / Faction|Create Da Fist at Da Bellworks' built-in Orbital Shipyard.|1 Supply: 15 to 14; 1 Manpower: 30 to 29.|New fleet 1/5 in Calydon; cannot take a Fleet Action this Cycle.|None|
+|6 / WAAAGH! Bell-Ringa / Social|No action.|None.|No change.|None|
+|6 / WAAAGH! Bell-Ringa / Construction|Begin Assault Cruiser attached to Da Gate-Krasha.|3 Supply: 14 to 11.|Progress and Integrity 1/3; unfinished and inactive. Host 5/5. Completion grants +2 current and maximum Fleet Strength. Final resources 11 Supply / 29 Manpower.|Order of Saint Erigone orders|
 
 ## Cycle Records
 

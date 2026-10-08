@@ -1,0 +1,23 @@
+{
+  "cycle": 6,
+  "location": "Pleuron, Calydon",
+  "method": "Two d20 draws using JavaScript Math.random; drawn once and saved before resolution.",
+  "attacker": {
+    "roll": 15,
+    "strength": 5,
+    "supply": 15,
+    "manpower": 30,
+    "total": 29
+  },
+  "defender": {
+    "roll": 4,
+    "strength": 0,
+    "supply": 8,
+    "manpower": 9,
+    "total": 6
+  },
+  "ties": "Defender wins",
+  "outcome": "Attacker victory; Pleuron captured at 1/4; Calydonian Labour Defence eliminated.",
+  "damage": 2,
+  "attacker_manpower_return": 0
+}
