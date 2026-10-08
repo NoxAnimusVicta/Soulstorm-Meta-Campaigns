@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
-  "cycle": 8,
-  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
+  "cycle": 9,
+  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
   "event": "No event",
-  "logistics_due": 9,
-  "next_faction": "Order of Saint Erigone",
+  "logistics_due": 12,
+  "next_faction": "Iron Paladins",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -21,10 +21,10 @@
     "2026-10-08: Fleet and System Build/Upgrade require an operational friendly Orbital Shipyard in the same system. Fleet projects may travel suspended and resume at any eligible shipyard; normal damage vulnerability persists.",
     "2026-10-08: Uniform construction baseline restored: Minor 3 actions at 3 Supply; Major 5 actions at 5 Supply, for base and supported upgrades. Construction-specific discounts removed; trait modifiers remain in trait descriptions."
   ],
-  "notes": "Iron Paladins and Bell-Ringa Cycle 8 turns complete. Bell-Ringa 4 Supply / 25 Manpower. Da Fist 5/5, action spent; Da Gate-Krasha 7/7, action unused, both Calydon. Da Jaw-Breaka complete 3/3, permanent +2 Strength/capacity granted. Pleuron 3/4, Defended until start of Bell-Ringa Cycle 9 turn. Iron Paladins 15/18; Order 11/30 and yet to act. No event; next Logistics Cycle 9.",
+  "notes": "Cycle 8 closed; Cycle 9 Phase 0 complete. Order captured Omphalos Relay 1/2; Sealed Testimony 2/4. Returning Escort 5/5; Castalia Anchorage 2/3 inactive. All Fleet Actions reset. Logistics settled: Iron Paladins 27/23, Bell-Ringa 16/34, Order 22/42 Supply/Manpower. Heraion Defended expired; Pleuron remains Defended until Bell-Ringa turn. Event check 2: no event. Next Logistics Cycle 12. Iron Paladins to act.",
   "phase_zero_resolved": true,
   "event_check": 2,
-  "phase_zero_rolls": "Atreus_Cycle_08_Phase_0_Rolls.json",
+  "phase_zero_rolls": "Atreus_Cycle_09_Phase_0_Rolls.json",
   "cycle_complete": false,
   "event_roll": null,
   "rollover_policy": "After third Major turn: close Cycle, increment and reset actions; resolve constructions, scheduled Logistics, events; hand back to Iron Paladins."

@@ -1,0 +1,21 @@
+{
+  "cycle": 8,
+  "method": "JavaScript Math.random; two d20 draws saved once before resolution.",
+  "attacker": {
+    "roll": 15,
+    "strength": 5,
+    "supply": 10,
+    "manpower": 29,
+    "total": 27
+  },
+  "defender": {
+    "roll": 6,
+    "strength": 4,
+    "supply": 19,
+    "manpower": 19,
+    "total": 16
+  },
+  "result": "Attacker victory; captures Omphalos Relay at 1/2; Planet Fall damages Sealed Testimony 4/4 to 2/4.",
+  "damage": 2,
+  "manpower_return": 0
+}

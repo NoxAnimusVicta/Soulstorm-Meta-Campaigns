@@ -1,0 +1,64 @@
+{
+  "cycle": 9,
+  "event_check": 2,
+  "event_roll": null,
+  "method": "JavaScript Math.random; single d6 check and conditional table draw saved once.",
+  "minor_recovery": "Custodians engaged, fleet recovery ineligible. All remaining Minor assets full. No changes.",
+  "constructions": "No periodic effects; Grand Forge base yield retained. Cruiser bonus not applied twice.",
+  "logistics": {
+    "iron_paladins": {
+      "before": [
+        15,
+        18
+      ],
+      "gross": [
+        14,
+        7
+      ],
+      "upkeep": [
+        2,
+        2
+      ],
+      "after": [
+        27,
+        23
+      ]
+    },
+    "bell_ringa": {
+      "before": [
+        4,
+        25
+      ],
+      "gross": [
+        14,
+        11
+      ],
+      "upkeep": [
+        2,
+        2
+      ],
+      "after": [
+        16,
+        34
+      ]
+    },
+    "order": {
+      "before": [
+        9,
+        28
+      ],
+      "gross": [
+        15,
+        16
+      ],
+      "upkeep": [
+        2,
+        2
+      ],
+      "after": [
+        22,
+        42
+      ]
+    }
+  }
+}
