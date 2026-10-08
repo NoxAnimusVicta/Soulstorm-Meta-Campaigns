@@ -1,0 +1,19 @@
+{
+  "cycle": 5,
+  "method": "JavaScript Math.random; one d6 check and conditional event d6; no rerolls",
+  "event_check": 4,
+  "event_roll": null,
+  "event": "No event",
+  "construction_effects": "All three projects 4/5 inactive; no effects or automatic progress",
+  "logistics": "Not due; next Cycle 6",
+  "preceding_cycle_end_minor_recovery": [
+    {
+      "owner": "House Atreides",
+      "fleet": "Perseia’s Breakwater",
+      "before": "4/5",
+      "after": "5/5"
+    }
+  ],
+  "recovery_notes": "Argive and Calydonian engaged; Synod eliminated. Other surviving Minor holdings and eligible fleets full. No resurrection.",
+  "expiry": "Prosymna Defended expires at start of Iron Paladins Cycle 5 turn; defence remains 2/2."
+}

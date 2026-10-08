@@ -1,0 +1,25 @@
+{
+  "cycle": 4,
+  "battle": "The Third Refusal Ground Assault on Triptolemos",
+  "method": "JavaScript Math.random; one d20 per side; no rerolls",
+  "attacker": {
+    "d20": 20,
+    "strength": 5,
+    "supply": 15,
+    "manpower": 23,
+    "modifier": 12,
+    "total": 32
+  },
+  "defender": {
+    "d20": 17,
+    "strength": 0,
+    "supply": 8,
+    "manpower": 9,
+    "modifier": 2,
+    "total": 19
+  },
+  "ties": "defender wins",
+  "winner": "Order of Saint Erigone",
+  "damage": 2,
+  "manpower_return": 0
+}

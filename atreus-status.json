@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
-  "cycle": 4,
-  "phase": "Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
+  "cycle": 5,
+  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
   "event": "No event",
   "logistics_due": 6,
-  "next_faction": "Order of Saint Erigone",
+  "next_faction": "Iron Paladins",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -19,10 +19,10 @@
   "rules_amendments": [
     "2026-10-07: only Major Factions have Alignments; Minors are independent hostile powers and cannot enter diplomatic agreements or alliances."
   ],
-  "notes": "Bell-Ringa assault tied 13 to 13; defender wins. Pleuron remains Calydonian Labour Defence-controlled at 2/4. Da Gate-Krasha 5/5, action spent. Reinforce and Build complete: 10 Supply / 24 Manpower; Forge Complex 4/5 inactive. Order of Saint Erigone to act. Cycle 4 remains open.",
+  "notes": "Cycle 4 closed. Triptolemos captured at 1/4; Eleusinian Synod eliminated. Order resources 13 Supply / 23 Manpower. All three projects 4/5 inactive; Major fleets 5/5, Cycle 5 actions unused. Minor recovery resolved. No Logistics due until Cycle 6; event check 4, no event. Prosymna Defended expires as Iron Paladins turn begins; remains 2/2. Iron Paladins to act.",
   "phase_zero_resolved": true,
-  "event_check": 2,
-  "phase_zero_rolls": "Atreus_Cycle_04_Phase_0_Rolls.json",
+  "event_check": 4,
+  "phase_zero_rolls": "Atreus_Cycle_05_Phase_0_Rolls.json",
   "cycle_complete": false,
   "event_roll": null,
   "rollover_policy": "After third Major turn: close Cycle, increment and reset actions; resolve constructions, scheduled Logistics, events; hand back to Iron Paladins."
