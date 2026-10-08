@@ -96,6 +96,32 @@ Record Jake's balance feedback during the Atreus campaign for a combined assessm
 
 **Decision:** Both alternatives and the rationale are recorded for combined campaign-end assessment. No active storm rule, asset state or completed turn changed; no simulations launched.
 
+### AT-BAL-004 — More Minor System constructions
+
+**Recorded:** 8 October 2026 (Australia/Sydney)  
+**Campaign Cycle:** 9, before Iron Paladins orders  
+**Status:** Recorded for end-of-campaign review
+
+**Jake's feedback:** Add more Minor System-based constructions.
+
+**Review scope:** Broaden the worthwhile System construction choices at the Minor baseline of 3 actions at 3 Supply each. Assess distinct roles alongside existing Major options and the operational shipyard prerequisite. No specific new construction effects have been approved.
+
+### AT-BAL-005 — Authority (placeholder system)
+
+**Recorded:** 8 October 2026 (Australia/Sydney)  
+**Campaign Cycle:** 9, before Iron Paladins orders  
+**Status:** Concept recorded for end-of-campaign review
+
+**Jake's proposal:** Introduce a resource-like system provisionally named **Authority**, working in reverse to Supply and Manpower: controlled planets and stations consume Authority according to their type, so larger holdings portfolios impose greater demands.
+
+Consider a random event that reduces Authority according to the number of holdings, and/or non-combat actions through which rival factions undermine it. Rebellion and civil unrest could cause holdings to flip to another Major Faction or become independent Minor Factions.
+
+**Details not yet decided:** Starting Authority, how it is generated or restored, tier costs, whether consumption is an ongoing drain or committed capacity, timing, thresholds, event frequency, undermining costs and counterplay, and how a rebellious holding's new controller is selected.
+
+**Interactions for review:** Expansion pressure, recovery after conquest, construction and trait interactions, resistance to repeated undermining, warning and recovery opportunities before territorial loss, and treatment of fleets/constructions when a holding changes hands. Rebellious Minors would remain independent under the existing Minor rules unless a future approved rule changes that.
+
+**Decision for AT-BAL-004 and AT-BAL-005:** Record for combined campaign-end assessment only. No active Authority pool, event, construction, ownership change or simulation introduced.
+
 ### Entry template
 
 **ID:** AT-BAL-NNN  
