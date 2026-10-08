@@ -634,31 +634,17 @@ At Tiryns, the Iron Paladins restored Anabasis, replenished their military store
 
 No new assault was launched. Olenos and Daeira remained damaged conquests, and the three new construction projects remained unfinished. When the storm passed, the Major fleets were ready again. The next scheduled deliveries reached their holdings, with provisions set aside to sustain the ships before another round of orders.
 
-### Cycle 3 - Iron Paladins: Prosymna taken
+### Cycle 3 - Levy camps and broken lines
 
-The Iron Paladins carried Prosymna in an overwhelming victory. The Council's levy positions fell, and the recruiting estates and grain stores passed into the Warsmith's keeping. Damas retains Heraion, but the loss has weakened his remaining fleet. Anabasis holds its strength above the newly claimed world.
+The Iron Paladins carried Prosymna in an overwhelming victory. The Council's levy positions fell, and its recruiting estates and grain stores passed into the Warsmith's keeping. Damas retained Heraion, but the loss left his remaining fleet badly weakened. Anabasis held its strength above the newly claimed world.
 
-On Tiryns, replenishment continued and work advanced on the Forge of Iron. Its halls remain unfinished. The Chapter now has another world to defend.
+In Calydon, Bell-Ringa's mobs broke into Pleuron's industrial districts, driving the labour defence back through workshops and barricaded crossings. Marshal Oineus held enough ground to continue the resistance. The Orks had breached his defences, but Pleuron remained beyond their control.
 
-Battle record: Jake reported an overwhelming victory on 8 October 2026. The engagement was Standard difficulty, one player against one Death Korps of Krieg AI representing the Argive Muster Council. This descriptive result confers no additional damage bonus. Assault costs were already recorded; the remaining approved actions are now complete.
+The Order advanced through Triptolemos's shrine settlements and broke part of the Synod's defensive line. Prelate Lysandra's forces withdrew from the lost positions without surrendering the world. The Third Refusal remained intact above Eleusis as the Sisters prepared to consolidate their gains.
 
-Standing player-battle workflow: provide the Soulstorm setup in chat, await Jake's result, then settle the battle and remaining approved actions and publish the completed turn once. Do not publish a pending setup or require a separate result source for faction instances; they read the published ledger at the start of their turn.
+Replenishment continued across the three Major powers. On Tiryns and Da Bellworks, work advanced on the unfinished forges; on Erigone, the Vigil of the Three Refusals drew closer to completion. None was yet ready to sustain the armies in the field.
 
-### Cycle 3 - Bell-Ringa: the assault on Pleuron
-
-Bell-Ringa's mobs broke into Pleuron's industrial districts, forcing the labour defence back through workshops and barricaded crossings. The victory opened ground for the Orks, but Marshal Oineus still held enough of the world to continue the resistance. Pleuron had been battered, not conquered.
-
-Da Gate-Krasha remained ready above Calydon. At Da Bellworks, fresh military stores reached the war host while the Meks pushed the unfinished forge onward.
-
-### Cycle 3 - Order of Saint Erigone: Triptolemos breached
-
-The Order drove the Synod's defenders back through Triptolemos's shrine settlements, breaking part of their defensive line. Prelate Lysandra's forces retained the world, but the Sisters had gained ground among its approaches and gatehouses. The Third Refusal remained intact above Eleusis.
-
-At Erigone, replenishment supported the campaign while work continued on the Vigil of the Three Refusals. Its training halls were still unfinished when the new Cycle began.
-
-### Cycle 4 - Opening
-
-No fresh disturbance interrupted the opening of the Cycle. The Iron Paladins held Prosymna, while the Orks and Sisters faced continuing resistance on Pleuron and Triptolemos. The initiative returned to Warsmith Orontes.
+No communiques passed between the Major powers. Prosymna joined the Paladins' holdings, while Pleuron and Triptolemos remained contested objectives. Elsewhere, House Atreides restored The Copper Hawk as its fleets recovered from the earlier storm.
 
 ## Pinned rules appendix
 
