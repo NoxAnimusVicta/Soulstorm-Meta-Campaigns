@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 11,
-  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
+  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "No event",
   "logistics_due": 12,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -22,7 +22,7 @@
     "2026-10-08: Uniform construction baseline restored: Minor 3 actions at 3 Supply; Major 5 actions at 5 Supply, for base and supported upgrades. Construction-specific discounts removed; trait modifiers remain in trait descriptions.",
     "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70."
   ],
-  "notes": "Iron Paladins Cycle 11 resolved: 11 Supply / 22 Manpower. Judgement 5/5 Aulis, action spent, contested 5 to 5; Anabasis holds 5/5 Argos, action unused; Vigilatius 5/5 Argos, action spent. Gene-Seed Vaults on full Heraion 4/4 begun at 1/5, inactive. Bell-Ringa and Order yet to act. No event; next Logistics Cycle 12.",
+  "notes": "Iron Paladins and Bell-Ringa Cycle 11 turns complete. Bell-Ringa 4 Supply / 26 Manpower. Gate-Krasha 7/7 and Da Fist 5/5 in Eleusis, Void Superiority 12 to 3 over Unbroken Procession. Da Backhand expanded to 5/5 Calydon; all Ork actions spent, no combat. Da Iron Gob upgrade 2/5, Integrity 7/10, base income active. Iron Paladins 11/22; Order 9/33 and yet to act. No event; next Logistics Cycle 12.",
   "phase_zero_resolved": true,
   "event_check": 4,
   "phase_zero_rolls": "Atreus_Cycle_11_Phase_0_Rolls.json",
