@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 8 - Phase 0 complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 8 - Iron Paladins turn complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|8|Phase 0 complete; awaiting Iron Paladins orders|No event (check: 2)|Iron Paladins|None|9|
+|8|Iron Paladins turn complete|No event (check: 2)|WAAAGH! Bell-Ringa|None|9|
 
 ## Major faction registers
 
@@ -50,9 +50,9 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Trait|The Iron Tithe — Efficient Logistics|
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
-|Resources|23 Supply / 21 Manpower; neither deficit active|
-|Fleet|Crusade Fleet Anabasis - Argos - 5/5; The Emperor’s Judgement - Argos - 1/5; both actions unused in Cycle 8|
-|Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 2/5 and Integrity 7/10; base active at +7 Supply per Logistics Cycle while Integrity is at least 5; +14 at full upgraded Integrity|
+|Resources|15 Supply / 18 Manpower; neither deficit active|
+|Fleet|Crusade Fleet Anabasis - Argos - 5/5, action unused; The Emperor’s Judgement - Argos - 3/5, action spent in Cycle 8|
+|Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 3/5 and Integrity 8/10; base active at +7 Supply per Logistics Cycle while Integrity is at least 5; +14 at full upgraded Integrity|
 |Next Logistics if unchanged|14 Supply / 7 Manpower gross including Forge; 2/2 fleet upkeep; net +12 / +5|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
 
@@ -145,7 +145,7 @@ All holdings start at full defence; none is Defended. All fleets are unengaged w
 
 ### Argos
 
-**Void Superiority:** Iron Paladins 6 vs hostile fleets 0 - Iron Paladins superior; no hostile fleet present.
+**Void Superiority:** Iron Paladins 8 vs hostile fleets 0 - Iron Paladins superior; no hostile fleet present.
 
 The Iron Paladins control Tiryns, Prosymna and newly captured Heraion, securing all holdings in Argos. The Argive Muster Council has lost its final holding and is eliminated.
 
@@ -158,13 +158,13 @@ Setup: fixed home/prize profile recorded above.
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
 |Tiryns|Capital Planet|Iron Paladins|12/12|4 Supply + 4 Manpower; built-in shipyard|A fortress-monastery crowns a basalt escarpment above ironworks and densely inhabited workers’ terraces. Siege roads climb through successive gate courts; outside them, ore conveyors cross ash fields scarred by old artillery pits. The Paladins have restored the battered gatehouses and reopened the ironworks below the monastery.|Fortress or industrial city; steep approaches, broad breach lanes and enclosed courtyards.|
-|Heraion|Standard Planet|Iron Paladins|3/4|2 Supply + 2 Manpower|Immense muster squares and munition warehouses surround the former tithe citadel, now occupied by the Iron Paladins. Repaired barrack lines and fortified rail sidings guard the depots, with reinforced checkpoints along the approaches. Civilian streets remain crowded with soldiers' families as the Chapter consolidates its garrison.|Urban barracks or military depot; streets, warehouse cover and open parade grounds.|
+|Heraion|Standard Planet|Iron Paladins|4/4|2 Supply + 2 Manpower; Defended until start of Iron Paladins Cycle 9 turn|Immense muster squares and munition warehouses surround the former tithe citadel, now held by the Iron Paladins. Restored barrack lines, fortified rail sidings and reinforced checkpoints secure the depots and approaches. The garrison maintains a heightened watch over the rebuilt positions, while soldiers' families fill the streets behind the defensive lines.|Urban barracks or military depot; streets, warehouse cover and open parade grounds.|
 |Prosymna|Minor Planet|Iron Paladins|2/2|1 Supply + 1 Manpower|Dry uplands are divided into recruiting estates and grain stores. The Iron Paladins occupy the former levy camp, using its grounded troop transports as quarters. Repaired positions now guard the dusty roads between walled villages, cisterns and granaries, with sentries maintaining a strengthened defensive watch.|Arid rural settlement; low hills, scattered walls and a fortified central camp.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
 |Crusade Fleet Anabasis|Iron Paladins|5/5|
-|The Emperor’s Judgement|Iron Paladins|1/5|
+|The Emperor’s Judgement|Iron Paladins|3/5|
 
 
 
@@ -541,7 +541,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Er
 
 |Faction|Project|Type / location|Progress / Integrity|Effect / status|
 |---|---|---|---|---|
-|Iron Paladins|The Grand Forge of Iron|Upgraded Major Forge Complex / Tiryns, Argos|Upgrade progress 2/5; Integrity 7/10|Base complete and active: +7 Supply per Logistics Cycle while Integrity remains at least 5. Upgrade unfinished; +14 Supply per Logistics Cycle at full upgraded Integrity. Tiryns construction slot occupied.|
+|Iron Paladins|The Grand Forge of Iron|Upgraded Major Forge Complex / Tiryns, Argos|Upgrade progress 3/5; Integrity 8/10|Base complete and active: +7 Supply per Logistics Cycle while Integrity remains at least 5. Upgrade unfinished; +14 Supply per Logistics Cycle at full upgraded Integrity. Tiryns construction slot occupied.|
 |WAAAGH! Bell-Ringa|Forge Complex (name unassigned)|Major Forge Complex / Da Bellworks, Calydon|Progress 5/5; Integrity 5/5|Complete and active at full Integrity. +7 Supply per Logistics Cycle. Da Bellworks construction slot occupied.|
 |Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 5/5; Integrity 5/5|Complete and active at full Integrity. +7 Manpower per Logistics Cycle. Erigone construction slot occupied.|
 
@@ -696,6 +696,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |8 / Phase 0 / Constructions|Periodic effects; reset Fleet Actions.|None.|No automatic damage, repair or Endurance effects. Grand Forge 7/10 retains base income; Da Jaw-Breaka 2/3 and Castalia Anchorage 1/3 inactive. All fleets may act, including Emperor’s Judgement. Castalia remains Defended until Order's own turn.|Logistics check|
 |8 / Phase 0 / Logistics|Scheduled Logistics check.|None.|Not due until Cycle 9. Resources unchanged: Iron Paladins 23/21, Bell-Ringa 10/28, Order 11/30 (Supply/Manpower).|Events|
 |8 / Phase 0 / Events|Roll d6 once.|None.|Check 2: no event. [Opening audit](Atreus_Cycle_08_Phase_0_Rolls.json).|Iron Paladins orders|
+
+|8 / Iron Paladins / Fleet|Anabasis holds; Expand The Emperor’s Judgement at Tiryns's built-in Orbital Shipyard.|1 Supply: 23 to 22; 1 Manpower: 21 to 20.|Anabasis remains 5/5, action unused. The Emperor’s Judgement 1/5 to 3/5, action spent. Both in Argos.|None|
+|8 / Iron Paladins / Faction|Defend Heraion.|2 Supply: 22 to 20; 2 Manpower: 20 to 18.|Defence 3/4 to 4/4, capped at maximum; Defended until start of Iron Paladins Cycle 9 turn.|None|
+|8 / Iron Paladins / Social|No action.|None.|No change.|None|
+|8 / Iron Paladins / Construction|Continue The Grand Forge of Iron upgrade.|5 Supply: 20 to 15.|Upgrade progress 2/5 to 3/5; Integrity 7/10 to 8/10. Tiryns remains 12/12. Base +7 Supply per Logistics Cycle active; no immediate payout. Final resources 15 Supply / 18 Manpower.|WAAAGH! Bell-Ringa orders|
 
 ## Cycle Records
 
