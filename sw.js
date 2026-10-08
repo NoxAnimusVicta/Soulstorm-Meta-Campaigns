@@ -1,4 +1,4 @@
-const CACHE='atreus-shipyard-rule-20261008';
+const CACHE='atreus-cycle7-open-20261008';
 const ASSETS=['./atreus_orontes_preview.webp','./atreus_bell_ringa_preview.webp','./atreus_althaia_preview.webp','./','./index.html','./source.html','./campaign.json','./Atreus_Campaign.md','./manifest.webmanifest','./atreus-icon-180.png','./atreus-icon-192.png','./atreus-icon-512.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>(k.startsWith('dessica-')||k.startsWith('atreus-'))&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));

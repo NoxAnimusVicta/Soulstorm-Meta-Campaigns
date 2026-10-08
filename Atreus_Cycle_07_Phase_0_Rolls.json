@@ -1,0 +1,24 @@
+{
+  "cycle": 7,
+  "method": "JavaScript Math.random; single d6 event check and conditional event-table draw, saved before resolution.",
+  "event_check": 2,
+  "event_roll": null,
+  "cycle_end": "All surviving Minor holdings and fleets at full capacity; no recovery or resurrection.",
+  "constructions": "No periodic effects; no automatic progress. Grand Forge base effect retained; Jaw-Breaka unfinished.",
+  "logistics": "Not due until Cycle 9",
+  "defended_expiry": "Triptolemos at Order Cycle 6 turn start; Heraion at Iron Paladins Cycle 7 turn start.",
+  "resources": {
+    "iron_paladins": [
+      29,
+      22
+    ],
+    "bell_ringa": [
+      11,
+      29
+    ],
+    "order": [
+      17,
+      33
+    ]
+  }
+}
