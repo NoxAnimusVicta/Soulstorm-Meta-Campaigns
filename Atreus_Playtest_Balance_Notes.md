@@ -52,6 +52,8 @@ Record Jake's balance feedback during the Atreus campaign for a combined assessm
 
 **Decision:** Feedback and proposed package recorded only. No active rules, resources or completed turns changed.
 
+**Follow-up — 9 October 2026, Cycle 12:** Jake observes that Reinforce at 8 Supply funds a Major construction's 5-Supply stage and still leaves a net gain of 3 Supply each Cycle, before other expenditure and income. He considers this potentially overpowered. Across an undamaged five-stage Major project, five Reinforce actions provide 40 Supply against 25 construction Supply, leaving 15 Supply. This funds one stage each Cycle, not an entire Major construction in a single action; it still uses both the Faction and Construction actions. At the proposed Efficient Logistics yield of 5, Reinforce would cover one normal Major stage with no surplus before other costs. Review this alongside the proposed per-holding Construction actions below. The earlier proposal remains passive +6 or +7 for War Economy/Martial Culture and 5 total per Efficient Logistics action; no final choice between +6 and +7 has been recorded.
+
 ### AT-BAL-002 — Siege Platform invalidates Carriers
 
 **Recorded:** 8 October 2026 (Australia/Sydney)  
@@ -143,6 +145,22 @@ Consider a random event that reduces Authority according to the number of holdin
 **Details to workshop:** Define trait effects and their magnitude, generation timing, and any differences between planet and station traits. Determine whether traits persist through conquest or tier changes and how they interact with Authority, construction value, resources and starting-position fairness. Rolls 6–9 were confirmed by Jake as bad traits on 8 October 2026; the table above includes that correction. Numerical trait effects remain undecided.
 
 **Decision:** Record as a prospective system only. No traits rolled or assigned to current holdings, no existing campaign state changed, and no simulations launched.
+
+### AT-BAL-007 — Separate Construction action for each holding
+
+**Recorded:** 9 October 2026 (Australia/Sydney)  
+**Campaign Cycle:** 12, Schoenus player battle awaiting result  
+**Status:** Proposal recorded for end-of-campaign review
+
+**Jake's proposal:** Allow each planet or station its own Construction action, analogous to individual Fleet Actions. This would let a faction advance multiple constructions in a Cycle, creating more sites to defend and more valuable targets for enemies to attack.
+
+**Intended effect:** Increase simultaneous construction and create strategic choices about investment and protection across holdings.
+
+**Details to workshop:** How Fleet and System construction projects use the revised action allocation; whether Repair and Upgrade share each holding's action; and how action allowances behave when holdings change hands. The comparison with fleet actions is not an instruction to grant every fleet a separate Construction action.
+
+**Interactions for review:** Combined Supply expenditure and deficit restrictions, existing construction slots and prerequisites, growth advantages for large empires, construction income and payoff times, defensive coverage, the proposed Authority system, and Efficient Logistics' ability to fund a Major stage through a single Reinforce action (AT-BAL-001).
+
+**Decision:** No active action-economy or trait change. Record for joint end-of-campaign review.
 
 ### Entry template
 
