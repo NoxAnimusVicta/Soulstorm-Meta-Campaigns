@@ -34,6 +34,6 @@ def load_atreus(root,render):
  projects=tables(section(md,'Construction register'))
  for faction in factions:
   if projects:
-   faction['registers']['constructions']=[row[1:] for row in projects[0][1:] if row[0]==faction['name']]
+   faction['registers']['constructions']=[row[1:] for row in [row for table in projects for row in table] if len(row)==5 and row[0]==faction['name']]
  revision=hashlib.sha256((md+json.dumps(status,sort_keys=True)).encode()).hexdigest()[:12]
  return {'campaign':'Atreus','cycle':status['cycle'],'status':status,'factions':factions,'systems':systems,'rules':rules,'mobile':'<p>No Mobile Capitals.</p>','log':render(section(md,'Cycle ledger')),'narratives':render(section(md,'Cycle Records')),'document':render(md),'revision':revision}
