@@ -22,7 +22,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 - Every Major starts with 20 Supply, 20 Manpower, one 5/5 fleet and its 12/12 Capital only. This equal 5/5 opening is the explicit Atreus setup convention; Create Fleet during play remains 1/5 unless a rule changes it.
 - Each Major home system also contains one hostile ordinary Minor with a Standard and Minor planet. This is the approved home profile, not extra territory for the Major.
 - Ten systems; Fleet Movement reaches any system with the normal action. **No directional, adjacency, distance or travel-lane mechanics.** The system directory is a roster, not a route network.
-- Mycenae is the authored prize system: House Atreides owns a Capital planet, Standard planet and Minor station. This fixed profile implements the approved prize placement; it is not represented as a rolled ordinary profile.
+- Mycenae is the authored prize system: House Atreides owns a Major planet, Standard planet and Standard station. This fixed profile implements the approved prize placement; it is not represented as a rolled ordinary profile.
 - The remaining six systems use the saved d20 rolls. Ownership, names and faction identities are authored independently of those rolls. No rerolls were made.
 - Campaign victory convention: the last surviving Major wins after rival Majors lose their final fallback. An agreed concession can end play earlier. Minor holdings do not become owned territory and need not be conquered to meet this condition. No forced 100-Cycle ending.
 - Cycle 1 Phase 0 is resolved once: no periodic construction effects or Endurance recovery; Logistics is not due; event check d6 = 3, so no event. Opening effects left starting resources, holdings and fleets unchanged. First Logistics is Cycle 3. All three Major turns are resolved below. Olenos has fallen to the Orks and Daeira to the Order. Cycle 1 is complete. Cycle 2 is complete; its Warp Storm has expired. Cycle 3 construction effects, Logistics and event check are resolved below; no event is active.
@@ -267,9 +267,9 @@ Setup: fixed home/prize profile recorded above.
 
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
-|Perseia|Capital Planet|House Atreides|12/12|4 Supply + 4 Manpower; built-in shipyard|The dynasty’s Capital is a storm-lashed ocean world with inhabited mountain islands. Black coastal bastions guard terraced cities and reservoir tunnels; the ruling household keeps its court above a harbour cut into volcanic rock. Sea approaches, cliff roads and sheltered dock basins determine where an invader can land.|Coastal fortress or wet mountain city; cliffs, bridges, stone bastions and harbour approaches.|
+|Perseia|Major Planet|House Atreides|8/8|3 Supply + 3 Manpower|The dynasty’s seat is a storm-lashed ocean world with inhabited mountain islands. Black coastal bastions guard terraced cities and reservoir tunnels; the ruling household keeps its court above a harbour cut into volcanic rock. Sea approaches, cliff roads and sheltered dock basins determine where an invader can land.|Coastal fortress or wet mountain city; cliffs, bridges, stone bastions and harbour approaches.|
 |Dendra|Standard Planet|House Atreides|4/4|2 Supply + 2 Manpower|A temperate estate world supplying the household regiments with food and recruits. Old orchards surround fortified manor towns, while oath-halls and vehicle barns stand along the military roads. The orderly estates conceal hard distinctions between protected tenants and hereditary labour obligations.|Wooded agricultural settlement; hedges, orchards, estate walls and open fields for armour.|
-|Lion Gate|Minor Station|House Atreides|2/2|1 Supply + 1 Manpower|An orbital customs bastion built around a broad freight spine. Armoured inspection halls open into stacked cargo vaults; household armsmen guard the pressure doors leading to the fleet anchorage. Its carved heraldic beasts are devotional ornament, not xenos technology.|Station or ship-interior map; cargo halls, bulkhead chokepoints and docking galleries.|
+|Lion Gate|Standard Station|House Atreides|4/4|2 Supply + 2 Manpower|An orbital customs bastion built around a broad freight spine. Armoured inspection halls open into stacked cargo vaults; household armsmen guard the pressure doors leading to the fleet anchorage. Its carved heraldic beasts are devotional ornament, not xenos technology.|Station or ship-interior map; cargo halls, bulkhead chokepoints and docking galleries.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
@@ -539,7 +539,7 @@ Use the full selected roster; narrative preferences do not force an AI branch or
 
 ## Construction register
 
-No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Erigone and Perseia have only their inherent established-Capital shipyards. Minor Capital infrastructure does not grant the Minor a Faction Action or permission to build new fleets. The four yards have no construction Integrity track or slot cost and are destroyed on Capital fall under the source rules.
+No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and Erigone have their inherent established-Capital shipyards. Perseia has no built-in shipyard: it is a Major world, not a Capital. The three Capital yards have no construction Integrity track or slot cost and are destroyed on Capital fall under the source rules.
 
 |Faction|Project|Type / location|Progress / Integrity|Effect / status|
 |---|---|---|---|---|
@@ -550,6 +550,8 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Er
 |Order of Saint Erigone|Castalia Anchorage|Minor Orbital Shipyard / Castalia, Delphi|Progress 3/3; Integrity 3/3|Complete and operational. Orbital Shipyard available in Delphi. Castalia ordinary construction slot occupied.|
 
 ## Setup provenance and decision ledger
+
+**9 October 2026 correction:** Minor Factions cannot have Capital-tier holdings. Perseia is corrected to Major 8/8 and Lion Gate to Standard Station 4/4; Dendra stays Standard 4/4. Perseia has no inherent Capital shipyard. House Atreides retains its existing fleets and prize-resource multiplier; its total holding tiers remain 7, so derived resources remain 70 Supply / 70 Manpower. This holding-tier correction does not retroactively rerun battles or fleet recovery.
 
 The 6 October thematic roster, Major identities, Capitals, deputies and hostility concept were approved by Jake. The 7 October documentation task supplies the remaining authored setup: equal 5/5 starts, turn order, local holding names and ownership, the fixed Mycenae profile and Nail-Takers raider. These are declared setup choices, not historical campaign outcomes or random ownership results.
 
@@ -854,7 +856,7 @@ For a new campaign, copy the templates, pin this edition and record local except
 
 New roster-building Subsector Major factions begin with 20 Supply and 20 Manpower, capped at 100 each. Both represent military resources, not the civilian economy. Use one agreed rules version and record exceptions before play. Only Major Factions have Alignments. Minor Factions have none; force species does not confer alliance. Independent remains a Major Alignment, never an automatic alliance. Fleets measure combat effectiveness, not a literal ship count.
 
-Establish the Subsector's fixed raiding faction at setup; raiders cannot hold territory. Dessica's raiders remain Iron Warriors. Generate ordinary systems from the d20 table below: 2–4 combined planets/stations, averaging 3. Exceptional prize factions can hold Capitals.
+Establish the Subsector's fixed raiding faction at setup; raiders cannot hold territory. Dessica's raiders remain Iron Warriors. Generate ordinary systems from the d20 table below: 2–4 combined planets/stations, averaging 3. Minor Factions cannot hold Capital-tier planets or stations, including prize factions.
 
 ### Faction Alignments
 

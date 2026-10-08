@@ -10,7 +10,7 @@ For a new campaign, copy the templates, pin this edition and record local except
 
 New roster-building Subsector Major factions begin with 20 Supply and 20 Manpower, capped at 100 each. Both represent military resources, not the civilian economy. Use one agreed rules version and record exceptions before play. Only Major Factions have Alignments. Minor Factions have none; force species does not confer alliance. Independent remains a Major Alignment, never an automatic alliance. Fleets measure combat effectiveness, not a literal ship count.
 
-Establish the Subsector's fixed raiding faction at setup; raiders cannot hold territory. Dessica's raiders remain Iron Warriors. Generate ordinary systems from the d20 table below: 2–4 combined planets/stations, averaging 3. Exceptional prize factions can hold Capitals.
+Establish the Subsector's fixed raiding faction at setup; raiders cannot hold territory. Dessica's raiders remain Iron Warriors. Generate ordinary systems from the d20 table below: 2–4 combined planets/stations, averaging 3. Minor Factions cannot hold Capital-tier planets or stations, including prize factions.
 
 ### Faction Alignments
 

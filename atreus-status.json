@@ -19,7 +19,8 @@
   "rules_amendments": [
     "2026-10-07: only Major Factions have Alignments; Minors are independent hostile powers and cannot enter diplomatic agreements or alliances.",
     "2026-10-08: Fleet and System Build/Upgrade require an operational friendly Orbital Shipyard in the same system. Fleet projects may travel suspended and resume at any eligible shipyard; normal damage vulnerability persists.",
-    "2026-10-08: Uniform construction baseline restored: Minor 3 actions at 3 Supply; Major 5 actions at 5 Supply, for base and supported upgrades. Construction-specific discounts removed; trait modifiers remain in trait descriptions."
+    "2026-10-08: Uniform construction baseline restored: Minor 3 actions at 3 Supply; Major 5 actions at 5 Supply, for base and supported upgrades. Construction-specific discounts removed; trait modifiers remain in trait descriptions.",
+    "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70."
   ],
   "notes": "Iron Paladins and Bell-Ringa Cycle 10 turns complete. Bell-Ringa 7 Supply / 27 Manpower. Gate-Krasha 7/7, Da Fist 5/5 and Da Backhand 3/5 all in Calydon, actions spent; Void Superiority 15 to 5 over Returning Escort. No combat. Da Iron Gob upgrade paused 1/5, Integrity 6/10, base income active. Iron Paladins 17/15; Order 12/35 and yet to act. Supply Crisis already applied; next Logistics Cycle 12.",
   "phase_zero_resolved": true,
