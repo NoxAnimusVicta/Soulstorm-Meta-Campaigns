@@ -8,13 +8,37 @@ function heading(k,title,sub=''){return `<p class="eyebrow">${k}</p><h1>${title}
 function registerTable(title,columns,rows,empty){
  return `<section class="asset-register"><h4>${esc(title)} <span>${rows.length}</span></h4>${rows.length?`<table class="asset-table"><caption class="sr-only">${esc(title)}</caption><thead><tr>${columns.map(c=>`<th scope="col">${esc(c)}</th>`).join('')}</tr></thead><tbody>${rows.map(row=>`<tr>${row.map((cell,i)=>`<${i?'td':'th scope="row"'} data-label="${esc(columns[i])}">${esc(cell)}</${i?'td':'th'}>`).join('')}</tr>`).join('')}</tbody></table>`:`<p class="asset-empty">${esc(empty)}</p>`}</section>`;
 }
+
+function logisticsBreakdown(f){
+ const rows=[],r=f.registers||{holdings:[],fleets:[],constructions:[]};
+ const amount=(text,resource)=>{const m=String(text).match(new RegExp('([0-9]+)\\s+'+resource,'i'));return m?Number(m[1]):0;};
+ for(const h of r.holdings)rows.push({label:h[0],kind:'Holding',s:amount(h[4],'Supply'),m:amount(h[4],'Manpower')});
+ for(const c of r.constructions){
+  const integrity=String(c[2]).match(/Integrity\s+(\d+)\/(\d+)/i);
+  const active=/complete and active/i.test(c[3])&&!/inactive/i.test(c[3])&&integrity&&integrity[1]===integrity[2];
+  if(active)rows.push({label:c[0],kind:'Construction',s:amount(c[3],'Supply'),m:amount(c[3],'Manpower')});
+ }
+ if(/(?:per|each) Logistics Cycle/i.test(f.effect))rows.push({label:f.trait.split(' — ')[0],kind:'Trait',s:amount(f.effect,'Supply'),m:amount(f.effect,'Manpower')});
+ const count=r.fleets.filter(x=>Number(String(x[2]).split('/')[0])>0).length;
+ const upkeep=/Swift Mobilization|Fleet Endurance/i.test(f.trait)?Math.ceil(count/2):count;
+ rows.push({label:'Fleet upkeep ('+count+')',kind:'Maintenance',s:-upkeep,m:-upkeep});
+ return {rows,s:rows.reduce((n,r)=>n+r.s,0),m:rows.reduce((n,r)=>n+r.m,0)};
+}
+function factionLogistics(f){
+ const b=logisticsBreakdown(f),signed=n=>n>0?'+'+n:String(n);
+ const next=data.status.logistics_due||data.cycle+(3-data.cycle%3);
+ return '<section class="asset-register logistics-register"><h4>Per Logistics Cycle</h4><p class="asset-note">Next payout: Cycle '+esc(next)+' · Based on current holdings, active constructions and fleets.</p><table class="asset-table"><caption class="sr-only">Logistics income and upkeep</caption><thead><tr><th scope="col">Source</th><th scope="col">Supply</th><th scope="col">Manpower</th></tr></thead><tbody>'+
+ b.rows.map(r=>'<tr><th scope="row" data-label="Source">'+esc(r.label)+'<small class="logistics-kind">'+esc(r.kind)+'</small></th><td data-label="Supply">'+signed(r.s)+'</td><td data-label="Manpower">'+signed(r.m)+'</td></tr>').join('')+
+ '</tbody></table><div class="logistics-net"><div><span>Net Supply</span><strong>'+signed(b.s)+'</strong></div><div><span>Net Manpower</span><strong>'+signed(b.m)+'</strong></div></div><p class="asset-note">Before the resource cap or deficit restrictions. Faction Actions are separate.</p></section>';
+}
+
 function factionRegisters(f){
  const r=f.registers;
  if(!r)return '<p>Refresh to load the latest faction registers.</p>';
  return registerTable('Fleets',['Fleet','System','Strength'],r.fleets,'No conventional fleets.')+
  registerTable('Holdings',['Holding','System','Type','Defence','Income / facilities'],r.holdings,'No holdings.')+
  (r.holdings.some(h=>h[2].includes('Mobile Capital'))?'<p class="asset-note">Mobile Capital: built-in Orbital Shipyard · +4 Supply / +4 Manpower per Logistics · no fleet maintenance. See the system dossier for temporary effects.</p>':'')+
- registerTable('Constructions',['Project','Type / location','Progress','Effect / status'],r.constructions,'No construction projects.');
+ registerTable('Constructions',['Project','Type / location','Progress','Effect / status'],r.constructions,'No construction projects.')+factionLogistics(f);
 }
 function render(){
  document.getElementById('header-cycle').textContent=String(data.cycle).padStart(2,'0');
