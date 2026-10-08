@@ -1,17 +1,17 @@
 {
   "campaign": "Atreus",
   "cycle": 9,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
   "event": "No event",
   "logistics_due": 12,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
     "Order of Saint Erigone"
   ],
   "opened": true,
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "rules_file": "Source_Rules_Playtest_2026-10-06.md",
   "rules_commit": "113ec69a6163d36fb2164b9b624d14d8889986e5",
   "setup_rolls": "Atreus_Setup_Rolls_2026-10-07.json",
@@ -21,7 +21,7 @@
     "2026-10-08: Fleet and System Build/Upgrade require an operational friendly Orbital Shipyard in the same system. Fleet projects may travel suspended and resume at any eligible shipyard; normal damage vulnerability persists.",
     "2026-10-08: Uniform construction baseline restored: Minor 3 actions at 3 Supply; Major 5 actions at 5 Supply, for base and supported upgrades. Construction-specific discounts removed; trait modifiers remain in trait descriptions."
   ],
-  "notes": "Cycle 8 closed; Cycle 9 Phase 0 complete. Order captured Omphalos Relay 1/2; Sealed Testimony 2/4. Returning Escort 5/5; Castalia Anchorage 2/3 inactive. All Fleet Actions reset. Logistics settled: Iron Paladins 27/23, Bell-Ringa 16/34, Order 22/42 Supply/Manpower. Heraion Defended expired; Pleuron remains Defended until Bell-Ringa turn. Event check 2: no event. Next Logistics Cycle 12. Iron Paladins to act.",
+  "notes": "Iron Paladins Cycle 9 resolved: 20 Supply / 21 Manpower. Anabasis holds 5/5, action unused; Emperor’s Judgement expanded to 5/5, action spent; Vigilatius created 1/5, cannot act this Cycle; all in Argos. Grand Forge upgrade 4/5, Integrity 9/10, base income active. Bell-Ringa and Order yet to act. No event; next Logistics Cycle 12.",
   "phase_zero_resolved": true,
   "event_check": 2,
   "phase_zero_rolls": "Atreus_Cycle_09_Phase_0_Rolls.json",
