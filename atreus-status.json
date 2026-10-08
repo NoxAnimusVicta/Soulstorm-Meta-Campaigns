@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 5,
-  "phase": "Iron Paladins turn complete; awaiting Bell-Ringa orders",
+  "phase": "Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "No event",
   "logistics_due": 6,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -19,7 +19,7 @@
   "rules_amendments": [
     "2026-10-07: only Major Factions have Alignments; Minors are independent hostile powers and cannot enter diplomatic agreements or alliances."
   ],
-  "notes": "Heraion captured at 1/4; The Unspent Levy destroyed and Argive Muster Council eliminated. Iron Paladins control all Argos holdings. Anabasis 5/5, action spent. Reinforce and Forge completion resolved: 23 Supply / 18 Manpower; Forge of Iron 5/5 active. Its +7 Supply begins at the next Logistics Cycle if operational. Bell-Ringa to act. Cycle 5 remains open.",
+  "notes": "Bell-Ringa lost at Pleuron 14 to 15. Pleuron remains enemy-held at 2/4; Da Gate-Krasha 5/5, action spent. Reinforce and Forge completion resolved: 6 Supply / 23 Manpower. Forge Complex 5/5 active, +7 Supply at next Logistics if operational. Order of Saint Erigone to act. Cycle 5 remains open.",
   "phase_zero_resolved": true,
   "event_check": 4,
   "phase_zero_rolls": "Atreus_Cycle_05_Phase_0_Rolls.json",
