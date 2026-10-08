@@ -966,7 +966,21 @@ Supply represents logistics capacity: materiel, munitions, fuel, food, replaceme
 | 61-80 Surplus | +1 Difficulty |
 | 81-100 Abundant | +2 Difficulty |
 
-For either side: formations = max(1, 1+floor(participating ground strength/5)+Manpower-band index−2), where band indices 0–4 correspond to 0–20, 21–40, 41–60, 61–80, 81+. Use attacking ground Strength, but ordinary defending combat Strength on the defending side; use post-commitment Manpower. Use committed assets only; distinct allies need actual participating fleets and consent. Otherwise duplicate the controlling faction.
+### Formations (Based on BOTH sides’ Manpower)
+
+Calculate each side independently using post-commitment Manpower. One formation means one Soulstorm team. Your pool includes your own team; additional formations are allies. Enemy formations use the same calculation.
+
+| Manpower | Band | Formation modifier |
+|---|---|---|
+| 0–20 | Critical | −2 |
+| 21–40 | Rationed | −1 |
+| 41–60 | Sustainable | 0 |
+| 61–80 | Surplus | +1 |
+| 81–100 | Abundant | +2 |
+
+Total formations = 1 + floor(participating Strength ÷ 5) + Manpower modifier, with a minimum of one. Use attacking ground Strength and eligible defending fleet combat Strength, not holding defence. Distinct allied factions need participating fleets and consent; otherwise duplicate the controlling faction.
+
+Example: 5 Strength and 21–40 Manpower give 1 + 1 − 1 = 1 team. At 41–60 Manpower, the same Strength gives 2 teams: you and one ally. Calculate the enemy pool separately.
 
 Deploy up to 4 per side. With a live raider, deploy at most 3 per main side plus the single raider. Keep overflow in reserve. After each reported round, remove defeated formations and destroyed winning formations; surviving winners may fight again and refill from reserves. There is no free replacement principal team. Once defeated the raider never returns; limits revert to 4 per side. Campaign costs/actions and outcome resolve once for the engagement, not per round.
 
