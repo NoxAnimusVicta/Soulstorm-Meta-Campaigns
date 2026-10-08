@@ -1,0 +1,29 @@
+{
+  "cycle": 4,
+  "battle": "Da Gate-Krasha Ground Assault on Pleuron",
+  "method": "JavaScript Math.random; two uniform d20 draws, one per side; no rerolls",
+  "attacker": {
+    "d20": 2,
+    "strength": 5,
+    "supply": 12,
+    "manpower": 24,
+    "modifier": 11,
+    "total": 13
+  },
+  "defender": {
+    "d20": 11,
+    "strength": 0,
+    "derived_resources_before": [
+      10,
+      10
+    ],
+    "supply": 8,
+    "manpower": 9,
+    "modifier": 2,
+    "total": 13
+  },
+  "ties": "defender wins",
+  "winner": "Calydonian Labour Defence",
+  "damage": 0,
+  "attacker_manpower_return": 0
+}

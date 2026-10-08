@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 4,
-  "phase": "Iron Paladins turn complete; awaiting Bell-Ringa orders",
+  "phase": "Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "No event",
   "logistics_due": 6,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -19,7 +19,7 @@
   "rules_amendments": [
     "2026-10-07: only Major Factions have Alignments; Minors are independent hostile powers and cannot enter diplomatic agreements or alliances."
   ],
-  "notes": "Iron Paladins won at Heraion: 4/4 to 2/4, still Council-controlled. Anabasis 5/5, action spent. Prosymna restored to 2/2 and Defended until start of Iron Paladins Cycle 5 turn. Forge of Iron 4/5 inactive. Resources 22 Supply / 19 Manpower. Bell-Ringa to act; Cycle 4 remains open.",
+  "notes": "Bell-Ringa assault tied 13 to 13; defender wins. Pleuron remains Calydonian Labour Defence-controlled at 2/4. Da Gate-Krasha 5/5, action spent. Reinforce and Build complete: 10 Supply / 24 Manpower; Forge Complex 4/5 inactive. Order of Saint Erigone to act. Cycle 4 remains open.",
   "phase_zero_resolved": true,
   "event_check": 2,
   "phase_zero_rolls": "Atreus_Cycle_04_Phase_0_Rolls.json",

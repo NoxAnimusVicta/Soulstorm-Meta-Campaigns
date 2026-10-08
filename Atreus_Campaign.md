@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 4 - Iron Paladins turn complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 4 - Bell-Ringa turn complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|4|Iron Paladins turn complete|No event (check: 2)|WAAAGH! Bell-Ringa|None|6|
+|4|Bell-Ringa turn complete|No event (check: 2)|Order of Saint Erigone|None|6|
 
 ## Major faction registers
 
@@ -70,9 +70,9 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Trait|More Boyz Fer Da Fight — Martial Culture|
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
-|Resources|14 Supply / 25 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Calydon - 5/5; action unused in Cycle 4|
-|Constructions|Built-in Capital Orbital Shipyard; unnamed Major Forge Complex on Da Bellworks, progress 3/5 and Integrity 3/5; inactive|
+|Resources|10 Supply / 24 Manpower; neither deficit active|
+|Fleet|Da Gate-Krasha - Calydon - 5/5; action spent on unsuccessful Pleuron Ground Assault|
+|Constructions|Built-in Capital Orbital Shipyard; unnamed Major Forge Complex on Da Bellworks, progress 4/5 and Integrity 4/5; inactive|
 |Next Logistics if unchanged|5 Supply / 9 Manpower gross; 1/1 fleet upkeep; net +4 / +8|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
 
@@ -540,7 +540,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Er
 |Faction|Project|Type / location|Progress / Integrity|Effect / status|
 |---|---|---|---|---|
 |Iron Paladins|The Forge of Iron|Major Forge Complex / Tiryns, Argos|Progress 4/5; Integrity 4/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Tiryns construction slot occupied.|
-|WAAAGH! Bell-Ringa|Forge Complex (name unassigned)|Major Forge Complex / Da Bellworks, Calydon|Progress 3/5; Integrity 3/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Da Bellworks construction slot occupied.|
+|WAAAGH! Bell-Ringa|Forge Complex (name unassigned)|Major Forge Complex / Da Bellworks, Calydon|Progress 4/5; Integrity 4/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Da Bellworks construction slot occupied.|
 |Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 3/5; Integrity 3/5|Under construction; inactive. +7 Manpower per Logistics Cycle only when completed and at full Integrity. Erigone construction slot occupied.|
 
 ## Setup provenance and decision ledger
@@ -618,6 +618,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |4 / Iron Paladins / Faction|Defend Prosymna.|1 Supply: 28 to 27; 1 Manpower: 20 to 19.|Defence 1/2 to 2/2; Defended until start of Iron Paladins Cycle 5 turn. Replaces Reinforce.|None|
 |4 / Iron Paladins / Social|No action.|None.|No change.|None|
 |4 / Iron Paladins / Construction|Continue The Forge of Iron on Tiryns.|5 Supply: 27 to 22.|Progress and Integrity 3/5 to 4/5; unfinished and inactive. Tiryns remains 12/12. Final resources 22 Supply / 19 Manpower.|WAAAGH! Bell-Ringa orders|
+
+|4 / WAAAGH! Bell-Ringa / Fleet|Da Gate-Krasha 5/5 assaults Pleuron 2/4.|2 Supply: 14 to 12; commit 1 Manpower: 25 to 24; no recovery on defeat.|AI totals 13 to 13: attacker d20 2 + 5 Strength + 2 Supply + 4 Manpower; defender d20 11 + 0 Strength + 1 Supply + 1 Manpower. Ties favour defender: Calydonian Labour Defence wins. No defence damage or capture; Pleuron remains 2/4. No Planet Fall. Da Gate-Krasha remains 5/5, action spent. [Saved battle roll](Atreus_Cycle_04_Pleuron_Battle.json).|None|
+|4 / WAAAGH! Bell-Ringa / Faction|Reinforce.|+3 Supply: 12 to 15.|Resolved after assault.|None|
+|4 / WAAAGH! Bell-Ringa / Social|No action.|None.|No change.|None|
+|4 / WAAAGH! Bell-Ringa / Construction|Continue Major Forge Complex on Da Bellworks.|5 Supply: 15 to 10.|Progress and Integrity 3/5 to 4/5; unfinished and inactive. Host remains 12/12. Final resources 10 Supply / 24 Manpower.|Order of Saint Erigone orders|
 
 ## Cycle Records
 
