@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 4 - Phase 0 complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 4 - Iron Paladins turn complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|4|Phase 0 complete; awaiting Iron Paladins orders|No event (check: 2)|Iron Paladins|None|6|
+|4|Iron Paladins turn complete|No event (check: 2)|WAAAGH! Bell-Ringa|None|6|
 
 ## Major faction registers
 
@@ -50,9 +50,9 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Trait|The Iron Tithe — Efficient Logistics|
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
-|Resources|30 Supply / 21 Manpower; neither deficit active|
-|Fleet|Crusade Fleet Anabasis - Argos - 5/5; action unused in Cycle 4|
-|Constructions|Built-in Capital Orbital Shipyard; The Forge of Iron (Major Forge Complex), Tiryns, progress 3/5 and Integrity 3/5; inactive|
+|Resources|22 Supply / 19 Manpower; neither deficit active|
+|Fleet|Crusade Fleet Anabasis - Argos - 5/5; action spent on Heraion Ground Assault|
+|Constructions|Built-in Capital Orbital Shipyard; The Forge of Iron (Major Forge Complex), Tiryns, progress 4/5 and Integrity 4/5; inactive|
 |Next Logistics if unchanged|5 Supply / 5 Manpower gross; 1/1 fleet upkeep; net +4 / +4|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
 
@@ -158,8 +158,8 @@ Setup: fixed home/prize profile recorded above.
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
 |Tiryns|Capital Planet|Iron Paladins|12/12|4 Supply + 4 Manpower; built-in shipyard|A fortress-monastery crowns a basalt escarpment above ironworks and densely inhabited workers’ terraces. Siege roads climb through successive gate courts; outside them, ore conveyors cross ash fields scarred by old artillery pits. The Paladins have restored the battered gatehouses and reopened the ironworks below the monastery.|Fortress or industrial city; steep approaches, broad breach lanes and enclosed courtyards.|
-|Heraion|Standard Planet|Argive Muster Council|4/4|2 Supply + 2 Manpower|A military-administrative world built around immense muster squares and munition warehouses. The Council occupies the former tithe citadel; barrack districts and rail sidings form successive defensive belts around it. Civilian streets remain crowded with families of regiments that never returned.|Urban barracks or military depot; streets, warehouse cover and open parade grounds.|
-|Prosymna|Minor Planet|Iron Paladins|1/2|1 Supply + 1 Manpower|Dry uplands are divided into recruiting estates and grain stores. The Iron Paladins now occupy the former levy camp, using its grounded troop transports as quarters while securing the surrounding roads. Walled villages, cisterns and granaries remain central to the world's defence, with damaged positions awaiting restoration.|Arid rural settlement; low hills, scattered walls and a fortified central camp.|
+|Heraion|Standard Planet|Argive Muster Council|2/4|2 Supply + 2 Manpower|A military-administrative world built around immense muster squares and munition warehouses. The Council occupies the former tithe citadel; barrack districts and rail sidings form successive defensive belts around it. Civilian streets remain crowded with families of regiments that never returned.|Urban barracks or military depot; streets, warehouse cover and open parade grounds.|
+|Prosymna|Minor Planet|Iron Paladins|2/2|1 Supply + 1 Manpower; Defended until the start of the Iron Paladins Cycle 5 turn|Dry uplands are divided into recruiting estates and grain stores. The Iron Paladins occupy the former levy camp, using its grounded troop transports as quarters. Repaired positions now guard the dusty roads between walled villages, cisterns and granaries, with sentries maintaining a strengthened defensive watch.|Arid rural settlement; low hills, scattered walls and a fortified central camp.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
@@ -539,7 +539,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Er
 
 |Faction|Project|Type / location|Progress / Integrity|Effect / status|
 |---|---|---|---|---|
-|Iron Paladins|The Forge of Iron|Major Forge Complex / Tiryns, Argos|Progress 3/5; Integrity 3/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Tiryns construction slot occupied.|
+|Iron Paladins|The Forge of Iron|Major Forge Complex / Tiryns, Argos|Progress 4/5; Integrity 4/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Tiryns construction slot occupied.|
 |WAAAGH! Bell-Ringa|Forge Complex (name unassigned)|Major Forge Complex / Da Bellworks, Calydon|Progress 3/5; Integrity 3/5|Under construction; inactive. +7 Supply per Logistics Cycle only when completed and at full Integrity. Da Bellworks construction slot occupied.|
 |Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 3/5; Integrity 3/5|Under construction; inactive. +7 Manpower per Logistics Cycle only when completed and at full Integrity. Erigone construction slot occupied.|
 
@@ -613,6 +613,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |4 / Phase 0 / Constructions|Resolve periodic construction effects; reset Fleet Actions.|None.|All three projects at 3/5 inactive; no effects, automatic progress or Endurance. All three Major fleets 5/5, actions unused.|Logistics check|
 |4 / Phase 0 / Logistics|Scheduled Logistics check.|None.|Not due; next Logistics Cycle 6.|Event check|
 |4 / Phase 0 / Events|Roll d6 once.|None.|Check 2: no event, no event-table roll. [Opening roll and recovery audit](Atreus_Cycle_04_Phase_0_Rolls.json).|Iron Paladins orders|
+
+|4 / Iron Paladins / Fleet|Anabasis 5/5 assaults Heraion.|2 Supply: 30 to 28; commit 1 Manpower: 21 to 20. Victory recovery floor(60% of 1) = 0.|Jake reported overwhelming victory on 8 October 2026. Human Soulstorm result, no AI roll. 2 damage (1 base + 1 breakthrough): Heraion 4/4 to 2/4, still Council-controlled. No Planet Fall or extra overwhelming-victory bonus. Anabasis remains 5/5, action spent; The Unspent Levy remains 1/3.|None|
+|4 / Iron Paladins / Faction|Defend Prosymna.|1 Supply: 28 to 27; 1 Manpower: 20 to 19.|Defence 1/2 to 2/2; Defended until start of Iron Paladins Cycle 5 turn. Replaces Reinforce.|None|
+|4 / Iron Paladins / Social|No action.|None.|No change.|None|
+|4 / Iron Paladins / Construction|Continue The Forge of Iron on Tiryns.|5 Supply: 27 to 22.|Progress and Integrity 3/5 to 4/5; unfinished and inactive. Tiryns remains 12/12. Final resources 22 Supply / 19 Manpower.|WAAAGH! Bell-Ringa orders|
 
 ## Cycle Records
 
