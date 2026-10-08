@@ -135,13 +135,12 @@ Consider a random event that reduces Authority according to the number of holdin
 | Roll | Outcome | Share of d20 |
 |---|---|---:|
 | 1 | Very bad trait | 5% |
-| 2–5 | Bad trait | 20% |
-| 6–9 | Not yet assigned | 20% |
+| 2–9 | Bad trait | 40% |
 | 10–15 | No trait | 30% |
 | 16–19 | Good trait | 20% |
 | 20 | Very good trait | 5% |
 
-**Details to workshop:** Assign rolls 6–9; define trait effects and their magnitude, generation timing, and any differences between planet and station traits. Determine whether traits persist through conquest or tier changes and how they interact with Authority, construction value, resources and starting-position fairness. No missing outcomes or numerical effects have been filled in on Jake's behalf.
+**Details to workshop:** Define trait effects and their magnitude, generation timing, and any differences between planet and station traits. Determine whether traits persist through conquest or tier changes and how they interact with Authority, construction value, resources and starting-position fairness. Rolls 6–9 were confirmed by Jake as bad traits on 8 October 2026; the table above includes that correction. Numerical trait effects remain undecided.
 
 **Decision:** Record as a prospective system only. No traits rolled or assigned to current holdings, no existing campaign state changed, and no simulations launched.
 
