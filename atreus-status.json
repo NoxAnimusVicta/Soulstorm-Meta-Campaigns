@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 7,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
   "event": "No event",
   "logistics_due": 9,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -21,7 +21,7 @@
     "2026-10-08: Fleet and System Build/Upgrade require an operational friendly Orbital Shipyard in the same system. Fleet projects may travel suspended and resume at any eligible shipyard; normal damage vulnerability persists.",
     "2026-10-08: Uniform construction baseline restored: Minor 3 actions at 3 Supply; Major 5 actions at 5 Supply, for base and supported upgrades. Construction-specific discounts removed; trait modifiers remain in trait descriptions."
   ],
-  "notes": "Cycle 6 complete. Order 17 Supply / 33 Manpower; Third Refusal 5/5 in Delphi, Returning Escort 1/5 in Eleusis. Iron Paladins 29/22; Bell-Ringa 11/29. All Fleet Actions reset for Cycle 7. Triptolemos and Heraion Defended expired. No periodic construction effects or Logistics due; next Logistics Cycle 9. Event check 2: no event. Iron Paladins to act.",
+  "notes": "Iron Paladins Cycle 7 resolved: 23 Supply / 21 Manpower. Anabasis holds 5/5 in Argos, action unused. The Emperor’s Judgement created 1/5 in Argos, cannot act this Cycle. Grand Forge upgrade 2/5, Integrity 7/10, base income active. Heraion remains 3/4 without Defended. Bell-Ringa and Order yet to act. No event; next Logistics Cycle 9.",
   "phase_zero_resolved": true,
   "event_check": 2,
   "phase_zero_rolls": "Atreus_Cycle_07_Phase_0_Rolls.json",
