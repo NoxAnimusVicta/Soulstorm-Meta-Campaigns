@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 10 - Iron Paladins turn complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 10 - WAAAGH! Bell-Ringa turn complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|10|Iron Paladins turn complete|Supply Crisis (check 6; event 3; applied)|WAAAGH! Bell-Ringa|None|12|
+|10|WAAAGH! Bell-Ringa turn complete|Supply Crisis (check 6; event 3; applied)|Order of Saint Erigone|None|12|
 
 ## Major faction registers
 
@@ -70,8 +70,8 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Trait|More Boyz Fer Da Fight — Martial Culture|
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
-|Resources|5 Supply / 28 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Lerna - 7/7; Da Fist - Lerna - 5/5; Da Backhand - Calydon - 1/5; all actions unused in Cycle 10|
+|Resources|7 Supply / 27 Manpower; neither deficit active|
+|Fleet|Da Gate-Krasha - Calydon - 7/7; Da Fist - Calydon - 5/5; Da Backhand - Calydon - 3/5; all actions spent in Cycle 10|
 |Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 1/5 and Integrity 6/10; base +7 Supply income retained at Integrity 5 or above, +14 at full upgraded Integrity; Da Jaw-Breaka (Assault Cruiser) on Da Gate-Krasha, progress and Integrity 3/3, complete; +2 permanent Fleet Strength and capacity granted (7/7 total)|
 |Next Logistics if unchanged|14 Supply / 11 Manpower gross including Forge and trait; 3/3 fleet upkeep; net +11 / +8|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
@@ -200,7 +200,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Calydon
 
-**Void Superiority:** Order of Saint Erigone 5 vs WAAAGH! Bell-Ringa 1 - Order of Saint Erigone superior; hostile fleet present.
+**Void Superiority:** WAAAGH! Bell-Ringa 15 vs Order of Saint Erigone 5 - WAAAGH! Bell-Ringa superior; hostile fleet present.
 
 The Orks hold all of Calydon: Da Bellworks, Olenos and newly captured Pleuron. The Calydonian Labour Defence has lost its final holding and is eliminated.
 
@@ -218,7 +218,9 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Da Backhand|WAAAGH! Bell-Ringa|1/5|
+|Da Backhand|WAAAGH! Bell-Ringa|3/5|
+|Da Gate-Krasha|WAAAGH! Bell-Ringa|7/7|
+|Da Fist|WAAAGH! Bell-Ringa|5/5|
 |The Returning Escort|Order of Saint Erigone|5/5|
 
 
@@ -341,7 +343,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Lerna
 
-**Void Superiority:** WAAAGH! Bell-Ringa 12 vs hostile fleets 5 (Lerna Reclamation Directorate 3, Rustjaw Mob 2) - WAAAGH! Bell-Ringa superior; hostile fleets present.
+**Void Superiority:** Lerna Reclamation Directorate 3 vs Rustjaw Mob 2 - Lerna Reclamation Directorate superior; hostile fleet present.
 
 Wet industrial worlds and chemical works separated by contaminated waterways.
 
@@ -365,8 +367,6 @@ Setup: d20 **12**; ownership authored separately.
 |---|---|---|
 |The Ninth Sluice|Lerna Reclamation Directorate|3/3|
 |Da Pressure Drop|Rustjaw Mob|2/2|
-|Da Gate-Krasha|WAAAGH! Bell-Ringa|7/7|
-|Da Fist|WAAAGH! Bell-Ringa|5/5|
 
 
 
@@ -546,7 +546,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Er
 |Iron Paladins|The Grand Forge of Iron|Upgraded Major Forge Complex / Tiryns, Argos|Upgrade progress 5/5; Integrity 10/10|Upgrade complete and active at full Integrity. +14 Supply per Logistics Cycle; no immediate payout. Tiryns construction slot occupied.|
 |WAAAGH! Bell-Ringa|Da Iron Gob|Upgraded Major Forge Complex / Da Bellworks, Calydon|Upgrade progress 1/5; Integrity 6/10|Base complete and active: +7 Supply per Logistics Cycle while Integrity remains at least 5. Upgrade unfinished; +14 Supply per Logistics Cycle at full upgraded Integrity. Da Bellworks construction slot occupied.|
 |Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 5/5; Integrity 5/5|Complete and active at full Integrity. +7 Manpower per Logistics Cycle. Erigone construction slot occupied.|
-|WAAAGH! Bell-Ringa|Da Jaw-Breaka|Minor Fleet Construction / Da Gate-Krasha, Lerna|Progress 3/3; Integrity 3/3|Complete. Grants +2 permanent current and maximum Fleet Strength; Da Gate-Krasha is 7/7 (base 5 plus 2 from Da Jaw-Breaka). Granted capacity remains until the fleet is destroyed.|
+|WAAAGH! Bell-Ringa|Da Jaw-Breaka|Minor Fleet Construction / Da Gate-Krasha, Calydon|Progress 3/3; Integrity 3/3|Complete. Grants +2 permanent current and maximum Fleet Strength; Da Gate-Krasha is 7/7 (base 5 plus 2 from Da Jaw-Breaka). Granted capacity remains until the fleet is destroyed.|
 |Order of Saint Erigone|Castalia Anchorage|Minor Orbital Shipyard / Castalia, Delphi|Progress 3/3; Integrity 3/3|Complete and operational. Orbital Shipyard available in Delphi. Castalia ordinary construction slot occupied.|
 
 ## Setup provenance and decision ledger
@@ -739,6 +739,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |10 / Iron Paladins / Faction|Reinforce through The Iron Tithe.|+8 Supply: 14 to 22.|Resolved; no additional Logistics payout.|None|
 |10 / Iron Paladins / Social|No action.|None.|No change.|None|
 |10 / Iron Paladins / Construction|Complete The Grand Forge of Iron upgrade.|5 Supply: 22 to 17.|Upgrade progress 4/5 to 5/5; Integrity 9/10 to 10/10. Host remains 12/12. Upgraded +14 Supply per Logistics Cycle now active, replacing base +7; no immediate payout. Final resources 17 Supply / 15 Manpower.|WAAAGH! Bell-Ringa orders|
+
+|10 / WAAAGH! Bell-Ringa / Fleet|Move Da Gate-Krasha 7/7 and Da Fist 5/5 from Lerna to Calydon; then Expand Da Backhand at Da Bellworks' shipyard.|Movement free. Expand 1 Supply: 5 to 4; 1 Manpower: 28 to 27.|Da Backhand 1/5 to 3/5. All three Fleet Actions spent; no attack. Orks regain Void Superiority 15 to 5 in Calydon; Returning Escort remains 5/5. Da Jaw-Breaka travels with its host.|None|
+|10 / WAAAGH! Bell-Ringa / Faction|Reinforce.|+3 Supply: 4 to 7.|Resolved.|None|
+|10 / WAAAGH! Bell-Ringa / Social|No action.|None.|No change.|None|
+|10 / WAAAGH! Bell-Ringa / Construction|Pause Da Iron Gob upgrade; no action.|None.|Upgrade stays 1/5, Integrity 6/10; base +7 Supply per Logistics Cycle active. Final resources 7 Supply / 27 Manpower.|Order of Saint Erigone orders|
 
 ## Cycle Records
 
