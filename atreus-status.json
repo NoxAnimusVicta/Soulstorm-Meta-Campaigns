@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
-  "cycle": 9,
-  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
-  "event": "No event",
+  "cycle": 10,
+  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "event": "Supply Crisis",
   "logistics_due": 12,
-  "next_faction": "Order of Saint Erigone",
+  "next_faction": "Iron Paladins",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -21,11 +21,11 @@
     "2026-10-08: Fleet and System Build/Upgrade require an operational friendly Orbital Shipyard in the same system. Fleet projects may travel suspended and resume at any eligible shipyard; normal damage vulnerability persists.",
     "2026-10-08: Uniform construction baseline restored: Minor 3 actions at 3 Supply; Major 5 actions at 5 Supply, for base and supported upgrades. Construction-specific discounts removed; trait modifiers remain in trait descriptions."
   ],
-  "notes": "Iron Paladins and Bell-Ringa Cycle 9 complete. Bell-Ringa 10 Supply / 33 Manpower; Gate-Krasha 7/7 and Da Fist 5/5 in Lerna, actions spent, Void Superiority 12 to 5. Da Backhand 1/5 newly created in Calydon, cannot act. Da Iron Gob upgrade 1/5, Integrity 6/10, base income active. Pleuron Defended expired. Iron Paladins 20/21; Order 22/42 and yet to act. No event; next Logistics Cycle 12.",
+  "notes": "Cycle 9 closed; Cycle 10 Phase 0 complete. Corycia captured 1/2; Sealed Testimony destroyed; Custodians retain Pytho. Castalia Anchorage operational 3/3. Returning Escort 5/5 in Calydon, Void Superiority 5 to 1; Unbroken Procession 1/5 Eleusis. Fleet Actions reset. Supply Crisis applied once: Iron Paladins 15/16, Bell-Ringa 5/28, Order 12/35. No deficits. Next Logistics Cycle 12. Iron Paladins to act.",
   "phase_zero_resolved": true,
-  "event_check": 2,
-  "phase_zero_rolls": "Atreus_Cycle_09_Phase_0_Rolls.json",
+  "event_check": 6,
+  "phase_zero_rolls": "Atreus_Cycle_10_Phase_0_Rolls.json",
   "cycle_complete": false,
-  "event_roll": null,
+  "event_roll": 3,
   "rollover_policy": "After third Major turn: close Cycle, increment and reset actions; resolve constructions, scheduled Logistics, events; hand back to Iron Paladins."
 }

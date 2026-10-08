@@ -1,0 +1,25 @@
+{
+  "cycle": 9,
+  "method": "JavaScript Math.random; raw draws recorded once.",
+  "raw": [
+    0.6933871188052653,
+    0.8905950585475582
+  ],
+  "attacker": {
+    "roll": 14,
+    "strength": 5,
+    "supply": 21,
+    "manpower": 41,
+    "total": 31
+  },
+  "defender": {
+    "roll": 18,
+    "strength": 2,
+    "supply": 14,
+    "manpower": 14,
+    "total": 24
+  },
+  "outcome": "Attacker victory; Corycia 1/2 captured; Sealed Testimony destroyed by 2 Planet Fall damage; Custodians retain Pytho.",
+  "damage": 2,
+  "manpower_return": 0
+}

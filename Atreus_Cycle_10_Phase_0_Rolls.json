@@ -1,0 +1,46 @@
+{
+  "cycle": 10,
+  "method": "JavaScript Math.random; raw check and conditional table draw saved once.",
+  "raw_check": 0.9339961983718427,
+  "event_check": 6,
+  "raw_event": 0.34435387423587516,
+  "event_roll": 3,
+  "event": "Supply Crisis",
+  "minor_recovery": "No changes; destroyed fleets cannot recover; remaining assets full.",
+  "constructions": "No automatic effects or progress; Anchorage operational.",
+  "logistics": "Not due until Cycle 12.",
+  "crisis": {
+    "iron_paladins": {
+      "before": [
+        20,
+        21
+      ],
+      "after": [
+        15,
+        16
+      ]
+    },
+    "bell_ringa": {
+      "before": [
+        10,
+        33
+      ],
+      "after": [
+        5,
+        28
+      ]
+    },
+    "order": {
+      "before": [
+        17,
+        40
+      ],
+      "after": [
+        12,
+        35
+      ]
+    }
+  },
+  "deficits": "None triggered",
+  "minor_resources": "Holding-derived values; no persistent Major stockpile penalties."
+}
