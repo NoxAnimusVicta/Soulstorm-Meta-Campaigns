@@ -194,7 +194,7 @@ Each Minor's Supply and Manpower are separately 5 × sum(owned holding tiers), d
 
 ## Construction costs, Integrity and capacity
 
-One Construction action begins/advances one project or repairs a completed construction. Minor stages normally cost 3 Supply, Major stages 5, with the catalogue exceptions below. Grand Orbital Shipyard is now Minor (3 stages). Troop Transport, Repair Tender, Militia Barracks and Void Shield Generator cost 2 Supply per stage. System Defence Station, System Repair Station, Salvage Wing, Storm Transit, Consolidation Works and Void Station cost 3 per stage. Minor base/upgrade each require 3 stages; Major each 5. Industrial costs and starting Integrity apply as listed. Full host defence/strength is required to Build, Upgrade or Repair; system-based constructions require an owned holding or living fleet providing presence in their system and have no host defence prerequisite. Fleet and System Build/Upgrade actions additionally require an operational friendly Orbital Shipyard in the same system, as specified below.
+One Construction action begins/advances one project or repairs a completed construction. **Construction baseline — approved 8 October 2026:** Every Minor construction requires 3 Build actions at 3 Supply per action (9 Supply total). Every Major construction requires 5 Build actions at 5 Supply per action (25 Supply total). Where an upgrade exists, it requires another 3 actions at 3 Supply for a Minor or 5 actions at 5 Supply for a Major. These are the undamaged baseline requirements; there are no construction-specific cost or action-count exceptions. Explicit faction-trait modifiers are defined in the trait description. Grand Orbital Shipyard is Minor. Full host defence/strength is required to Build, Upgrade or Repair; system-based constructions require an owned holding or living fleet providing presence in their system and have no host defence prerequisite. Fleet and System Build/Upgrade actions additionally require an operational friendly Orbital Shipyard in the same system, as specified below.
 
 **Shipyard requirement — approved 8 October 2026:** Every Build or Upgrade action on a Fleet-category or System-category construction requires an operational friendly Orbital Shipyard in that system, including an established Capital's built-in yard. Fleet projects require their host fleet to be in the yard's system when the action resolves; System projects require the yard in the project's fixed system. Presence alone does not permit construction. A fleet may move with unfinished construction or upgrades aboard: work is suspended while no eligible yard is present and can resume in any system with an eligible yard, not necessarily the original system. Progress and Integrity are retained, subject to normal damage. Suspended projects remain attached, vulnerable to enemy attacks and normal host-damage Integrity loss, and are destroyed at 0 Integrity. Existing rules for completed base effects during upgrades still apply. Movement grants no construction progress and does not waive the full-host requirement. This amendment changes Build and Upgrade prerequisites; existing Repair rules remain unchanged.
 
@@ -212,36 +212,36 @@ Capture applies host/construction damage first. Surviving planetary construction
 
 ### Construction catalogue
 
-Costs below are per action, not total project prices. Action counts assume undamaged progress and normal starting Integrity; Industrial starts new projects at 2. An upgrade adds another base-sized block to maximum Integrity and normally takes the same number of Build actions as the base. “No upgrade” means no separate upgraded profile. A destroyed project must be rebuilt.
+The catalogue shows the baseline Supply cost per Build/Upgrade action. Minor projects and upgrades take 3 actions; Major projects and upgrades take 5. An upgrade adds another base-sized block to maximum Integrity. “No upgrade” means no separate upgraded profile. Damage may require additional work; a destroyed project must be rebuilt.
 
 
 **Planetary/Orbital Constructions** — Built on a specific planet, station or eligible Mobile Capital. Affects that planet or system.
 
 *Minor (3 actions base, 3 actions upgrade, capturable)*
 
-| Construction | Supply per Build/Upgrade action: normal / Industrial | Base Effect | Upgraded Effect |
+| Construction | Supply per Build/Upgrade action | Base Effect | Upgraded Effect |
 |---|---:|---|---|
-| [Orbital Shipyard] | 3 / 1 | Allows fleet creation and ordinary expansion here; Create normally starts 1/5 | No upgrade; prerequisite for Grand Orbital Shipyard |
-| [Grand Orbital Shipyard] | 3 / 1 | Minor, 3 stages: Create at 3/5; requires a shipyard, including a built-in Capital yard | Create at 5/5; best starting-Strength effect applies, not an additive stack |
-| [Supply Depot] | 3 / 1 | +3 Supply per Logistics Cycle | +6 Supply per Logistics Cycle |
-| [Training Grounds] | 3 / 1 | +3 Manpower per Logistics Cycle | +6 Manpower per Logistics Cycle |
-| [Automated Defences] | 3 / 1 | +1 defence regen/cycle if not attacked | +2 defence regen/cycle if not attacked |
-| [Bunker Network] | 3 / 1 | +4 defender roll (AI) / -1 Difficulty (Player) | +8 defender roll (AI) / -2 Difficulty (Player) |
-| [Landing Zones] | 3 / 1 | Minor: Garrison Transfers to this holding may use damaged donors; donors retain 1. | No upgrade |
-| [Orbital Cannons] | 3 / 1 | -1 Fleet Strength to largest hostile fleet when attacked | -2 Fleet Strength to largest hostile fleet when attacked |
+| [Orbital Shipyard] | 3 | Allows fleet creation and ordinary expansion here; Create normally starts 1/5 | No upgrade; prerequisite for Grand Orbital Shipyard |
+| [Grand Orbital Shipyard] | 3 | Minor, 3 stages: Create at 3/5; requires a shipyard, including a built-in Capital yard | Create at 5/5; best starting-Strength effect applies, not an additive stack |
+| [Supply Depot] | 3 | +3 Supply per Logistics Cycle | +6 Supply per Logistics Cycle |
+| [Training Grounds] | 3 | +3 Manpower per Logistics Cycle | +6 Manpower per Logistics Cycle |
+| [Automated Defences] | 3 | +1 defence regen/cycle if not attacked | +2 defence regen/cycle if not attacked |
+| [Bunker Network] | 3 | +4 defender roll (AI) / -1 Difficulty (Player) | +8 defender roll (AI) / -2 Difficulty (Player) |
+| [Landing Zones] | 3 | Minor: Garrison Transfers to this holding may use damaged donors; donors retain 1. | No upgrade |
+| [Orbital Cannons] | 3 | -1 Fleet Strength to largest hostile fleet when attacked | -2 Fleet Strength to largest hostile fleet when attacked |
 
 *Major (5 actions base, 5 actions upgrade; surviving planetary constructions transfer on capture)*
 
-| Construction | Supply per Build/Upgrade action: normal / Industrial | Base Effect | Upgraded Effect |
+| Construction | Supply per Build/Upgrade action | Base Effect | Upgraded Effect |
 |---|---:|---|---|
-| [Forge Complex] | 5 / 2 | +7 Supply per Logistics Cycle | +14 Supply per Logistics Cycle |
-| [Military Academy] | 5 / 2 | +7 Manpower per Logistics Cycle | +14 Manpower per Logistics Cycle |
-| [Regenerative Fortifications] | 5 / 2 | +3 defence regen/cycle if not attacked | +6 defence regen/cycle if not attacked |
-| [Void Shield Generator] | 2 / 1 | -1 incoming attack damage (can reduce to 0) | -2 incoming attack damage (can reduce to 0) |
-| [Fortification Network] | 5 / 2 | +2 to planet's maximum defence | +4 to planet's maximum defence |
-| [Militia Barracks] | 2 / 1 | No defensive Manpower commitment or isolation; holding Defend costs no Manpower | No upgrade |
-| [Planetary Shield Network] | 5 / 2 | Invulnerable with Void Superiority / Defended status without | No upgrade |
-| [Consolidation Works] | 3 / 1 | Upgrade planet type by one tier: Minor (2/2) → Standard (4/4) → Major (8/8). Current and maximum defence double. **Repeatable** until Major. Cannot upgrade to Capital — only one Capital per faction. | N/A (repeatable construction, not upgradeable) |
+| [Forge Complex] | 5 | +7 Supply per Logistics Cycle | +14 Supply per Logistics Cycle |
+| [Military Academy] | 5 | +7 Manpower per Logistics Cycle | +14 Manpower per Logistics Cycle |
+| [Regenerative Fortifications] | 5 | +3 defence regen/cycle if not attacked | +6 defence regen/cycle if not attacked |
+| [Void Shield Generator] | 5 | -1 incoming attack damage (can reduce to 0) | -2 incoming attack damage (can reduce to 0) |
+| [Fortification Network] | 5 | +2 to planet's maximum defence | +4 to planet's maximum defence |
+| [Militia Barracks] | 5 | No defensive Manpower commitment or isolation; holding Defend costs no Manpower | No upgrade |
+| [Planetary Shield Network] | 5 | Invulnerable with Void Superiority / Defended status without | No upgrade |
+| [Consolidation Works] | 5 | Upgrade planet type by one tier: Minor (2/2) → Standard (4/4) → Major (8/8). Current and maximum defence double. **Repeatable** until Major. Cannot upgrade to Capital — only one Capital per faction. | N/A (repeatable construction, not upgradeable) |
 
 #### Void Constructions (Fleet-Attached)
 
@@ -249,24 +249,24 @@ Costs below are per action, not total project prices. Action counts assume undam
 
 *Minor (3 actions base, 3 actions upgrade)*
 
-| Construction | Supply per Build/Upgrade action: normal / Industrial | Base Effect | Upgraded Effect |
+| Construction | Supply per Build/Upgrade action | Base Effect | Upgraded Effect |
 |---|---:|---|---|
-| [Troop Transport] | 2 / 1 | Victory return +2 committed Manpower | Victory return +4 committed Manpower; best transport only, cap at commitment |
-| [Repair Tender] | 2 / 1 | +1 to its surviving host fleet each Cycle, even after combat | +2 to its surviving host fleet each Cycle |
-| [Escort Squadron] | 3 / 1 | +3 to Fleet Battle roll | +6 to Fleet Battle roll |
-| [Assault Boats] | 3 / 1 | +2 fleet strength for ground assaults | +4 fleet strength for ground assaults |
-| [Bombardment Bay] | 3 / 1 | +1 ground assault damage | +2 ground assault damage |
-| [Assault Cruiser] | 3 / 1 | +2/2 fleet strength (tracked separately) | +4/4 fleet strength (tracked separately) |
+| [Troop Transport] | 3 | Victory return +2 committed Manpower | Victory return +4 committed Manpower; best transport only, cap at commitment |
+| [Repair Tender] | 3 | +1 to its surviving host fleet each Cycle, even after combat | +2 to its surviving host fleet each Cycle |
+| [Escort Squadron] | 3 | +3 to Fleet Battle roll | +6 to Fleet Battle roll |
+| [Assault Boats] | 3 | +2 fleet strength for ground assaults | +4 fleet strength for ground assaults |
+| [Bombardment Bay] | 3 | +1 ground assault damage | +2 ground assault damage |
+| [Assault Cruiser] | 3 | +2/2 fleet strength (tracked separately) | +4/4 fleet strength (tracked separately) |
 
 *Major (5 actions base, 5 actions upgrade)*
 
-| Construction | Supply per Build/Upgrade action: normal / Industrial | Base Effect | Upgraded Effect |
+| Construction | Supply per Build/Upgrade action | Base Effect | Upgraded Effect |
 |---|---:|---|---|
-| [Flagship] | 5 / 2 | +5 permanent strength/capacity | +10 total permanent strength/capacity; add to existing capacity |
-| [Carrier] | 5 / 2 | +10 strength for ground assaults | +20 strength for ground assaults |
-| [Siege Platform] | 5 / 2 | +3 ground assault damage | +6 ground assault damage |
-| [Salvage Wing] | 3 / 1 | +3 Supply per equipped victorious fleet in a Fleet Battle or attacking Ground Assault | +6; not a bombardment or Structure Assault reward |
-| [Scout Squadron] | 5 / 2 | This fleet may Move and Ground Assault or Uncontested Bombardment with the same Fleet Action. Resolve movement first; eligible allies already at the destination may join, spending their own actions. | No upgrade |
+| [Flagship] | 5 | +5 permanent strength/capacity | +10 total permanent strength/capacity; add to existing capacity |
+| [Carrier] | 5 | +10 strength for ground assaults | +20 strength for ground assaults |
+| [Siege Platform] | 5 | +3 ground assault damage | +6 ground assault damage |
+| [Salvage Wing] | 5 | +3 Supply per equipped victorious fleet in a Fleet Battle or attacking Ground Assault | +6; not a bombardment or Structure Assault reward |
+| [Scout Squadron] | 5 | This fleet may Move and Ground Assault or Uncontested Bombardment with the same Fleet Action. Resolve movement first; eligible allies already at the destination may join, spending their own actions. | No upgrade |
 
 #### Void Constructions (System-Based)
 
@@ -274,19 +274,19 @@ Costs below are per action, not total project prices. Action counts assume undam
 
 *Minor (3 actions base, 3 actions upgrade)*
 
-| Construction | Supply per Build/Upgrade action: normal / Industrial | Base Effect | Upgraded Effect |
+| Construction | Supply per Build/Upgrade action | Base Effect | Upgraded Effect |
 |---|---:|---|---|
-| [Defence Platform] | 3 / 1 | +5 to defender roll in Fleet Battles | +10 to defender roll in Fleet Battles |
+| [Defence Platform] | 3 | +5 to defender roll in Fleet Battles | +10 to defender roll in Fleet Battles |
 
 *Major (5 actions base, 5 actions upgrade)*
 
-| Construction | Supply per Build/Upgrade action: normal / Industrial | Base Effect | Upgraded Effect |
+| Construction | Supply per Build/Upgrade action | Base Effect | Upgraded Effect |
 |---|---:|---|---|
-| [System Defence Station] | 3 / 1 | -1 strength to every hostile fleet in system each Cycle | -2 to every hostile fleet |
-| [System Repair Station] | 3 / 1 | +1 strength to every eligible allied fleet in system each Cycle | +2 to every eligible allied fleet |
-| [Logistics Anchorage] | 5 / 2 | +1 defence regen to unattacked planets/cycle | +2 defence regen to unattacked planets/cycle |
-| [Void Station] | 3 / 1 | 2/2 station, functions as Minor planet | Upgrade via Consolidation Works: Minor (2/2) → Standard (4/4) → Major (8/8). Eligible for Establish New Capital when the faction has no functioning Capital. |
-| [Storm Transit] | 3 / 1 | Major, 5 stages, no upgrade: protect eligible allied fleets in this system from storm damage and permit their departure during a Warp Storm. | No upgrade |
+| [System Defence Station] | 5 | -1 strength to every hostile fleet in system each Cycle | -2 to every hostile fleet |
+| [System Repair Station] | 5 | +1 strength to every eligible allied fleet in system each Cycle | +2 to every eligible allied fleet |
+| [Logistics Anchorage] | 5 | +1 defence regen to unattacked planets/cycle | +2 defence regen to unattacked planets/cycle |
+| [Void Station] | 5 | 2/2 station, functions as Minor planet | Upgrade via Consolidation Works: Minor (2/2) → Standard (4/4) → Major (8/8). Eligible for Establish New Capital when the faction has no functioning Capital. |
+| [Storm Transit] | 5 | Major, 5 stages, no upgrade: protect eligible allied fleets in this system from storm damage and permit their departure during a Warp Storm. | No upgrade |
 
 
 ## Player battle setup and overflow

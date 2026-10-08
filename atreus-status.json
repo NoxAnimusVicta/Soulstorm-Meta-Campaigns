@@ -18,7 +18,8 @@
   "pending_battles": [],
   "rules_amendments": [
     "2026-10-07: only Major Factions have Alignments; Minors are independent hostile powers and cannot enter diplomatic agreements or alliances.",
-    "2026-10-08: Fleet and System Build/Upgrade require an operational friendly Orbital Shipyard in the same system. Fleet projects may travel suspended and resume at any eligible shipyard; normal damage vulnerability persists."
+    "2026-10-08: Fleet and System Build/Upgrade require an operational friendly Orbital Shipyard in the same system. Fleet projects may travel suspended and resume at any eligible shipyard; normal damage vulnerability persists.",
+    "2026-10-08: Uniform construction baseline restored: Minor 3 actions at 3 Supply; Major 5 actions at 5 Supply, for base and supported upgrades. Construction-specific discounts removed; trait modifiers remain in trait descriptions."
   ],
   "notes": "Cycle 6 complete. Order 17 Supply / 33 Manpower; Third Refusal 5/5 in Delphi, Returning Escort 1/5 in Eleusis. Iron Paladins 29/22; Bell-Ringa 11/29. All Fleet Actions reset for Cycle 7. Triptolemos and Heraion Defended expired. No periodic construction effects or Logistics due; next Logistics Cycle 9. Event check 2: no event. Iron Paladins to act.",
   "phase_zero_resolved": true,
