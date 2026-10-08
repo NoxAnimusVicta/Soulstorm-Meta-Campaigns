@@ -72,7 +72,7 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Capital|Da Bellworks — Calydon — 12/12|
 |Resources|11 Supply / 29 Manpower; neither deficit active|
 |Fleet|Da Gate-Krasha - Calydon - 5/5, action spent; Da Fist - Calydon - 1/5, newly created and cannot act in Cycle 6|
-|Constructions|Built-in Capital Orbital Shipyard; unnamed Major Forge Complex on Da Bellworks, progress 5/5 and Integrity 5/5; complete and active, +7 Supply per Logistics Cycle; Assault Cruiser on Da Gate-Krasha, progress and Integrity 1/3, unfinished and inactive|
+|Constructions|Built-in Capital Orbital Shipyard; unnamed Major Forge Complex on Da Bellworks, progress 5/5 and Integrity 5/5; complete and active, +7 Supply per Logistics Cycle; Da Jaw-Breaka (Assault Cruiser) on Da Gate-Krasha, progress and Integrity 1/3, unfinished and inactive|
 |Next Logistics if unchanged|14 Supply / 11 Manpower gross including Forge and trait; 2/2 fleet upkeep; net +12 / +9|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
 
@@ -543,7 +543,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Er
 |WAAAGH! Bell-Ringa|Forge Complex (name unassigned)|Major Forge Complex / Da Bellworks, Calydon|Progress 5/5; Integrity 5/5|Complete and active at full Integrity. +7 Supply per Logistics Cycle. Da Bellworks construction slot occupied.|
 |Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 5/5; Integrity 5/5|Complete and active at full Integrity. +7 Manpower per Logistics Cycle. Erigone construction slot occupied.|
 
-|WAAAGH! Bell-Ringa|Assault Cruiser|Minor Fleet Construction / Da Gate-Krasha, Calydon|Progress 1/3; Integrity 1/3|Unfinished and inactive. Completion grants +2 current and maximum Fleet Strength.|
+|WAAAGH! Bell-Ringa|Da Jaw-Breaka|Minor Fleet Construction / Da Gate-Krasha, Calydon|Progress 1/3; Integrity 1/3|Unfinished and inactive. Completion grants +2 current and maximum Fleet Strength.|
 
 ## Setup provenance and decision ledger
 
@@ -663,7 +663,7 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |6 / WAAAGH! Bell-Ringa / Fleet|Da Gate-Krasha 5/5 assaults Pleuron 2/4.|2 Supply: 17 to 15; commit 1 Manpower: 31 to 30. Victory recovery floor(60% of 1) = 0.|AI victory 29 to 6: attacker d20 15 + 5 Strength + 3 Supply + 6 Manpower; defender d20 4 + 0 Strength + 1 Supply + 1 Manpower. 2 damage captures Pleuron at 1/4. Calydonian Labour Defence loses its final holding and is eliminated; no surviving fleet for Planet Fall. Da Gate-Krasha remains 5/5, action spent. [Saved roll](Atreus_Cycle_06_Pleuron_Battle.json).|None|
 |6 / WAAAGH! Bell-Ringa / Faction|Create Da Fist at Da Bellworks' built-in Orbital Shipyard.|1 Supply: 15 to 14; 1 Manpower: 30 to 29.|New fleet 1/5 in Calydon; cannot take a Fleet Action this Cycle.|None|
 |6 / WAAAGH! Bell-Ringa / Social|No action.|None.|No change.|None|
-|6 / WAAAGH! Bell-Ringa / Construction|Begin Assault Cruiser attached to Da Gate-Krasha.|3 Supply: 14 to 11.|Progress and Integrity 1/3; unfinished and inactive. Host 5/5. Completion grants +2 current and maximum Fleet Strength. Final resources 11 Supply / 29 Manpower.|Order of Saint Erigone orders|
+|6 / WAAAGH! Bell-Ringa / Construction|Begin Da Jaw-Breaka, Assault Cruiser attached to Da Gate-Krasha.|3 Supply: 14 to 11.|Progress and Integrity 1/3; unfinished and inactive. Host 5/5. Completion grants +2 current and maximum Fleet Strength. Final resources 11 Supply / 29 Manpower.|Order of Saint Erigone orders|
 
 ## Cycle Records
 
