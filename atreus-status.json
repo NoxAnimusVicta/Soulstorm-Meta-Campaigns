@@ -18,9 +18,10 @@
   "pending_battles": [],
   "rules_amendments": [
     "2026-10-07: only Major Factions have Alignments; Minors are independent hostile powers and cannot enter diplomatic agreements or alliances.",
-    "2026-10-08: Fleet and System Build/Upgrade require an operational friendly Orbital Shipyard in the same system. Fleet projects may travel suspended and resume at any eligible shipyard; normal damage vulnerability persists.",
+    "2026-10-08: Fleet and System Build/Upgrade require an operational friendly Orbital Shipyard in the same system. Fleet projects may travel suspended and resume at any eligible shipyard; normal damage vulnerability persists. Superseded for System constructions by the 9 October amendment below.",
     "2026-10-08: Uniform construction baseline restored: Minor 3 actions at 3 Supply; Major 5 actions at 5 Supply, for base and supported upgrades. Construction-specific discounts removed; trait modifiers remain in trait descriptions.",
-    "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70."
+    "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70.",
+    "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions."
   ],
   "notes": "Cycle 11 closed; Cycle 12 Phase 0 complete. Pytho assault lost 13 to 14, remains 2/4. Returning Escort and Procession 5/5 each Eleusis; Orks retain Void Superiority 12 to 10. Breach Litany 2/3 inactive. Fleet Actions reset. Logistics settled: Iron Paladins 29/26, Bell-Ringa 15/34, Order 19/45. Check 5: no event. Next Logistics Cycle 15. Iron Paladins to act.",
   "phase_zero_resolved": true,
