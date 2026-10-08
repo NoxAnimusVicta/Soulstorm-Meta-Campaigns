@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 5 - Bell-Ringa turn complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 6 - Phase 0 complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|5|Bell-Ringa turn complete|No event (check: 4)|Order of Saint Erigone|None|6|
+|6|Phase 0 complete; awaiting Iron Paladins orders|No event (check: 4)|Iron Paladins|None|9|
 
 ## Major faction registers
 
@@ -50,8 +50,8 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Trait|The Iron Tithe — Efficient Logistics|
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
-|Resources|23 Supply / 18 Manpower; neither deficit active|
-|Fleet|Crusade Fleet Anabasis - Argos - 5/5; action spent on victorious Heraion Ground Assault|
+|Resources|36 Supply / 24 Manpower; neither deficit active|
+|Fleet|Crusade Fleet Anabasis - Argos - 5/5; action unused in Cycle 6|
 |Constructions|Built-in Capital Orbital Shipyard; The Forge of Iron (Major Forge Complex), Tiryns, progress 5/5 and Integrity 5/5; complete and active, +7 Supply per Logistics Cycle|
 |Next Logistics if unchanged|14 Supply / 7 Manpower gross including Forge; 1/1 fleet upkeep; net +13 / +6|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
@@ -70,8 +70,8 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Trait|More Boyz Fer Da Fight — Martial Culture|
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
-|Resources|6 Supply / 23 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Calydon - 5/5; action spent on unsuccessful Pleuron Ground Assault|
+|Resources|17 Supply / 31 Manpower; neither deficit active|
+|Fleet|Da Gate-Krasha - Calydon - 5/5; action unused in Cycle 6|
 |Constructions|Built-in Capital Orbital Shipyard; unnamed Major Forge Complex on Da Bellworks, progress 5/5 and Integrity 5/5; complete and active, +7 Supply per Logistics Cycle|
 |Next Logistics if unchanged|12 Supply / 9 Manpower gross including Forge; 1/1 fleet upkeep; net +11 / +8|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
@@ -90,10 +90,10 @@ The Order’s convents and shrine network preserve hospitals, military stores an
 |Trait|Offerings of the Faithful — War Economy|
 |Exact effect|+6 Supply each Logistics Cycle.|
 |Capital|Erigone — Eleusis — 12/12|
-|Resources|13 Supply / 23 Manpower; neither deficit active|
-|Fleet|The Third Refusal - Eleusis - 5/5; action unused in Cycle 5|
-|Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 4/5 and Integrity 4/5; inactive|
-|Next Logistics if unchanged|13 Supply / 7 Manpower gross; 1/1 fleet upkeep; net +12 / +6|
+|Resources|18 Supply / 34 Manpower; neither deficit active|
+|Fleet|The Third Refusal - Eleusis - 5/5; action unused in Cycle 6|
+|Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 5/5 and Integrity 5/5; complete and active, +7 Manpower per Logistics Cycle|
+|Next Logistics if unchanged|13 Supply / 14 Manpower gross including Academy; 1/1 fleet upkeep; net +12 / +13|
 |Briefing|[briefing_canoness_althaia.md](briefing_canoness_althaia.md)|
 
 ## Personnel and succession
@@ -184,7 +184,7 @@ Setup: fixed home/prize profile recorded above.
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
 |Erigone|Capital Planet|Order of Saint Erigone|12/12|4 Supply + 4 Manpower; built-in shipyard|A shrine Capital of pale stone basilicas, processional avenues and fortified convent precincts. Hospitals and pilgrims’ dormitories fill the lower city beneath the Order’s blackened bell towers. Broad ceremonial approaches become exposed killing grounds between substantial masonry walls.|Cathedral city or shrine fortress; plazas, cloisters and defended avenues.|
-|Triptolemos|Standard Planet|Order of Saint Erigone|1/4|2 Supply + 2 Manpower|Hospitaller estates and cathedral granaries feed a crowded pilgrim population. The Order of Saint Erigone now holds the battered gatehouses between the terraced farms and the walled ecclesiastical town. Sisters secure the canal bridges and grain stores while damaged positions await repair; grain carts and penitential processions pass beneath their watch.|Temperate shrine settlement; farmland, waterways and stone bridges.|
+|Triptolemos|Standard Planet|Order of Saint Erigone|3/4|2 Supply + 2 Manpower; Defended until start of Order Cycle 6 turn|Hospitaller estates and cathedral granaries feed a crowded pilgrim population. The Order of Saint Erigone holds the gatehouses between terraced farms and the walled ecclesiastical town. Sisters have restored much of the damaged line and strengthened the canal crossings, though some positions remain battered. Grain carts and penitential processions pass beneath a vigilant garrison.|Temperate shrine settlement; farmland, waterways and stone bridges.|
 |Daeira|Minor Planet|Order of Saint Erigone|1/2|1 Supply + 1 Manpower|Funerary settlements cling to a cold limestone plateau. The Order now posts Sisters at the reliquary chapels and burial gates, overlooking the narrow roads between tomb fields. Former Synod positions shelter the occupiers while damaged defences await repair. Burial attendants and pilgrims pass beneath the Order's scrutiny on their way to the ossuary galleries.|Graveyard or ruined shrine; narrow passages, stone cover and bleak open ground.|
 
 |Fleet|Owner|Strength / original maximum|
@@ -250,7 +250,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Mycenae
 
-**Void Superiority:** House Atreides 17 vs hostile fleets 0 - House Atreides superior; no hostile fleet present.
+**Void Superiority:** House Atreides 18 vs hostile fleets 0 - House Atreides superior; no hostile fleet present.
 
 The prize dynasty holds a fortified seat, military estates and an orbital anchorage.
 
@@ -271,7 +271,7 @@ Setup: fixed home/prize profile recorded above.
 |Pleisthenes’ Oath|House Atreides|5/5|
 |The Copper Hawk|House Atreides|5/5|
 |Perseia’s Breakwater|House Atreides|5/5|
-|The Dendra Covenant|House Atreides|2/3|
+|The Dendra Covenant|House Atreides|3/3|
 
 
 
@@ -436,7 +436,7 @@ Minor resources below are **derived defence values**, not spendable Major stockp
 |Eleusinian Synod|Prelate Lysandra|None; eliminated in Cycle 4|None; fleet destroyed in Cycle 2 Warp Storm|0 / 0; eliminated|
 |Calydonian Labour Defence|Marshal Oineus|Pleuron|None; fleet destroyed in Cycle 2 Warp Storm|10 / 10|
 |Aulis Anchorage Command|Commodore Thestor|Schoenus, Hyria|5/5 surviving|20 / 20|
-|House Atreides (prize)|Archon Pleisthenes Atreides|Perseia, Dendra, Lion Gate|5/5, 5/5, 5/5, 2/3 surviving|70 / 70|
+|House Atreides (prize)|Archon Pleisthenes Atreides|Perseia, Dendra, Lion Gate|5/5, 5/5, 5/5, 3/3 surviving|70 / 70|
 |Delphic Custodians|Logothete Manto|Corycia, Pytho, Omphalos Relay|4/4 surviving|20 / 20|
 |Lotus Company|Captain Eurylochos|Castalia|None; fleet destroyed in Cycle 2 Warp Storm|5 / 5|
 |Nemean Estate Compact|Warden Adrastos|Cleonae, Phlius, Apesas|5/5 surviving|25 / 25|
@@ -540,7 +540,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks, Er
 |---|---|---|---|---|
 |Iron Paladins|The Forge of Iron|Major Forge Complex / Tiryns, Argos|Progress 5/5; Integrity 5/5|Complete and active at full Integrity. +7 Supply per Logistics Cycle. Tiryns construction slot occupied.|
 |WAAAGH! Bell-Ringa|Forge Complex (name unassigned)|Major Forge Complex / Da Bellworks, Calydon|Progress 5/5; Integrity 5/5|Complete and active at full Integrity. +7 Supply per Logistics Cycle. Da Bellworks construction slot occupied.|
-|Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 4/5; Integrity 4/5|Under construction; inactive. +7 Manpower per Logistics Cycle only when completed and at full Integrity. Erigone construction slot occupied.|
+|Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 5/5; Integrity 5/5|Complete and active at full Integrity. +7 Manpower per Logistics Cycle. Erigone construction slot occupied.|
 
 ## Setup provenance and decision ledger
 
@@ -642,6 +642,15 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |5 / WAAAGH! Bell-Ringa / Social|No action.|None.|No change.|None|
 |5 / WAAAGH! Bell-Ringa / Construction|Complete Major Forge Complex on Da Bellworks.|5 Supply: 11 to 6.|Progress and Integrity 4/5 to 5/5, complete and active. Host remains 12/12. +7 Supply per Logistics Cycle while operational; no immediate payout. Final resources 6 Supply / 23 Manpower.|Order of Saint Erigone orders|
 
+|5 / Order of Saint Erigone / Fleet|Third Refusal holds in Eleusis.|None.|5/5; Fleet Action unused.|None|
+|5 / Order of Saint Erigone / Faction|Defend Triptolemos.|2 Supply: 13 to 11; 2 Manpower: 23 to 21.|Defence 1/4 to 3/4; Defended until start of the Order's Cycle 6 turn.|None|
+|5 / Order of Saint Erigone / Social|No action.|None.|No change.|None|
+|5 / Order of Saint Erigone / Construction|Complete Vigil of the Three Refusals on Erigone.|5 Supply: 11 to 6.|Progress and Integrity 4/5 to 5/5; complete and active, host 12/12. +7 Manpower per Logistics Cycle; no immediate payout. Ends at 6 Supply / 21 Manpower.|Cycle closure|
+|5 / Cycle end|Minor recovery; close Cycle and record unified narrative.|None.|Pleuron was attacked and does not recover. Calydonian faction engaged; no fleet recovery. Argive and Eleusinian factions eliminated. Other surviving Minor holdings full; House Atreides restores The Dendra Covenant 2/3 to 3/3, its sole damaged fleet. No resurrection.|Cycle 6 Phase 0|
+|6 / Phase 0 / Constructions|Resolve periodic effects and reset Fleet Actions.|None.|Two Forges and one Academy complete at 5/5; their income is applied once in Logistics below. No separate repair, damage or Endurance effects. All Major fleets 5/5, actions unused.|Logistics|
+|6 / Phase 0 / Logistics|Holding income, active constructions, passive traits, then fleet upkeep.|1 Supply / 1 Manpower upkeep per Major.|Iron Paladins: 23/18 +14/7 gross -1/1 = 36/24. Bell-Ringa: 6/23 +12/9 gross -1/1 = 17/31. Order: 6/21 +13/14 gross -1/1 = 18/34. Supply/Manpower; Forge +7 Supply each, Academy +7 Manpower, Martial Culture +4 Manpower, War Economy +6 Supply included. Next Logistics Cycle 9.|Events|
+|6 / Phase 0 / Events|Roll d6 once.|None.|Check 4: no event. [Opening audit](Atreus_Cycle_06_Phase_0_Rolls.json). Triptolemos remains Defended until the Order's own Cycle 6 turn begins.|Iron Paladins orders|
+
 ## Cycle Records
 
 ### Cycle 1 - Foundries and burial gates
@@ -683,6 +692,16 @@ In Calydon, Bell-Ringa's renewed assault met resistance that his mobs could not 
 The Order carried Triptolemos. Its gatehouses and cathedral granaries passed into the Sisters' hands, ending the Eleusinian Synod's independent hold on the system. The Third Refusal survived intact, and the Order began securing the damaged world alongside its earlier conquest of Daeira.
 
 Work advanced on the Forge of Iron, the Orks' forge and the Vigil of the Three Refusals. All remained unfinished. Away from the fighting, House Atreides restored Perseia's Breakwater. No communiques passed between the Major powers; the Cycle closed with the Order holding all of Eleusis, the Paladins pressing Heraion and Bell-Ringa still facing defiance on Pleuron.
+
+### Cycle 5 - The foundries awaken
+
+The Iron Paladins carried Heraion in an overwhelming victory. The Council's last positions fell, and the destruction of The Unspent Levy ended its remaining military presence in Argos. The Chapter now held the system's worlds, with battered Heraion joining Tiryns and Prosymna under the Warsmith's protection. On Tiryns, the Forge of Iron was completed and made ready to supply the campaigns ahead.
+
+Bell-Ringa returned to Pleuron, but the labour defence again held against his mobs. The world remained defiant despite its damaged lines. At Da Bellworks, the Meks completed their forge, giving the war host a new source of materiel as its existing stores dwindled.
+
+The Order kept The Third Refusal in Eleusis and turned to securing Triptolemos. Sisters restored much of the damaged defensive line and strengthened its crossings. On Erigone, the Vigil of the Three Refusals was completed, ready to train replacements for the Order's continuing war.
+
+House Atreides finished restoring The Dendra Covenant away from the fighting. No communiques passed between the Major powers. The Cycle closed with Argos and Eleusis secured by their conquerors, while Pleuron's defenders continued to deny Bell-Ringa control of Calydon.
 
 ## Pinned rules appendix
 

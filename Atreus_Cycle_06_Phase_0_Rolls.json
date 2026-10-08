@@ -1,0 +1,77 @@
+{
+  "cycle": 6,
+  "method": "JavaScript Math.random; one d6 check, conditional d6 event, no rerolls",
+  "event_check": 4,
+  "event_roll": null,
+  "event": "No event",
+  "construction_effects": "All three completed 5/5 income constructions pay once in Logistics; no other periodic effects.",
+  "logistics": [
+    {
+      "faction": "Iron Paladins",
+      "before": [
+        23,
+        18
+      ],
+      "gross": [
+        14,
+        7
+      ],
+      "upkeep": [
+        1,
+        1
+      ],
+      "after": [
+        36,
+        24
+      ]
+    },
+    {
+      "faction": "WAAAGH! Bell-Ringa",
+      "before": [
+        6,
+        23
+      ],
+      "gross": [
+        12,
+        9
+      ],
+      "upkeep": [
+        1,
+        1
+      ],
+      "after": [
+        17,
+        31
+      ]
+    },
+    {
+      "faction": "Order of Saint Erigone",
+      "before": [
+        6,
+        21
+      ],
+      "gross": [
+        13,
+        14
+      ],
+      "upkeep": [
+        1,
+        1
+      ],
+      "after": [
+        18,
+        34
+      ]
+    }
+  ],
+  "minor_recovery": [
+    {
+      "fleet": "The Dendra Covenant",
+      "owner": "House Atreides",
+      "before": "2/3",
+      "after": "3/3"
+    }
+  ],
+  "recovery_notes": "Pleuron attacked: no holding recovery; Calydonian engaged: no fleet recovery. Other surviving Minor holdings and eligible fleets full. Eliminated factions remain eliminated.",
+  "defended": "Triptolemos remains Defended until start of Order Cycle 6 turn."
+}
