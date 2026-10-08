@@ -71,6 +71,31 @@ Record Jake's balance feedback during the Atreus campaign for a combined assessm
 
 **Decision:** Player feedback recorded for the combined campaign-end assessment. No rule change or new simulation authorised by this entry.
 
+### AT-BAL-003 — Warp Storm damage and newly created fleets
+
+**Recorded:** 8 October 2026 (Australia/Sydney)  
+**Campaign Cycle:** 7, after Iron Paladins orders  
+**Topic:** Warp Storm damage, fleet creation and Fleet Strength constructions  
+**Status:** Proposals recorded for end-of-campaign review
+
+**Jake's feedback:** Consider exempting fleets at 1 current Strength from Warp Storm damage. This prevents a newly created fleet being destroyed before it has an opportunity to Expand. The narrative rationale is that lower Fleet Strength represents fewer or smaller ships, which can more easily manoeuvre away from storm damage; larger ships or formations find this harder.
+
+**Proposed alternatives:**
+- Exempt 1-Strength fleets from storm damage while otherwise retaining the existing damage rule.
+- Scale damage: 1-Strength fleets take 0 damage; fleets at 2–4 Strength take 1 damage; full-strength fleets take 2 damage.
+
+**Construction interaction identified by Jake:** Flagships and Assault Cruisers increase Fleet Strength and can provide additional strength to absorb losses, mitigating the consequences of storm damage.
+
+**Observed situation and impact:** The Emperor’s Judgement has just been created at 1/5 in Cycle 7 and cannot act this Cycle. This is a prospective concern about the next Phase 0 occurring before it can Expand, not a report that this fleet has already suffered storm damage.
+
+**Details to settle during review:** “Full strength” in the scaled proposal needs an exact definition: current Strength of 5 or more, or current Strength equal to the fleet's actual maximum. Resolve how damaged fleets above 4 Strength, increased capacities, smaller Minor fleets and Mobile Capitals fit the bands. These details are not yet ruled.
+
+**Interactions and questions for campaign-end review:** Assess protection for new fleets against incentives to retain or split into 1-Strength fleets to avoid storms; repair and expansion costs; attached construction Integrity damage; Fleet Endurance and periodic repair timing; Storm Transit protection; and Flagship/Assault Cruiser capacity. Assess the movement restriction separately from damage—no change to that restriction was proposed.
+
+**Campaign evidence:** [Atreus ledger and event rules](Atreus_Campaign.md); [playtest rules](Source_Rules_Playtest_2026-10-06.md). The active Warp Storm rule currently removes 1 Strength from every unprotected living fleet, including Mobile Capitals.
+
+**Decision:** Both alternatives and the rationale are recorded for combined campaign-end assessment. No active storm rule, asset state or completed turn changed; no simulations launched.
+
 ### Entry template
 
 **ID:** AT-BAL-NNN  
