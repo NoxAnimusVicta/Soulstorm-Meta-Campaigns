@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 6,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
   "event": "No event",
   "logistics_due": 9,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -19,7 +19,7 @@
   "rules_amendments": [
     "2026-10-07: only Major Factions have Alignments; Minors are independent hostile powers and cannot enter diplomatic agreements or alliances."
   ],
-  "notes": "Cycle 5 closed. All three projects complete and active at 5/5. Triptolemos 3/4, Defended until start of Order Cycle 6 turn. All Major fleets 5/5 with unused actions. Cycle 6 Logistics settled: Iron Paladins 36/24, Bell-Ringa 17/31, Order 18/34 (Supply/Manpower). Event check 4: no event. Next Logistics Cycle 9. Iron Paladins to act.",
+  "notes": "Iron Paladins Cycle 6 resolved: Anabasis holds 5/5, action unused; Heraion 3/4, Defended until start of Iron Paladins Cycle 7 turn. Grand Forge of Iron upgrade 1/5, Integrity 6/10, retains base +7 Supply income. Iron Paladins 29 Supply / 22 Manpower. Bell-Ringa and Order yet to act. Next Logistics Cycle 9; no event.",
   "phase_zero_resolved": true,
   "event_check": 4,
   "phase_zero_rolls": "Atreus_Cycle_06_Phase_0_Rolls.json",

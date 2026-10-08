@@ -15,7 +15,8 @@ function logisticsBreakdown(f){
  for(const h of r.holdings)rows.push({label:h[0],kind:'Holding',s:amount(h[4],'Supply'),m:amount(h[4],'Manpower')});
  for(const c of r.constructions){
   const integrity=String(c[2]).match(/Integrity\s+(\d+)\/(\d+)/i);
-  const active=/complete and active/i.test(c[3])&&!/inactive/i.test(c[3])&&integrity&&integrity[1]===integrity[2];
+  const threshold=String(c[3]).match(/Integrity remains at least (\d+)/i);
+  const active=/complete and active/i.test(c[3])&&!/inactive/i.test(c[3])&&integrity&&(threshold?Number(integrity[1])>=Number(threshold[1]):integrity[1]===integrity[2]);
   if(active)rows.push({label:c[0],kind:'Construction',s:amount(c[3],'Supply'),m:amount(c[3],'Manpower')});
  }
  if(/(?:per|each) Logistics Cycle/i.test(f.effect))rows.push({label:f.trait.split(' — ')[0],kind:'Trait',s:amount(f.effect,'Supply'),m:amount(f.effect,'Manpower')});
