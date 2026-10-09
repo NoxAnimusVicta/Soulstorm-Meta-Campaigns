@@ -1,0 +1,93 @@
+{
+  "campaign": "Atreus",
+  "cycle": 12,
+  "target": "Triptolemos",
+  "attacker": "WAAAGH! Bell-Ringa",
+  "defender": "Order of Saint Erigone",
+  "raw": [
+    0.9162938746993299,
+    0.3882271128371264
+  ],
+  "rolls": [
+    19,
+    8
+  ],
+  "attacker_total": 39,
+  "defender_total": 29,
+  "attacker_components": {
+    "strength": 12,
+    "supply": 2,
+    "manpower": 6
+  },
+  "defender_components": {
+    "strength": 10,
+    "supply": 3,
+    "manpower": 8
+  },
+  "post_commitment": {
+    "attacker": [
+      13,
+      32
+    ],
+    "defender": [
+      17,
+      44
+    ]
+  },
+  "result": "attacker victory",
+  "damage": 3,
+  "attacker_manpower_return": 1,
+  "planet_fall": {
+    "fleets": [
+      {
+        "name": "The Returning Escort",
+        "strength": 3
+      },
+      {
+        "name": "The Unbroken Procession",
+        "strength": 4
+      }
+    ],
+    "allocation": [
+      {
+        "point": 1,
+        "eligible": [
+          "The Returning Escort",
+          "The Unbroken Procession"
+        ],
+        "raw": 0.8306066016300323,
+        "target": "The Unbroken Procession",
+        "remaining": 4
+      },
+      {
+        "point": 2,
+        "eligible": [
+          "The Returning Escort"
+        ],
+        "raw": null,
+        "target": "The Returning Escort",
+        "remaining": 4
+      },
+      {
+        "point": 3,
+        "eligible": [
+          "The Returning Escort",
+          "The Unbroken Procession"
+        ],
+        "raw": 0.07487187580215804,
+        "target": "The Returning Escort",
+        "remaining": 3
+      }
+    ]
+  },
+  "order_final": [
+    17,
+    42
+  ],
+  "orks_final": [
+    6,
+    31
+  ],
+  "defend": "Triptolemos 1/4 to 3/4, Defended until Bell-Ringa Cycle 13",
+  "construction": "Iron Gob upgrade 3/5, Integrity 8/10"
+}

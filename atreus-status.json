@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 12,
-  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
+  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "No event",
   "logistics_due": 15,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -23,7 +23,7 @@
     "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70.",
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions."
   ],
-  "notes": "Iron Paladins Cycle 12 complete. Human victory at Schoenus; captured then Defended to 2/2 until Iron Paladins Cycle 13. Unanswered Muster 3/5; Anchorage Command retains Hyria. Anabasis and Judgement 5/5 each in Aulis, actions spent; Vigilatius holds Argos 5/5, unused. Gene-Seed Vaults 2/5 inactive. Iron Paladins 22 Supply / 24 Manpower. No further Logistics or event roll; Cycle 12 remains open. WAAAGH! Bell-Ringa to act.",
+  "notes": "Bell-Ringa wins Triptolemos 39 to 29; captured and Defended to 3/4 until Bell-Ringa Cycle 13. Escort 3/5, Procession 4/5 after Planet Fall. Order 17 Supply / 42 Manpower. Orks 6 Supply / 31 Manpower; Iron Gob upgrade 3/5, Integrity 8/10. Gate-Krasha and Fist actions spent; Backhand unused. Iron Paladins already resolved, 22/24. Cycle 12 remains open.",
   "phase_zero_resolved": true,
   "event_check": 5,
   "phase_zero_rolls": "Atreus_Cycle_12_Phase_0_Rolls.json",
