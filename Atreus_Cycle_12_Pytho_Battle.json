@@ -1,0 +1,41 @@
+{
+  "campaign": "Atreus",
+  "cycle": 12,
+  "target": "Pytho",
+  "raw": [
+    0.3508833352665238,
+    0.9510773657382108
+  ],
+  "rolls": [
+    8,
+    20
+  ],
+  "attacker_total": 24,
+  "defender_total": 22,
+  "attacker_components": [
+    5,
+    3,
+    8
+  ],
+  "defender_components": [
+    0,
+    1,
+    1
+  ],
+  "post_commitment": {
+    "attacker": [
+      15,
+      41
+    ],
+    "defender": [
+      8,
+      9
+    ]
+  },
+  "outcome": "Order victory; 2 damage; capture at 1/4; Delphic Custodians eliminated",
+  "bombardment_bay": "Incomplete at time of battle; no damage bonus",
+  "final_order_resources": [
+    9,
+    38
+  ]
+}

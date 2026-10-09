@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
-  "cycle": 12,
-  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
+  "cycle": 13,
+  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
   "event": "No event",
   "logistics_due": 15,
-  "next_faction": "Order of Saint Erigone",
+  "next_faction": "Iron Paladins",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -23,10 +23,10 @@
     "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70.",
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions."
   ],
-  "notes": "Bell-Ringa wins Triptolemos 39 to 29; captured and Defended to 3/4 until Bell-Ringa Cycle 13. Escort 3/5, Procession 4/5 after Planet Fall. Order 17 Supply / 42 Manpower. Orks 6 Supply / 31 Manpower; Iron Gob upgrade 3/5, Integrity 8/10. Gate-Krasha and Fist actions spent; Backhand unused. Iron Paladins already resolved, 22/24. Cycle 12 remains open.",
+  "notes": "Cycle 12 closed. Order captured Pytho 24 to 22, eliminating Custodians; Escort and Procession restored to 5/5; Oath at the Gate created 1/5 Eleusis; Breach Litany completed 3/3. Cycle 13 Phase 0 complete: no periodic effects, Logistics not due until 15, event check 3 means no event. Fleet Actions reset. Schoenus Defended expired; Triptolemos Defended lasts until Bell-Ringa turn. Resources Iron Paladins 22/24, Bell-Ringa 6/31, Order 9/38. Iron Paladins to act.",
   "phase_zero_resolved": true,
-  "event_check": 5,
-  "phase_zero_rolls": "Atreus_Cycle_12_Phase_0_Rolls.json",
+  "event_check": 3,
+  "phase_zero_rolls": "Atreus_Cycle_13_Phase_0_Rolls.json",
   "cycle_complete": false,
   "event_roll": null,
   "rollover_policy": "After third Major turn: close Cycle, increment and reset actions; resolve constructions, scheduled Logistics, events; hand back to Iron Paladins."

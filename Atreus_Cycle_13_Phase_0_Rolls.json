@@ -1,0 +1,26 @@
+{
+  "campaign": "Atreus",
+  "cycle": 13,
+  "raw": 0.35448455555470093,
+  "check": 3,
+  "eventraw": null,
+  "event": null,
+  "event_name": "No event",
+  "logistics_due": 15,
+  "logistics_applied": false,
+  "periodic_effects": "None",
+  "resources": {
+    "iron_paladins": [
+      22,
+      24
+    ],
+    "bell_ringa": [
+      6,
+      31
+    ],
+    "order": [
+      9,
+      38
+    ]
+  }
+}
