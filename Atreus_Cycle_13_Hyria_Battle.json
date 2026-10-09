@@ -1,0 +1,44 @@
+{
+  "campaign": "Atreus",
+  "cycle": 13,
+  "date": "2026-10-10",
+  "target": "Hyria",
+  "resolution": "Human-reported Iron Paladin victory; no AI roll",
+  "player_report": "The men of the Aulis Anchorage Command tried to use every alley way and hiding spot they could to avoid being wiped out, but nothing can escape the tide of Iron. Iron Paladin Victory",
+  "strength": 10,
+  "assault_cost": {
+    "supply": 3,
+    "manpower": 2
+  },
+  "manpower_returned": 1,
+  "damage": 3,
+  "defence_before": "8/8",
+  "defence_after": "5/8",
+  "captured": false,
+  "planet_fall": false,
+  "setup": {
+    "difficulty": "Hard 3/5",
+    "teams": "2 vs 1",
+    "minimum_map_slots": 4,
+    "attacker_post_commitment": [
+      19,
+      22
+    ],
+    "defender_post_commitment": [
+      12,
+      12
+    ]
+  },
+  "reinforce_supply": 8,
+  "construction": {
+    "project": "Gene-Seed Vaults",
+    "supply": 5,
+    "progress": "3/5",
+    "integrity": "3/5",
+    "active": false
+  },
+  "final_resources": [
+    22,
+    23
+  ]
+}

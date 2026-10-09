@@ -1,17 +1,17 @@
 {
   "campaign": "Atreus",
   "cycle": 13,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
   "event": "No event",
   "logistics_due": 15,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
     "Order of Saint Erigone"
   ],
   "opened": true,
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "rules_file": "Source_Rules_Playtest_2026-10-06.md",
   "rules_commit": "113ec69a6163d36fb2164b9b624d14d8889986e5",
   "setup_rolls": "Atreus_Setup_Rolls_2026-10-07.json",
@@ -23,7 +23,7 @@
     "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70.",
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions."
   ],
-  "notes": "Cycle 12 closed. Order captured Pytho 24 to 22, eliminating Custodians; Escort and Procession restored to 5/5; Oath at the Gate created 1/5 Eleusis; Breach Litany completed 3/3. Cycle 13 Phase 0 complete: no periodic effects, Logistics not due until 15, event check 3 means no event. Fleet Actions reset. Schoenus Defended expired; Triptolemos Defended lasts until Bell-Ringa turn. Resources Iron Paladins 22/24, Bell-Ringa 6/31, Order 9/38. Iron Paladins to act.",
+  "notes": "Iron Paladins Cycle 13 resolved: human victory at Hyria, defence 8/8 to 5/8, still Anchorage Command-controlled; no Planet Fall. Anabasis and Judgement 5/5 Aulis, actions spent; Vigilatius 5/5 Argos unused. Reinforce and Gene-Seed Vaults 3/5 completed for this turn; project remains inactive. Resources 22 Supply / 23 Manpower. Bell-Ringa next; no rollover or additional event check.",
   "phase_zero_resolved": true,
   "event_check": 3,
   "phase_zero_rolls": "Atreus_Cycle_13_Phase_0_Rolls.json",
