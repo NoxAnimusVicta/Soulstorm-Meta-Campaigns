@@ -162,6 +162,39 @@ Consider a random event that reduces Authority according to the number of holdin
 
 **Decision:** No active action-economy or trait change. Record for joint end-of-campaign review.
 
+### AT-BAL-008 — Limit System Defence and Repair Stations to one target per Cycle
+
+**Recorded:** 9 October 2026 (Australia/Sydney)  
+**Campaign Cycle:** 12, after Iron Paladins turn  
+**Status:** Proposals recorded for end-of-campaign review
+
+**Jake's feedback:** System Defence Stations and System Repair Stations both seem very strong when their effects apply across all relevant targets in a system.
+
+**Suggested changes:**
+- System Repair Station: restore 1 defence per Cycle to the planet with the lowest defence in the system, rather than repairing every planet.
+- System Defence Station: reduce the strongest enemy fleet in the system by 1 Strength per Cycle, rather than damaging every enemy fleet.
+- Where multiple eligible targets tie for lowest defence or highest Fleet Strength respectively, select the target with a randomised roll.
+
+**Details to settle during review:** Define lowest defence precisely (current points or proportion of maximum), whether Repair also includes owned stations, and how upgraded versions and multiple copies interact. Repair eligibility should be made explicit when assessing the proposal, including full-defence targets. These details were not specified by Jake and are not new rulings.
+
+**Interactions for review:** Concentrated versus dispersed fleets, mixed holding tiers, repeated targeting, station stacking, upgraded effects and Phase 0 timing. Preserve an auditable random target selection when ties occur.
+
+**Decision:** Record the proposed single-target effects for campaign-end assessment. Current construction effects remain unchanged.
+
+### AT-BAL-009 — Holding upgrades should become harder at higher destination tiers
+
+**Recorded:** 9 October 2026 (Australia/Sydney)  
+**Campaign Cycle:** 12, after Iron Paladins turn  
+**Status:** Proposal recorded for end-of-campaign review
+
+**Jake's feedback:** Upgrading holdings is currently not cost-effective. Upgrades should start easier and become more difficult as the destination tier increases.
+
+**Suggested direction:** Introduce a graduated upgrade requirement for planets and stations, making lower-tier improvements more accessible and higher-tier improvements more demanding. No specific Supply costs or action counts have been selected.
+
+**Interactions and questions for review:** Compare Supply investment, actions and completion time against extra Logistics income, defence and construction capacity at each tier. Assess recovery of investment, conquest as an alternative, the proposed per-holding Construction actions (AT-BAL-007), and Authority (AT-BAL-005). Distinguish holding tier upgrades from construction upgrades and the existing replacement-Capital procedure.
+
+**Decision:** Record for combined campaign-end review. No active upgrade costs, durations, holding tiers or campaign state changed.
+
 ### Entry template
 
 **ID:** AT-BAL-NNN  
