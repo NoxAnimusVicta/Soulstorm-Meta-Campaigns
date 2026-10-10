@@ -1,0 +1,57 @@
+{
+  "campaign": "Atreus",
+  "cycle": 13,
+  "date": "2026-10-10",
+  "target": "Triptolemos",
+  "attacker": "Order of Saint Erigone",
+  "defender": "WAAAGH! Bell-Ringa",
+  "raw": [
+    0.04096008665834472,
+    0.5760417278059008
+  ],
+  "rolls": [
+    1,
+    12
+  ],
+  "attacker_total": 19,
+  "defender_total": 30,
+  "attacker_components": {
+    "strength": 10,
+    "supply": 1,
+    "manpower": 7
+  },
+  "defender_components": {
+    "strength": 12,
+    "supply": 1,
+    "manpower": 5
+  },
+  "post_commitment": {
+    "attacker": [
+      6,
+      35
+    ],
+    "defender": [
+      6,
+      28
+    ]
+  },
+  "result": "Ork defensive victory",
+  "damage": 0,
+  "capture": false,
+  "planet_fall": false,
+  "attacker_manpower_return": 0,
+  "defender_recovery": {
+    "supply": 1,
+    "manpower": 0
+  },
+  "defence": "3/4 unchanged",
+  "movement": "Third Refusal moves before assault; cannot participate. Breach Litany grants no bonus to Escort/Procession.",
+  "order_final_resources": [
+    5,
+    34
+  ],
+  "orks_final_resources": [
+    7,
+    28
+  ]
+}
