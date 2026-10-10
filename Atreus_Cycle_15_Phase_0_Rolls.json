@@ -1,0 +1,96 @@
+{
+  "campaign": "Atreus",
+  "cycle": 15,
+  "date": "2026-10-10",
+  "raw": 0.37482422706507346,
+  "check": 3,
+  "eventraw": null,
+  "event": null,
+  "event_name": "No event",
+  "logistics_applied": true,
+  "logistics_due": 18,
+  "construction_effects": "No periodic effects; Watch of Daeira 2/3 and Gene-Seed Vaults 4/5 inactive; other Integrity unchanged.",
+  "minor_recovery": "Hyria attacked, Anchorage Command engaged: no recovery. Other surviving Minor assets full.",
+  "fleet_actions": "All reset",
+  "defended": "Triptolemos until Bell-Ringa Cycle 15 turn begins",
+  "logistics": {
+    "iron_paladins": {
+      "before": [
+        14,
+        30
+      ],
+      "holdings": [
+        8,
+        8
+      ],
+      "constructions": [
+        14,
+        0
+      ],
+      "traits": [
+        0,
+        0
+      ],
+      "upkeep": [
+        3,
+        3
+      ],
+      "after": [
+        33,
+        35
+      ]
+    },
+    "bell_ringa": {
+      "before": [
+        5,
+        26
+      ],
+      "holdings": [
+        9,
+        9
+      ],
+      "constructions": [
+        7,
+        0
+      ],
+      "traits": [
+        0,
+        4
+      ],
+      "upkeep": [
+        3,
+        3
+      ],
+      "after": [
+        18,
+        36
+      ]
+    },
+    "order": {
+      "before": [
+        4,
+        33
+      ],
+      "holdings": [
+        10,
+        10
+      ],
+      "constructions": [
+        0,
+        7
+      ],
+      "traits": [
+        6,
+        0
+      ],
+      "upkeep": [
+        4,
+        4
+      ],
+      "after": [
+        16,
+        46
+      ]
+    }
+  }
+}
