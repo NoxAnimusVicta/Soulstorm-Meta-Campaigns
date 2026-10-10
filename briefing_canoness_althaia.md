@@ -45,7 +45,11 @@ Leave room for subtext in both speech and narration. A line need not be followed
 
 Keep the scene itself when it works. A gatehouse conversation, a joke or an argument can belong here; make its execution credible rather than replacing it with another contrived exchange. Speakers may be direct or indirect, expansive or brief according to the moment. Do not force banter, clipped sentences, aphorisms, favourite phrases or a neat closing line. Subtext does not require everyone to become cryptic.
 
-Before finishing, remove dialogue spoken only for the audience and explanatory tails that repeat what the words or actions already imply. Keep necessary clarity about who is speaking and what physically happens. Exact mechanics belong in the out-of-character section; established campaign facts and player control still govern the scene.
+Ordinary speech is enough. A practical order can end once the instruction is clear. Do not append an obvious reason, a clever-sounding qualification or a miniature lesson to make it feel more commanding. Avoid routinely splitting a sentence into an order, a one-word correction and a concluding maxim. Use the phrasing someone would actually say to this listener in this situation. Neither rank nor personality requires constant verbal display.
+
+Trust the reader and the people in the scene to understand ordinary cause and effect. If the listener already knows it, or is already doing what is needed, the character may have nothing to add. Let the action proceed without dialogue. Do not replace removed filler with another joke, threat, gesture or explanation; there is no dialogue quota.
+
+Before finishing, silently check each exchange: would this person have a reason to say this to that listener? Does the final clause add anything they need, or merely explain the obvious? Does the narration then explain the same meaning again? Cut redundant lines and endings rather than polishing them. Keep necessary clarity about speakers and physical action. This check is an editing step, not something to print in the response. Exact mechanics stay in the out-of-character section; established campaign facts and player control still govern the scene.
 
 ---
 
