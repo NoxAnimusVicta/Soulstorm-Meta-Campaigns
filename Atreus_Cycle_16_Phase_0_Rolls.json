@@ -1,0 +1,192 @@
+{
+  "campaign": "Atreus",
+  "cycle": 16,
+  "date": "2026-10-10",
+  "raw": 0.05890178377993194,
+  "check": 1,
+  "eventraw": 0.022689671451585625,
+  "event": 1,
+  "event_name": "Warp Storm",
+  "logistics_due": 18,
+  "logistics_applied": false,
+  "minor_recovery": "All surviving Minor assets full before storm; no recovery required. Eliminated fleets remain destroyed.",
+  "construction_effects": "No periodic effects or Endurance. Watch of Daeira completed and active, +5 defender Fleet Battle roll.",
+  "fleet_actions": "All reset",
+  "movement": "Ordinary movement blocked this Cycle; no operational Storm Transit present.",
+  "fleet_damage": [
+    {
+      "fleet": "Vigilatius",
+      "owner": "Iron Paladins",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Unbroken Procession",
+      "owner": "Order of Saint Erigone",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Returning Escort",
+      "owner": "Order of Saint Erigone",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Oath at the Gate",
+      "owner": "Order of Saint Erigone",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Third Refusal",
+      "owner": "Order of Saint Erigone",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Da Gate-Krasha",
+      "owner": "WAAAGH! Bell-Ringa",
+      "before": 7,
+      "after": 6,
+      "maximum": 7
+    },
+    {
+      "fleet": "Da Fist",
+      "owner": "WAAAGH! Bell-Ringa",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Da Backhand",
+      "owner": "WAAAGH! Bell-Ringa",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Crusade Fleet Anabasis",
+      "owner": "Iron Paladins",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Emperor’s Judgement",
+      "owner": "Iron Paladins",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Pleisthenes’ Oath",
+      "owner": "House Atreides",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Copper Hawk",
+      "owner": "House Atreides",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Perseia’s Breakwater",
+      "owner": "House Atreides",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Dendra Covenant",
+      "owner": "House Atreides",
+      "before": 3,
+      "after": 2,
+      "maximum": 3
+    },
+    {
+      "fleet": "The Granary Key",
+      "owner": "Nemean Estate Compact",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Ninth Sluice",
+      "owner": "Lerna Reclamation Directorate",
+      "before": 3,
+      "after": 2,
+      "maximum": 3
+    },
+    {
+      "fleet": "Da Pressure Drop",
+      "owner": "Rustjaw Mob",
+      "before": 2,
+      "after": 1,
+      "maximum": 2
+    },
+    {
+      "fleet": "A Place at the Hearth",
+      "owner": "Ithacan Assembly",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Senior Warrant",
+      "owner": "Thessalian First Command",
+      "before": 3,
+      "after": 2,
+      "maximum": 3
+    },
+    {
+      "fleet": "The Unbroken Trace",
+      "owner": "Thessalian Remount Command",
+      "before": 2,
+      "after": 1,
+      "maximum": 2
+    }
+  ],
+  "attached_damage": [
+    {
+      "project": "Da Jaw-Breaka",
+      "before": 3,
+      "after": 2,
+      "max": 3,
+      "base_active": true
+    },
+    {
+      "project": "The Breach Litany",
+      "before": 2,
+      "after": 1,
+      "max": 3,
+      "base_active": true
+    }
+  ],
+  "resources": {
+    "iron_paladins": [
+      22,
+      31
+    ],
+    "bell_ringa": [
+      10,
+      32
+    ],
+    "order": [
+      10,
+      38
+    ]
+  },
+  "defended": {
+    "Hyria": "Expired at Iron Paladins turn start",
+    "Triptolemos": "Until Bell-Ringa Cycle 16 turn starts"
+  }
+}
