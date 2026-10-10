@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 15 - Iron Paladins turn complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 15 - WAAAGH! Bell-Ringa turn complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|15|Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders|No event (check: 3)|WAAAGH! Bell-Ringa|None|18|
+|15|WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders|No event (check: 3)|Order of Saint Erigone|None|18|
 
 ## Major faction registers
 
@@ -70,10 +70,10 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Trait|More Boyz Fer Da Fight — Martial Culture|
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
-|Resources|18 Supply / 36 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Eleusis - 7/7; Da Fist - Eleusis - 5/5; Da Backhand - Eleusis - 5/5; all actions unused in Cycle 15|
-|Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 3/5 and Integrity 8/10; base +7 Supply income retained at Integrity 5 or above, +14 at full upgraded Integrity; Da Jaw-Breaka (Assault Cruiser) on Da Gate-Krasha, progress and Integrity 3/3, complete; +2 permanent Fleet Strength and capacity granted (7/7 total)|
-|Next Logistics if unchanged|16 Supply / 13 Manpower gross including Forge, trait and Triptolemos; 3/3 fleet upkeep; net +13 / +10|
+|Resources|10 Supply / 32 Manpower; neither deficit active|
+|Fleet|Da Gate-Krasha - Eleusis - 7/7; Da Fist - Eleusis - 5/5; Da Backhand - Eleusis - 5/5; all actions spent in Cycle 15|
+|Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 4/5 and Integrity 9/10; base +7 Supply income retained at Integrity 5 or above, +14 at full upgraded Integrity; Da Jaw-Breaka (Assault Cruiser) on Da Gate-Krasha, progress and Integrity 3/3, complete; +2 permanent Fleet Strength and capacity granted (7/7 total)|
+|Next Logistics if unchanged|17 Supply / 14 Manpower gross including Forge, trait, Triptolemos and Daeira; 3/3 fleet upkeep; net +14 / +11|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
 
 ### 3. Order of Saint Erigone
@@ -90,10 +90,10 @@ The Order’s convents and shrine network preserve hospitals, military stores an
 |Trait|Offerings of the Faithful — War Economy|
 |Exact effect|+6 Supply each Logistics Cycle.|
 |Capital|Erigone — Eleusis — 12/12|
-|Resources|16 Supply / 46 Manpower; neither deficit active|
-|Fleet|The Third Refusal - Eleusis - 5/5; The Returning Escort - Eleusis - 5/5; The Unbroken Procession - Eleusis - 5/5; The Oath at the Gate - Eleusis - 5/5; all actions unused in Cycle 15|
-|Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 5/5 and Integrity 5/5; complete and active, +7 Manpower per Logistics Cycle; Castalia Anchorage (Minor Orbital Shipyard), progress and Integrity 3/3, complete and operational; The Breach Litany (Bombardment Bay) on The Third Refusal in Eleusis, progress and Integrity 3/3, complete and active; +1 Ground Assault damage; The Watch of Daeira (Minor System Defence Platform), Eleusis, progress and Integrity 2/3, inactive|
-|Next Logistics if unchanged|16 Supply / 17 Manpower gross including Academy, trait and Pytho; 4/4 fleet upkeep; net +12 / +13|
+|Resources|14 Supply / 42 Manpower; neither deficit active|
+|Fleet|The Third Refusal - Eleusis - 4/5; The Returning Escort - Eleusis - 4/5; The Unbroken Procession - Eleusis - 4/5; The Oath at the Gate - Eleusis - 4/5; all actions unused in Cycle 15|
+|Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 5/5 and Integrity 5/5; complete and active, +7 Manpower per Logistics Cycle; Castalia Anchorage (Minor Orbital Shipyard), progress and Integrity 3/3, complete and operational; The Breach Litany (Bombardment Bay) on The Third Refusal in Eleusis, progress 3/3 and Integrity 2/3, base complete and active at positive Integrity; +1 Ground Assault damage; The Watch of Daeira (Minor System Defence Platform), Eleusis, progress and Integrity 2/3, inactive|
+|Next Logistics if unchanged|15 Supply / 16 Manpower gross including Academy, trait and Pytho; 4/4 fleet upkeep; net +11 / +12|
 |Briefing|[briefing_canoness_althaia.md](briefing_canoness_althaia.md)|
 
 ## Personnel and succession
@@ -171,9 +171,9 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Eleusis
 
-**Void Superiority:** Order of Saint Erigone 20 vs WAAAGH! Bell-Ringa 17 - Order of Saint Erigone superior; hostile fleet present.
+**Void Superiority:** WAAAGH! Bell-Ringa 17 vs Order of Saint Erigone 16 - WAAAGH! Bell-Ringa superior; hostile fleet present.
 
-The Order holds Erigone and Daeira. Bell-Ringa captured Triptolemos in Cycle 12 and reinforced its damaged defences. The Eleusinian Synod has lost its final holding and is eliminated as an independent campaign faction.
+The Order holds Erigone. Bell-Ringa holds Triptolemos and captured Daeira in Cycle 15; the Orks now have Void Superiority in Eleusis. The Eleusinian Synod has lost its final holding and is eliminated as an independent campaign faction.
 
 Setup: fixed home/prize profile recorded above.
 
@@ -184,15 +184,15 @@ Setup: fixed home/prize profile recorded above.
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
 |Erigone|Capital Planet|Order of Saint Erigone|12/12|4 Supply + 4 Manpower; built-in shipyard|A shrine Capital of pale stone basilicas, processional avenues and fortified convent precincts. Hospitals and pilgrims’ dormitories fill the lower city beneath the Order’s blackened bell towers. Broad ceremonial approaches become exposed killing grounds between substantial masonry walls.|Cathedral city or shrine fortress; plazas, cloisters and defended avenues.|
-|Triptolemos|Standard Planet|WAAAGH! Bell-Ringa|4/4; Defended until start of Bell-Ringa Cycle 15 turn|2 Supply + 2 Manpower|Hospitaller estates and cathedral granaries feed a crowded pilgrim population. Bell-Ringa’s mobs have seized the gatehouses between the terraced farms and walled ecclesiastical town from the Order. Rebuilt barricades and reinforced gun positions secure the canal crossings. Goff trophies hang above the repaired gatehouses, and the mobs maintain a heightened watch over the cathedral granaries and surrounding estates.|Temperate shrine settlement; farmland, waterways and stone bridges.|
-|Daeira|Minor Planet|Order of Saint Erigone|1/2|1 Supply + 1 Manpower|Funerary settlements cling to a cold limestone plateau. The Order now posts Sisters at the reliquary chapels and burial gates, overlooking the narrow roads between tomb fields. Former Synod positions shelter the occupiers while damaged defences await repair. Burial attendants and pilgrims pass beneath the Order's scrutiny on their way to the ossuary galleries.|Graveyard or ruined shrine; narrow passages, stone cover and bleak open ground.|
+|Triptolemos|Standard Planet|WAAAGH! Bell-Ringa|4/4; Defended until start of Bell-Ringa Cycle 16 turn|2 Supply + 2 Manpower|Hospitaller estates and cathedral granaries feed a crowded pilgrim population. Bell-Ringa’s mobs have seized the gatehouses between the terraced farms and walled ecclesiastical town from the Order. Rebuilt barricades and reinforced gun positions secure the canal crossings. Goff trophies hang above the repaired gatehouses, and the mobs maintain a heightened watch over the cathedral granaries and surrounding estates.|Temperate shrine settlement; farmland, waterways and stone bridges.|
+|Daeira|Minor Planet|WAAAGH! Bell-Ringa|1/2|1 Supply + 1 Manpower|Funerary settlements cling to a cold limestone plateau. Bell-Ringa's mobs have overrun the Order's positions at the reliquary chapels and burial gates. Ork sentries occupy the battered approaches overlooking the narrow roads between tomb fields, while looted shrine fittings gather beside the breached barricades. The ossuary galleries and surrounding settlements now lie behind a damaged Ork-held defensive line.|Graveyard or ruined shrine; narrow passages, stone cover and bleak open ground.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Unbroken Procession|Order of Saint Erigone|5/5|
-|The Returning Escort|Order of Saint Erigone|5/5|
-|The Oath at the Gate|Order of Saint Erigone|5/5|
-|The Third Refusal|Order of Saint Erigone|5/5|
+|The Unbroken Procession|Order of Saint Erigone|4/5|
+|The Returning Escort|Order of Saint Erigone|4/5|
+|The Oath at the Gate|Order of Saint Erigone|4/5|
+|The Third Refusal|Order of Saint Erigone|4/5|
 |Da Gate-Krasha|WAAAGH! Bell-Ringa|7/7|
 |Da Fist|WAAAGH! Bell-Ringa|5/5|
 |Da Backhand|WAAAGH! Bell-Ringa|5/5|
@@ -546,11 +546,11 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and
 |Faction|Project|Type / location|Progress / Integrity|Effect / status|
 |---|---|---|---|---|
 |Iron Paladins|The Grand Forge of Iron|Upgraded Major Forge Complex / Tiryns, Argos|Upgrade progress 5/5; Integrity 10/10|Upgrade complete and active at full Integrity. +14 Supply per Logistics Cycle; no immediate payout. Tiryns construction slot occupied.|
-|WAAAGH! Bell-Ringa|Da Iron Gob|Upgraded Major Forge Complex / Da Bellworks, Calydon|Upgrade progress 3/5; Integrity 8/10|Base complete and active: +7 Supply per Logistics Cycle while Integrity remains at least 5. Upgrade unfinished; +14 Supply per Logistics Cycle at full upgraded Integrity. Da Bellworks construction slot occupied.|
+|WAAAGH! Bell-Ringa|Da Iron Gob|Upgraded Major Forge Complex / Da Bellworks, Calydon|Upgrade progress 4/5; Integrity 9/10|Base complete and active: +7 Supply per Logistics Cycle while Integrity remains at least 5. Upgrade unfinished; +14 Supply per Logistics Cycle at full upgraded Integrity. Da Bellworks construction slot occupied.|
 |Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 5/5; Integrity 5/5|Complete and active at full Integrity. +7 Manpower per Logistics Cycle. Erigone construction slot occupied.|
 |WAAAGH! Bell-Ringa|Da Jaw-Breaka|Minor Fleet Construction / Da Gate-Krasha, Eleusis|Progress 3/3; Integrity 3/3|Complete. Grants +2 permanent current and maximum Fleet Strength; Da Gate-Krasha is 7/7 (base 5 plus 2 from Da Jaw-Breaka). Granted capacity remains until the fleet is destroyed.|
 |Order of Saint Erigone|Castalia Anchorage|Minor Orbital Shipyard / Castalia, Delphi|Progress 3/3; Integrity 3/3|Complete and operational. Orbital Shipyard available in Delphi. Castalia ordinary construction slot occupied.|
-|Order of Saint Erigone|The Breach Litany|Minor Bombardment Bay / The Third Refusal, Eleusis|Progress 3/3; Integrity 3/3|Complete and active. Grants +1 Ground Assault damage for subsequent eligible assaults.|
+|Order of Saint Erigone|The Breach Litany|Minor Bombardment Bay / The Third Refusal, Eleusis|Progress 3/3; Integrity 2/3|Base complete and active at positive Integrity under the Fleet-category exception. Grants +1 Ground Assault damage for subsequent eligible assaults.|
 |Iron Paladins|Gene-Seed Vaults|Major Military Academy / Heraion, Argos|Progress 5/5; Integrity 5/5|Complete and active at full Integrity. +7 Manpower per Logistics Cycle; no immediate payout. Heraion ordinary construction slot occupied.|
 |Order of Saint Erigone|The Watch of Daeira|Minor System Defence Platform / Eleusis|Progress 2/3; Integrity 2/3|Unfinished and inactive. Completion grants +5 to the defender’s Fleet Battle roll in Eleusis.|
 
@@ -840,6 +840,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |15 / Iron Paladins / Faction|Defend captured Hyria.|3 Supply: 30 to 27; 3 Manpower: 34 to 31.|Defence 1/8 to 4/8; Defended until start of Iron Paladins Cycle 16 turn. Reinforce alternative not taken.|None|
 |15 / Iron Paladins / Social|No action.|None.|No change.|None|
 |15 / Iron Paladins / Construction|Complete Gene-Seed Vaults on Heraion.|5 Supply: 27 to 22.|Progress and Integrity 4/5 to 5/5. Complete and active: +7 Manpower per Logistics Cycle at full Integrity; no immediate payout. Host remains full 4/4. Final resources 22 Supply / 31 Manpower. Cycle 15 remains open.|WAAAGH! Bell-Ringa orders|
+
+|15 / WAAAGH! Bell-Ringa / Fleet|Gate-Krasha 7/7, Da Fist 5/5 and Da Backhand 5/5 jointly assault Daeira with 17 Strength.|1 Supply: 18 to 17; commit 3 Manpower: 36 to 33; victory returns 1, to 34. Order battle setup 15/44 after 1 Supply / 2 Manpower commitment; final actual loss is 2 Supply / 4 Manpower including Planet Fall, 16/46 to 14/42.|AI victory 44 to 33: attacker d20 18 +17 Strength +3 Supply +6 Manpower; defender d20 2 +20 Strength +3 Supply +8 Manpower. 4 damage captures Daeira at 1/2. Planet Fall hits Procession, Third Refusal, Escort, Oath in saved tie order; each 5/5 to 4/5. Breach Litany Integrity 3/3 to 2/3, completed base effect retained. Ork fleets unchanged, all actions spent. Void Superiority Orks 17 to Order 16. Triptolemos's previous Defended expired at turn start. [Saved battle](Atreus_Cycle_15_Daeira_Battle.json).|None|
+|15 / WAAAGH! Bell-Ringa / Faction|Defend Triptolemos.|2 Supply: 17 to 15; 2 Manpower: 34 to 32.|Remains 4/4; Defended renewed until start of Bell-Ringa Cycle 16 turn.|None|
+|15 / WAAAGH! Bell-Ringa / Social|No action.|None.|No change.|None|
+|15 / WAAAGH! Bell-Ringa / Construction|Continue Da Iron Gob upgrade at Da Bellworks.|5 Supply: 15 to 10.|Upgrade 3/5 to 4/5, Integrity 8/10 to 9/10. Full host 12/12; base +7 Supply income retained, no immediate payout. Final resources 10 Supply / 32 Manpower. Cycle 15 remains open.|Order of Saint Erigone orders|
 
 ## Cycle Records
 

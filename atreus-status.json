@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 15,
-  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
+  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "No event",
   "logistics_due": 18,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -23,7 +23,7 @@
     "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70.",
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions."
   ],
-  "notes": "Iron Paladins Cycle 15 resolved: human victory captures Hyria; Planet Fall destroys Unanswered Muster, eliminating Aulis Anchorage Command. Conditional Defend restores Hyria to 4/8, Defended until Iron Paladins Cycle 16 turn. Gene-Seed Vaults complete 5/5 and active, +7 Manpower per Logistics Cycle with no immediate payout. Resources 22 Supply / 31 Manpower. Anabasis and Judgement 5/5 Aulis, actions spent; Vigilatius 5/5 Argos unused. Bell-Ringa next; Cycle 15 remains open; next Logistics Cycle 18.",
+  "notes": "Bell-Ringa Cycle 15 resolved: AI victory 44 to 33 captures Daeira at 1/2. Planet Fall reduces each Order fleet to 4/5; Breach Litany Integrity 2/3 retains completed base effect. Orks have Void Superiority 17 to 16 in Eleusis. Triptolemos 4/4 Defended until Bell-Ringa Cycle 16 turn. Da Iron Gob upgrade 4/5, Integrity 9/10, base +7 Supply active. Orks 10 Supply / 32 Manpower; Order 14 Supply / 42 Manpower. All Ork Fleet Actions spent; Order actions unused. Order next; Cycle 15 remains open; Logistics next Cycle 18.",
   "phase_zero_resolved": true,
   "event_check": 3,
   "phase_zero_rolls": "Atreus_Cycle_15_Phase_0_Rolls.json",

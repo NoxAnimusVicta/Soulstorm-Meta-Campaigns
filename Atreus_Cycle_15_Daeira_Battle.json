@@ -1,0 +1,86 @@
+{
+  "campaign": "Atreus",
+  "cycle": 15,
+  "target": "Daeira",
+  "attacker_raw": 0.8558130824138371,
+  "defender_raw": 0.08013492034029779,
+  "attacker_d20": 18,
+  "defender_d20": 2,
+  "attacker_total": 44,
+  "defender_total": 33,
+  "attacker_post_commitment": [
+    17,
+    33
+  ],
+  "defender_post_commitment": [
+    15,
+    44
+  ],
+  "victory": true,
+  "damage": 4,
+  "captured": true,
+  "defence_after": "1/2",
+  "attacker_return": 1,
+  "defender_final_resources": [
+    14,
+    42
+  ],
+  "defender_loss": {
+    "supply": 2,
+    "manpower": 4,
+    "explanation": "Planet Fall 2/2 replaces ordinary Supply loss, plus 2 defensive Manpower; no duplicate deduction."
+  },
+  "planet_fall": [
+    {
+      "point": 1,
+      "eligible": [
+        "The Third Refusal",
+        "The Returning Escort",
+        "The Unbroken Procession",
+        "The Oath at the Gate"
+      ],
+      "raw": 0.7094506947119386,
+      "selected": "The Unbroken Procession",
+      "after": 4
+    },
+    {
+      "point": 2,
+      "eligible": [
+        "The Third Refusal",
+        "The Returning Escort",
+        "The Oath at the Gate"
+      ],
+      "raw": 0.13783155807691438,
+      "selected": "The Third Refusal",
+      "after": 4
+    },
+    {
+      "point": 3,
+      "eligible": [
+        "The Returning Escort",
+        "The Oath at the Gate"
+      ],
+      "raw": 0.18663914358432587,
+      "selected": "The Returning Escort",
+      "after": 4
+    },
+    {
+      "point": 4,
+      "eligible": [
+        "The Oath at the Gate"
+      ],
+      "raw": null,
+      "selected": "The Oath at the Gate",
+      "after": 4
+    }
+  ],
+  "breach_litany": {
+    "integrity": "2/3",
+    "base_active": true
+  },
+  "ork_final_resources": [
+    10,
+    32
+  ],
+  "void_superiority": "Orks 17 to Order 16"
+}
