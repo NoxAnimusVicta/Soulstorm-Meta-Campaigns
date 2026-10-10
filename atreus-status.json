@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 15,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
   "event": "No event",
   "logistics_due": 18,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -23,7 +23,7 @@
     "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70.",
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions."
   ],
-  "notes": "Order Cycle 14 completed: Oath expanded to 5/5; Reinforce +3 Supply; Watch of Daeira 2/3 inactive. Cycle 14 closed. Cycle 15 Phase 0 complete: no periodic construction effects; Logistics applied; event check 3, no event. Iron Paladins 33 Supply / 35 Manpower; Bell-Ringa 18/36; Order 16/46. All Fleet Actions unused. Order holds Void Superiority 20 to 17 in Eleusis. Triptolemos remains Defended until Bell-Ringa's Cycle 15 turn. Iron Paladins to act; next Logistics Cycle 18.",
+  "notes": "Iron Paladins Cycle 15 resolved: human victory captures Hyria; Planet Fall destroys Unanswered Muster, eliminating Aulis Anchorage Command. Conditional Defend restores Hyria to 4/8, Defended until Iron Paladins Cycle 16 turn. Gene-Seed Vaults complete 5/5 and active, +7 Manpower per Logistics Cycle with no immediate payout. Resources 22 Supply / 31 Manpower. Anabasis and Judgement 5/5 Aulis, actions spent; Vigilatius 5/5 Argos unused. Bell-Ringa next; Cycle 15 remains open; next Logistics Cycle 18.",
   "phase_zero_resolved": true,
   "event_check": 3,
   "phase_zero_rolls": "Atreus_Cycle_15_Phase_0_Rolls.json",

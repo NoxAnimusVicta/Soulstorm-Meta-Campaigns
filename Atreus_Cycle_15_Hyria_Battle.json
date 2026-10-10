@@ -1,0 +1,61 @@
+{
+  "campaign": "Atreus",
+  "cycle": 15,
+  "date": "2026-10-10",
+  "target": "Hyria",
+  "resolution": "Human-reported Iron Paladin victory; no AI roll",
+  "player_report": "Aulis Anchorage Command has been drowned in a tide of Iron. Iron Paladin Victory",
+  "strength": 10,
+  "assault_cost": {
+    "supply": 3,
+    "manpower": 2
+  },
+  "manpower_returned": 1,
+  "damage": 3,
+  "defence_before": "2/8",
+  "capture_defence": "1/8",
+  "defence_after_defend": "4/8",
+  "captured": true,
+  "planet_fall": {
+    "fleet": "The Unanswered Muster",
+    "damage": 3,
+    "strength_path": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "destroyed": true,
+    "tie_rolls": [],
+    "faction_eliminated": "Aulis Anchorage Command"
+  },
+  "setup": {
+    "difficulty": "Standard 2/5",
+    "teams": "2 vs 1",
+    "minimum_map_slots": 4,
+    "attacker_post_commitment": [
+      30,
+      33
+    ],
+    "defender_post_commitment": [
+      12,
+      12
+    ]
+  },
+  "surviving_formations": "Not specified; outright engagement victory reported, no reserves or additional round required",
+  "defend_cost": [
+    3,
+    3
+  ],
+  "construction": {
+    "project": "Gene-Seed Vaults",
+    "supply": 5,
+    "progress": "5/5",
+    "integrity": "5/5",
+    "active": true
+  },
+  "final_resources": [
+    22,
+    31
+  ]
+}
