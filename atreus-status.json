@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 14,
-  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
+  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "No event",
   "logistics_due": 15,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -23,7 +23,7 @@
     "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70.",
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions."
   ],
-  "notes": "Iron Paladins Cycle 14 resolved: human victory at Hyria reduces defence 5/8 to 2/8, still Anchorage Command-controlled. No capture or Planet Fall. Anabasis and Judgement remain 5/5 Aulis, actions spent; Vigilatius 5/5 Argos unused. Muster +8 Manpower; Gene-Seed Vaults progress and Integrity 4/5, inactive. Iron Paladins 14 Supply / 30 Manpower. Bell-Ringa next; Cycle 14 remains open; Logistics next Cycle 15.",
+  "notes": "Bell-Ringa Cycle 14 resolved: Da Backhand moved 5/5 from Calydon to Eleusis, action spent; Gate-Krasha 7/7 and Fist 5/5 held, actions unused. Order retains Void Superiority 18 to 17 in Eleusis; Calydon has no fleets and no Void Superiority. Defend Triptolemos cost 2 Supply / 2 Manpower, restored 3/4 to 4/4 and grants Defended until Bell-Ringa Cycle 15 turn starts. Da Iron Gob upgrade paused at 3/5, Integrity 8/10; base +7 Supply income active. Orks finish 5 Supply / 26 Manpower. Order next; Cycle 14 remains open; Logistics next Cycle 15.",
   "phase_zero_resolved": true,
   "event_check": 5,
   "phase_zero_rolls": "Atreus_Cycle_14_Phase_0_Rolls.json",
