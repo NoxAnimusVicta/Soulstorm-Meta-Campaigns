@@ -1,0 +1,55 @@
+{
+  "campaign": "Atreus",
+  "cycle": 13,
+  "date": "2026-10-10",
+  "target": "Daeira",
+  "raw": [
+    0.18999864333115823,
+    0.1846424772349755
+  ],
+  "rolls": [
+    4,
+    4
+  ],
+  "attacker_total": 22,
+  "defender_total": 23,
+  "attacker_components": {
+    "strength": 12,
+    "supply": 1,
+    "manpower": 5
+  },
+  "defender_components": {
+    "strength": 11,
+    "supply": 1,
+    "manpower": 7
+  },
+  "post_commitment": {
+    "attacker": [
+      5,
+      29
+    ],
+    "defender": [
+      8,
+      37
+    ]
+  },
+  "result": "Order defensive victory",
+  "defence": "1/2 unchanged",
+  "damage": 0,
+  "planet_fall": false,
+  "fleet_damage": 0,
+  "defender_recovery": {
+    "supply": 0,
+    "manpower": 0
+  },
+  "reinforce": 3,
+  "orks_final": [
+    8,
+    29
+  ],
+  "order_final": [
+    8,
+    37
+  ],
+  "construction": "Iron Gob paused at upgrade 3/5, Integrity 8/10"
+}

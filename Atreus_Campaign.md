@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 13 - Iron Paladins turn complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 13 - WAAAGH! Bell-Ringa turn complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|13|Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders|No event (check: 3)|WAAAGH! Bell-Ringa|None|15|
+|13|WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders|No event (check: 3)|Order of Saint Erigone|None|15|
 
 ## Major faction registers
 
@@ -70,8 +70,8 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Trait|More Boyz Fer Da Fight — Martial Culture|
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
-|Resources|6 Supply / 31 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Eleusis - 7/7; Da Fist - Eleusis - 5/5; Da Backhand - Calydon - 5/5; all actions unused in Cycle 13|
+|Resources|8 Supply / 29 Manpower; neither deficit active|
+|Fleet|Da Gate-Krasha - Eleusis - 7/7, action spent; Da Fist - Eleusis - 5/5, action spent; Da Backhand - Calydon - 5/5, action unused in Cycle 13|
 |Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 3/5 and Integrity 8/10; base +7 Supply income retained at Integrity 5 or above, +14 at full upgraded Integrity; Da Jaw-Breaka (Assault Cruiser) on Da Gate-Krasha, progress and Integrity 3/3, complete; +2 permanent Fleet Strength and capacity granted (7/7 total)|
 |Next Logistics if unchanged|16 Supply / 13 Manpower gross including Forge, trait and Triptolemos; 3/3 fleet upkeep; net +13 / +10|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
@@ -90,7 +90,7 @@ The Order’s convents and shrine network preserve hospitals, military stores an
 |Trait|Offerings of the Faithful — War Economy|
 |Exact effect|+6 Supply each Logistics Cycle.|
 |Capital|Erigone — Eleusis — 12/12|
-|Resources|9 Supply / 38 Manpower; neither deficit active|
+|Resources|8 Supply / 37 Manpower; neither deficit active|
 |Fleet|The Third Refusal - Delphi - 5/5; The Returning Escort - Eleusis - 5/5; The Unbroken Procession - Eleusis - 5/5; The Oath at the Gate - Eleusis - 1/5; all actions unused in Cycle 13|
 |Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 5/5 and Integrity 5/5; complete and active, +7 Manpower per Logistics Cycle; Castalia Anchorage (Minor Orbital Shipyard), progress and Integrity 3/3, complete and operational; The Breach Litany (Bombardment Bay) on The Third Refusal, progress and Integrity 3/3, complete and active; +1 Ground Assault damage|
 |Next Logistics if unchanged|16 Supply / 17 Manpower gross including Academy, trait and Pytho; 4/4 fleet upkeep; net +12 / +13|
@@ -184,7 +184,7 @@ Setup: fixed home/prize profile recorded above.
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
 |Erigone|Capital Planet|Order of Saint Erigone|12/12|4 Supply + 4 Manpower; built-in shipyard|A shrine Capital of pale stone basilicas, processional avenues and fortified convent precincts. Hospitals and pilgrims’ dormitories fill the lower city beneath the Order’s blackened bell towers. Broad ceremonial approaches become exposed killing grounds between substantial masonry walls.|Cathedral city or shrine fortress; plazas, cloisters and defended avenues.|
-|Triptolemos|Standard Planet|WAAAGH! Bell-Ringa|3/4; Defended until start of Bell-Ringa Cycle 13 turn|2 Supply + 2 Manpower|Hospitaller estates and cathedral granaries feed a crowded pilgrim population. Bell-Ringa’s mobs have seized the gatehouses between the terraced farms and walled ecclesiastical town from the Order. Orks reinforce the canal crossings with barricades and looted materials; battered positions now bear Goff trophies, while the cathedral granaries and surrounding estates lie under their guns.|Temperate shrine settlement; farmland, waterways and stone bridges.|
+|Triptolemos|Standard Planet|WAAAGH! Bell-Ringa|3/4|2 Supply + 2 Manpower|Hospitaller estates and cathedral granaries feed a crowded pilgrim population. Bell-Ringa’s mobs have seized the gatehouses between the terraced farms and walled ecclesiastical town from the Order. Orks reinforce the canal crossings with barricades and looted materials; battered positions now bear Goff trophies, while the cathedral granaries and surrounding estates lie under their guns.|Temperate shrine settlement; farmland, waterways and stone bridges.|
 |Daeira|Minor Planet|Order of Saint Erigone|1/2|1 Supply + 1 Manpower|Funerary settlements cling to a cold limestone plateau. The Order now posts Sisters at the reliquary chapels and burial gates, overlooking the narrow roads between tomb fields. Former Synod positions shelter the occupiers while damaged defences await repair. Burial attendants and pilgrims pass beneath the Order's scrutiny on their way to the ossuary galleries.|Graveyard or ruined shrine; narrow passages, stone cover and bleak open ground.|
 
 |Fleet|Owner|Strength / original maximum|
@@ -801,6 +801,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |13 / Iron Paladins / Faction|Reinforce through The Iron Tithe after battle.|+8 Supply: 19 to 27.|Resolved after battle; no effect on battle starting resources.|None|
 |13 / Iron Paladins / Social|No action.|None.|No change.|None|
 |13 / Iron Paladins / Construction|Continue Gene-Seed Vaults on Heraion.|5 Supply: 27 to 22.|Progress and Integrity 2/5 to 3/5, unfinished and inactive; host full 4/4. Final resources 22 Supply / 23 Manpower. Cycle 13 remains open.|WAAAGH! Bell-Ringa orders|
+
+|13 / WAAAGH! Bell-Ringa / Fleet|Gate-Krasha 7/7 and Da Fist 5/5 jointly assault Daeira with 12 Strength; Backhand holds Calydon.|1 Supply: 6 to 5; commit 2 Manpower: 31 to 29; no recovery on defeat. Order commits 1 Supply / 1 Manpower: 9/38 to 8/37; winning returns floor(80% of 1) Supply and floor(60% of 1) Manpower both 0.|AI defeat 22 to 23: attacker d20 4 +12 Strength +1 Supply +5 Manpower; defender d20 4 +11 Strength +1 Supply +7 Manpower. Daeira stays Order-controlled at 1/2; no damage, capture or Planet Fall. All fleets unchanged; both Ork attacking actions spent, Backhand unused. Triptolemos Defended expired at turn start. [Saved roll](Atreus_Cycle_13_Daeira_Battle.json).|None|
+|13 / WAAAGH! Bell-Ringa / Faction|Reinforce after assault.|+3 Supply: 5 to 8.|Final resources 8 Supply / 29 Manpower; Order 8 Supply / 37 Manpower after defence.|None|
+|13 / WAAAGH! Bell-Ringa / Social|No action.|None.|No change.|None|
+|13 / WAAAGH! Bell-Ringa / Construction|Pause Da Iron Gob upgrade.|None.|Upgrade progress 3/5; Integrity 8/10. Base +7 Supply per Logistics Cycle remains active. Cycle 13 remains open.|Order of Saint Erigone orders|
 
 ## Cycle Records
 
