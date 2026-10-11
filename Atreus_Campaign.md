@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 22 - Iron Paladins complete; WAAAGH! Bell-Ringa to act**
+Created 7 October 2026 · Subsector playtest · **Cycle 22 - WAAAGH! Bell-Ringa complete; Order of Saint Erigone to act**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|22|Iron Paladins turn complete|No event (check: 4)|WAAAGH! Bell-Ringa|None|24|
+|22|WAAAGH! Bell-Ringa turn complete|No event (check: 4)|Order of Saint Erigone|None|24|
 
 ## Major faction registers
 
@@ -70,9 +70,9 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Trait|More Boyz Fer Da Fight — Martial Culture|
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
-|Resources|9 Supply / 19 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Calydon - 5/5; Da Fist - Calydon - 5/5; Da Backhand - Calydon - 5/5; Da Boot - Delphi - 2/5; Da Grudge - Calydon - 5/5; all five Fleet Actions unused in Cycle 22|
-|Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Da Jaw-Breaka destroyed during Triptolemos Planet Fall in Cycle 16; its +2 maximum capacity removed under the 11 October correction (maximum Strength now 5); Da Yard-Gunz (Minor System Defence Platform), Calydon, progress and Integrity 3/3; complete and active, +5 to defender Fleet Battle rolls in Calydon; Da Scar-Yard (Major Military Academy), Pleuron, progress and Integrity 1/5, unfinished and inactive; +7 Manpower per Logistics Cycle on completion|
+|Resources|7 Supply / 19 Manpower; neither deficit active|
+|Fleet|Da Gate-Krasha - Delphi - 5/5; Da Fist - Delphi - 5/5; Da Backhand - Delphi - 5/5; Da Grudge - Delphi - 5/5, all four movement actions spent in Cycle 22; Da Boot - Delphi - 2/5, holds with action unused|
+|Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Da Jaw-Breaka destroyed during Triptolemos Planet Fall in Cycle 16; its +2 maximum capacity removed under the 11 October correction (maximum Strength now 5); Da Yard-Gunz (Minor System Defence Platform), Calydon, progress and Integrity 3/3; complete and active, +5 to defender Fleet Battle rolls in Calydon; Da Scar-Yard (Major Military Academy), Pleuron, progress and Integrity 2/5, unfinished and inactive; +7 Manpower per Logistics Cycle on completion|
 |Next Logistics if unchanged|21 Supply / 11 Manpower gross including upgraded Forge and trait; 5/5 fleet upkeep; net +16 / +6|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
 
@@ -202,7 +202,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Calydon
 
-**Void Superiority:** WAAAGH! Bell-Ringa 20 vs hostile fleets 0 - WAAAGH! Bell-Ringa superior; no hostile fleet present.
+**Void Superiority:** No fleets present (0 vs 0); no faction has Void Superiority.
 
 The Orks hold all of Calydon: Da Bellworks, Olenos and newly captured Pleuron. The Calydonian Labour Defence has lost its final holding and is eliminated.
 
@@ -215,15 +215,11 @@ Setup: fixed home/prize profile recorded above.
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
 |Da Bellworks|Capital Planet|WAAAGH! Bell-Ringa|12/12|4 Supply + 4 Manpower; built-in shipyard|Looted cathedral foundries cover a soot-black plain. Bell-Ringa’s mobs have hung bells from gantries and welded checkered armour onto furnace halls; slag heaps and wrecked transporters form rough outer walls. The original human avenues survive beneath scrap barricades and assembly yards.|Ork-held industrial city; scrap piles, furnace buildings and broad vehicle approaches.|
-|Pleuron|Standard Planet|WAAAGH! Bell-Ringa|4/4; Defended until Bell-Ringa Cycle 22 turn|2 Supply + 2 Manpower|Ork mobs occupy the factory districts along the elevated freight railway. Scrap-plated barricades and reinforced firing positions now guard the crossings over the drainage cuts, while Meks work through the looted machine shops. Bell-Ringa's garrison has finished reinforcing the defensive line and renewed its watch over the crossings. Work gangs have begun converting part of the looted industrial district into Da Scar-Yard, a training ground for new mobs.|Industrial ruins; rail embankments, workshops and barricaded intersections.|
+|Pleuron|Standard Planet|WAAAGH! Bell-Ringa|4/4|2 Supply + 2 Manpower|Ork mobs occupy the factory districts along the elevated freight railway. Scrap-plated barricades and reinforced firing positions now guard the crossings over the drainage cuts, while Meks work through the looted machine shops. Bell-Ringa's garrison has finished reinforcing the defensive line and renewed its watch over the crossings. Work gangs have begun converting part of the looted industrial district into Da Scar-Yard, a training ground for new mobs.|Industrial ruins; rail embankments, workshops and barricaded intersections.|
 |Olenos|Minor Planet|WAAAGH! Bell-Ringa|1/2|1 Supply + 1 Manpower|Mining townships shelter beneath slag ridges on a wind-scoured plain. Bell-Ringa's mobs occupy the captured pithead compounds, piling scrap around their camps and hauling machinery toward Ork workshops. Stolen bells summon work gangs and fighters alike. Conveyor towers and disused quarry terraces overlook the battered evacuation yards and rudimentary Ork positions.|Quarry or ash wasteland; stepped pits, mining buildings and evacuation pads.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Da Gate-Krasha|WAAAGH! Bell-Ringa|5/5|
-|Da Fist|WAAAGH! Bell-Ringa|5/5|
-|Da Backhand|WAAAGH! Bell-Ringa|5/5|
-|Da Grudge|WAAAGH! Bell-Ringa|5/5|
 
 
 
@@ -289,9 +285,9 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Delphi
 
-**Void Superiority:** Order of Saint Erigone 4 vs WAAAGH! Bell-Ringa 2 - Order of Saint Erigone superior; hostile fleet present.
+**Void Superiority:** WAAAGH! Bell-Ringa 22 vs Order of Saint Erigone 4 - WAAAGH! Bell-Ringa superior; hostile fleet present.
 
-Astropathic facilities, signal stations and archives whose messages no longer agree. The Order retains every holding in Delphi. Da Boot attacked The Return to Daeira in Cycle 21 and was repelled with damage. The Return to Daeira subsequently expanded at Castalia Anchorage, giving the Order Void Superiority. No holding has been assaulted.
+Astropathic facilities, signal stations and archives whose messages no longer agree. The Order retains every holding in Delphi. Da Boot attacked The Return to Daeira in Cycle 21 and was repelled with damage. The Return to Daeira subsequently expanded at Castalia Anchorage. In Cycle 22, four Ork fleets arrived from Calydon to join Da Boot, giving Bell-Ringa Void Superiority; no new attack accompanied their arrival. No holding has been assaulted.
 
 Setup: d20 **17**; ownership authored separately.
 
@@ -313,6 +309,10 @@ Setup: d20 **17**; ownership authored separately.
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
 |Da Boot|WAAAGH! Bell-Ringa|2/5|
+|Da Gate-Krasha|WAAAGH! Bell-Ringa|5/5|
+|Da Fist|WAAAGH! Bell-Ringa|5/5|
+|Da Backhand|WAAAGH! Bell-Ringa|5/5|
+|Da Grudge|WAAAGH! Bell-Ringa|5/5|
 |The Return to Daeira|Order of Saint Erigone|4/5|
 
 
@@ -566,7 +566,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and
 
 |Iron Paladins|Nemesis|Major Flagship / Crusade Fleet Anabasis, Argos|Progress 2/5; Integrity 2/5|Unfinished and inactive. On completion grants +5 current and maximum Fleet Strength while the construction survives. Operational Tiryns shipyard and full 5/5 host satisfy Build requirements.|
 
-|WAAAGH! Bell-Ringa|Da Scar-Yard|Major Military Academy / Pleuron, Calydon|Progress 1/5; Integrity 1/5|Unfinished and inactive. On completion +7 Manpower per Logistics Cycle at full Integrity. Pleuron's ordinary construction slot occupied; host restored to full 4/4 before Build.|
+|WAAAGH! Bell-Ringa|Da Scar-Yard|Major Military Academy / Pleuron, Calydon|Progress 2/5; Integrity 2/5|Unfinished and inactive. On completion +7 Manpower per Logistics Cycle at full Integrity. Pleuron's ordinary construction slot occupied; host restored to full 4/4 before Build.|
 
 ## Setup provenance and decision ledger
 
@@ -992,6 +992,12 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |22 / Iron Paladins / Faction|Reinforce through The Iron Tithe.|+8 Supply:25 to33.|Manpower remains49.|None|
 |22 / Iron Paladins / Social|No action.|None.|No change.|None|
 |22 / Iron Paladins / Construction|Continue Nemesis, Major Flagship attached to Anabasis.|5 Supply:33 to28.|Progress and Integrity1/5 to2/5; unfinished and inactive. Full5/5 host and operational Tiryns shipyard satisfy access. No Strength bonus yet. Final resources28 Supply/49 Manpower; Cycle22 remains open.|WAAAGH! Bell-Ringa orders|
+
+|22 / WAAAGH! Bell-Ringa / Turn start|Expire Pleuron's Defended status.|None.|Pleuron remains full 4/4; no longer Defended.|Fleet orders|
+|22 / WAAAGH! Bell-Ringa / Fleet|Move Gate-Krasha, Fist, Backhand and Grudge from Calydon to Delphi; Da Boot holds Delphi.|None.|Four moved fleets remain 5/5 each, actions spent. Boot remains 2/5, action unused. No assault. Delphi Ork Void Superiority 22 to Order 4; Calydon no fleets, no Void Superiority.|None|
+|22 / WAAAGH! Bell-Ringa / Faction|Reinforce.|+3 Supply: 9 to 12.|Manpower remains 19.|None|
+|22 / WAAAGH! Bell-Ringa / Social|No action.|None.|No change.|None|
+|22 / WAAAGH! Bell-Ringa / Construction|Continue Da Scar-Yard, Major Military Academy on Pleuron.|5 Supply: 12 to 7.|Progress and Integrity 1/5 to 2/5; unfinished and inactive. Full 4/4 planetary host satisfies access; System-construction Void Superiority requirement does not apply. Final resources 7 Supply / 19 Manpower. Cycle remains open.|Order of Saint Erigone orders|
 
 ## Cycle Records
 

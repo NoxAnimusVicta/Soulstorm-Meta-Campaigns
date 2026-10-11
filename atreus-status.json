@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 22,
-  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
+  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "No event",
   "logistics_due": 24,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -24,7 +24,7 @@
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions.",
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction."
   ],
-  "notes": "Iron Paladins Cycle22 complete: Vigilatius, Judgement and Shield moved Aulis to Argos at1/5 each, actions spent. Anabasis holds5/5 with action unused; Exodos expanded1/5 to3/5, action spent. All five fleets Argos, Strength11. Aulis Order14 vs0; Paladins retain Schoenus and Hyria. Reinforce+8, Nemesis advanced2/5 Integrity2/5 inactive. IP28 Supply/49 Manpower; Orks9/19; Order7/52 unchanged. Pleuron Defended expires at Bell-Ringa turn start. No event; next Logistics24. Bell-Ringa to act; Cycle22 remains open.",
+  "notes": "Bell-Ringa Cycle22 complete: Gate-Krasha, Fist, Backhand and Grudge moved Calydon to Delphi at5/5 each, actions spent. Boot holds2/5 with action unused. Delphi Ork superiority22 to Order4; Calydon no fleets/no superiority. No attack. Pleuron Defended expired, stays4/4. Reinforce+3 then Scar-Yard advanced2/5 Integrity2/5 inactive. Orks7 Supply/19 Manpower; IP28/49; Order7/52 unchanged. No event; next Logistics24. Order to act; Cycle22 remains open.",
   "phase_zero_resolved": true,
   "event_check": 4,
   "phase_zero_rolls": "Atreus_Cycle_22_Phase_0_Rolls.json",
