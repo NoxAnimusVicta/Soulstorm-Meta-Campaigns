@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 17,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
   "event": "Warp Storm",
   "logistics_due": 18,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -23,7 +23,7 @@
     "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70.",
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions."
   ],
-  "notes": "Order Cycle 16 victory 40 to 32 recaptures Triptolemos at 1/4; five Planet Fall hits leave all Ork fleets at 3 Strength and destroy Jaw-Breaka, granted capacity retained. Reinforce leaves Order 11/36; Orks 6/28. Cycle 16 closed with Minor recovery. Cycle 17 event check 1, event 1: another Warp Storm. All 20 fleets lose 1 Strength, none destroyed; Breach Litany destroyed at 0 Integrity, bonus ends. IP fleets Anabasis/Judgement 3/5 Aulis, Vigilatius 4/5 Argos; Orks 2/7,2/5,2/5; Order four 3/5. Order Void Superiority 12 to 6. All actions unused; ordinary movement blocked. IP resources 13/27; no Logistics until 18. Hyria Defended expired. Iron Paladins to act.",
+  "notes": "Iron Paladins Cycle 17 resolved: Vigilatius restored to 5/5 in Argos, action spent; Anabasis and Judgement hold Aulis at 3/5 each. Emperor’s Shield created at Tiryns, 1/5 in Argos, cannot act this Cycle. Grand Gene-Seed Vaults upgrade 2/5, Integrity 7/10, base +7 Manpower income retained. Final resources 6 Supply / 25 Manpower. Four-fleet Logistics upkeep 4/4; projected net income +21 Supply / +14 Manpower if unchanged. Warp Storm remains active; no repeated damage. Bell-Ringa next; Cycle 17 open; next Logistics Cycle 18.",
   "phase_zero_resolved": true,
   "event_check": 1,
   "phase_zero_rolls": "Atreus_Cycle_17_Phase_0_Rolls.json",
