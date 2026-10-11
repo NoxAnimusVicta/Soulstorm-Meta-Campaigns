@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 20,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
   "event": "No event",
   "logistics_due": 21,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -24,7 +24,7 @@
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions.",
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction."
   ],
-  "notes": "Order Cycle 19 complete: Return to Daeira expanded to 3/5 in Eleusis; four 5/5 fleets moved to Aulis, establishing Order Void Superiority 20 to Paladins 5. No assault. Refit Anchorage 3/5 inactive. Cycle 19 closed; Copper Hawk recovered 4/5 to 5/5. Cycle 20 Phase 0: no periodic effects, no Logistics due, event check 2 no event. All Fleet Actions reset; no Defended status. IP 18 Supply / 32 Manpower; Orks 8/23; Order 8/43. Iron Paladins to act; Logistics next Cycle 21.",
+  "notes": "Iron Paladins Cycle 20 complete: Judgement and Shield moved to Aulis at 5/5 each, actions spent; Vigilatius holds there 5/5, Anabasis holds Argos 5/5, actions unused. Aulis Order 20 versus Paladins 15; Order retains Void Superiority. Schoenus full 2/2 and Defended until Iron Paladins Cycle 21 turn. Grand Gene-Seed Vaults upgrade complete 5/5, Integrity 10/10, +14 Manpower per Logistics Cycle replacing +7. No immediate payout. IP 12 Supply / 31 Manpower; Orks 8/23; Order 8/43. Next Logistics 21; no event. Bell-Ringa to act; Cycle 20 open.",
   "phase_zero_resolved": true,
   "event_check": 2,
   "phase_zero_rolls": "Atreus_Cycle_20_Phase_0_Rolls.json",

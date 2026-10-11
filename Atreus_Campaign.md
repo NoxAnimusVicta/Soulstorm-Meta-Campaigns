@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 20 - Phase 0 complete; Iron Paladins to act**
+Created 7 October 2026 · Subsector playtest · **Cycle 20 - Iron Paladins complete; WAAAGH! Bell-Ringa to act**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|20|Phase 0 complete; awaiting Iron Paladins orders|No event (check: 2)|Iron Paladins|None|21|
+|20|Iron Paladins turn complete|No event (check: 2)|WAAAGH! Bell-Ringa|None|21|
 
 ## Major faction registers
 
@@ -50,10 +50,10 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Trait|The Iron Tithe — Efficient Logistics|
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
-|Resources|18 Supply / 32 Manpower; neither deficit active|
-|Fleet|Crusade Fleet Anabasis - Argos - 5/5; The Emperor’s Judgement - Argos - 5/5; Vigilatius - Aulis - 5/5; The Emperor’s Shield - Argos - 5/5; all actions unused in Cycle 20|
-|Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; The Grand Gene-Seed Vaults of Heraion (upgraded Major Military Academy) on Heraion, upgrade progress 4/5 and Integrity 9/10; base +7 Manpower per Logistics Cycle retained at Integrity 5 or above; +14 at full upgraded Integrity|
-|Next Logistics if unchanged|25 Supply / 18 Manpower gross including upgraded Forge, Grand Gene-Seed Vaults base income and Hyria; 4/4 fleet upkeep; net +21 / +14|
+|Resources|12 Supply / 31 Manpower; neither deficit active|
+|Fleet|Crusade Fleet Anabasis - Argos - 5/5, holds with action unused; The Emperor’s Judgement - Aulis - 5/5, movement action spent; Vigilatius - Aulis - 5/5, holds with action unused; The Emperor’s Shield - Aulis - 5/5, movement action spent in Cycle 20|
+|Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; The Grand Gene-Seed Vaults of Heraion (upgraded Major Military Academy) on Heraion, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Manpower per Logistics Cycle, replacing base +7|
+|Next Logistics if unchanged|25 Supply / 25 Manpower gross including upgraded Forge, upgraded Grand Gene-Seed Vaults and Hyria; 4/4 fleet upkeep; net +21 / +21|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
 
 ### 2. WAAAGH! Bell-Ringa
@@ -145,7 +145,7 @@ All holdings start at full defence; none is Defended. All fleets are unengaged w
 
 ### Argos
 
-**Void Superiority:** Iron Paladins 15 vs hostile fleets 0 - Iron Paladins superior; no hostile fleet present.
+**Void Superiority:** Iron Paladins 5 vs hostile fleets 0 - Iron Paladins superior; no hostile fleet present.
 
 The Iron Paladins control Tiryns, Prosymna and newly captured Heraion, securing all holdings in Argos. The Argive Muster Council has lost its final holding and is eliminated.
 
@@ -164,8 +164,6 @@ Setup: fixed home/prize profile recorded above.
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
 |Crusade Fleet Anabasis|Iron Paladins|5/5|
-|The Emperor’s Judgement|Iron Paladins|5/5|
-|The Emperor’s Shield|Iron Paladins|5/5|
 
 
 
@@ -231,9 +229,9 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Aulis
 
-**Void Superiority:** Order of Saint Erigone 20 vs Iron Paladins 5 - Order of Saint Erigone superior; hostile fleet present.
+**Void Superiority:** Order of Saint Erigone 20 vs Iron Paladins 15 - Order of Saint Erigone superior; hostile fleet present.
 
-The Iron Paladins control Schoenus and Hyria, retaining all holdings in Aulis. Four Order fleets arrived in Cycle 19 and now hold Void Superiority over Vigilatius; no battle has yet occurred between them here. The Aulis Anchorage Command lost its final holding in Cycle 15 and is eliminated; The Unanswered Muster was destroyed during Hyria's fall.
+The Iron Paladins control Schoenus and Hyria, retaining all holdings in Aulis. Four Order fleets arrived in Cycle 19 and retain Void Superiority after The Emperor’s Judgement and The Emperor’s Shield reinforced Vigilatius in Cycle 20; no battle has yet occurred between them here. The Aulis Anchorage Command lost its final holding in Cycle 15 and is eliminated; The Unanswered Muster was destroyed during Hyria's fall.
 
 Setup: d20 **5**; ownership authored separately.
 
@@ -243,12 +241,14 @@ Setup: d20 **5**; ownership authored separately.
 
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
-|Schoenus|Minor Planet|Iron Paladins|2/2|1 Supply + 1 Manpower|A coastal supply world of fuel farms, barracks and disused embarkation beaches. Concrete causeways cross tidal flats to cargo piers; inland storage compounds still carry destination markings for vanished crusades. The Anchorage Command’s shore troops put up worthy resistance before the Iron Paladins overwhelmed their positions. Paladin sentries now hold the pump stations and transport terminals; repaired coastal defences guard the causeways and cargo piers.|Coastal military depot; low terrain, causeways and fuel-storage compounds.|
+|Schoenus|Minor Planet|Iron Paladins|2/2; Defended until Iron Paladins Cycle 21 turn|1 Supply + 1 Manpower|A coastal supply world of fuel farms, barracks and disused embarkation beaches. Concrete causeways cross tidal flats to cargo piers; inland storage compounds still carry destination markings for vanished crusades. The Anchorage Command’s shore troops put up worthy resistance before the Iron Paladins overwhelmed their positions. Paladin sentries hold the pump stations and transport terminals. The garrison has reinforced its watch over the repaired coastal defences, causeways and cargo piers as the Order's fleets gather above Aulis.|Coastal military depot; low terrain, causeways and fuel-storage compounds.|
 |Hyria|Major Planet|Iron Paladins|8/8|3 Supply + 3 Manpower|A heavily developed naval support world whose cities grew around surface landing fields. The Iron Paladins have taken the traffic-control citadel and surviving embarkation districts after breaking the Anchorage Command's final resistance. Rebuilt strongpoints and reinforced checkpoints secure the restored defensive network around the repair sheds and Administratum blocks. Paladin garrisons maintain a heightened watch along the restored lines, with the remaining damaged positions repaired.|Spaceport or military-industrial city; hangars, long landing strips and a hardened central complex.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
 |Vigilatius|Iron Paladins|5/5|
+|The Emperor’s Judgement|Iron Paladins|5/5|
+|The Emperor’s Shield|Iron Paladins|5/5|
 |The Third Refusal|Order of Saint Erigone|5/5|
 |The Returning Escort|Order of Saint Erigone|5/5|
 |The Unbroken Procession|Order of Saint Erigone|5/5|
@@ -555,7 +555,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and
 |WAAAGH! Bell-Ringa|Da Jaw-Breaka|Minor Fleet Construction / Da Gate-Krasha, Eleusis|Destroyed; Integrity 0/3|Destroyed by Cycle 16 Planet Fall. The 11 October correction removes its +2 maximum capacity; Gate-Krasha maximum is now 5. Cannot repair the destroyed project.|
 |Order of Saint Erigone|Castalia Anchorage|Minor Orbital Shipyard / Castalia, Delphi|Progress 3/3; Integrity 3/3|Complete and operational. Orbital Shipyard available in Delphi. Castalia ordinary construction slot occupied.|
 |Order of Saint Erigone|The Breach Litany|Minor Bombardment Bay / The Third Refusal, Eleusis|Destroyed; Integrity 0/3|Destroyed by Cycle 17 Warp Storm. No Ground Assault bonus; must be rebuilt, not repaired.|
-|Iron Paladins|The Grand Gene-Seed Vaults of Heraion|Upgraded Major Military Academy / Heraion, Argos|Upgrade progress 4/5; Integrity 9/10|Base complete and active: +7 Manpower per Logistics Cycle while Integrity remains at least 5. Upgrade unfinished; +14 Manpower per Logistics Cycle at full upgraded Integrity. No immediate payout. Heraion ordinary construction slot occupied.|
+|Iron Paladins|The Grand Gene-Seed Vaults of Heraion|Upgraded Major Military Academy / Heraion, Argos|Upgrade progress 5/5; Integrity 10/10|Upgrade complete and active: +14 Manpower per Logistics Cycle at full upgraded Integrity, replacing base +7. No immediate payout. Heraion ordinary construction slot occupied.|
 |Order of Saint Erigone|The Watch of Daeira|Minor System Defence Platform / Eleusis|Progress 3/3; Integrity 3/3|Complete and active. Grants +5 to the defender’s Fleet Battle roll in Eleusis.|
 
 |Order of Saint Erigone|The Eleusis Refit Anchorage|Major System Repair Station / Eleusis|Progress 3/5; Integrity 3/5|Unfinished and inactive. On completion, restores 1 Strength to each eligible allied fleet in the system per Cycle.|
@@ -940,6 +940,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |20 / Phase 0 / Constructions|Periodic effects, Endurance check and Fleet Action reset.|None.|No eligible periodic damage, repair or Endurance. Refit Anchorage 3/5 and Yard-Gunz 2/3 inactive. All Fleet Actions reset. No active Defended status.|Logistics check|
 |20 / Phase 0 / Logistics|Not a Logistics Cycle.|None.|Resources unchanged: Iron Paladins 18/32, Orks 8/23, Order 8/43. Next Logistics Cycle 21.|Events|
 |20 / Phase 0 / Events|Roll d6 once.|None.|Check 2: no event; no event-table roll. Ordinary movement available. [Opening audit](Atreus_Cycle_20_Phase_0_Rolls.json).|Iron Paladins orders|
+
+|20 / Iron Paladins / Fleet|Move The Emperor’s Judgement and The Emperor’s Shield from Argos to Aulis; Vigilatius holds Aulis, Anabasis holds Argos.|None.|All remain 5/5. Judgement and Shield spend Fleet Actions moving and remain eligible for automatic defence; Vigilatius and Anabasis actions unused. Paladins 15 versus Order 20 in Aulis; Order retains Void Superiority. Argos Paladins 5 to hostile 0. No battle.|None|
+|20 / Iron Paladins / Faction|Defend Schoenus.|1 Supply: 18 to 17; 1 Manpower: 32 to 31.|Defence remains full 2/2; Defended until start of Iron Paladins Cycle 21 turn.|None|
+|20 / Iron Paladins / Social|No action.|None.|No change.|None|
+|20 / Iron Paladins / Construction|Complete The Grand Gene-Seed Vaults of Heraion upgrade.|5 Supply: 17 to 12.|Upgrade progress 4/5 to 5/5; Integrity 9/10 to 10/10. Host Heraion full 4/4. Upgraded +14 Manpower per Logistics Cycle active, replacing base +7; no immediate payout. Projected Logistics net +21 Supply / +21 Manpower if unchanged. Final resources 12 Supply / 31 Manpower. Cycle remains open.|WAAAGH! Bell-Ringa orders|
 
 ## Cycle Records
 
