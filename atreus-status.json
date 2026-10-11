@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 23,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
   "event": "Warp Storm",
   "logistics_due": 24,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -24,7 +24,7 @@
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions.",
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction."
   ],
-  "notes": "Human Order victory captures Schoenus1/2; booby-trapped Paladin withdrawal recorded without extra mechanical penalties. IP26/44 before event. Order moved Return to Daeira to Eleusis, expanded Ward, Reinforced to8/50. Cycle22 closed; Copper Hawk recovered. Cycle23 Anchorage repaired both Eleusis fleets to5/5 before event; no Logistics. Check1 event1 Warp Storm destroyed Vigilatius, Judgement and Shield, costing3 Manpower; Anabasis4/5, Exodos2/5, Nemesis progress2/5 Integrity1/5. Final IP26/41, Orks7/19, Order8/50. All surviving actions unused; ordinary movement blocked. Iron Paladins to act; next Logistics24.",
+  "notes": "Iron Paladins Cycle23 complete: Anabasis expanded5/5 and Exodos4/5, actions spent. Vigilatius Secundus created1/5 Argos, cannot act this Cycle. Nemesis third Build action: progress3/5, Integrity2/5, inactive; earlier storm reduced Integrity only. IP18 Supply/38 Manpower; Orks7/19; Order8/50 unchanged. Argos Strength10, three living fleets, next Logistics projected net+21/+21. Warp Storm active; ordinary movement blocked. Bell-Ringa to act; Cycle23 open, next Logistics24.",
   "phase_zero_resolved": true,
   "event_check": 1,
   "phase_zero_rolls": "Atreus_Cycle_23_Phase_0_Rolls.json",
