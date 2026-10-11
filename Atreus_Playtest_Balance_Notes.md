@@ -265,6 +265,22 @@ Consider a random event that reduces Authority according to the number of holdin
 
 **Decision:** Record only. The current rule allowing movement to any system in the Subsector remains active. No routes, adjacency restrictions or map changes introduced.
 
+### AT-BAL-014 — Assault Cruisers and Flagships represented by Fleet Strength
+
+**Recorded:** 11 October 2026 (Australia/Sydney)  
+**Campaign Cycle:** 23, before Iron Paladins orders  
+**Status:** Proposal recorded for end-of-campaign review
+
+**Jake's proposal:** Assault Cruisers and Flagships would have no separate Integrity track. They would contribute only to Fleet Strength, with their added Strength represented at the start of the fleet's Strength track. Damage to these ships would be restored through ordinary Expand Fleet rather than a separate construction Repair action. The construction is lost if its host fleet is destroyed.
+
+**Jake's example:** A fleet with an Assault Cruiser reduced to **1/7** still contains the damaged cruiser, which needs one point of repair. Expand Fleet can restore it as part of normal fleet recovery. The surviving fleet retains its increased maximum; the cruiser is lost with the fleet if that fleet is destroyed.
+
+**Details to settle during review:** Formalise the ordering of construction-contributed Strength at the start of the track, especially with multiple ships, upgraded profiles or a Flagship. Preserve the supplied 1/7 example when defining damage representation. Determine how unfinished projects and build progress are tracked without Integrity, and how targeted Structure Assaults, transfers, merges and other fleet-repair effects interact with these ships. No change to build costs, action counts or completion bonuses was specified.
+
+**Interactions for review:** Compare simpler damage bookkeeping and recovery through Expand Fleet with the value of increased maximum Strength, shipyard access, fleet destruction risk and Warp Storms (AT-BAL-003). This is a proposed replacement for the active Integrity-based treatment of these two profiles, including the 11 October construction-destruction amendment; it has not been adopted.
+
+**Decision:** Record for campaign-end assessment only. Do not restore Da Jaw-Breaka, alter Nemesis or change current Fleet Strength/Integrity. Current rules and campaign state remain unchanged.
+
 ### Entry template
 
 **ID:** AT-BAL-NNN  
