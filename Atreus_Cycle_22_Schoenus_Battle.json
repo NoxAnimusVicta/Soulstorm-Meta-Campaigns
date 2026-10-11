@@ -1,0 +1,51 @@
+{
+  "campaign": "Atreus",
+  "cycle": 22,
+  "type": "Human Soulstorm Ground Assault",
+  "result": "Order of Saint Erigone victory",
+  "reported_narrative": "The Iron Paladins fought bravely against odds that were dramatically against them. Upon realizing the planet was lost, Squad Captains began booby trapping their locations with bio weapons and explosives. The Sisters of Battle took the planet but they paid dearly for it.",
+  "surviving_formations": "Not reported; final engagement victory supplied by player, no reserves",
+  "attacker": {
+    "strength": 14,
+    "before": [
+      7,
+      52
+    ],
+    "commitment": [
+      1,
+      2
+    ],
+    "manpower_return": 1,
+    "after": [
+      6,
+      51
+    ]
+  },
+  "defender": {
+    "before": [
+      28,
+      49
+    ],
+    "battle_setup": [
+      27,
+      46
+    ],
+    "capture_total_loss": [
+      2,
+      5
+    ],
+    "after": [
+      26,
+      44
+    ],
+    "fleets_in_system": 0
+  },
+  "damage": 3,
+  "holding": {
+    "name": "Schoenus",
+    "before": "Iron Paladins 2/2",
+    "after": "Order of Saint Erigone 1/2"
+  },
+  "extra_narrative_penalty": false,
+  "ai_roll": null
+}
