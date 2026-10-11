@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 16,
-  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
+  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "Warp Storm",
   "logistics_due": 18,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -23,7 +23,7 @@
     "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70.",
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions."
   ],
-  "notes": "Iron Paladins Cycle 16 resolved: Vigilatius expanded to 5/5 in Argos, action spent; Anabasis and Judgement hold Aulis at 4/5 each, actions unused. Hyria defended to 7/8, Defended until Iron Paladins Cycle 17 turn. Grand Gene-Seed Vaults of Heraion upgrade 1/5, Integrity 6/10, base +7 Manpower income active. Final resources 13 Supply / 27 Manpower. Warp Storm remains active; ordinary movement blocked, no repeated storm damage. Bell-Ringa next; Cycle 16 remains open; next Logistics Cycle 18.",
+  "notes": "Bell-Ringa Cycle 16 resolved: fleets hold Eleusis at 6/7,4/5,4/5 with unused actions. Reinforce +3 Supply; Da Iron Gob upgrade completed 5/5, Integrity 10/10, active +14 Supply per Logistics Cycle with no immediate payout. Final resources 8 Supply / 32 Manpower. Triptolemos Defended expired, defence remains 4/4. Warp Storm remains active; no repeated damage. Order next; Cycle 16 remains open; next Logistics Cycle 18.",
   "phase_zero_resolved": true,
   "event_check": 1,
   "phase_zero_rolls": "Atreus_Cycle_16_Phase_0_Rolls.json",
