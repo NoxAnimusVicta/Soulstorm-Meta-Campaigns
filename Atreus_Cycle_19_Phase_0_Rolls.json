@@ -1,0 +1,35 @@
+{
+  "campaign": "Atreus",
+  "cycle": 19,
+  "date": "2026-10-11",
+  "check": 4,
+  "event": null,
+  "event_name": "No event",
+  "method": "PowerShell Get-Random -Minimum 1 -Maximum 7; single d6 check, no reroll",
+  "logistics_applied": false,
+  "logistics_due": 21,
+  "minor_recovery": [
+    {
+      "fleet": "The Copper Hawk",
+      "before": 3,
+      "after": 4
+    }
+  ],
+  "construction_effects": "No eligible periodic damage, repair or Endurance; Refit Anchorage 2/5 and Yard-Gunz 1/3 inactive.",
+  "fleet_actions": "All reset including new fleets",
+  "defended_expiry": "Hyria at start of Iron Paladins Cycle 19 turn; stays 8/8",
+  "resources": {
+    "iron_paladins": [
+      18,
+      35
+    ],
+    "bell_ringa": [
+      13,
+      28
+    ],
+    "order": [
+      11,
+      44
+    ]
+  }
+}
