@@ -281,23 +281,24 @@ Consider a random event that reduces Authority according to the number of holdin
 
 **Decision:** Record for campaign-end assessment only. Do not restore Da Jaw-Breaka, alter Nemesis or change current Fleet Strength/Integrity. Current rules and campaign state remain unchanged.
 
-### AT-BAL-015 — Attack resource costs scale with the target world
+### AT-BAL-015 — Review attack cost values while retaining current scaling
 
 **Recorded:** 11 October 2026 (Australia/Sydney)  
-**Campaign Cycle:** 23, after Iron Paladins turn  
-**Status:** Proposal recorded for end-of-campaign review
+**Updated:** 11 October 2026, Cycle 23, after Bell-Ringa's turn  
+**Campaign Cycle:** 23  
+**Status:** Revised feedback recorded for end-of-campaign review
 
-**Jake's feedback:** “Make supply and manpower scale with world you are attempting to attack.”
+**Jake's revised feedback:** The current Supply and Manpower scaling formulas seem fine; the costs themselves may need tweaking.
 
-**Proposed direction:** Scale both Supply expenditure and Manpower commitment for an attack with its target world. Target tier is the provisional interpretation to examine; Jake has not specified a formula or numerical values.
+**Review direction:** Retain the current scaling approach and assess the numerical costs. Ground Assault base Supply scales with holding tier, while attacker Manpower commitment is floor(participating ground Strength / 5). No replacement scaling system or target-based Manpower formula is requested by this entry.
 
-**Current-rule context:** Ground Assault base Supply already scales with holding tier, while attacker Manpower commitment is floor(participating ground Strength / 5). Review how both costs should scale together, including whether target-based Manpower replaces or supplements Strength-based commitment.
+**Revision history:** This clarification supersedes the earlier suggestion in AT-BAL-015 to make both resources scale with the target world.
 
-**Details to workshop:** Confirm whether the scaling uses tier, current defence, maximum defence or another target property; specify treatment of stations, other attack types, defensive commitments, victory refunds and trait modifiers.
+**Details to workshop:** Whether any cost values need adjustment, and by how much. No increase, decrease or specific values have been selected.
 
-**Interactions for review:** Increased Manpower expenditure (AT-BAL-011), cost of repeated attacks on larger holdings, concentrating large fleets against small holdings, economic recovery, resource-dependent battle difficulty and formation counts, and Siege Doctrine. Exact costs remain undecided.
+**Interactions for review:** Assess affordability, repeated attacks, resource income and recovery, victory refunds, battle difficulty and formation thresholds, and trait modifiers. Review alongside the broader Manpower expenditure observation (AT-BAL-011), without treating the current formulas as requiring replacement.
 
-**Decision:** Record for campaign-end assessment only. No active attack costs, resource balances or campaign actions changed.
+**Decision:** Record for campaign-end assessment only. Active formulas, costs, resource balances and completed turns remain unchanged.
 
 ### Entry template
 
