@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 23 - WAAAGH! Bell-Ringa complete; Order of Saint Erigone to act**
+Created 7 October 2026 · Subsector playtest · **Cycle 24 - Phase 0 complete; Iron Paladins to act**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|23|WAAAGH! Bell-Ringa turn complete|Warp Storm (check 1; event 1)|Order of Saint Erigone|None|24|
+|24|Phase 0 complete; awaiting Iron Paladins orders|No event (check: 4)|Iron Paladins|None|27|
 
 ## Major faction registers
 
@@ -50,8 +50,8 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Trait|The Iron Tithe — Efficient Logistics|
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
-|Resources|18 Supply / 38 Manpower; neither deficit active|
-|Fleet|Crusade Fleet Anabasis - Argos - 5/5; Battle Fleet Exodos - Argos - 4/5, both expansion actions spent in Cycle 23; Vigilatius Secundus - Argos - 1/5, newly created and cannot act this Cycle; original Vigilatius, The Emperor’s Judgement and The Emperor’s Shield remain destroyed|
+|Resources|39 Supply / 59 Manpower; neither deficit active|
+|Fleet|Crusade Fleet Anabasis - Argos - 5/5; Battle Fleet Exodos - Argos - 4/5; Vigilatius Secundus - Argos - 1/5; all actions unused in Cycle 24; original Vigilatius, The Emperor’s Judgement and The Emperor’s Shield remain destroyed|
 |Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; The Grand Gene-Seed Vaults of Heraion (upgraded Major Military Academy) on Heraion, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Manpower per Logistics Cycle, replacing base +7; Nemesis (Major Flagship), attached to Anabasis in Argos, progress 3/5 and Integrity 2/5 after continued construction, unfinished and inactive|
 |Next Logistics if unchanged|24 Supply / 24 Manpower gross including upgraded Forge, upgraded Grand Gene-Seed Vaults and Hyria; 3/3 fleet upkeep; net +21 / +21|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
@@ -70,8 +70,8 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Trait|More Boyz Fer Da Fight — Martial Culture|
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
-|Resources|4 Supply / 16 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Delphi - 4/5; Da Fist - Delphi - 4/5; Da Backhand - Delphi - 4/5; Da Grudge - Delphi - 4/5; Da Boot - Delphi - 1/5; all five assault actions spent in Cycle 23|
+|Resources|20 Supply / 22 Manpower; neither deficit active|
+|Fleet|Da Gate-Krasha - Delphi - 4/5; Da Fist - Delphi - 4/5; Da Backhand - Delphi - 4/5; Da Grudge - Delphi - 4/5; Da Boot - Delphi - 1/5; all five actions unused in Cycle 24|
 |Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Da Jaw-Breaka destroyed during Triptolemos Planet Fall in Cycle 16; its +2 maximum capacity removed under the 11 October correction (maximum Strength now 5); Da Yard-Gunz (Minor System Defence Platform), Calydon, progress and Integrity 3/3; complete and active, +5 to defender Fleet Battle rolls in Calydon; Da Scar-Yard (Major Military Academy), Pleuron, progress and Integrity 3/5, unfinished and inactive; +7 Manpower per Logistics Cycle on completion|
 |Next Logistics if unchanged|21 Supply / 11 Manpower gross including upgraded Forge and trait; 5/5 fleet upkeep; net +16 / +6|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
@@ -90,9 +90,9 @@ The Order’s convents and shrine network preserve hospitals, military stores an
 |Trait|Offerings of the Faithful — War Economy|
 |Exact effect|+6 Supply each Logistics Cycle.|
 |Capital|Erigone — Eleusis — 12/12|
-|Resources|7 Supply / 49 Manpower; neither deficit active|
-|Fleet|The Third Refusal - Aulis - 2/5; The Returning Escort - Aulis - 3/5; The Unbroken Procession - Aulis - 3/5; The Oath at the Gate - Aulis - 2/5; The Return to Daeira - Eleusis - 4/5; The Second Erigone Ward - Eleusis - 4/5; all actions unused in Cycle 23; original Erigone Ward remains destroyed|
-|Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 5/5 and Integrity 5/5; complete and active, +7 Manpower per Logistics Cycle; Castalia Anchorage (Minor Orbital Shipyard), progress and Integrity 3/3, complete and operational; The Breach Litany destroyed by Cycle 17 Warp Storm; no Ground Assault damage bonus; The Watch of Daeira (Minor System Defence Platform), Eleusis, progress and Integrity 3/3, complete and active; +5 to defender Fleet Battle roll in Eleusis; The Eleusis Refit Anchorage (Major System Repair Station), Eleusis, progress and Integrity 5/5, complete and active; restores 1 Strength to each eligible allied fleet in Eleusis per Cycle|
+|Resources|16 Supply / 62 Manpower; neither deficit active|
+|Fleet|The Third Refusal - Aulis - 2/5; The Returning Escort - Aulis - 3/5; The Unbroken Procession - Aulis - 3/5; The Oath at the Gate - Aulis - 2/5; The Return to Daeira - Eleusis - 5/5; The Second Erigone Ward - Eleusis - 5/5; all actions unused in Cycle 24; original Erigone Ward remains destroyed|
+|Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 5/5 and Integrity 5/5; complete and active, +7 Manpower per Logistics Cycle; Castalia Anchorage (Minor Orbital Shipyard), progress and Integrity 3/3, complete and operational; The Breach Litany destroyed by Cycle 17 Warp Storm; no Ground Assault damage bonus; The Watch of Daeira (Minor System Defence Platform), Eleusis, progress and Integrity 3/3, complete and active; +5 to defender Fleet Battle roll in Eleusis; The Eleusis Refit Anchorage (Major System Repair Station), Eleusis, progress and Integrity 5/5, complete and active; restores 1 Strength to each eligible allied fleet in Eleusis per Cycle; Schoenus Anchorage (Minor Orbital Shipyard), Schoenus, Aulis, progress and Integrity 1/3, unfinished and inactive|
 |Next Logistics if unchanged|19 Supply / 20 Manpower gross including Academy, trait and captured Schoenus; 6/6 fleet upkeep; net +13 / +14|
 |Briefing|[briefing_canoness_althaia.md](briefing_canoness_althaia.md)|
 
@@ -176,7 +176,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Eleusis
 
-**Void Superiority:** Order of Saint Erigone 8 vs hostile fleets 0 - Order of Saint Erigone superior; no hostile fleet present.
+**Void Superiority:** Order of Saint Erigone 10 vs hostile fleets 0 - Order of Saint Erigone superior; no hostile fleet present.
 
 The Order controls every holding in Eleusis after recapturing Daeira in Cycle 17. Bell-Ringa's three battered fleets withdrew to Calydon in Cycle 18. The Order has Void Superiority in Eleusis. The Eleusinian Synod has lost its final holding and is eliminated as an independent campaign faction.
 
@@ -194,8 +194,8 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Second Erigone Ward|Order of Saint Erigone|4/5|
-|The Return to Daeira|Order of Saint Erigone|4/5|
+|The Second Erigone Ward|Order of Saint Erigone|5/5|
+|The Return to Daeira|Order of Saint Erigone|5/5|
 
 
 
@@ -242,7 +242,7 @@ Setup: d20 **5**; ownership authored separately.
 
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
-|Schoenus|Minor Planet|Order of Saint Erigone|1/2|1 Supply + 1 Manpower|A coastal supply world of fuel farms, barracks and embarkation beaches. The Order has taken the cargo piers and pump stations after overcoming the Iron Paladins' defence. Retreating Squad Captains left explosive traps and biological weapons in their abandoned positions, inflicting costly losses on the advancing Sisters. The Order now guards damaged causeways and landing compounds amid the hazards left behind; the captured defensive line needs rebuilding.|Coastal military depot; low terrain, causeways and fuel-storage compounds.|
+|Schoenus|Minor Planet|Order of Saint Erigone|2/2; Defended until Order Cycle 24 turn|1 Supply + 1 Manpower|A coastal supply world of fuel farms, barracks and embarkation beaches. The Order has taken the cargo piers and pump stations after overcoming the Iron Paladins' defence. Retreating Squad Captains left explosive traps and biological weapons in their abandoned positions, inflicting costly losses on the advancing Sisters. The Order has rebuilt the defensive line around the causeways and landing compounds and placed the garrison on heightened watch. The hazards left by the withdrawal remain part of the occupation's burden. Work has begun on Schoenus Anchorage above the captured world.|Coastal military depot; low terrain, causeways and fuel-storage compounds.|
 |Hyria|Major Planet|Iron Paladins|8/8|3 Supply + 3 Manpower|A heavily developed naval support world whose cities grew around surface landing fields. The Iron Paladins have taken the traffic-control citadel and surviving embarkation districts after breaking the Anchorage Command's final resistance. Rebuilt strongpoints and reinforced checkpoints secure the restored defensive network around the repair sheds and Administratum blocks. Paladin garrisons maintain a heightened watch along the restored lines, with the remaining damaged positions repaired.|Spaceport or military-industrial city; hangars, long landing strips and a hardened central complex.|
 
 |Fleet|Owner|Strength / original maximum|
@@ -258,7 +258,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Mycenae
 
-**Void Superiority:** House Atreides 10 vs hostile fleets 0 - House Atreides superior; no hostile fleet present.
+**Void Superiority:** House Atreides 11 vs hostile fleets 0 - House Atreides superior; no hostile fleet present.
 
 The prize dynasty holds a fortified seat, military estates and an orbital anchorage.
 
@@ -276,7 +276,7 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Pleisthenes’ Oath|House Atreides|4/5|
+|Pleisthenes’ Oath|House Atreides|5/5|
 |The Copper Hawk|House Atreides|4/5|
 |Perseia’s Breakwater|House Atreides|2/5|
 
@@ -323,7 +323,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Nemea
 
-**Void Superiority:** Nemean Estate Compact 4 vs hostile fleets 0 - Nemean Estate Compact superior; no hostile fleet present.
+**Void Superiority:** Nemean Estate Compact 5 vs hostile fleets 0 - Nemean Estate Compact superior; no hostile fleet present.
 
 Agricultural estates and hunting preserves once bound to the crusade provisioning system.
 
@@ -341,7 +341,7 @@ Setup: d20 **13**; ownership authored separately.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Granary Key|Nemean Estate Compact|4/5|
+|The Granary Key|Nemean Estate Compact|5/5|
 
 
 
@@ -350,7 +350,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Lerna
 
-**Void Superiority:** Lerna Reclamation Directorate 2 vs Rustjaw Mob 1 - Lerna Reclamation Directorate superior; hostile fleet present.
+**Void Superiority:** Lerna Reclamation Directorate 3 vs Rustjaw Mob 2 - Lerna Reclamation Directorate superior; hostile fleet present.
 
 Wet industrial worlds and chemical works separated by contaminated waterways.
 
@@ -372,8 +372,8 @@ Setup: d20 **12**; ownership authored separately.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Ninth Sluice|Lerna Reclamation Directorate|2/3|
-|Da Pressure Drop|Rustjaw Mob|1/2|
+|The Ninth Sluice|Lerna Reclamation Directorate|3/3|
+|Da Pressure Drop|Rustjaw Mob|2/2|
 
 
 
@@ -381,7 +381,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Ithaca
 
-**Void Superiority:** Ithacan Assembly 4 vs hostile fleets 0 - Ithacan Assembly superior; no hostile fleet present.
+**Void Superiority:** Ithacan Assembly 5 vs hostile fleets 0 - Ithacan Assembly superior; no hostile fleet present.
 
 Resettlement worlds of displaced families, veterans and descendants of missing crews.
 
@@ -400,7 +400,7 @@ Setup: d20 **17**; ownership authored separately.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|A Place at the Hearth|Ithacan Assembly|4/5|
+|A Place at the Hearth|Ithacan Assembly|5/5|
 
 
 
@@ -408,7 +408,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Thessaly
 
-**Void Superiority:** Thessalian First Command 2 vs Thessalian Remount Command 1 - Thessalian First Command superior; hostile fleet present.
+**Void Superiority:** Thessalian First Command 3 vs Thessalian Remount Command 2 - Thessalian First Command superior; hostile fleet present.
 
 Military estates, vehicle depots and open-country settlements divided between surviving commands.
 
@@ -431,8 +431,8 @@ Setup: d20 **16**; ownership authored separately.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|The Senior Warrant|Thessalian First Command|2/3|
-|The Unbroken Trace|Thessalian Remount Command|1/2|
+|The Senior Warrant|Thessalian First Command|3/3|
+|The Unbroken Trace|Thessalian Remount Command|2/2|
 
 
 
@@ -568,6 +568,8 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and
 |Iron Paladins|Nemesis|Major Flagship / Crusade Fleet Anabasis, Argos|Progress 3/5; Integrity 2/5|Unfinished and inactive. On completion grants +5 current and maximum Fleet Strength while the construction survives. Tiryns shipyard is operational; Anabasis restored to full 5/5 before continuing construction.|
 
 |WAAAGH! Bell-Ringa|Da Scar-Yard|Major Military Academy / Pleuron, Calydon|Progress 3/5; Integrity 3/5|Unfinished and inactive. On completion +7 Manpower per Logistics Cycle at full Integrity. Pleuron's ordinary construction slot occupied; host restored to full 4/4 before Build.|
+
+|Order of Saint Erigone|Schoenus Anchorage|Minor Orbital Shipyard / Schoenus, Aulis|Progress 1/3; Integrity 1/3|Unfinished and inactive. On completion enables eligible fleet creation and expansion. Schoenus ordinary construction slot occupied; full 2/2 host satisfies Build access.|
 
 ## Setup provenance and decision ledger
 
@@ -1019,6 +1021,15 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |23 / WAAAGH! Bell-Ringa / Social|No action.|None.|No change.|None|
 |23 / WAAAGH! Bell-Ringa / Construction|Continue Da Scar-Yard on Pleuron; fallback construction order.|5 Supply:9 to4.|Progress and Integrity2/5 to3/5, unfinished and inactive. Pleuron full4/4. Castalia Anchorage repair not taken. Final Orks4 Supply/16 Manpower; Order7/49 after defence. Warp Storm remains active, Cycle23 open.|Order of Saint Erigone orders|
 
+|23 / Order of Saint Erigone / Fleet|All six fleets hold their positions in Aulis and Eleusis.|None.|No attack or movement. All Fleet Actions unused; Strength unchanged.|None|
+|23 / Order of Saint Erigone / Faction|Defend Schoenus.|1 Supply:7 to6; 1 Manpower:49 to48.|Defence1/2 to2/2; Defended until start of Order Cycle24 turn.|None|
+|23 / Order of Saint Erigone / Social|No action.|None.|No change.|None|
+|23 / Order of Saint Erigone / Construction|Begin Schoenus Anchorage, Minor Orbital Shipyard on Schoenus.|3 Supply:6 to3.|Progress and Integrity1/3; unfinished and inactive. Earlier Defend restores full2/2 host; ordinary slot available. Final resources3 Supply/48 Manpower.|Cycle closure|
+|23 / Cycle end|Minor recovery and completed record; Warp Storm expires.|None.|House restores Pleisthenes' Oath4/5 to5/5; each other surviving unengaged Minor restores sole fleet1 Strength to full. Minor holdings full. No free Major recovery.|Cycle24 Phase0|
+|24 / Phase 0 / Constructions|Periodic effects and Fleet Action reset.|None.|Refit Anchorage repairs Return to Daeira and Second Erigone Ward4/5 to5/5 each. No other periodic repair, damage or Endurance; unfinished projects do not advance. All actions reset including Vigilatius Secundus. Schoenus retains Defended until Order turn.|Logistics|
+|24 / Phase 0 / Logistics|Holding, active construction and trait income, then living-fleet upkeep.|IP gross24/24 upkeep3/3; Orks gross21/11 upkeep5/5; Order gross19/20 upkeep6/6.|IP18/38 to39/59; Orks4/16 to20/22; Order3/48 to16/62. No cap or deficit. Forge/Vaults/Academy and passive traits included. Next Logistics27.|Events|
+|24 / Phase 0 / Events|Roll d6 once.|None.|Check4: no event; no event-table roll. Ordinary movement available. [Opening audit](Atreus_Cycle_24_Phase_0_Rolls.json).|Iron Paladins orders|
+
 ## Cycle Records
 
 ### Cycle 1 - Foundries and burial gates
@@ -1226,6 +1237,14 @@ Bell-Ringa concentrated his flotilla in Delphi, joining Da Boot and outnumbering
 The Order landed on Schoenus. The Paladins fought bravely against a much larger force, but their Squad Captains eventually recognised that the world was lost. They booby-trapped their positions with biological weapons and explosives. The Sisters took the planet at a heavy price, inheriting damaged coastal positions and the hazards left by the withdrawal. Hyria remained under Paladin control.
 
 The Return to Daeira withdrew from Delphi to Eleusis, where the Order expanded the Second Erigone Ward and replenished its stores.
+
+### Cycle 23 — Castalia holds
+
+The Warp Storm closed the passages between systems. At Tiryns, the Iron Paladins restored Anabasis, expanded Exodos and commissioned Vigilatius Secundus. Work resumed on the storm-damaged Nemesis.
+
+Bell-Ringa launched his concentrated fleets against Castalia. The Sisters held the landing approaches and repelled the assault, retaining the world and its anchorage. The Orks replenished their stores while construction continued on Da Scar-Yard at Pleuron.
+
+The Order kept its ships in Aulis and Eleusis. On Schoenus, its garrison rebuilt the captured defensive line and established a heightened watch over the coastal approaches. Work began on a new orbital anchorage, intended to support the fleets operating in Aulis. No holdings changed hands before the storm passed.
 
 ## Pinned rules appendix
 
