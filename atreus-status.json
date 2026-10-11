@@ -1,17 +1,17 @@
 {
   "campaign": "Atreus",
   "cycle": 16,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
   "event": "Warp Storm",
   "logistics_due": 18,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
     "Order of Saint Erigone"
   ],
   "opened": true,
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "rules_file": "Source_Rules_Playtest_2026-10-06.md",
   "rules_commit": "113ec69a6163d36fb2164b9b624d14d8889986e5",
   "setup_rolls": "Atreus_Setup_Rolls_2026-10-07.json",
@@ -23,7 +23,7 @@
     "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70.",
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions."
   ],
-  "notes": "Order Cycle 15 complete: all four fleets expanded, Reinforce taken, Watch of Daeira completed and active. Cycle 15 closed. Cycle 16 Phase 0: no periodic construction effects or Logistics (next 18). Event check 1, event roll 1: Warp Storm. All 20 living fleets lose 1 Strength, none destroyed; ordinary movement blocked. Paladin fleets 4/5 each; Orks 6/7,4/5,4/5; Order 4/5 each. Jaw-Breaka Integrity 2/3; Breach Litany 1/3; base effects retained. Order Void Superiority 16 to 14. Resources IP 22/31, Orks 10/32, Order 10/38. All Fleet Actions unused. Hyria Defended expired; Triptolemos retains Defended until Bell-Ringa turn. Iron Paladins to act.",
+  "notes": "Iron Paladins Cycle 16 resolved: Vigilatius expanded to 5/5 in Argos, action spent; Anabasis and Judgement hold Aulis at 4/5 each, actions unused. Hyria defended to 7/8, Defended until Iron Paladins Cycle 17 turn. Grand Gene-Seed Vaults of Heraion upgrade 1/5, Integrity 6/10, base +7 Manpower income active. Final resources 13 Supply / 27 Manpower. Warp Storm remains active; ordinary movement blocked, no repeated storm damage. Bell-Ringa next; Cycle 16 remains open; next Logistics Cycle 18.",
   "phase_zero_resolved": true,
   "event_check": 1,
   "phase_zero_rolls": "Atreus_Cycle_16_Phase_0_Rolls.json",
