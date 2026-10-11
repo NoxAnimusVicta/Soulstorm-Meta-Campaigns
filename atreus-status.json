@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 18,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
   "event": "No event",
   "logistics_due": 21,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -24,7 +24,7 @@
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions.",
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction."
   ],
-  "notes": "Order victory 34 to 25 recaptures Daeira at 1/2; three Ork fleets in Eleusis each reduced to 1 Strength, none destroyed. Reinforce and Refit Anchorage construction resolved; new System Repair Station 1/5 inactive. Cycle 17 closed with Minor recovery; Warp Storm expired. Cycle 18 Phase 0: no periodic construction effects, Logistics applied, event check 5 no event. IP 27 Supply / 39 Manpower; Orks 18/30; Order 21/49. All Fleet Actions unused including new fleets. Order Void Superiority 12 to 3 in Eleusis. Ordinary movement available. Iron Paladins to act; next Logistics Cycle 21. Construction correction: Da Jaw-Breaka's destroyed +2 capacity removed; Da Gate-Krasha is 1/5. No additional damage, resource change or turn advancement.",
+  "notes": "Iron Paladins Cycle 18 complete (submitted Cycle 1 label corrected): Vigilatius moved to Aulis 5/5, Anabasis and Emperor’s Judgement returned to Argos 3/5 each, Emperor’s Shield expanded to 3/5; all four Fleet Actions spent. Hyria restored to 8/8 and Defended until Iron Paladins Cycle 19 turn. Grand Gene-Seed Vaults upgrade 3/5, Integrity 8/10, base income retained. Final resources 18 Supply / 35 Manpower. Orks 18/30; Order 21/49 unchanged. No event; next Logistics 21. Cycle 18 remains open; Bell-Ringa to act.",
   "phase_zero_resolved": true,
   "event_check": 5,
   "phase_zero_rolls": "Atreus_Cycle_18_Phase_0_Rolls.json",
