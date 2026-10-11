@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 19 - Phase 0 complete; Iron Paladins to act**
+Created 7 October 2026 · Subsector playtest · **Cycle 19 - Iron Paladins complete; WAAAGH! Bell-Ringa to act**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|19|Phase 0 complete; awaiting Iron Paladins orders|No event (check: 4)|Iron Paladins|None|21|
+|19|Iron Paladins turn complete|No event (check: 4)|WAAAGH! Bell-Ringa|None|21|
 
 ## Major faction registers
 
@@ -50,9 +50,9 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Trait|The Iron Tithe — Efficient Logistics|
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
-|Resources|18 Supply / 35 Manpower; neither deficit active|
-|Fleet|Crusade Fleet Anabasis - Argos - 3/5; The Emperor’s Judgement - Argos - 3/5; Vigilatius - Aulis - 5/5; The Emperor’s Shield - Argos - 3/5; all actions unused in Cycle 19|
-|Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; The Grand Gene-Seed Vaults of Heraion (upgraded Major Military Academy) on Heraion, upgrade progress 3/5 and Integrity 8/10; base +7 Manpower per Logistics Cycle retained at Integrity 5 or above; +14 at full upgraded Integrity|
+|Resources|18 Supply / 32 Manpower; neither deficit active|
+|Fleet|Crusade Fleet Anabasis - Argos - 5/5, action spent; The Emperor’s Judgement - Argos - 5/5, action spent; Vigilatius - Aulis - 5/5, holds with action unused; The Emperor’s Shield - Argos - 5/5, action spent in Cycle 19|
+|Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; The Grand Gene-Seed Vaults of Heraion (upgraded Major Military Academy) on Heraion, upgrade progress 4/5 and Integrity 9/10; base +7 Manpower per Logistics Cycle retained at Integrity 5 or above; +14 at full upgraded Integrity|
 |Next Logistics if unchanged|25 Supply / 18 Manpower gross including upgraded Forge, Grand Gene-Seed Vaults base income and Hyria; 4/4 fleet upkeep; net +21 / +14|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
 
@@ -145,7 +145,7 @@ All holdings start at full defence; none is Defended. All fleets are unengaged w
 
 ### Argos
 
-**Void Superiority:** Iron Paladins 9 vs hostile fleets 0 - Iron Paladins superior; no hostile fleet present.
+**Void Superiority:** Iron Paladins 15 vs hostile fleets 0 - Iron Paladins superior; no hostile fleet present.
 
 The Iron Paladins control Tiryns, Prosymna and newly captured Heraion, securing all holdings in Argos. The Argive Muster Council has lost its final holding and is eliminated.
 
@@ -163,9 +163,9 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Crusade Fleet Anabasis|Iron Paladins|3/5|
-|The Emperor’s Judgement|Iron Paladins|3/5|
-|The Emperor’s Shield|Iron Paladins|3/5|
+|Crusade Fleet Anabasis|Iron Paladins|5/5|
+|The Emperor’s Judgement|Iron Paladins|5/5|
+|The Emperor’s Shield|Iron Paladins|5/5|
 
 
 
@@ -555,7 +555,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and
 |WAAAGH! Bell-Ringa|Da Jaw-Breaka|Minor Fleet Construction / Da Gate-Krasha, Eleusis|Destroyed; Integrity 0/3|Destroyed by Cycle 16 Planet Fall. The 11 October correction removes its +2 maximum capacity; Gate-Krasha now 1/5. Cannot repair the destroyed project.|
 |Order of Saint Erigone|Castalia Anchorage|Minor Orbital Shipyard / Castalia, Delphi|Progress 3/3; Integrity 3/3|Complete and operational. Orbital Shipyard available in Delphi. Castalia ordinary construction slot occupied.|
 |Order of Saint Erigone|The Breach Litany|Minor Bombardment Bay / The Third Refusal, Eleusis|Destroyed; Integrity 0/3|Destroyed by Cycle 17 Warp Storm. No Ground Assault bonus; must be rebuilt, not repaired.|
-|Iron Paladins|The Grand Gene-Seed Vaults of Heraion|Upgraded Major Military Academy / Heraion, Argos|Upgrade progress 3/5; Integrity 8/10|Base complete and active: +7 Manpower per Logistics Cycle while Integrity remains at least 5. Upgrade unfinished; +14 Manpower per Logistics Cycle at full upgraded Integrity. No immediate payout. Heraion ordinary construction slot occupied.|
+|Iron Paladins|The Grand Gene-Seed Vaults of Heraion|Upgraded Major Military Academy / Heraion, Argos|Upgrade progress 4/5; Integrity 9/10|Base complete and active: +7 Manpower per Logistics Cycle while Integrity remains at least 5. Upgrade unfinished; +14 Manpower per Logistics Cycle at full upgraded Integrity. No immediate payout. Heraion ordinary construction slot occupied.|
 |Order of Saint Erigone|The Watch of Daeira|Minor System Defence Platform / Eleusis|Progress 3/3; Integrity 3/3|Complete and active. Grants +5 to the defender’s Fleet Battle roll in Eleusis.|
 
 |Order of Saint Erigone|The Eleusis Refit Anchorage|Major System Repair Station / Eleusis|Progress 2/5; Integrity 2/5|Unfinished and inactive. On completion, restores 1 Strength to each eligible allied fleet in the system per Cycle.|
@@ -921,6 +921,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |19 / Phase 0 / Constructions|Periodic effects, Endurance check and Fleet Action reset.|None.|No eligible periodic damage, repair or Endurance. Refit Anchorage 2/5 and Yard-Gunz 1/3 inactive. All Fleet Actions reset, including new fleets. Hyria Defended expires as Iron Paladins turn begins; defence stays 8/8.|Logistics check|
 |19 / Phase 0 / Logistics|Not a Logistics Cycle.|None.|Resources unchanged: Iron Paladins 18/35, Orks 13/28, Order 11/44. Next Logistics Cycle 21.|Events|
 |19 / Phase 0 / Events|Roll d6 once.|None.|Check 4: no event; no event-table roll. Ordinary movement available. [Opening audit](Atreus_Cycle_19_Phase_0_Rolls.json).|Iron Paladins orders|
+
+|19 / Iron Paladins / Fleet|Expand Anabasis, The Emperor’s Judgement and The Emperor’s Shield at Tiryns's operational built-in Orbital Shipyard; Vigilatius holds in Aulis.|3 Supply: 18 to 15; 3 Manpower: 35 to 32.|Each Argos fleet 3/5 to 5/5, action spent. Vigilatius remains 5/5 with action unused. No attack or movement. Void Superiority Argos 15 to 0, Aulis 5 to 0.|None|
+|19 / Iron Paladins / Faction|Reinforce through The Iron Tithe.|+8 Supply: 15 to 23.|Manpower remains 32.|None|
+|19 / Iron Paladins / Social|No action.|None.|No change.|None|
+|19 / Iron Paladins / Construction|Continue The Grand Gene-Seed Vaults of Heraion upgrade.|5 Supply: 23 to 18.|Upgrade progress 3/5 to 4/5; Integrity 8/10 to 9/10. Heraion remains full 4/4. Base +7 Manpower per Logistics Cycle retained; upgrade unfinished, no immediate payout. Final resources 18 Supply / 32 Manpower. Cycle remains open.|WAAAGH! Bell-Ringa orders|
 
 ## Cycle Records
 
