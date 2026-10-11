@@ -281,6 +281,24 @@ Consider a random event that reduces Authority according to the number of holdin
 
 **Decision:** Record for campaign-end assessment only. Do not restore Da Jaw-Breaka, alter Nemesis or change current Fleet Strength/Integrity. Current rules and campaign state remain unchanged.
 
+### AT-BAL-015 — Attack resource costs scale with the target world
+
+**Recorded:** 11 October 2026 (Australia/Sydney)  
+**Campaign Cycle:** 23, after Iron Paladins turn  
+**Status:** Proposal recorded for end-of-campaign review
+
+**Jake's feedback:** “Make supply and manpower scale with world you are attempting to attack.”
+
+**Proposed direction:** Scale both Supply expenditure and Manpower commitment for an attack with its target world. Target tier is the provisional interpretation to examine; Jake has not specified a formula or numerical values.
+
+**Current-rule context:** Ground Assault base Supply already scales with holding tier, while attacker Manpower commitment is floor(participating ground Strength / 5). Review how both costs should scale together, including whether target-based Manpower replaces or supplements Strength-based commitment.
+
+**Details to workshop:** Confirm whether the scaling uses tier, current defence, maximum defence or another target property; specify treatment of stations, other attack types, defensive commitments, victory refunds and trait modifiers.
+
+**Interactions for review:** Increased Manpower expenditure (AT-BAL-011), cost of repeated attacks on larger holdings, concentrating large fleets against small holdings, economic recovery, resource-dependent battle difficulty and formation counts, and Siege Doctrine. Exact costs remain undecided.
+
+**Decision:** Record for campaign-end assessment only. No active attack costs, resource balances or campaign actions changed.
+
 ### Entry template
 
 **ID:** AT-BAL-NNN  
