@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 21,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
   "event": "Warp Storm",
   "logistics_due": 24,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -24,7 +24,7 @@
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions.",
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction."
   ],
-  "notes": "Order won Aulis Fleet Battle 24 to22; each of three Paladin defending fleets lost1 Strength, none destroyed. Return to Daeira moved Delphi; Ward created Eleusis; Refit Anchorage advanced4/5 inactive. Cycle20 closed; Breakwater recovered3 to4. Cycle21 Logistics applied before Warp Storm (check1,event1). Storm destroyed Erigone Ward and Dendra Covenant; Order lost1 Manpower for Ward. IP33/52; Orks20/25; Order14/54. Aulis Order15 vs Paladins9; Delphi Orks4 vs Order2; Eleusis no fleets/no superiority. All surviving actions unused; ordinary movement blocked Cycle21. Schoenus Defended expired; holdings unchanged. Iron Paladins to act; next Logistics24.",
+  "notes": "Iron Paladins Cycle 21 complete: Anabasis expanded 4/5 to 5/5 at Tiryns, action spent; three Aulis fleets hold 3/5 with unused actions. Battle Fleet Exodos created 1/5 in Argos, cannot act this Cycle; opening storm damage not reapplied. Nemesis Major Flagship begun on full-strength Anabasis, progress and Integrity 1/5 inactive. IP26 Supply/50 Manpower; Orks20/25; Order14/54 unchanged. IP next Logistics net +20/+20 if unchanged, five-fleet upkeep. Warp Storm remains active, ordinary movement blocked. Bell-Ringa to act; Cycle21 open, next Logistics24.",
   "phase_zero_resolved": true,
   "event_check": 1,
   "phase_zero_rolls": "Atreus_Cycle_21_Phase_0_Rolls.json",
