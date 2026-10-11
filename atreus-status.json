@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
-  "cycle": 20,
-  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
-  "event": "No event",
-  "logistics_due": 21,
-  "next_faction": "Order of Saint Erigone",
+  "cycle": 21,
+  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "event": "Warp Storm",
+  "logistics_due": 24,
+  "next_faction": "Iron Paladins",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -24,11 +24,11 @@
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions.",
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction."
   ],
-  "notes": "Bell-Ringa Cycle 20 complete: Da Boot moved to Delphi 5/5, establishing Ork Void Superiority 5 to 0 without assault. Gate-Krasha, Fist, Backhand and Grudge expanded to 5/5 in Calydon, Strength 20 to hostile 0. All five actions spent. Reinforce +3 Supply then Yard-Gunz completed 3/3, active +5 defender Fleet Battle roll in Calydon. Orks 4 Supply / 19 Manpower; IP 12/31; Order 8/43. Schoenus Defended until Iron Paladins Cycle 21 turn. No event; Logistics next Cycle 21. Order to act; Cycle 20 remains open.",
+  "notes": "Order won Aulis Fleet Battle 24 to22; each of three Paladin defending fleets lost1 Strength, none destroyed. Return to Daeira moved Delphi; Ward created Eleusis; Refit Anchorage advanced4/5 inactive. Cycle20 closed; Breakwater recovered3 to4. Cycle21 Logistics applied before Warp Storm (check1,event1). Storm destroyed Erigone Ward and Dendra Covenant; Order lost1 Manpower for Ward. IP33/52; Orks20/25; Order14/54. Aulis Order15 vs Paladins9; Delphi Orks4 vs Order2; Eleusis no fleets/no superiority. All surviving actions unused; ordinary movement blocked Cycle21. Schoenus Defended expired; holdings unchanged. Iron Paladins to act; next Logistics24.",
   "phase_zero_resolved": true,
-  "event_check": 2,
-  "phase_zero_rolls": "Atreus_Cycle_20_Phase_0_Rolls.json",
+  "event_check": 1,
+  "phase_zero_rolls": "Atreus_Cycle_21_Phase_0_Rolls.json",
   "cycle_complete": false,
-  "event_roll": null,
+  "event_roll": 1,
   "rollover_policy": "After third Major turn: close Cycle, increment and reset actions; resolve constructions, scheduled Logistics, events; hand back to Iron Paladins."
 }

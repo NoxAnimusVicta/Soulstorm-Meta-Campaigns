@@ -1,0 +1,263 @@
+{
+  "campaign": "Atreus",
+  "cycle": 21,
+  "date": "2026-10-11",
+  "check": 1,
+  "event": 1,
+  "event_name": "Warp Storm",
+  "method": "Separate PowerShell Get-Random -Minimum 1 -Maximum 7 calls, event check then event-table d6; no rerolls",
+  "minor_recovery": [
+    {
+      "fleet": "Perseia’s Breakwater",
+      "before": 3,
+      "after": 4
+    }
+  ],
+  "construction_effects": "No periodic damage/repair/Endurance; Refit Anchorage4/5 inactive; no active fleet attachments.",
+  "logistics_applied": true,
+  "logistics_due": 24,
+  "logistics": {
+    "iron_paladins": {
+      "before": [
+        12,
+        31
+      ],
+      "gross": [
+        25,
+        25
+      ],
+      "upkeep": [
+        4,
+        4
+      ],
+      "after": [
+        33,
+        52
+      ]
+    },
+    "bell_ringa": {
+      "before": [
+        4,
+        19
+      ],
+      "gross": [
+        21,
+        11
+      ],
+      "upkeep": [
+        5,
+        5
+      ],
+      "after": [
+        20,
+        25
+      ]
+    },
+    "order": {
+      "before": [
+        2,
+        42
+      ],
+      "gross": [
+        18,
+        19
+      ],
+      "upkeep": [
+        6,
+        6
+      ],
+      "after": [
+        14,
+        55
+      ]
+    }
+  },
+  "storm_damage": [
+    {
+      "fleet": "Crusade Fleet Anabasis",
+      "owner": "Iron Paladins",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Da Gate-Krasha",
+      "owner": "WAAAGH! Bell-Ringa",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Da Fist",
+      "owner": "WAAAGH! Bell-Ringa",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Da Backhand",
+      "owner": "WAAAGH! Bell-Ringa",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Da Grudge",
+      "owner": "WAAAGH! Bell-Ringa",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Vigilatius",
+      "owner": "Iron Paladins",
+      "before": 4,
+      "after": 3,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Emperor’s Judgement",
+      "owner": "Iron Paladins",
+      "before": 4,
+      "after": 3,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Emperor’s Shield",
+      "owner": "Iron Paladins",
+      "before": 4,
+      "after": 3,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Third Refusal",
+      "owner": "Order of Saint Erigone",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Returning Escort",
+      "owner": "Order of Saint Erigone",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Unbroken Procession",
+      "owner": "Order of Saint Erigone",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Oath at the Gate",
+      "owner": "Order of Saint Erigone",
+      "before": 4,
+      "after": 3,
+      "maximum": 5
+    },
+    {
+      "fleet": "Pleisthenes’ Oath",
+      "owner": "House Atreides",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Copper Hawk",
+      "owner": "House Atreides",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Perseia’s Breakwater",
+      "owner": "House Atreides",
+      "before": 4,
+      "after": 3,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Dendra Covenant",
+      "owner": "House Atreides",
+      "before": 1,
+      "after": 0,
+      "maximum": 3
+    },
+    {
+      "fleet": "Da Boot",
+      "owner": "WAAAGH! Bell-Ringa",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Return to Daeira",
+      "owner": "Order of Saint Erigone",
+      "before": 3,
+      "after": 2,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Granary Key",
+      "owner": "Nemean Estate Compact",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Ninth Sluice",
+      "owner": "Lerna Reclamation Directorate",
+      "before": 3,
+      "after": 2,
+      "maximum": 3
+    },
+    {
+      "fleet": "Da Pressure Drop",
+      "owner": "Rustjaw Mob",
+      "before": 2,
+      "after": 1,
+      "maximum": 2
+    },
+    {
+      "fleet": "A Place at the Hearth",
+      "owner": "Ithacan Assembly",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Senior Warrant",
+      "owner": "Thessalian First Command",
+      "before": 3,
+      "after": 2,
+      "maximum": 3
+    },
+    {
+      "fleet": "The Unbroken Trace",
+      "owner": "Thessalian Remount Command",
+      "before": 2,
+      "after": 1,
+      "maximum": 2
+    },
+    {
+      "fleet": "The Erigone Ward",
+      "owner": "Order of Saint Erigone",
+      "before": 1,
+      "after": 0,
+      "maximum": 5
+    }
+  ],
+  "destruction_penalty": {
+    "order_manpower": 1,
+    "order_final": [
+      14,
+      54
+    ],
+    "minor_resource_penalty": 0
+  },
+  "fleet_actions": "All survivors unused",
+  "movement": "Ordinary movement blocked Cycle21",
+  "defended": "Schoenus expired; remains2/2"
+}

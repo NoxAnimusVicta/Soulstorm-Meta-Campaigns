@@ -1,0 +1,44 @@
+{
+  "campaign": "Atreus",
+  "cycle": 20,
+  "type": "Fleet Battle",
+  "system": "Aulis",
+  "method": "Four independent PowerShell Get-Random d6 draws in attacker then defender order; no reroll",
+  "attacker": {
+    "faction": "Order of Saint Erigone",
+    "dice": [
+      1,
+      4
+    ],
+    "strength": 19,
+    "total": 24,
+    "initiation": {
+      "fleet": "The Oath at the Gate",
+      "before": 5,
+      "after": 4
+    }
+  },
+  "defender": {
+    "faction": "Iron Paladins",
+    "dice": [
+      3,
+      4
+    ],
+    "strength": 15,
+    "total": 22,
+    "fleets": [
+      "Vigilatius",
+      "The Emperor’s Judgement",
+      "The Emperor’s Shield"
+    ]
+  },
+  "margin": 2,
+  "damage_per_losing_fleet": 1,
+  "defender_fleet_strength_before": 5,
+  "defender_fleet_strength_after": 4,
+  "destroyed": [],
+  "holding_changes": [],
+  "resource_cost": 0,
+  "modifiers": 0,
+  "result": "Order victory"
+}
