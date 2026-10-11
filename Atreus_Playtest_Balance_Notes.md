@@ -235,6 +235,36 @@ Consider a random event that reduces Authority according to the number of holdin
 
 **Decision:** Record for combined campaign-end review. No active costs, Authority system, resource balances or campaign actions changed; no simulations launched.
 
+### AT-BAL-012 — Shipyards determine starting Fleet Strength
+
+**Recorded:** 11 October 2026 (Australia/Sydney)  
+**Campaign Cycle:** 22, Order's assault on Schoenus awaiting player result  
+**Status:** Proposal recorded for end-of-campaign review
+
+**Jake's proposal:** When using Create Fleet, receive **1 Fleet Strength per Orbital Shipyard and 2 per Grand Orbital Shipyard**, encouraging construction of more shipyards.
+
+**Details to workshop:** Whether eligible shipyards are counted within the creation system or across the faction; whether built-in Capital yards count; and operational/ownership requirements. Determine how this calculated starting Strength interacts with maximum Fleet Strength, existing yard benefits and traits such as Swift Mobilization. Do not assume that it raises maximum Strength or creates multiple fleets. Treat a Grand Shipyard's contribution and any replacement of its ordinary-yard contribution explicitly; stacking rules remain undecided.
+
+**Interactions for review:** Compare investment and fleet replacement speed, concentrated versus dispersed shipyards, capture or destruction of yards, resource costs per fleet, fleet upkeep and proposed increased Manpower expenditure (AT-BAL-011). Review alongside additional holding actions and Economic/Military slots (AT-BAL-007 and AT-BAL-010).
+
+**Decision:** Record only. No current Create Fleet rule, yard effect, trait or campaign asset changed.
+
+### AT-BAL-013 — Inter-system routes and choke points
+
+**Recorded:** 11 October 2026 (Australia/Sydney)  
+**Campaign Cycle:** 22, Order's assault on Schoenus awaiting player result  
+**Status:** Proposal recorded for end-of-campaign review
+
+**Jake's proposal:** Consider a directional system for inter-system travel that creates choke points.
+
+**Intended effect:** Make system connections and the control of routes strategically relevant to fleet movement.
+
+**Details to workshop:** Define permitted connections and travel rules, whether routes are bidirectional or one-way, and how routes are generated and shown on the map. “Directional” does not yet establish one-way movement, a compass grid, distances or additional travel costs.
+
+**Interactions for review:** Starting-position fairness, access to objectives, reinforcement and retreat routes, defensible bottlenecks, alternate paths, Warp Storm and special movement abilities, and the risk of prolonged blockades or stalemates. Assess together with shipyard placement and fleet replacement (AT-BAL-012).
+
+**Decision:** Record only. The current rule allowing movement to any system in the Subsector remains active. No routes, adjacency restrictions or map changes introduced.
+
 ### Entry template
 
 **ID:** AT-BAL-NNN  
