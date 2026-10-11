@@ -235,6 +235,14 @@ Consider a random event that reduces Authority according to the number of holdin
 
 **Decision:** Record for combined campaign-end review. No active costs, Authority system, resource balances or campaign actions changed; no simulations launched.
 
+**Follow-up — 12 October 2026, Cycle 24, before Iron Paladins orders:** Jake observes that Supply currently seems fairly well balanced, but once a Manpower-focused Major construction is operational, Manpower appears to stop being a meaningful concern. He suggests more uses for Supply and Manpower, increased costs and/or operating costs, with particular attention to sustained Manpower demand after Military Academy income begins.
+
+**Additional review direction:** Assess recurring expenditure and worthwhile spending choices alongside construction income, rather than treating a blanket increase to both resources' costs as the selected solution. Compare Manpower pressure before and after a base or upgraded Military Academy becomes operational. No particular new purchase, operating charge or numerical increase has been selected.
+
+**Interactions for this follow-up:** Review with the proposed per-holding Construction/Defence actions (AT-BAL-007), Authority (AT-BAL-005), economy traits (AT-BAL-001), and attack-cost values (AT-BAL-015). Preserve the distinction between Supply feeling reasonably balanced and Manpower becoming plentiful.
+
+**Decision on follow-up:** Player observation and options recorded for end-of-campaign assessment. No active income, costs, upkeep or resource balances changed.
+
 ### AT-BAL-012 — Shipyards determine starting Fleet Strength
 
 **Recorded:** 11 October 2026 (Australia/Sydney)  
