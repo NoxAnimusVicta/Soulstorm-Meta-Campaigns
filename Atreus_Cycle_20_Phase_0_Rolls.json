@@ -1,0 +1,34 @@
+{
+  "campaign": "Atreus",
+  "cycle": 20,
+  "date": "2026-10-11",
+  "check": 2,
+  "event": null,
+  "event_name": "No event",
+  "method": "PowerShell Get-Random -Minimum 1 -Maximum 7; single d6 check, no reroll",
+  "logistics_applied": false,
+  "logistics_due": 21,
+  "minor_recovery": [
+    {
+      "fleet": "The Copper Hawk",
+      "before": 4,
+      "after": 5
+    }
+  ],
+  "construction_effects": "No eligible periodic damage, repair or Endurance; Refit Anchorage 3/5 and Yard-Gunz 2/3 inactive.",
+  "fleet_actions": "All reset",
+  "resources": {
+    "iron_paladins": [
+      18,
+      32
+    ],
+    "bell_ringa": [
+      8,
+      23
+    ],
+    "order": [
+      8,
+      43
+    ]
+  }
+}

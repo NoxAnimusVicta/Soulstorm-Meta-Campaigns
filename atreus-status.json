@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
-  "cycle": 19,
-  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
+  "cycle": 20,
+  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
   "event": "No event",
   "logistics_due": 21,
-  "next_faction": "Order of Saint Erigone",
+  "next_faction": "Iron Paladins",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -24,10 +24,10 @@
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions.",
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction."
   ],
-  "notes": "Bell-Ringa Cycle 19 complete: all five fleets expanded at Da Bellworks; Gate-Krasha, Fist, Backhand and Grudge 3/5 each, Boot 5/5. All actions spent; Calydon Void Superiority 17 to 0. Reinforce +3 Supply then Yard-Gunz advanced to progress and Integrity 2/3, inactive. Final Ork resources 8 Supply / 23 Manpower. Iron Paladins 18/32 and Order 11/44 unchanged. No event; next Logistics 21. Cycle 19 open; Order to act.",
+  "notes": "Order Cycle 19 complete: Return to Daeira expanded to 3/5 in Eleusis; four 5/5 fleets moved to Aulis, establishing Order Void Superiority 20 to Paladins 5. No assault. Refit Anchorage 3/5 inactive. Cycle 19 closed; Copper Hawk recovered 4/5 to 5/5. Cycle 20 Phase 0: no periodic effects, no Logistics due, event check 2 no event. All Fleet Actions reset; no Defended status. IP 18 Supply / 32 Manpower; Orks 8/23; Order 8/43. Iron Paladins to act; Logistics next Cycle 21.",
   "phase_zero_resolved": true,
-  "event_check": 4,
-  "phase_zero_rolls": "Atreus_Cycle_19_Phase_0_Rolls.json",
+  "event_check": 2,
+  "phase_zero_rolls": "Atreus_Cycle_20_Phase_0_Rolls.json",
   "cycle_complete": false,
   "event_roll": null,
   "rollover_policy": "After third Major turn: close Cycle, increment and reset actions; resolve constructions, scheduled Logistics, events; hand back to Iron Paladins."
