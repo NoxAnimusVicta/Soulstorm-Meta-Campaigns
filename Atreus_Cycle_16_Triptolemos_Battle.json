@@ -1,0 +1,88 @@
+{
+  "campaign": "Atreus",
+  "cycle": 16,
+  "target": "Triptolemos",
+  "attacker_raw": 0.7644938950589232,
+  "defender_raw": 0.5447518463554128,
+  "attacker_d20": 16,
+  "defender_d20": 11,
+  "attacker_post_commitment": [
+    8,
+    35
+  ],
+  "defender_post_commitment": [
+    6,
+    30
+  ],
+  "attacker_total": 40,
+  "defender_total": 32,
+  "victory": true,
+  "damage": 5,
+  "damage_calculation": "floor(16/5)+1+1 Breach Litany",
+  "captured": true,
+  "defence_after": "1/4",
+  "attacker_return": 1,
+  "planet_fall": [
+    {
+      "point": 1,
+      "eligible": [
+        "Da Gate-Krasha"
+      ],
+      "raw": null,
+      "selected": "Da Gate-Krasha",
+      "after": 5
+    },
+    {
+      "point": 2,
+      "eligible": [
+        "Da Gate-Krasha"
+      ],
+      "raw": null,
+      "selected": "Da Gate-Krasha",
+      "after": 4
+    },
+    {
+      "point": 3,
+      "eligible": [
+        "Da Gate-Krasha",
+        "Da Fist",
+        "Da Backhand"
+      ],
+      "raw": 0.07095892807861981,
+      "selected": "Da Gate-Krasha",
+      "after": 3
+    },
+    {
+      "point": 4,
+      "eligible": [
+        "Da Fist",
+        "Da Backhand"
+      ],
+      "raw": 0.2489258945523588,
+      "selected": "Da Fist",
+      "after": 3
+    },
+    {
+      "point": 5,
+      "eligible": [
+        "Da Backhand"
+      ],
+      "raw": null,
+      "selected": "Da Backhand",
+      "after": 3
+    }
+  ],
+  "ork_resource_loss": [
+    2,
+    4
+  ],
+  "ork_resources": [
+    6,
+    28
+  ],
+  "order_resources_after_reinforce": [
+    11,
+    36
+  ],
+  "jaw_breaka": "Destroyed at 0 Integrity; permanently granted maximum capacity retained."
+}

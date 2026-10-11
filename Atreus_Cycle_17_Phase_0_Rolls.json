@@ -1,0 +1,218 @@
+{
+  "campaign": "Atreus",
+  "cycle": 17,
+  "date": "2026-10-11",
+  "raw": 0.04402777739618413,
+  "check": 1,
+  "eventraw": 0.0445627548800388,
+  "event": 1,
+  "event_name": "Warp Storm",
+  "logistics_applied": false,
+  "logistics_due": 18,
+  "construction_effects": "No periodic effects or Endurance. Watch of Daeira active.",
+  "fleet_damage_and_minor_recovery": [
+    {
+      "fleet": "Vigilatius",
+      "owner": "Iron Paladins",
+      "original": 5,
+      "recovery": 0,
+      "before_storm": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Unbroken Procession",
+      "owner": "Order of Saint Erigone",
+      "original": 4,
+      "recovery": 0,
+      "before_storm": 4,
+      "after": 3,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Returning Escort",
+      "owner": "Order of Saint Erigone",
+      "original": 4,
+      "recovery": 0,
+      "before_storm": 4,
+      "after": 3,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Oath at the Gate",
+      "owner": "Order of Saint Erigone",
+      "original": 4,
+      "recovery": 0,
+      "before_storm": 4,
+      "after": 3,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Third Refusal",
+      "owner": "Order of Saint Erigone",
+      "original": 4,
+      "recovery": 0,
+      "before_storm": 4,
+      "after": 3,
+      "maximum": 5
+    },
+    {
+      "fleet": "Da Gate-Krasha",
+      "owner": "WAAAGH! Bell-Ringa",
+      "original": 6,
+      "recovery": 0,
+      "before_storm": 3,
+      "after": 2,
+      "maximum": 7
+    },
+    {
+      "fleet": "Da Fist",
+      "owner": "WAAAGH! Bell-Ringa",
+      "original": 4,
+      "recovery": 0,
+      "before_storm": 3,
+      "after": 2,
+      "maximum": 5
+    },
+    {
+      "fleet": "Da Backhand",
+      "owner": "WAAAGH! Bell-Ringa",
+      "original": 4,
+      "recovery": 0,
+      "before_storm": 3,
+      "after": 2,
+      "maximum": 5
+    },
+    {
+      "fleet": "Crusade Fleet Anabasis",
+      "owner": "Iron Paladins",
+      "original": 4,
+      "recovery": 0,
+      "before_storm": 4,
+      "after": 3,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Emperor’s Judgement",
+      "owner": "Iron Paladins",
+      "original": 4,
+      "recovery": 0,
+      "before_storm": 4,
+      "after": 3,
+      "maximum": 5
+    },
+    {
+      "fleet": "Pleisthenes’ Oath",
+      "owner": "House Atreides",
+      "original": 4,
+      "recovery": 1,
+      "before_storm": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Copper Hawk",
+      "owner": "House Atreides",
+      "original": 4,
+      "recovery": 0,
+      "before_storm": 4,
+      "after": 3,
+      "maximum": 5
+    },
+    {
+      "fleet": "Perseia’s Breakwater",
+      "owner": "House Atreides",
+      "original": 4,
+      "recovery": 0,
+      "before_storm": 4,
+      "after": 3,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Dendra Covenant",
+      "owner": "House Atreides",
+      "original": 2,
+      "recovery": 0,
+      "before_storm": 2,
+      "after": 1,
+      "maximum": 3
+    },
+    {
+      "fleet": "The Granary Key",
+      "owner": "Nemean Estate Compact",
+      "original": 4,
+      "recovery": 1,
+      "before_storm": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Ninth Sluice",
+      "owner": "Lerna Reclamation Directorate",
+      "original": 2,
+      "recovery": 1,
+      "before_storm": 3,
+      "after": 2,
+      "maximum": 3
+    },
+    {
+      "fleet": "Da Pressure Drop",
+      "owner": "Rustjaw Mob",
+      "original": 1,
+      "recovery": 1,
+      "before_storm": 2,
+      "after": 1,
+      "maximum": 2
+    },
+    {
+      "fleet": "A Place at the Hearth",
+      "owner": "Ithacan Assembly",
+      "original": 4,
+      "recovery": 1,
+      "before_storm": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Senior Warrant",
+      "owner": "Thessalian First Command",
+      "original": 2,
+      "recovery": 1,
+      "before_storm": 3,
+      "after": 2,
+      "maximum": 3
+    },
+    {
+      "fleet": "The Unbroken Trace",
+      "owner": "Thessalian Remount Command",
+      "original": 1,
+      "recovery": 1,
+      "before_storm": 2,
+      "after": 1,
+      "maximum": 2
+    }
+  ],
+  "breach_litany": {
+    "before": 1,
+    "after": 0,
+    "destroyed": true,
+    "bonus_active": false
+  },
+  "resources": {
+    "iron_paladins": [
+      13,
+      27
+    ],
+    "bell_ringa": [
+      6,
+      28
+    ],
+    "order": [
+      11,
+      36
+    ]
+  },
+  "fleet_actions": "All reset",
+  "movement": "Ordinary movement blocked; no eligible Storm Transit.",
+  "defended": "Hyria expires at Iron Paladins turn start; none remain."
+}
