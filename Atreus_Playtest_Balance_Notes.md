@@ -217,6 +217,24 @@ Consider a random event that reduces Authority according to the number of holdin
 
 **Decision:** Record for combined campaign-end assessment. Current construction slots, actions and campaign state remain unchanged.
 
+### AT-BAL-011 — Increase Manpower expenditure
+
+**Recorded:** 11 October 2026 (Australia/Sydney)  
+**Campaign Cycle:** 22, after Iron Paladins turn  
+**Status:** Observation and options recorded for end-of-campaign review
+
+**Jake's feedback:** Manpower does not seem to be expended very much. Consider increasing Manpower costs.
+
+**Suggested options:** Add a Manpower cost to construction, or connect Manpower expenditure with the proposed Authority mechanic (AT-BAL-005). These are ideas to assess; no amounts or mechanism have been selected.
+
+**Details to workshop:** For construction, determine whether a cost applies at initiation, each action or completion; which construction categories, upgrades and repairs it covers; and whether personnel are consumed or committed while a project operates. For Authority, determine the relationship between the two resources and how expenditure affects control or administration. These possibilities are review questions, not approved mechanics.
+
+**Interactions for review:** Compare actual Manpower income and spending across all factions and campaign phases, including battle commitments and refunds, fleet creation/expansion, upkeep, Defence and military academy income. Assess together with economy traits (AT-BAL-001), individual holding Construction/Defence actions (AT-BAL-007), and Economic/Military slots (AT-BAL-010). Account for Manpower's existing effect on battle formations and AI rolls, as well as spending; avoid charging twice for the same personnel through construction and Authority.
+
+**Campaign evidence:** [Atreus campaign ledger](Atreus_Campaign.md). The observation is player feedback to investigate, not a completed quantitative finding.
+
+**Decision:** Record for combined campaign-end review. No active costs, Authority system, resource balances or campaign actions changed; no simulations launched.
+
 ### Entry template
 
 **ID:** AT-BAL-NNN  
