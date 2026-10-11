@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 22 - Phase 0 complete; Iron Paladins to act**
+Created 7 October 2026 · Subsector playtest · **Cycle 22 - Iron Paladins complete; WAAAGH! Bell-Ringa to act**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|22|Phase 0 complete; awaiting Iron Paladins orders|No event (check: 4)|Iron Paladins|None|24|
+|22|Iron Paladins turn complete|No event (check: 4)|WAAAGH! Bell-Ringa|None|24|
 
 ## Major faction registers
 
@@ -50,9 +50,9 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Trait|The Iron Tithe — Efficient Logistics|
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
-|Resources|26 Supply / 50 Manpower; neither deficit active|
-|Fleet|Crusade Fleet Anabasis - Argos - 5/5; The Emperor’s Judgement - Aulis - 1/5; Vigilatius - Aulis - 1/5; The Emperor’s Shield - Aulis - 1/5; Battle Fleet Exodos - Argos - 1/5; all actions unused in Cycle 22|
-|Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; The Grand Gene-Seed Vaults of Heraion (upgraded Major Military Academy) on Heraion, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Manpower per Logistics Cycle, replacing base +7; Nemesis (Major Flagship), attached to Anabasis in Argos, progress and Integrity 1/5, unfinished and inactive|
+|Resources|28 Supply / 49 Manpower; neither deficit active|
+|Fleet|Crusade Fleet Anabasis - Argos - 5/5, holds with action unused; The Emperor’s Judgement - Argos - 1/5; Vigilatius - Argos - 1/5; The Emperor’s Shield - Argos - 1/5, all three movement actions spent; Battle Fleet Exodos - Argos - 3/5, expansion action spent in Cycle 22|
+|Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; The Grand Gene-Seed Vaults of Heraion (upgraded Major Military Academy) on Heraion, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Manpower per Logistics Cycle, replacing base +7; Nemesis (Major Flagship), attached to Anabasis in Argos, progress and Integrity 2/5, unfinished and inactive|
 |Next Logistics if unchanged|25 Supply / 25 Manpower gross including upgraded Forge, upgraded Grand Gene-Seed Vaults and Hyria; 5/5 fleet upkeep; net +20 / +20|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
 
@@ -145,7 +145,7 @@ All holdings start at full defence; none is Defended. All fleets are unengaged w
 
 ### Argos
 
-**Void Superiority:** Iron Paladins 6 vs hostile fleets 0 - Iron Paladins superior; no hostile fleet present.
+**Void Superiority:** Iron Paladins 11 vs hostile fleets 0 - Iron Paladins superior; no hostile fleet present.
 
 The Iron Paladins control Tiryns, Prosymna and newly captured Heraion, securing all holdings in Argos. The Argive Muster Council has lost its final holding and is eliminated.
 
@@ -164,7 +164,10 @@ Setup: fixed home/prize profile recorded above.
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
 |Crusade Fleet Anabasis|Iron Paladins|5/5|
-|Battle Fleet Exodos|Iron Paladins|1/5|
+|Battle Fleet Exodos|Iron Paladins|3/5|
+|Vigilatius|Iron Paladins|1/5|
+|The Emperor’s Judgement|Iron Paladins|1/5|
+|The Emperor’s Shield|Iron Paladins|1/5|
 
 
 
@@ -229,9 +232,9 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Aulis
 
-**Void Superiority:** Order of Saint Erigone 14 vs Iron Paladins 3 - Order of Saint Erigone superior; hostile fleet present.
+**Void Superiority:** Order of Saint Erigone 14 vs hostile fleets 0 - Order of Saint Erigone superior; no hostile fleet present.
 
-The Iron Paladins control Schoenus and Hyria, retaining all holdings in Aulis. Four Order fleets arrived in Cycle 19 and retain Void Superiority after The Emperor’s Judgement and The Emperor’s Shield reinforced Vigilatius in Cycle 20; the Order won successive Fleet Battles in Cycles 20 and 21. All three Paladin fleets survive at severely reduced strength. The Aulis Anchorage Command lost its final holding in Cycle 15 and is eliminated; The Unanswered Muster was destroyed during Hyria's fall.
+The Iron Paladins control Schoenus and Hyria, retaining all holdings in Aulis. Four Order fleets arrived in Cycle 19 and retain Void Superiority after The Emperor’s Judgement and The Emperor’s Shield reinforced Vigilatius in Cycle 20; the Order won successive Fleet Battles in Cycles 20 and 21. All three battered Paladin fleets withdrew to Argos in Cycle 22. The Order now has uncontested naval presence, while the Paladins retain both holdings. The Aulis Anchorage Command lost its final holding in Cycle 15 and is eliminated; The Unanswered Muster was destroyed during Hyria's fall.
 
 Setup: d20 **5**; ownership authored separately.
 
@@ -246,9 +249,6 @@ Setup: d20 **5**; ownership authored separately.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Vigilatius|Iron Paladins|1/5|
-|The Emperor’s Judgement|Iron Paladins|1/5|
-|The Emperor’s Shield|Iron Paladins|1/5|
 |The Third Refusal|Order of Saint Erigone|3/5|
 |The Returning Escort|Order of Saint Erigone|4/5|
 |The Unbroken Procession|Order of Saint Erigone|4/5|
@@ -564,7 +564,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and
 
 |WAAAGH! Bell-Ringa|Da Yard-Gunz|Minor System Defence Platform / Calydon|Progress 3/3; Integrity 3/3|Complete and active. Grants +5 to the defender’s Fleet Battle roll in Calydon.|
 
-|Iron Paladins|Nemesis|Major Flagship / Crusade Fleet Anabasis, Argos|Progress 1/5; Integrity 1/5|Unfinished and inactive. On completion grants +5 current and maximum Fleet Strength while the construction survives. Operational Tiryns shipyard and full 5/5 host satisfy Build requirements.|
+|Iron Paladins|Nemesis|Major Flagship / Crusade Fleet Anabasis, Argos|Progress 2/5; Integrity 2/5|Unfinished and inactive. On completion grants +5 current and maximum Fleet Strength while the construction survives. Operational Tiryns shipyard and full 5/5 host satisfy Build requirements.|
 
 |WAAAGH! Bell-Ringa|Da Scar-Yard|Major Military Academy / Pleuron, Calydon|Progress 1/5; Integrity 1/5|Unfinished and inactive. On completion +7 Manpower per Logistics Cycle at full Integrity. Pleuron's ordinary construction slot occupied; host restored to full 4/4 before Build.|
 
@@ -987,6 +987,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |22 / Phase 0 / Constructions|Periodic effects and Fleet Action reset.|None.|Refit Anchorage restores Second Erigone Ward1/5 to2/5 in Eleusis. No other eligible periodic repair, damage or Endurance. All actions reset, including Exodos and new Ward. Pleuron remains Defended until Bell-Ringa's Cycle22 turn begins.|Logistics check|
 |22 / Phase 0 / Logistics|Not a Logistics Cycle.|None.|IP26/50; Orks9/19; Order7/52 unchanged. Next Logistics24.|Events|
 |22 / Phase 0 / Events|Roll d6 once.|None.|Check4: no event; no event-table roll. Ordinary movement available. [Opening audit](Atreus_Cycle_22_Phase_0_Rolls.json).|Iron Paladins orders|
+
+|22 / Iron Paladins / Fleet|Move Vigilatius, Judgement and Shield from Aulis to Argos; Anabasis holds Argos; Expand Battle Fleet Exodos at Tiryns's operational built-in Orbital Shipyard.|Movement free; expansion1 Supply:26 to25,1 Manpower:50 to49.|Returning fleets remain1/5 each, movement actions spent; cannot expand this Cycle. Exodos1/5 to3/5, action spent. Anabasis remains5/5, action unused. All five fleets in Argos, Strength11 versus0; Aulis Order14 versus0, Paladin holdings unchanged.|None|
+|22 / Iron Paladins / Faction|Reinforce through The Iron Tithe.|+8 Supply:25 to33.|Manpower remains49.|None|
+|22 / Iron Paladins / Social|No action.|None.|No change.|None|
+|22 / Iron Paladins / Construction|Continue Nemesis, Major Flagship attached to Anabasis.|5 Supply:33 to28.|Progress and Integrity1/5 to2/5; unfinished and inactive. Full5/5 host and operational Tiryns shipyard satisfy access. No Strength bonus yet. Final resources28 Supply/49 Manpower; Cycle22 remains open.|WAAAGH! Bell-Ringa orders|
 
 ## Cycle Records
 
