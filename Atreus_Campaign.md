@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 23 - Iron Paladins complete; WAAAGH! Bell-Ringa to act**
+Created 7 October 2026 · Subsector playtest · **Cycle 23 - WAAAGH! Bell-Ringa complete; Order of Saint Erigone to act**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|23|Iron Paladins turn complete|Warp Storm (check 1; event 1)|WAAAGH! Bell-Ringa|None|24|
+|23|WAAAGH! Bell-Ringa turn complete|Warp Storm (check 1; event 1)|Order of Saint Erigone|None|24|
 
 ## Major faction registers
 
@@ -70,9 +70,9 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Trait|More Boyz Fer Da Fight — Martial Culture|
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
-|Resources|7 Supply / 19 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Delphi - 4/5; Da Fist - Delphi - 4/5; Da Backhand - Delphi - 4/5; Da Grudge - Delphi - 4/5; Da Boot - Delphi - 1/5; all actions unused in Cycle 23|
-|Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Da Jaw-Breaka destroyed during Triptolemos Planet Fall in Cycle 16; its +2 maximum capacity removed under the 11 October correction (maximum Strength now 5); Da Yard-Gunz (Minor System Defence Platform), Calydon, progress and Integrity 3/3; complete and active, +5 to defender Fleet Battle rolls in Calydon; Da Scar-Yard (Major Military Academy), Pleuron, progress and Integrity 2/5, unfinished and inactive; +7 Manpower per Logistics Cycle on completion|
+|Resources|4 Supply / 16 Manpower; neither deficit active|
+|Fleet|Da Gate-Krasha - Delphi - 4/5; Da Fist - Delphi - 4/5; Da Backhand - Delphi - 4/5; Da Grudge - Delphi - 4/5; Da Boot - Delphi - 1/5; all five assault actions spent in Cycle 23|
+|Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Da Jaw-Breaka destroyed during Triptolemos Planet Fall in Cycle 16; its +2 maximum capacity removed under the 11 October correction (maximum Strength now 5); Da Yard-Gunz (Minor System Defence Platform), Calydon, progress and Integrity 3/3; complete and active, +5 to defender Fleet Battle rolls in Calydon; Da Scar-Yard (Major Military Academy), Pleuron, progress and Integrity 3/5, unfinished and inactive; +7 Manpower per Logistics Cycle on completion|
 |Next Logistics if unchanged|21 Supply / 11 Manpower gross including upgraded Forge and trait; 5/5 fleet upkeep; net +16 / +6|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
 
@@ -90,7 +90,7 @@ The Order’s convents and shrine network preserve hospitals, military stores an
 |Trait|Offerings of the Faithful — War Economy|
 |Exact effect|+6 Supply each Logistics Cycle.|
 |Capital|Erigone — Eleusis — 12/12|
-|Resources|8 Supply / 50 Manpower; neither deficit active|
+|Resources|7 Supply / 49 Manpower; neither deficit active|
 |Fleet|The Third Refusal - Aulis - 2/5; The Returning Escort - Aulis - 3/5; The Unbroken Procession - Aulis - 3/5; The Oath at the Gate - Aulis - 2/5; The Return to Daeira - Eleusis - 4/5; The Second Erigone Ward - Eleusis - 4/5; all actions unused in Cycle 23; original Erigone Ward remains destroyed|
 |Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 5/5 and Integrity 5/5; complete and active, +7 Manpower per Logistics Cycle; Castalia Anchorage (Minor Orbital Shipyard), progress and Integrity 3/3, complete and operational; The Breach Litany destroyed by Cycle 17 Warp Storm; no Ground Assault damage bonus; The Watch of Daeira (Minor System Defence Platform), Eleusis, progress and Integrity 3/3, complete and active; +5 to defender Fleet Battle roll in Eleusis; The Eleusis Refit Anchorage (Major System Repair Station), Eleusis, progress and Integrity 5/5, complete and active; restores 1 Strength to each eligible allied fleet in Eleusis per Cycle|
 |Next Logistics if unchanged|19 Supply / 20 Manpower gross including Academy, trait and captured Schoenus; 6/6 fleet upkeep; net +13 / +14|
@@ -567,7 +567,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and
 
 |Iron Paladins|Nemesis|Major Flagship / Crusade Fleet Anabasis, Argos|Progress 3/5; Integrity 2/5|Unfinished and inactive. On completion grants +5 current and maximum Fleet Strength while the construction survives. Tiryns shipyard is operational; Anabasis restored to full 5/5 before continuing construction.|
 
-|WAAAGH! Bell-Ringa|Da Scar-Yard|Major Military Academy / Pleuron, Calydon|Progress 2/5; Integrity 2/5|Unfinished and inactive. On completion +7 Manpower per Logistics Cycle at full Integrity. Pleuron's ordinary construction slot occupied; host restored to full 4/4 before Build.|
+|WAAAGH! Bell-Ringa|Da Scar-Yard|Major Military Academy / Pleuron, Calydon|Progress 3/5; Integrity 3/5|Unfinished and inactive. On completion +7 Manpower per Logistics Cycle at full Integrity. Pleuron's ordinary construction slot occupied; host restored to full 4/4 before Build.|
 
 ## Setup provenance and decision ledger
 
@@ -1013,6 +1013,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |23 / Iron Paladins / Faction|Create Vigilatius Secundus at Tiryns.|1 Supply:24 to23; 1 Manpower:39 to38.|New fleet1/5 in Argos, unable to act this Cycle; original Vigilatius remains destroyed. Opening storm damage not reapplied. Three living fleets; projected Logistics upkeep3/3.|None|
 |23 / Iron Paladins / Social|No action.|None.|No change.|None|
 |23 / Iron Paladins / Construction|Continue Nemesis, Major Flagship attached to Anabasis.|5 Supply:23 to18.|Progress2/5 to3/5; Integrity1/5 to2/5. Prior storm reduced Integrity, not recorded Build progress; this is the third Build action. Full5/5 host and operational shipyard satisfy access. Unfinished and inactive, no Strength bonus. Final resources18 Supply/38 Manpower. Cycle23 remains open.|WAAAGH! Bell-Ringa orders|
+
+|23 / WAAAGH! Bell-Ringa / Ground Assault|All five Delphi fleets assault Castalia with17 Strength.|1 Supply:7 to6; commit3 Manpower:19 to16, no defeat refund. Order commits1 Supply:8 to7 and2 Manpower:50 to48; defender victory returns floor(60% of2)=1 Manpower to49 and floor(80% of1)=0 Supply.|AI defeat27 to30: Orks d20=6 +17 Strength +floor(6/5)=1 +floor(16/5)=3; Order d20=20 +0 defending fleet Strength +floor(7/5)=1 +floor(48/5)=9. No modifiers; defence affordable, not Isolated. No damage, capture, Planet Fall or fleet loss. Castalia stays Order2/2; Anchorage stays3/3. Five Fleet Actions spent. [Battle audit](Atreus_Cycle_23_Castalia_Battle.json).|Fallback Reinforce|
+|23 / WAAAGH! Bell-Ringa / Faction|Reinforce after failed assault.|+3 Supply:6 to9.|Conditional Defend Castalia not taken.|None|
+|23 / WAAAGH! Bell-Ringa / Social|No action.|None.|No change.|None|
+|23 / WAAAGH! Bell-Ringa / Construction|Continue Da Scar-Yard on Pleuron; fallback construction order.|5 Supply:9 to4.|Progress and Integrity2/5 to3/5, unfinished and inactive. Pleuron full4/4. Castalia Anchorage repair not taken. Final Orks4 Supply/16 Manpower; Order7/49 after defence. Warp Storm remains active, Cycle23 open.|Order of Saint Erigone orders|
 
 ## Cycle Records
 

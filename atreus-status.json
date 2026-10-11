@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 23,
-  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
+  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "Warp Storm",
   "logistics_due": 24,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -24,7 +24,7 @@
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions.",
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction."
   ],
-  "notes": "Iron Paladins Cycle23 complete: Anabasis expanded5/5 and Exodos4/5, actions spent. Vigilatius Secundus created1/5 Argos, cannot act this Cycle. Nemesis third Build action: progress3/5, Integrity2/5, inactive; earlier storm reduced Integrity only. IP18 Supply/38 Manpower; Orks7/19; Order8/50 unchanged. Argos Strength10, three living fleets, next Logistics projected net+21/+21. Warp Storm active; ordinary movement blocked. Bell-Ringa to act; Cycle23 open, next Logistics24.",
+  "notes": "Bell-Ringa Cycle23 assault on Castalia failed27 to30. All five Ork Fleet Actions spent; fleet Strength unchanged, Castalia Order2/2 and Anchorage3/3 unchanged. Orks paid1 Supply/3 Manpower; Order paid1 Supply/2 Manpower and recovered1 Manpower. Fallback Reinforce+3 and Scar-Yard Build5 Supply resolved; Scar-Yard3/5 Integrity3/5 inactive. Final IP18/38 unchanged; Orks4 Supply/16 Manpower; Order7/49. Warp Storm active; ordinary movement blocked. Order to act; Cycle23 open, next Logistics24.",
   "phase_zero_resolved": true,
   "event_check": 1,
   "phase_zero_rolls": "Atreus_Cycle_23_Phase_0_Rolls.json",

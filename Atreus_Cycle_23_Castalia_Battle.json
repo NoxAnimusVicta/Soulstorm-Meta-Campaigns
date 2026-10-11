@@ -1,0 +1,82 @@
+{
+  "campaign": "Atreus",
+  "cycle": 23,
+  "type": "AI Ground Assault",
+  "target": "Castalia",
+  "system": "Delphi",
+  "method": "Two PowerShell Get-Random d20 draws, attacker then defender; no reroll",
+  "attacker": {
+    "faction": "WAAAGH! Bell-Ringa",
+    "strength": 17,
+    "d20": 6,
+    "before": [
+      7,
+      19
+    ],
+    "commitment": [
+      1,
+      3
+    ],
+    "post_commitment": [
+      6,
+      16
+    ],
+    "modifiers": {
+      "supply": 1,
+      "manpower": 3
+    },
+    "total": 27,
+    "refund": [
+      0,
+      0
+    ]
+  },
+  "defender": {
+    "faction": "Order of Saint Erigone",
+    "strength": 0,
+    "d20": 20,
+    "before": [
+      8,
+      50
+    ],
+    "commitment": [
+      1,
+      2
+    ],
+    "post_commitment": [
+      7,
+      48
+    ],
+    "modifiers": {
+      "supply": 1,
+      "manpower": 9
+    },
+    "total": 30,
+    "refund": [
+      0,
+      1
+    ],
+    "after": [
+      7,
+      49
+    ],
+    "isolated": false
+  },
+  "potential_damage": 4,
+  "actual_damage": 0,
+  "winner": "Order of Saint Erigone",
+  "capture": false,
+  "castalia_defence": "2/2",
+  "anchorage_integrity": "3/3",
+  "fleet_damage": [],
+  "fallbacks": {
+    "reinforce": 3,
+    "scar_yard_cost": 5,
+    "scar_yard_progress": 3,
+    "scar_yard_integrity": 3,
+    "ork_final": [
+      4,
+      16
+    ]
+  }
+}
