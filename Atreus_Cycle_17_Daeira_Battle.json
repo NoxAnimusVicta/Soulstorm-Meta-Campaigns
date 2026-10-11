@@ -1,0 +1,77 @@
+{
+  "campaign": "Atreus",
+  "cycle": 17,
+  "date": "2026-10-11",
+  "target": "Daeira",
+  "attacker_raw": 0.7105222281929996,
+  "defender_raw": 0.659605719924823,
+  "attacker_d20": 15,
+  "defender_d20": 14,
+  "attacker_post_commitment": [
+    9,
+    33
+  ],
+  "defender_post_commitment": [
+    2,
+    25
+  ],
+  "attacker_total": 34,
+  "defender_total": 25,
+  "victory": true,
+  "damage": 3,
+  "defence_after": "1/2",
+  "captured": true,
+  "attacker_return": 1,
+  "planet_fall": [
+    {
+      "point": 1,
+      "eligible": [
+        "Da Gate-Krasha",
+        "Da Fist",
+        "Da Backhand"
+      ],
+      "raw": 0.12032807557247693,
+      "selected": "Da Gate-Krasha",
+      "after": 1
+    },
+    {
+      "point": 2,
+      "eligible": [
+        "Da Fist",
+        "Da Backhand"
+      ],
+      "raw": 0.6452360302759167,
+      "selected": "Da Backhand",
+      "after": 1
+    },
+    {
+      "point": 3,
+      "eligible": [
+        "Da Fist"
+      ],
+      "raw": null,
+      "selected": "Da Fist",
+      "after": 1
+    }
+  ],
+  "ork_actual_resource_loss": [
+    2,
+    3
+  ],
+  "ork_resources": [
+    1,
+    23
+  ],
+  "order_resources_after_all_orders": [
+    7,
+    34
+  ],
+  "new_construction": {
+    "name": "The Eleusis Refit Anchorage",
+    "profile": "Major System Repair Station",
+    "system": "Eleusis",
+    "progress": "1/5",
+    "integrity": "1/5",
+    "active": false
+  }
+}
