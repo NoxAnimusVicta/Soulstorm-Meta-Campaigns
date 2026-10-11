@@ -71,8 +71,8 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
 |Resources|18 Supply / 30 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Eleusis - 1/7; Da Fist - Eleusis - 1/5; Da Backhand - Eleusis - 1/5; Da Boot - Calydon - 1/5; all actions unused in Cycle 18|
-|Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Da Jaw-Breaka destroyed during Triptolemos Planet Fall in Cycle 16; granted +2 maximum capacity retained by Da Gate-Krasha (now 1/7)|
+|Fleet|Da Gate-Krasha - Eleusis - 1/5; Da Fist - Eleusis - 1/5; Da Backhand - Eleusis - 1/5; Da Boot - Calydon - 1/5; all actions unused in Cycle 18|
+|Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Da Jaw-Breaka destroyed during Triptolemos Planet Fall in Cycle 16; its +2 maximum capacity removed under the 11 October correction (Da Gate-Krasha now 1/5)|
 |Next Logistics if unchanged|21 Supply / 11 Manpower gross including upgraded Forge and trait; 4/4 fleet upkeep; net +17 / +7|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
 
@@ -194,7 +194,7 @@ Setup: fixed home/prize profile recorded above.
 |The Returning Escort|Order of Saint Erigone|3/5|
 |The Oath at the Gate|Order of Saint Erigone|3/5|
 |The Third Refusal|Order of Saint Erigone|3/5|
-|Da Gate-Krasha|WAAAGH! Bell-Ringa|1/7|
+|Da Gate-Krasha|WAAAGH! Bell-Ringa|1/5|
 |Da Fist|WAAAGH! Bell-Ringa|1/5|
 |Da Backhand|WAAAGH! Bell-Ringa|1/5|
 
@@ -550,7 +550,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and
 |Iron Paladins|The Grand Forge of Iron|Upgraded Major Forge Complex / Tiryns, Argos|Upgrade progress 5/5; Integrity 10/10|Upgrade complete and active at full Integrity. +14 Supply per Logistics Cycle; no immediate payout. Tiryns construction slot occupied.|
 |WAAAGH! Bell-Ringa|Da Iron Gob|Upgraded Major Forge Complex / Da Bellworks, Calydon|Upgrade progress 5/5; Integrity 10/10|Upgrade complete and active at full Integrity. +14 Supply per Logistics Cycle, replacing base +7; no immediate payout. Da Bellworks construction slot occupied.|
 |Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 5/5; Integrity 5/5|Complete and active at full Integrity. +7 Manpower per Logistics Cycle. Erigone construction slot occupied.|
-|WAAAGH! Bell-Ringa|Da Jaw-Breaka|Minor Fleet Construction / Da Gate-Krasha, Eleusis|Destroyed; Integrity 0/3|Destroyed by Cycle 16 Planet Fall. Previously granted +2 maximum capacity persists until fleet destruction; Gate-Krasha now 1/7. Cannot repair the destroyed project.|
+|WAAAGH! Bell-Ringa|Da Jaw-Breaka|Minor Fleet Construction / Da Gate-Krasha, Eleusis|Destroyed; Integrity 0/3|Destroyed by Cycle 16 Planet Fall. The 11 October correction removes its +2 maximum capacity; Gate-Krasha now 1/5. Cannot repair the destroyed project.|
 |Order of Saint Erigone|Castalia Anchorage|Minor Orbital Shipyard / Castalia, Delphi|Progress 3/3; Integrity 3/3|Complete and operational. Orbital Shipyard available in Delphi. Castalia ordinary construction slot occupied.|
 |Order of Saint Erigone|The Breach Litany|Minor Bombardment Bay / The Third Refusal, Eleusis|Destroyed; Integrity 0/3|Destroyed by Cycle 17 Warp Storm. No Ground Assault bonus; must be rebuilt, not repaired.|
 |Iron Paladins|The Grand Gene-Seed Vaults of Heraion|Upgraded Major Military Academy / Heraion, Argos|Upgrade progress 2/5; Integrity 7/10|Base complete and active: +7 Manpower per Logistics Cycle while Integrity remains at least 5. Upgrade unfinished; +14 Manpower per Logistics Cycle at full upgraded Integrity. No immediate payout. Heraion ordinary construction slot occupied.|
@@ -897,6 +897,8 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |18 / Phase 0 / Logistics|Income from holdings, active constructions and traits; then fleet upkeep.|IP gross +25/+18, upkeep 4/4; Orks gross +21/+11, upkeep 4/4; Order gross +18/+19, upkeep 4/4.|Supply/Manpower: IP 6/25 to 27/39; Orks 1/23 to 18/30; Order 7/34 to 21/49. No cap or deficit. Grand Forge +14 Supply, Vaults base +7 Manpower, Da Iron Gob +14 Supply, Academy +7 Manpower, Martial Culture +4 Manpower and War Economy +6 Supply included. Next Logistics Cycle 21.|Events|
 |18 / Phase 0 / Events|Roll d6 once.|None.|Check 5: no event; no event-table roll. Ordinary movement available. [Opening audit](Atreus_Cycle_18_Phase_0_Rolls.json).|Iron Paladins orders|
 
+|18 / Rules correction / 11 October|Apply construction-destruction amendment to Da Jaw-Breaka.|No resource cost or additional damage.|Destroyed constructions lose their bonuses. Gate-Krasha maximum corrected 7 to 5; current Strength remains 1, now 1/5. Historical battle records retain their original resolution; this row supersedes their capacity-persistence wording. No turn advanced.|Iron Paladins to act|
+
 ## Cycle Records
 
 ### Cycle 1 - Foundries and burial gates
@@ -1135,7 +1137,7 @@ Narrative names do not change the following mechanics. Each faction uses one pro
 
 | Trait | Current effect |
 |---|---|
-| Mobile Capital | Starts with a 12/12 Mobile Capital instead of an ordinary starting fleet. Grants 4 Supply and 4 Manpower each Logistics Cycle, a built-in shipyard and support for planetary constructions. No Mobile Capital upkeep. Its intrinsic hull contributes floor((6 × current hull + 5) / 10) combat Strength: 7 at 12 hull. Added permanent Fleet-construction Strength contributes in full and takes damage before intrinsic hull. Losing the Mobile Capital permanently removes the trait. |
+| Mobile Capital | Starts with a 12/12 Mobile Capital instead of an ordinary starting fleet. Grants 4 Supply and 4 Manpower each Logistics Cycle, a built-in shipyard and support for planetary constructions. No Mobile Capital upkeep. Its intrinsic hull contributes floor((6 × current hull + 5) / 10) combat Strength: 7 at 12 hull. Added Strength from surviving Fleet constructions contributes in full and takes damage before intrinsic hull. Losing the Mobile Capital permanently removes the trait. |
 | War Economy | +6 Supply each Logistics Cycle. |
 | Martial Culture | +4 Manpower each Logistics Cycle. |
 | Efficient Logistics | Reinforce grants 8 Supply; Muster grants 8 Manpower, instead of the normal 3. These are total action yields. |
@@ -1166,7 +1168,7 @@ Each Major then completes Phase 2 Fleet actions, one Phase 3 Faction action, one
 - Create Fleet uses the Faction Action at an available yard: 1 Supply and 1 Manpower, normally 1/5. Yard/trait starting strengths use the best applicable value, not an additive stack. The new fleet takes no Fleet Action that Cycle.
 - Reinforce gives 3 Supply; Muster gives 3 Manpower; Efficient Logistics gives 8. Rationing replaces the relevant action while its resource is locked.
 - Defend a holding or Mobile Capital costs its tier in each resource, restores that much defence, and grants Defended until the next turn. Fortification uses its listed exception. Full-defence hosts can receive Defended without extra restoration.
-- Fleet Transfer/Merge require co-location and Void Superiority; only the initiator spends an action. A Transfer donor retains at least 1; transfer amounts respect actual capacity. A Merge absorbs the other fleet completely without a fleet-destruction penalty. Its constructions transfer, including permanent capacity. Keep the absorbing fleet's base capacity and add the absorbed fleet's permanent construction capacity, not its ordinary base capacity. Excess combined current Strength above that surviving capacity is lost. Mobile Capitals cannot be transferred or merged.
+- Fleet Transfer/Merge require co-location and Void Superiority; only the initiator spends an action. A Transfer donor retains at least 1; transfer amounts respect actual capacity. A Merge absorbs the other fleet completely without a fleet-destruction penalty. Its surviving constructions transfer, including their granted capacity. Keep the absorbing fleet's base capacity and add the capacity granted by the absorbed fleet's surviving constructions, not its ordinary base capacity. Excess combined current Strength above that surviving capacity is lost. Mobile Capitals cannot be transferred or merged.
 - Garrison Transfer may distribute defence within a system. Donors normally start full and always retain 1; recipients cannot exceed maximum. An active Landing Zones recipient permits damaged donors. This uses the Faction Action.
 - Scuttle a fleet with Void Superiority, using its Fleet Action, to recover floor(current Strength / 2) Supply. Apply destruction penalties before the refund; it cannot fund an otherwise illegal voluntary action. A Mobile Capital also incurs its Capital penalties and permanently loses its trait. Scuttling cannot cause a resource deficit.
 
@@ -1184,7 +1186,7 @@ Planets and stations use the same tier rules. Void Superiority means the total f
 
 A Mobile Capital may spend its Fleet Action and 1 Supply / 1 Manpower to Expand itself by up to 2 defence. This does not grant Defended or repair attached Integrity. Its Faction-action Defend normally costs 4 of each resource and restores up to 4. Its actual defence, not its reduced combat contribution, determines whether its construction host is full.
 
-Establish New Capital is compulsory when applicable. An established Capital's built-in Orbital Shipyard costs no construction action, Supply or slot. Normal fleets have base capacity 5 unless a rule explicitly changes it. Repair and expansion use actual capacity, including permanent additions.
+Establish New Capital is compulsory when applicable. An established Capital's built-in Orbital Shipyard costs no construction action, Supply or slot. Normal fleets have base capacity 5 unless a rule explicitly changes it. Repair and expansion use actual capacity, including additions from surviving constructions.
 
 ### Summon Allies
 
@@ -1242,7 +1244,7 @@ For the attacking side use committed ground Strength; for the defending side use
 
 **Fleet Battle:** one initiation Strength point from one participating asset with more than 1 Strength. This expenditure does not damage attached constructions. Escort adds 3/6 to its side; defending system Defence Platforms add 5/10. Each side rolls 2d6 plus applicable strength/modifiers; a positive margin inflicts ceil(margin/3) damage on every participating losing fleet, without a damage cap. Ties inflict no combat damage; costs/actions remain spent. Destruction and attached construction damage apply normally. There is one Fleet Battle per initiating faction/system/turn; a guarded Structure Assault uses that allowance.
 
-**Structure Assault:** target one construction. If guarded, use Fleet Battle resolution, but an attacking win damages the construction only; attacker defeat damages participating attackers normally. An unguarded target costs 2 Supply plus Dread, no ordinary Manpower commitment, and suffers max(1, floor(combat Strength/5)) Integrity damage. There is no general Integrity floor. Completed permanent Assault Cruiser/Flagship capacity is the explicit exception: its granted portion remains until the fleet dies; unfinished upgrade progress can still be damaged. Movement/attack/withdrawal require separate actions unless an ability combines them.
+**Structure Assault:** target one construction. If guarded, use Fleet Battle resolution, but an attacking win damages the construction only; attacker defeat damages participating attackers normally. An unguarded target costs 2 Supply plus Dread, no ordinary Manpower commitment, and suffers max(1, floor(combat Strength/5)) Integrity damage. There is no general Integrity floor. At 0 Integrity the target construction and its bonuses are lost, including Assault Cruiser/Flagship capacity. Movement/attack/withdrawal require separate actions unless an ability combines them.
 
 **Planet Fall:** captured non-Capital holdings impose 2 Supply/2 Manpower; Capitals 4/4. Replace ordinary defensive Supply loss, and add the applicable defensive Manpower loss. Fleet damage equals the final assault's resolved damage, including overkill beyond the holding's remaining defence. Apply it to the defeated owner's eligible fleets in that system. Allocate it point by point to the currently strongest eligible fleet, logging seeded/random tie choices automatically. Do not stop for a separate player allocation message. Destroy fleets with no remaining planet, station or Mobile Capital fallback. Minor factions do not lose Major resource pools. Destruction of a Major faction's fleet, including a Mobile Capital, also costs 1 Manpower; apply existing deficit locks normally.
 
@@ -1262,6 +1264,8 @@ Each Minor's Supply and Manpower are separately 5 × sum(owned holding tiers), d
 
 ## Construction costs, Integrity and capacity
 
+**Construction destruction — amended 11 October 2026:** At 0 Integrity a construction is destroyed and all bonuses supplied by it end immediately. Destruction of a host fleet destroys every attached construction and its bonuses. Assault Cruiser and Flagship capacity is not permanent: remove the destroyed construction's granted maximum Strength, then cap surviving current Strength at the reduced maximum. Apply actual attack or event damage once; removing capacity is not a second damage hit. Destroyed projects must be rebuilt, not repaired. This supersedes the former capacity-persistence exception.
+
 One Construction action begins/advances one project or repairs a completed construction. **Construction baseline — approved 8 October 2026:** Every Minor construction requires 3 Build actions at 3 Supply per action (9 Supply total). Every Major construction requires 5 Build actions at 5 Supply per action (25 Supply total). Where an upgrade exists, it requires another 3 actions at 3 Supply for a Minor or 5 actions at 5 Supply for a Major. These are the undamaged baseline requirements; there are no construction-specific cost or action-count exceptions. Explicit faction-trait modifiers are defined in the trait description. Grand Orbital Shipyard is Minor. Full host defence/strength is required to Build, Upgrade or Repair; system-based constructions require an owned holding or living fleet providing presence in their system and have no host defence prerequisite. Fleet Build/Upgrade actions require an operational friendly Orbital Shipyard; System Build/Upgrade actions require Void Superiority instead, as specified below.
 
 **Construction access — amended 9 October 2026:** Every Build or Upgrade action on a System-category construction requires Void Superiority in that system when the action resolves; no Orbital Shipyard is required. Friendly combat Strength must strictly exceed total hostile combat Strength; a tie is insufficient. If superiority is lost, construction cannot advance until it is regained. Every Fleet-category Build or Upgrade action requires the host fleet to be in a system with an operational friendly Orbital Shipyard, including an established Capital's built-in yard. Fleet creation and ordinary fleet expansion also require an eligible shipyard, subject to explicit trait or ability exceptions. A fleet may move with unfinished projects aboard: work is suspended without an eligible yard and may resume at any eligible yard. Progress and Integrity are retained subject to normal damage; suspended projects remain vulnerable to enemy attacks and host-damage Integrity loss, and are destroyed at 0 Integrity. Existing full-host, completed base-effect and Repair rules remain unchanged.
@@ -1272,7 +1276,7 @@ Every point of actual host damage removes 1 Integrity from every attached projec
 
 **Persistent planetary exceptions:** once completed, Automated Defences, Regenerative Fortifications, Landing Zones, Militia Barracks, Void Shield Generator and Fortification Network retain their base effect at positive Integrity. Full upgraded Integrity is required for improved effects, except already granted Fortification Network capacity persists until destruction. Its completion adds 2 current and maximum defence, or 4 total after upgrade; repair never grants that capacity again. At destruction remove the granted maximum and cap current defence accordingly.
 
-Completed **Fleet-category** constructions retain base effects at any positive Integrity; upgraded effects require full upgraded Integrity. Their base remains during upgrading. This category exception does not turn a planetary Forge aboard a Mobile Capital into a Fleet construction, or protect an unfinished Void Station as one. Completed Assault Cruiser/Flagship capacity remains until the fleet is destroyed. Repair never grants unrelated lost Fleet Strength.
+Completed **Fleet-category** constructions retain base effects at any positive Integrity; upgraded effects require full upgraded Integrity. Their base remains during upgrading. This category exception does not turn a planetary Forge aboard a Mobile Capital into a Fleet construction, or protect an unfinished Void Station as one. Assault Cruiser/Flagship capacity lasts only while the granting construction survives. Repair never grants unrelated lost Fleet Strength.
 
 One ordinary construction slot per holding, with its established Capital's built-in yard free and outside the slot. Consolidation is a holding development, not a permanent occupied building slot. Apply the existing shipyard/Grand Yard prerequisite chain. No new fleet/system construction cap; normal unique-profile rules and transferred fleet constructions remain. Multiple projects may exist but only one Construction action is available.
 
@@ -1330,7 +1334,7 @@ The catalogue shows the baseline Supply cost per Build/Upgrade action. Minor pro
 
 | Construction | Supply per Build/Upgrade action | Base Effect | Upgraded Effect |
 |---|---:|---|---|
-| [Flagship] | 5 | +5 permanent strength/capacity | +10 total permanent strength/capacity; add to existing capacity |
+| [Flagship] | 5 | +5 current/maximum Strength while the construction survives | +10 total current/maximum Strength while the construction survives |
 | [Carrier] | 5 | +10 strength for ground assaults | +20 strength for ground assaults |
 | [Siege Platform] | 5 | +3 ground assault damage | +6 ground assault damage |
 | [Salvage Wing] | 5 | +3 Supply per equipped victorious fleet in a Fleet Battle or attacking Ground Assault | +6; not a bombardment or Structure Assault reward |
