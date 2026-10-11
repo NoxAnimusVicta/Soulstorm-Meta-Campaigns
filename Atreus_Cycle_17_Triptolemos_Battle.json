@@ -1,0 +1,44 @@
+{
+  "campaign": "Atreus",
+  "cycle": 17,
+  "date": "2026-10-11",
+  "target": "Triptolemos",
+  "attacker_raw": 0.3132127734206749,
+  "defender_raw": 0.6344975978768597,
+  "attacker_d20": 7,
+  "defender_d20": 13,
+  "attacker_post_commitment": [
+    4,
+    27
+  ],
+  "defender_post_commitment": [
+    9,
+    35
+  ],
+  "attacker_total": 18,
+  "defender_total": 33,
+  "attacker_victory": false,
+  "damage": 0,
+  "captured": false,
+  "defence_after": "1/4",
+  "attacker_return": 0,
+  "defender_recovery": {
+    "supply": 1,
+    "manpower": 0
+  },
+  "order_resources": [
+    10,
+    35
+  ],
+  "ork_resources_after_fleet_creation": [
+    3,
+    26
+  ],
+  "fleet_losses": [],
+  "created_fleet": {
+    "name": "Da Boot",
+    "system": "Calydon",
+    "strength": "1/5",
+    "action_available": false
+  }
+}

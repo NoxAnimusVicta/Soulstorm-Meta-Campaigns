@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 17 - Iron Paladins turn complete**
+Created 7 October 2026 · Subsector playtest · **Cycle 17 - WAAAGH! Bell-Ringa turn complete**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|17|Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders|Warp Storm (check: 1; event: 1)|WAAAGH! Bell-Ringa|None|18|
+|17|WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders|Warp Storm (check: 1; event: 1)|Order of Saint Erigone|None|18|
 
 ## Major faction registers
 
@@ -70,10 +70,10 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Trait|More Boyz Fer Da Fight — Martial Culture|
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
-|Resources|6 Supply / 28 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Eleusis - 2/7; Da Fist - Eleusis - 2/5; Da Backhand - Eleusis - 2/5; all actions unused in Cycle 17; ordinary movement blocked by Warp Storm|
+|Resources|3 Supply / 26 Manpower; neither deficit active|
+|Fleet|Da Gate-Krasha - Eleusis - 2/7; Da Fist - Eleusis - 2/5; Da Backhand - Eleusis - 2/5; all three actions spent; Da Boot - Calydon - 1/5, newly created and unable to act in Cycle 17; ordinary movement blocked by Warp Storm|
 |Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Da Jaw-Breaka destroyed during Triptolemos Planet Fall in Cycle 16; granted +2 maximum capacity retained by Da Gate-Krasha (now 2/7)|
-|Next Logistics if unchanged|22 Supply / 12 Manpower gross including upgraded Forge, trait and Daeira; 3/3 fleet upkeep; net +19 / +9|
+|Next Logistics if unchanged|22 Supply / 12 Manpower gross including upgraded Forge, trait and Daeira; 4/4 fleet upkeep; net +18 / +8|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
 
 ### 3. Order of Saint Erigone
@@ -90,7 +90,7 @@ The Order’s convents and shrine network preserve hospitals, military stores an
 |Trait|Offerings of the Faithful — War Economy|
 |Exact effect|+6 Supply each Logistics Cycle.|
 |Capital|Erigone — Eleusis — 12/12|
-|Resources|11 Supply / 36 Manpower; neither deficit active|
+|Resources|10 Supply / 35 Manpower; neither deficit active|
 |Fleet|The Third Refusal - Eleusis - 3/5; The Returning Escort - Eleusis - 3/5; The Unbroken Procession - Eleusis - 3/5; The Oath at the Gate - Eleusis - 3/5; all actions unused in Cycle 17; ordinary movement blocked by Warp Storm|
 |Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 5/5 and Integrity 5/5; complete and active, +7 Manpower per Logistics Cycle; Castalia Anchorage (Minor Orbital Shipyard), progress and Integrity 3/3, complete and operational; The Breach Litany destroyed by Cycle 17 Warp Storm; no Ground Assault damage bonus; The Watch of Daeira (Minor System Defence Platform), Eleusis, progress and Integrity 3/3, complete and active; +5 to defender Fleet Battle roll in Eleusis|
 |Next Logistics if unchanged|17 Supply / 18 Manpower gross including Academy, trait, Pytho and Triptolemos; 4/4 fleet upkeep; net +13 / +14|
@@ -205,7 +205,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Calydon
 
-**Void Superiority:** No fleets present; 0 vs 0, no faction has Void Superiority.
+**Void Superiority:** WAAAGH! Bell-Ringa 1 vs hostile fleets 0 - WAAAGH! Bell-Ringa superior; no hostile fleet present.
 
 The Orks hold all of Calydon: Da Bellworks, Olenos and newly captured Pleuron. The Calydonian Labour Defence has lost its final holding and is eliminated.
 
@@ -223,6 +223,7 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
+|Da Boot|WAAAGH! Bell-Ringa|1/5|
 
 
 
@@ -879,6 +880,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |17 / Iron Paladins / Faction|Create The Emperor’s Shield at Tiryns's operational built-in Orbital Shipyard.|1 Supply: 12 to 11; 1 Manpower: 26 to 25.|New fleet 1/5 in Argos; cannot take a Fleet Action this Cycle. Opening storm damage is not reapplied to a newly created fleet. Four living Paladin fleets now incur 4/4 upkeep at Logistics.|None|
 |17 / Iron Paladins / Social|No action.|None.|No change.|None|
 |17 / Iron Paladins / Construction|Continue The Grand Gene-Seed Vaults of Heraion upgrade.|5 Supply: 11 to 6.|Upgrade progress 1/5 to 2/5; Integrity 6/10 to 7/10. Host remains full 4/4. Base +7 Manpower per Logistics Cycle retained; no immediate payout. Final resources 6 Supply / 25 Manpower. Cycle 17 remains open.|WAAAGH! Bell-Ringa orders|
+
+|17 / WAAAGH! Bell-Ringa / Fleet|Gate-Krasha, Da Fist and Da Backhand jointly assault Triptolemos with 6 Strength.|2 Supply: 6 to 4; commit 1 Manpower: 28 to 27; no return on defeat. Order commits 2 Supply / 1 Manpower: 11/36 to 9/35; victory returns floor(80% of 2) = 1 Supply and floor(60% of 1) = 0 Manpower, ending 10/35.|AI defeat 18 to 33: attacker d20 7 +6 Strength +0 Supply +5 Manpower; defender d20 13 +12 Strength +1 Supply +7 Manpower. Triptolemos stays Order-controlled at 1/4; no damage, capture or Planet Fall. All fleets unchanged; three Ork actions spent. No inter-system movement. [Saved battle](Atreus_Cycle_17_Triptolemos_Battle.json).|None|
+|17 / WAAAGH! Bell-Ringa / Faction|Create Da Boot at Da Bellworks' operational built-in Orbital Shipyard.|1 Supply: 4 to 3; 1 Manpower: 27 to 26.|New fleet 1/5 in Calydon; cannot act this Cycle. Opening storm damage is not reapplied. Four living Ork fleets now incur 4/4 Logistics upkeep.|None|
+|17 / WAAAGH! Bell-Ringa / Social|No action.|None.|No change.|None|
+|17 / WAAAGH! Bell-Ringa / Construction|No action.|None.|Da Iron Gob remains complete at 10/10; +14 Supply at scheduled Logistics, no immediate payout. Final resources 3 Supply / 26 Manpower. Cycle 17 remains open.|Order of Saint Erigone orders|
 
 ## Cycle Records
 

@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 17,
-  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
+  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "Warp Storm",
   "logistics_due": 18,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -23,7 +23,7 @@
     "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70.",
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions."
   ],
-  "notes": "Iron Paladins Cycle 17 resolved: Vigilatius restored to 5/5 in Argos, action spent; Anabasis and Judgement hold Aulis at 3/5 each. Emperor’s Shield created at Tiryns, 1/5 in Argos, cannot act this Cycle. Grand Gene-Seed Vaults upgrade 2/5, Integrity 7/10, base +7 Manpower income retained. Final resources 6 Supply / 25 Manpower. Four-fleet Logistics upkeep 4/4; projected net income +21 Supply / +14 Manpower if unchanged. Warp Storm remains active; no repeated damage. Bell-Ringa next; Cycle 17 open; next Logistics Cycle 18.",
+  "notes": "Bell-Ringa Cycle 17 resolved: assault on Triptolemos defeated 18 to 33; holding remains Order-controlled 1/4, fleets unchanged. All three Eleusis Ork actions spent. Da Boot created 1/5 Calydon, cannot act this Cycle. Orks 3 Supply / 26 Manpower; Order 10 Supply / 35 Manpower after defensive commitment and recovery. Da Iron Gob remains 10/10 active +14 Supply. Warp Storm still active, no repeated damage. Order next; Cycle 17 remains open; next Logistics Cycle 18.",
   "phase_zero_resolved": true,
   "event_check": 1,
   "phase_zero_rolls": "Atreus_Cycle_17_Phase_0_Rolls.json",
