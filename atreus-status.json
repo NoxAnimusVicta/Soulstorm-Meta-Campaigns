@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 18,
-  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
+  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "No event",
   "logistics_due": 21,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -24,7 +24,7 @@
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions.",
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction."
   ],
-  "notes": "Iron Paladins Cycle 18 complete (submitted Cycle 1 label corrected): Vigilatius moved to Aulis 5/5, Anabasis and Emperor’s Judgement returned to Argos 3/5 each, Emperor’s Shield expanded to 3/5; all four Fleet Actions spent. Hyria restored to 8/8 and Defended until Iron Paladins Cycle 19 turn. Grand Gene-Seed Vaults upgrade 3/5, Integrity 8/10, base income retained. Final resources 18 Supply / 35 Manpower. Orks 18/30; Order 21/49 unchanged. No event; next Logistics 21. Cycle 18 remains open; Bell-Ringa to act.",
+  "notes": "Bell-Ringa Cycle 18 complete: Gate-Krasha, Fist and Backhand returned to Calydon at 1/5 each; Boot expanded to 3/5, all four actions spent. Da Grudge created 1/5, cannot act this Cycle. Calydon Void Superiority 7 to 0; no Ork fleets remain in Eleusis, Order Strength 12 uncontested. Da Yard-Gunz System Defence Platform started 1/3 inactive. Orks 13 Supply / 28 Manpower, five fleets, projected Logistics net +16/+6. Iron Paladins 18/35; Order 21/49 unchanged. Hyria Defended until Iron Paladins Cycle 19 turn. No event; next Logistics 21. Cycle 18 open; Order to act.",
   "phase_zero_resolved": true,
   "event_check": 5,
   "phase_zero_rolls": "Atreus_Cycle_18_Phase_0_Rolls.json",

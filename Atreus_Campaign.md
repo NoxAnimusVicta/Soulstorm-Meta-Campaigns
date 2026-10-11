@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 18 - Iron Paladins complete; WAAAGH! Bell-Ringa to act**
+Created 7 October 2026 · Subsector playtest · **Cycle 18 - WAAAGH! Bell-Ringa complete; Order of Saint Erigone to act**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|18|Iron Paladins turn complete|No event (check: 5)|WAAAGH! Bell-Ringa|None|21|
+|18|WAAAGH! Bell-Ringa turn complete|No event (check: 5)|Order of Saint Erigone|None|21|
 
 ## Major faction registers
 
@@ -70,10 +70,10 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Trait|More Boyz Fer Da Fight — Martial Culture|
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
-|Resources|18 Supply / 30 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Eleusis - 1/5; Da Fist - Eleusis - 1/5; Da Backhand - Eleusis - 1/5; Da Boot - Calydon - 1/5; all actions unused in Cycle 18|
-|Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Da Jaw-Breaka destroyed during Triptolemos Planet Fall in Cycle 16; its +2 maximum capacity removed under the 11 October correction (Da Gate-Krasha now 1/5)|
-|Next Logistics if unchanged|21 Supply / 11 Manpower gross including upgraded Forge and trait; 4/4 fleet upkeep; net +17 / +7|
+|Resources|13 Supply / 28 Manpower; neither deficit active|
+|Fleet|Da Gate-Krasha - Calydon - 1/5; Da Fist - Calydon - 1/5; Da Backhand - Calydon - 1/5; Da Boot - Calydon - 3/5; these four Fleet Actions spent in Cycle 18; Da Grudge - Calydon - 1/5, newly created and cannot act this Cycle|
+|Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Da Jaw-Breaka destroyed during Triptolemos Planet Fall in Cycle 16; its +2 maximum capacity removed under the 11 October correction (Da Gate-Krasha now 1/5); Da Yard-Gunz (Minor System Defence Platform), Calydon, progress and Integrity 1/3; unfinished and inactive, +5 defender Fleet Battle roll on completion|
+|Next Logistics if unchanged|21 Supply / 11 Manpower gross including upgraded Forge and trait; 5/5 fleet upkeep; net +16 / +6|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
 
 ### 3. Order of Saint Erigone
@@ -173,9 +173,9 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Eleusis
 
-**Void Superiority:** Order of Saint Erigone 12 vs WAAAGH! Bell-Ringa 3 - Order of Saint Erigone superior; hostile fleet present.
+**Void Superiority:** Order of Saint Erigone 12 vs hostile fleets 0 - Order of Saint Erigone superior; no hostile fleet present.
 
-The Order controls every holding in Eleusis after recapturing Daeira in Cycle 17. Bell-Ringa's three battered fleets remain in the system. The Order has Void Superiority in Eleusis. The Eleusinian Synod has lost its final holding and is eliminated as an independent campaign faction.
+The Order controls every holding in Eleusis after recapturing Daeira in Cycle 17. Bell-Ringa's three battered fleets withdrew to Calydon in Cycle 18. The Order has Void Superiority in Eleusis. The Eleusinian Synod has lost its final holding and is eliminated as an independent campaign faction.
 
 Setup: fixed home/prize profile recorded above.
 
@@ -195,9 +195,6 @@ Setup: fixed home/prize profile recorded above.
 |The Returning Escort|Order of Saint Erigone|3/5|
 |The Oath at the Gate|Order of Saint Erigone|3/5|
 |The Third Refusal|Order of Saint Erigone|3/5|
-|Da Gate-Krasha|WAAAGH! Bell-Ringa|1/5|
-|Da Fist|WAAAGH! Bell-Ringa|1/5|
-|Da Backhand|WAAAGH! Bell-Ringa|1/5|
 
 
 
@@ -206,7 +203,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Calydon
 
-**Void Superiority:** WAAAGH! Bell-Ringa 1 vs hostile fleets 0 - WAAAGH! Bell-Ringa superior; no hostile fleet present.
+**Void Superiority:** WAAAGH! Bell-Ringa 7 vs hostile fleets 0 - WAAAGH! Bell-Ringa superior; no hostile fleet present.
 
 The Orks hold all of Calydon: Da Bellworks, Olenos and newly captured Pleuron. The Calydonian Labour Defence has lost its final holding and is eliminated.
 
@@ -224,7 +221,11 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Da Boot|WAAAGH! Bell-Ringa|1/5|
+|Da Gate-Krasha|WAAAGH! Bell-Ringa|1/5|
+|Da Fist|WAAAGH! Bell-Ringa|1/5|
+|Da Backhand|WAAAGH! Bell-Ringa|1/5|
+|Da Boot|WAAAGH! Bell-Ringa|3/5|
+|Da Grudge|WAAAGH! Bell-Ringa|1/5|
 
 
 
@@ -557,6 +558,8 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and
 |Order of Saint Erigone|The Watch of Daeira|Minor System Defence Platform / Eleusis|Progress 3/3; Integrity 3/3|Complete and active. Grants +5 to the defender’s Fleet Battle roll in Eleusis.|
 
 |Order of Saint Erigone|The Eleusis Refit Anchorage|Major System Repair Station / Eleusis|Progress 1/5; Integrity 1/5|Unfinished and inactive. On completion, restores 1 Strength to each eligible allied fleet in the system per Cycle.|
+
+|WAAAGH! Bell-Ringa|Da Yard-Gunz|Minor System Defence Platform / Calydon|Progress 1/3; Integrity 1/3|Unfinished and inactive. On completion grants +5 to the defender’s Fleet Battle roll in Calydon.|
 
 ## Setup provenance and decision ledger
 
@@ -903,6 +906,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |18 / Iron Paladins / Faction|Defend Hyria.|3 Supply: 26 to 23; 3 Manpower: 38 to 35.|Defence 7/8 to 8/8, capped; Defended until start of Iron Paladins Cycle 19 turn.|None|
 |18 / Iron Paladins / Social|No action.|None.|No change.|None|
 |18 / Iron Paladins / Construction|Continue The Grand Gene-Seed Vaults of Heraion upgrade.|5 Supply: 23 to 18.|Upgrade progress 2/5 to 3/5; Integrity 7/10 to 8/10. Host Heraion full 4/4. Base +7 Manpower per Logistics Cycle retained; no immediate payout. Final resources 18 Supply / 35 Manpower. Submitted Cycle 1 label corrected to current Cycle 18 from orders and expiry. Cycle remains open.|WAAAGH! Bell-Ringa orders|
+
+|18 / WAAAGH! Bell-Ringa / Fleet|Move Da Gate-Krasha, Da Fist and Da Backhand from Eleusis to Calydon; Expand Da Boot at Da Bellworks' operational built-in Orbital Shipyard.|Movement free; expansion 1 Supply: 18 to 17, 1 Manpower: 30 to 29.|Returning fleets remain 1/5 each; Da Boot 1/5 to 3/5. All four Fleet Actions spent. No assault. Ork Strength in Calydon 6; Order alone in Eleusis with 12.|None|
+|18 / WAAAGH! Bell-Ringa / Faction|Create Da Grudge at Da Bellworks' operational built-in Orbital Shipyard.|1 Supply: 17 to 16; 1 Manpower: 29 to 28.|New fleet 1/5 in Calydon; cannot act this Cycle. Five living Ork fleets; scheduled upkeep now 5 Supply / 5 Manpower. Calydon Strength 7 against hostile 0.|None|
+|18 / WAAAGH! Bell-Ringa / Social|No action.|None.|No change.|None|
+|18 / WAAAGH! Bell-Ringa / Construction|Begin Da Yard-Gunz, Minor System Defence Platform in Calydon.|3 Supply: 16 to 13.|Progress and Integrity 1/3; unfinished and inactive. Presence and Void Superiority 7 to 0 satisfy access. On completion +5 defender Fleet Battle roll. No immediate bonus. Final resources 13 Supply / 28 Manpower; Cycle remains open.|Order of Saint Erigone orders|
 
 ## Cycle Records
 
