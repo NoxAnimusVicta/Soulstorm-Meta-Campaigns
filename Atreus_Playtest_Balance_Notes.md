@@ -146,7 +146,7 @@ Consider a random event that reduces Authority according to the number of holdin
 
 **Decision:** Record as a prospective system only. No traits rolled or assigned to current holdings, no existing campaign state changed, and no simulations launched.
 
-### AT-BAL-007 — Separate Construction action for each holding
+### AT-BAL-007 — Individual Construction and Defence actions for holdings
 
 **Recorded:** 9 October 2026 (Australia/Sydney)  
 **Campaign Cycle:** 12, Schoenus player battle awaiting result  
@@ -161,6 +161,14 @@ Consider a random event that reduces Authority according to the number of holdin
 **Interactions for review:** Combined Supply expenditure and deficit restrictions, existing construction slots and prerequisites, growth advantages for large empires, construction income and payoff times, defensive coverage, the proposed Authority system, and Efficient Logistics' ability to fund a Major stage through a single Reinforce action (AT-BAL-001).
 
 **Decision:** No active action-economy or trait change. Record for joint end-of-campaign review.
+
+**Follow-up — 11 October 2026, Cycle 22, after Iron Paladins turn:** Jake is considering giving each planet and station its own actions for **Construction and Defence**, analogous to fleets receiving individual actions. This extends the earlier Construction proposal to Defence as well.
+
+**Additional details to workshop:** Whether each holding receives one Construction action and one Defence action, or one shared action usable for either; whether Defence keeps its current Supply/Manpower costs and Defended duration; and whether holding Defence replaces its current use of the Major Faction Action. These details remain undecided.
+
+**Additional interactions for campaign-end review:** Assess simultaneous defensive recovery across multiple fronts, repeated renewal of Defended, construction after same-turn restoration to full defence, resource demand and the growth advantage of owning more holdings. Review together with the proposed Economic/Military construction slots (AT-BAL-010) and Authority (AT-BAL-005).
+
+**Decision on follow-up:** Proposal recorded only. Current action allowances, Defence costs and campaign state remain unchanged.
 
 ### AT-BAL-008 — Limit System Defence and Repair Stations to one target per Cycle
 
