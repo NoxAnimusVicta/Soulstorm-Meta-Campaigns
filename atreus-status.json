@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 19,
-  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
+  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "No event",
   "logistics_due": 21,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -24,7 +24,7 @@
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions.",
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction."
   ],
-  "notes": "Iron Paladins Cycle 19 complete: Anabasis, Emperor’s Judgement and Emperor’s Shield expanded from 3/5 to 5/5 at Tiryns, actions spent; Vigilatius holds Aulis 5/5 with action unused. Reinforce +8 Supply, then Vaults upgrade to 4/5 and Integrity 9/10; base +7 Manpower income retained. Final resources 18 Supply / 32 Manpower. Orks 13/28 and Order 11/44 unchanged. No event; next Logistics 21. Cycle remains open; Bell-Ringa to act.",
+  "notes": "Bell-Ringa Cycle 19 complete: all five fleets expanded at Da Bellworks; Gate-Krasha, Fist, Backhand and Grudge 3/5 each, Boot 5/5. All actions spent; Calydon Void Superiority 17 to 0. Reinforce +3 Supply then Yard-Gunz advanced to progress and Integrity 2/3, inactive. Final Ork resources 8 Supply / 23 Manpower. Iron Paladins 18/32 and Order 11/44 unchanged. No event; next Logistics 21. Cycle 19 open; Order to act.",
   "phase_zero_resolved": true,
   "event_check": 4,
   "phase_zero_rolls": "Atreus_Cycle_19_Phase_0_Rolls.json",

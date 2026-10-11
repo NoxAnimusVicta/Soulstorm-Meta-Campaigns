@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 19 - Iron Paladins complete; WAAAGH! Bell-Ringa to act**
+Created 7 October 2026 · Subsector playtest · **Cycle 19 - WAAAGH! Bell-Ringa complete; Order of Saint Erigone to act**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|19|Iron Paladins turn complete|No event (check: 4)|WAAAGH! Bell-Ringa|None|21|
+|19|WAAAGH! Bell-Ringa turn complete|No event (check: 4)|Order of Saint Erigone|None|21|
 
 ## Major faction registers
 
@@ -70,9 +70,9 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Trait|More Boyz Fer Da Fight — Martial Culture|
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
-|Resources|13 Supply / 28 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Calydon - 1/5; Da Fist - Calydon - 1/5; Da Backhand - Calydon - 1/5; Da Boot - Calydon - 3/5; Da Grudge - Calydon - 1/5; all five actions unused in Cycle 19|
-|Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Da Jaw-Breaka destroyed during Triptolemos Planet Fall in Cycle 16; its +2 maximum capacity removed under the 11 October correction (Da Gate-Krasha now 1/5); Da Yard-Gunz (Minor System Defence Platform), Calydon, progress and Integrity 1/3; unfinished and inactive, +5 defender Fleet Battle roll on completion|
+|Resources|8 Supply / 23 Manpower; neither deficit active|
+|Fleet|Da Gate-Krasha - Calydon - 3/5; Da Fist - Calydon - 3/5; Da Backhand - Calydon - 3/5; Da Boot - Calydon - 5/5; Da Grudge - Calydon - 3/5; all five Fleet Actions spent in Cycle 19|
+|Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Da Jaw-Breaka destroyed during Triptolemos Planet Fall in Cycle 16; its +2 maximum capacity removed under the 11 October correction (maximum Strength now 5); Da Yard-Gunz (Minor System Defence Platform), Calydon, progress and Integrity 2/3; unfinished and inactive, +5 defender Fleet Battle roll on completion|
 |Next Logistics if unchanged|21 Supply / 11 Manpower gross including upgraded Forge and trait; 5/5 fleet upkeep; net +16 / +6|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
 
@@ -204,7 +204,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Calydon
 
-**Void Superiority:** WAAAGH! Bell-Ringa 7 vs hostile fleets 0 - WAAAGH! Bell-Ringa superior; no hostile fleet present.
+**Void Superiority:** WAAAGH! Bell-Ringa 17 vs hostile fleets 0 - WAAAGH! Bell-Ringa superior; no hostile fleet present.
 
 The Orks hold all of Calydon: Da Bellworks, Olenos and newly captured Pleuron. The Calydonian Labour Defence has lost its final holding and is eliminated.
 
@@ -222,11 +222,11 @@ Setup: fixed home/prize profile recorded above.
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Da Gate-Krasha|WAAAGH! Bell-Ringa|1/5|
-|Da Fist|WAAAGH! Bell-Ringa|1/5|
-|Da Backhand|WAAAGH! Bell-Ringa|1/5|
-|Da Boot|WAAAGH! Bell-Ringa|3/5|
-|Da Grudge|WAAAGH! Bell-Ringa|1/5|
+|Da Gate-Krasha|WAAAGH! Bell-Ringa|3/5|
+|Da Fist|WAAAGH! Bell-Ringa|3/5|
+|Da Backhand|WAAAGH! Bell-Ringa|3/5|
+|Da Boot|WAAAGH! Bell-Ringa|5/5|
+|Da Grudge|WAAAGH! Bell-Ringa|3/5|
 
 
 
@@ -552,7 +552,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and
 |Iron Paladins|The Grand Forge of Iron|Upgraded Major Forge Complex / Tiryns, Argos|Upgrade progress 5/5; Integrity 10/10|Upgrade complete and active at full Integrity. +14 Supply per Logistics Cycle; no immediate payout. Tiryns construction slot occupied.|
 |WAAAGH! Bell-Ringa|Da Iron Gob|Upgraded Major Forge Complex / Da Bellworks, Calydon|Upgrade progress 5/5; Integrity 10/10|Upgrade complete and active at full Integrity. +14 Supply per Logistics Cycle, replacing base +7; no immediate payout. Da Bellworks construction slot occupied.|
 |Order of Saint Erigone|The Vigil of the Three Refusals|Major Military Academy / Erigone, Eleusis|Progress 5/5; Integrity 5/5|Complete and active at full Integrity. +7 Manpower per Logistics Cycle. Erigone construction slot occupied.|
-|WAAAGH! Bell-Ringa|Da Jaw-Breaka|Minor Fleet Construction / Da Gate-Krasha, Eleusis|Destroyed; Integrity 0/3|Destroyed by Cycle 16 Planet Fall. The 11 October correction removes its +2 maximum capacity; Gate-Krasha now 1/5. Cannot repair the destroyed project.|
+|WAAAGH! Bell-Ringa|Da Jaw-Breaka|Minor Fleet Construction / Da Gate-Krasha, Eleusis|Destroyed; Integrity 0/3|Destroyed by Cycle 16 Planet Fall. The 11 October correction removes its +2 maximum capacity; Gate-Krasha maximum is now 5. Cannot repair the destroyed project.|
 |Order of Saint Erigone|Castalia Anchorage|Minor Orbital Shipyard / Castalia, Delphi|Progress 3/3; Integrity 3/3|Complete and operational. Orbital Shipyard available in Delphi. Castalia ordinary construction slot occupied.|
 |Order of Saint Erigone|The Breach Litany|Minor Bombardment Bay / The Third Refusal, Eleusis|Destroyed; Integrity 0/3|Destroyed by Cycle 17 Warp Storm. No Ground Assault bonus; must be rebuilt, not repaired.|
 |Iron Paladins|The Grand Gene-Seed Vaults of Heraion|Upgraded Major Military Academy / Heraion, Argos|Upgrade progress 4/5; Integrity 9/10|Base complete and active: +7 Manpower per Logistics Cycle while Integrity remains at least 5. Upgrade unfinished; +14 Manpower per Logistics Cycle at full upgraded Integrity. No immediate payout. Heraion ordinary construction slot occupied.|
@@ -560,7 +560,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and
 
 |Order of Saint Erigone|The Eleusis Refit Anchorage|Major System Repair Station / Eleusis|Progress 2/5; Integrity 2/5|Unfinished and inactive. On completion, restores 1 Strength to each eligible allied fleet in the system per Cycle.|
 
-|WAAAGH! Bell-Ringa|Da Yard-Gunz|Minor System Defence Platform / Calydon|Progress 1/3; Integrity 1/3|Unfinished and inactive. On completion grants +5 to the defender’s Fleet Battle roll in Calydon.|
+|WAAAGH! Bell-Ringa|Da Yard-Gunz|Minor System Defence Platform / Calydon|Progress 2/3; Integrity 2/3|Unfinished and inactive. On completion grants +5 to the defender’s Fleet Battle roll in Calydon.|
 
 ## Setup provenance and decision ledger
 
@@ -926,6 +926,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |19 / Iron Paladins / Faction|Reinforce through The Iron Tithe.|+8 Supply: 15 to 23.|Manpower remains 32.|None|
 |19 / Iron Paladins / Social|No action.|None.|No change.|None|
 |19 / Iron Paladins / Construction|Continue The Grand Gene-Seed Vaults of Heraion upgrade.|5 Supply: 23 to 18.|Upgrade progress 3/5 to 4/5; Integrity 8/10 to 9/10. Heraion remains full 4/4. Base +7 Manpower per Logistics Cycle retained; upgrade unfinished, no immediate payout. Final resources 18 Supply / 32 Manpower. Cycle remains open.|WAAAGH! Bell-Ringa orders|
+
+|19 / WAAAGH! Bell-Ringa / Fleet|Expand all five fleets at Da Bellworks' operational built-in Orbital Shipyard.|5 Supply: 13 to 8; 5 Manpower: 28 to 23.|Gate-Krasha, Fist, Backhand and Grudge each 1/5 to 3/5; Boot 3/5 to 5/5. All five Fleet Actions spent; no movement or assault. Calydon Void Superiority 17 to 0.|None|
+|19 / WAAAGH! Bell-Ringa / Faction|Reinforce.|+3 Supply: 8 to 11.|Manpower remains 23.|None|
+|19 / WAAAGH! Bell-Ringa / Social|No action.|None.|No change.|None|
+|19 / WAAAGH! Bell-Ringa / Construction|Continue Da Yard-Gunz, Minor System Defence Platform in Calydon.|3 Supply: 11 to 8.|Progress and Integrity 1/3 to 2/3; unfinished and inactive. Void Superiority 17 to 0 satisfies access. No current Fleet Battle bonus. Final resources 8 Supply / 23 Manpower. Cycle remains open.|Order of Saint Erigone orders|
 
 ## Cycle Records
 
