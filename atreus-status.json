@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 21,
-  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
+  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "Warp Storm",
   "logistics_due": 24,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -24,7 +24,7 @@
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions.",
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction."
   ],
-  "notes": "Iron Paladins Cycle 21 complete: Anabasis expanded 4/5 to 5/5 at Tiryns, action spent; three Aulis fleets hold 3/5 with unused actions. Battle Fleet Exodos created 1/5 in Argos, cannot act this Cycle; opening storm damage not reapplied. Nemesis Major Flagship begun on full-strength Anabasis, progress and Integrity 1/5 inactive. IP26 Supply/50 Manpower; Orks20/25; Order14/54 unchanged. IP next Logistics net +20/+20 if unchanged, five-fleet upkeep. Warp Storm remains active, ordinary movement blocked. Bell-Ringa to act; Cycle21 open, next Logistics24.",
+  "notes": "Bell-Ringa Cycle21 complete: Da Boot lost Delphi Fleet Battle10 to11, paid1 initiation Strength and suffered1 combat damage, ending2/5. Return to Daeira remains2/5 with action unused; no destruction, Delphi contested2 to2. Four Calydon fleets expanded to5/5; all five Ork actions spent. Pleuron restored4/4 and Defended until Bell-Ringa Cycle22 turn. Da Scar-Yard Major Military Academy begun1/5 inactive. Orks9 Supply/19 Manpower; IP26/50; Order14/54 unchanged. Warp Storm active; ordinary movement blocked. Order to act; Cycle21 remains open, next Logistics24.",
   "phase_zero_resolved": true,
   "event_check": 1,
   "phase_zero_rolls": "Atreus_Cycle_21_Phase_0_Rolls.json",

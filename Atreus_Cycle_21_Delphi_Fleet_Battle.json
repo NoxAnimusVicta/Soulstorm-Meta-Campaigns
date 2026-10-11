@@ -1,0 +1,40 @@
+{
+  "campaign": "Atreus",
+  "cycle": 21,
+  "type": "Fleet Battle",
+  "system": "Delphi",
+  "method": "Four independent PowerShell Get-Random d6 draws, attacker then defender; no reroll",
+  "attacker": {
+    "faction": "WAAAGH! Bell-Ringa",
+    "fleet": "Da Boot",
+    "dice": [
+      3,
+      4
+    ],
+    "strength": 3,
+    "total": 10,
+    "initiation_before": 4,
+    "initiation_after": 3,
+    "final_strength": 2
+  },
+  "defender": {
+    "faction": "Order of Saint Erigone",
+    "fleet": "The Return to Daeira",
+    "dice": [
+      6,
+      3
+    ],
+    "strength": 2,
+    "total": 11,
+    "final_strength": 2,
+    "action_spent": false
+  },
+  "winner": "Order of Saint Erigone",
+  "margin": 1,
+  "damage_per_losing_fleet": 1,
+  "modifiers": 0,
+  "destroyed": [],
+  "resource_penalties": [],
+  "void_superiority": "Contested 2 to2",
+  "event": "Warp Storm; no movement or second application of opening damage"
+}
