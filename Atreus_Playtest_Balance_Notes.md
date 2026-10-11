@@ -195,6 +195,20 @@ Consider a random event that reduces Authority according to the number of holdin
 
 **Decision:** Record for combined campaign-end review. No active upgrade costs, durations, holding tiers or campaign state changed.
 
+### AT-BAL-010 — Separate Economic and Military construction slots
+
+**Recorded:** 11 October 2026 (Australia/Sydney)  
+**Campaign Cycle:** 18, after Iron Paladins turn  
+**Status:** Proposal recorded for end-of-campaign review
+
+**Jake's proposal:** Distinguish Economic constructions from Military constructions, and consider limiting each planet or station to **one Economic construction and one Military construction**.
+
+**Details to workshop:** Assign existing holding constructions to categories, including those with mixed benefits; determine how built-in Capital shipyards and upgrades use these slots. Category assignments and exceptions are not yet decided.
+
+**Interactions for review:** Assess alongside separate Construction actions per holding (AT-BAL-007), holding upgrade value (AT-BAL-009), and economy traits (AT-BAL-001). Compare investment and defensive choices, income growth and the value of capturing developed holdings. This proposal concerns planet and station slots; no Fleet or System construction limit was specified.
+
+**Decision:** Record for combined campaign-end assessment. Current construction slots, actions and campaign state remain unchanged.
+
 ### Entry template
 
 **ID:** AT-BAL-NNN  
