@@ -1,0 +1,73 @@
+{
+  "campaign": "Atreus",
+  "cycle": 22,
+  "date": "2026-10-11",
+  "check": 4,
+  "event": null,
+  "event_name": "No event",
+  "method": "PowerShell Get-Random -Minimum 1 -Maximum 7; no reroll",
+  "minor_recovery": [
+    {
+      "fleet": "Pleisthenes’ Oath",
+      "before": 4,
+      "after": 5
+    },
+    {
+      "fleet": "The Granary Key",
+      "before": 4,
+      "after": 5
+    },
+    {
+      "fleet": "The Ninth Sluice",
+      "before": 2,
+      "after": 3
+    },
+    {
+      "fleet": "Da Pressure Drop",
+      "before": 1,
+      "after": 2
+    },
+    {
+      "fleet": "A Place at the Hearth",
+      "before": 4,
+      "after": 5
+    },
+    {
+      "fleet": "The Senior Warrant",
+      "before": 2,
+      "after": 3
+    },
+    {
+      "fleet": "The Unbroken Trace",
+      "before": 1,
+      "after": 2
+    }
+  ],
+  "construction_repairs": [
+    {
+      "construction": "The Eleusis Refit Anchorage",
+      "fleet": "The Second Erigone Ward",
+      "before": 1,
+      "after": 2
+    }
+  ],
+  "logistics_applied": false,
+  "logistics_due": 24,
+  "resources": {
+    "iron_paladins": [
+      26,
+      50
+    ],
+    "bell_ringa": [
+      9,
+      19
+    ],
+    "order": [
+      7,
+      52
+    ]
+  },
+  "fleet_actions": "All reset",
+  "previous_event": "Warp Storm expired",
+  "defended": "Pleuron until Bell-Ringa Cycle22 turn"
+}

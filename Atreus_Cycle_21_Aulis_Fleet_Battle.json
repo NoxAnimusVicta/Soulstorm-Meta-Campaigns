@@ -1,0 +1,39 @@
+{
+  "campaign": "Atreus",
+  "cycle": 21,
+  "type": "Fleet Battle",
+  "system": "Aulis",
+  "method": "Four independent PowerShell Get-Random d6, attacker then defender, no rerolls",
+  "attacker": {
+    "dice": [
+      6,
+      3
+    ],
+    "strength": 14,
+    "total": 23,
+    "initiation_fleet": "The Third Refusal",
+    "before": 4,
+    "after": 3
+  },
+  "defender": {
+    "dice": [
+      3,
+      5
+    ],
+    "strength": 9,
+    "total": 17,
+    "fleets": [
+      "Vigilatius",
+      "The Emperor’s Judgement",
+      "The Emperor’s Shield"
+    ],
+    "each_before": 3,
+    "each_after": 1
+  },
+  "margin": 6,
+  "damage_per_losing_fleet": 2,
+  "destroyed": [],
+  "resource_cost": 0,
+  "modifiers": 0,
+  "winner": "Order of Saint Erigone"
+}

@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
-  "cycle": 21,
-  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
-  "event": "Warp Storm",
+  "cycle": 22,
+  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "event": "No event",
   "logistics_due": 24,
-  "next_faction": "Order of Saint Erigone",
+  "next_faction": "Iron Paladins",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -24,11 +24,11 @@
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions.",
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction."
   ],
-  "notes": "Bell-Ringa Cycle21 complete: Da Boot lost Delphi Fleet Battle10 to11, paid1 initiation Strength and suffered1 combat damage, ending2/5. Return to Daeira remains2/5 with action unused; no destruction, Delphi contested2 to2. Four Calydon fleets expanded to5/5; all five Ork actions spent. Pleuron restored4/4 and Defended until Bell-Ringa Cycle22 turn. Da Scar-Yard Major Military Academy begun1/5 inactive. Orks9 Supply/19 Manpower; IP26/50; Order14/54 unchanged. Warp Storm active; ordinary movement blocked. Order to act; Cycle21 remains open, next Logistics24.",
+  "notes": "Order won Aulis Fleet Battle23 to17; all three Paladin defenders3/5 to1/5, none destroyed. Third Refusal initiation4 to3. Return to Daeira expanded4/5, Delphi superiority4 to2. Second Erigone Ward created1/5; Refit Anchorage completed5/5. Cycle21 closed and storm expired. Cycle22 construction effect repairs new Ward to2/5; all actions reset. No Logistics, event check4 no event; ordinary movement available. IP26/50; Orks9/19; Order7/52. Aulis Order14 vs Paladins3. Pleuron remains Defended until Bell-Ringa Cycle22 turn. Iron Paladins to act; next Logistics24.",
   "phase_zero_resolved": true,
-  "event_check": 1,
-  "phase_zero_rolls": "Atreus_Cycle_21_Phase_0_Rolls.json",
+  "event_check": 4,
+  "phase_zero_rolls": "Atreus_Cycle_22_Phase_0_Rolls.json",
   "cycle_complete": false,
-  "event_roll": 1,
+  "event_roll": null,
   "rollover_policy": "After third Major turn: close Cycle, increment and reset actions; resolve constructions, scheduled Logistics, events; hand back to Iron Paladins."
 }
