@@ -11,7 +11,7 @@
     "Order of Saint Erigone"
   ],
   "opened": true,
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "rules_file": "Source_Rules_Playtest_2026-10-06.md",
   "rules_commit": "113ec69a6163d36fb2164b9b624d14d8889986e5",
   "setup_rolls": "Atreus_Setup_Rolls_2026-10-07.json",
@@ -22,7 +22,8 @@
     "2026-10-08: Uniform construction baseline restored: Minor 3 actions at 3 Supply; Major 5 actions at 5 Supply, for base and supported upgrades. Construction-specific discounts removed; trait modifiers remain in trait descriptions.",
     "2026-10-09: Minor Factions cannot hold Capitals. Perseia corrected to Major 8/8 without built-in yard; Lion Gate to Standard Station 4/4. Existing fleets retained; prize resources remain 70/70.",
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions.",
-    "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction."
+    "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction.",
+    "2026-10-13: Beneficial construction effects apply only to the controller and allies; offensive effects only to enemies. Existing effect scope and eligibility remain applicable. Defence Platforms support only friendly or allied defenders, never enemy defenders."
   ],
   "notes": "Order Cycle24 human victory on Hyria:8/8 to5/8, still Paladin-controlled; trapped withdrawal recorded narratively. IP28/53. Order moved two5/5 fleets to Aulis after battle, total20 Strength; created Causeway Oath1/5 Eleusis; Schoenus Anchorage2/3 inactive; final7/56. Orks16/19 unchanged. Cycle24 closed; House Copper Hawk recovered4/5 to5/5. Cycle25 Refit Anchorage restores Causeway Oath to2/5, all actions reset. No Logistics due until27. Event check4 no event. Castalia remains Defended until Bell-Ringa turn. Iron Paladins to act.",
   "phase_zero_resolved": true,

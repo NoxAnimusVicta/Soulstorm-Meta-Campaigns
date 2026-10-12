@@ -1,8 +1,8 @@
 # Campaign source library
 
-## Current source — 6 October 2026, amended 11 October 2026
+## Current source — 6 October 2026, amended 13 October 2026
 
-Use **Source_Rules_Playtest_2026-10-06.md** for new campaigns. The approved 9 October amendment requires Void Superiority for System Build/Upgrade and an operational friendly shipyard for Fleet Build/Upgrade. Fleet projects may travel suspended and resume at any eligible yard while remaining vulnerable to damage. The 11 October amendment removes all construction bonuses at destruction, including granted fleet capacity; surviving current Strength is capped at the reduced maximum. It consolidates the selected 6 October decision/recovery package. Use the accompanying campaign, commander, advisor and control-handover templates and Game Master guide; pin the edition and record campaign exceptions.
+Use **Source_Rules_Playtest_2026-10-06.md** for new campaigns. The approved 9 October amendment requires Void Superiority for System Build/Upgrade and an operational friendly shipyard for Fleet Build/Upgrade. Fleet projects may travel suspended and resume at any eligible yard while remaining vulnerable to damage. The 11 October amendment removes all construction bonuses at destruction, including granted fleet capacity; surviving current Strength is capped at the reduced maximum. The 13 October clarification restricts beneficial construction effects to the controller and allies, and offensive effects to enemies, within each effect's existing scope. It consolidates the selected 6 October decision/recovery package. Use the accompanying campaign, commander, advisor and control-handover templates and Game Master guide; pin the edition and record campaign exceptions.
 
 The selected sample improved the trait spread to 28 percentage points, still above the requested 25. This is a playtest release, not a declaration of final balance. Human Soulstorm results remain distinct from AI campaign rolls. Dessica remains suspended and unmigrated.
 

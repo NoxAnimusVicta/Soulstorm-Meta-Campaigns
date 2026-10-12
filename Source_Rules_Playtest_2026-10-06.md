@@ -172,7 +172,7 @@ For the attacking side use committed ground Strength; for the defending side use
 
 **Uncontested Bombardment:** no hostile fleet presence, 0 ordinary Manpower (Dread still charges both resources), damage max(1, floor(participating combat Strength/5)); Supply cost 2×tier+that damage, plus Dread. Mitigation applies and defence cannot fall below 1. No capture or battle roll. A surviving Mobile Capital is itself defending fleet presence and prevents uncontested bombardment.
 
-**Fleet Battle:** one initiation Strength point from one participating asset with more than 1 Strength. This expenditure does not damage attached constructions. Escort adds 3/6 to its side; defending system Defence Platforms add 5/10. Each side rolls 2d6 plus applicable strength/modifiers; a positive margin inflicts ceil(margin/3) damage on every participating losing fleet, without a damage cap. Ties inflict no combat damage; costs/actions remain spent. Destruction and attached construction damage apply normally. There is one Fleet Battle per initiating faction/system/turn; a guarded Structure Assault uses that allowance.
+**Fleet Battle:** one initiation Strength point from one participating asset with more than 1 Strength. This expenditure does not damage attached constructions. Escort adds 3/6 to its side; system Defence Platforms add 5/10 only when their controller or an ally is defending. Each side rolls 2d6 plus applicable strength/modifiers; a positive margin inflicts ceil(margin/3) damage on every participating losing fleet, without a damage cap. Ties inflict no combat damage; costs/actions remain spent. Destruction and attached construction damage apply normally. There is one Fleet Battle per initiating faction/system/turn; a guarded Structure Assault uses that allowance.
 
 **Structure Assault:** target one construction. If guarded, use Fleet Battle resolution, but an attacking win damages the construction only; attacker defeat damages participating attackers normally. An unguarded target costs 2 Supply plus Dread, no ordinary Manpower commitment, and suffers max(1, floor(combat Strength/5)) Integrity damage. There is no general Integrity floor. At 0 Integrity the target construction and its bonuses are lost, including Assault Cruiser/Flagship capacity. Movement/attack/withdrawal require separate actions unless an ability combines them.
 
@@ -193,6 +193,8 @@ Ordinary Minor starting Fleet Strength = ceil(sum of maximum defence of owned ho
 Each Minor's Supply and Manpower are separately 5 × sum(owned holding tiers), doubled for prize factions. These are shared derived values, not per-planet pools or persistent Major stockpiles. Defence damage alone does not reduce them. Minors take no turns, cannot build replacements, and lose no Major-style resource penalties. At Cycle end, each unattacked Minor holding recovers 1 defence, capped at maximum. An unengaged Minor faction restores 1 total Strength to an eligible surviving damaged fleet. Major holdings have no free ordinary recovery; they need Defend or an applicable construction.
 
 ## Construction costs, Integrity and capacity
+
+**Construction allegiance — clarified 13 October 2026:** Beneficial construction effects apply only to the controlling faction and its allies. Offensive construction effects apply only against enemies. Each effect still follows its listed host, range, timing and eligibility requirements; a fleet-attached or holding-specific benefit does not extend to unrelated assets. A Defence Platform grants its bonus only when its controller or an ally is defending a Fleet Battle in its system. It never assists an enemy defender. Shared Alignment alone does not override an explicit hostility exception: the Iron Paladins and Order of Saint Erigone remain enemies in Atreus.
 
 **Construction destruction — amended 11 October 2026:** At 0 Integrity a construction is destroyed and all bonuses supplied by it end immediately. Destruction of a host fleet destroys every attached construction and its bonuses. Assault Cruiser and Flagship capacity is not permanent: remove the destroyed construction's granted maximum Strength, then cap surviving current Strength at the reduced maximum. Apply actual attack or event damage once; removing capacity is not a second damage hit. Destroyed projects must be rebuilt, not repaired. This supersedes the former capacity-persistence exception.
 
@@ -278,15 +280,15 @@ The catalogue shows the baseline Supply cost per Build/Upgrade action. Minor pro
 
 | Construction | Supply per Build/Upgrade action | Base Effect | Upgraded Effect |
 |---|---:|---|---|
-| [Defence Platform] | 3 | +5 to defender roll in Fleet Battles | +10 to defender roll in Fleet Battles |
+| [Defence Platform] | 3 | +5 to the controller’s or an allied defender’s Fleet Battle roll | +10 to the controller’s or an allied defender’s Fleet Battle roll |
 
 *Major (5 actions base, 5 actions upgrade)*
 
 | Construction | Supply per Build/Upgrade action | Base Effect | Upgraded Effect |
 |---|---:|---|---|
 | [System Defence Station] | 5 | -1 strength to every hostile fleet in system each Cycle | -2 to every hostile fleet |
-| [System Repair Station] | 5 | +1 strength to every eligible allied fleet in system each Cycle | +2 to every eligible allied fleet |
-| [Logistics Anchorage] | 5 | +1 defence regen to unattacked planets/cycle | +2 defence regen to unattacked planets/cycle |
+| [System Repair Station] | 5 | +1 strength to every eligible friendly or allied fleet in system each Cycle | +2 to every eligible friendly or allied fleet |
+| [Logistics Anchorage] | 5 | +1 defence regen to eligible unattacked friendly or allied planets/cycle | +2 defence regen to eligible unattacked friendly or allied planets/cycle |
 | [Void Station] | 5 | 2/2 station, functions as Minor planet | Upgrade via Consolidation Works: Minor (2/2) → Standard (4/4) → Major (8/8). Eligible for Establish New Capital when the faction has no functioning Capital. |
 | [Storm Transit] | 5 | Major, 5 stages, no upgrade: protect eligible allied fleets in this system from storm damage and permit their departure during a Warp Storm. | No upgrade |
 

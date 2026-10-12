@@ -72,7 +72,7 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Capital|Da Bellworks — Calydon — 12/12|
 |Resources|16 Supply / 19 Manpower; neither deficit active|
 |Fleet|Da Gate-Krasha - Delphi - 4/5; Da Fist - Delphi - 4/5; Da Backhand - Delphi - 4/5; Da Grudge - Delphi - 4/5; Da Boot - Delphi - 1/5; all five actions unused in Cycle 25|
-|Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Da Jaw-Breaka destroyed during Triptolemos Planet Fall in Cycle 16; its +2 maximum capacity removed under the 11 October correction (maximum Strength now 5); Da Yard-Gunz (Minor System Defence Platform), Calydon, progress and Integrity 3/3; complete and active, +5 to defender Fleet Battle rolls in Calydon; Da Scar-Yard (Major Military Academy), Pleuron, progress and Integrity 3/5, unfinished and inactive; paused in Cycle 24; +7 Manpower per Logistics Cycle on completion; Castalia Anchorage (Minor Orbital Shipyard), Castalia, Delphi, progress and Integrity 3/3, captured and repaired; complete and operational|
+|Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Da Jaw-Breaka destroyed during Triptolemos Planet Fall in Cycle 16; its +2 maximum capacity removed under the 11 October correction (maximum Strength now 5); Da Yard-Gunz (Minor System Defence Platform), Calydon, progress and Integrity 3/3; complete and active, +5 to Bell-Ringa’s or an allied defender’s Fleet Battle roll in Calydon; Da Scar-Yard (Major Military Academy), Pleuron, progress and Integrity 3/5, unfinished and inactive; paused in Cycle 24; +7 Manpower per Logistics Cycle on completion; Castalia Anchorage (Minor Orbital Shipyard), Castalia, Delphi, progress and Integrity 3/3, captured and repaired; complete and operational|
 |Next Logistics if unchanged|22 Supply / 12 Manpower gross including upgraded Forge, trait and captured Castalia; 5/5 fleet upkeep; net +17 / +7|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
 
@@ -92,7 +92,7 @@ The Order’s convents and shrine network preserve hospitals, military stores an
 |Capital|Erigone — Eleusis — 12/12|
 |Resources|7 Supply / 56 Manpower; neither deficit active|
 |Fleet|The Third Refusal - Aulis - 2/5; The Returning Escort - Aulis - 3/5; The Unbroken Procession - Aulis - 3/5; The Oath at the Gate - Aulis - 2/5; The Return to Daeira - Aulis - 5/5; The Second Erigone Ward - Aulis - 5/5; The Causeway Oath - Eleusis - 2/5 after Phase 0 repair; all actions unused in Cycle 25; original Erigone Ward remains destroyed|
-|Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 5/5 and Integrity 5/5; complete and active, +7 Manpower per Logistics Cycle; Castalia Anchorage captured by Bell-Ringa in Cycle 24; The Breach Litany destroyed by Cycle 17 Warp Storm; no Ground Assault damage bonus; The Watch of Daeira (Minor System Defence Platform), Eleusis, progress and Integrity 3/3, complete and active; +5 to defender Fleet Battle roll in Eleusis; The Eleusis Refit Anchorage (Major System Repair Station), Eleusis, progress and Integrity 5/5, complete and active; restores 1 Strength to each eligible allied fleet in Eleusis per Cycle; Schoenus Anchorage (Minor Orbital Shipyard), Schoenus, Aulis, progress and Integrity 2/3, unfinished and inactive|
+|Constructions|Built-in Capital Orbital Shipyard; The Vigil of the Three Refusals, Major Military Academy on Erigone, progress 5/5 and Integrity 5/5; complete and active, +7 Manpower per Logistics Cycle; Castalia Anchorage captured by Bell-Ringa in Cycle 24; The Breach Litany destroyed by Cycle 17 Warp Storm; no Ground Assault damage bonus; The Watch of Daeira (Minor System Defence Platform), Eleusis, progress and Integrity 3/3, complete and active; +5 to the Order’s or an allied defender’s Fleet Battle roll in Eleusis; The Eleusis Refit Anchorage (Major System Repair Station), Eleusis, progress and Integrity 5/5, complete and active; restores 1 Strength to each eligible allied fleet in Eleusis per Cycle; Schoenus Anchorage (Minor Orbital Shipyard), Schoenus, Aulis, progress and Integrity 2/3, unfinished and inactive|
 |Next Logistics if unchanged|18 Supply / 19 Manpower gross including Academy, trait and Schoenus, after losing Castalia; 7/7 fleet upkeep; net +11 / +12|
 |Briefing|[briefing_canoness_althaia.md](briefing_canoness_althaia.md)|
 
@@ -561,11 +561,11 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and
 |WAAAGH! Bell-Ringa|Castalia Anchorage|Minor Orbital Shipyard / Castalia, Delphi|Progress 3/3; Integrity 3/3|Captured in Cycle 24; host damage reduced Integrity to1/3, then repaired to3/3 after Defend restored Castalia to2/2. Complete and operational. Friendly Orbital Shipyard available to Bell-Ringa in Delphi. Castalia ordinary construction slot occupied.|
 |Order of Saint Erigone|The Breach Litany|Minor Bombardment Bay / The Third Refusal, Eleusis|Destroyed; Integrity 0/3|Destroyed by Cycle 17 Warp Storm. No Ground Assault bonus; must be rebuilt, not repaired.|
 |Iron Paladins|The Grand Gene-Seed Vaults of Heraion|Upgraded Major Military Academy / Heraion, Argos|Upgrade progress 5/5; Integrity 10/10|Upgrade complete and active: +14 Manpower per Logistics Cycle at full upgraded Integrity, replacing base +7. No immediate payout. Heraion ordinary construction slot occupied.|
-|Order of Saint Erigone|The Watch of Daeira|Minor System Defence Platform / Eleusis|Progress 3/3; Integrity 3/3|Complete and active. Grants +5 to the defender’s Fleet Battle roll in Eleusis.|
+|Order of Saint Erigone|The Watch of Daeira|Minor System Defence Platform / Eleusis|Progress 3/3; Integrity 3/3|Complete and active. Grants +5 to the Order’s or an allied defender’s Fleet Battle roll in Eleusis.|
 
 |Order of Saint Erigone|The Eleusis Refit Anchorage|Major System Repair Station / Eleusis|Progress 5/5; Integrity 5/5|Complete and active. Restores 1 Strength to each eligible allied fleet in the system per Cycle.|
 
-|WAAAGH! Bell-Ringa|Da Yard-Gunz|Minor System Defence Platform / Calydon|Progress 3/3; Integrity 3/3|Complete and active. Grants +5 to the defender’s Fleet Battle roll in Calydon.|
+|WAAAGH! Bell-Ringa|Da Yard-Gunz|Minor System Defence Platform / Calydon|Progress 3/3; Integrity 3/3|Complete and active. Grants +5 to Bell-Ringa’s or an allied defender’s Fleet Battle roll in Calydon.|
 
 |Iron Paladins|Nemesis|Major Flagship / Crusade Fleet Anabasis, Argos|Progress 4/5; Integrity 3/5|Unfinished and inactive. On completion grants +5 current and maximum Fleet Strength while the construction survives. Tiryns shipyard is operational; Anabasis restored to full 5/5 before continuing construction.|
 
@@ -1457,7 +1457,7 @@ For the attacking side use committed ground Strength; for the defending side use
 
 **Uncontested Bombardment:** no hostile fleet presence, 0 ordinary Manpower (Dread still charges both resources), damage max(1, floor(participating combat Strength/5)); Supply cost 2×tier+that damage, plus Dread. Mitigation applies and defence cannot fall below 1. No capture or battle roll. A surviving Mobile Capital is itself defending fleet presence and prevents uncontested bombardment.
 
-**Fleet Battle:** one initiation Strength point from one participating asset with more than 1 Strength. This expenditure does not damage attached constructions. Escort adds 3/6 to its side; defending system Defence Platforms add 5/10. Each side rolls 2d6 plus applicable strength/modifiers; a positive margin inflicts ceil(margin/3) damage on every participating losing fleet, without a damage cap. Ties inflict no combat damage; costs/actions remain spent. Destruction and attached construction damage apply normally. There is one Fleet Battle per initiating faction/system/turn; a guarded Structure Assault uses that allowance.
+**Fleet Battle:** one initiation Strength point from one participating asset with more than 1 Strength. This expenditure does not damage attached constructions. Escort adds 3/6 to its side; system Defence Platforms add 5/10 only when their controller or an ally is defending. Each side rolls 2d6 plus applicable strength/modifiers; a positive margin inflicts ceil(margin/3) damage on every participating losing fleet, without a damage cap. Ties inflict no combat damage; costs/actions remain spent. Destruction and attached construction damage apply normally. There is one Fleet Battle per initiating faction/system/turn; a guarded Structure Assault uses that allowance.
 
 **Structure Assault:** target one construction. If guarded, use Fleet Battle resolution, but an attacking win damages the construction only; attacker defeat damages participating attackers normally. An unguarded target costs 2 Supply plus Dread, no ordinary Manpower commitment, and suffers max(1, floor(combat Strength/5)) Integrity damage. There is no general Integrity floor. At 0 Integrity the target construction and its bonuses are lost, including Assault Cruiser/Flagship capacity. Movement/attack/withdrawal require separate actions unless an ability combines them.
 
@@ -1478,6 +1478,8 @@ Ordinary Minor starting Fleet Strength = ceil(sum of maximum defence of owned ho
 Each Minor's Supply and Manpower are separately 5 × sum(owned holding tiers), doubled for prize factions. These are shared derived values, not per-planet pools or persistent Major stockpiles. Defence damage alone does not reduce them. Minors take no turns, cannot build replacements, and lose no Major-style resource penalties. At Cycle end, each unattacked Minor holding recovers 1 defence, capped at maximum. An unengaged Minor faction restores 1 total Strength to an eligible surviving damaged fleet. Major holdings have no free ordinary recovery; they need Defend or an applicable construction.
 
 ## Construction costs, Integrity and capacity
+
+**Construction allegiance — clarified 13 October 2026:** Beneficial construction effects apply only to the controlling faction and its allies. Offensive construction effects apply only against enemies. Each effect still follows its listed host, range, timing and eligibility requirements; a fleet-attached or holding-specific benefit does not extend to unrelated assets. A Defence Platform grants its bonus only when its controller or an ally is defending a Fleet Battle in its system. It never assists an enemy defender. Shared Alignment alone does not override an explicit hostility exception: the Iron Paladins and Order of Saint Erigone remain enemies in Atreus.
 
 **Construction destruction — amended 11 October 2026:** At 0 Integrity a construction is destroyed and all bonuses supplied by it end immediately. Destruction of a host fleet destroys every attached construction and its bonuses. Assault Cruiser and Flagship capacity is not permanent: remove the destroyed construction's granted maximum Strength, then cap surviving current Strength at the reduced maximum. Apply actual attack or event damage once; removing capacity is not a second damage hit. Destroyed projects must be rebuilt, not repaired. This supersedes the former capacity-persistence exception.
 
@@ -1563,15 +1565,15 @@ The catalogue shows the baseline Supply cost per Build/Upgrade action. Minor pro
 
 | Construction | Supply per Build/Upgrade action | Base Effect | Upgraded Effect |
 |---|---:|---|---|
-| [Defence Platform] | 3 | +5 to defender roll in Fleet Battles | +10 to defender roll in Fleet Battles |
+| [Defence Platform] | 3 | +5 to the controller’s or an allied defender’s Fleet Battle roll | +10 to the controller’s or an allied defender’s Fleet Battle roll |
 
 *Major (5 actions base, 5 actions upgrade)*
 
 | Construction | Supply per Build/Upgrade action | Base Effect | Upgraded Effect |
 |---|---:|---|---|
 | [System Defence Station] | 5 | -1 strength to every hostile fleet in system each Cycle | -2 to every hostile fleet |
-| [System Repair Station] | 5 | +1 strength to every eligible allied fleet in system each Cycle | +2 to every eligible allied fleet |
-| [Logistics Anchorage] | 5 | +1 defence regen to unattacked planets/cycle | +2 defence regen to unattacked planets/cycle |
+| [System Repair Station] | 5 | +1 strength to every eligible friendly or allied fleet in system each Cycle | +2 to every eligible friendly or allied fleet |
+| [Logistics Anchorage] | 5 | +1 defence regen to eligible unattacked friendly or allied planets/cycle | +2 defence regen to eligible unattacked friendly or allied planets/cycle |
 | [Void Station] | 5 | 2/2 station, functions as Minor planet | Upgrade via Consolidation Works: Minor (2/2) → Standard (4/4) → Major (8/8). Eligible for Establish New Capital when the faction has no functioning Capital. |
 | [Storm Transit] | 5 | Major, 5 stages, no upgrade: protect eligible allied fleets in this system from storm damage and permit their departure during a Warp Storm. | No upgrade |
 
