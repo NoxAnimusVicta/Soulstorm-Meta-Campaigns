@@ -1,17 +1,17 @@
 {
   "campaign": "Atreus",
   "cycle": 24,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
   "event": "No event",
   "logistics_due": 27,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
     "Order of Saint Erigone"
   ],
   "opened": true,
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "rules_file": "Source_Rules_Playtest_2026-10-06.md",
   "rules_commit": "113ec69a6163d36fb2164b9b624d14d8889986e5",
   "setup_rolls": "Atreus_Setup_Rolls_2026-10-07.json",
@@ -24,7 +24,7 @@
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions.",
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction."
   ],
-  "notes": "Order Cycle23 holds resolved; Schoenus defended2/2 until Order Cycle24 turn, new Schoenus Anchorage1/3 inactive. Order ended3/48. Cycle23 closed, Minor recovery applied, storm expired. Cycle24 Refit Anchorage repairs both Eleusis fleets to5/5; all actions reset. Logistics IP18/38+24/24-3/3=39/59; Orks4/16+21/11-5/5=20/22; Order3/48+19/20-6/6=16/62. Event check4 no event; ordinary movement available. Iron Paladins to act, next Logistics27.",
+  "notes": "Cycle24 Iron Paladins resolved: Exodos4/5 to5/5 and Vigilatius Secundus1/5 to3/5 at Tiryns for2 Supply/2 Manpower; Anabasis holds5/5. Create Battle Fleet Katabasis1/5 in Argos for1/1, cannot act this Cycle; replaces Reinforce. Continue Nemesis for5 Supply: Build progress3/5 to4/5, Integrity2/5 to3/5; inactive. Final IP31 Supply/56 Manpower, four fleets14 Strength in Argos, projected Logistics net20/20. No event, ordinary movement available; Cycle24 remains open, Bell-Ringa next. Other factions unchanged. Next Logistics27.",
   "phase_zero_resolved": true,
   "event_check": 4,
   "phase_zero_rolls": "Atreus_Cycle_24_Phase_0_Rolls.json",
