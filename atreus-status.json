@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
-  "cycle": 25,
-  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
-  "event": "No event",
+  "cycle": 26,
+  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "event": "Warp Storm",
   "logistics_due": 27,
-  "next_faction": "Order of Saint Erigone",
+  "next_faction": "Iron Paladins",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -25,11 +25,11 @@
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction.",
     "2026-10-13: Beneficial construction effects apply only to the controller and allies; offensive effects only to enemies. Existing effect scope and eligibility remain applicable. Defence Platforms support only friendly or allied defenders, never enemy defenders."
   ],
-  "notes": "Bell-Ringa Cycle25 complete. All five fleets expanded at operational Castalia Anchorage for5 Supply/5 Manpower: Gate-Krasha, Fist, Backhand, Grudge5/5 each; Boot3/5. All actions spent; total23 Strength in Delphi versus0 hostile. Reinforce+3 Supply; Scar-Yard continued for5 Supply to progress and Integrity4/5, inactive. Final Orks9 Supply/14 Manpower; IP18/48 and Order7/56 unchanged. Castalia Defended expired; remains2/2. Hyria Defended until Iron Paladins Cycle26 turn. Cycle25 open, Order next. No event; next Logistics27.",
+  "notes": "Order won human Hyria assault:8/8 to3/8, still Paladin-owned. IP15/43. Order expanded Causeway Oath2/5 to4/5, Reinforced, completed Schoenus Anchorage3/3; final3/53. Orks9/14. Cycle25 closed; Breakwater recovered2/5 to3/5. Cycle26 Refit repaired Causeway Oath4/5 to5/5, then Warp Storm check6/event1 reduced all living fleets by1; none destroyed. Nemesis Integrity3/5, progress5/5, inactive. Eleusis contested4 to4. All actions reset; Hyria Defended expires at IP turn start. Movement blocked, Logistics next27. Iron Paladins to act.",
   "phase_zero_resolved": true,
-  "event_check": 4,
-  "phase_zero_rolls": "Atreus_Cycle_25_Phase_0_Rolls.json",
+  "event_check": 6,
+  "phase_zero_rolls": "Atreus_Cycle_26_Phase_0_Rolls.json",
   "cycle_complete": false,
-  "event_roll": null,
+  "event_roll": 1,
   "rollover_policy": "After third Major turn: close Cycle, increment and reset actions; resolve constructions, scheduled Logistics, events; hand back to Iron Paladins."
 }

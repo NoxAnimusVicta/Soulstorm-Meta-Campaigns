@@ -1,0 +1,231 @@
+{
+  "campaign": "Atreus",
+  "cycle": 26,
+  "date": "2026-10-13",
+  "check": 6,
+  "event": 1,
+  "event_name": "Warp Storm",
+  "method": "Sequential independent PowerShell Get-Random d6 draws; no rerolls",
+  "minor_recovery": [
+    {
+      "fleet": "Perseia’s Breakwater",
+      "before": 2,
+      "after": 3
+    }
+  ],
+  "construction_repairs": [
+    {
+      "fleet": "The Causeway Oath",
+      "before": 4,
+      "after": 5,
+      "source": "The Eleusis Refit Anchorage"
+    }
+  ],
+  "enemy_excluded": "Exodos receives no Order repair",
+  "logistics_applied": false,
+  "logistics_due": 27,
+  "storm_fleets": [
+    {
+      "fleet": "Crusade Fleet Anabasis",
+      "owner": "Iron Paladins",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Vigilatius Secundus",
+      "owner": "Iron Paladins",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Battle Fleet Katabasis",
+      "owner": "Iron Paladins",
+      "before": 3,
+      "after": 2,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Causeway Oath",
+      "owner": "Order of Saint Erigone",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Battle Fleet Exodos",
+      "owner": "Iron Paladins",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Third Refusal",
+      "owner": "Order of Saint Erigone",
+      "before": 2,
+      "after": 1,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Returning Escort",
+      "owner": "Order of Saint Erigone",
+      "before": 3,
+      "after": 2,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Unbroken Procession",
+      "owner": "Order of Saint Erigone",
+      "before": 3,
+      "after": 2,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Oath at the Gate",
+      "owner": "Order of Saint Erigone",
+      "before": 2,
+      "after": 1,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Return to Daeira",
+      "owner": "Order of Saint Erigone",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Second Erigone Ward",
+      "owner": "Order of Saint Erigone",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Pleisthenes’ Oath",
+      "owner": "House Atreides",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Copper Hawk",
+      "owner": "House Atreides",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Perseia’s Breakwater",
+      "owner": "House Atreides",
+      "before": 3,
+      "after": 2,
+      "maximum": 5
+    },
+    {
+      "fleet": "Da Boot",
+      "owner": "WAAAGH! Bell-Ringa",
+      "before": 3,
+      "after": 2,
+      "maximum": 5
+    },
+    {
+      "fleet": "Da Gate-Krasha",
+      "owner": "WAAAGH! Bell-Ringa",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Da Fist",
+      "owner": "WAAAGH! Bell-Ringa",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Da Backhand",
+      "owner": "WAAAGH! Bell-Ringa",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "Da Grudge",
+      "owner": "WAAAGH! Bell-Ringa",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Granary Key",
+      "owner": "Nemean Estate Compact",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Ninth Sluice",
+      "owner": "Lerna Reclamation Directorate",
+      "before": 3,
+      "after": 2,
+      "maximum": 3
+    },
+    {
+      "fleet": "Da Pressure Drop",
+      "owner": "Rustjaw Mob",
+      "before": 2,
+      "after": 1,
+      "maximum": 2
+    },
+    {
+      "fleet": "A Place at the Hearth",
+      "owner": "Ithacan Assembly",
+      "before": 5,
+      "after": 4,
+      "maximum": 5
+    },
+    {
+      "fleet": "The Senior Warrant",
+      "owner": "Thessalian First Command",
+      "before": 3,
+      "after": 2,
+      "maximum": 3
+    },
+    {
+      "fleet": "The Unbroken Trace",
+      "owner": "Thessalian Remount Command",
+      "before": 2,
+      "after": 1,
+      "maximum": 2
+    }
+  ],
+  "construction_damage": [
+    {
+      "project": "Nemesis",
+      "before": 4,
+      "after": 3,
+      "progress": 5,
+      "active": false
+    }
+  ],
+  "destroyed_fleets": [],
+  "resources": {
+    "iron_paladins": [
+      15,
+      43
+    ],
+    "bell_ringa": [
+      9,
+      14
+    ],
+    "order": [
+      3,
+      53
+    ]
+  },
+  "movement": "Ordinary movement blocked",
+  "fleet_actions": "All reset",
+  "defended": "Hyria expires at start of Iron Paladins Cycle26 turn"
+}

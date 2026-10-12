@@ -1,0 +1,68 @@
+{
+  "campaign": "Atreus",
+  "cycle": 25,
+  "date": "2026-10-13",
+  "target": "Hyria",
+  "resolution": "Human Soulstorm",
+  "winner": "Order of Saint Erigone",
+  "reported_result": "Iron Paladins held valiantly but were pushed back by a force many times their size; Order victory.",
+  "attacker": {
+    "strength": 20,
+    "resources_before": [
+      7,
+      56
+    ],
+    "commitment": [
+      3,
+      4
+    ],
+    "post_commitment": [
+      4,
+      52
+    ],
+    "victory_manpower_return": 2,
+    "after_battle": [
+      4,
+      54
+    ]
+  },
+  "defender": {
+    "resources_before": [
+      18,
+      48
+    ],
+    "commitment": [
+      3,
+      5
+    ],
+    "after_battle": [
+      15,
+      43
+    ],
+    "defence_before": 8,
+    "defence_after": 3
+  },
+  "setup": {
+    "difficulty": "Standard2/5",
+    "player_formations": 1,
+    "enemy_deployed": 4,
+    "enemy_reserve": 1
+  },
+  "outcome": {
+    "damage": 5,
+    "capture": false,
+    "planet_fall": false,
+    "fleet_damage": 0,
+    "further_round_required": false,
+    "reason": "Player has no surviving formation or reserve after reported defeat."
+  },
+  "remaining_orders": {
+    "causeway_oath": "Expanded2/5 to4/5 for1 Supply/1 Manpower",
+    "reinforce": 3,
+    "schoenus_anchorage": "Completed2/3 to3/3 for3 Supply",
+    "order_final_resources": [
+      3,
+      53
+    ]
+  }
+}
