@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 25 - Iron Paladins turn complete; WAAAGH! Bell-Ringa to act**
+Created 7 October 2026 · Subsector playtest · **Cycle 25 - WAAAGH! Bell-Ringa turn complete; Order of Saint Erigone to act**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|25|Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders|No event (check: 4)|WAAAGH! Bell-Ringa|None|27|
+|25|WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders|No event (check: 4)|Order of Saint Erigone|None|27|
 
 ## Major faction registers
 
@@ -70,9 +70,9 @@ Bell-Ringa won his command by crushing his predecessor with a cathedral bell. Th
 |Trait|More Boyz Fer Da Fight — Martial Culture|
 |Exact effect|+4 Manpower each Logistics Cycle.|
 |Capital|Da Bellworks — Calydon — 12/12|
-|Resources|16 Supply / 19 Manpower; neither deficit active|
-|Fleet|Da Gate-Krasha - Delphi - 4/5; Da Fist - Delphi - 4/5; Da Backhand - Delphi - 4/5; Da Grudge - Delphi - 4/5; Da Boot - Delphi - 1/5; all five actions unused in Cycle 25|
-|Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Da Jaw-Breaka destroyed during Triptolemos Planet Fall in Cycle 16; its +2 maximum capacity removed under the 11 October correction (maximum Strength now 5); Da Yard-Gunz (Minor System Defence Platform), Calydon, progress and Integrity 3/3; complete and active, +5 to Bell-Ringa’s or an allied defender’s Fleet Battle roll in Calydon; Da Scar-Yard (Major Military Academy), Pleuron, progress and Integrity 3/5, unfinished and inactive; paused in Cycle 24; +7 Manpower per Logistics Cycle on completion; Castalia Anchorage (Minor Orbital Shipyard), Castalia, Delphi, progress and Integrity 3/3, captured and repaired; complete and operational|
+|Resources|9 Supply / 14 Manpower; neither deficit active|
+|Fleet|Da Gate-Krasha - Delphi - 5/5; Da Fist - Delphi - 5/5; Da Backhand - Delphi - 5/5; Da Grudge - Delphi - 5/5; Da Boot - Delphi - 3/5; all five actions spent expanding at Castalia Anchorage in Cycle 25|
+|Constructions|Built-in Capital Orbital Shipyard; Da Iron Gob, upgraded Major Forge Complex on Da Bellworks, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; Da Jaw-Breaka destroyed during Triptolemos Planet Fall in Cycle 16; its +2 maximum capacity removed under the 11 October correction (maximum Strength now 5); Da Yard-Gunz (Minor System Defence Platform), Calydon, progress and Integrity 3/3; complete and active, +5 to Bell-Ringa’s or an allied defender’s Fleet Battle roll in Calydon; Da Scar-Yard (Major Military Academy), Pleuron, progress and Integrity 4/5, unfinished and inactive; +7 Manpower per Logistics Cycle on completion; Castalia Anchorage (Minor Orbital Shipyard), Castalia, Delphi, progress and Integrity 3/3, captured and repaired; complete and operational|
 |Next Logistics if unchanged|22 Supply / 12 Manpower gross including upgraded Forge, trait and captured Castalia; 5/5 fleet upkeep; net +17 / +7|
 |Briefing|[briefing_warboss_bell_ringa.md](briefing_warboss_bell_ringa.md)|
 
@@ -289,9 +289,9 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Delphi
 
-**Void Superiority:** WAAAGH! Bell-Ringa 17 vs hostile fleets 0 - WAAAGH! Bell-Ringa superior; no hostile fleet present.
+**Void Superiority:** WAAAGH! Bell-Ringa 23 vs hostile fleets 0 - WAAAGH! Bell-Ringa superior; no hostile fleet present.
 
-Astropathic facilities, signal stations and archives whose messages no longer agree. Bell-Ringa captured Castalia and its orbital anchorage in Cycle 24 after the Sisters repelled his first assault. Ork mobs restored the captured defensive line and repaired the damaged shipyard. The Order retains Corycia, Pytho and Omphalos Relay, but has no fleet in Delphi. Bell-Ringa's five fleets hold Void Superiority with 17 Strength.
+Astropathic facilities, signal stations and archives whose messages no longer agree. Bell-Ringa captured Castalia and its orbital anchorage in Cycle 24 after the Sisters repelled his first assault. Ork mobs restored the captured defensive line and repaired the damaged shipyard. The Order retains Corycia, Pytho and Omphalos Relay, but has no fleet in Delphi. Bell-Ringa's five fleets expanded at the captured shipyard in Cycle 25 and hold Void Superiority with 23 Strength.
 
 Setup: d20 **17**; ownership authored separately.
 
@@ -305,18 +305,18 @@ Setup: d20 **17**; ownership authored separately.
 
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
-|Castalia|Minor Planet|WAAAGH! Bell-Ringa|2/2; Defended until Bell-Ringa Cycle 25 turn|1 Supply + 1 Manpower; operational Castalia Anchorage Orbital Shipyard|Bell-Ringa's mobs have driven the Sisters from the dry basin city's landing approaches and reservoir compounds. Orks occupy the cargo yards around the abandoned water-processing plant, reinforcing captured barricades and posting guns over the rock gullies. Above the world, Meks have repaired the captured anchorage and brought its shipyard back into service.|Arid spaceport or outlaw settlement; gullies, cargo cover and refinery ruins.|
+|Castalia|Minor Planet|WAAAGH! Bell-Ringa|2/2|1 Supply + 1 Manpower; operational Castalia Anchorage Orbital Shipyard|Bell-Ringa's mobs have driven the Sisters from the dry basin city's landing approaches and reservoir compounds. Orks occupy the cargo yards around the abandoned water-processing plant, reinforcing captured barricades and posting guns over the rock gullies. Above the world, Meks have repaired the captured anchorage and brought its shipyard back into service.|Arid spaceport or outlaw settlement; gullies, cargo cover and refinery ruins.|
 |Corycia|Minor Planet|Order of Saint Erigone|1/2|1 Supply + 1 Manpower|The Order of Saint Erigone holds Corycia's cavern archive entrances and the lift terminals above its mist-filled ravines. Sisters establish battered bridgeheads among the monastic service towns, securing paths to the sealed repositories. Damaged cable stations and breached positions mark the assault; Pytho has also fallen to the Order, ending the Delphic Custodians’ territorial resistance.|Mountain stronghold; ravines, bridges, tunnels or narrow rocky approaches.|
 |Pytho|Standard Planet|Order of Saint Erigone|1/4|2 Supply + 2 Manpower|A civilised world of signal towers, scribal districts and crowded transmission courts. The Order of Saint Erigone has taken the astropathic precinct and inner archives after overcoming the Custodians’ final resistance. Sisters hold the breached courtyards beneath damaged antenna towers; battered barricades and clerks’ tenements mark the route of the assault. The new garrison occupies defences still in need of restoration.|Dense Imperial city; plazas, administrative blocks and communications installations.|
 |Omphalos Relay|Minor Station|Order of Saint Erigone|1/2|1 Supply + 1 Manpower|An orbital relay station whose rotating habitation rings surround a hardened signal core. Sisters of the Order of Saint Erigone hold the breached transit hubs and message vaults, establishing a garrison amid damaged bulkheads and machinery. The Custodians’ fleet has been destroyed and their final holding at Pytho has fallen; the Order now controls every holding in Delphi.|Station interior; compact junctions, machinery chambers and enclosed service corridors.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
-|Da Boot|WAAAGH! Bell-Ringa|1/5|
-|Da Gate-Krasha|WAAAGH! Bell-Ringa|4/5|
-|Da Fist|WAAAGH! Bell-Ringa|4/5|
-|Da Backhand|WAAAGH! Bell-Ringa|4/5|
-|Da Grudge|WAAAGH! Bell-Ringa|4/5|
+|Da Boot|WAAAGH! Bell-Ringa|3/5|
+|Da Gate-Krasha|WAAAGH! Bell-Ringa|5/5|
+|Da Fist|WAAAGH! Bell-Ringa|5/5|
+|Da Backhand|WAAAGH! Bell-Ringa|5/5|
+|Da Grudge|WAAAGH! Bell-Ringa|5/5|
 
 
 
@@ -569,7 +569,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and
 
 |Iron Paladins|Nemesis|Major Flagship / Crusade Fleet Anabasis, Argos|Progress 5/5; Integrity 4/5|Unfinished and inactive. On completion grants +5 current and maximum Fleet Strength while the construction survives. Tiryns shipyard is operational; Anabasis restored to full 5/5 before continuing construction.|
 
-|WAAAGH! Bell-Ringa|Da Scar-Yard|Major Military Academy / Pleuron, Calydon|Progress 3/5; Integrity 3/5|Unfinished and inactive. On completion +7 Manpower per Logistics Cycle at full Integrity. Pleuron's ordinary construction slot occupied; host restored to full 4/4 before Build.|
+|WAAAGH! Bell-Ringa|Da Scar-Yard|Major Military Academy / Pleuron, Calydon|Progress 4/5; Integrity 4/5|Unfinished and inactive. On completion +7 Manpower per Logistics Cycle at full Integrity. Pleuron's ordinary construction slot occupied; host restored to full 4/4 before Build.|
 
 |Order of Saint Erigone|Schoenus Anchorage|Minor Orbital Shipyard / Schoenus, Aulis|Progress 2/3; Integrity 2/3|Unfinished and inactive. On completion enables eligible fleet creation and expansion. Schoenus ordinary construction slot occupied; full 2/2 host satisfies Build access.|
 
@@ -1056,6 +1056,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |25 / Iron Paladins / Faction|Defend Hyria.|3 Supply/3 Manpower:26/51 to23/48.|Defence5/8 to8/8; Defended until start of Iron Paladins Cycle26 turn.|Social|
 |25 / Iron Paladins / Social|No action.|None.|No change.|Construction|
 |25 / Iron Paladins / Construction|Continue Nemesis aboard Anabasis at Tiryns's operational shipyard.|5 Supply:23 to18.|Build progress4/5 to5/5; Integrity3/5 to4/5. Full5/5 host satisfies access. Previous storm damage leaves project unfinished and inactive; no Flagship bonus. Final18 Supply/48 Manpower. Cycle25 remains open.|WAAAGH! Bell-Ringa orders|
+
+|25 / WAAAGH! Bell-Ringa / Fleet|Expand all five fleets at operational Castalia Anchorage, Delphi.|5 Supply/5 Manpower:16/19 to11/14.|Gate-Krasha, Fist, Backhand and Grudge4/5 to5/5 each; Boot1/5 to3/5. All five actions spent; no assault or movement. Combined Strength23 against0 hostile Strength. Castalia Defended expired at start of this turn; defence remains2/2.|Faction Action|
+|25 / WAAAGH! Bell-Ringa / Faction|Reinforce.|+3 Supply:11 to14.|Manpower remains14.|Social|
+|25 / WAAAGH! Bell-Ringa / Social|No action ordered.|None.|No change.|Construction|
+|25 / WAAAGH! Bell-Ringa / Construction|Continue Da Scar-Yard, Major Military Academy on Pleuron.|5 Supply:14 to9.|Progress and Integrity3/5 to4/5; unfinished and inactive. Full4/4 host satisfies construction access. Final9 Supply/14 Manpower. Cycle25 remains open.|Order of Saint Erigone orders|
 
 ## Cycle Records
 

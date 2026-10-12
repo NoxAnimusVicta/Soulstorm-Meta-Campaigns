@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 25,
-  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
+  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "No event",
   "logistics_due": 27,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -25,7 +25,7 @@
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction.",
     "2026-10-13: Beneficial construction effects apply only to the controller and allies; offensive effects only to enemies. Existing effect scope and eligibility remain applicable. Defence Platforms support only friendly or allied defenders, never enemy defenders."
   ],
-  "notes": "Iron Paladins Cycle25 complete. Exodos5/5 moved Argos to Eleusis, Void Superiority5 to2; no battle. Vigilatius Secundus expanded3/5 to5/5 and Katabasis1/5 to3/5. Anabasis holds5/5 Argos. Hyria defended5/8 to8/8 until Iron Paladins Cycle26 turn. Nemesis Build progress5/5, Integrity4/5, unfinished and inactive due to prior storm damage. Final IP18 Supply/48 Manpower; other resources unchanged. Cycle25 remains open, Bell-Ringa next. No event; next Logistics27.",
+  "notes": "Bell-Ringa Cycle25 complete. All five fleets expanded at operational Castalia Anchorage for5 Supply/5 Manpower: Gate-Krasha, Fist, Backhand, Grudge5/5 each; Boot3/5. All actions spent; total23 Strength in Delphi versus0 hostile. Reinforce+3 Supply; Scar-Yard continued for5 Supply to progress and Integrity4/5, inactive. Final Orks9 Supply/14 Manpower; IP18/48 and Order7/56 unchanged. Castalia Defended expired; remains2/2. Hyria Defended until Iron Paladins Cycle26 turn. Cycle25 open, Order next. No event; next Logistics27.",
   "phase_zero_resolved": true,
   "event_check": 4,
   "phase_zero_rolls": "Atreus_Cycle_25_Phase_0_Rolls.json",
