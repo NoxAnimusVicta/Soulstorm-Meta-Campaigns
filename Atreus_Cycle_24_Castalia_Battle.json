@@ -1,0 +1,95 @@
+{
+  "campaign": "Atreus",
+  "cycle": 24,
+  "date": "2026-10-12",
+  "battle": "Ground Assault Castalia",
+  "resolution": "AI",
+  "random_method": "PowerShell Get-Random, two independent d20 draws in attacker/defender order; no rerolls",
+  "attacker": {
+    "faction": "WAAAGH! Bell-Ringa",
+    "strength": 17,
+    "starting_resources": {
+      "supply": 20,
+      "manpower": 22
+    },
+    "commitment": {
+      "supply": 1,
+      "manpower": 3
+    },
+    "post_commitment": {
+      "supply": 19,
+      "manpower": 19
+    },
+    "d20": 11,
+    "modifiers": {
+      "strength": 17,
+      "supply": 3,
+      "manpower": 3,
+      "other": 0
+    },
+    "total": 34,
+    "victory_manpower_return": 1
+  },
+  "defender": {
+    "faction": "Order of Saint Erigone",
+    "strength": 0,
+    "starting_resources": {
+      "supply": 16,
+      "manpower": 62
+    },
+    "commitment": {
+      "supply": 1,
+      "manpower": 2
+    },
+    "post_commitment": {
+      "supply": 15,
+      "manpower": 60
+    },
+    "d20": 13,
+    "modifiers": {
+      "strength": 0,
+      "supply": 3,
+      "manpower": 12,
+      "other": 0
+    },
+    "total": 28,
+    "isolated": false,
+    "planet_fall": {
+      "total_supply_loss": 2,
+      "additional_manpower_loss": 2,
+      "eligible_fleets": [],
+      "fleet_damage_applied": 0
+    },
+    "final_resources": {
+      "supply": 14,
+      "manpower": 58
+    }
+  },
+  "result": {
+    "winner": "WAAAGH! Bell-Ringa",
+    "potential_damage": 4,
+    "actual_host_damage": 2,
+    "capture_defence": 1,
+    "anchorage_integrity_after_capture": 1
+  },
+  "follow_up": {
+    "defend": {
+      "cost_supply": 1,
+      "cost_manpower": 1,
+      "defence": 2,
+      "expires": "Start of Bell-Ringa Cycle25"
+    },
+    "repair": {
+      "cost_supply": 2,
+      "anchorage_integrity": 3,
+      "operational": true
+    },
+    "scar_yard": "Paused at3/5 progress and Integrity",
+    "final_attacker_resources": {
+      "supply": 16,
+      "manpower": 19
+    },
+    "cycle_closed": false,
+    "next_faction": "Order of Saint Erigone"
+  }
+}

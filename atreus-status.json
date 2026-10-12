@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 24,
-  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
+  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
   "event": "No event",
   "logistics_due": 27,
-  "next_faction": "WAAAGH! Bell-Ringa",
+  "next_faction": "Order of Saint Erigone",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -24,7 +24,7 @@
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions.",
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction."
   ],
-  "notes": "Cycle24 Iron Paladins resolved: Exodos4/5 to5/5 and Vigilatius Secundus1/5 to3/5 at Tiryns for2 Supply/2 Manpower; Anabasis holds5/5. Create Battle Fleet Katabasis1/5 in Argos for1/1, cannot act this Cycle; replaces Reinforce. Continue Nemesis for5 Supply: Build progress3/5 to4/5, Integrity2/5 to3/5; inactive. Final IP31 Supply/56 Manpower, four fleets14 Strength in Argos, projected Logistics net20/20. No event, ordinary movement available; Cycle24 remains open, Bell-Ringa next. Other factions unchanged. Next Logistics27.",
+  "notes": "Cycle24 Bell-Ringa captured Castalia: AI34 to28, d20 rolls11 and13. Four4/5 fleets plus Boot1/5 commit17 Strength; all actions spent, strengths unchanged. Castalia captured1/2 then Defended2/2 until Bell-Ringa Cycle25. Anchorage damaged3/3 to1/3 then repaired3/3, now Ork operational yard. Scar-Yard paused3/5. Final Orks16 Supply/19 Manpower; Order14/58 after defence and Planet Fall; IP31/56 unchanged. No event. Cycle24 open, Order next; next Logistics27.",
   "phase_zero_resolved": true,
   "event_check": 4,
   "phase_zero_rolls": "Atreus_Cycle_24_Phase_0_Rolls.json",
