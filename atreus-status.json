@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
-  "cycle": 24,
-  "phase": "WAAAGH! Bell-Ringa turn complete; awaiting Order of Saint Erigone orders",
+  "cycle": 25,
+  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
   "event": "No event",
   "logistics_due": 27,
-  "next_faction": "Order of Saint Erigone",
+  "next_faction": "Iron Paladins",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -24,10 +24,10 @@
     "2026-10-09: System Build/Upgrade requires Void Superiority, not a shipyard. Fleet Build/Upgrade, creation and ordinary expansion retain shipyard requirements, with explicit ability exceptions.",
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction."
   ],
-  "notes": "Cycle24 Bell-Ringa captured Castalia: AI34 to28, d20 rolls11 and13. Four4/5 fleets plus Boot1/5 commit17 Strength; all actions spent, strengths unchanged. Castalia captured1/2 then Defended2/2 until Bell-Ringa Cycle25. Anchorage damaged3/3 to1/3 then repaired3/3, now Ork operational yard. Scar-Yard paused3/5. Final Orks16 Supply/19 Manpower; Order14/58 after defence and Planet Fall; IP31/56 unchanged. No event. Cycle24 open, Order next; next Logistics27.",
+  "notes": "Order Cycle24 human victory on Hyria:8/8 to5/8, still Paladin-controlled; trapped withdrawal recorded narratively. IP28/53. Order moved two5/5 fleets to Aulis after battle, total20 Strength; created Causeway Oath1/5 Eleusis; Schoenus Anchorage2/3 inactive; final7/56. Orks16/19 unchanged. Cycle24 closed; House Copper Hawk recovered4/5 to5/5. Cycle25 Refit Anchorage restores Causeway Oath to2/5, all actions reset. No Logistics due until27. Event check4 no event. Castalia remains Defended until Bell-Ringa turn. Iron Paladins to act.",
   "phase_zero_resolved": true,
   "event_check": 4,
-  "phase_zero_rolls": "Atreus_Cycle_24_Phase_0_Rolls.json",
+  "phase_zero_rolls": "Atreus_Cycle_25_Phase_0_Rolls.json",
   "cycle_complete": false,
   "event_roll": null,
   "rollover_policy": "After third Major turn: close Cycle, increment and reset actions; resolve constructions, scheduled Logistics, events; hand back to Iron Paladins."

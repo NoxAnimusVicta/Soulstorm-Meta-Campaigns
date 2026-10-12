@@ -1,0 +1,68 @@
+{
+  "campaign": "Atreus",
+  "cycle": 24,
+  "date": "2026-10-12",
+  "target": "Hyria",
+  "resolution": "Human Soulstorm result; no AI battle roll",
+  "reported_winner": "Order of Saint Erigone",
+  "player_report": "The Iron Paladins defended valiantly but fell back deeper into Hyria under overwhelming Sister numbers, leaving biological weapons and explosives in abandoned positions.",
+  "setup": {
+    "difficulty": "Standard 2/5",
+    "teams": {
+      "iron_paladins": 1,
+      "order": 3
+    },
+    "minimum_map_slots": 6
+  },
+  "attacker": {
+    "strength": 10,
+    "starting_resources": [
+      14,
+      58
+    ],
+    "commitment": [
+      3,
+      2
+    ],
+    "post_commitment": [
+      11,
+      56
+    ],
+    "victory_manpower_return": 1,
+    "after_battle": [
+      11,
+      57
+    ],
+    "fleets_unchanged": true
+  },
+  "defender": {
+    "starting_resources": [
+      31,
+      56
+    ],
+    "commitment": [
+      3,
+      3
+    ],
+    "after_battle": [
+      28,
+      53
+    ],
+    "defence_before": 8,
+    "defence_after": 5,
+    "retains_ownership": true
+  },
+  "damage": 3,
+  "capture": false,
+  "planet_fall": false,
+  "additional_narrative_damage": 0,
+  "later_orders": {
+    "movement": "Return to Daeira and Second Erigone Ward5/5 each Eleusis to Aulis after battle; actions spent",
+    "creation": "Causeway Oath1/5 Eleusis for1 Supply/1 Manpower",
+    "construction": "Schoenus Anchorage1/3 to2/3 for3 Supply",
+    "order_final_resources": [
+      7,
+      56
+    ]
+  }
+}

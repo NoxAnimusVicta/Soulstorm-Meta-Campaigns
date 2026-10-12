@@ -1,0 +1,44 @@
+{
+  "campaign": "Atreus",
+  "cycle": 25,
+  "date": "2026-10-12",
+  "check": 4,
+  "event": null,
+  "event_name": "No event",
+  "method": "One PowerShell Get-Random -Minimum 1 -Maximum 7; no reroll or event-table draw",
+  "minor_recovery": [
+    {
+      "fleet": "The Copper Hawk",
+      "before": 4,
+      "after": 5
+    }
+  ],
+  "minor_register_correction": "Summary reconciled to existing system fleet register; no recreated or extra fleets.",
+  "construction_repairs": [
+    {
+      "fleet": "The Causeway Oath",
+      "system": "Eleusis",
+      "before": 1,
+      "after": 2,
+      "source": "The Eleusis Refit Anchorage"
+    }
+  ],
+  "logistics_applied": false,
+  "logistics_due": 27,
+  "fleet_actions": "All reset including Katabasis and Causeway Oath",
+  "defended": "Castalia until start of Bell-Ringa Cycle25 turn; Schoenus expired at Order Cycle24 turn",
+  "resources": {
+    "iron_paladins": [
+      28,
+      53
+    ],
+    "bell_ringa": [
+      16,
+      19
+    ],
+    "order": [
+      7,
+      56
+    ]
+  }
+}
