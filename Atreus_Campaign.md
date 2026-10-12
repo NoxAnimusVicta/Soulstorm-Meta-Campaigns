@@ -1,6 +1,6 @@
 # The Atreus Campaign
 
-Created 7 October 2026 · Subsector playtest · **Cycle 25 - Phase 0 complete; Iron Paladins to act**
+Created 7 October 2026 · Subsector playtest · **Cycle 25 - Iron Paladins turn complete; WAAAGH! Bell-Ringa to act**
 
 Authoritative ledger: [Atreus_Campaign.md](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/Atreus_Campaign.md) · [Live campaign](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus.html) · [Status](https://noxanimusvicta.github.io/Soulstorm-Meta-Campaigns/atreus-status.json)
 
@@ -32,7 +32,7 @@ The Paladins’ loyalty is an established fact of the setting. Their supposed co
 
 |Cycle|Phase|Event|Next faction|Pending battle|Next Logistics|
 |---|---|---|---|---|---|
-|25|Phase 0 complete; awaiting Iron Paladins orders|No event (check: 4)|Iron Paladins|None|27|
+|25|Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders|No event (check: 4)|WAAAGH! Bell-Ringa|None|27|
 
 ## Major faction registers
 
@@ -50,9 +50,9 @@ The Iron Paladins descend from loyal Iron Warriors who rejected Perturabo. Their
 |Trait|The Iron Tithe — Efficient Logistics|
 |Exact effect|Reinforce grants 8 Supply; Muster grants 8 Manpower.|
 |Capital|Tiryns — Argos — 12/12|
-|Resources|28 Supply / 53 Manpower; neither deficit active|
-|Fleet|Crusade Fleet Anabasis - Argos - 5/5; Battle Fleet Exodos - Argos - 5/5; Vigilatius Secundus - Argos - 3/5; Battle Fleet Katabasis - Argos - 1/5; all actions unused in Cycle 25; original Vigilatius, The Emperor’s Judgement and The Emperor’s Shield remain destroyed|
-|Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; The Grand Gene-Seed Vaults of Heraion (upgraded Major Military Academy) on Heraion, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Manpower per Logistics Cycle, replacing base +7; Nemesis (Major Flagship), attached to Anabasis in Argos, progress 4/5 and Integrity 3/5 after continued construction, unfinished and inactive|
+|Resources|18 Supply / 48 Manpower; neither deficit active|
+|Fleet|Crusade Fleet Anabasis - Argos - 5/5, holding with action unused; Battle Fleet Exodos - Eleusis - 5/5, action spent moving; Vigilatius Secundus - Argos - 5/5 and Battle Fleet Katabasis - Argos - 3/5, actions spent expanding in Cycle 25; original Vigilatius, The Emperor’s Judgement and The Emperor’s Shield remain destroyed|
+|Constructions|Built-in Capital Orbital Shipyard; The Grand Forge of Iron (upgraded Major Forge Complex), Tiryns, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Supply per Logistics Cycle; The Grand Gene-Seed Vaults of Heraion (upgraded Major Military Academy) on Heraion, upgrade progress 5/5 and Integrity 10/10; upgrade complete and active, +14 Manpower per Logistics Cycle, replacing base +7; Nemesis (Major Flagship), attached to Anabasis in Argos, progress 5/5 and Integrity 4/5 after continued construction, unfinished and inactive pending restoration of construction Integrity|
 |Next Logistics if unchanged|24 Supply / 24 Manpower gross including upgraded Forge, upgraded Grand Gene-Seed Vaults and Hyria; 4/4 fleet upkeep; net +20 / +20|
 |Briefing|[briefing_first_paladin_menandros.md](briefing_first_paladin_menandros.md)|
 
@@ -145,7 +145,7 @@ All holdings start at full defence; none is Defended. All fleets are unengaged w
 
 ### Argos
 
-**Void Superiority:** Iron Paladins 14 vs hostile fleets 0 - Iron Paladins superior; no hostile fleet present.
+**Void Superiority:** Iron Paladins 13 vs hostile fleets 0 - Iron Paladins superior; no hostile fleet present.
 
 The Iron Paladins control Tiryns, Prosymna and newly captured Heraion, securing all holdings in Argos. The Argive Muster Council has lost its final holding and is eliminated.
 
@@ -164,9 +164,8 @@ Setup: fixed home/prize profile recorded above.
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
 |Crusade Fleet Anabasis|Iron Paladins|5/5|
-|Battle Fleet Exodos|Iron Paladins|5/5|
-|Vigilatius Secundus|Iron Paladins|3/5|
-|Battle Fleet Katabasis|Iron Paladins|1/5|
+|Vigilatius Secundus|Iron Paladins|5/5|
+|Battle Fleet Katabasis|Iron Paladins|3/5|
 
 
 
@@ -177,9 +176,9 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 ### Eleusis
 
-**Void Superiority:** Order of Saint Erigone 2 vs hostile fleets 0 - Order of Saint Erigone superior; no hostile fleet present.
+**Void Superiority:** Iron Paladins 5 vs Order of Saint Erigone 2 - Iron Paladins superior; hostile fleets present.
 
-The Order controls every holding in Eleusis after recapturing Daeira in Cycle 17. Bell-Ringa's three battered fleets withdrew to Calydon in Cycle 18. The Order has Void Superiority in Eleusis. The Eleusinian Synod has lost its final holding and is eliminated as an independent campaign faction.
+The Order controls every holding in Eleusis after recapturing Daeira in Cycle 17. Bell-Ringa's three battered fleets withdrew to Calydon in Cycle 18. Battle Fleet Exodos arrived from Argos in Cycle 25 and holds Void Superiority over The Causeway Oath; no battle accompanied its arrival. The Eleusinian Synod has lost its final holding and is eliminated as an independent campaign faction.
 
 Setup: fixed home/prize profile recorded above.
 
@@ -196,6 +195,7 @@ Setup: fixed home/prize profile recorded above.
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
 |The Causeway Oath|Order of Saint Erigone|2/5|
+|Battle Fleet Exodos|Iron Paladins|5/5|
 
 
 
@@ -232,7 +232,7 @@ Map themes describe terrain, not verified map-pack titles. Choose a thematically
 
 **Void Superiority:** Order of Saint Erigone 20 vs hostile fleets 0 - Order of Saint Erigone superior; no hostile fleet present.
 
-The Order captured Schoenus in Cycle 22 after overcoming the Iron Paladins' ground defence. The Paladins retain Hyria; all surviving Paladin fleets are in Argos. The Order breached Hyria's outer defensive line in Cycle 24, but the world remains Paladin-controlled. Two additional Order fleets arrived after the assault, bringing its force in Aulis to six fleets and 20 Strength. The former Aulis Anchorage Command remains eliminated.
+The Order captured Schoenus in Cycle 22 after overcoming the Iron Paladins' ground defence. The Paladins retain Hyria; their fleets are in Argos and Eleusis, with none in Aulis. The Order breached Hyria's outer defensive line in Cycle 24, but the world remains Paladin-controlled. Two additional Order fleets arrived after the assault, bringing its force in Aulis to six fleets and 20 Strength. The former Aulis Anchorage Command remains eliminated.
 
 Setup: d20 **5**; ownership authored separately.
 
@@ -243,7 +243,7 @@ Setup: d20 **5**; ownership authored separately.
 |Holding|Tier / type|Controller|Defence|Logistics / infrastructure|Description|Map theme|
 |---|---|---|---|---|---|
 |Schoenus|Minor Planet|Order of Saint Erigone|2/2|1 Supply + 1 Manpower|A coastal supply world of fuel farms, barracks and embarkation beaches. The Order has taken the cargo piers and pump stations after overcoming the Iron Paladins' defence. Retreating Squad Captains left explosive traps and biological weapons in their abandoned positions, inflicting costly losses on the advancing Sisters. The Order has rebuilt the defensive line around the causeways and landing compounds and placed the garrison on heightened watch. The hazards left by the withdrawal remain part of the occupation's burden. Work has begun on Schoenus Anchorage above the captured world.|Coastal military depot; low terrain, causeways and fuel-storage compounds.|
-|Hyria|Major Planet|Iron Paladins|5/8|3 Supply + 3 Manpower|A heavily developed naval support world whose cities grew around surface landing fields. The Order's superior numbers have forced the Iron Paladins back from their outer positions into deeper defensive lines. Retreating Paladins left biological weapons and explosive traps in the abandoned positions, repeating their withdrawal tactics on Schoenus. The Chapter still holds Hyria, but the fighting has breached part of the rebuilt defensive network around its repair sheds and Administratum blocks.|Spaceport or military-industrial city; hangars, long landing strips and a hardened central complex.|
+|Hyria|Major Planet|Iron Paladins|8/8; Defended until Iron Paladins Cycle 26 turn|3 Supply + 3 Manpower|A heavily developed naval support world whose cities grew around surface landing fields. The Order's superior numbers have forced the Iron Paladins back from their outer positions into deeper defensive lines. Retreating Paladins left biological weapons and explosive traps in the abandoned positions, repeating their withdrawal tactics on Schoenus. The Chapter has restored its defensive network around the repair sheds and Administratum blocks, reinforced its fallback positions and placed the garrison on heightened watch. Hyria remains under Paladin control.|Spaceport or military-industrial city; hangars, long landing strips and a hardened central complex.|
 
 |Fleet|Owner|Strength / original maximum|
 |---|---|---|
@@ -567,7 +567,7 @@ No purchased, unfinished or upgraded projects at setup. Tiryns, Da Bellworks and
 
 |WAAAGH! Bell-Ringa|Da Yard-Gunz|Minor System Defence Platform / Calydon|Progress 3/3; Integrity 3/3|Complete and active. Grants +5 to Bell-Ringa’s or an allied defender’s Fleet Battle roll in Calydon.|
 
-|Iron Paladins|Nemesis|Major Flagship / Crusade Fleet Anabasis, Argos|Progress 4/5; Integrity 3/5|Unfinished and inactive. On completion grants +5 current and maximum Fleet Strength while the construction survives. Tiryns shipyard is operational; Anabasis restored to full 5/5 before continuing construction.|
+|Iron Paladins|Nemesis|Major Flagship / Crusade Fleet Anabasis, Argos|Progress 5/5; Integrity 4/5|Unfinished and inactive. On completion grants +5 current and maximum Fleet Strength while the construction survives. Tiryns shipyard is operational; Anabasis restored to full 5/5 before continuing construction.|
 
 |WAAAGH! Bell-Ringa|Da Scar-Yard|Major Military Academy / Pleuron, Calydon|Progress 3/5; Integrity 3/5|Unfinished and inactive. On completion +7 Manpower per Logistics Cycle at full Integrity. Pleuron's ordinary construction slot occupied; host restored to full 4/4 before Build.|
 
@@ -1051,6 +1051,11 @@ The saved machine-readable roll record is [Atreus_Setup_Rolls_2026-10-07.json](A
 |25 / Phase 0 / Constructions|Periodic effects and Fleet Action reset.|None.|Eleusis Refit Anchorage restores Causeway Oath1/5 to2/5. Six Order fleets in Aulis receive no Eleusis repair. No other periodic damage, repair or Endurance; unfinished projects unchanged. All Fleet Actions reset, including Katabasis and Causeway Oath.|Logistics check|
 |25 / Phase 0 / Logistics|Not a Logistics Cycle.|None.|No income or upkeep charged; next Logistics27.|Events|
 |25 / Phase 0 / Events|Roll d6 once.|None.|Check4: no event; no event-table roll. Ordinary movement available. IP28/53, Orks16/19, Order7/56. [Opening audit](Atreus_Cycle_25_Phase_0_Rolls.json).|Iron Paladins orders|
+
+|25 / Iron Paladins / Fleet|Move Exodos from Argos to Eleusis; expand Vigilatius Secundus and Katabasis at Tiryns; Anabasis holds.|Expansions2 Supply/2 Manpower:28/53 to26/51; movement free.|Exodos5/5 in Eleusis, action spent; Void Superiority5 to2 against Causeway Oath. No battle. Vigilatius Secundus3/5 to5/5; Katabasis1/5 to3/5; both actions spent. Anabasis5/5 Argos, action unused. Argos total13 Strength.|Faction Action|
+|25 / Iron Paladins / Faction|Defend Hyria.|3 Supply/3 Manpower:26/51 to23/48.|Defence5/8 to8/8; Defended until start of Iron Paladins Cycle26 turn.|Social|
+|25 / Iron Paladins / Social|No action.|None.|No change.|Construction|
+|25 / Iron Paladins / Construction|Continue Nemesis aboard Anabasis at Tiryns's operational shipyard.|5 Supply:23 to18.|Build progress4/5 to5/5; Integrity3/5 to4/5. Full5/5 host satisfies access. Previous storm damage leaves project unfinished and inactive; no Flagship bonus. Final18 Supply/48 Manpower. Cycle25 remains open.|WAAAGH! Bell-Ringa orders|
 
 ## Cycle Records
 

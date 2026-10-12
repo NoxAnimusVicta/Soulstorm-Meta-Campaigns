@@ -1,10 +1,10 @@
 {
   "campaign": "Atreus",
   "cycle": 25,
-  "phase": "Phase 0 complete; awaiting Iron Paladins orders",
+  "phase": "Iron Paladins turn complete; awaiting WAAAGH! Bell-Ringa orders",
   "event": "No event",
   "logistics_due": 27,
-  "next_faction": "Iron Paladins",
+  "next_faction": "WAAAGH! Bell-Ringa",
   "turn_order": [
     "Iron Paladins",
     "WAAAGH! Bell-Ringa",
@@ -25,7 +25,7 @@
     "2026-10-11: At 0 Integrity constructions lose all bonuses; fleet destruction removes all attachments and their bonuses. Remove granted maximum Strength and cap current Strength without a second damage hit. Da Gate-Krasha corrected to 1/5 after Da Jaw-Breaka's destruction.",
     "2026-10-13: Beneficial construction effects apply only to the controller and allies; offensive effects only to enemies. Existing effect scope and eligibility remain applicable. Defence Platforms support only friendly or allied defenders, never enemy defenders."
   ],
-  "notes": "Order Cycle24 human victory on Hyria:8/8 to5/8, still Paladin-controlled; trapped withdrawal recorded narratively. IP28/53. Order moved two5/5 fleets to Aulis after battle, total20 Strength; created Causeway Oath1/5 Eleusis; Schoenus Anchorage2/3 inactive; final7/56. Orks16/19 unchanged. Cycle24 closed; House Copper Hawk recovered4/5 to5/5. Cycle25 Refit Anchorage restores Causeway Oath to2/5, all actions reset. No Logistics due until27. Event check4 no event. Castalia remains Defended until Bell-Ringa turn. Iron Paladins to act.",
+  "notes": "Iron Paladins Cycle25 complete. Exodos5/5 moved Argos to Eleusis, Void Superiority5 to2; no battle. Vigilatius Secundus expanded3/5 to5/5 and Katabasis1/5 to3/5. Anabasis holds5/5 Argos. Hyria defended5/8 to8/8 until Iron Paladins Cycle26 turn. Nemesis Build progress5/5, Integrity4/5, unfinished and inactive due to prior storm damage. Final IP18 Supply/48 Manpower; other resources unchanged. Cycle25 remains open, Bell-Ringa next. No event; next Logistics27.",
   "phase_zero_resolved": true,
   "event_check": 4,
   "phase_zero_rolls": "Atreus_Cycle_25_Phase_0_Rolls.json",
