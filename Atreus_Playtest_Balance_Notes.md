@@ -308,6 +308,20 @@ Consider a random event that reduces Authority according to the number of holdin
 
 **Decision:** Record for campaign-end assessment only. Active formulas, costs, resource balances and completed turns remain unchanged.
 
+### AT-BAL-016 — Supply and Manpower influence on Fleet Battles
+
+**Recorded:** 20 October 2026 (Australia/Sydney)  
+**Campaign Cycle:** 26, before Iron Paladins orders  
+**Status:** Proposal recorded for end-of-campaign review
+
+**Jake's proposal:** Supply and Manpower should contribute to Fleet Battle calculations, but have less influence than they do in Ground Battles.
+
+**Details to workshop:** The contribution of each resource, its scaling and any caps remain undecided. This proposal concerns their influence on battle calculations; it does not by itself specify additional resource expenditure.
+
+**Interactions for review:** Assess the effect alongside Fleet Strength, the 2d6 roll, construction bonuses and damage calculated from the winning margin. Judge relative influence rather than simply copying smaller Ground Assault modifiers, since the dice and damage systems differ. Review alongside economy traits (AT-BAL-001) and Manpower expenditure and surplus (AT-BAL-011).
+
+**Decision:** Record for combined campaign-end assessment only. No active Fleet Battle formula, costs, resources or completed results changed.
+
 ### Entry template
 
 **ID:** AT-BAL-NNN  
